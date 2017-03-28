@@ -72,7 +72,7 @@
 			            <a target="_blank" href="http://www.peerbox.me">
 			              <img src="assets/img/icons/social-peerbox.png" alt="Peerbox">
 			        </a>
-			            <a target="_blank" href="https://github.com/super3/Peercoin.net">
+			            <a target="_blank" href="https://github.com/peercoin">
 			              <img src="assets/img/icons/social-github.png" alt="Source code on GitHub">
 			        </a>
 			            <a target="_blank" href="https://www.transifex.com/projects/p/website-ppc">
