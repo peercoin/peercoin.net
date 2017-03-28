@@ -4,7 +4,7 @@ The static html files for [Peercoin.net](http://peercoin.net). The website is au
 
 
 ### Issues
-Content requests, bugs, etc. are all handled through [Github Issues](https://github.com/super3/Peercoin.net/issues). We will try to get to your issue as soon as possible.
+Content requests, bugs, etc. are all handled through [Github Issues](https://github.com/peercoin/peercoin.net/issues). We will try to get to your issue as soon as possible.
 
 ### Pull Requests
 If you have a simple change to the website, we ask that you put in a pull request instead of an issue. These include things like link changes, text errors, etc. We can add these to the live site just by accepting the pull, which makes everything easier. We are currently using [Tip4Commit](http://tip4commit.com/projects/222) and [Peer4Commit](http://peer4commit.com/projects/2) to reward commiters. Fluff commits will be rejected. 
@@ -37,7 +37,7 @@ The script(deploy.sh):
     #!/bin/bash
 
 	# Install - Only Run Once
-	# git clone https://github.com/super3/peercoin.net.git /var/www
+	# git clone https://github.com/peercoin/peercoin.net.git /var/www
 	
 	# Update
 	cd /var/www/
