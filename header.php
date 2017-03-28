@@ -100,7 +100,7 @@
                 <li><a target="_blank" href="https://www.peercoinexplorer.net/">Block Explorers</a></li>               
                 <li><a target="_blank" href="https://peer4commit.com">Peer4commit</a></li>
                 <li><a target="_blank" href="http://www.peerbox.me">Peerbox</a></li>
-                <li><a target="_blank" href="https://github.com/super3/Peercoin.net">GitHub</a></li>
+                <li><a target="_blank" href="https://github.com/peercoin">GitHub</a></li>
                 <li><a target="_blank" href="https://www.transifex.com/projects/p/website-ppc">Transifex</a></li>
                 <li><a target="_blank" href="https://wiki.peercointalk.org">Wiki</a></li>
               </ul>
