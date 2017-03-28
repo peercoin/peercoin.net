@@ -96,7 +96,7 @@
              <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("header.resources"); ?><b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a target="_blank" href="https://coinmarketcap.com/currencies/peercoin/#markets">Exchange</a></li>
+                <li><a target="_blank" href="https://coinmarketcap.com/currencies/peercoin/#markets">Exchanges</a></li>
                 <li><a target="_blank" href="https://www.peercoinexplorer.net/">Block Explorers</a></li>               
                 <li><a target="_blank" href="https://peer4commit.com">Peer4commit</a></li>
                 <li><a target="_blank" href="http://www.peerbox.me">Peerbox</a></li>
