@@ -244,8 +244,6 @@ $lang['de'] += array(
 	'wallet.paper_wallet_desc' => 'Eine Papier-Brieftasche wird zwecks sicherer Aufbewahrung auf ein Blatt Papier gedruckt und bleibt somit komplett offline. Verwenden Sie eine Papier-Brieftasche, wenn Sie den Zugriff auf Ihren Peercoins beschränken möchten und eine langfristige Lagerung planen.',
 	'wallet.android_wallet' => 'Android-Brieftasche',
 	'wallet.android_wallet_desc' => 'Eine mobile Peercoin-Brieftasche, die Ihnen das Verwalten Ihrer Peercoins auf einem Handy ermöglicht, ohne dass Sie die Blockkette in voller Größe bei sich tragen müssen. Es schont den wertvollen Speicherplatz auf Ihrem Android-Gerät und ermöglicht Ihnen, Ihre Münzen mitzunehmen, wo auch immer Sie sind.',
-	'wallet.bkchain_wallet' => 'Bkchain Wallet',
-	'wallet.bkchain_wallet_desc' => 'Bkchain is an online, client-side wallet. It allows you to access your peercoins with a web browser using an electrum-like 12 word seed.',
 	'wallet.download' => 'Herunterladen',
 	'wallet.visit_site' => 'Visit',
 );
