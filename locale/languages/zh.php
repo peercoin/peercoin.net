@@ -244,8 +244,6 @@ $lang['zh'] += array(
 	'wallet.paper_wallet_desc' => '纸钱包保持完全离线，通过打印在纸上从而进行安全的保管。如果你想限制存取你的电点币，并且计划把点点币存储很长时间的话，那就请使用纸钱包。',
 	'wallet.android_wallet' => '安卓手机钱包',
 	'wallet.android_wallet_desc' => '点点币移动钱包允许用户在其手机中无需下载完整的区块链就可以管理点点币。移动钱包节省用户安卓手机中珍贵的存储空间，可以是的用户在任何地方都可以携带自己的点点币。',
-	'wallet.bkchain_wallet' => 'Bkchain Wallet',
-	'wallet.bkchain_wallet_desc' => 'Bkchain is an online, client-side wallet. It allows you to access your peercoins with a web browser using an electrum-like 12 word seed.',
 	'wallet.download' => '下载',
 	'wallet.visit_site' => 'Visit',
 );
