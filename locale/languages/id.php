@@ -244,8 +244,6 @@ $lang['id'] += array(
 	'wallet.paper_wallet_desc' => 'Sebuah dompet kertas benar-benar tetap offline, dicetak di atas pada selembar kertas untuk diamankan. Gunakan dompet kertas jika Anda ingin membatasi akses ke Peercoins Anda, dan berencana untuk menyimpannya untuk jangka waktu yang panjang.',
 	'wallet.android_wallet' => 'Dompet Android',
 	'wallet.android_wallet_desc' => 'Sebuah Peercoin dompet ponsel yang memungkinkan untuk mengelola Peercoins Anda tanpa membawa seluruh blockchain di ponsel Anda. Ini menghemat ruang pada perangkat android dan memungkinkan Anda untuk mengambil koin, dimanapun Anda berada.',
-	'wallet.bkchain_wallet' => 'Bkchain Wallet',
-	'wallet.bkchain_wallet_desc' => 'Bkchain is an online, client-side wallet. It allows you to access your peercoins with a web browser using an electrum-like 12 word seed.',
 	'wallet.download' => 'Mengunduh',
 	'wallet.visit_site' => 'Visit',
 );
