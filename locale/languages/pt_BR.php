@@ -245,8 +245,6 @@ $lang['pt_BR'] += array(
 	'wallet.paper_wallet_desc' => 'Completamente offline, uma carteira em papel é impressa numa folha de papel para salvaguarda. Utilize-a quanto quer limitar o acesso às suas Peercoins e planeira guardá-las por um longo período de tempo.',
 	'wallet.android_wallet' => 'Carteira Android',
 	'wallet.android_wallet_desc' => 'Uma carteira Android permite gerir as suas Peercoins sem ter consigo a cadeia de blocos completa no seu telemóvel. Poupa assim espaço no seu dispositivo android e permite ter consigo as suas peercoins, esteja onde estiver.',
-	'wallet.bkchain_wallet' => 'Carteira Bkchain.',
-	'wallet.bkchain_wallet_desc' => 'Bkchain é uma carteira online, do tipo cliente. Permite aceder às suas peercoins através de um browser utilizado uma chave de 12 letras, semelhante à electrum.',
 	'wallet.download' => 'Descarregar',
 	'wallet.visit_site' => 'Visite',
 );
