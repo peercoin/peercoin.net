@@ -244,8 +244,6 @@ $lang['tl_PH'] += array(
 	'wallet.paper_wallet_desc' => 'Ang pitakang papel ay nananatiling ganap na offline, naka-print sa isang piraso ng papel para sa ligtas na pag-aalaga. Gumamit ng pitakang papel kung gusto mong limitahan ang paggamit sa iyong Peercoins, at planohing iimbak ang mga ito para sa isang mahabang tagal ng panahon. ',
 	'wallet.android_wallet' => 'Pitakang Android',
 	'wallet.android_wallet_desc' => 'Isang pitakang mobile Peercoin na nagbibigay-daan sa iyo para pamahalaan ang iyong mga Peercoins nang hindi nagdadala ng fullsized blockchain sa iyong teleponong selular. Nag-iingat ito ng mahalagang puwang sa iyong android device at nagbibigay-daan sa iyo upang dalhin ang iyong mga barya kasama mo,  nasaan ka man.',
-	'wallet.bkchain_wallet' => 'Bkchain Wallet',
-	'wallet.bkchain_wallet_desc' => 'Bkchain is an online, client-side wallet. It allows you to access your peercoins with a web browser using an electrum-like 12 word seed.',
 	'wallet.download' => 'Kopyahin',
 	'wallet.visit_site' => 'Visit',
 );

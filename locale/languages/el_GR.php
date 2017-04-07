@@ -244,8 +244,6 @@ $lang['el_GR'] += array(
 	'wallet.paper_wallet_desc' => 'Ένα χάρτινο πορτοφόλι παραμένει εντελώς offline, τυπωμένο πάνω σε ένα κομμάτι χαρτί και φυλάσσεται. Χρησιμοποιήστε ένα χάρτινο πορτοφόλι αν θέλετε να περιορίσετε την πρόσβαση στα Peercoins σας και σχεδιάζετε να τα αποθηκεύσετε για μεγάλο χρονικό διάστημα.',
 	'wallet.android_wallet' => 'Android Πορτοφόλι',
 	'wallet.android_wallet_desc' => 'Ένα mobile πορτοφόλι Peercoin που σας επιτρέπει να διαχειριστείτε τα Peercoins σας χωρίς να μεταφέρετε ολόκληρο το blockchain στο κινητό σας τηλέφωνο. Σας εξοικονομεί πολύτιμο χώρο στην Android συσκευή σας και σας επιτρέπει να έχετε τα κέρματα σας μαζί, όπου κι αν βρίσκεστε.',
-	'wallet.bkchain_wallet' => 'Bkchain Πορτοφόλι',
-	'wallet.bkchain_wallet_desc' => 'Το Bkchain είναι ένα online, client-side πορτοφόλι. Σας επιτρέπει να έχετε πρόσβαση στα peercoins σας με ένα web browser χρησιμοποιώντας ένα electrum-like κωδικό 12 λέξεων.',
 	'wallet.download' => 'Κατέβασμα',
 	'wallet.visit_site' => 'Επισκεφτείτε',
 );

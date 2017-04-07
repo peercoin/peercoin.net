@@ -244,8 +244,6 @@ $lang['ru'] += array(
 	'wallet.paper_wallet_desc' => 'Бумажный кошелек остается полностью оффлайн, напечатанным на листе бумаги для безопасного хранения. Используйте бумажный кошелек, если Вы хотите ограничить доступ к Вашим монетам и планируете хранить их в течение длительного периода времени. ',
 	'wallet.android_wallet' => 'Android Кошелек',
 	'wallet.android_wallet_desc' => 'Мобильный кошелек Peercoin, который позволяет Вам управлять Вашими монетами без переноски полноразмерных цепочек блоков на Вашем мобильном телефоне. Это экономит драгоценное пространство на вашем андроид-устройстве и позволяет Вам брать монеты с собой, где бы Вы ни были. ',
-	'wallet.bkchain_wallet' => 'Bkchain Wallet',
-	'wallet.bkchain_wallet_desc' => 'Bkchain is an online, client-side wallet. It allows you to access your peercoins with a web browser using an electrum-like 12 word seed.',
 	'wallet.download' => 'Скачать',
 	'wallet.visit_site' => 'Visit',
 );

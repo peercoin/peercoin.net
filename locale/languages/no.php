@@ -244,8 +244,6 @@ $lang['no'] += array(
 	'wallet.paper_wallet_desc' => 'En lommebok på papir forblir helt offline, skrevet ut på på et stykke papir for sikker lagring. Bruk en lommebok på papir hvis du ønsker å begrense tilgangen til dine peercoins, og planlegger å lagre dem over lengre tid.',
 	'wallet.android_wallet' => 'Lommebok for Android',
 	'wallet.android_wallet_desc' => 'En mobil Peercoin-lommebok som lar deg administrere dine peercoins uten å bære hele blokkjeden på mobiltelefonen. Dette sparer dyrebar plass på din Android-enhet, og lar deg ta med myntene dine uansett hvor du er.',
-	'wallet.bkchain_wallet' => 'Bkchain Wallet',
-	'wallet.bkchain_wallet_desc' => 'Bkchain is an online, client-side wallet. It allows you to access your peercoins with a web browser using an electrum-like 12 word seed.',
 	'wallet.download' => 'Last Ned',
 	'wallet.visit_site' => 'Visit',
 );

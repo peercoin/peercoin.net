@@ -57,20 +57,6 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-2">
-            <div class="tile text-center wallet-entry">
-                <img src="assets/img/logos/online-wallet.png" height="100px" width="100px" alt="" class="tile-image big-illustration">
-                <h3 class="tile-title"><?php echo $Locale->getText("wallet.bkchain_wallet"); ?></h3>
-                <p>
-                    <?php echo $Locale->getText("wallet.bkchain_wallet_desc"); ?>
-                </p>
-                <div>
-                    <a class="btn btn-primary btn-large btn-block" href="https://bkchain.org/ppc/wallet"><?php echo $Locale->getText("wallet.visit_site"); ?> bkchain.org</a>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 
 </div>

@@ -244,8 +244,6 @@ $lang['es'] += array(
 	'wallet.paper_wallet_desc' => 'Una cartera de papel queda completamente fuera de línea, impresa en un pedazo de papel para su custodia. Utilice una billetera de papel si desea limitar el acceso a sus Peercoins, y un plan para almacenarlos durante un largo periodo de tiempo.',
 	'wallet.android_wallet' => 'Cartera Android',
 	'wallet.android_wallet_desc' => 'Una billetera móvil Peercoin que te permite administrar tus Peercoins sin llevar la cadena de bloques de tamaño completo en su teléfono móvil. Conserva un valioso espacio en su dispositivo Android y le permite tomar sus monedas con usted, donde quiera que estés.',
-	'wallet.bkchain_wallet' => 'Bkchain Wallet',
-	'wallet.bkchain_wallet_desc' => 'Bkchain is an online, client-side wallet. It allows you to access your peercoins with a web browser using an electrum-like 12 word seed.',
 	'wallet.download' => 'Descarga',
 	'wallet.visit_site' => 'Visit',
 );

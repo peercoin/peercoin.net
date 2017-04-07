@@ -245,8 +245,6 @@ $lang['ar'] += array(
 	'wallet.paper_wallet_desc' => 'المحفظة الورقية لا تتصل بالشبكة أبدًا، تُطبع على الورق لتحفظ بمكانٍ آمن. استخدم محفظةً ورقية إن كنت تريد تأمين عملاتك وتنوي كنزَهم لفترة طويلة دون إنفاق.',
 	'wallet.android_wallet' => 'محفظة أندرُيد',
 	'wallet.android_wallet_desc' => 'تطبيق يمَكِّنُك من إدارة عملاتك بدون تحميل سلسلة الكتل بأكملها على هاتفك الذكي. يوفر هذا المساحة التخزينية لأجهزة أندرُيد ويتيح لك حمل عملاتك معك حيثما كنت. ',
-	'wallet.bkchain_wallet' => 'Bkchain Wallet',
-	'wallet.bkchain_wallet_desc' => 'Bkchain is an online, client-side wallet. It allows you to access your peercoins with a web browser using an electrum-like 12 word seed.',
 	'wallet.download' => 'حمِّل',
 	'wallet.visit_site' => 'Visit',
 );

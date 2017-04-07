@@ -246,8 +246,6 @@ $lang['fr'] += array(
 	'wallet.paper_wallet_desc' => 'Un portefeuille papier reste complètement hors ligne, imprimé sur une feuille de papier sous bonne garde. Utilisez un portefeuille papier si vous voulez limiter l\'accès à vos peercoins, et planifiez de les conserver pendant une longue période.',
 	'wallet.android_wallet' => 'Portefeuille Android',
 	'wallet.android_wallet_desc' => 'Un portefeuille Peercoin qui vous permet de gérer vos peercoins sur votre téléphone portable sans avoir besoin de l\'intégralité de la chaîne de blocs. Il économise de l\'espace sur votre appareil android et vous permet d\'emporter vos pièces avec vous, où que vous soyez.',
-	'wallet.bkchain_wallet' => 'Bkchain Wallet',
-	'wallet.bkchain_wallet_desc' => 'Bkchain is an online, client-side wallet. It allows you to access your peercoins with a web browser using an electrum-like 12 word seed.',
 	'wallet.download' => 'Télécharger',
 	'wallet.visit_site' => 'Visit',
 );
