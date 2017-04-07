@@ -246,8 +246,6 @@ $lang['hi_IN'] += array(
 	'wallet.paper_wallet_desc' => 'एक कागज़ी बटुआ पूरी तरह से ऑफ़लाइन रहता है | यह बटुए को सुरक्षित रखने के लिए कागज के एक टुकड़े पर छपा जाता है | आप अपने Peercoins तक पहुँच को सीमित करने के लिए, और एक लंबी समय के लिए उन्हें संचय करने के लिए काग़ज़ी बटुआ का उपयोग करें |',
 	'wallet.android_wallet' => 'एंड्रॉयड बटुआ',
 	'wallet.android_wallet_desc' => 'एक मोबाइल Peercoin बटुआ  सम्पूर्ण ब्लॉकश्रृंखला डाउनलोड किए बिना अपने Peercoins का प्रबंधन करने की सुविधा देता है | इससे आपके एंड्राइड यन्त्र के कीमती भण्डारण स्थान में बचत होती है और आप अपने साथ कहीं पर भी अपने Peercoins ले सकते हैं |',
-	'wallet.bkchain_wallet' => 'Bkchain Wallet',
-	'wallet.bkchain_wallet_desc' => 'Bkchain is an online, client-side wallet. It allows you to access your peercoins with a web browser using an electrum-like 12 word seed.',
 	'wallet.download' => 'डाउनलोड करें',
 	'wallet.visit_site' => 'Visit',
 );
