@@ -244,8 +244,6 @@ $lang['it'] += array(
 	'wallet.paper_wallet_desc' => 'Il portafoglio cartaceo rimane completamente offline, stampato su di un foglio di carta per maggiore sicurezza. Utilizza il portafoglio cartaceo se vuoi limitare l\'accesso ai tuoi Peercoins, e se intendi metterli da parte per un lungo periodo di tempo.',
 	'wallet.android_wallet' => 'Portafolgio per Android',
 	'wallet.android_wallet_desc' => 'Un portafoglio portatile Peercoin che permette di gestire i tuoi Peercoins senza trasportare una completa chiave a blocchi sul tuo cellulare. Esso conserva spazio prezioso sul tuo dispositivo android e ti permette di portare le tue monete con te, ovunque tu sia.',
-	'wallet.bkchain_wallet' => 'Bkchain Wallet',
-	'wallet.bkchain_wallet_desc' => 'Bkchain is an online, client-side wallet. It allows you to access your peercoins with a web browser using an electrum-like 12 word seed.',
 	'wallet.download' => 'Scarica',
 	'wallet.visit_site' => 'Visit',
 );
