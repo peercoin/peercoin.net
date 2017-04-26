@@ -4,13 +4,13 @@ $lang['fr'] += array(
 	//Developers
 	'developers.rapid_pace' => 'Le développement de Peercoin progresse à un rythme rapide.',
 	'developers.core_protocol' => 'Protocole de base',
-	'developers.core_protocol_desc' => 'La prochaine édition du portefeuille du protocole de base, la version 0.5, contiendra les fonctionnalités suivantes :',
+	'developers.core_protocol_desc' => 'Les prochaines éditions du portefeuille de protocole de base contiendront les fonctionnalités suivantes:',
 	'developers.cold_wallet_minting' => 'Portefeuille de Frappe de Monnaie à Froid',
-	'developers.cold_wallet_minting_desc' => 'Actuellement, afin de frapper de nouvelles pièces, les utilisateurs doivent garder un portefeuille connecté au réseau, ce que l\'on appelle un <strong>portefeuille à chaud</strong>. Les portefeuilles à chaud ont un plus grand risque de se faire dérober des pièces par un logiciel malveillant, car ils doivent rester connectés à internet pendant le processus de frappe de monnaie. Dans la prochaine version de Peercoin, des <strong>clés de frappe</strong> spéciales permettront aux utilisateurs de frapper la monnaie tout en gardant leurs clés de dépense entièrement hors ligne.',
+	'developers.cold_wallet_minting_desc' => 'Actuellement, afin de frapper de nouvelles pièces, les utilisateurs doivent garder un portefeuille connecté au réseau, ce que l\'on appelle un <strong>portefeuille à chaud</strong>. Les portefeuilles à chaud ont un plus grand risque de se faire dérober des pièces par un logiciel malveillant, car ils doivent rester connectés à internet pendant le processus de frappe de monnaie. Dans les prochaines version de Peercoin, des <strong>clés de frappe</strong> spéciales permettront aux utilisateurs de frapper la monnaie tout en gardant leurs clés de dépense entièrement hors ligne.',
 	'developers.optional_checkpointing' => 'Points de Contrôle Optionnels',
-	'developers.optional_checkpointing_desc' => 'Aujourd\'hui, le réseau utilise des points de contrôle centralisés pour se protéger des attaques. La nécessité de cette sécurité diminue lorsque le réseau grandit, donc la prochaine version rendra ces points de contrôle optionnels. Une version future désactivera les points de contrôle par défaut.',
+	'developers.optional_checkpointing_desc' => 'Aujourd\'hui, le réseau utilise des points de contrôle centralisés pour se protéger des attaques. La nécessité de cette sécurité diminue lorsque le réseau grandit, donc les prochaines version rendra ces points de contrôle optionnels. Une version future désactivera les points de contrôle par défaut.',
 	'developers.peercoin_ecosystem' => 'L\'écosystème Peercoin',
-	'developers.peer4commit' => 'Souhaitez-vous vous impliquer dans le développement de Peercoin <strong>et</strong> être rémunéré pour cela ? Saisissez votre chance ! <a href="http://peer4commit.com/">Peer4commit</a> propose une plate-forme centralisant les projets de développement. Vous pouvez :',
+	'developers.peer4commit' => 'Souhaitez-vous vous impliquer dans le développement de Peercoin <strong>et</strong> être rémunéré pour cela ? Saisissez votre chance ! <a href="https://peer4commit.com">Peer4commit</a> propose une plate-forme centralisant les projets de développement. Vous pouvez :',
 	'developers.peer4commit.1' => 'Choisissez un projet sur le site, participez à sa réalisation, et recevez des peercoins en récompense.',
 	'developers.peer4commit.2' => 'Choisissez un projet que vous voulez soutenir, et envoyez-lui votre contribution en peercoins.',
 	'developers.peer4commit.3' => 'Pensez à un nouveau projet, proposez-le, et recevez des dons pour son développement.',
@@ -22,6 +22,7 @@ $lang['fr'] += array(
 	'developers.peerbox_desc' => '<b>Peerbox</b> est un système d\'exploitation sécurisé pour la frappe de monnaie et l\'exploitation de noeuds Peercoin, et il est actuellement développé activement. Il se concentre sur des appareils peu coûteux, peu gourmands en énergie, tels que le Raspberry Pi, qui sont compatibles avec le but de Peercoin de fournir une crypto-monnaie économe en énergie.
 Si ASIC est un terme signifiant matériel dédié et énergétiquement efficace pour l\'extraction, alors Peerbox est l\'ASIC de la Preuve-de-Part.',
 	'developers.nubits_desc' => '<b>NuBits</b> est un projet à-être-dévoilé du créateur de Peershares, Jordan Lee. NuBits sera la première implémentation de Peershares. Il est destiné à résoudre le problème de volatilité des crypto-monnaies.',
+	'developers.devforums' => 'Trouvez d\'autres idées innovatrice sur nos <a href="https://talk.peercoin.net/c/projects"> forums </a> ou visiter le <a href="https://peercoin.chat"> chat < / A> pour discuter et partager les vôtres.',
 );
 $lang['fr'] += array(
 	//Exchanges
@@ -31,20 +32,18 @@ $lang['fr'] += array(
 	'exchanges.buy_sell_desc' => 'Les échanges commencent en plaçant un ordre d\'achat ou de vente. Créez un <b>Ordre d\'achat</b> pour demander une certaine quantité de peercoins pour un prix spécifique. Créez un <b>Ordre de vente</b> pour proposer des peercoins à la vente. Quand les prix de différents ordres se chevauchent, l\'échange est effectué automatiquement, et les comptes des deux parties sont crédités avec la monnaie échangée. Un <b>Ordre de marché</b> effectuera un échange immédiat au prix actuellement disponible.',
 	'exchanges.fees' => 'Frais',
 	'exchanges.fees_desc' => 'Chaque fois qu\'un échange a lieu, un petit pourcentage est pris par la bourse d\'échange pour faciliter la transaction. Ce sont les <b>Frais d\'Échange</b>. Certaines bourses facturent aussi des <b>Frais de Retrait</b> quand vous en retirez votre nouvelle monnaie.',
-	'exchanges.choosing' => 'Sélectionner une bourse d\'échange',
+	'exchanges.choosing' => '<b>Trouver un échange Peercoin en utilisant <a href="http://coinmarketcap.com/currencies/peercoin/#markets">CoinMarketCap</a></b>',
 	'exchanges.disclaimer' => 'Rappel : Assurez-vous de retirer vos peercoins de la bourse d\'échange après les avoir achetés. Conserver vos pièces dans votre propre portefeuille est plus sûr, et vous rend éligible à la récompense de 1&#37; de la frappe de peercoins.',
 	'exchanges.location' => 'Emplacement',
 	'exchanges.notes' => 'Notes',
 	'exchanges.visit' => 'Visiter',
 );
-
 $lang['fr'] += array(
 	'footer.links' => 'Liens',
 	'footer.tools' => 'Outils',
 	'footer.exchanges' => 'Échanges',
 	'footer.mining' => 'Minage',
-);
-$lang['fr'] += array(
+);$lang['fr'] += array(
 	// FAQ
 	'faq.yes' => 'Oui',
 	'faq.no' => 'Non',
@@ -65,8 +64,7 @@ $lang['fr'] += array(
 	'faq.q6_l2' => 'Le nombre de transactions (réduit la masse monétaire de 0.01 PPC par transaction)',
 	'faq.q6_l3' => 'La frappe de monnaie par Preuve de Part (augmente la masse monétaire à un taux pouvant atteindre 1&#37; par an)',
 	'faq.q6_ans2' => 'Grâce à l\'augmentation de la participation à la frappe de monnaie, le taux d\'inflation de Peercoin est constamment resté inférieur à 5&#37; pendant la première moitié de 2014. À la vitesse d\'adoption actuelle, ce taux va encore décliner avec le temps, faisant de Peercoin une monnaie moins inflationniste et plus durable que la plupart des crypto-monnaies.',
-);
-$lang['fr'] += array(
+);$lang['fr'] += array(
 	// Global
 	'homepage_title' => 'Peercoin - Crypto-monnaie Fiable & Durable.',
 
@@ -75,8 +73,7 @@ $lang['fr'] += array(
 
 	'website' => 'Site web',
 	'forum' => 'Forum',
-);
-$lang['fr'] += array(
+);$lang['fr'] += array(
 	// Header
 	'header.get_started' => 'Débuter',
 	'header.newcomers' => 'Nouveaux venus',
@@ -84,17 +81,16 @@ $lang['fr'] += array(
 	'header.merchants' => 'Marchands',
 	'header.miners' => 'Mineurs',
 	'header.developers' => 'Développeurs',
-	'header.resources' => 'Ressources',
+	'header.tutorials' => 'Tutoriels',
 	'header.learn' => 'Apprendre',
 	'header.frequently_asked_questions' => 'Questions Fréquemment Posées',
 	'header.peercoin_whitepaper' => 'Livre Blanc Peercoin',
 	'header.exchanges' => 'Échanges',
 	'header.mint_peercoins' => 'Frappe de Peercoins',
-
+	'header.mining-guide' => 'Minage',
 	'header.wallet' => 'Portefeuilles',
-
+	'header.resources' => 'Ressources',
 	'header.community' => 'Communauté',
-
 	'header.languages' => 'Langues',
 );
 $lang['fr'] += array(
@@ -107,13 +103,13 @@ $lang['fr'] += array(
 	'index.last_updated' => 'Dernière mise à jour :',
 	'index.last_updated_never' => 'jamais',
 	'index.why_peercoin_q' => 'Pourquoi <strong>Peercoin</strong> ?',
-	'index.why_peercoin_desc' => 'Peercoin cherche à être la crypto-monnaie la plus fiable au moindre coût, en récompensant tous les utilisateurs pour renforcer le réseau.',
+	'index.why_peercoin_desc' => 'Peercoin cherche à être la crypto-monnaie la plus fiable au moindre coût, récompensant tous les utilisateurs pour renforcer le réseau en leur donnant un retour annuel PPC de 1&#37; lors de la frappe.',
 	'index.built_to_last' => 'Construit <b>pour Durer</b>',
 	'index.built_to_last_desc' => 'La première monnaie Preuve-de-Part mondiale.',
 	'index.fair_distribution' => 'Distribution <b>Juste</b>',
 	'index.fair_distribution_desc' => 'Pas de pré-vente interne ou d\'extraction instantanée.',
-	'index.transparent_protocol' => 'Protocole <b>Transparent</b>',
-	'index.transparent_protocol_desc' => 'Le réseau est totalement open source.',
+	'index.transparent_protocol' => 'Stable et <b>Sécure</b>',
+	'index.transparent_protocol_desc' => 'Protége votre investissement depuis 2012.',
 	'index.energy_efficient' => '<b>Efficacité</b> Énergétique',
 	'index.energy_efficient_desc' => 'Frappez des Peercoins sur n\'importe quel appareil.',
 	'index.learn_more' => 'En savoir plus',
@@ -121,7 +117,7 @@ $lang['fr'] += array(
 	'index.newcomers' => 'Nouveaux venus',
 	'index.newcomers_desc' => 'Apprenez comment acheter, vendre, dépenser et conserver des peercoins.',
 	'index.investors' => 'Investisseurs',
-	'index.investors_desc' => 'La frappe génère une récompense de 1&#37; garantie.',
+	'index.investors_desc' => 'Un retour en PPC de 1&#37; annuel lors de la frappe.',
 	'index.merchants' => 'Marchands',
 	'index.merchants_desc' => 'Il est temps de réduire les frais de transaction.',
 	'index.miners' => 'Mineurs',
@@ -137,11 +133,11 @@ $lang['fr'] += array(
 	'investors.established_network' => 'Réseau Établi',
 	'investors.established_network_desc' => 'Peercoin a été lancé en 2012, ce qui en fait une des plus anciennes et plus fiables crypto-monnaies existantes.',
 	'investors.limited_supply' => 'Quantité Limitée',
-	'investors.limited_supply_desc' => 'Le taux d\'inflation annuel de Peercoin a été en moyenne inférieur à 5&#37; pendant l\'année 2014, et continue à diminuer. Voir <a href="http://peerchain.net/charts.html">peerchain.net</a> pour des données historiques détaillées.',
+	'investors.limited_supply_desc' => 'Le taux d\'inflation annuel de Peercoin a été en moyenne inférieur à 5&#37; pendant l\'année 2014, et continue à diminuer.',
 	'investors.efficient_security' => 'Sécurité Efficace',
 	'investors.efficient_security_desc' => 'Peercoin est la première monnaie preuve-de-part, ce qui signifie qu\'elle n\'a pas besoin de puissance de calcul massive pour sécuriser le réseau. Apprenez-en plus sur les fondamentaux en lisant le <a href="whitepaper">livre blanc Peercoin</a>.',
 	'investors.guaranteed_returns' => 'Retours Garantis',
-	'investors.guaranteed_returns_desc' => 'Après avoir été conservés pendant 30 jours, les peercoins ont la possibilité de gagner une récompense annualisée de 1&#37;. <a href="minting">Cliquez pour en savoir plus</a>.',
+	'investors.guaranteed_returns_desc' => 'Après avoir été conservés pendant 30 jours, les peercoins ont la possibilité de gagner une récompense annualisée de 1&#37;. <a href="minting">Cliquez pour en savoir plus</a> ou vous pouvez également commencer par l\'achat de Peercoin de l\'un des nombreux <a href="exchanges"> échanges</a>.',
 
 );
 $lang['fr'] += array(
@@ -153,6 +149,15 @@ $lang['fr'] += array(
 	'merchants.no_transaction_fees' => 'Réduisez les frais de transaction',
 	'merchants.no_transaction_fees_desc' => 'Pour effectuer un paiement, chaque client paye des frais de seulement 0.01 peercoin. En tant que marchand, vous ne payez absolument rien.',
 
+);$lang['fr'] += array(
+	'mineguide.title' => 'Suivez ces étapes pour commencer à miner du Peercoin !',
+	'mineguide.step1' => 'Installez le logiciel de portefeuille',
+	'mineguide.step1_desc' => 'Si vous ne l\'avez pas encore fait, téléchargez le <a href="wallet">portefeuille Peercoin</a>.',
+	'mineguide.step2' => 'Sélectionnez un pool de minage',
+	'mineguide.step2_poollist' => 'Pools dédiés au Peercoin :',
+	'mineguide.step2_multipoollist' => 'Pools multi-monnaies :',
+	'mineguide.step3' => 'Inscrivez-vous au pool',
+	'mineguide.step3_desc' => 'Suivez les instructions affichées sur  le site web du pool. Vous pouvez trouver une liste de pool <a href="https://wiki.peercointalk.org/index.php?title=List_of_services#Mining_Pools">ici</a>.',
 );
 $lang['fr'] += array(
 	// Mining
@@ -162,8 +167,7 @@ $lang['fr'] += array(
 	'mining.fair_distribution_desc' => 'L\'extraction par preuve-de-travail est utilisée pour la distribution des nouvelles pièces, alors que la sécurité du réseau est assurée entièrement par la frappe de monnaie par preuve-de-part. Ceci signifie que les vulnérabilités d\'extraction de Bitcoin comme le Mineur Égoïste n\'ont pas d\'impact sur la sécurité de Peercoin.',
 	'mining.sustainable_reward' => 'Récompense Durable',
 	'mining.sustainable_reward_desc' => 'La récompense pour l\'extraction d\'un bloc décline graduellement quand la puissance de calcul du réseau augmente. Avec le temps, l\'extraction aura un rôle en constante diminution sur la croissance de la masse monétaire.',
-);
-$lang['fr'] += array(
+);$lang['fr'] += array(
 	'mintguide.title' => 'Suivez le guide correspondant à votre client Peercoin pour commencer à frapper la monnaie !',
 	'mintguide.qt_step1' => 'Assurez-vous que votre portefeuille est crypté avec une bonne phrase de passe. Écrivez-la quelque part et gardez-la en lieu sûr; si vous oubliez la phrase de passe vous perdrez vos pièces. L\'option de cryptage du portefeuille se trouve dans le menu des réglages du programme portefeuille Peercoin-Qt.',
 	'mintguide.qt_step2' => 'Pour commencer à frapper la monnaie allez dans aide -> fenêtre de débogage -> console et entrez :
@@ -177,16 +181,6 @@ $lang['fr'] += array(
 
 );
 $lang['fr'] += array(
-	'mineguide.title' => 'Suivez ces étapes pour commencer à miner du Peercoin !',
-	'mineguide.step1' => 'Installez le logiciel de portefeuille',
-	'mineguide.step1_desc' => 'Si vous ne l\'avez pas encore fait, téléchargez le <a href="wallet">portefeuille Peercoin</a>.',
-	'mineguide.step2' => 'Sélectionnez un pool de minage',
-	'mineguide.step2_poollist' => 'Pools dédiés au Peercoin :',
-	'mineguide.step2_multipoollist' => 'Pools multi-monnaies :',
-	'mineguide.step3' => 'Inscrivez-vous au pool',
-	'mineguide.step3_desc' => 'Suivez les instructions affichées sur  le site web du pool',
-);
-$lang['fr'] += array(
 	// minting
 	'minting.mint_anywhere' => 'Frapper la monnaie n\'importe où',
 	'minting.mint_anywhere_desc' => 'L\'extraction de la plupart des crypto-monnaies nécessite du matériel spécialisé, mais la frappe de monnaie de Peercoin peut être réalisée sur n\'importe quel ordinateur. La frappe de monnaie est énergétiquement efficace, car elle est basée sur les peercoins que vous détenez, plutôt que sur votre puissance de calcul.',
@@ -195,8 +189,7 @@ $lang['fr'] += array(
 	'minting.earn_reward' => 'Gagner une Récompense',
 	'minting.earn_reward_desc' => 'Frapper la monnaie vous permet de gagner 1&#37; annuellement. Les pièces sont éligible à la frappe de monnaie 30 jours après avoir été transférées, et après 90 jours, leur chance de succès est maximale. Si vous frappez souvent, vos gains se composeront !',
 
-);
-$lang['fr'] += array(
+);$lang['fr'] += array(
 	//Newcomers
 	'newcomers.getting_started' => 'Débuter avec Peercoin',
 	'newcomers.downlaod_wallet' => 'Télécharger un logiciel portefeuille',
@@ -208,8 +201,7 @@ $lang['fr'] += array(
 	'newcomers.learn_more' => 'En savoir plus',
 	'newcomers.learn_more_desc' => 'Maintenant que vous avez vos pièces dans votre portefeuille, il est temps d\'apprendre comment faire fructifier votre investissement avec <a href="minting">la frappe de peercoins</a>.',
 
-);
-$lang['fr'] += array(
+);$lang['fr'] += array(
 	'pig.title' => 'Utilisez les étapes suivantes pour accepter les peercoins sur votre site web :',
 	'pig.step1' => 'Utilisez l\'onglet Porte-monnaie en vrac sur <a href="http://wallet.peercointalk.org">wallet.peercointalk.org</a> pour pré-générer un grand nombre d\'adresses Peercoin. Copiez et collez la liste de valeurs séparées par des virgules (CSV) générée dans un fichier texte sécurisé sur votre ordinateur. Faites une sauvegarde du fichier et mettez-la dans un endroit sûr.',
 	'pig.step2' => 'Importez les adresses publiques Peercoin dans une table de la base de données de votre serveur web. N\'importez pas les clés privées, mais gardez-les plutôt hors ligne afin de les protéger des pirates.',
@@ -227,14 +219,7 @@ $lang['fr'] += array(
 	'waldownload.signatures' => 'Signatures',
 	'waldownload.qt_title' => 'Peercoin-QT',
 	'waldownload.peerunity_title' => 'Peerunity',	
-);
-$lang['fr'] += array(
-	//Whitepaper
-	'whitepaper.download_pdf' => 'Télécharger PDF',
-	'whitepaper.software' => 'Les livres blancs sont disponibles au format Portable Document Format (PDF). Veuillez utiliser votre <a href="http://pdfreaders.org/">logiciel</a> préféré pour les lire.',
-
-);
-$lang['fr'] += array(
+);$lang['fr'] += array(
 	// Wallet
 	'wallet.title' => 'Portefeuilles',
 	'wallet.desc' => 'Un portefeuille Peercoin est une application utilisée pour conserver des peercoins et en transférer aux autres utilisateurs. Peercoin a deux portefeuilles pour les ordinateurs de bureau : Peerunity et Peercoin-QT. Nous recommandons Peerunity pour la plupart des utilisateurs. Pour plus d\'informations sur comment utiliser votre logiciel portefeuille, visitez la <a href="newcomers">page Nouveaux venus</a>.',
@@ -247,5 +232,11 @@ $lang['fr'] += array(
 	'wallet.android_wallet' => 'Portefeuille Android',
 	'wallet.android_wallet_desc' => 'Un portefeuille Peercoin qui vous permet de gérer vos peercoins sur votre téléphone portable sans avoir besoin de l\'intégralité de la chaîne de blocs. Il économise de l\'espace sur votre appareil android et vous permet d\'emporter vos pièces avec vous, où que vous soyez.',
 	'wallet.download' => 'Télécharger',
-	'wallet.visit_site' => 'Visit',
+	'wallet.visit_site' => 'Visiter',
+);
+$lang['fr'] += array(
+	//Whitepaper
+	'whitepaper.download_pdf' => 'Télécharger PDF',
+	'whitepaper.software' => 'Les livres blancs sont disponibles au format Portable Document Format (PDF). Veuillez utiliser votre <a href="http://pdfreaders.org/">logiciel</a> préféré pour les lire.',
+
 );
