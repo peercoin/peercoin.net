@@ -13,6 +13,7 @@ $locale_languages = array(
 	'hi_IN'	=>  'हिन्दी',
 	'it'    =>  'Italiano',
 	'no'	=>  'Norsk',
+	'ro'    =>  'Română',
 	'ru'    =>  'Русский',
 	'tl_PH' =>  'Tagalog (Philippines)',
 );
