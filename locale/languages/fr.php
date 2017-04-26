@@ -22,7 +22,7 @@ $lang['fr'] += array(
 	'developers.peerbox_desc' => '<b>Peerbox</b> est un système d\'exploitation sécurisé pour la frappe de monnaie et l\'exploitation de noeuds Peercoin, et il est actuellement développé activement. Il se concentre sur des appareils peu coûteux, peu gourmands en énergie, tels que le Raspberry Pi, qui sont compatibles avec le but de Peercoin de fournir une crypto-monnaie économe en énergie.
 Si ASIC est un terme signifiant matériel dédié et énergétiquement efficace pour l\'extraction, alors Peerbox est l\'ASIC de la Preuve-de-Part.',
 	'developers.nubits_desc' => '<b>NuBits</b> est un projet à-être-dévoilé du créateur de Peershares, Jordan Lee. NuBits sera la première implémentation de Peershares. Il est destiné à résoudre le problème de volatilité des crypto-monnaies.',
-	'developers.devforums' => 'Trouvez d\'autres idées innovatrice sur nos <a href="https://talk.peercoin.net/c/projects"> forums </a> ou visiter le <a href="https://peercoin.chat"> chat < / A> pour discuter et partager les vôtres.',
+	'developers.devforums' => 'Trouvez d\'autres idées innovatrice sur nos <a href="https://talk.peercoin.net/c/projects"> forums </a> ou visiter le <a href="https://peercoin.chat"> chat </a> pour discuter et partager les vôtres.',
 );
 $lang['fr'] += array(
 	//Exchanges
