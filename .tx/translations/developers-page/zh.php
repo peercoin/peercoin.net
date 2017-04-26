@@ -1,0 +1,23 @@
+$lang['en'] += array(
+	//Developers
+	'developers.rapid_pace' => '点点币的开发正快速推进。',
+	'developers.core_protocol' => '核心协议',
+	'developers.core_protocol_desc' => 'Upcoming editions of the core protocol wallet will contain the following features:',
+	'developers.cold_wallet_minting' => '冷钱包挖矿',
+	'developers.cold_wallet_minting_desc' => 'Currently, in order to mint new coins, users must keep a wallet connected to the network, which is known as a <strong>hot wallet</strong>. Hot wallets are at a greater risk of malware stealing their coins, because they must remain connected to the internet during the minting process. In upcoming versions of Peercoin, special <strong>minting keys</strong> will allow users to mint while keeping their spending keys entirely offline.',
+	'developers.optional_checkpointing' => '检查点可选',
+	'developers.optional_checkpointing_desc' => 'Today, the network uses centralized checkpointing to protect against attacks. The need for this security decreases as the network grows, upcoming versions will make these checkpoints optional. A future version will turn off checkpoints by default.',
+	'developers.peercoin_ecosystem' => '点点币生态系统',
+	'developers.peer4commit' => 'Would you like to get involved in Peercoin development <strong>and</strong> get paid for it? Here’s your chance! <a href="https://peer4commit.com">Peer4commit</a> provides a central hub for development. You can:',
+	'developers.peer4commit.1' => '在网站上选择一个项目，对其进行开发工作，然后就可以得到点点币的报酬。',
+	'developers.peer4commit.2' => '选择一个你愿意支持的项目，然后对这个项目给予点点币捐赠。',
+	'developers.peer4commit.3' => '想一个新的项目，然后提交，从而随着开发的进行获取项目开发的捐赠。',
+	'developers.what_are_you_waiting_for' => '好了，您还在等什么呢？',
+	'developers.get_started' => 'Get started with Peer4commit',
+	'developers.notable_community_projects' => '目前社区的项目',
+	'developers.peerunity_desc' => '<b>Peerunity</b>是一个由点点币社区所维护和开发的钱包软件，它相对于官方钱包来说包含许多额外的功能，比如币的控制以及一键挖矿。今后的版本将会包括一个重新设计的主题界面，点点股的集成以及一个挖矿页面。',
+	'developers.peershares_desc' => '<b>点点股</b>是一种用于商业筹资的便宜去中心化的账本，它可追踪股份的所有者并可以自动为股东分红。每一个商业实体可以使用点点股，他们都拥有独立的区块链，并且可以方便、安全的利用点点币的股权证明机制来进行网络安全维护。',
+	'developers.peerbox_desc' => '<b>Peerbox</b>是一个用于运行点点币节点和挖矿的安全操作系统，目前正在活跃地开发之中。Peerbox侧重于便宜、节能的设备，比如树莓派，这种理念与点点币提供节能高效的加密学货币的初衷是一致的。如果ASIC是节能挖矿的代名词的话，那么Peerbox就是股权证明的ASIC。',
+	'developers.nubits_desc' => '<b>NuBits</b> is a project by the creator of Peershares, Jordan Lee. NuBits is the first implementation of Peershares. It is intended to solve the problem of volatility in cryptocurrencies.',
+	'developers.devforums' => 'Find other innovative ideas on our <a href="https://talk.peercoin.net/c/projects">forums</a> or join the <a href="https://peercoin.chat">chat</a> to discuss and share your own.',
+);

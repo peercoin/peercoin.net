@@ -1,0 +1,23 @@
+$lang['en'] += array(
+	//Developers
+	'developers.rapid_pace' => 'Развитие peercoin продвигается быстрыми темпами.',
+	'developers.core_protocol' => 'Основной протокол',
+	'developers.core_protocol_desc' => 'Upcoming editions of the core protocol wallet will contain the following features:',
+	'developers.cold_wallet_minting' => 'Создание монет с оффлайновым кошельком',
+	'developers.cold_wallet_minting_desc' => 'Currently, in order to mint new coins, users must keep a wallet connected to the network, which is known as a <strong>hot wallet</strong>. Hot wallets are at a greater risk of malware stealing their coins, because they must remain connected to the internet during the minting process. In upcoming versions of Peercoin, special <strong>minting keys</strong> will allow users to mint while keeping their spending keys entirely offline.',
+	'developers.optional_checkpointing' => 'Создание контрольных точек на свое усмотрение',
+	'developers.optional_checkpointing_desc' => 'Today, the network uses centralized checkpointing to protect against attacks. The need for this security decreases as the network grows, upcoming versions will make these checkpoints optional. A future version will turn off checkpoints by default.',
+	'developers.peercoin_ecosystem' => 'Экосистема Peercoin ',
+	'developers.peer4commit' => 'Would you like to get involved in Peercoin development <strong>and</strong> get paid for it? Here’s your chance! <a href="https://peer4commit.com">Peer4commit</a> provides a central hub for development. You can:',
+	'developers.peer4commit.1' => 'Выберете проект на сайте, работайте над ним и получайте peercoin в качестве награды. ',
+	'developers.peer4commit.2' => 'Возьмитесь за проект, который Вы хотели бы поддержать и вкладывайте в него peercoin. ',
+	'developers.peer4commit.3' => 'Придумайте новый проект, предложите его и получите денежную поддержку на его развитие.',
+	'developers.what_are_you_waiting_for' => 'Ну и чего ты ждешь?',
+	'developers.get_started' => 'Get started with Peer4commit',
+	'developers.notable_community_projects' => 'Текущие проекты сообщества',
+	'developers.peerunity_desc' => '<b>Peerunity</b> - это программа-кошелек, которая разработана и поддерживается сообществом Peercoin. Она включает в себя множество дополнительных функций, которыми не обладают официальные кошельки, такие как контроль монет и их создание в один клик. Будущие версии программы будут содержать переработанную тему, интеграцию Peershares и вкладку для создания монет. ',
+	'developers.peershares_desc' => '<b>Peershares</b> - это недорогая и децентрализованная бухгалтерская книга, которая будет использоваться в бизнесе для привлечения средств, отслеживания прав собственности на акции и распределении дивидендов в автоматическом режиме. Любой бизнес, использующий Peershares, будет иметь свою собственную, независимую от других цепочку блоков, которую можно дешево и легко защитить с помощью системы Peercoin доказательства правильности доли. ',
+	'developers.peerbox_desc' => '<b>Peerbox</b> - это защищенная операционная система для создания монет и работы узлов Peercoin, которая сейчас находится на стадии активной разработки. Она фокусируется на недорогих, энергетически-эффективных устройствах, таких как Raspberry Pi, который совместим с целью Peercoin - обеспечивать энергетически-эффективную криптовалюту. Если ASIC - термин, описывающий самое специализированное и энергетически-эффективное создание монет, то Peerbox - это ASIC для системы доказательства правильности доли. ',
+	'developers.nubits_desc' => '<b>NuBits</b> is a project by the creator of Peershares, Jordan Lee. NuBits is the first implementation of Peershares. It is intended to solve the problem of volatility in cryptocurrencies.',
+	'developers.devforums' => 'Find other innovative ideas on our <a href="https://talk.peercoin.net/c/projects">forums</a> or join the <a href="https://peercoin.chat">chat</a> to discuss and share your own.',
+);

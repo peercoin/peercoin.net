@@ -1,0 +1,20 @@
+$lang['en'] += array(
+	// Header
+	'header.get_started' => 'ابدأ',
+	'header.newcomers' => 'القادمين الجدد',
+	'header.investors' => 'المستثمرون',
+	'header.merchants' => 'التجار',
+	'header.miners' => 'المنقبون',
+	'header.developers' => 'المُطوّرون',
+	'header.tutorials' => 'Tutorials',
+	'header.learn' => 'تعلّم',
+	'header.frequently_asked_questions' => 'أسئلة شائعة',
+	'header.peercoin_whitepaper' => 'ورقة عمل بِيركُيِن',
+	'header.exchanges' => 'البورصات',
+	'header.mint_peercoins' => 'Minting',
+	'header.mining-guide' => 'Mining',
+	'header.wallet' => 'المحافظ',
+	'header.resources' => 'Resources',
+	'header.community' => 'المجتمع',
+	'header.languages' => 'لغات',
+);

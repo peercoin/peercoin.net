@@ -1,0 +1,23 @@
+$lang['en'] += array(
+	//Developers
+	'developers.rapid_pace' => 'Die Entwicklung von Peercoin macht rasante Fortschritte. ',
+	'developers.core_protocol' => 'Kernprotokoll',
+	'developers.core_protocol_desc' => 'Upcoming editions of the core protocol wallet will contain the following features:',
+	'developers.cold_wallet_minting' => 'Prägen mit kalter Brieftasche',
+	'developers.cold_wallet_minting_desc' => 'Currently, in order to mint new coins, users must keep a wallet connected to the network, which is known as a <strong>hot wallet</strong>. Hot wallets are at a greater risk of malware stealing their coins, because they must remain connected to the internet during the minting process. In upcoming versions of Peercoin, special <strong>minting keys</strong> will allow users to mint while keeping their spending keys entirely offline.',
+	'developers.optional_checkpointing' => 'Optionale Kontrollpunkte',
+	'developers.optional_checkpointing_desc' => 'Today, the network uses centralized checkpointing to protect against attacks. The need for this security decreases as the network grows, upcoming versions will make these checkpoints optional. A future version will turn off checkpoints by default.',
+	'developers.peercoin_ecosystem' => 'Peercoin Ökosystem',
+	'developers.peer4commit' => 'Would you like to get involved in Peercoin development <strong>and</strong> get paid for it? Here’s your chance! <a href="https://peer4commit.com">Peer4commit</a> provides a central hub for development. You can:',
+	'developers.peer4commit.1' => 'Ein Projekt auf der Seite auswählen, an ihm arbeiten und Peercoins als Belohnung erhalten.',
+	'developers.peer4commit.2' => 'Ein Projekt auswählen, dass Sie unterstützen möchten, und Peercoins dazu beisteuern. ',
+	'developers.peer4commit.3' => 'Sich ein neues Projekt ausdenken, es einreichen und Spenden für die Entwicklung erhalten. ',
+	'developers.what_are_you_waiting_for' => 'Worauf warten Sie? ',
+	'developers.get_started' => 'Get started with Peer4commit',
+	'developers.notable_community_projects' => 'Aktuelle Gemeinschaftsprojekte',
+	'developers.peerunity_desc' => '<b>Peerunity</b> ist eine Brieftaschensoftware, die von der Peercoin-Gemeinschaft entwickelt und gewartet wird. Sie enthält viele Zusatzfunktionen, die in der offiziellen Brieftasche fehlen, wie zum Beispiel Münzenkontrolle und Ein-Klick-Prägen. Zukünftige Versionen werden eine überarbeitete Oberfläche, Integration von Peershares und einen Reiter fürs Prägen enthalten.',
+	'developers.peershares_desc' => '<b>Peershares</b> ist eine kostengünstiger und dezentraler Aktienregister, der von Unternehmen für Mittelakquisition, Verfolgung von Aktienbesitz und automatisierte Dividendenausschüttungen verwendet werden kann. Jedes Unternehmen, das Peershares verwendet, besitzt eine eigene Blockkette, welche von allen anderen unabhängig ist und kostengünstig und einfach durch Peercoins Beweis-durch-Anteil geschützt wird.',
+	'developers.peerbox_desc' => '<b>Peerbox</b> ist ein sicheres Betriebssystem fürs Prägen und Betreiben von Peercoinknoten, welches im Moment aktiv weiterentwickelt wird. Es fokussiert sich auf günstige, energieeffiziente Geräte wie das Raspberry Pi, das mit Peercoins Ziel, der Bereitstellung einer energieeffizienten Kryptowährung, kompatibel ist. Wenn ASIC ein Begriff für dediziertes und energieeffizientes Schürfen ist, dann ist Peerbox das ASIC des Beweises-durch-Anteil.',
+	'developers.nubits_desc' => '<b>NuBits</b> is a project by the creator of Peershares, Jordan Lee. NuBits is the first implementation of Peershares. It is intended to solve the problem of volatility in cryptocurrencies.',
+	'developers.devforums' => 'Find other innovative ideas on our <a href="https://talk.peercoin.net/c/projects">forums</a> or join the <a href="https://peercoin.chat">chat</a> to discuss and share your own.',
+);

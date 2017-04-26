@@ -1,0 +1,20 @@
+$lang['en'] += array(
+	// Header
+	'header.get_started' => 'Memulai',
+	'header.newcomers' => 'Pendatang Baru',
+	'header.investors' => 'Penanam Modal',
+	'header.merchants' => 'Penjual',
+	'header.miners' => 'Penambang',
+	'header.developers' => 'Pengembang',
+	'header.tutorials' => 'Tutorials',
+	'header.learn' => 'Mempelajari',
+	'header.frequently_asked_questions' => 'Pertanyaan yang sering diajukan',
+	'header.peercoin_whitepaper' => 'Panduan Peercoin',
+	'header.exchanges' => 'Pertukaran',
+	'header.mint_peercoins' => 'Minting',
+	'header.mining-guide' => 'Mining',
+	'header.wallet' => 'Dompet',
+	'header.resources' => 'Resources',
+	'header.community' => 'Komunitas',
+	'header.languages' => 'Bahasa',
+);

@@ -1,0 +1,22 @@
+$lang['en'] += array(
+	// FAQ
+	'faq.yes' => 'Da',
+	'faq.no' => 'Nu',
+	'faq.sources' => 'Sursa',
+	'faq.q1' => 'Peercoin a fost lansat corect?',
+	'faq.q1_ans' => 'Sunny King a anunțat lansarea planificată a lui Peercoin cu 9 zile înainte de lansare. Nu au existat blocuri minate înainte de lansare. Un membru al forumului a scris: "[Sunny King] a lansat un link la sursa din celălalt forum la ora promisă (5 min înainte de 18:00 UTC). Nu a existat nici un premine. Până când am compilat sursa și am reușit să pornesc minarea, au fost făcute 5 blocuri.',
+	'faq.q2' => 'Care este scopul Punctului de Control?',
+	'faq.q2_ans' => 'Începând cu versiunea 0.2, controlul centralizat transmis nu mai este o parte critică a protocolului. Scopul său este de a apăra rețeaua în timpul perioadei inițiale de creștere și de a contribui la asigurarea unei căi de upgrade fără probleme. Punctul de control central este în prezent slăbit treptat și în cele din urmă va fi eliminat, pentru a atinge un nivel de descentralizare similar cu Bitcoin. Punctele de control există doar ca o măsură de securitate: dacă s-ar întâmpla ceva teribil, avem punctele de control ca o copie de rezervă.',
+	'faq.q3' => 'Este Peercoin o clonă a Bitcoinului?',
+	'faq.q3_ans' => 'Peercoin este una dintre monedele alternative cu adevărat unice. Deși codul său se bazează pe Bitcoin, Peercoin este prima monedă care a introdus Proof of Stake pentru a asigura rețeaua. Dovada muncii este întrodusă în Peercoin, pentru a promova distribuția corectă a monedelor, dar nu este necesară pentru securitatea rețelei.',
+	'faq.q4' => 'Peercoin este o monedă pump-and-dump?',
+	'faq.q4_ans' => 'Peercoin aduce caracteristici inovatoare, dezvoltatori activi și implicare semnificativă a comunității. Începând cu 1 august 2014, Peercoin are aproape doi ani și are un plafon de piață de peste 20 milioane USD.',
+	'faq.q5' => 'Este  recompensare de 1&#37; pentru toți utilizatorii?',
+	'faq.q5_ans' => 'Atunci când întreaga ofertă de bani crește în timpul procesului de clocire a monedelor, toți deținătorii de la Peercoin care participă la aceata generare  își mențin cota relativă în rețea. Deși părțile mari generează un număr total mai mare de peercoin, ele nu pot în termeni procentuali, să depăsească procentul celorlalți mineri.',
+	'faq.q6' => 'Este Peercoin inflaționist?',
+	'faq.q6_ans' => 'Schimbul masei monetare a PPC este determinată de:',
+	'faq.q6_l1' => 'Dovada de Lucru a minerului: POW (crește suplinirea)',
+	'faq.q6_l2' => 'Numărul de tranzacții (scade rezerva cu 0,01 PPC pe tranzacție)',
+	'faq.q6_l3' => 'Dovada de Menținere:POS (crește oferta cu o rată de până la 1&#37; pe an)',
+	'faq.q6_ans2' => 'Datorită unei participări de generare sporite, rata inflației Peercoin a rămas constant sub 5&#37; pentru prima jumătate a anului 2014. La rata actuală de adoptare, această rată va scădea în timp, făcând ca Peercoin să fie mai puțin inflaționist și mai sustenabil decât majoritatea celorlalte cripto-valute.',
+);

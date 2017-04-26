@@ -1,0 +1,22 @@
+$lang['en'] += array(
+	// FAQ
+	'faq.yes' => 'Si',
+	'faq.no' => 'No',
+	'faq.sources' => 'Referenze',
+	'faq.q1' => 'Peercoin è stata lanciata equamente?',
+	'faq.q1_ans' => 'Sunny King ha annunciato l\'avvento di Peercoin 9 giorni prima del lancio. Nessun blocco è stato generato da minatori prima del lancio. Un utente del forum ha scritto, "[Sunny King] ha rilasciato un collegamento verso la sorgente nell\'altro thread come promesso (5 minuti prima delle 18:00 UTC). Non c\'è stata nessuna premine. Non appena ho compilato da sorgente e lanciato il programma, c\'erano 5 blocchi generati."',
+	'faq.q2' => 'Qual\'è l\'obiettivo di avere checkpoints?',
+	'faq.q2_ans' => 'A partire dalla versione 0.2, checkpoints diffusi centralmente non sono più una parte critica del protocollo. Il loro utilizzo è quello di difendere la rete durante il primo periodo di crescita, e per assicurare uno sviluppo senza intoppi. Il checkpointing centrale è gradualmente indebolito ed eventualmente rimosso, per raggiungere un livello di decentralizzazione simile a quello di Bitcoin. I checkpoins esistono solamente per questioni di sicurezza: se succede qualcosa di molto serio, ci sono i checkpoints come backup.',
+	'faq.q3' => 'Peercoin è un clone di Bitcoin?',
+	'faq.q3_ans' => 'Peercoin è davvero una valuta alternativa unica. Sebbene il suo codice è basato su Bitcoin, Peercoin è la prima valuta ad introdurre Proof of Stake per mettere in sicurezza la sua rete. Proof of Work è usata anche in Peercoin, per promuovere una giusta distribuzione di valuta, ma non è necessaria per mettere in sicurezza la rete.',
+	'faq.q4' => 'Peercoin è una di quelle valute gonfia e vendi?',
+	'faq.q4_ans' => 'Peercoin porta con se caratteristiche innovative, sviluppatori attivi e un coinvolgimento significativo della comunità. Ad oggi, 1 Agosto 2014, Peercoin ha quasi due anni, e il suo controvalore di mercato va oltre i 20$ milioni di dollari americani.',
+	'faq.q5' => 'Avere l\'1&#37; come compenso è giusto per tutti gli utenti?',
+	'faq.q5_ans' => 'Quando la disponibilità totale crescerà causa del processo di coniazione, tutti i risparmiatori di Peercoin che parteciperanno alla coniazione, manterranno la loro posizione relativa nella rete. Sebbene grandi possessori genereranno un numero totale maggiore di Peercoins, non potranno, in termini percentuali, sorpassare gli altri coniatori.',
+	'faq.q6' => 'Peercoin è inflazionaria?',
+	'faq.q6_ans' => 'Il tasso di cambio di valuta PPC è determinato da:',
+	'faq.q6_l1' => 'Proof of Work mining (aumenta la disponibilità)',
+	'faq.q6_l2' => 'Numero di transazioni (diminuisce la disponibilità di 0.01 PPC per transazione)',
+	'faq.q6_l3' => 'Coniazione Proof of Stake (aumenta la disponibilità ad un tasso fino a  1&#37; annuo)',
+	'faq.q6_ans2' => 'Grazie alla maggiore partecipazione al mining, il tasso di inflazione di Peercoin è costantemente rimasto sotto il 5&#37; per la prima metà del 2014. Al presente tasso di adozione, questo tasso diminuirà ulteriormente nel tempo e Peercoin sarà meno inflazionaria e molto piu  sostenibile che altre cryptovalute.',
+);

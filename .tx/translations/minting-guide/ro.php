@@ -1,0 +1,12 @@
+$lang['en'] += array(
+	'mintguide.title' => 'Urmați ghidul corespunzător clientului de Peercoin al dvs.,  pentru a începe să minarea!',
+	'mintguide.qt_step1' => 'Asigurați-vă că portofelul dvs. este criptat cu o frază de acces bună. Scrieți-o și păstrați-o undeva în siguranță; Dacă uitați parola de acces, vă veți pierde monedele. Opțiunea de criptare a portofelului poate fi găsită în fila Setări din aplicația: Wallet Peercoin-Qt.',
+	'mintguide.qt_step2' => 'Pentru a începe minarea prin menținere, mergeți la Ajutor -> Fereastra de depanare -> Consola ... și introduceți: <br><kbd>walletpassphrase abc 999999 true</ kbd><br>, unde "abc" este fraza de acces și "999999" timpul de menținere în secunde. Puteți schimba timpul cum vă place, dar este de obicei mai simplu să îl setați la un număr foarte mare. Dacă fraza de acces are spații, atunci o includeți-o în ghilimele.',
+	'mintguide.qt_step3' => 'Ștergeți Fraza de Acces apăsând pe Ctrl-L.',
+	'mintguide.qt_step4' => 'Puteți verifica dacă generați uitându-vă la lacătul mic din colțul din dreapta de jos al clientului. După câteva momente ar trebui să devină deblocat. Dacă deplasați mouse-ul peste el, ar trebui să spună: "Portofelul este encodat și deblocat pentru generarea blocurilor".',
+	'mintguide.peerunity' => 'Peerunity este un client dezvoltat de comunitatea Peercoin. Are mai multe caracteristici decât clientul standard Peercoin v0.4 și de asemenea are o metodă mai simplă de Menținere. Este disponibil pentru Windows, Linux și OS X. Puteți descărca și vizualiza forumul de la lansare <a href = "https://talk.peercoin.net/t/peerunity-v0-1-0-released-for-windows-linux-os-x/2455">aici</a>.',
+	'mintguide.peerunity_step1' => 'Asigurați-vă că portofelul dvs. este criptat cu o frază de acces bună. Scrieți-o și păstrați-o undeva în siguranță; Dacă uitați această parola de acces, vă veți pierde monedele. Opțiunea de criptare a portofelului poate fi găsită în fila Setări din secțiunea Peerunity.',
+	'mintguide.peerunity_step2' => 'Pentru a începe generarea prin menținere, apăsați butonul "Deblocare Wallet doar pentru Minare", introduceți fraza de acces și apăsați OK.',
+	'mintguide.peerunity_step3' => 'Puteți verifica dacă generați prin menținere uitându-vă la lacătul mic din colțul din dreapta jos al clientului. După câteva momente ar trebui să devină deblocat. Dacă deplasați mouse-ul peste el, ar trebui să spună că "Portofelul este encriptat și deblocat pentru minarea blocurilor".',
+
+);

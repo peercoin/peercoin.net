@@ -1,0 +1,22 @@
+$lang['en'] += array(
+	// FAQ
+	'faq.yes' => 'Sim.',
+	'faq.no' => 'Não.',
+	'faq.sources' => 'Fontes.',
+	'faq.q1' => 'A Peercoin foi bem lançada?',
+	'faq.q1_ans' => 'Suuny King planeou o lançamento da Peercoin 9 dias antes da data de lançamento. Não houve blocos para minerar antes do lançamento. No forum, um dos membros escreveu "[Sunny King], à hora prometida (5 minutos antes das 18:00 UTC), disponibilizou um link noutro tópico. Não existe pré-mineração. Desde que fiz a source e as coisas começaram a andar, já havia 5 blocos minados."',
+	'faq.q2' => 'Qual o objectivo de validação?',
+	'faq.q2_ans' => 'Desde a versão 0.2,a validação central e distribuída deixou de ser um factor chave no protocolo. O seu objectivo é defender a rede no período inicial de crescimento e assegurar uma suave ascensão. A validação central tem sido progressivamente reduzida e será provavelmente removida, para que se atinja um nível de descentralização semelhante à da Bitcoin. A validação existe apenas e só como uma medida de segurança: se alguma coisa de errado acontecer, as validações servem como uma cópia de segurança.',
+	'faq.q3' => 'A Peercoin é um clone da Bitcoin?',
+	'faq.q3_ans' => 'Peercoin é a única e verdadeira moeda alternativa. Apesar do seu código ser baseado na Bitcoin, Peercoin é a primeira moeda a introduzir a Prova de Propriedade com o intuito de controlar a rede. A Prova de Trabalho também é utilizada na Peercoon, com o objectivo de promover a justa repartição de moedas, embora não seja necessária para controlar a rede.',
+	'faq.q4' => 'A Peercoin é uma moeda pump-and-dump?',
+	'faq.q4_ans' => 'Peercoin é sinónimo de funcionalidade inovadoras, desenvolvimento activo e envolvimento significativo por parte da comunidade. À data de 1 de Agosto de 2014, Peercoin tem quase 2 anos de idade e tem uma capitalização de mais de 20 milhões de USD.',
+	'faq.q5' => 'A recompensa de 1&#37;  pela criação de moedas é justa para todos os utilizadores?',
+	'faq.q5_ans' => 'Quando a totalidade da oferta de dinheiro aumenta por causa da criação de moeda, todos os proprietários de Peercoin mantêm a sua quota parte da rede. Apesar de aqueles que têm mais moeda gerarem um maior número de Peercoins, não é possível, em termos percentuais, ficar à frentes dos restantes criadores de moeda.',
+	'faq.q6' => 'A Peercoin é inflacionária?',
+	'faq.q6_ans' => 'A oferta de PPC é determinada por:',
+	'faq.q6_l1' => 'Prova de Trabalho (aumenta a oferta)',
+	'faq.q6_l2' => 'Número de transacções (diminui oferta em 0.01 PPC por transacção)',
+	'faq.q6_l3' => 'Prova de Propriedade (aumenta oferta à taxa de 1&#37 ao ano)',
+	'faq.q6_ans2' => 'Graças ao aumento da capacidade de mineração, a taxa de inflação da Peercoin tem-se mantido abaixo dos 5&#37; na primeira metade de 2014. Com base na taxa actual de aceitação, a taxa de inflação irá decrescer mais no futuro, fazendo que a Peercoin seja menos inflacionária e logo mais sustentável que a maior parte das outras criptomoedas.',
+);

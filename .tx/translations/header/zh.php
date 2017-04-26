@@ -1,0 +1,20 @@
+$lang['en'] += array(
+	// Header
+	'header.get_started' => '开始',
+	'header.newcomers' => '新手',
+	'header.investors' => '投资者',
+	'header.merchants' => '商户',
+	'header.miners' => '矿工',
+	'header.developers' => '开发者',
+	'header.tutorials' => 'Tutorials',
+	'header.learn' => '学习',
+	'header.frequently_asked_questions' => '常见问题',
+	'header.peercoin_whitepaper' => '点点币白皮书',
+	'header.exchanges' => '交易所',
+	'header.mint_peercoins' => 'Minting',
+	'header.mining-guide' => 'Mining',
+	'header.wallet' => '钱包',
+	'header.resources' => 'Resources',
+	'header.community' => '社区',
+	'header.languages' => '语言',
+);

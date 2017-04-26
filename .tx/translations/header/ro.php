@@ -1,0 +1,20 @@
+$lang['en'] += array(
+	// Header
+	'header.get_started' => 'Începe',
+	'header.newcomers' => 'Noi veniți',
+	'header.investors' => 'Investori',
+	'header.merchants' => 'Comercianți',
+	'header.miners' => 'Mineri',
+	'header.developers' => 'Dezvoltatori',
+	'header.tutorials' => 'Tutoriale',
+	'header.learn' => 'Învață',
+	'header.frequently_asked_questions' => 'Întrebări frecvente',
+	'header.peercoin_whitepaper' => 'Peercoin, Hârtia Albă',
+	'header.exchanges' => 'Schimb valutar',
+	'header.mint_peercoins' => 'Menținerea',
+	'header.mining-guide' => 'Minarea',
+	'header.wallet' => 'Portofele',
+	'header.resources' => 'Resurse',
+	'header.community' => 'Comunitate',
+	'header.languages' => 'Limbi',
+);

@@ -1,0 +1,22 @@
+$lang['en'] += array(
+	// FAQ
+	'faq.yes' => 'Oui',
+	'faq.no' => 'Non',
+	'faq.sources' => 'Sources',
+	'faq.q1' => 'Peercoin a-t-il été lancé d\'une manière juste ?',
+	'faq.q1_ans' => 'Sunny King a annoncé le plan de parution de Peercoin 9 jours avant la parution. Aucun bloc n\'a été extrait avant le lancement. Un membre du forum a écrit, "[Sunny King] a publié un lien vers les sources dans l\'autre fil de discussion à l\'heure promise (5 min avant 18:00 UTC). Il n\'y a pas eu de pré-extraction. Après le temps qu\'il m\'a fallu pour compiler le code source et lancer le tout, il n\'y avait que 5 blocs extraits."',
+	'faq.q2' => 'Quel est le but des points de contrôle ?',
+	'faq.q2_ans' => 'Depuis la version 0.2, les points de contrôle émis de manière centralisée ne sont plus un élément indispensable du protocole. Leur but est de protéger le réseau pendant sa période de croissance initiale, et d\'aider à assurer une évolution en douceur. L\'importance des points de contrôle est progressivement réduite, et ceux-ci seront finalement supprimés, pour obtenir un niveau de décentralisation semblable à Bitcoin. Les points de contrôle existent seulement en tant que mesure de sécurité : si quelque chose de terrible devait se produire, nous avons les points de contrôle comme sauvegarde.',
+	'faq.q3' => 'Peercoin est-il un clone de Bitcoin ?',
+	'faq.q3_ans' => 'Peercoin est l\'une des monnaies alternatives vraiment uniques. Bien que son code soit basé sur Bitcoin, Peercoin est la première monnaie à introduire la Preuve de Part pour sécuriser le réseau. La Preuve de Travail est aussi utilisée dans Peercoin, pour favoriser une distribution équitable des pièces, mais n\'est pas nécessaire pour la sécurité du réseau.',
+	'faq.q4' => 'Est-ce que Peercoin est une monnaie pump-and-dump ?',
+	'faq.q4_ans' => 'Peercoin apporte des fonctionnalités innovantes, des développeurs actif et une implication significative de la communauté. Depuis le 1er août 2014, Peercoin a presque deux ans, et une capitalisation de plus de 20 millions de dollars USD.',
+	'faq.q5' => 'La récompense de 1&#37; de la frappe de monnaie est-elle juste pour tous les utilisateurs ?',
+	'faq.q5_ans' => 'Quand la masse monétaire augmente à cause du processus de la frappe de monnaie, tous les détenteurs de peercoins participant à la frappe de monnaie maintiennent leur part relative du réseau. Bien que les détenteurs de grosses parts génèrent un nombre total de peercoins plus important, ils ne peuvent pas, en terme de pourcentage, prendre de l\'avance sur les autres monnayeurs.',
+	'faq.q6' => 'Peercoin est-il inflationniste ?',
+	'faq.q6_ans' => 'Le changement de la masse monétaire PPC est déterminé par :',
+	'faq.q6_l1' => 'L\'extraction par Preuve de Travail (augmente la masse monétaire)',
+	'faq.q6_l2' => 'Le nombre de transactions (réduit la masse monétaire de 0.01 PPC par transaction)',
+	'faq.q6_l3' => 'La frappe de monnaie par Preuve de Part (augmente la masse monétaire à un taux pouvant atteindre 1&#37; par an)',
+	'faq.q6_ans2' => 'Grâce à l\'augmentation de la participation à la frappe de monnaie, le taux d\'inflation de Peercoin est constamment resté inférieur à 5&#37; pendant la première moitié de 2014. À la vitesse d\'adoption actuelle, ce taux va encore décliner avec le temps, faisant de Peercoin une monnaie moins inflationniste et plus durable que la plupart des crypto-monnaies.',
+);

@@ -1,0 +1,22 @@
+$lang['en'] += array(
+	// FAQ
+	'faq.yes' => 'Ja',
+	'faq.no' => 'Nein',
+	'faq.sources' => 'Quellen',
+	'faq.q1' => 'Hatte Peercoin einen fairen Start?',
+	'faq.q1_ans' => 'Sunny King hat die geplante Veröffentlichung von Peercoin 9 Tage vor der eigentlichen Veröffentlichung angekündigt. Es wurden keine Blöcke vor dem Start geschürft. Ein Mitglied des Forums schrieb: "[Sunny King] hat zum angekündigten Zeitpunkt (5 Minuten vor 18:00 Uhr UTC) einen Link zum Quelltext in dem anderen Diskussionsfaden veröffentlicht. Ein Vorschürfen fand nicht statt. Als ich den Quelltext kompiliert und zum Laufen gebracht habe, gab es 5 geschürfte Blöcke."',
+	'faq.q2' => 'Welchen Zweck haben die Kontrollpunkte?',
+	'faq.q2_ans' => 'Ab der Version 0.2 sind zentral verbreitete Kontrollpunkte nicht länger ein kritischer Bestandteil des Protokolls. Deren Zweck ist die Verteidigung des Netzwerkes während der anfänglichen Wachstumsperiode und die Hilfe bei der Sicherstellung eines reibungslosen Aktualisierungspfades. Zentralisierte Kontrollpunkte werden nun allmählich abgeschwächt und irgendwann entfernt werden, um ein ähnliches Dezentralisierungsniveau wie bei Bitcoin zu erzielen. Die Kontrollpunkte existieren lediglich als eine Sicherheitsmaßnahme. Falls etwas katastrophales passieren sollte, haben wir die Kontrollpunkte als Sicherung.',
+	'faq.q3' => 'Ist Peercoin ein Bitcoin-Klon?',
+	'faq.q3_ans' => 'Peercoin gehört zu den wahrhaftig einzigartigen alternativen Kryptomünzen. Obwohl sein Code auf Bitcoin basiert, ist Peercoin die erste Kryptomünze, die den Beweis-durch-Anteil für die Sicherung des Netzwerkes eingeführt hat. Der Beweis-durch-Arbeit wird bei Peercoin ebenfalls verwendet, um die gerechte Verteilung der Münzen zu fördern, ist jedoch für die Sicherheit des Netzwerkes nicht vonnöten.',
+	'faq.q4' => 'Ist Peercoin eine Pump-and-Dump Münze?',
+	'faq.q4_ans' => 'Peercoin liefert innovative Funktionen, aktive Entwickler und eine signifikante Einbeziehung der Peercoin-Gemeinschaft. Zum 1. August 2014 ist Peercoin fast zwei Jahre alt und hat eine Marktkapitalisierung von über 20 Millionen US-Dollar.',
+	'faq.q5' => 'Ist die 1&#37;ige Belohnung fürs Prägen für alle Nutzer gerecht?',
+	'faq.q5_ans' => 'Wenn die gesamte Geldmenge aufgrund des Prägens wächst, behalten alle Peercoinbesitzer, die mitgeprägt haben, ihren relativen Anteil an dem Netzwerk. Obwohl große Anteilseigentümer eine höhere Anzahl an Peercoins generieren, können sie prozentual gesehen nicht an anderen Prägern vorbeiziehen.',
+	'faq.q6' => 'Ist Peercoin inflationär?',
+	'faq.q6_ans' => 'Die Änderung der Gesamtmenge von PPC wird bestimmt durch:',
+	'faq.q6_l1' => 'Schürfen mit Beweis-durch-Arbeit (erhöht die Gesamtmenge)',
+	'faq.q6_l2' => 'Anzahl der Transaktionen (verringert die Gesamtmenge um 0,01 PPC je Transaktion)',
+	'faq.q6_l3' => 'Prägen mit Beweis-durch-Anteil (erhöht die Gesamtmenge um bis zu 1&#37; pro Jahr)',
+	'faq.q6_ans2' => 'Dank der erhöhten Beteiligung am Prägen ist Peercoins Inflationsrate für die erste Jahreshälfte 2014 durchweg unter 5&#37; geblieben. Bei der derzeitigen Adoptionsrate wird die Inflationsrate mit der Zeit weiter sinken, was Peercoin weniger inflationär und nachhaltiger als andere Kryptomünzen machen wird.',
+);

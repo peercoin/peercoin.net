@@ -1,0 +1,20 @@
+$lang['en'] += array(
+	// Header
+	'header.get_started' => 'Comience',
+	'header.newcomers' => 'Recién llegados',
+	'header.investors' => 'Inversores',
+	'header.merchants' => 'Comerciantes',
+	'header.miners' => 'Mineros',
+	'header.developers' => 'Desarrolladores',
+	'header.tutorials' => 'Tutorials',
+	'header.learn' => 'Aprender',
+	'header.frequently_asked_questions' => 'Preguntas frecuentes',
+	'header.peercoin_whitepaper' => 'Libro Blanco Peercoin',
+	'header.exchanges' => 'Intercambios',
+	'header.mint_peercoins' => 'Minting',
+	'header.mining-guide' => 'Mining',
+	'header.wallet' => 'Carteras',
+	'header.resources' => 'Resources',
+	'header.community' => 'Comunidad',
+	'header.languages' => 'Lenguajes',
+);

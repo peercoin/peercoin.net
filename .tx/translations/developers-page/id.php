@@ -1,0 +1,23 @@
+$lang['en'] += array(
+	//Developers
+	'developers.rapid_pace' => 'Pengembangan Peercoin bergerak maju dengan pesat.',
+	'developers.core_protocol' => 'Protokol Inti',
+	'developers.core_protocol_desc' => 'Upcoming editions of the core protocol wallet will contain the following features:',
+	'developers.cold_wallet_minting' => 'Pencetak Dompet Dingin',
+	'developers.cold_wallet_minting_desc' => 'Currently, in order to mint new coins, users must keep a wallet connected to the network, which is known as a <strong>hot wallet</strong>. Hot wallets are at a greater risk of malware stealing their coins, because they must remain connected to the internet during the minting process. In upcoming versions of Peercoin, special <strong>minting keys</strong> will allow users to mint while keeping their spending keys entirely offline.',
+	'developers.optional_checkpointing' => 'Opsional Checkpointing',
+	'developers.optional_checkpointing_desc' => 'Today, the network uses centralized checkpointing to protect against attacks. The need for this security decreases as the network grows, upcoming versions will make these checkpoints optional. A future version will turn off checkpoints by default.',
+	'developers.peercoin_ecosystem' => 'Ekosistem Peercoin',
+	'developers.peer4commit' => 'Would you like to get involved in Peercoin development <strong>and</strong> get paid for it? Here’s your chance! <a href="https://peer4commit.com">Peer4commit</a> provides a central hub for development. You can:',
+	'developers.peer4commit.1' => 'Pilih sebuah proyek di situs, bekerja di atasnya, dan menerima peercoin sebagai reward.',
+	'developers.peer4commit.2' => 'Pilih proyek yang Anda ingin mendukung, dan memberikan kontribusi peercoin ke arah itu.',
+	'developers.peer4commit.3' => 'Memikirkan sebuah proyek baru, kirimkan, dan menerima sumbangan terhadap perkembangannya.',
+	'developers.what_are_you_waiting_for' => 'Nah, Apa yang Anda tunggu lagi?',
+	'developers.get_started' => 'Get started with Peer4commit',
+	'developers.notable_community_projects' => 'Proyek komunitas terkini.',
+	'developers.peerunity_desc' => '<b>Peerunity</b> adalah perangkat lunak dompet yang dikembangkan dan dikelola oleh komunitas Peercoin. Ini mencakup banyak kekurangan fitur tambahan yang dompet resmi, seperti kontrol koin dan satu kali klik pencetakan. Rilis di masa depan akan berisi didesain ulang tema, integrasi Peershares dan tab pencetakan.',
+	'developers.peershares_desc' => '<b>Peershares</b> adalah sebuah buku kas besar murah dan desentralisasi yang akan digunakan oleh perusahaan untuk mengumpulkan dana, pelacakan kepemilikan saham dan mendistribusikan dividen dalam mode otomatis. Setiap bisnis menggunakan Peershares memiliki blockchain sendiri yang independen dari semua orang lain dan dijamin murah dan mudah menggunakan proof-of-stake Peercoin.',
+	'developers.peerbox_desc' => '<b>PeerBox</b> adalah sebuah sistem operasi yang aman untuk pencetakan dan menjalankan pembengkakkan Peercoin, dan saat ini sedang dalam pengembangan aktif. Ini berfokus pada murah, perangkat hemat energi seperti Raspberry Pi, yang kompatibel dengan tujuan Peercoin menyediakan cryptocurrency hemat energi. Jika ASIC adalah istilah untuk pertambangan berdedikasi dan hemat energi, maka PeerBox adalah ASIC Proof-of-Stake.',
+	'developers.nubits_desc' => '<b>NuBits</b> is a project by the creator of Peershares, Jordan Lee. NuBits is the first implementation of Peershares. It is intended to solve the problem of volatility in cryptocurrencies.',
+	'developers.devforums' => 'Find other innovative ideas on our <a href="https://talk.peercoin.net/c/projects">forums</a> or join the <a href="https://peercoin.chat">chat</a> to discuss and share your own.',
+);
