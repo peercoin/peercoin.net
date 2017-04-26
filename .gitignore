@@ -2,6 +2,7 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+.tx
 Icon
 
 
@@ -14,6 +15,9 @@ Icon
 
 # Other Stuff
 wiki/
+blog/
+html/
 
 # reCAPTCHA keys
 include/recaptcha_keys.php
+8AC722ACF131D71F7FC21ADB7A03D561.txt
