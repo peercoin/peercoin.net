@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900,400italic);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 @font-face {
   font-family: "Flat-UI-Icons";
@@ -392,7 +392,7 @@ you can use the generic selector below, but it's slower:
   border-top-color: #34495e !important;
 }
 body {
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 1.231;
   color: #474747;
@@ -500,7 +500,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -1273,7 +1273,7 @@ address {
 }
 .navbar-unread,
 .navbar-new {
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background-color: #3cb054;
   border-radius: 50%;
   color: #ffffff;
@@ -1771,7 +1771,7 @@ label {
 .form-control {
   border: 2px solid #bdc3c7;
   color: #34495e;
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   padding: 8px 12px;
   height: 41px;
@@ -2409,7 +2409,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   background: transparent;
   border: none;
   color: #34495e;
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   margin: 0px;
   padding: 0 0 0 5px;
@@ -4525,7 +4525,7 @@ a.list-group-item.active > .badge,
   background-color: #2a7aaf;
   border-radius: 50%;
   color: #ffffff;
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   font-weight: 700;
   line-height: 19px;
