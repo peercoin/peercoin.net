@@ -20,10 +20,10 @@
 
   	<!-- open graph tags -->
   	<meta property="og:title" content="Peercoin">
-  	<meta property="og:type" content="website">
-  	<meta property="og:url" content="http://peercoin.net">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://peercoin.net">
     <meta property="og:secure_url" content="https://peercoin.net">
-  	<meta property="og:image" content="https://peercoin.net/assets/img/logos/logo_og.png">
+    <meta property="og:image" content="https://peercoin.net/assets/img/logos/logo_og.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="1200">
     <meta property="og:description" content="Secure and sustainable cryptocoin.">
