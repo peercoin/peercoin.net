@@ -46,6 +46,7 @@ $lang['en'] += array(
 	'footer.tools' => 'Tools',
 	'footer.exchanges' => 'Exchanges',
 	'footer.mining' => 'Mining',
+	'footer.greenbar' => 'Chat with community members and developers:',
 );
 
 $lang['en'] += array(
