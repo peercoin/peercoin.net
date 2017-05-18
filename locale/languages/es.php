@@ -95,7 +95,7 @@ $lang['es'] += array(
 $lang['es'] += array(
 	// Index page
 	'index.why_peercoin' => '¿Por qué Peercoin?',
-	'index.download_wallet' => 'Descarga la cartera',
+	'index.download_wallet' => 'Descargue la cartera',
 	'index.price' => 'Precio',
 	'index.market_cap' => 'Capitalización de mercado',
 	'index.total_supply' => 'Suministro total',
@@ -120,7 +120,7 @@ $lang['es'] += array(
 	'index.merchants' => 'Comerciantes',
 	'index.merchants_desc' => 'Es hora de reducir las comisiones por transacción.',
 	'index.miners' => 'Mineros',
-	'index.miners_desc' => 'Dale a tus equipos de minería un buen uso.',
+	'index.miners_desc' => 'De un buen uso a sus equipos de minería.',
 	'index.developers' => 'Desarolladores',
 	'index.developers_desc' => 'Echa un vistazo a algunas innovaciones en el desarollo.',
 	'index.newsletter' => 'Boletín de noticias',
