@@ -267,6 +267,10 @@ a:hover {
 	}
 }
 
+.col-half-offset{
+    margin-left:4.166666667%;
+}
+
 /* 1.4 Footer */
 
 .footer {
