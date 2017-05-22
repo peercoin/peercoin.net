@@ -61,7 +61,7 @@
 
 	<div class="container centered container-spacer" style="padding-bottom:30px;">
 		<div class="svgicons">
-			<div class="col-lg-2 col-lg-offset-1 col-md-6">
+			<div class="col-lg-2 col-md-6">
 				<!--<div><img src="assets/img/icons/card.svg" alt="Individual" /></div>
 				<br>-->
 				<h3><?php echo $Locale->getText("index.newcomers"); ?></h3>
@@ -69,7 +69,7 @@
 				<br><br>
 				<a href="newcomers" class="btn btn-primary btn-lg"><?php echo $Locale->getText("index.get_started"); ?></a>
 			</div>
-			<div class="col-lg-2 col-md-6">
+			<div class="col-lg-2 col-md-6 col-half-offset">
 				<!--<div><img src="assets/img/icons/basket.svg" alt="Merchant" /></div>
 				<br>-->
 				<h3><?php echo $Locale->getText("index.investors"); ?></h3>
@@ -77,7 +77,7 @@
 				<br><br>
 				<a href="investors" class="btn btn-primary btn-lg"><?php echo $Locale->getText("index.get_started"); ?></a>
 			</div>
-			<div class="col-lg-2 col-md-6">
+			<div class="col-lg-2 col-md-6 col-half-offset">
 				<!--<div><img src="assets/img/icons/basket.svg" alt="Merchant" /></div>
 				<br>-->
 				<h3><?php echo $Locale->getText("index.merchants"); ?></h3>
@@ -85,7 +85,7 @@
 				<br><br>
 				<a href="merchants" class="btn btn-primary btn-lg"><?php echo $Locale->getText("index.get_started"); ?></a>
 			</div>
-			<div class="col-lg-2 col-md-6">
+			<div class="col-lg-2 col-md-6 col-half-offset">
 				<!--<div style="padding-top:10px;"><img src="assets/img/icons/dynamite.svg" alt="Miner" /></div>
 				<br>-->
 				<h3><?php echo $Locale->getText("index.miners"); ?></h3>
@@ -93,7 +93,7 @@
 				<br><br>
 				<a href="mining" class="btn btn-primary btn-lg"><?php echo $Locale->getText("index.get_started"); ?></a>
 			</div>
-			<div class="col-lg-2 col-lg-offset-0 col-md-6 col-md-offset-3">
+			<div class="col-lg-2 col-md-6 col-half-offset">
 				<!--<div style="padding-top:10px;"><img src="assets/img/icons/pc.svg" alt="Developer" /></div>
 				<br>-->
 				<h3><?php echo $Locale->getText("index.developers"); ?></h3>
