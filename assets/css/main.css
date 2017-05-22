@@ -267,8 +267,10 @@ a:hover {
 	}
 }
 
-.col-half-offset{
-    margin-left:4.166666667%;
+@media screen and (min-width: 1025px) {
+	.col-half-offset{
+	    margin-left:4.166666667%;
+	}
 }
 
 /* 1.4 Footer */
