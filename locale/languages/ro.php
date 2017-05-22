@@ -42,7 +42,9 @@ $lang['ro'] += array(
 	'footer.tools' => 'Unelte',
 	'footer.exchanges' => 'Schimb valutar',
 	'footer.mining' => 'Minare',
-);$lang['ro'] += array(
+	'footer.greenbar' => 'Chat cu membrii comunității și dezvoltatorii:',
+);
+$lang['ro'] += array(
 	// FAQ
 	'faq.yes' => 'Da',
 	'faq.no' => 'Nu',

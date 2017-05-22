@@ -42,7 +42,9 @@ $lang['ru'] += array(
 	'footer.tools' => 'Инструменты',
 	'footer.exchanges' => 'Биржи',
 	'footer.mining' => 'Майнинг',
-);$lang['ru'] += array(
+	'footer.greenbar' => 'Общайтесь с членами сообщества и разработчиками:',
+);
+$lang['ru'] += array(
 	// FAQ
 	'faq.yes' => 'Да',
 	'faq.no' => 'Нет',

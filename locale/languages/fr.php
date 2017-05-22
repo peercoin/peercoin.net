@@ -43,7 +43,9 @@ $lang['fr'] += array(
 	'footer.tools' => 'Outils',
 	'footer.exchanges' => 'Échanges',
 	'footer.mining' => 'Minage',
-);$lang['fr'] += array(
+	'footer.greenbar' => 'Bavarder avec les membres de la communauté et les développeurs:',
+);
+$lang['fr'] += array(
 	// FAQ
 	'faq.yes' => 'Oui',
 	'faq.no' => 'Non',
