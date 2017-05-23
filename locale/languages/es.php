@@ -42,7 +42,9 @@ $lang['es'] += array(
 	'footer.tools' => 'Herramientas',
 	'footer.exchanges' => 'Intercambios ',
 	'footer.mining' => 'minería',
-);$lang['es'] += array(
+	'footer.greenbar' => 'Charla con miembros de la comunidad y desarrolladores:',
+);
+$lang['es'] += array(
 	// FAQ
 	'faq.yes' => 'Si',
 	'faq.no' => 'No',
