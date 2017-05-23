@@ -729,7 +729,7 @@ a:hover {
 }
 
 .social-icons img {
-	margin: 0 10px;
+	margin: 0 10px 10px 10px;
 
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
