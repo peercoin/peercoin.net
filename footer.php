@@ -46,7 +46,7 @@
 			</div><!-- /row -->
 
 			<div class="row">
-				<div class="col-lg-12 social-icons" style="margin:1em 0">
+				<div class="col-lg-12 social-icons">
 			        <a target="_blank" href="https://talk.peercoin.net">
 			              <img src="assets/img/icons/social-peercointalk.png" alt="Join us on the Peercoin Forum">
 			        </a>
