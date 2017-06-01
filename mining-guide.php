@@ -26,12 +26,6 @@
 							    <li>
 							    	<a href="https://peercoin.ecoining.com/">Ecoining</a> -  1% fee, dynamic PPLNS payment system
 							    </li>
-							    <li>
-							    	<a href="https://ppcoin.d7.lt/">D7</a> -  1.5% fee, PPLNS: payout per share of the last N rounds
-							    </li>
-							    <li>
-							    	<a href="http://ppc.fixx.ru/">Fixx</a> -  Donation only, PPLNS: payout per share of the last N rounds
-							    </li>
 						    </ul>
 						</div>
 						<div class="col-md-6">
