@@ -26,6 +26,9 @@
 							    <li>
 							    	<a href="https://peercoin.ecoining.com/">Ecoining</a> -  1% fee, dynamic PPLNS payment system
 							    </li>
+							    <li>
+							    	<a href="https://hrobeers.github.io/ppc-solo-mine">Peercoin Solo Pool</a> -  Solo mining with immediate payouts
+							    </li>
 						    </ul>
 						</div>
 						<div class="col-md-6">
