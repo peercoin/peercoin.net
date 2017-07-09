@@ -3,7 +3,7 @@
     // Download link list:
     $download_links = array(
         'windows' => 'https://sourceforge.net/projects/ppcoin/files/0.5.4/ppcoin-0.5.4-win32-setup.exe/download',
-        'mac' => 'https://github.com/ppcoin/ppcoin/',
+        'mac' => 'https://rbfi.io/dl.php?key=/WPy0/PPcoin-QT.dmg',
         'linux' => 'https://sourceforge.net/projects/ppcoin/files/0.5.4/ppcoin-0.5.4ppc-linux.tar.gz/download'
     );
 
