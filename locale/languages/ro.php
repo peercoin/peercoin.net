@@ -215,7 +215,7 @@ $lang['ro'] += array(
 );$lang['ro'] += array(
 	// Wallet
 	'wallet.title' => 'Portmonee',
-	'wallet.desc' => 'Un portofel Peercoin este o aplicație utilizată pentru a stoca și a transporta Peercoins între utilizatori. Peercoin are două portofele desktop: Peerunity și Peercoin-QT. Vă recomandăm Peerunity pentru majoritatea utilizatorilor. Pentru mai multe informații despre utilizarea aplicației dvs. de portofel, accesați pagina <a href="newcomers">Utilizatori noi</a>.',
+	'wallet.desc' => 'Un portofel Peercoin este o aplicație utilizată pentru a stoca și a transporta Peercoins între utilizatori. Pentru mai multe informații despre utilizarea aplicației dvs. de portofel, accesați pagina <a href="newcomers">Utilizatori noi</a>.',
 	'wallet.peercoinqt' => 'Peercoin-QT<br>(protocolul de bază)',
 	'wallet.peercoinqt_desc' => 'Peercoin-QT este protocolul de bază al Peercoin, construit și întreținut de dezvoltatorul Peercoin, Sunny King. Acesta primește numai actualizări cu prioritate ridicată.',
 	'wallet.paper_wallet' => 'Portofel de hârtie',

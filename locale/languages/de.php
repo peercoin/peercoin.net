@@ -216,7 +216,7 @@ $lang['de'] += array(
 );$lang['de'] += array(
 	// Wallet
 	'wallet.title' => 'Brieftaschen',
-	'wallet.desc' => 'Ein Peercoin-Brieftasche ist eine Anwendung, die zum Lagern und Abwickeln von Transaktionen mit anderen Nutzern verwendet wird. Peercoin verfügt über zwei Brieftaschen für Desktop-Computer: Peerunity und Peercoin-QT. Wir empfehlen den meisten Nutzern die Nutzung von Peerunity. Um mehr darüber zu erfahren, wie Sie Ihre Brieftaschen-Software nutzen können, besuchen Sie die <a href="newcomers">Seite für Neu­an­kömm­linge</a>.',
+	'wallet.desc' => 'Ein Peercoin-Brieftasche ist eine Anwendung, die zum Lagern und Abwickeln von Transaktionen mit anderen Nutzern verwendet wird. Um mehr darüber zu erfahren, wie Sie Ihre Brieftaschen-Software nutzen können, besuchen Sie die <a href="newcomers">Seite für Neu­an­kömm­linge</a>.',
 	'wallet.peercoinqt' => 'Peercoin-QT<br>(Kernprotokoll)',
 	'wallet.peercoinqt_desc' => 'Peercoin-QT ist das Kernprotokoll von Peercoin, es wurde vom Peercoin-Entwickler Sunny King erstellt und wird auch von ihm gewartet.',
 	'wallet.paper_wallet' => 'Papier-Brieftasche',

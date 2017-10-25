@@ -215,7 +215,7 @@ $lang['es'] += array(
 );$lang['es'] += array(
 	// Wallet
 	'wallet.title' => 'Carteras',
-	'wallet.desc' => 'Una cartera Peercoin es una aplicación que se utiliza para almacenar y realizar transacciones Peercoins con otros usuarios. Peercoin tiene dos carteras de escritorio: Peerunity y Peercoin-QT. Recomendamos Peerunity a la mayoría de usuarios. Para obtener más información sobre cómo utilizar el software de billetera, visite la página de <a recién llegados href="newcomers"> </a>.',
+	'wallet.desc' => 'Una cartera Peercoin es una aplicación que se utiliza para almacenar y realizar transacciones Peercoins con otros usuarios. Para obtener más información sobre cómo utilizar el software de billetera, visite la página de <a recién llegados href="newcomers"> </a>.',
 	'wallet.peercoinqt' => 'Peercoin-QT<br>(protocolo básico)',
 	'wallet.peercoinqt_desc' => 'Peercoin-QT es el protocolo básico de Peercoin, construido y mantenido por el desarrollador Peercoin Sunny King. Recibe sólo las actualizaciones de alta prioridad.',
 	'wallet.paper_wallet' => 'Cartera de papel',
