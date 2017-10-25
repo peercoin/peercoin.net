@@ -41,7 +41,7 @@
 ?>
 <h1 class="page-title"><?php echo $Locale->getText("waldownload.qt_title"); ?></h1>
 <div class="row">
-    <div class="col-md-6"><img src="assets/img/downloads/wallet_ss_<?php echo $CurrOS; ?>.png" style="width:100%" /></div>
+    <div class="col-md-6"><img src="assets/img/downloads/wallet_ss.png" style="width:100%" /></div>
     <div class="col-md-6 downloads">
         <div class="main-os">
             <a href="<?php echo $download_links[$CurrOS]; ?>" class="btn btn-primary btn-lg <?php echo $CurrOS; ?>">
