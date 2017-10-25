@@ -228,7 +228,7 @@ $lang['no'] += array(
 $lang['no'] += array(
 	// Wallet
 	'wallet.title' => 'Lommebøker',
-	'wallet.desc' => 'En Peercoin-lommebok er et program som brukes til å lagre og utveksle peercoins med andre brukere. Peercoin har to lommebøker for datamaskiner: Peerunity og Peercoin-QT. Vi anbefaler Peerunity for de fleste brukere. For mer informasjon om hvordan du bruker lommeboken, kan du gå til <a href="newcomers">Nykommere siden</a>.',
+	'wallet.desc' => 'En Peercoin-lommebok er et program som brukes til å lagre og utveksle peercoins med andre brukere. For mer informasjon om hvordan du bruker lommeboken, kan du gå til <a href="newcomers">Nykommere siden</a>.',
 	'wallet.peercoinqt' => 'Peercoin-QT<br>(kjerneprotokollen)',
 	'wallet.peercoinqt_desc' => 'Peercoin-QT er Peercoin sin kjerneprotokoll, bygget og vedlikeholdt av Peercoin utvikleren Sunny King. Den mottar bare høyt prioriterte oppdateringer.',
 	'wallet.paper_wallet' => 'Lommebok På Papir',
