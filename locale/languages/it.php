@@ -228,7 +228,7 @@ $lang['it'] += array(
 $lang['it'] += array(
 	// Wallet
 	'wallet.title' => 'Portafogli',
-	'wallet.desc' => 'Il portafoglio Peercoin è un\'applicazione utilizzata per risparmiare ed effettuare transazioni di Peercoins con altri utenti. Peercoin ha due portafogli per il desktop: Peerunity e Peercoin-QT. Raccomandiamo Peerunity per la maggior parte degli utenti. Per maggiori informazioni su come utilizzare il tuo portafoglio software visita la <a href="newcomer">pagina Nuovi Arrivati</a>.',
+	'wallet.desc' => 'Il portafoglio Peercoin è un\'applicazione utilizzata per risparmiare ed effettuare transazioni di Peercoins con altri utenti. Per maggiori informazioni su come utilizzare il tuo portafoglio software visita la <a href="newcomer">pagina Nuovi Arrivati</a>.',
 	'wallet.peercoinqt' => 'Peercoin-QT<br>(protocollo core)',
 	'wallet.peercoinqt_desc' => 'Peercoin-QT è il protocollo core di Peercoin, sviluppato e mantenuto dallo sviluppatore di Peercoin, Sunny King. Esso riceve solo aggiornamenti ad alta priorità.',
 	'wallet.paper_wallet' => 'Portafoglio Cartaceo',
