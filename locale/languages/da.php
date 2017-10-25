@@ -17,7 +17,6 @@ $lang['da'] += array(
 	'developers.what_are_you_waiting_for' => 'Well, what are you waiting for?',
 	'developers.get_started' => 'Get started with Peer4commit',
 	'developers.notable_community_projects' => 'Current community projects',
-	'developers.peerunity_desc' => '<b>Peerunity</b> is wallet software that is developed and maintained by the Peercoin community. It includes many extra features that the official wallet lacks, such as coin control and one click minting. Future releases will contain a redesigned theme, Peershares integration and a minting tab.',
 	'developers.peershares_desc' => '<b>Peershares</b> is an inexpensive and decentralized ledger to be used by businesses for raising funds, tracking share ownership and distributing dividends in an automated fashion. Each business using Peershares has its own blockchain that is independent of all others and secured cheaply and easily using Peercoin’s proof-of-stake.',
 	'developers.peerbox_desc' => '<b>Peerbox</b> is a secure operating system for minting and running Peercoin nodes, and is currently under active development. It focuses on inexpensive, energy-efficient devices such as the Raspberry Pi, which is compatible with Peercoin\'s goal of providing an energy efficient cryptocurrency. If ASIC is a term for dedicated and energy efficient mining, then Peerbox is the ASIC of Proof-of-Stake.',
 	'developers.nubits_desc' => '<b>NuBits</b> is a project by the creator of Peershares, Jordan Lee. NuBits is the first implementation of Peershares. It is intended to solve the problem of volatility in cryptocurrencies.',
@@ -172,11 +171,6 @@ $lang['da'] += array(
 	'mintguide.qt_step2' => 'To start minting go to help -> debug window -> console and enter: <br><kbd>walletpassphrase abc 999999 true</kbd><br> where "abc" is your passphrase and "999999" is the time you want to mint for in seconds. You can change the amount of time to whatever you like, but it is usually easiest just to set it at a very high number. If your passphrase has spaces then enclose it in quotation marks.',
 	'mintguide.qt_step3' => 'Clear your passphrase by pressing Ctrl-L.',
 	'mintguide.qt_step4' => 'You can check you are minting by looking at the little padlock in the bottom right corner of the client. After a few moments it should become unlocked. If you hover your mouse over it, it should say "Wallet is encypted and currently unlocked for block minting only".',
-	'mintguide.peerunity' => 'Peerunity is a client developed by the Peercoin community. It has more features than the standard Peercoin v0.4 client, and also has an easier method for minting. It is available for Windows, Linux, and OS X. You can download it here and view the launch thread <a href="https://talk.peercoin.net/t/peerunity-v0-1-0-released-for-windows-linux-os-x/2455">here</a>.',
-	'mintguide.peerunity_step1' => 'Ensure your wallet is encrypted with a good passphrase. Write this down and keep it somewhere safe; if you forget the passphrase you will lose your coins. The wallet encryption option can be found under the settings tab in Peerunity.',
-	'mintguide.peerunity_step2' => 'To start minting, simply press the "Unlock Wallet for Minting Only" button, enter your passphrase and press OK.',
-	'mintguide.peerunity_step3' => 'You can check you are minting by looking at the little padlock in the bottom right corner of the client. After a few moments it should become unlocked. If you hover your mouse over it, it should say "Wallet is encypted and currently unlocked for block minting only".',
-
 );
 $lang['da'] += array(
 	// minting
@@ -216,13 +210,10 @@ $lang['da'] += array(
 	'waldownload.other_platforms' => 'Other platforms',
 	'waldownload.signatures' => 'Signatures',
 	'waldownload.qt_title' => 'Peercoin-QT',
-	'waldownload.peerunity_title' => 'Peerunity',	
 );$lang['da'] += array(
 	// Wallet
 	'wallet.title' => 'Wallets',
 	'wallet.desc' => 'A Peercoin wallet is an application used to store and transact Peercoins with other users. Peercoin has two desktop wallets: Peerunity and Peercoin-QT. We recommend Peerunity for most users. For more information on how to use your wallet software, visit the <a href="newcomers">Newcomers page</a>.',
-	'wallet.peerunity' => 'Peerunity (recommended)',
-	'wallet.peerunity_desc' => 'Peerunity is developed by the Peercoin community. It includes features beyond the core protocol wallet, such as one-click minting and coin control. Future releases will contain a redesigned control panel, Peershares integration, and a dedicated Minting tab.',
 	'wallet.peercoinqt' => 'Peercoin-QT<br>(core protocol)',
 	'wallet.peercoinqt_desc' => 'Peercoin-QT is Peercoin’s core protocol, built and maintained by Peercoin developer Sunny King. It receives only high-priority updates.',
 	'wallet.paper_wallet' => 'Paper Wallet',

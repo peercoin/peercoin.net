@@ -9,19 +9,7 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-md-2 col-md-offset-2">
-        <div class="tile text-center wallet-entry">
-            <img src="assets/img/logos/peerunity.svg" alt="" class="tile-image big-illustration svg-100">
-            <h3 class="tile-title"><?php echo $Locale->getText("wallet.peerunity"); ?></h3>
-            <p>
-                <?php echo $Locale->getText("wallet.peerunity_desc"); ?>
-            </p>
-            <div>
-                <a class="btn btn-primary btn-large btn-block" href="download-peerunity"><?php echo $Locale->getText("wallet.download"); ?> Peerunity</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-2">
+    <div class="col-md-2 col-md-offset-3">
         <div class="tile text-center wallet-entry">
             <img src="assets/img/logos/peercoin.svg" alt="" class="tile-image big-illustration svg-100">
             <h3 class="tile-title"><?php echo $Locale->getText("wallet.peercoinqt"); ?></h3>
