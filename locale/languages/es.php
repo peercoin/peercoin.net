@@ -17,7 +17,6 @@ $lang['es'] += array(
 	'developers.what_are_you_waiting_for' => 'Y bien, ¿ a qué esta esperando ?',
 	'developers.get_started' => 'Empiece con Peer4commit',
 	'developers.notable_community_projects' => 'Proyectos comunitarios actuales',
-	'developers.peerunity_desc' => '<b>Peerunity</b> es un software de cartera que es desarrollado y mantenido por la comunidad Peercoin. Incluye muchas características extra de las que carece la cartera oficial, así como el control sobre sus monedas y la acuñación en un clic. Futuros lanzamientos contendrán un tema rediseñado, integración con Peershares y una tabla con información sobre la acuñación.',
 	'developers.peershares_desc' => '<b>Peershares</b> es un libro de contabilidad económico y descentralizado para ser utilizado por las empresas para recaudar fondos, para el seguimiento de la propiedad de acciones y para la distribución de dividendos de manera automatizada. Cada negocio usando Peershares tiene su propia cadena de bloques independiente de todas las demás, la cual es asegurada de manera económica y fácil usando la prueba de participación de Peercoin .',
 	'developers.peerbox_desc' => '<b>PeerBox</ b> es un sistema operativo seguro para la acuñar y correr  nodos Peercoin, y está actualmente bajo desarrollo activo. Se centra en dispositivos energéticamente eficientes y de bajo costo tales como el Raspberry Pi, que es compatible con el objetivo de Peercoin de proporcionar una criptomoneda energéticamente eficiente. Si ASIC es un término para la minería dedicada y de eficiencia energética, entonces PeerBox es el ASIC de la prueba de participación.',
 	'developers.nubits_desc' => '<b>NuBits</b> es un proyecto del creador de Peershares, Jordan Lee. NuBits es la primera implementación de Peershares. Se pretende resolver el problema de la volatilidad en las criptomonedas.',
@@ -174,11 +173,6 @@ $lang['es'] += array(
 	'mintguide.qt_step2' => 'Para iniciar la acuñación de ir a ayudar a -> debug window -> consola y escriba: <br> <kbd> walletpassphrase abc 999999 true </ KBD> <br> donde "abc" es su frase de paso y "999999" es el tiempo que desea menta en el segundo. Puede cambiar la cantidad de tiempo para lo que quieras, pero es generalmente más fácil sólo para ponerlo en un número muy alto. Si entonces la frase de contraseña tiene espacios encerrar entre comillas.',
 	'mintguide.qt_step3' => 'Limpia tu contraseña pulsando Ctrl-L.',
 	'mintguide.qt_step4' => 'Usted puede comprobar que siguen acuñando mirando el pequeño candado en la esquina inferior derecha de la cliente. Después de unos momentos debería estar desbloqueada. Si pasas el ratón sobre él, debe decir "cartera se encriptados, y actualmente desbloqueado para su bloque de acuñación única".',
-	'mintguide.peerunity' => 'Peerunity es un cliente desarrollado por la comunidad Peercoin. Tiene más funciones que el cliente estándar Peercoin v0.4, y además tiene un método más fácil para la acuñación. Está disponible para Windows, Linux, y OS X. Usted puede descargarlo y ver el hilo de lanzamiento <a href="https://talk.peercoin.net/t/peerunity-v0-1-0-released-for-windows-linux-os-x/2455">aquí</a>.',
-	'mintguide.peerunity_step1' => 'Asegúrese de que su cartera se cifra con una buena contraseña. Escribe esto y mantenerlo en un lugar seguro; si se olvida la clave, perderá sus monedas. La opción de cifrado de la carpeta se puede encontrar bajo la pestaña de configuración en el programa de la cartera Peerunity.',
-	'mintguide.peerunity_step2' => 'Para iniciar la acuñación, simplemente pulse Configuración "Desbloquear cartera para acuñar Sólo" botón, introduzca su contraseña y pulse Aceptar.',
-	'mintguide.peerunity_step3' => 'Usted puede comprobar que sigue acuñando, mirando el pequeño candado en la esquina inferior derecha de la cliente. Después de unos momentos debería ser desbloqueada. Si pasas el ratón sobre él, debe decir "cartera es encriptada, y actualmente desbloqueado para su bloque de acuñación única".',
-
 );
 $lang['es'] += array(
 	// minting
@@ -218,13 +212,10 @@ $lang['es'] += array(
 	'waldownload.other_platforms' => 'Otras plataformas',
 	'waldownload.signatures' => 'Firmas',
 	'waldownload.qt_title' => 'Peercoin-QT',
-	'waldownload.peerunity_title' => 'Peerunity',	
 );$lang['es'] += array(
 	// Wallet
 	'wallet.title' => 'Carteras',
 	'wallet.desc' => 'Una cartera Peercoin es una aplicación que se utiliza para almacenar y realizar transacciones Peercoins con otros usuarios. Peercoin tiene dos carteras de escritorio: Peerunity y Peercoin-QT. Recomendamos Peerunity a la mayoría de usuarios. Para obtener más información sobre cómo utilizar el software de billetera, visite la página de <a recién llegados href="newcomers"> </a>.',
-	'wallet.peerunity' => 'Peerunity (recomendado)',
-	'wallet.peerunity_desc' => 'Peerunity es desarrollado por la comunidad Peercoin. Incluye características más allá de la cartera protocolo central, como de un solo clic de acuñación y el control de la moneda. Las versiones futuras incluirán un panel rediseñado control, integración Peershares, y una pestaña La acuñación dedicada.',
 	'wallet.peercoinqt' => 'Peercoin-QT<br>(protocolo básico)',
 	'wallet.peercoinqt_desc' => 'Peercoin-QT es el protocolo básico de Peercoin, construido y mantenido por el desarrollador Peercoin Sunny King. Recibe sólo las actualizaciones de alta prioridad.',
 	'wallet.paper_wallet' => 'Cartera de papel',

@@ -17,7 +17,6 @@ $lang['zh'] += array(
 	'developers.what_are_you_waiting_for' => '好了，您还在等什么呢？',
 	'developers.get_started' => '开启Peer4commit项目之旅',
 	'developers.notable_community_projects' => '目前社区的项目',
-	'developers.peerunity_desc' => '<b>Peerunity</b>是一个由点点币社区所维护和开发的钱包软件，它相对于官方钱包来说包含许多额外的功能，比如币的控制以及一键挖矿。今后的版本将会包括一个重新设计的主题界面，点点股的集成以及一个挖矿页面。',
 	'developers.peershares_desc' => '<b>点点股</b>是一种用于商业筹资的便宜去中心化的账本，它可追踪股份的所有者并可以自动为股东分红。每一个商业实体可以使用点点股，他们都拥有独立的区块链，并且可以方便、安全的利用点点币的股权证明机制来进行网络安全维护。',
 	'developers.peerbox_desc' => '<b>Peerbox</b>是一个用于运行点点币节点和挖矿的安全操作系统，目前正在活跃地开发之中。Peerbox侧重于便宜、节能的设备，比如树莓派，这种理念与点点币提供节能高效的加密学货币的初衷是一致的。如果ASIC是节能挖矿的代名词的话，那么Peerbox就是股权证明的ASIC。',
 	'developers.nubits_desc' => '<b>NuBits </b>是一个由Peershares项目创始人-Jordan Lee-创建的项目。NuBits 是Peershares的第一个项目，它的目的是为了解决虚拟货币的波动问题。',
@@ -174,11 +173,6 @@ $lang['zh'] += array(
 	'mintguide.qt_step2' => '为启动挖矿，进入菜单栏“帮助”->“调试窗口”->“控制台”，然后输入： <br><kbd>walletpassphrase abc 999999 true</kbd><br> ，其中"abc"是钱包的密码，“9999999"是你所希望挖矿的时间（以秒为单位）。你可以输入改变任何你希望挖矿的时间，当然通常最简单易行的方法就是设置为一个非常大的数。如果钱包密码中含有空格，那么需要加入引号来将空格包括进来。',
 	'mintguide.qt_step3' => '通过Ctrl-L快捷键清除您的密码。',
 	'mintguide.qt_step4' => '你可以通过客户端右下角的小锁来查看当前的挖矿状态。在输入命令启动挖矿一小会儿后，钱包将解锁。',
-	'mintguide.peerunity' => 'Peerunity是Peercoin社区开发的是一个客户端。它有比标准的Peercoin v0.4客户端更多的功能，并为有更简单的挖矿方法，支持Windows操作系统、Linux和OS X操作系统。你可以在这里下载并查看启动线程<a href="https://talk.peercoin.net/t/peerunity-v0-1-0-released-for-windows-linux-os-x/2455">点击下载</a>.',
-	'mintguide.peerunity_step1' => '确保你的钱包使用了良好的密码进行过加密。将密码写下来并且保存在安全的地方，如果你忘记了你的密码，那么你将失去你所有的点点币。你可以在Peerunity钱包设置菜单中找到钱包加密选项。',
-	'mintguide.peerunity_step2' => '简单点击“仅挖矿解锁”按钮来启动挖矿，输入你的密码然后点击确认。',
-	'mintguide.peerunity_step3' => '你可以通过查看客户端右下角的小锁状态来检查到你正在挖矿。解锁后一会儿小锁就会打开，如果你的鼠标滑过小锁，客户端会提示“钱包已加密，目前被解锁仅用于挖矿”。',
-
 );
 $lang['zh'] += array(
 	// minting
@@ -218,13 +212,11 @@ $lang['zh'] += array(
 	'waldownload.other_platforms' => '其他平台',
 	'waldownload.signatures' => '签名',
 	'waldownload.qt_title' => 'QT版点点币',
-	'waldownload.peerunity_title' => 'Peerunity',	
+
 );$lang['zh'] += array(
 	// Wallet
 	'wallet.title' => '钱包',
 	'wallet.desc' => '点点币的钱包是用来存储以及与其他用户进行点点币交易的应用程序。点点币有两个桌面钱包：Peerunity和Peercoin-QT。我们建议大多数用户使用Peerunity。关于如何使用钱包软件的更多信息，请访问<a href="newcomers">新手页面</a>。',
-	'wallet.peerunity' => 'Peerunity(推荐使用)',
-	'wallet.peerunity_desc' => 'Peerunity是点点币社区所开发的。除了核心协议钱包外，它还包含其他的功能，比如一键铸币以及币的控制等特色功能。今后的版本将会包含一个重新设计的控制面板，点点股的集成以及铸币页面。',
 	'wallet.peercoinqt' => 'QT版点点币钱包<br>(核心协议)',
 	'wallet.peercoinqt_desc' => 'QT版点点币钱包是点点币的核心协议，由点点币的开发者Sunny King所创建和维护。这个版本只接受高优先级的更新。',
 	'wallet.paper_wallet' => '纸钱包',

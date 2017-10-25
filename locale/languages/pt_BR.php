@@ -18,7 +18,6 @@ Aqui está a sua oportunidade!<a href="http://peer4commit.com/">Peer4commit</a> 
 	'developers.what_are_you_waiting_for' => 'Então, do que está à espera?',
 	'developers.get_started' => 'Começa já com Peer4Commit',
 	'developers.notable_community_projects' => 'Projectos actuais da comunidade',
-	'developers.peerunity_desc' => '<b>Peerunity</b> é um software que cria uma carteira para peercoins, desenvolvido e mantido pela comunidade Peercoin. Inclui muitas funcionalidade que não estão presentes na carteira oficial, tais como controlo de moedas e criação 1 de moedas por 1 click. As novas versões incluirão novo tema, intergração com Peershares e um separador para criação de moedas.',
 	'developers.peershares_desc' => '<b>Peershares</b> é um registo barato e descentralizado para ser utilizado por entidades para angariar fundos, verificar quem detém as shares e distribuir dividendos de forma automática. Cada entidade que utiliza o Peershares tem a sua própria cadeia de blocos, independente de todas as outras, de uma forma segura e barata, através da utilização da prova de propriedade - proof-of-stake - da Peercoin.',
 	'developers.peerbox_desc' => 'Actualmente em desenvolvimento, <b>Peerbox</b> é um sistema operativo seguro que permite albergar nós Peercoin assim como criação de moedas. Partilhando as mesmas características que o Raspberry Pi, é uma forma barata e eficiente a nível energético, em linhas com o que caracteriza a peercoin. Se ASIC é sinómino de mineração dedicada e eficiente energeticamente,  então o Peerbox é o ASIC da Prova-de-Propriedade - proof-of-stake.',
 	'developers.nubits_desc' => 'Ainda por revelar pelo seu criador Jornan Lee, que criou também o Peershares,<b>NuBits</b> será a primeira implementação da Peershares. O seu objectivo é resolver a questão da volatilidade no mercado das criptomoedas.',
@@ -169,11 +168,6 @@ $lang['pt_BR'] += array(
 	'mintguide.qt_step2' => 'Para começar a criar moedas, ir para Ajuda -> Janela Depuração -> Consola e insira  <br><kbd>walletpassphrase abc 999999 true</kbd><br> onde "abc" é a sua palavra-chave e "999999" é o período para o qual pretende criar moedas, em segundos. Pode alterar o período de tempo para o que desejar, mas normalmente é mais fácil colocar um valor elevado. Se a sua palavra-chave tem espaços, deve colocar colocar aspas antes e depois.',
 	'mintguide.qt_step3' => 'Limpe a sua palavra-chave pressionado Ctrl-L.',
 	'mintguide.qt_step4' => 'Pode verificar se está criando moedas através da barra do canto inferior direito do cliente, num ícon semelhante a um cadeado. Após alguns momentos deve ficar desbloqueado. Se passar o rato por cima do icon deve mostrar a seguinte mensagem: "A carteira está encriptada e actualmente desbloqueada apenas para criação de moeda".',
-	'mintguide.peerunity' => 'Peerunity é um cliente desenvolvido pela comunidade Peercoin. Disponibiliza mais funcionalidade que a versão standard do cliente Peercoin v0.4 e tem também um método simplificado para criação de moeda. Está disponível para Windows, Linux e OS X. Pode descarregá-lo aqui e ler o tópico de lançamento do Peerunit  <a href="https://talk.peercoin.net/t/peerunity-v0-1-0-released-for-windows-linux-os-x/2455">aqui</a>.',
-	'mintguide.peerunity_step1' => 'Assegure-se que a sua carteira está protegida e encriptada por uma boa palavra-chave. Anote-a, guardando de seguida num local seguro; se esquecer-se da sua palavra-chave, perderá para sempre as suas moedas. A opção de ecriptação da carteira pode ser encontrada no separador Definições da carteira Peerunity.',
-	'mintguide.peerunity_step2' => 'Para começar a criar moeda, basta clicar o botão "Desbloquear Carteira Apenas para Criação", inserir a sua palavra-chave e clicar em OK.',
-	'mintguide.peerunity_step3' => 'Pode verificar se está criando moedas através da barra do canto inferior direito do cliente, num ícon semelhante a um cadeado. Após alguns momentos deve ficar desbloqueado. Se passar o rato por cima do icon deve mostrar a seguinte mensagem: "A carteira está encriptada e actualmente desbloqueada apenas para criação de moeda".',
-
 );
 $lang['pt_BR'] += array(
 	'mineguide.title' => 'Siga estes passos para começar a minerar Peercoin!',
@@ -225,7 +219,6 @@ $lang['pt_BR'] += array(
 	'waldownload.other_platforms' => 'Outras plataformas',
 	'waldownload.signatures' => 'Assinaturas',
 	'waldownload.qt_title' => 'Peercoin-QT',
-	'waldownload.peerunity_title' => 'Peerunity',	
 );
 $lang['pt_BR'] += array(
 	//Whitepaper
@@ -237,8 +230,6 @@ $lang['pt_BR'] += array(
 	// Wallet
 	'wallet.title' => 'Carteiras',
 	'wallet.desc' => 'Uma carteira Peercoin é uma aplicação utilizada para guardar e transaccionar Peercoins com outros utilizadores. Existem duas carteiras disponíveis: Peerunity e Peercoin-QT. Recomendamos a Peerunity para a maior parte dos utilizadores. Para mais informações em como usar a software de carteira, visite a página <a href="newcomers"> Novatos.',
-	'wallet.peerunity' => 'Peerunity (recomendado)',
-	'wallet.peerunity_desc' => 'Peerunity é desenvolvido pela comunidade Peercoin. Inclui funcionalidades que não estão incluída na versão base, como criação de moedas por 1-click e controlo de moedas. Inclui funcionalidade que não estão presentes na carteira oficial, tais como controlo de moedas e criação de moedas por 1-click. As novas versões incluirão novo tema, intergração com Peershares e um separador para criação de moeda',
 	'wallet.peercoinqt' => 'Peercoint-QT<br>(protocolo central)',
 	'wallet.peercoinqt_desc' => 'Peercoin-QT é o protocolo central da Peercoin, desenhado e mantido pelo criado da Peercoin Sunny King. Só recebe actualizações de alta importância.',
 	'wallet.paper_wallet' => 'Carteira em Papel',

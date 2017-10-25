@@ -42,18 +42,6 @@
 	</div>
 	<div class="row">
 		<div class="col-lg-3 col-lg-offset-1 col-md-4 text-center vcenter">
-			<img src="assets/img/logos/peerunity.svg" class="svg-halfwidth" />
-		</div>
-		<div class="col-lg-7 col-md-8 vcenter">
-			<h1 class="h-smargin">Peerunity</h1>
-			<p>
-				<?php echo $Locale->getText("developers.peerunity_desc"); ?>
-			</p>
-			<a href="https://talk.peercoin.net/c/projects" class="btn btn-primary" target="_BLANK"><?php echo $Locale->getText("forum"); ?></a>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-lg-3 col-lg-offset-1 col-md-4 text-center vcenter">
 			<img src="assets/img/types/developer/peerbox.svg" class="svg-halfwidth" />
 		</div>
 		<div class="col-lg-7 col-md-8 vcenter">

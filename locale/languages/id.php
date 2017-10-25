@@ -17,7 +17,6 @@ $lang['id'] += array(
 	'developers.what_are_you_waiting_for' => 'Nah, Apa yang Anda tunggu lagi?',
 	'developers.get_started' => 'Memulai dengan Peer4Commit',
 	'developers.notable_community_projects' => 'Proyek komunitas terkini.',
-	'developers.peerunity_desc' => '<b>Peerunity</b> adalah perangkat lunak dompet yang dikembangkan dan dikelola oleh komunitas Peercoin. Ini mencakup banyak kekurangan fitur tambahan yang dompet resmi, seperti kontrol koin dan satu kali klik pencetakan. Rilis di masa depan akan berisi didesain ulang tema, integrasi Peershares dan tab pencetakan.',
 	'developers.peershares_desc' => '<b>Peershares</b> adalah sebuah buku kas besar murah dan desentralisasi yang akan digunakan oleh perusahaan untuk mengumpulkan dana, pelacakan kepemilikan saham dan mendistribusikan dividen dalam mode otomatis. Setiap bisnis menggunakan Peershares memiliki blockchain sendiri yang independen dari semua orang lain dan dijamin murah dan mudah menggunakan proof-of-stake Peercoin.',
 	'developers.peerbox_desc' => '<b>PeerBox</b> adalah sebuah sistem operasi yang aman untuk pencetakan dan menjalankan pembengkakkan Peercoin, dan saat ini sedang dalam pengembangan aktif. Ini berfokus pada murah, perangkat hemat energi seperti Raspberry Pi, yang kompatibel dengan tujuan Peercoin menyediakan cryptocurrency hemat energi. Jika ASIC adalah istilah untuk pertambangan berdedikasi dan hemat energi, maka PeerBox adalah ASIC Proof-of-Stake.',
 	'developers.nubits_desc' => '<b>NuBits</b> adalah sebuah proyek yang akan diluncurkan oleh pencipta Peershares, Jordan Lee. NuBits akan menjadi implementasi pertama dari Peershares. Hal ini dimaksudkan untuk memecahkan masalah ketidakstabilan cryptocurrencies.',
@@ -168,11 +167,6 @@ $lang['id'] += array(
 	'mintguide.qt_step2' => 'Untuk memulai pencetakan pergi ke tombol membantu -> jendela debug -> konsol dan masukkan: <br> <kbd>walletpassphrase abc 999.999 true</kbd> <br> mana "abc" adalah password Anda dan "999999" adalah waktu dimana Anda ingin cetak dalam detik. Anda dapat mengubah jumlah waktu untuk apa pun yang Anda suka, tetapi biasanya paling mudah adalah mengaturnya pada angka yang sangat tinggi. Jika passphrase Anda memiliki ruang maka diapit dengan tanda kutip.',
 	'mintguide.qt_step3' => 'Kosongkan password Anda dengan menekan Ctrl-L.',
 	'mintguide.qt_step4' => 'Anda dapat memeriksa pencetakan Anda dengan melihat gembok kecil di sudut kanan bawah klien. Setelah beberapa saat itu harus menjadi terkunci. Jika Anda membawa mouse Anda di atasnya, itu harus mengatakan "Dompet ini encypted dan saat ini dibuka hanya untuk blok pencetakan".',
-	'mintguide.peerunity' => 'Peerunity adalah klien yang dikembangkan oleh komunitas Peercoin. Ini memiliki fitur lebih dari standar klien Peercoin v0.4, dan juga memiliki metode yang lebih mudah untuk pencetakan. Ini tersedia untuk Windows, Linux, dan OS X. Anda dapat mengunduh di sini dan melihat urutan peluncuran <a href="https://talk.peercoin.net/t/peerunity-v0-1-0-released-for-windows-linux-os-x/2455">disini</a>.',
-	'mintguide.peerunity_step1' => 'Pastikan dompet Anda dienkripsi dengan password yang baik. Catat ini dan menyimpannya di suatu tempat yang aman; jika Anda lupa kata sandi Anda akan kehilangan uang Anda. Pilihan enkripsi dompet dapat ditemukan di bawah tab pengaturan di Peerunity.',
-	'mintguide.peerunity_step2' => 'Untuk memulai pencetakan, cukup tekan tombol "Aktifkan Dompet Hanya untuk Pencetakan", masukkan password Anda dan tekan OK.',
-	'mintguide.peerunity_step3' => 'Anda dapat memeriksa pencetakan Anda dengan melihat gembok kecil di sudut kanan bawah klien. Setelah beberapa saat itu harus menjadi terkunci. Jika Anda membawa mouse Anda di atasnya, itu harus mengatakan "Dompet ini encypted dan saat ini dibuka hanya untuk blok pencetakan".',
-
 );
 $lang['id'] += array(
 	'mineguide.title' => 'Ikuti langkah-langkah ini untuk memulai penambangan Peercoin!',
@@ -224,7 +218,6 @@ $lang['id'] += array(
 	'waldownload.other_platforms' => 'Platform lain',
 	'waldownload.signatures' => 'Signatures',
 	'waldownload.qt_title' => 'Peercoin-QT',
-	'waldownload.peerunity_title' => 'Peerunity',	
 );
 $lang['id'] += array(
 	//Whitepaper
@@ -236,8 +229,6 @@ $lang['id'] += array(
 	// Wallet
 	'wallet.title' => 'Dompet',
 	'wallet.desc' => 'Sebuah dompet Peercoin adalah aplikasi yang digunakan untuk menyimpan dan bertransaksi Peercoins dengan pengguna lain. Peercoin memiliki dua dompet desktop yaitu: Peerunity dan Peercoin-QT. Kami merekomendasikan Peerunity untuk sebagian besar pengguna. Untuk informasi lebih lanjut tentang cara menggunakan software dompet Anda, kunjungi  <a href="newcomer">Halaman Pendatang Baru</a>.',
-	'wallet.peerunity' => 'Peerunity (rekomendasi)',
-	'wallet.peerunity_desc' => 'Peerunity dikembangkan oleh komunitas Peercoin. Ini termasuk fitur luar protokol dompet inti, seperti satu-klik mencetak dan mengkontrol koin. Rilis di masa depan akan berisi desain ulang panel kontrol, integrasi Peershares, dan didedikasikan untuk label mencetak. ',
 	'wallet.peercoinqt' => 'Peercoin-QT<br>(core protocol)',
 	'wallet.peercoinqt_desc' => 'Peercoin-QT adalah protokol inti Peercoin, yang dibangun dan dikelola oleh Peercoin pengembang Sunny King. Hanya menerima pembaruan prioritas tinggi.',
 	'wallet.paper_wallet' => 'Dompet Kertas.',

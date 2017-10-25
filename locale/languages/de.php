@@ -17,7 +17,6 @@ $lang['de'] += array(
 	'developers.what_are_you_waiting_for' => 'Nun, worauf warten Sie? ',
 	'developers.get_started' => 'Legen Sie los mit Peer4commit',
 	'developers.notable_community_projects' => 'Aktuelle Gemeinschaftsprojekte',
-	'developers.peerunity_desc' => '<b>Peerunity</b> ist eine Brieftaschensoftware, die von der Peercoin-Gemeinschaft entwickelt und gewartet wird. Sie enthält viele Zusatzfunktionen, die in der offiziellen Brieftasche fehlen, wie zum Beispiel Münzenkontrolle und Ein-Klick-Prägen. Zukünftige Versionen werden eine überarbeitete Oberfläche, Integration von Peershares und einen Reiter fürs Prägen enthalten.',
 	'developers.peershares_desc' => '<b>Peershares</b> ist eine kostengünstiger und dezentraler Aktienregister, der von Unternehmen für Mittelakquisition, Verfolgung von Aktienbesitz und automatisierte Dividendenausschüttungen verwendet werden kann. Jedes Unternehmen, das Peershares verwendet, besitzt eine eigene Blockkette, welche von allen anderen unabhängig ist und kostengünstig und einfach durch Peercoins Beweis-durch-Anteil geschützt wird.',
 	'developers.peerbox_desc' => '<b>Peerbox</b> ist ein sicheres Betriebssystem fürs Prägen und Betreiben von Peercoinknoten, welches im Moment aktiv weiterentwickelt wird. Es fokussiert sich auf günstige, energieeffiziente Geräte wie das Raspberry Pi, das mit Peercoins Ziel, der Bereitstellung einer energieeffizienten Kryptowährung, kompatibel ist. Wenn ASIC ein Begriff für dediziertes und energieeffizientes Schürfen ist, dann ist Peerbox das ASIC des Beweises-durch-Anteil.',
 	'developers.nubits_desc' => '<b>NuBits</b> ist ein Projekt des Schöpfers von Peershares, Jordan Lee. NuBits ist die erste Umsetzung von Peershares. Es ist dazu gedacht das Problem der Volatilität von Kryptowährungen zu lösen.',
@@ -174,11 +173,6 @@ $lang['de'] += array(
 	'mintguide.qt_step2' => 'Um das Prägen zu starten, klicken auf "Help" (Hilfe) -> "Debug window" (Debug-Fenster) -> "Console" (Konsole) und geben Sie ein: <br><kbd>walletpassphrase abc 999999 true</kbd><br> Die Zeichenkette "abc" ist hierbei Ihre Passphrase und "999999" die Zeitdauer des Prägens in Sekunden. Sie können die Anzahl der Sekunden beliebig verändern. Aber normalerweise ist es am einfachsten, einen sehr großen Wert zu wählen. Sollte Ihre Passphrase Leerzeichen enthalten, dann setzen Sie am Anfang und Ende der Passphrase Anführungszeichen.',
 	'mintguide.qt_step3' => 'Löschen Sie Ihre Passphrase mit der Tastenkombination Ctrl-L.',
 	'mintguide.qt_step4' => 'Sie können überprüfen, ob Sie gerade prägen, in dem Sie einen Blick auf das Vorhängeschloss in der rechten unteren Ecke des Fensters der Brieftasche werfen. Wenige Augenblicke später sollte es offen sein. Wenn Sie den Mauszeiger über das Schloss platzieren, sollte "Wallet is encypted and currently unlocked for block minting only" (Brieftasche ist verschlüsselt und aktuell nur zur Blockprägung entsperrt) zu lesen sein.',
-	'mintguide.peerunity' => 'Peerunity ist ein Client, der von der Peercoin-Gemeinschaft entwickelt wurde. Er hat mehr Funktionen als der Standard-Client Peercoin v0.4 und enthält außerdem noch eine einfachere Methode zum Prägen. Er ist verfügbar für Windows, Linux und macOS. Sie können ihn hier herunterladen. Eine Ankündigung zur Veröffentlichung finden Sie <a href="https://talk.peercoin.net/t/peerunity-v0-1-0-released-for-windows-linux-os-x/2455">hier im Forum</a>.',
-	'mintguide.peerunity_step1' => 'Vergewissern Sie sich, dass Ihre Brieftasche mit einer guten Passphrase verschlüsselt ist. Schreiben Sie sich diese auf und bewahren Sie sie an einem sicheren Platz auf. Sollten Sie die Passphrase vergessen, dann verlieren Sie Ihre Münzen. Die "Brieftasche verschlüsseln"-Option kann unter dem Reiter "Einstellungen" in Peerunity gefunden werden.',
-	'mintguide.peerunity_step2' => 'Um das Prägen zu starten, klicken Sie einfach auf die "Unlock Wallet for Minting Only"-Schaltfläche (Brieftasche nur zum Prägen entsperren), geben Sie Ihre Passphrase ein und klicken Sie auf OK.',
-	'mintguide.peerunity_step3' => 'Sie können überprüfen, ob Sie gerade prägen, in dem Sie einen Blick auf das Vorhängeschloss in der rechten unteren Ecke des Fensters der Brieftasche werfen. Wenige Augenblicke später sollte es offen sein. Wenn Sie den Mauszeiger über das Schloss platzieren, sollte "Wallet is encypted and currently unlocked for block minting only" (Brieftasche ist verschlüsselt und aktuell nur zur Blockprägung entsperrt) zu lesen sein.',
-
 );
 $lang['de'] += array(
 	// minting
@@ -218,13 +212,11 @@ $lang['de'] += array(
 	'waldownload.other_platforms' => 'Andere Plattformen',
 	'waldownload.signatures' => 'Signaturen',
 	'waldownload.qt_title' => 'Peercoin-QT',
-	'waldownload.peerunity_title' => 'Peerunity',	
+
 );$lang['de'] += array(
 	// Wallet
 	'wallet.title' => 'Brieftaschen',
 	'wallet.desc' => 'Ein Peercoin-Brieftasche ist eine Anwendung, die zum Lagern und Abwickeln von Transaktionen mit anderen Nutzern verwendet wird. Peercoin verfügt über zwei Brieftaschen für Desktop-Computer: Peerunity und Peercoin-QT. Wir empfehlen den meisten Nutzern die Nutzung von Peerunity. Um mehr darüber zu erfahren, wie Sie Ihre Brieftaschen-Software nutzen können, besuchen Sie die <a href="newcomers">Seite für Neu­an­kömm­linge</a>.',
-	'wallet.peerunity' => 'Peerunity (empfohlen)',
-	'wallet.peerunity_desc' => 'Peerunity wird von der Peercoin-Gemeinschaft entwickelt. Es enthält Funktionen, die über die der Kernprotokoll-Brieftasche hinausgehen, wie zum Beispiel Münzenkontrolle und Ein-Klick-Prägen. Zukünftige Versionen werden eine überarbeitete Oberfläche, Integration von Peershares und einen Reiter fürs Prägen enthalten.',
 	'wallet.peercoinqt' => 'Peercoin-QT<br>(Kernprotokoll)',
 	'wallet.peercoinqt_desc' => 'Peercoin-QT ist das Kernprotokoll von Peercoin, es wurde vom Peercoin-Entwickler Sunny King erstellt und wird auch von ihm gewartet.',
 	'wallet.paper_wallet' => 'Papier-Brieftasche',
@@ -233,6 +225,7 @@ $lang['de'] += array(
 	'wallet.android_wallet_desc' => 'Eine mobile Peercoin-Brieftasche, die Ihnen das Verwalten Ihrer Peercoins auf einem Handy ermöglicht, ohne dass Sie die Blockkette in voller Größe bei sich tragen müssen. Es schont den wertvollen Speicherplatz auf Ihrem Android-Gerät und ermöglicht Ihnen, Ihre Münzen mitzunehmen, wo auch immer Sie sind.',
 	'wallet.download' => 'Herunterladen',
 	'wallet.visit_site' => 'Besuchen',
+
 );
 $lang['de'] += array(
 	//Whitepaper

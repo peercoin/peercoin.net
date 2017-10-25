@@ -17,7 +17,6 @@ $lang['ro'] += array(
 	'developers.what_are_you_waiting_for' => 'Bine, ce mai așteptați?',
 	'developers.get_started' => 'Începeți cu Peer4commit',
 	'developers.notable_community_projects' => 'Proiectele actuale ale comunitații',
-	'developers.peerunity_desc' => '<b>Peerunity</b> este un portofel dezvoltat și întreținut de comunitatea Peercoin. Acesta include numeroase caracteristici suplimentare pe care portofelul oficial nu le are, cum ar fi controlul monedelor și minarea cu un singur clic. Versiunile viitoare vor conține teme cu alt design, integrarea Peershares și un tab pentru minare.',
 	'developers.peershares_desc' => '<b>Peershares</b> este un registru ieftin și descentralizat pentru a fi utilizat în afaceri pentru a obține fonduri, a urmări proprietatea asupra acțiunilor și a distribui dividendele într-un mod automat. Fiecare afacere care utilizează Peershares are propriul bloc de blocuri, care este independent de toate celelalte și asigurat ieftin și ușor, folosind Peercoin Proof-of-Stake.',
 	'developers.peerbox_desc' => '<b>Peerbox</b> este un sistem de operare securizat pentru minarea și rularea nodurilor Peercoin și este în curs de dezvoltare activă. Se concentrează pe dispozitive ieftine, eficiente din punct de vedere energetic, cum ar fi Raspberry Pi, care este compatibil cu obiectivul Peercoin: de a oferi o cripto-valută eficientă din punct de vedere energetic. Dacă ASIC-ul este un dispozitiv dedicat activităților miniere eficiente din punct de vedere energetic, atunci Peerbox este un ASIC a minării prin Menținere POS.',
 	'developers.nubits_desc' => '<b>NuBits</b> este un proiect al creatorului Peershares, Jordan Lee. NuBits este prima implementare de Peershares. Se intenționează rezolvarea problemei volatilității în cripto-valute.',
@@ -174,11 +173,6 @@ $lang['ro'] += array(
 	'mintguide.qt_step2' => 'Pentru a începe minarea prin menținere, mergeți la Ajutor -> Fereastra de depanare -> Consola ... și introduceți: <br><kbd>walletpassphrase abc 999999 true</kbd><br>, unde "abc" este fraza de acces și "999999" timpul de menținere în secunde. Puteți schimba timpul cum vă place, dar este de obicei mai simplu să îl setați la un număr foarte mare. Dacă fraza de acces are spații, atunci o includeți-o în ghilimele.',
 	'mintguide.qt_step3' => 'Ștergeți Fraza de Acces apăsând pe Ctrl-L.',
 	'mintguide.qt_step4' => 'Puteți verifica dacă generați uitându-vă la lacătul mic din colțul din dreapta de jos al clientului. După câteva momente ar trebui să devină deblocat. Dacă deplasați mouse-ul peste el, ar trebui să spună: "Portofelul este encodat și deblocat pentru generarea blocurilor".',
-	'mintguide.peerunity' => 'Peerunity este un client dezvoltat de comunitatea Peercoin. Are mai multe caracteristici decât clientul standard Peercoin v0.4 și de asemenea are o metodă mai simplă de Menținere. Este disponibil pentru Windows, Linux și OS X. Puteți descărca și vizualiza forumul de la lansare <a href = "https://talk.peercoin.net/t/peerunity-v0-1-0-released-for-windows-linux-os-x/2455">aici</a>.',
-	'mintguide.peerunity_step1' => 'Asigurați-vă că portofelul dvs. este criptat cu o frază de acces bună. Scrieți-o și păstrați-o undeva în siguranță; Dacă uitați această parola de acces, vă veți pierde monedele. Opțiunea de criptare a portofelului poate fi găsită în fila Setări din secțiunea Peerunity.',
-	'mintguide.peerunity_step2' => 'Pentru a începe generarea prin menținere, apăsați butonul "Deblocare Wallet doar pentru Minare", introduceți fraza de acces și apăsați OK.',
-	'mintguide.peerunity_step3' => 'Puteți verifica dacă generați prin menținere uitându-vă la lacătul mic din colțul din dreapta jos al clientului. După câteva momente ar trebui să devină deblocat. Dacă deplasați mouse-ul peste el, ar trebui să spună că "Portofelul este encriptat și deblocat pentru minarea blocurilor".',
-
 );
 $lang['ro'] += array(
 	// minting
@@ -218,13 +212,10 @@ $lang['ro'] += array(
 	'waldownload.other_platforms' => 'Alte platforme',
 	'waldownload.signatures' => 'Semnături',
 	'waldownload.qt_title' => 'Peercoin-QT',
-	'waldownload.peerunity_title' => 'Peerunity',	
 );$lang['ro'] += array(
 	// Wallet
 	'wallet.title' => 'Portmonee',
 	'wallet.desc' => 'Un portofel Peercoin este o aplicație utilizată pentru a stoca și a transporta Peercoins între utilizatori. Peercoin are două portofele desktop: Peerunity și Peercoin-QT. Vă recomandăm Peerunity pentru majoritatea utilizatorilor. Pentru mai multe informații despre utilizarea aplicației dvs. de portofel, accesați pagina <a href="newcomers">Utilizatori noi</a>.',
-	'wallet.peerunity' => 'Peerunity (recomandat)',
-	'wallet.peerunity_desc' => 'Peerunity este dezvoltat de comunitatea Peercoin. Acesta include unele  funcții în plus față de portofelul de bază al protocolului, cum ar fi Minarea cu un singur click și Controlul monedelor. Versiunile viitoare vor conține un panou de control reproiectat, pentru integrarea Peershares și o filă pentru Minare.',
 	'wallet.peercoinqt' => 'Peercoin-QT<br>(protocolul de bază)',
 	'wallet.peercoinqt_desc' => 'Peercoin-QT este protocolul de bază al Peercoin, construit și întreținut de dezvoltatorul Peercoin, Sunny King. Acesta primește numai actualizări cu prioritate ridicată.',
 	'wallet.paper_wallet' => 'Portofel de hârtie',

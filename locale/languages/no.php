@@ -17,7 +17,6 @@ $lang['no'] += array(
 	'developers.what_are_you_waiting_for' => 'Hva er det du venter på?',
 	'developers.get_started' => 'Kom i gang med Peer4Commit',
 	'developers.notable_community_projects' => 'Pågående prosjekter i samfunnet',
-	'developers.peerunity_desc' => '<b>Peerunity</b> er en lommebok utviklet av Peercoin samfunnet. Den inkluderer funksjoner utover kjerneprotokollen, som for eksempel ett klikk preging og myntkontroll. Fremtidige utgivelser vil inneholde et redesignet kontrollpanel, integrasjon av Peershares og en dedikert fane for preging.',
 	'developers.peershares_desc' => '<b>Peershares</b> er en billig og desentralisert hovedbok som kan brukes av bedrifter for å skaffe kapital, spore eierskap over aksjer og distribusjon av utbytte på en automatisert måte. Hver enkelt virksomhet som bruker Peershares har sin egen blokkjede som er uavhengig av alle andre og som er sikret billig og enkelt ved å bruke Peercoin sin Proof-of-Stake.',
 	'developers.peerbox_desc' => '<b>PeerBox</b> er et sikkert operativsystem for preging og kjøring av Peercoin-noder, og er for tiden under aktiv utvikling. Den fokuserer på billige og energieffektive enheter som Raspberry Pi, som er kompatibel med Peercoin sitt mål om å være en energieffektiv kryptovaluta. Hvis ASIC er et begrep for dedikert og energieffektiv graving, da er PeerBox en ASIC for Proof-of-Stake.',
 	'developers.nubits_desc' => '<b>NuBits</b> er et prosjekt som venter på avduking, og som er ledet av skaperen av Peershares, Jordan Lee. NuBits vil være den første implementeringen av Peershares. Det er ment å løse problemet med volatilitet i kryptovalutaer.',
@@ -168,11 +167,6 @@ $lang['no'] += array(
 	'mintguide.qt_step2' => 'For å starte å prege gå til hjelp -> vindu for feilsøking -> konsoll og skriv: <br><kbd>walletpassphrase abc 999999 true</kbd><br> der "abc" er passordet ditt og "999999" er det tidsrommet du ønsker å prege for i løpet av sekunder. Du kan endre tidsrommet til hva du vil, men det er som regel det letteste å bare sette det til et svært høyt tall. Hvis passordet inneholder mellomrom må det settes i anførselstegn.',
 	'mintguide.qt_step3' => 'Visk ut passordet ved å trykke Ctrl-L.',
 	'mintguide.qt_step4' => 'Du kan sjekke at du preger ved å se på den lille hengelåsen nederst i høyre hjørne av klienten. Etter en stund bør den bli låst opp. Hvis du holder musa over den, bør den si "Lommeboken er kryptert og for øyeblikket kun låst opp for preging av blokker".',
-	'mintguide.peerunity' => 'Peerunity er en klient utviklet av Peercoin samfunnet. Den har flere funksjoner enn standard Peercoin v0.4 klienten, og har også en enklere metode for å prege. Den er tilgjengelig for Windows, Linux og OS X. Du kan laste den ned her og se lanseringstråden <a href="https://talk.peercoin.net/t/peerunity-v0-1-0-released-for-windows-linux-os-x/2455">her</a>.',
-	'mintguide.peerunity_step1' => 'Krypter lommeboken din med et godt passord. Skriv dette ned og gjem det på et sikkert sted. Hvis du glemmer passordet vil du miste myntene dine. Alternativet for å kryptere lommeboken finner du under fanen innstillinger i Peerunity.',
-	'mintguide.peerunity_step2' => 'For å starte å prege trykker du bare på "Lås Opp Lommeboken Kun For Preging"-knappen, skriver inn passordet ditt og trykker OK.',
-	'mintguide.peerunity_step3' => 'Du kan sjekke at du preger ved å se på den lille hengelåsen nederst i høyre hjørne av klienten. Etter en stund bør den bli låst opp. Hvis du holder musa over den, bør den si "Lommeboken er kryptert og for øyeblikket kun låst opp for preging av blokker".',
-
 );
 $lang['no'] += array(
 	'mineguide.title' => 'Følg disse punktene for å starte graving av Peercoin!',
@@ -224,7 +218,6 @@ $lang['no'] += array(
 	'waldownload.other_platforms' => 'Andre plattformer',
 	'waldownload.signatures' => 'Signaturer',
 	'waldownload.qt_title' => 'Peercoin-QT',
-	'waldownload.peerunity_title' => 'Peerunity',	
 );
 $lang['no'] += array(
 	//Whitepaper
@@ -236,8 +229,6 @@ $lang['no'] += array(
 	// Wallet
 	'wallet.title' => 'Lommebøker',
 	'wallet.desc' => 'En Peercoin-lommebok er et program som brukes til å lagre og utveksle peercoins med andre brukere. Peercoin har to lommebøker for datamaskiner: Peerunity og Peercoin-QT. Vi anbefaler Peerunity for de fleste brukere. For mer informasjon om hvordan du bruker lommeboken, kan du gå til <a href="newcomers">Nykommere siden</a>.',
-	'wallet.peerunity' => 'Peerunity (anbefalt)',
-	'wallet.peerunity_desc' => 'Peerunity er utviklet av Peercoin samfunnet. Den inkluderer funksjoner utover kjerneprotokollen, som for eksempel ett klikk preging og myntkontroll. Fremtidige utgivelser vil inneholde et redesignet kontrollpanel, integrasjon av Peershares og en dedikert fane for preging.',
 	'wallet.peercoinqt' => 'Peercoin-QT<br>(kjerneprotokollen)',
 	'wallet.peercoinqt_desc' => 'Peercoin-QT er Peercoin sin kjerneprotokoll, bygget og vedlikeholdt av Peercoin utvikleren Sunny King. Den mottar bare høyt prioriterte oppdateringer.',
 	'wallet.paper_wallet' => 'Lommebok På Papir',
