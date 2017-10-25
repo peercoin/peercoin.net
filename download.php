@@ -2,9 +2,9 @@
 <?php
     // Download link list:
     $download_links = array(
-        'windows' => 'https://sourceforge.net/projects/ppcoin/files/0.5.4/ppcoin-0.5.4-win32-setup.exe/download',
-        'mac' => 'https://rbfi.io/dl.php?key=/WPy0/PPcoin-QT.dmg',
-        'linux' => 'https://sourceforge.net/projects/ppcoin/files/0.5.4/ppcoin-0.5.4ppc-linux.tar.gz/download'
+        'windows' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.0ppc/peercoin-qt.exe',
+        'mac' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.0ppc/Peercoin_v0.6.0.dmg',
+        'linux' => 'https://github.com/peercoin/peercoin/archive/v0.6.0ppc.tar.gz'
     );
 
     $CurrOS = "windows";
@@ -41,7 +41,7 @@
 ?>
 <h1 class="page-title"><?php echo $Locale->getText("waldownload.qt_title"); ?></h1>
 <div class="row">
-    <div class="col-md-6"><img src="assets/img/downloads/wallet_ss_<?php echo $CurrOS; ?>.png" style="width:100%" /></div>
+    <div class="col-md-6"><img src="assets/img/downloads/wallet_ss.png" style="width:100%" /></div>
     <div class="col-md-6 downloads">
         <div class="main-os">
             <a href="<?php echo $download_links[$CurrOS]; ?>" class="btn btn-primary btn-lg <?php echo $CurrOS; ?>">
@@ -50,7 +50,7 @@
             </a>
             <p><?php echo substr($download_links[$CurrOS], strrpos($download_links[$CurrOS], '/')+1); ?></p>
             <p>
-                <a href="https://github.com/ppcoin/ppcoin"><?php echo $Locale->getText("waldownload.source"); ?></a>
+                <a href="https://github.com/peercoin/peercoin"><?php echo $Locale->getText("waldownload.source"); ?></a>
                 <a href="#" data-toggle="modal" data-target="#license"><?php echo $Locale->getText("waldownload.license"); ?></a>
             </p>
         </div>
@@ -84,16 +84,16 @@
                                 <th>SHA-256</th>
                             </tr>
                             <tr>
-                                <td><code>ppcoin-0.5.4-win32-setup.exe</code></td>
-                                <td>92f36c2fc23a9202a23fef5f18c2a161e92d4bc81a5be49c41e6597b2868fc8a</td>
+                                <td><code>peercoin-qt.exe</code></td>
+                                <td>952314d54413dd11a806dd88e35ebd88add1b208e221bd98894b69865d47c6a3</td>
                             </tr>
                             <tr>
-                                <td><code>https://github.com/ppcoin/ppcoin/</code></td>
-                                <td>-</td>
+                                <td><code>Peercoin_v0.6.0.dmg</code></td>
+                                <td>04a1b4b00a824fb67aa541a541cd6f463947da512f924915c13ceb314beaa14a</td>
                             </tr>
                             <tr>
-                                <td><code>ppcoin-0.5.4ppc-linux.tar.gz</code></td>
-                                <td>1a15a190e95507b1686b5f4a32568e9b891cbed0e86ab711c489939d685e159a</td>
+                                <td><code>v0.6.0ppc.tar.gz</code></td>
+                                <td>97879dab8220ae0e9d0c4053669835f5038d48793d72e5210f2c7faeff3423c3</td>
                             </tr>
                         </table>
                     </div>
@@ -120,7 +120,7 @@
 
             <ul>
                 <li>Install
-                <code>ppcoin-0.5.4-win32-setup.exe</code>
+                <code>peercoin-qt.exe</code>
 
                 <li>Default installation directory is
                 <code>C:\Program Files\PPCoin</code></li>
@@ -151,7 +151,7 @@
             <h3>OS X</h3>
 
             <ul>
-                <li>Mount <code>PPCoin-Qt-v0_5_4.dmg</code> by opening
+                <li>Mount <code>Peercoin_v0.6.0.dmg</code> by opening
                 it</li>
 
                 <li>Drag <code>PPCoin-Qt.app</code> to
@@ -187,14 +187,14 @@
             <ul class="nav nav-tabs" role="tablist">
             <li><a href="#gen" role="tab" data-toggle="tab"> Generic Linux </a></li>
             <li><a href="#arch" role="tab" data-toggle="tab">ArchLinux</a></li>
-            <li><a href="#deb" role="tab" data-toggle="tab">Debian </a></li>
-            <li><a href="#ubu" role="tab" data-toggle="tab">Ubuntu</a></li>
+#           <li><a href="#deb" role="tab" data-toggle="tab">Debian </a></li>
+#           <li><a href="#ubu" role="tab" data-toggle="tab">Ubuntu</a></li>
             </ul>
         
         <div class="tab-pane<?php if($CurrOS == "linux") echo " active"; ?>" id="gen">                    
             <ul>
                 <li>Unpack
-                <code>ppcoin-0.5.4ppc-linux.tar.gz</code></li>
+                <code>v0.6.0ppc.tar.gz</code></li>
 
                 <li>Run <code>bin/32/ppcoin-qt</code> <em>(requires
                 libqt4-gui)</em></li>
@@ -217,61 +217,61 @@
             <code>bin/64/{ppcoin-qt,ppcoind}</code>.</em></p>
         </div>
         
-                <div class="tab-pane" id="arch">
+               <div class="tab-pane" id="arch">
                     <h2 id="config">ArchLinux</h2>
 
-                    <p><em>If you are ArchLinux user, you can find Peercoin packages in AUR.</em></p>
+                   <p><em>If you are ArchLinux user, you can find Peercoin packages in AUR.</em></p>
                     <h4>Or you can use AUR helper like yaourt to automate the process for you.</h4>
 
-                    <p><code>yaourt -S peercoin-qt</code></p>
+                   <p><code>yaourt -S peercoin-qt</code></p>
                 </div>
-                <div class="tab-pane" id="deb">
-                    <h2 id="config">Debian 8.0</h2>
-
-                    <p><em>Open the terminal as root and paste following commands:</em></p>
-                    <p><em>Add keys</em></p>
-                    <div style="background-color:#F1F1F1">
-                        <p><code>wget http://download.opensuse.org/repositories/home:peerchemist/Debian_8.0/Release.key</code>
-                        <br>
-                        <code> apt-key add - &#60; Release.key </code>
-                        </p>
-                    </div>
-                    <p><em>Add repository:</em></p>
-                    <div style="background-color:#F1F1F1">
-                        <p><code>echo 'deb http://download.opensuse.org/repositories/home:/peerchemist/Debian_8.0/ /' >> /etc/apt/sources.list.d/ppcoin.list   </code><br>
-                    </div>
-                    <p><em>Update and install:</em></p>
-                    <div style="background-color:#F1F1F1">
-                        <code>apt-get update && apt-get install ppcoin  </code><br>
-                        <code>  </code></p>
-                </div>
-                </div>
-                <div class="tab-pane" id="ubu">
-                    <h2 id="config">Ubuntu 15.10</h2>
-                   
-                    <h4>Important: Only Ubuntu 15.10 and <b>above</b> are supported</h4>
-   
-                    <p><em>Open the terminal and paste following commands:</em></p>
-                    <p><em>Add key:</em></p>
-                    <div style="background-color:#F1F1F1">
-                        <p><code>wget http://download.opensuse.org/repositories/home:peerchemist/xUbuntu_15.10/Release.key</code>
-                        <br>
-                        <code> sudo apt-key add - &#60; Release.key </code>
-                        </p>
-                    </div>
-                    <p><em>Add repository:</em></p>
-                    <div style="background-color:#F1F1F1">
-                        
-                        <p><code>sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/peerchemist/xUbuntu_15.10/ /' >> /etc/apt/sources.list.d/ppcoin.list" </code><br>
-                        
-                    </div>
-                    <p><em>Update and install:</em></p>
-                    <div style="background-color:#F1F1F1">
-                        
-                        <p><code>sudo apt-get update && sudo apt-get install ppcoin </code><br>
-                        
-                    </div>
-                </div>
+#                <div class="tab-pane" id="deb">
+#                    <h2 id="config">Debian 8.0</h2>
+#
+#                    <p><em>Open the terminal as root and paste following commands:</em></p>
+#                    <p><em>Add keys</em></p>
+#                    <div style="background-color:#F1F1F1">
+#                        <p><code>wget http://download.opensuse.org/repositories/home:peerchemist/Debian_8.0/Release.key</code>
+#                        <br>
+#                        <code> apt-key add - &#60; Release.key </code>
+#                        </p>
+#                    </div>
+#                    <p><em>Add repository:</em></p>
+#                    <div style="background-color:#F1F1F1">
+#                        <p><code>echo 'deb http://download.opensuse.org/repositories/home:/peerchemist/Debian_8.0/ /' >> /etc/apt/sources.list.d/ppcoin.list   </code><br>
+#                    </div>
+#                    <p><em>Update and install:</em></p>
+#                    <div style="background-color:#F1F1F1">
+#                        <code>apt-get update && apt-get install ppcoin  </code><br>
+#                        <code>  </code></p>
+#                </div>
+#                </div>
+#                <div class="tab-pane" id="ubu">
+#                    <h2 id="config">Ubuntu 15.10</h2>
+#                   
+#                    <h4>Important: Only Ubuntu 15.10 and <b>above</b> are supported</h4>
+#   
+#                    <p><em>Open the terminal and paste following commands:</em></p>
+#                    <p><em>Add key:</em></p>
+#                    <div style="background-color:#F1F1F1">
+#                        <p><code>wget http://download.opensuse.org/repositories/home:peerchemist/xUbuntu_15.10/Release.key</code>
+#                        <br>
+#                        <code> sudo apt-key add - &#60; Release.key </code>
+#                        </p>
+#                    </div>
+#                    <p><em>Add repository:</em></p>
+#                    <div style="background-color:#F1F1F1">
+#                        
+#                        <p><code>sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/peerchemist/xUbuntu_15.10/ /' >> /etc/apt/sources.list.d/ppcoin.list" </code><br>
+#                        
+#                    </div>
+#                    <p><em>Update and install:</em></p>
+#                    <div style="background-color:#F1F1F1">
+#                        
+#                        <p><code>sudo apt-get update && sudo apt-get install ppcoin </code><br>
+#                        
+#                    </div>
+#                </div>
             </div>
         </div>
 
