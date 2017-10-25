@@ -228,7 +228,7 @@ $lang['tl_PH'] += array(
 $lang['tl_PH'] += array(
 	// Wallet
 	'wallet.title' => 'Mga Pitaka',
-	'wallet.desc' => 'Ang pitakang Peercoin ay isang aplikasyon na ginagamit para mag-imbak at mag-transak ng Peercoins sa iba pang gumagamit. Ang Peercoin ay may dalawang desktop wallets: Peerunity at Peercoin-QT. Inirerekomenda namin ang Peerunity sa halos lahat ng gumagamit. Para sa higit pang impormasyon kung paano gamitin ang iyong wallet software, bumisita sa <a href="newcomers">Bagong mga dating na pahina</a>.',
+	'wallet.desc' => 'Ang pitakang Peercoin ay isang aplikasyon na ginagamit para mag-imbak at mag-transak ng Peercoins sa iba pang gumagamit. Para sa higit pang impormasyon kung paano gamitin ang iyong wallet software, bumisita sa <a href="newcomers">Bagong mga dating na pahina</a>.',
 	'wallet.peercoinqt' => 'Peercoin-QT<br>(core protocol)',
 	'wallet.peercoinqt_desc' => 'Ang Peercoin-QT ay ang pangunahing protocol ng Peercoin, na binuo at pinanatili ng isang nagbuo ng Peercoin na si Sunny King. Nakakatanggap lang ito ng matataas na priyoridad na babaguhing kaalaman.',
 	'wallet.paper_wallet' => 'Pitakang Papel',
