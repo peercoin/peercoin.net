@@ -216,7 +216,7 @@ $lang['zh'] += array(
 $lang['zh'] += array(
 	// Wallet
 	'wallet.title' => '钱包',
-	'wallet.desc' => '点点币的钱包是用来存储以及与其他用户进行点点币交易的应用程序。点点币有两个桌面钱包：Peerunity和Peercoin-QT。我们建议大多数用户使用Peerunity。关于如何使用钱包软件的更多信息，请访问<a href="newcomers">新手页面</a>。',
+	'wallet.desc' => '点点币的钱包是用来存储以及与其他用户进行点点币交易的应用程序。关于如何使用钱包软件的更多信息，请访问<a href="newcomers">新手页面</a>。',
 	'wallet.peercoinqt' => 'QT版点点币钱包<br>(核心协议)',
 	'wallet.peercoinqt_desc' => 'QT版点点币钱包是点点币的核心协议，由点点币的开发者Sunny King所创建和维护。这个版本只接受高优先级的更新。',
 	'wallet.paper_wallet' => '纸钱包',
