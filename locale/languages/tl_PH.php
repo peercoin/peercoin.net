@@ -17,7 +17,6 @@ $lang['tl_PH'] += array(
 	'developers.what_are_you_waiting_for' => 'Well, ano pa ang hinihintay mo?',
 	'developers.get_started' => 'Magsimula sa Peer4Commit',
 	'developers.notable_community_projects' => 'Kasalukuyang mga proyekto ng komunidad',
-	'developers.peerunity_desc' => 'Ang <b>Peerunity</b> ay isang wallet software na nabuo at napanatili nang komunidad ng Peercoin.  Kasama dito ang maraming mga dagdag na tampok na kulang ang opisyal na wallet, tulad ng coin kontrol at isang click minting. Ang mga ipapalabas ay maglalaman ng isang bagong disenyo na tema, pagsama-sama ng peershares at isang minting tab.',
 	'developers.peershares_desc' => 'Ang <b>Peershares</b> ay isang mura at desentralisado ledger na ginagamit ng mga negosyo para sa pagtataas ng mga pondo,  pagsubaybay na pamamahagi na pagmamay-ari at pamamahagi ng dividends sa isang awtomatikong paraan. Ang bawat negosyo na gumagamit ng Peershares ay may sariling blockchain na hiwalay sa lahat ng iba pa at murang seguridad at madaling gamiting na maambag na pruweba ng Peercoin.',
 	'developers.peerbox_desc' => 'Ang peerbox ay isang pangligtas na sistemang operatibo para sa minting at tumatakbong Peercoin nodes, at sa kasalukuyan ay nasa ilalim ng aktibong pag-unlad.  Ito ay nakatuon sa murang, mahusay na enerhiya na aparato tulad ng Raspberry Pi, na kung saan ay tugma sa layunin ng Peercoin na magbigay ng mahusay na enerhiya na cryptocurrency. Kung ang ASIC ay isang termino para sa dedikado at mahusay na enerhiya na pagmimina, ang Peerbox ay isang ASIC na naaambag na pruweba.',
 	'developers.nubits_desc' => 'Ang <b>NuBits</b> ay isang proyektong ipapalabas pa lamang ng gumawa ng Peershares na si Jordan Lee. Ang Nubits ay ang unang ipapatupad ng Peershares. Inilalaan ito para malutas ang problema ng pagkasumpungin sa cryptocurrencies.',
@@ -168,11 +167,6 @@ $lang['tl_PH'] += array(
 	'mintguide.qt_step2' => 'Upang simulan ang minting pumunta sa pagtulong -> debug window -> aaluin at pumasok: <br><kbd>walletpassphrase abc 999999 true</kbd><br> kung saan ang "abc" ay iyong passphrase at "999999"  ay ang oras na nais mong mag-mint para sa ilang segundo. Maaari mong baguhin ang dami ng oras sa anumang nais mo, ngunit ito ay karaniwang pinakamadali lamang kung itakda sa isang napakataas na bilang. Kung ang iyong passphrase ay may puwang puwes ilakip ito sa mga panipi.',
 	'mintguide.qt_step3' => 'I-clear ang iyong passphrase sa pamamagitan ng pagpindot sa Ctrl-L.',
 	'mintguide.qt_step4' => 'Maaari mong tingnan na nagmi-minting ka sa pamamagitan ng pagtingin sa maliit na kandado sa ibabang kanang sulok ng kliyente. Pagkatapos ng ilang sandali dapat itong buksan. Kung itatapat mo ang mouse dito, dapat "Ang pitaka ay na-encypt at kasalukuyang bukas para sa block minting lamang" ang sasabihin nito.',
-	'mintguide.peerunity' => 'Ang Peerunity ay isang kliyente na binuo ng komunidad ng Peercoin. Mas marami itong tampok kaysa sa karaniwang Peercoin v0.4 na kliyente, at mayroon ding mas madaling paraan para sa minting. Ito ay magagamit para sa Windows, Linux, at OS X. Maaari mong i-download ito dito at tingnan ang inilunsad na thread <a href="https://talk.peercoin.net/t/peerunity-v0-1-0-released-for-windows-linux-os-x/2455">dito</a>.',
-	'mintguide.peerunity_step1' => 'Tiyakin na ang iyong pitaka ay naka-encrypt gamit ang isang mahusay na passphrase. Isulat ito at itago sa isang lugar na ligtas; kung nakalimutan mo ang passphrase mawawala sa iyo ang iyong mga barya. Ang pagpipilian sa pag-encrypt ng pitaka ay makikita sa ilalim ng tab na mga setting sa Peerunity.',
-	'mintguide.peerunity_step2' => 'Upang simulan ang minting, pindutin lamang ang "Buksan ang Pitaka para sa Minting lamang" na button, ipasok ang iyong passphrase at pindutin ang OK.',
-	'mintguide.peerunity_step3' => 'Maaari mong tingnan na nagmi-minting ka sa pamamagitan ng pagtingin sa maliit na kandado sa ibabang kanang sulok ng kliyente. Pagkatapos ng ilang sandali dapat itong buksan. Kung itatapat mo ang mouse dito, dapat "Ang pitaka ay na-encypt at kasalukuyang bukas para sa block minting lamang" ang sasabihin nito.',
-
 );
 $lang['tl_PH'] += array(
 	'mineguide.title' => 'Follow these steps to start mining Peercoin!',
@@ -224,7 +218,6 @@ $lang['tl_PH'] += array(
 	'waldownload.other_platforms' => 'Iba pang plataporma',
 	'waldownload.signatures' => 'Pirma',
 	'waldownload.qt_title' => 'Peercoin-QT',
-	'waldownload.peerunity_title' => 'Peerunity',	
 );
 $lang['tl_PH'] += array(
 	//Whitepaper
@@ -236,8 +229,6 @@ $lang['tl_PH'] += array(
 	// Wallet
 	'wallet.title' => 'Mga Pitaka',
 	'wallet.desc' => 'Ang pitakang Peercoin ay isang aplikasyon na ginagamit para mag-imbak at mag-transak ng Peercoins sa iba pang gumagamit. Ang Peercoin ay may dalawang desktop wallets: Peerunity at Peercoin-QT. Inirerekomenda namin ang Peerunity sa halos lahat ng gumagamit. Para sa higit pang impormasyon kung paano gamitin ang iyong wallet software, bumisita sa <a href="newcomers">Bagong mga dating na pahina</a>.',
-	'wallet.peerunity' => 'Peerunity (inirerekomenda)',
-	'wallet.peerunity_desc' => 'Ang Peerunity ay binuo ng komunidad ng Peercoin. Kasama dito ang mga tampok na higit pa sa core protocol wallet, tulad ng isang-click na minting at kontroladong barya. Ang ipapalabas sa kakaharapin ay maglalaman ng muling idinesenyong control panel, pagsama-sama ng Peershares, at ang itinalagang Minting tab.',
 	'wallet.peercoinqt' => 'Peercoin-QT<br>(core protocol)',
 	'wallet.peercoinqt_desc' => 'Ang Peercoin-QT ay ang pangunahing protocol ng Peercoin, na binuo at pinanatili ng isang nagbuo ng Peercoin na si Sunny King. Nakakatanggap lang ito ng matataas na priyoridad na babaguhing kaalaman.',
 	'wallet.paper_wallet' => 'Pitakang Papel',

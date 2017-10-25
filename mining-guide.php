@@ -27,10 +27,7 @@
 							    	<a href="https://peercoin.ecoining.com/">Ecoining</a> -  1% fee, dynamic PPLNS payment system
 							    </li>
 							    <li>
-							    	<a href="https://ppcoin.d7.lt/">D7</a> -  1.5% fee, PPLNS: payout per share of the last N rounds
-							    </li>
-							    <li>
-							    	<a href="http://ppc.fixx.ru/">Fixx</a> -  Donation only, PPLNS: payout per share of the last N rounds
+							    	<a href="https://hrobeers.github.io/ppc-solo-mine">Peercoin Solo Pool</a> -  Solo mining with immediate payouts
 							    </li>
 						    </ul>
 						</div>

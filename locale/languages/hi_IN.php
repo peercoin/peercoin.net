@@ -17,7 +17,6 @@ $lang['hi_IN'] += array(
 	'developers.what_are_you_waiting_for' => 'खैर, आप किस बात की इंतज़ार कर रहे हैं ?',
 	'developers.get_started' => 'Peer4Commit के साथ शुरू हो जाइये ',
 	'developers.notable_community_projects' => 'वर्तमानकालीन सामुदायिक परियोजनाएं',
-	'developers.peerunity_desc' => 'Peercoin समुदाय द्वारा विकसित और अनुरक्षित <b>Peerunity</b> एक बटुआ सॉफ्टवेयर  है | इसमें प्रामाणिक बटुआ परे कई सुविधाएँ उपलब्ध हैं जैसे की एक क्लिक से मुद्रांकन और मुद्रा नियंत्रण | भविष्य के रिलीज़ में पुनर्रचित थीम, Peershares एकीकरण, और एक मुद्रांकन टैब शामिल होंगे |',
 	'developers.peershares_desc' => 'Peershares ऐसा एक सस्ती और विकेन्द्रीकृत खाता-बही है जिसे उपयोग करके व्यवसायों स्वचालित रूप से अनुदान संचयन, शेयर स्वामित्व की पता और लाभांश वितरण कर सकते हैं | Peershares उपयोग करने वाले प्रत्येक व्यवसाय कि अपनी ही ब्लॉकश्रृंखला होंगी जो एक दूसरों से स्वतंत्र है और Peercoin के हिस्सेदारी-के-प्रमाण तंत्र का उपयोग कर सस्ते में और आसानी से सुरक्षित है |',
 	'developers.peerbox_desc' => '<b>Peerbox</b> मुद्रांकन और Peercoin नोड्स चलाने के लिए एक सुरक्षित ऑपरेटिंग सिस्टम है, और वर्तमान सक्रिय विकास के अंतर्गत है | यह सस्ती, ऊर्जा दक्ष यंत्रों, यथा Raspberry Pi, पर केंद्रित है, जो ऊर्जा दक्ष cryptocurrency उपलब्ध कराने के Peercoin के लक्ष्य के साथ संगत है | अगर ASIC समर्पित और ऊर्जा दक्ष खनन के लिए एक शब्द है, तो PeerBox हिस्सेदारी-के-प्रमाण तंत्र का ASIC है |',
 	'developers.nubits_desc' => '<b>NuBits</ b> Peershares के निर्माता, Jordan Lee से भविष्य में अनावरण होने वाली एक परियोजना है | NuBits Peershares के प्रथम कार्यान्वयन होगी | इससे cryptocurrencies में अस्थिरता की समस्या का समाधान करने का इरादा है |',
@@ -169,12 +168,6 @@ $lang['hi_IN'] += array(
 	'mintguide.qt_step2' => 'मुद्रांकन शुरू करने के लिए help -> debug window -> console तक जाएं और यह दर्ज करें: <br><kbd>walletpassphrase abc 999999 true</kbd><br> जहां \'abc\' आपका कूटपदबंध है और "999999" है आप कितने समय के लिए मुद्रांकन करना चाहते हैं, सेकंड में है | आप समय की मात्रा को कोई भी संख्या में बदल सकते हैं लेकिन एक बहुत अधिक संख्या डालना आमतौर पर सबसे आसान है | अगर आपके कूट पदबंध में रिक्त स्थान हैं तो उद्धरण चिह्न में उसे घेरें |',
 	'mintguide.qt_step3' => 'Ctrl-L दबाकर अपनी कूटपदबंध क्षेत्र ख़ाली करें  |',
 	'mintguide.qt_step4' => 'आप ग्राहक सॉफ्टवेयर के नीचे दायें कोने में छोटे से ताला को देखकर, मुद्रांकन हो रहा है की नहीं जान सकते हैं | कुछ ही क्षणों बाद यह खुल जाना चाहिए | आप इस पर अपने माउस मंडराने से यह कहना चाहिए कि, "Wallet is encypted and currently unlocked for block minting only" |',
-	'mintguide.peerunity' => 'Peerunity Peercoin समुदाय द्वारा विकसित एक ग्राहक सॉफ्टवेयर है | इसमें मानक Peercoin v0.4 ग्राहक सॉफ्टवेयर से अधिक सुविधाएँ हैं, और मुद्रांकन के लिए सरलतर व्यवस्था
-भी है | यह Windows, Linux, और OS X के लिए उपलब्ध है | आप इसे यहाँ डाउनलोड कर सकते हैं और <a href="https://talk.peercoin.net/t/peerunity-v0-1-0-released-for-windows-linux-os-x/2455">यहाँ</a> ',
-	'mintguide.peerunity_step1' => 'अपने बटुए को एक अच्छा कूटपदबंध के साथ सुनिश्चित रूप से कूटबद्ध करें | इसे लिखके कहीं पर सुरक्षित रखें; अगर आप कूटपदबंध भूल जाते हैं तो आप अपने मुद्राएं खो देंगे | बटुआ कूटबद्ध करने का विकल्प Peerunity के settings tab के नीचे पाया जा सकता है |',
-	'mintguide.peerunity_step2' => 'मुद्रांकन शुरू करने के लिए, बस "Unlock Wallet for Minting Only"वाली बटन दबाएँ, कूटपदबंध दर्ज करें और OK दबाएँ |',
-	'mintguide.peerunity_step3' => 'आप ग्राहक सॉफ्टवेयर के नीचे दायें कोने में छोटे से ताला को देखकर, मुद्रांकन हो रहा है की नहीं जान सकते हैं | कुछ ही क्षणों बाद यह खुल जाना चाहिए | आप इस पर अपने माउस मंडराने से यह कहना चाहिए कि, "Wallet is encypted and currently unlocked for block minting only" |',
-
 );
 $lang['hi_IN'] += array(
 	'mineguide.title' => 'Peercoin खनन शुरू करने के लिए इन चरणों का पालन करें!',
@@ -226,7 +219,6 @@ $lang['hi_IN'] += array(
 	'waldownload.other_platforms' => 'अन्य मंच  ',
 	'waldownload.signatures' => 'हस्ताक्षरों',
 	'waldownload.qt_title' => 'Peercoin-QT',
-	'waldownload.peerunity_title' => 'Peerunity',	
 );
 $lang['hi_IN'] += array(
 	//Whitepaper
@@ -238,8 +230,6 @@ $lang['hi_IN'] += array(
 	// Wallet
 	'wallet.title' => 'बटुए',
 	'wallet.desc' => '﻿एक Peercoin बटुआ ऐसा एक सॉफ्टवेयर प्रयोज्यता है जिसे Peercoins संचय करने के लिए और अन्य उपयोगकर्ताओं के साथ Peercoins लेनदेन करने के लिए उपयोग किया जाता है | Peercoin के लिए दो डेस्कटॉप बटुए उपलब्ध हैं: Peerunity और Peercoin-QT | हम अधिकांश उपयोगकर्ताओं के लिए Peerunity का उपयोग करने की सलाह देते हैं | अपने बटुए सॉफ्टवेयर का उपयोग करने के बारे में अधिक जानकारी के लिए, <a href="newcomers"> नवागंतुकों</a> पृष्ठ पर जाएं |',
-	'wallet.peerunity' => 'Peerunity (संस्तुत)',
-	'wallet.peerunity_desc' => ' Peercoin समुदाय द्वारा Peerunity विकसित है | इसमें अन्तर्भाग प्रोटोकॉल बटुआ परे सुविधाएँ उपलब्ध हैं जैसे की एक क्लिक मुद्रांकन और मुद्रा नियंत्रण | भविष्य के रिलीज़ में पुनर्रचित कंट्रोल पैनल, Peershares एकीकरण, और एक समर्पित मुद्रांकन टैब शामिल होंगे |',
 	'wallet.peercoinqt' => 'Peercoin-QT (अन्तर्भाग प्रोटोकॉल)',
 	'wallet.peercoinqt_desc' => 'Peercoin-QT Peercoin का अन्तर्भाग प्रोटोकॉल है, जो विकासक Sunny King द्वारा निर्मित और अनुरक्षित है | यह केवल उच्च प्राथमिकता अद्यतनीकरण प्राप्त करता है |',
 	'wallet.paper_wallet' => 'कागज़ी बटुआ',

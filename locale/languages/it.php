@@ -17,7 +17,6 @@ $lang['it'] += array(
 	'developers.what_are_you_waiting_for' => 'Allora, che cosa stai aspettando?',
 	'developers.get_started' => 'Comincia subito con Peer4Commit',
 	'developers.notable_community_projects' => 'Progetti correnti della comunità',
-	'developers.peerunity_desc' => '<b>Peerunity</b> è un portafoglio software che è sviluppato e mantenuto dalla comunità Peercoin. Include molte caratteristiche aggiuntive che mancano al portafoglio ufficiale, come controllo monete e coniazione con un solo click. Le prossime edizioni conterranno un nuovo design, integrazione con Peershares e una tab per la coniazione.',
 	'developers.peershares_desc' => '<b>Peershares</b> è un economico libro mastro da essere utilizzato da aziende per raccogliere fondi, tracciare la condivisione della titolarità e la distribuzione dei dividendi in modo automatico. Ogni azienda che utilizza Peershares ha la sua catena a blocchi che è indipendente da tutte le altre ed è messa in sicurezza economicamente e facilmente utilizzando il metodo proof-of-stake di Peercoin.',
 	'developers.peerbox_desc' => '<b>Peerbox</b> è un sistema operativo sicuro per coniare e mantenere nodi Peercoin, è attualmente in sviluppo attivo. Esso si concentra su dispositivi economici ed energeticamente efficienti come Raspberry Pi, la quale è compatibile con l\'obiettivo di Peercoin nel provvedere una critptovaluta energeticamente efficiente. Se ASIC è un termine per mining dedicato ed energeticamente efficiente, allora Peerbox è l\'ASIC del Proof-of-Stake.',
 	'developers.nubits_desc' => '<b>NuBits</b> è un progetto che deve essere ancora inaugurato, dal creatore di Peershares, Jordan Lee. NuBits sarà la prima implementazion di Peershares. Il suo obiettivo è quello di risolvere il problema della volatilità nelle criptovalute.',
@@ -168,11 +167,6 @@ $lang['it'] += array(
 	'mintguide.qt_step2' => 'Per cominciare a coniare vai su help -> debug window -> console ed inserisci: <br><kbd>walletpassphrase abc 999999 true</kbd><br> dove "abc" è la tua password e "999999" è il tempo in secondi del processo di coniazione. Puoi cambiare il numero dei secondi con qualsiasi a tua scelta, ma è più semplice scegliere un numero molto alto. Se la tua password ha degli spazi mettila fra virgolette.',
 	'mintguide.qt_step3' => 'Cancella la tua parola chiave tenendo premuto Ctrl-L.',
 	'mintguide.qt_step4' => 'Puoi controllare che stai coniando guardando il lucchetto in basso a destra nel client. Dopo qualche istante dovrebbe aprirsi. Puntando il mouse sopra il lucchetto, dovrebbe apparire "Wallet is encypted and currently unlocked for block minting only".',
-	'mintguide.peerunity' => 'Peerunity è un client sviluppato dalla comunita\' Peercoin. Include molte caratteristiche aggiuntive rispoetto alla versione standard del client v0.4 di Peercoin, ha anche un metodo piu semplice per la coniazione. Esso è disponibile per Windows, Linux e OS X. Puoi scaricarlo qui e leggere la sezione nel forum <a href="https://talk.peercoin.net/t/peerunity-v0-1-0-released-for-windows-linux-os-x/2455">qui</a>.',
-	'mintguide.peerunity_step1' => 'Assicurati che il tuo portafoglio sia criptato con una password sicura. Scrivila e conservala in un posto sicuro; se dimenticassi la tua password potresti perdere le tue monete. L\'opzione per criptare il portafoglio si trova nel menu settings del programma portafoglio Peerunity.',
-	'mintguide.peerunity_step2' => 'Per cominciare a coniare, premi semplicemente il pulsante "Sblocca il Portafoglio Solo per Coniare", inserisci la tua parola chiave e premi OK.',
-	'mintguide.peerunity_step3' => 'Puoi controllare che stai coniando guardando il lucchetto in basso a destra nel client. Dopo qualche istante dovrebbe aprirsi. Puntando il mouse sopra il lucchetto, dovrebbe apparire "Wallet is encypted and currently unlocked for block minting only".',
-
 );
 $lang['it'] += array(
 	'mineguide.title' => 'Segui questi passi per cominciare con il mining di Peercoin!',
@@ -224,7 +218,6 @@ $lang['it'] += array(
 	'waldownload.other_platforms' => 'Altre piattaforme',
 	'waldownload.signatures' => 'Firme',
 	'waldownload.qt_title' => 'Peercoin-QT',
-	'waldownload.peerunity_title' => 'Peerunity',	
 );
 $lang['it'] += array(
 	//Whitepaper
@@ -236,8 +229,6 @@ $lang['it'] += array(
 	// Wallet
 	'wallet.title' => 'Portafogli',
 	'wallet.desc' => 'Il portafoglio Peercoin è un\'applicazione utilizzata per risparmiare ed effettuare transazioni di Peercoins con altri utenti. Peercoin ha due portafogli per il desktop: Peerunity e Peercoin-QT. Raccomandiamo Peerunity per la maggior parte degli utenti. Per maggiori informazioni su come utilizzare il tuo portafoglio software visita la <a href="newcomer">pagina Nuovi Arrivati</a>.',
-	'wallet.peerunity' => 'Peerunity (raccomandato)',
-	'wallet.peerunity_desc' => 'Peerunity è sviluppato dalla comunità Percoin. Esso include caratteristiche ulteriori rispetto al portafoglio protocollo core, come coniazione con un click e controllo monete. Le prossime edizioni conterranno un pannello con un nuovo design, integrazione con Peershares, ed una tab dedicata alla Coniazione.',
 	'wallet.peercoinqt' => 'Peercoin-QT<br>(protocollo core)',
 	'wallet.peercoinqt_desc' => 'Peercoin-QT è il protocollo core di Peercoin, sviluppato e mantenuto dallo sviluppatore di Peercoin, Sunny King. Esso riceve solo aggiornamenti ad alta priorità.',
 	'wallet.paper_wallet' => 'Portafoglio Cartaceo',

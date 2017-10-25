@@ -5,5 +5,4 @@ $lang['en'] += array(
 	'waldownload.other_platforms' => 'Other platforms',
 	'waldownload.signatures' => 'Signatures',
 	'waldownload.qt_title' => 'Peercoin-QT',
-	'waldownload.peerunity_title' => 'Peerunity',	
 );

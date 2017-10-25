@@ -17,7 +17,6 @@ $lang['fr'] += array(
 	'developers.what_are_you_waiting_for' => 'Et bien, qu\'attendez-vous ?',
 	'developers.get_started' => 'Débuter avec Peer4Commit',
 	'developers.notable_community_projects' => 'Projets actuels de la communauté',
-	'developers.peerunity_desc' => '<b>Peerunity</b> est un logiciel portefeuille développé et maintenu par la communauté Peercoin. Il inclut beaucoup de fonctionnalités qui manquent au portefeuille officiel, comme le contrôle des pièces et la frappe de monnaie en un clic. Les futures versions contiendront un thème redessiné, l\'intégration de Peershares, et un tableau dédié à la frappe de monnaie.',
 	'developers.peershares_desc' => '<b>Peershares</b> est un livre de compte décentralisé et peu coûteux pouvant être utilisé par les entreprises pour lever des fonds, faire un suivi de l\'actionnariat et distribuer des dividendes de manière automatique. Chaque entreprise utilisant Peershares possède sa propre chaîne de blocs indépendante des autres et sécurisée facilement et à prix réduit en utilisant la preuve-de-part de Peercoin.',
 	'developers.peerbox_desc' => '<b>Peerbox</b> est un système d\'exploitation sécurisé pour la frappe de monnaie et l\'exploitation de noeuds Peercoin, et il est actuellement développé activement. Il se concentre sur des appareils peu coûteux, peu gourmands en énergie, tels que le Raspberry Pi, qui sont compatibles avec le but de Peercoin de fournir une crypto-monnaie économe en énergie.
 Si ASIC est un terme signifiant matériel dédié et énergétiquement efficace pour l\'extraction, alors Peerbox est l\'ASIC de la Preuve-de-Part.',
@@ -176,11 +175,6 @@ $lang['fr'] += array(
 <br><kbd>walletpassphrase abc 999999 true</kbd><br> où "abc" est votre phrase de passe et "999999" est le nombre de secondes pendant lequel vous voulez frapper la monnaie. Vous pouvez changer le nombre de secondes à ce que vous voulez, mais il est généralement plus facile de juste mettre un très grand nombre. Si votre phrase de passe contient des espaces alors il faut la mettre entre guillemets.',
 	'mintguide.qt_step3' => 'Effacez votre phrase de passe en appuyant sur Ctrl-L.',
 	'mintguide.qt_step4' => 'Vous pouvez vérifier que vous êtes en train de frapper la monnaie en regardant le petit cadenas dans le coin en bas à droite du client. Après quelques secondes il devrait être ouvert. Si vous passez votre souris dessus, il devrait être écrit "Le porte-monnaie est chiffré et actuellement déverrouillé uniquement pour la frappe de monnaie".',
-	'mintguide.peerunity' => 'Peerunity est un client développé par la communauté Peercoin. Il a plus de fonctionnalités que le client standard Peercoin v0.4, et dispose aussi d\'une méthode plus simple pour frapper la monnaie. Il est disponible pour Windows, Linux et OS X. Vous pouvez le télécharger ici et voir le fil de lancement <a href="https://talk.peercoin.net/t/peerunity-v0-1-0-released-for-windows-linux-os-x/2455">ici</a>.',
-	'mintguide.peerunity_step1' => 'Assurez-vous que votre portefeuille est crypté avec une bonne phrase de passe. Écrivez-la quelque part et gardez-la en lieu sûr; si vous oubliez la phrase de passe vous perdrez vos pièces. L\'option de cryptage du portefeuille se trouve dans le menu des réglages de Peerunity.',
-	'mintguide.peerunity_step2' => 'Pour commencer à frapper la monnaie, cliquez simplement sur le bouton "Déverrouiller le porte-monnaie pour la frappe de monnaie uniquement", entrez votre phrase de passe et cliquez sur OK.',
-	'mintguide.peerunity_step3' => 'Vous pouvez vérifier que vous êtes en train de frapper la monnaie en regardant le petit cadenas dans le coin en bas à droite du client. Après quelques secondes il devrait être ouvert. Si vous passez votre souris dessus, il devrait être écrit "Le porte-monnaie est chiffré et actuellement déverrouillé uniquement pour la frappe de monnaie".',
-
 );
 $lang['fr'] += array(
 	// minting
@@ -220,13 +214,10 @@ $lang['fr'] += array(
 	'waldownload.other_platforms' => 'Autres plateformes',
 	'waldownload.signatures' => 'Signatures',
 	'waldownload.qt_title' => 'Peercoin-QT',
-	'waldownload.peerunity_title' => 'Peerunity',	
 );$lang['fr'] += array(
 	// Wallet
 	'wallet.title' => 'Portefeuilles',
 	'wallet.desc' => 'Un portefeuille Peercoin est une application utilisée pour conserver des peercoins et en transférer aux autres utilisateurs. Peercoin a deux portefeuilles pour les ordinateurs de bureau : Peerunity et Peercoin-QT. Nous recommandons Peerunity pour la plupart des utilisateurs. Pour plus d\'informations sur comment utiliser votre logiciel portefeuille, visitez la <a href="newcomers">page Nouveaux venus</a>.',
-	'wallet.peerunity' => 'Peerunity (recommandé)',
-	'wallet.peerunity_desc' => 'Peerunity est développé par la communauté Peercoin. Il inclut plus de fonctionnalités que le portefeuille de base, comme la frappe en un clic et le contrôle des pièces. Les futures versions contiendront un panneau de contrôle redessiné, l\'intégration de Peershares, et un tableau dédié à la frappe de monnaie.',
 	'wallet.peercoinqt' => 'Peercoin-QT<br>(coeur du protocole)',
 	'wallet.peercoinqt_desc' => 'Peercoin-QT est le coeur du protocole Peercoin, construit et maintenu par le développeur de Peercoin Sunny King. Il reçoit uniquement des mises à jour de haute priorité.',
 	'wallet.paper_wallet' => 'Portefeuille Papier',
