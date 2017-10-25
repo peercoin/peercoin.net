@@ -212,8 +212,8 @@ $lang['zh'] += array(
 	'waldownload.other_platforms' => '其他平台',
 	'waldownload.signatures' => '签名',
 	'waldownload.qt_title' => 'QT版点点币',
-
-);$lang['zh'] += array(
+);
+$lang['zh'] += array(
 	// Wallet
 	'wallet.title' => '钱包',
 	'wallet.desc' => '点点币的钱包是用来存储以及与其他用户进行点点币交易的应用程序。点点币有两个桌面钱包：Peerunity和Peercoin-QT。我们建议大多数用户使用Peerunity。关于如何使用钱包软件的更多信息，请访问<a href="newcomers">新手页面</a>。',
@@ -225,6 +225,7 @@ $lang['zh'] += array(
 	'wallet.android_wallet_desc' => '点点币移动钱包允许用户在其手机中无需下载完整的区块链就可以管理点点币。移动钱包节省用户安卓手机中珍贵的存储空间，可以是的用户在任何地方都可以携带自己的点点币。',
 	'wallet.download' => '下载',
 	'wallet.visit_site' => '访问',
+
 );
 $lang['zh'] += array(
 	//Whitepaper
