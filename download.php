@@ -119,8 +119,9 @@
             <h3>Windows</h3>
 
             <ul>
+                <li>NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/@PeercoinPulse/peercoin-v0-6-release-2831fb4394ad">here</a>.</li>
                 <li>Install
-                <code>peercoin-qt.exe</code>
+                <code>peercoin-qt.exe</code></li>
 
                 <li>Default installation directory is
                 <code>C:\Program Files\PPCoin</code></li>
@@ -151,6 +152,7 @@
             <h3>OS X</h3>
 
             <ul>
+                <li>NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/@PeercoinPulse/peercoin-v0-6-release-2831fb4394ad">here</a>.</li>
                 <li>Mount <code>Peercoin_v0.6.0.dmg</code> by opening
                 it</li>
 
@@ -191,6 +193,7 @@
         
         <div class="tab-pane<?php if($CurrOS == "linux") echo " active"; ?>" id="gen">                    
             <ul>
+                <li>NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/@PeercoinPulse/peercoin-v0-6-release-2831fb4394ad">here</a>.</li>
                 <li>Unpack
                 <code>v0.6.0ppc.tar.gz</code></li>
 
@@ -217,7 +220,7 @@
         
                <div class="tab-pane" id="arch">
                     <h2 id="config">ArchLinux</h2>
-
+                   <p>NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/@PeercoinPulse/peercoin-v0-6-release-2831fb4394ad">here</a>.</p>
                    <p><em>If you are ArchLinux user, you can find Peercoin packages in AUR.</em></p>
                     <h4>Or you can use AUR helper like yaourt to automate the process for you.</h4>
 
