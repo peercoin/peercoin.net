@@ -2,9 +2,9 @@
 <?php
     // Download link list:
     $download_links = array(
-        'windows' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.0ppc/peercoin-qt.exe',
+        'windows' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.0ppc/Peercoin_v0.6.0.zip',
         'mac' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.0ppc/Peercoin_v0.6.0.dmg',
-        'linux' => 'https://github.com/peercoin/peercoin/archive/v0.6.0ppc.tar.gz'
+        'linux' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.0ppc/Peercoin_v0.6.0ppc.tar.gz'
     );
 
     $CurrOS = "windows";
@@ -84,16 +84,16 @@
                                 <th>SHA-256</th>
                             </tr>
                             <tr>
-                                <td><code>peercoin-qt.exe</code></td>
-                                <td>952314d54413dd11a806dd88e35ebd88add1b208e221bd98894b69865d47c6a3</td>
+                                <td><code>Peercoin_v0.6.0.zip</code></td>
+                                <td>edf65af2f1bf87e605419614ea183e13476cf7e6f7899e647728276aeb1f378c</td>
                             </tr>
                             <tr>
                                 <td><code>Peercoin_v0.6.0.dmg</code></td>
                                 <td>04a1b4b00a824fb67aa541a541cd6f463947da512f924915c13ceb314beaa14a</td>
                             </tr>
                             <tr>
-                                <td><code>v0.6.0ppc.tar.gz</code></td>
-                                <td>97879dab8220ae0e9d0c4053669835f5038d48793d72e5210f2c7faeff3423c3</td>
+                                <td><code>Peercoin_v0.6.0ppc.tar.gz</code></td>
+                                <td>177755712890bec1dc28213df2fb65b7e68c6f686ce10ad796fb7d280778ebc4</td>
                             </tr>
                         </table>
                     </div>
@@ -121,13 +121,14 @@
         <p>NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/@PeercoinPulse/peercoin-v0-6-release-2831fb4394ad">here</a>.</p>
            
              <ul>
-                <li>Install
-                <code>peercoin-qt.exe</code></li>
-
+                <li>Open or Extract
+                <code>Peercoin_v0.6.0.zip</code></li>
+                <li>Install 32 bit or 64 bit version</li>
+                
                 <li>Default installation directory is
-                <code>C:\Program Files\PPCoin</code></li>
+                <code>C:\Program Files\PPCoin</code> or <code>C:\Program Files\Peercoin</code></li>
 
-                <li>Run <code>ppcoin-qt</code> from the Start menu
+                <li>Run <code>peercoin-qt</code> or <code>peercoin</code> from the Start menu
                 or the installation directory</li>
             </ul>
 
@@ -138,7 +139,7 @@
                 "#ppconf">ppcoin.conf</a></code> in
                 <code>%APPDATA%\PPCoin</code></li>
 
-                <li>Run <code>daemon\ppcoind</code></li>
+                <li>Run <code>daemon\peercoind</code></li>
             </ul>
 
             <p>Your wallet is located in
@@ -158,24 +159,24 @@
                 <li>Mount <code>Peercoin_v0.6.0.dmg</code> by opening
                 it</li>
 
-                <li>Drag <code>PPCoin-Qt.app</code> to
+                <li>Drag <code>Peercoin-Qt.app</code> or <code>Peercoin.app</code> to
                 <code>Applications</code></li>
 
                 <li>Go to <code>Applications</code> and open
-                <code>PPCoin-Qt.app</code></li>
+                <code>Peercoin-Qt.app</code> or <code>Peercoin.app</code></li>
             </ul>
 
             <h4>Daemon</h4>
 
             <ul>
-                <li>Unzip <code>ppcoind.zip</code></li>
+                <li>Unzip <code>peercoind.zip</code></li>
 
                 <li>Create <code><a class="internal present" href=
                 "#ppconf">ppcoin.conf</a></code> in
                 <code>~/Library/Application
                 Support/PPCoin</code></li>
 
-                <li>Run <code>ppcoind</code></li>
+                <li>Run <code>peercoind</code></li>
             </ul>
 
             <p>Your wallet is located in
@@ -198,9 +199,9 @@
 
             <ul>
                 <li>Unpack
-                <code>v0.6.0ppc.tar.gz</code></li>
+                <code>Peercoin_v0.6.0ppc.tar.gz</code></li>
 
-                <li>Run <code>bin/32/ppcoin-qt</code> <em>(requires
+                <li>Run <code>bin/32/peercoin-qt</code> <em>(requires
                 libqt4-gui)</em></li>
             </ul>
 
@@ -211,14 +212,14 @@
                 "#ppconf">ppcoin.conf</a></code> in
                 <code>~/.ppcoin</code></li>
 
-                <li>Run <code>bin/32/ppcoind</code></li>
+                <li>Run <code>bin/32/peercoind</code></li>
             </ul>
 
             <p>Your wallet is located in
             <code>~/.ppcoin</code>.</p>
 
             <p><em>Note: 64 bit binaries available in
-            <code>bin/64/{ppcoin-qt,ppcoind}</code>.</em></p>
+            <code>bin/64/{peercoin-qt,peercoind}</code>.</em></p>
         </div>
         
                <div class="tab-pane" id="arch">
