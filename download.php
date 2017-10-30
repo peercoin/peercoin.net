@@ -117,9 +117,10 @@
         <div class="tab-content">
           <div class="tab-pane<?php if($CurrOS == "windows") echo " active"; ?>" id="win">
             <h3>Windows</h3>
-
-            <ul>
-                <li>NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/@PeercoinPulse/peercoin-v0-6-release-2831fb4394ad">here</a>.</li>
+              
+        <p>NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/@PeercoinPulse/peercoin-v0-6-release-2831fb4394ad">here</a>.</p>
+           
+             <ul>
                 <li>Install
                 <code>peercoin-qt.exe</code></li>
 
@@ -151,8 +152,9 @@
           <div class="tab-pane<?php if($CurrOS == "mac") echo " active"; ?>" id="mac">
             <h3>OS X</h3>
 
+           <p>NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/@PeercoinPulse/peercoin-v0-6-release-2831fb4394ad">here</a>.</p>
+
             <ul>
-                <li>NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/@PeercoinPulse/peercoin-v0-6-release-2831fb4394ad">here</a>.</li>
                 <li>Mount <code>Peercoin_v0.6.0.dmg</code> by opening
                 it</li>
 
@@ -191,9 +193,10 @@
             <li><a href="#arch" role="tab" data-toggle="tab">ArchLinux</a></li>
             </ul>
         
-        <div class="tab-pane<?php if($CurrOS == "linux") echo " active"; ?>" id="gen">                    
+        <div class="tab-pane<?php if($CurrOS == "linux") echo " active"; ?>" id="gen">
+            <p>NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/@PeercoinPulse/peercoin-v0-6-release-2831fb4394ad">here</a>.</p>
+
             <ul>
-                <li>NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/@PeercoinPulse/peercoin-v0-6-release-2831fb4394ad">here</a>.</li>
                 <li>Unpack
                 <code>v0.6.0ppc.tar.gz</code></li>
 
