@@ -85,7 +85,7 @@
                             </tr>
                             <tr>
                                 <td><code>Peercoin_v0.6.0.zip</code></td>
-                                <td>edf65af2f1bf87e605419614ea183e13476cf7e6f7899e647728276aeb1f378c</td>
+                                <td>66f7068f770ea6702f7ff02b597585601ff48b6baaeab521e6aac5de6d7d8278</td>
                             </tr>
                             <tr>
                                 <td><code>Peercoin_v0.6.0.dmg</code></td>
@@ -93,7 +93,7 @@
                             </tr>
                             <tr>
                                 <td><code>Peercoin_v0.6.0ppc.tar.gz</code></td>
-                                <td>177755712890bec1dc28213df2fb65b7e68c6f686ce10ad796fb7d280778ebc4</td>
+                                <td>a21f5ca1c9a5b0cc48da98888dfc376d55e4338ca1484ee701e049077976fd50</td>
                             </tr>
                         </table>
                     </div>
