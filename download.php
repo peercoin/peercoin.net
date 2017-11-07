@@ -122,7 +122,7 @@
            
              <ul>
                 <li>Open or Extract
-                <code>Peercoin_v0.6.0.zip</code></li>
+                <code>Peercoin_v0.6.1_win.zip</code></li>
                 <li>Install 32 bit or 64 bit version</li>
                 
                 <li>Default installation directory is
@@ -156,7 +156,8 @@
            <p>NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/@PeercoinPulse/peercoin-v0-6-release-2831fb4394ad">here</a>.</p>
 
             <ul>
-                <li>Mount <code>Peercoin_v0.6.0.dmg</code> by opening
+                <li>Extract <code>Peercoin_v0.6.1_osx.zip</code>
+                <li>Mount <code>Peercoin-Qt.dmg</code> by opening
                 it</li>
 
                 <li>Drag <code>Peercoin-Qt.app</code> or <code>Peercoin.app</code> to
@@ -199,7 +200,7 @@
 
             <ul>
                 <li>Unpack
-                <code>Peercoin_v0.6.0ppc.tar.gz</code></li>
+                <code>Peercoin_v0.6.1_linux.zip</code></li>
 
                 <li>Run <code>bin/32/peercoin-qt</code> <em>(requires
                 libqt4-gui)</em></li>
