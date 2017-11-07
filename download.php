@@ -2,9 +2,9 @@
 <?php
     // Download link list:
     $download_links = array(
-        'windows' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.0ppc/Peercoin_v0.6.0.zip',
-        'mac' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.0ppc/Peercoin_v0.6.0.dmg',
-        'linux' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.0ppc/Peercoin_v0.6.0ppc.tar.gz'
+        'windows' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.1ppc/Peercoin_v0.6.1_win.zip',
+        'mac' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.1ppc/Peercoin_v0.6.1_osx.zip',
+        'linux' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.1ppc/Peercoin_v0.6.1_linux.zip'
     );
 
     $CurrOS = "windows";
@@ -84,16 +84,16 @@
                                 <th>SHA-256</th>
                             </tr>
                             <tr>
-                                <td><code>Peercoin_v0.6.0.zip</code></td>
-                                <td>66f7068f770ea6702f7ff02b597585601ff48b6baaeab521e6aac5de6d7d8278</td>
+                                <td><code>Peercoin_v0.6.1_win.zip</code></td>
+                                <td>04ec0e385577ee21f6cd11f2c5b88efa2e4d129bea1198ef53e8c6ba828785fc</td>
                             </tr>
                             <tr>
-                                <td><code>Peercoin_v0.6.0.dmg</code></td>
-                                <td>04a1b4b00a824fb67aa541a541cd6f463947da512f924915c13ceb314beaa14a</td>
+                                <td><code>Peercoin_v0.6.1_osx.zip</code></td>
+                                <td>5ac49505633a64da0957f9615392afa1597d9d9f80609c0ffc3fbdf02f9565f1</td>
                             </tr>
                             <tr>
-                                <td><code>Peercoin_v0.6.0ppc.tar.gz</code></td>
-                                <td>a21f5ca1c9a5b0cc48da98888dfc376d55e4338ca1484ee701e049077976fd50</td>
+                                <td><code>Peercoin_v0.6.1_linux.zip</code></td>
+                                <td>c3e42572a1e62d7625051ddc75aea48171dba96d7a0c16a9fccdcd02ed8d8fa8</td>
                             </tr>
                         </table>
                     </div>
