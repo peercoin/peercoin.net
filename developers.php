@@ -14,10 +14,6 @@
 			<p>
 				<?php echo $Locale->getText("developers.core_protocol_desc"); ?>
 			</p>
-			<h4 class="h-smargin"><?php echo $Locale->getText("developers.cold_wallet_minting"); ?></h4>
-			<p>
-				<?php echo $Locale->getText("developers.cold_wallet_minting_desc"); ?>
-			</p>
 			<h4 class="h-smargin"><?php echo $Locale->getText("developers.optional_checkpointing"); ?></h4>
 			<p>
 				<?php echo $Locale->getText("developers.optional_checkpointing_desc"); ?>
