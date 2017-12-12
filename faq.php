@@ -28,23 +28,9 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6">
-			<h2><?php echo $Locale->getText("faq.q3"); ?></h2>
+			<h2><?php echo $Locale->getText("faq.q7"); ?></h2>
 			<p>
-				<strong><?php echo $Locale->getText("faq.no"); ?>.</strong>  <?php echo $Locale->getText("faq.q3_ans"); ?>
-			</p>
-		</div>
-		<div class="col-md-6">
-			<h2><?php echo $Locale->getText("faq.q4"); ?></h2>
-			<p>
-				<strong><?php echo $Locale->getText("faq.no"); ?>.</strong>  <?php echo $Locale->getText("faq.q4_ans"); ?>
-			</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-6">
-			<h2><?php echo $Locale->getText("faq.q5"); ?></h2>
-			<p>
-				<strong><?php echo $Locale->getText("faq.yes"); ?>.</strong> <?php echo $Locale->getText("faq.q5_ans"); ?>
+				<?php echo $Locale->getText("faq.q7_ans"); ?>
 			</p>
 		</div>
 		<div class="col-md-6">
@@ -60,6 +46,77 @@
 			<p>
 				<?php echo $Locale->getText("faq.q6_ans2"); ?>
 			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<h2><?php echo $Locale->getText("faq.q5"); ?></h2>
+			<p>
+				<strong><?php echo $Locale->getText("faq.yes"); ?>.</strong> <?php echo $Locale->getText("faq.q5_ans"); ?>
+			</p>
+		</div>
+		<div class="col-md-6">
+			<h2><?php echo $Locale->getText("faq.q4"); ?></h2>
+			<p>
+				<?php echo $Locale->getText("faq.q4_ans"); ?>
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<h2><?php echo $Locale->getText("faq.q8"); ?></h2>
+			<p>
+				<?php echo $Locale->getText("faq.q8_ans"); ?>
+			</p>
+		</div>
+		<div class="col-md-6">
+			<h2><?php echo $Locale->getText("faq.q10"); ?></h2>
+			<p>
+				<?php echo $Locale->getText("faq.q10_ans"); ?>
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<h2><?php echo $Locale->getText("faq.q9"); ?></h2>
+			<p>
+				<?php echo $Locale->getText("faq.q9_ans"); ?>
+			</p>
+		</div>
+		<div class="col-md-6">
+			<h2><?php echo $Locale->getText("faq.q12"); ?></h2>
+			<p>
+				<?php echo $Locale->getText("faq.q12_ans"); ?>
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<h2><?php echo $Locale->getText("faq.q11"); ?></h2>
+			<p>
+				<?php echo $Locale->getText("faq.q11_ans"); ?>
+			</p>
+		</div>
+		<div class="col-md-6">
+			<h2><?php echo $Locale->getText("faq.q14"); ?></h2>
+			<p>
+				<?php echo $Locale->getText("faq.q14_ans"); ?>
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<h2><?php echo $Locale->getText("faq.q13"); ?></h2>
+			<ul>
+				<li><?php echo $Locale->getText("faq.q13_ans_l1"); ?></li>
+				<li><?php echo $Locale->getText("faq.q13_ans_l2"); ?></li>
+				<li><?php echo $Locale->getText("faq.q13_ans_l3"); ?></li>
+				<li><?php echo $Locale->getText("faq.q13_ans_l4"); ?></li>
+				<li><?php echo $Locale->getText("faq.q13_ans_l5"); ?></li>
+				<li><?php echo $Locale->getText("faq.q13_ans_l6"); ?></li>
+				<li><?php echo $Locale->getText("faq.q13_ans_l7"); ?></li>
+				<li><?php echo $Locale->getText("faq.q13_ans_l8"); ?></li>
+			</ul>
 		</div>
 	</div>
 </div>
