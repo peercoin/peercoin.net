@@ -68,7 +68,7 @@ $lang['en'] += array(
 	'faq.q6_l1' => 'Proof of Work mining (increases supply)',
 	'faq.q6_l2' => 'Number of transactions (decreases supply by 0.01 PPC per transaction)',
 	'faq.q6_l3' => 'Proof of Stake minting (increases supply at a rate up to 1&#37; per year)',
-	'faq.q6_ans2' => 'Thanks to increased mining participation, Peercoin inflation rate has consistently remained below 5&#37; for the first half of 2014. At the current adoption rate, this rate will decline further over time, making Peercoin less inflationary and more sustainable than most other cryptocoins.',
+	'faq.q6_ans2' => 'Thanks to increased mining participation until late 2014 inflation was stable at 5&#37;, and today it\'s at 3.5&#37;. At the current adoption rate, this rate will decline further over time, making Peercoin less inflationary and more sustainable than most other cryptocoins. See <a href="https://www.peercoinexplorer.net/inflation/">Peercoin inflation tracker</a>.',
 	'faq.q7' => 'What is minting? And how can I start minting peercoin?',
 	'faq.q7_ans' => '<a href="https://peercoin.net/minting">Min<b>t</b>ing</a> (as opposed to mining!) is the term given to Proof-of-stake block generation in Peercoin, that is securing the network. This earns you 1&#37 annual interest. Coins are first eligible to mint 30 days after they have been transferred. If you want to mint, you have to put some of your peercoins at <b>stake</b> in your wallet. <a href="https://talk.peercoin.net/t/the-complete-guide-to-minting/2524">Read this guide</a>, if you want to know how to do it and how it works.<br><br> You can calculate how much you will earn minting with this <a href="http://poscalculator.peercointalk.org/">PoS-calculator</a>.',
     	'faq.q8' => 'Where and how can I buy peercoin?',
