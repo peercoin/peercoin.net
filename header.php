@@ -108,7 +108,7 @@
                 <li><a target="_blank" href="http://wiki.peercointalk.org">Wiki (http)</a></li>
               </ul>
             </li>
-            <li><a href="wallet"><?php echo $Locale->getText("header.wallet"); ?></a></li>
+            <li><a href="download"><?php echo $Locale->getText("header.wallet"); ?></a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("header.community"); ?><b class="caret"></b></a>
               <ul class="dropdown-menu">
