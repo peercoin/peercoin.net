@@ -173,7 +173,7 @@ $lang['ar'] += array(
 $lang['ar'] += array(
 	'mineguide.title' => 'اتبع هذه الخطوات لتبدأ التنقيب عن بِيركُيِن!',
 	'mineguide.step1' => 'ثبّت برمجية المحفظة',
-	'mineguide.step1_desc' => 'إن لم تكن قد نزلت <a href="wallet">محفظة بِيركُيِن</a> بعد، فافعل.',
+	'mineguide.step1_desc' => 'إن لم تكن قد نزلت <a href="download">محفظة بِيركُيِن</a> بعد، فافعل.',
 	'mineguide.step2' => 'اختر تجمّعًا للتنقيب',
 	'mineguide.step2_poollist' => 'تجمّعات مخصصة لبِيركُيِن:',
 	'mineguide.step2_multipoollist' => 'تجمّات متعددة العملات:',
@@ -194,7 +194,7 @@ $lang['ar'] += array(
 	//Newcomers
 	'newcomers.getting_started' => 'ابدأ مع بِيركُيِن',
 	'newcomers.downlaod_wallet' => 'حمِّل محفظة',
-	'newcomers.download_wallet_desc' => 'توجَّه إلى <a href="wallet">صفحة التحميل</a>، حيث يمكنك تحميل البرمجية التي تحتاجها للتحكم بعملاتك.',
+	'newcomers.download_wallet_desc' => 'توجَّه إلى <a href="download">صفحة التحميل</a>، حيث يمكنك تحميل البرمجية التي تحتاجها للتحكم بعملاتك.',
 	'newcomers.buy_from_exchange' => 'اشتر بِيركُيِن',
 	'newcomers.buy_from_exchange_desc' => 'توجّه إلى إحدى <a href="exchanges">البورصات</a> حيث يمكنك الشراء عبر السوق الحر.',
 	'newcomers.withdraw_coins' => 'اسحب عملاتك',

@@ -171,7 +171,7 @@ $lang['it'] += array(
 $lang['it'] += array(
 	'mineguide.title' => 'Segui questi passi per cominciare con il mining di Peercoin!',
 	'mineguide.step1' => 'Setup del portafoglio software',
-	'mineguide.step1_desc' => 'Se non l\'hai già fatto, scarica il  <a href="wallet">portafoglio Peercoin</a>.',
+	'mineguide.step1_desc' => 'Se non l\'hai già fatto, scarica il  <a href="download">portafoglio Peercoin</a>.',
 	'mineguide.step2' => 'Seleziona una pool per il mining',
 	'mineguide.step2_poollist' => 'Pools dedicate a Peercoin:',
 	'mineguide.step2_multipoollist' => 'Pools multimoneta:',
@@ -192,7 +192,7 @@ $lang['it'] += array(
 	//Newcomers
 	'newcomers.getting_started' => 'Comincia subito con Peercoin',
 	'newcomers.downlaod_wallet' => 'Scarica il portafoglio software',
-	'newcomers.download_wallet_desc' => 'Vai sulla <a href="wallet">pagina per il download</a>, dove puoi scaricare il programma di cui avrai bisogno per risparmiare e gestire le tue nuove monete.',
+	'newcomers.download_wallet_desc' => 'Vai sulla <a href="download">pagina per il download</a>, dove puoi scaricare il programma di cui avrai bisogno per risparmiare e gestire le tue nuove monete.',
 	'newcomers.buy_from_exchange' => 'Compra da un exchange',
 	'newcomers.buy_from_exchange_desc' => 'Invia denaro ad un <a href="exchanges">exchange Peercoin</a>, dove potrai comprare da altri traders in un mercato aperto.',
 	'newcomers.withdraw_coins' => 'Scarica le tue monete',

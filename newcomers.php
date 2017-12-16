@@ -12,7 +12,7 @@
 		<div class="col-md-4 col-md-offset-1 step">
 			<span class="number">1.</span> <span class="name"> <?php echo $Locale->getText("newcomers.downlaod_wallet"); ?></span>
 			<br>
-			<a href="wallet"><img src="assets/img/types/newcomer/download.svg" class="svg-halfwidth" /></a>
+			<a href="download"><img src="assets/img/types/newcomer/download.svg" class="svg-halfwidth" /></a>
 			<p>
 				<?php echo $Locale->getText("newcomers.download_wallet_desc"); ?>
 			</p>
@@ -30,7 +30,7 @@
 		<div class="col-md-4 col-md-offset-1 step">
 			<span class="number">3.</span> <span class="name"> <?php echo $Locale->getText("newcomers.withdraw_coins"); ?></span>
 			<br>
-			<a href="wallet"><img src="assets/img/types/newcomer/withdraw-coins.svg" class="svg-threeq" /></a>
+			<a href="download"><img src="assets/img/types/newcomer/withdraw-coins.svg" class="svg-threeq" /></a>
 			<p>
 				<?php echo $Locale->getText("newcomers.withdraw_coins_desc"); ?>
 			</p>
@@ -38,7 +38,7 @@
 		<div class="col-md-4 col-md-offset-1 step">
 			<span class="number">4.</span> <span class="name"> <?php echo $Locale->getText("newcomers.learn_more"); ?></span>
 			<br>
-			<a href="wallet"><img src="assets/img/types/newcomer/learn-more.svg" class="svg-third" /></a>
+			<a href="download"><img src="assets/img/types/newcomer/learn-more.svg" class="svg-third" /></a>
 			<p>
 				<?php echo $Locale->getText("newcomers.learn_more_desc"); ?>
 			</p>

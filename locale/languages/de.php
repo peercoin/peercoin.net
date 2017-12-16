@@ -152,7 +152,7 @@ $lang['de'] += array(
 );$lang['de'] += array(
 	'mineguide.title' => 'Befolgen Sie die folgenden Schritte, um mit dem Schürfen von Peercoins anzufangen!',
 	'mineguide.step1' => 'Installieren Sie die Brieftaschen-Software.',
-	'mineguide.step1_desc' => 'Laden Sie die <a href="wallet">Peercoin-Brieftasche</a> herunter, falls Sie es noch nicht getan haben.',
+	'mineguide.step1_desc' => 'Laden Sie die <a href="download">Peercoin-Brieftasche</a> herunter, falls Sie es noch nicht getan haben.',
 	'mineguide.step2' => 'Wählen Sie einen Pool zum Schürfen aus',
 	'mineguide.step2_poollist' => 'Peercoin-dedizierte Pools:',
 	'mineguide.step2_multipoollist' => 'Multiwährungs-Pools:',
@@ -187,7 +187,7 @@ $lang['de'] += array(
 	//Newcomers
 	'newcomers.getting_started' => 'Loslegen mit Peercoin',
 	'newcomers.downlaod_wallet' => 'Brieftaschen-Software herunterladen',
-	'newcomers.download_wallet_desc' => 'Besuchen Sie die <a href="wallet">Download-Seite</a>, wo Sie ein Programm zum Lagern und Verwalten Ihrer neuen Münzen beziehen können.',
+	'newcomers.download_wallet_desc' => 'Besuchen Sie die <a href="download">Download-Seite</a>, wo Sie ein Programm zum Lagern und Verwalten Ihrer neuen Münzen beziehen können.',
 	'newcomers.buy_from_exchange' => 'An der Börse kaufen',
 	'newcomers.buy_from_exchange_desc' => 'Überweisen Sie Ihr Geld zu einer <a href="exchanges">Peercoin-Börse</a>, wo Sie am freien Markt von anderen Händlern kaufen können.',
 	'newcomers.withdraw_coins' => 'Eigene Münzen abheben',

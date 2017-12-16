@@ -1,7 +1,7 @@
 $lang['en'] += array(
 	'mineguide.title' => 'Follow these steps to start mining Peercoin!',
 	'mineguide.step1' => 'Set up the wallet software',
-	'mineguide.step1_desc' => 'If you haven\'t yet, download the <a href="wallet">Peercoin wallet</a>.',
+	'mineguide.step1_desc' => 'If you haven\'t yet, download the <a href="download">Peercoin wallet</a>.',
 	'mineguide.step2' => 'Select a mining pool',
 	'mineguide.step2_poollist' => 'Peercoin-dedicated pools:',
 	'mineguide.step2_multipoollist' => 'Multicoin pools:',

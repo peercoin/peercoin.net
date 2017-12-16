@@ -150,7 +150,7 @@ $lang['he'] += array(
 );$lang['he'] += array(
 	'mineguide.title' => 'Follow these steps to start mining Peercoin!',
 	'mineguide.step1' => 'Set up the wallet software',
-	'mineguide.step1_desc' => 'If you haven\'t yet, download the <a href="wallet">Peercoin wallet</a>.',
+	'mineguide.step1_desc' => 'If you haven\'t yet, download the <a href="download">Peercoin wallet</a>.',
 	'mineguide.step2' => 'Select a mining pool',
 	'mineguide.step2_poollist' => 'Peercoin-dedicated pools:',
 	'mineguide.step2_multipoollist' => 'Multicoin pools:',
@@ -185,7 +185,7 @@ $lang['he'] += array(
 	//Newcomers
 	'newcomers.getting_started' => 'Getting Started with Peercoin',
 	'newcomers.downlaod_wallet' => 'Download wallet software',
-	'newcomers.download_wallet_desc' => 'Head on over to the <a href="wallet">download page</a>, where you can grab the program you’ll need to store and manage your new coins.',
+	'newcomers.download_wallet_desc' => 'Head on over to the <a href="download">download page</a>, where you can grab the program you’ll need to store and manage your new coins.',
 	'newcomers.buy_from_exchange' => 'Buy from an exchange',
 	'newcomers.buy_from_exchange_desc' => 'Send your money to a <a href="exchanges">Peercoin exchange</a>, where you’ll be able to buy from other traders in the open market.',
 	'newcomers.withdraw_coins' => 'Withdraw your coins',

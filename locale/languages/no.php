@@ -171,7 +171,7 @@ $lang['no'] += array(
 $lang['no'] += array(
 	'mineguide.title' => 'Følg disse punktene for å starte graving av Peercoin!',
 	'mineguide.step1' => 'Installer lommebok',
-	'mineguide.step1_desc' => 'Hvis du ikke har gjort det ennå, last ned <a href="wallet">Peercoin lommeboken</a>.',
+	'mineguide.step1_desc' => 'Hvis du ikke har gjort det ennå, last ned <a href="download">Peercoin lommeboken</a>.',
 	'mineguide.step2' => 'Velg et andelslag for graving',
 	'mineguide.step2_poollist' => 'Dedikerte andelslag for Peercoin:',
 	'mineguide.step2_multipoollist' => 'Andelslag for flere mynter:',
@@ -192,7 +192,7 @@ $lang['no'] += array(
 	//Newcomers
 	'newcomers.getting_started' => 'Komme I Gang Med Peercoin',
 	'newcomers.downlaod_wallet' => 'Last ned lommebok programvaren',
-	'newcomers.download_wallet_desc' => 'Gå over til <a href="wallet">nedlastingssiden</a>. Der kan du hente programmet du trenger for å lagre og bruke dine nykjøpte mynter.',
+	'newcomers.download_wallet_desc' => 'Gå over til <a href="download">nedlastingssiden</a>. Der kan du hente programmet du trenger for å lagre og bruke dine nykjøpte mynter.',
 	'newcomers.buy_from_exchange' => 'Kjøp på en børs',
 	'newcomers.buy_from_exchange_desc' => 'Sende penger til en <a href="exchanges">børs som støtter peercoin</a>, hvor du vil kunne kjøpe fra andre i markedet.',
 	'newcomers.withdraw_coins' => 'Uttak av dine mynter',

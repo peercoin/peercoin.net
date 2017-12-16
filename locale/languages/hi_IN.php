@@ -172,7 +172,7 @@ $lang['hi_IN'] += array(
 $lang['hi_IN'] += array(
 	'mineguide.title' => 'Peercoin खनन शुरू करने के लिए इन चरणों का पालन करें!',
 	'mineguide.step1' => 'बटुआ सॉफ्टवेयर व्यवस्थित करें ',
-	'mineguide.step1_desc' => 'अगर आप नहीं किए हैं, <a href="wallet">Peercoin बटुआ</a> डाउनलोड करें |',
+	'mineguide.step1_desc' => 'अगर आप नहीं किए हैं, <a href="download">Peercoin बटुआ</a> डाउनलोड करें |',
 	'mineguide.step2' => 'खनन समुच्चय का चयन करें ',
 	'mineguide.step2_poollist' => 'Peercoin-समर्थित समुच्चय',
 	'mineguide.step2_multipoollist' => 'एकाधिक-मुद्रा समुच्चय:',
@@ -193,7 +193,7 @@ $lang['hi_IN'] += array(
 	//Newcomers
 	'newcomers.getting_started' => 'Peercoin के साथ शुरू होने की सूचना',
 	'newcomers.downlaod_wallet' => 'बटुआ सॉफ्टवेयर डाउनलोड करें',
-	'newcomers.download_wallet_desc' => '<a href="wallet">डाउनलोड पृष्ठ </a> पर जाने के बाद, आप वह सॉफ्टवेयर कार्यक्रम प्राप्त कर सकते हैं जिसकी आवश्यकता नए मुद्राओं की संचय और प्रबंधन के लिए होगी |',
+	'newcomers.download_wallet_desc' => '<a href="download">डाउनलोड पृष्ठ </a> पर जाने के बाद, आप वह सॉफ्टवेयर कार्यक्रम प्राप्त कर सकते हैं जिसकी आवश्यकता नए मुद्राओं की संचय और प्रबंधन के लिए होगी |',
 	'newcomers.buy_from_exchange' => 'विनिमय केंद्र से खरीदें ',
 	'newcomers.buy_from_exchange_desc' => 'अपने पैसे <a href="exchanges"> Peercoin विनिमय केंद्र</a> पे भेजे, जहाँ आप खुले बाजार में अन्य व्यापारियों से Peercoin खरीद सकते हैं |',
 	'newcomers.withdraw_coins' => 'अपने मुद्राएं प्रत्याहृत करें ',

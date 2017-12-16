@@ -152,7 +152,7 @@ $lang['uk'] += array(
 );$lang['uk'] += array(
 	'mineguide.title' => 'Дотримуйтесь цих кроків, щоб почати майнити Peercoin!',
 	'mineguide.step1' => 'Встановити програмне забезпечення гаманця',
-	'mineguide.step1_desc' => 'Якщо ви ще не зробили цього, завантажте <a href="wallet">гаманець Peercoin</a>.',
+	'mineguide.step1_desc' => 'Якщо ви ще не зробили цього, завантажте <a href="download">гаманець Peercoin</a>.',
 	'mineguide.step2' => 'Виберіть пул для майнінгу',
 	'mineguide.step2_poollist' => 'Пули, пов\'язані з Peercoin:',
 	'mineguide.step2_multipoollist' => 'Мультивалютні пули:',
@@ -187,7 +187,7 @@ $lang['uk'] += array(
 	//Newcomers
 	'newcomers.getting_started' => 'Початок роботи з Peercoin',
 	'newcomers.downlaod_wallet' => 'Завантажити програму-гаманець',
-	'newcomers.download_wallet_desc' => 'Пройдіть на <a href="wallet">сторінку завантаження</a>, там ви знайдете програму для зберігання і управління вашими новими монетами.',
+	'newcomers.download_wallet_desc' => 'Пройдіть на <a href="download">сторінку завантаження</a>, там ви знайдете програму для зберігання і управління вашими новими монетами.',
 	'newcomers.buy_from_exchange' => 'Купуйте на біржі',
 	'newcomers.buy_from_exchange_desc' => 'Надішліть ваші гроші на <a href="exchanges">біржу з Peercoin</a>, де ви зможете купувати у інших торговців на відкритому ринку.',
 	'newcomers.withdraw_coins' => 'Виведення ваших монет',

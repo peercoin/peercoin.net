@@ -153,7 +153,7 @@ $lang['fr'] += array(
 );$lang['fr'] += array(
 	'mineguide.title' => 'Suivez ces étapes pour commencer à miner du Peercoin !',
 	'mineguide.step1' => 'Installez le logiciel de portefeuille',
-	'mineguide.step1_desc' => 'Si vous ne l\'avez pas encore fait, téléchargez le <a href="wallet">portefeuille Peercoin</a>.',
+	'mineguide.step1_desc' => 'Si vous ne l\'avez pas encore fait, téléchargez le <a href="download">portefeuille Peercoin</a>.',
 	'mineguide.step2' => 'Sélectionnez un pool de minage',
 	'mineguide.step2_poollist' => 'Pools dédiés au Peercoin :',
 	'mineguide.step2_multipoollist' => 'Pools multi-monnaies :',
@@ -189,7 +189,7 @@ $lang['fr'] += array(
 	//Newcomers
 	'newcomers.getting_started' => 'Débuter avec Peercoin',
 	'newcomers.downlaod_wallet' => 'Télécharger un logiciel portefeuille',
-	'newcomers.download_wallet_desc' => 'Rendez-vous à la <a href="wallet">page de téléchargement</a>, où vous pouvez récupérer dont vous aurez besoin pour conserver et gérer vos nouvelles pièces.',
+	'newcomers.download_wallet_desc' => 'Rendez-vous à la <a href="download">page de téléchargement</a>, où vous pouvez récupérer dont vous aurez besoin pour conserver et gérer vos nouvelles pièces.',
 	'newcomers.buy_from_exchange' => 'Acheter sur une bourse d\'échange',
 	'newcomers.buy_from_exchange_desc' => 'Envoyez votre argent à une <a href="exchanges">bourse d\'échange Peercoin</a>, où vous pourrez acheter à d\'autre traders dans le marché libre.',
 	'newcomers.withdraw_coins' => 'Retirer vos pièces',
