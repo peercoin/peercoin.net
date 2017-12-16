@@ -171,7 +171,7 @@ $lang['tl_PH'] += array(
 $lang['tl_PH'] += array(
 	'mineguide.title' => 'Follow these steps to start mining Peercoin!',
 	'mineguide.step1' => 'Set up the wallet software',
-	'mineguide.step1_desc' => 'If you haven\'t yet, download the <a href="wallet">Peercoin wallet</a>.',
+	'mineguide.step1_desc' => 'If you haven\'t yet, download the <a href="download">Peercoin wallet</a>.',
 	'mineguide.step2' => 'Select a mining pool',
 	'mineguide.step2_poollist' => 'Peercoin-dedicated pools:',
 	'mineguide.step2_multipoollist' => 'Multicoin pools:',
@@ -192,7 +192,7 @@ $lang['tl_PH'] += array(
 	//Newcomers
 	'newcomers.getting_started' => 'Pagsisimula sa Peercoin',
 	'newcomers.downlaod_wallet' => 'I-download ang wallet software',
-	'newcomers.download_wallet_desc' => 'Magtungo sa ibabaw sa <a href="wallet">pahinang i=download </a>, kung saan pwede mong kunin ang programang kakailangan mo upang mag-imbak at pamahalaan ang iyong mga bagong barya.',
+	'newcomers.download_wallet_desc' => 'Magtungo sa ibabaw sa <a href="download">pahinang i=download </a>, kung saan pwede mong kunin ang programang kakailangan mo upang mag-imbak at pamahalaan ang iyong mga bagong barya.',
 	'newcomers.buy_from_exchange' => 'Bumili mula sa isang palitan',
 	'newcomers.buy_from_exchange_desc' => 'Ipadala ang iyong pera sa isang <a href="exchanges">palitan na Peercoin</a>, kung saan magagawa mong bumili mula sa ibang mangangalakal sa bukas na pamilihan. ',
 	'newcomers.withdraw_coins' => 'Bawiin ang iyong mga barya',
