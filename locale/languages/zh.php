@@ -152,7 +152,7 @@ $lang['zh'] += array(
 );$lang['zh'] += array(
 	'mineguide.title' => '按照以下的步骤开始点点币挖矿。',
 	'mineguide.step1' => '安装钱包软件',
-	'mineguide.step1_desc' => '如果你还没有下载 <a href="wallet">点点币钱包</a>.',
+	'mineguide.step1_desc' => '如果你还没有下载 <a href="download">点点币钱包</a>.',
 	'mineguide.step2' => '选择一个矿池',
 	'mineguide.step2_poollist' => '点点币专用矿池：',
 	'mineguide.step2_multipoollist' => '多币种矿池：',
@@ -187,7 +187,7 @@ $lang['zh'] += array(
 	//Newcomers
 	'newcomers.getting_started' => '开始点点币的旅程',
 	'newcomers.downlaod_wallet' => '下载钱包软件。',
-	'newcomers.download_wallet_desc' => '转到 <a href="wallet">下载页面</a>，在那里你可以下载到你所需要存储和管理新的点点币的各种程序。',
+	'newcomers.download_wallet_desc' => '转到 <a href="download">下载页面</a>，在那里你可以下载到你所需要存储和管理新的点点币的各种程序。',
 	'newcomers.buy_from_exchange' => '从交易所购买。',
 	'newcomers.buy_from_exchange_desc' => '将你的钱转到<a href="exchanges">点点币交易所</a>，在那里你可以在公开市场中从其他交易者那里购买到点点币。',
 	'newcomers.withdraw_coins' => '提取你所购买的点点币。',
