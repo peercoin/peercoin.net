@@ -171,7 +171,7 @@ $lang['id'] += array(
 $lang['id'] += array(
 	'mineguide.title' => 'Ikuti langkah-langkah ini untuk memulai penambangan Peercoin!',
 	'mineguide.step1' => 'Mengatur software dompet',
-	'mineguide.step1_desc' => 'Jika Anda belum memiliki, downlaod <a href="wallet">dompet Peercoin</a>.',
+	'mineguide.step1_desc' => 'Jika Anda belum memiliki, downlaod <a href="download">dompet Peercoin</a>.',
 	'mineguide.step2' => 'Pilih kelompok pertambangan',
 	'mineguide.step2_poollist' => 'Peercoin-mempersembahkan kelompok:',
 	'mineguide.step2_multipoollist' => 'Kelompok-kelompok Multikoin:',
@@ -192,7 +192,7 @@ $lang['id'] += array(
 	//Newcomers
 	'newcomers.getting_started' => 'Memulai dengan Peercoin',
 	'newcomers.downlaod_wallet' => 'Mengunduh perangkat lunak dompet',
-	'newcomers.download_wallet_desc' => 'Di atas <a href="wallet">halaman unduh</a>, di mana Anda dapat mengambil program Anda harus menyimpan dan mengelola uang logam baru Anda.',
+	'newcomers.download_wallet_desc' => 'Di atas <a href="download">halaman unduh</a>, di mana Anda dapat mengambil program Anda harus menyimpan dan mengelola uang logam baru Anda.',
 	'newcomers.buy_from_exchange' => 'Beli dari pertukaran',
 	'newcomers.buy_from_exchange_desc' => 'Kirim uang Anda ke <a href="exchanges">pertukaran Peercoin</a>, di mana Anda akan dapat membeli dari pedagang lain di pasar terbuka.',
 	'newcomers.withdraw_coins' => 'Penarikan uang Anda',
