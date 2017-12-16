@@ -152,7 +152,7 @@ $lang['ro'] += array(
 );$lang['ro'] += array(
 	'mineguide.title' => 'Urmați acești pași pentru a începe minarea Peercoin!',
 	'mineguide.step1' => 'Configurați portofelul',
-	'mineguide.step1_desc' => 'Dacă nu ați făcut-o încă, descărcați <a href="wallet">portofelul Peercoin</a>.',
+	'mineguide.step1_desc' => 'Dacă nu ați făcut-o încă, descărcați <a href="download">portofelul Peercoin</a>.',
 	'mineguide.step2' => 'Selectați un pool pentru minare',
 	'mineguide.step2_poollist' => 'Pooluri dedicate pentru Peercoin:',
 	'mineguide.step2_multipoollist' => 'Pooluri Multicoin:',
@@ -187,7 +187,7 @@ $lang['ro'] += array(
 	//Newcomers
 	'newcomers.getting_started' => 'Să pornim cu Peercoin',
 	'newcomers.downlaod_wallet' => 'Descărcați aplicația: Portofel',
-	'newcomers.download_wallet_desc' => 'Mergeți la <a href="wallet">pagina de descărcare</a>, unde puteți lua aplicația pe care trebuie să-o stocați și să gestionați noile monede.',
+	'newcomers.download_wallet_desc' => 'Mergeți la <a href="download">pagina de descărcare</a>, unde puteți lua aplicația pe care trebuie să-o stocați și să gestionați noile monede.',
 	'newcomers.buy_from_exchange' => 'Cumpărați de pe un Schimb valutar',
 	'newcomers.buy_from_exchange_desc' => 'Trimiteți-vă banii într-un Schimb valutar <a href="exchanges">peercoin</a>, unde veți putea cumpăra de la alți comercianți pe piața liberă.',
 	'newcomers.withdraw_coins' => 'Scoateți-vă monedele',
