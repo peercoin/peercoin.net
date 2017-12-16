@@ -152,7 +152,7 @@ $lang['es'] += array(
 );$lang['es'] += array(
 	'mineguide.title' => 'Siga estos pasos para iniciar la minería Peercoin!',
 	'mineguide.step1' => 'Configure el software de cartera',
-	'mineguide.step1_desc' => 'Si aún no tiene, descargue la <a href="Cartera">Cartera Peercoin</a>.',
+	'mineguide.step1_desc' => 'Si aún no tiene, descargue la <a href="download">Cartera Peercoin</a>.',
 	'mineguide.step2' => 'Seleccione una piscina minería',
 	'mineguide.step2_poollist' => 'Piscinas dedicada a Peercoin:',
 	'mineguide.step2_multipoollist' => 'Piscinas multimoneda:',
@@ -187,7 +187,7 @@ $lang['es'] += array(
 	//Newcomers
 	'newcomers.getting_started' => 'Comenzar con Peercoin',
 	'newcomers.downlaod_wallet' => 'Descarge la Cartera',
-	'newcomers.download_wallet_desc' => 'Primero la <a href="wallet"> página de descarga </a>, donde podrá tomar el programa que necesita para almacenar y gestionar sus nuevas monedas ..',
+	'newcomers.download_wallet_desc' => 'Primero la <a href="download"> página de descarga </a>, donde podrá tomar el programa que necesita para almacenar y gestionar sus nuevas monedas ..',
 	'newcomers.buy_from_exchange' => 'Comprar en un intercambio',
 	'newcomers.buy_from_exchange_desc' => 'Envíe su dinero a un </a> intercambio Peercoin <a href="exchanges">, donde podrás comprar de otros operadores en el mercado abierto.',
 	'newcomers.withdraw_coins' => 'Retire sus monedas',
