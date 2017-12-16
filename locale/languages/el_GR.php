@@ -171,7 +171,7 @@ $lang['el_GR'] += array(
 $lang['el_GR'] += array(
 	'mineguide.title' => 'Ακολουθήστε τα παρακάτω βήματα για να αρχίσετε την εξόρυξη Peercoin!',
 	'mineguide.step1' => 'Εγκαταστήστε το wallet λογισμικό',
-	'mineguide.step1_desc' => 'Αν δεν το έχετε, κατεβάσε το <a href="wallet">Peercoin wallet</a>.',
+	'mineguide.step1_desc' => 'Αν δεν το έχετε, κατεβάσε το <a href="download">Peercoin wallet</a>.',
 	'mineguide.step2' => 'Επιλέξτε ένα pool εξόρυξης',
 	'mineguide.step2_poollist' => 'Peercoin pools:',
 	'mineguide.step2_multipoollist' => 'Multicoin pools:',
@@ -192,7 +192,7 @@ $lang['el_GR'] += array(
 	//Newcomers
 	'newcomers.getting_started' => 'Ξεκινώντας με το Peercoin',
 	'newcomers.downlaod_wallet' => 'Κατεβάστε το πορτοφόλι',
-	'newcomers.download_wallet_desc' => 'Επισκεφτείτε τη <a href="wallet"> σελίδα λήψης </a>, όπου μπορείτε να κατεβάσετε το λογισμικό ώστε να μπορείτε να αποθηκεύετε και να διαχειρίζεστε τα νέα σας νομίσματα.',
+	'newcomers.download_wallet_desc' => 'Επισκεφτείτε τη <a href="download"> σελίδα λήψης </a>, όπου μπορείτε να κατεβάσετε το λογισμικό ώστε να μπορείτε να αποθηκεύετε και να διαχειρίζεστε τα νέα σας νομίσματα.',
 	'newcomers.buy_from_exchange' => 'Αγοράστε από ανταλλακτήριο',
 	'newcomers.buy_from_exchange_desc' => 'Αποστολή χρημάτων σε <a href="exchanges">Peercoin ανταλλακτήριο</a>, όπου θα μπορείτε να αγοράσετε από άλλους πωλητές στην ανοικτή αγορά.',
 	'newcomers.withdraw_coins' => 'Αποσύρετε τα νομίσματά σας',
