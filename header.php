@@ -1,5 +1,6 @@
 <?php
   include ('locale/locale.php');
+  include ('config/settings.config.php');
   $Locale = new Loc();
 ?>
 
@@ -13,23 +14,23 @@
   	<title><?php if(isset($page_title)) echo $page_title . ' - '; echo $Locale->getText("homepage_title"); ?></title>
 
   	<!-- Description, Keywords and Author -->
-  	<meta name="description" content="Secure and sustainable cryptocoin.">
-  	<meta name="keywords" content="peercoin, bitcoin, litecoin, primecoin, cryptocurrency, sustainable, cryptocoin">
-  	<meta name="author" content="Peercoin">
+  	<meta name="description" content="<?php echo $site_config['default_description']; ?>">
+  	<meta name="keywords" content="<?php echo $site_config['default_keywords']; ?>">
+  	<meta name="author" content="<?php echo $site_config['website_name']; ?>">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
   	<!-- open graph tags -->
-  	<meta property="og:title" content="Peercoin">
+  	<meta property="og:title" content="<?php echo $site_config['default_title']; ?>">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://peercoin.net">
-    <meta property="og:secure_url" content="https://peercoin.net">
-    <meta property="og:image" content="https://peercoin.net/assets/img/logos/logo_og.png">
+    <meta property="og:url" content="<?php echo $site_config['website_url']; ?>">
+    <meta property="og:secure_url" content="<?php echo $site_config['website_secure_url']; ?>">
+    <meta property="og:image" content="<?php echo $site_config['website_secure_url'] . $site_config['default_image']; ?>">
     <meta property="og:image:width" content="600">
     <meta property="og:image:height" content="600">
-    <meta property="og:description" content="Secure and sustainable cryptocoin.">
+    <meta property="og:description" content="<?php echo $site_config['default_description']; ?>">
 
     <!-- Misc Meta -->
-  	<meta name="google-site-verification" content="-GOUzkxsjMUypgT8xj6GD4W9xNv_SMeorTZtOKPRzg8">
+  	<meta name="google-site-verification" content="<?php echo $google_config['site_verification']; ?>">
   	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
    	<!-- Bootstrap core CSS -->
@@ -53,7 +54,7 @@
   	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  	ga('create', 'UA-40768937-3', 'peercoin.net');
+  	ga('create', '<?php echo $google_config['publisher_id']; ?>', 'peercoin.net');
   	ga('send', 'pageview');
   	</script>
 
@@ -100,7 +101,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $Locale->getText("header.resources"); ?><b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a target="_blank" href="https://coinmarketcap.com/currencies/peercoin/#markets">Exchanges</a></li>
-                <li><a target="_blank" href="https://www.peercoinexplorer.net/">Block Explorers</a></li>               
+                <li><a target="_blank" href="https://www.peercoinexplorer.net/">Block Explorers</a></li>
                 <li><a target="_blank" href="https://peer4commit.com">Peer4commit</a></li>
                 <li><a target="_blank" href="http://www.peerbox.me">Peerbox</a></li>
                 <li><a target="_blank" href="https://github.com/peercoin">GitHub</a></li>
