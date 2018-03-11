@@ -2,9 +2,9 @@
 <?php
     // Download link list:
     $download_links = array(
-        'windows' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.1ppc/Peercoin_v0.6.1_win.zip',
-        'mac' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.1ppc/Peercoin_v0.6.1_osx.zip',
-        'linux' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.1ppc/Peercoin_v0.6.1_linux.zip'
+        'windows' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.2ppc/Peercoin_v0.6.2_win.zip',
+        'mac' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.2ppc/Peercoin_v0.6.2_osx.zip',
+        'linux' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.2ppc/Peercoin_v0.6.2_linux.zip'
     );
 
     $CurrOS = "windows";
@@ -84,16 +84,16 @@
                                 <th>SHA-256</th>
                             </tr>
                             <tr>
-                                <td><code>Peercoin_v0.6.1_win.zip</code></td>
-                                <td>04ec0e385577ee21f6cd11f2c5b88efa2e4d129bea1198ef53e8c6ba828785fc</td>
+                                <td><code>Peercoin_v0.6.2_win.zip</code></td>
+                                <td>a3415882dbaaf8e577ab9c09c425c9027de0351bfed3ad52b112df0f014a1f4a</td>
                             </tr>
                             <tr>
-                                <td><code>Peercoin_v0.6.1_osx.zip</code></td>
-                                <td>5ac49505633a64da0957f9615392afa1597d9d9f80609c0ffc3fbdf02f9565f1</td>
+                                <td><code>Peercoin_v0.6.2_osx.zip</code></td>
+                                <td>c6e53b86798f152ff96b0b684fe14908b6d7cb3b748d623509e29decb6be6581</td>
                             </tr>
                             <tr>
-                                <td><code>Peercoin_v0.6.1_linux.zip</code></td>
-                                <td>c3e42572a1e62d7625051ddc75aea48171dba96d7a0c16a9fccdcd02ed8d8fa8</td>
+                                <td><code>Peercoin_v0.6.2_linux.zip</code></td>
+                                <td>247cf4690a99f51fc74b28869b31ce91bb58818cfebfd20c4c9ce1918cc1b303</td>
                             </tr>
                         </table>
                     </div>
@@ -122,7 +122,7 @@
            
              <ul>
                 <li>Open or Extract
-                <code>Peercoin_v0.6.1_win.zip</code></li>
+                <code>Peercoin_v0.6.2_win.zip</code></li>
                 <li>Install 32 bit or 64 bit version</li>
                 
                 <li>Default installation directory is
@@ -156,7 +156,7 @@
            <p>NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/@PeercoinPulse/peercoin-v0-6-release-2831fb4394ad">here</a>.</p>
 
             <ul>
-                <li>Extract <code>Peercoin_v0.6.1_osx.zip</code>
+                <li>Extract <code>Peercoin_v0.6.2_osx.zip</code>
                 <li>Mount <code>Peercoin-Qt.dmg</code> by opening
                 it</li>
 
@@ -200,7 +200,7 @@
 
             <ul>
                 <li>Unpack
-                <code>Peercoin_v0.6.1_linux.zip</code></li>
+                <code>Peercoin_v0.6.2_linux.zip</code></li>
 
                 <li>Run <code>bin/32/peercoin-qt</code> <em>(requires
                 libqt4-gui)</em></li>
@@ -429,7 +429,7 @@
         <h4 class="modal-title" id="myModalLabel">The MIT License (MIT)</h4>
       </div>
       <div class="modal-body">
-Copyright (c) 2011-2016 The Peercoin developers<br>
+Copyright (c) 2011-2018 The Peercoin developers<br>
 Copyright (c) 2009-2012 The Bitcoin Core developers<br><br>
 
         Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
