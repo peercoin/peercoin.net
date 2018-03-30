@@ -24,7 +24,7 @@ $lang['en'] += array(
     	'faq.q8' => 'Where and how can I buy peercoin?',
 	'faq.q8_ans' => 'There are many exchanges, where you can buy peercoins with fiat money (dollar, euro, …) or in exchange to other cryptocurrencies (bitcoin, …). See this <a href="https://coinmarketcap.com/currencies/peercoin/#markets">list of exchanges</a>. <br><br>In Europe and Russia currently most people recommend using <a href="https://www.litebit.eu/">LiteBit.eu</a> and <a href="https://therocktrading.com/">The Rock Trading</a>. Former btc-e.com isn’t active anymore, it was replaced by <a href="https://wex.nz/">wex.nz</a>.',
    	'faq.q9' => 'How can I install a Peercoin wallet?',
-	'faq.q9_ans' => 'You can download and install a <a href="https://peercoin.net/wallet">wallet client software</a> on your computer or telephone. <br><br>We strongly discourage the use of web-wallets.',
+	'faq.q9_ans' => 'You can download and install a <a href="https://peercoin.net/download">wallet client software</a> on your computer or telephone. <br><br>We strongly discourage the use of web-wallets.',
     	'faq.q10' => 'Where is the roadmap?',
 	'faq.q10_ans' => 'The newest roadmap was <a href="https://talk.peercoin.net/t/update-9-peercoin-team-releases-full-roadmap-for-2018-2020-infographic-included/6654">released on 2017-12-02</a>.<br><br> You might also be interested to look at the <a href="https://github.com/peercoin/rfcs/blob/master/RFCs-by-status.md">RFCs in our Github repository</a>, which shows ideas that we are thinking about to implement and things we are working on, but without any schedule.',
   	'faq.q11' => 'Where is my peercoin? What happens to my transaction? Where can I check the status of the blockchain?',
