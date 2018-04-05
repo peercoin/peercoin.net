@@ -114,6 +114,7 @@
               <ul class="dropdown-menu">
                 <li><a target="_blank" href="https://talk.peercoin.net">Forum</a></li>
                 <li><a target="_blank" href="https://peercoin.chat">Chat</a></li>
+                <li><a target="_blank" href="https://discord.gg/m294ReV">Discord</a></li>
                 <li><a target="_blank" href="https://telegram.me/peercoin">Telegram</a></li>
                 <li><a target="_blank" href="https://www.reddit.com/r/peercoin">Reddit</a></li>
                 <li><a target="_blank" href="https://twitter.com/PeercoinPPC">Twitter</a></li>
