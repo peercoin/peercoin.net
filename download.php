@@ -2,9 +2,9 @@
 <?php
     // Download link list:
     $download_links = array(
-        'windows' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.2ppc/Peercoin_v0.6.2_win.zip',
-        'mac' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.2ppc/Peercoin_v0.6.2_osx.zip',
-        'linux' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.2ppc/Peercoin_v0.6.2_linux.zip'
+        'windows' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.3ppc/Peercoin_v0.6.3_win.zip',
+        'mac' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.3ppc/Peercoin_v0.6.3_osx.zip',
+        'linux' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.3ppc/Peercoin_v0.6.3_linux.zip'
     );
 
     $CurrOS = "windows";
@@ -84,16 +84,16 @@
                                 <th>SHA-256</th>
                             </tr>
                             <tr>
-                                <td><code>Peercoin_v0.6.2_win.zip</code></td>
-                                <td>a3415882dbaaf8e577ab9c09c425c9027de0351bfed3ad52b112df0f014a1f4a</td>
+                                <td><code>Peercoin_v0.6.3_win.zip</code></td>
+                                <td>60e4847280bd39af907ba1dbb3a41a0b328543e7d4658d0bb491ac89fe2cff2c</td>
                             </tr>
                             <tr>
-                                <td><code>Peercoin_v0.6.2_osx.zip</code></td>
-                                <td>c6e53b86798f152ff96b0b684fe14908b6d7cb3b748d623509e29decb6be6581</td>
+                                <td><code>Peercoin_v0.6.3_osx.zip</code></td>
+                                <td>8c3b74d66d1b31bca2e8864a24fc0d6104dbcb92dc4ac31ad84bc61a9cb956d2</td>
                             </tr>
                             <tr>
-                                <td><code>Peercoin_v0.6.2_linux.zip</code></td>
-                                <td>247cf4690a99f51fc74b28869b31ce91bb58818cfebfd20c4c9ce1918cc1b303</td>
+                                <td><code>Peercoin_v0.6.3_linux.zip</code></td>
+                                <td>42a5f1d344ca6662af608f245e6909ba0e7358793f6bbda411ccad5dec71cbc6</td>
                             </tr>
                         </table>
                     </div>
@@ -122,7 +122,7 @@
            
              <ul>
                 <li>Open or Extract
-                <code>Peercoin_v0.6.2_win.zip</code></li>
+                <code>Peercoin_v0.6.3_win.zip</code></li>
                 <li>Install 32 bit or 64 bit version</li>
                 
                 <li>Default installation directory is
@@ -156,7 +156,7 @@
            <p>NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/@PeercoinPulse/peercoin-v0-6-release-2831fb4394ad">here</a>.</p>
 
             <ul>
-                <li>Extract <code>Peercoin_v0.6.2_osx.zip</code>
+                <li>Extract <code>Peercoin_v0.6.3_osx.zip</code>
                 <li>Mount <code>Peercoin-Qt.dmg</code> by opening
                 it</li>
 
@@ -200,7 +200,7 @@
 
             <ul>
                 <li>Unpack
-                <code>Peercoin_v0.6.2_linux.zip</code></li>
+                <code>Peercoin_v0.6.3_linux.zip</code></li>
 
                 <li>Run <code>bin/32/peercoin-qt</code> <em>(requires
                 libqt4-gui)</em></li>
