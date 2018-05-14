@@ -84,6 +84,7 @@
                 <li><a href="merchants"><?php echo $Locale->getText("header.merchants"); ?></a></li>
                 <li><a href="mining"><?php echo $Locale->getText("header.miners"); ?></a></li>
                 <li><a href="developers"><?php echo $Locale->getText("header.developers"); ?></a></li>
+                <li><a href="foundation"><?php echo $Locale->getText("header.foundation"); ?></a></li>
               </ul>
             </li>
             <li class="dropdown">

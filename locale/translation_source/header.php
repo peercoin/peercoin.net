@@ -17,4 +17,5 @@ $lang['en'] += array(
 	'header.resources' => 'Resources',
 	'header.community' => 'Community',
 	'header.languages' => 'Languages',
+	'header.foundation' => 'Foundation',
 );
