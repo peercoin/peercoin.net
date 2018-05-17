@@ -41,5 +41,5 @@ $lang['en'] += array(
     	'faq.q13_ans_l7' => 'Small FAQ: <a href="https://reddit.com/r/peercoin/wiki/faq">reddit.com/r/peercoin/wiki/faq</a>',
     	'faq.q13_ans_l8' => 'Many info, but not maintained anymore: <a href="http://wiki.peercointalk.org/index.php?title=FAQ">wiki.peercointalk.org/index.php?title=FAQ</a>',
     	'faq.q14' => 'I have more questions, how can I get in contact with other Peercoin users, developers etc.? Where is the forum? Is there a chat?',
-	'faq.q14_ans' => 'Write us in the <a href="https://talk.peercoin.net/">Peercoin forum</a> or chat with us in our <a href="https://peercoin.chat/">Peercoin chat</a>. <br><br> You may also ask questions in our <a href="https://www.reddit.com/r/peercoin/">Peercoin reddit channel</a>, retweet and respond to our official <a href="https://twitter.com/peercoinppc">Peercoin twitter account</a>.',
+	'faq.q14_ans' => 'Write us in the <a href="https://talk.peercoin.net/">Peercoin forum</a> or chat with us on <a href="https://discord.gg/m294ReV">Discord</a>. <br><br> You may also ask questions in our <a href="https://www.reddit.com/r/peercoin/">Peercoin reddit channel</a>, retweet and respond to our official <a href="https://twitter.com/peercoinppc">Peercoin twitter account</a>.',
 );
