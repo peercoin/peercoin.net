@@ -20,7 +20,7 @@ $lang['zh'] += array(
 	'developers.peershares_desc' => '<b>点点股</b>是一种用于商业筹资的便宜去中心化的账本，它可追踪股份的所有者并可以自动为股东分红。每一个商业实体可以使用点点股，他们都拥有独立的区块链，并且可以方便、安全的利用点点币的股权证明机制来进行网络安全维护。',
 	'developers.peerbox_desc' => '<b>Peerbox</b>是一个用于运行点点币节点和挖矿的安全操作系统，目前正在活跃地开发之中。Peerbox侧重于便宜、节能的设备，比如树莓派，这种理念与点点币提供节能高效的加密学货币的初衷是一致的。如果ASIC是节能挖矿的代名词的话，那么Peerbox就是股权证明的ASIC。',
 	'developers.nubits_desc' => '<b>NuBits </b>是一个由Peershares项目创始人-Jordan Lee-创建的项目。NuBits 是Peershares的第一个项目，它的目的是为了解决虚拟货币的波动问题。',
-	'developers.devforums' => '发现其它创新点子请点击我们的<a href="https://talk.peercoin.net/c/projects">论坛</a>链接或者点击链接加入<a href="https://peercoin.chat">聊天室</a>来讨论和共享你的创新想法。',
+	'developers.devforums' => '发现其它创新点子请点击我们的<a href="https://talk.peercoin.net/c/projects">论坛</a>链接或者点击链接加入<a href="https://discord.gg/m294ReV">聊天室</a>来讨论和共享你的创新想法。',
 );
 $lang['zh'] += array(
 	//Exchanges
