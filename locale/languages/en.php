@@ -83,7 +83,7 @@ $lang['en'] += array(
 	'faq.q12_ans' => 'You can <a href="https://chainz.cryptoid.info/ppc/#!rich">find it here</a>. As with many other coins the richest peercoin owners are exchanges.',
    	'faq.q13' => 'Where can I find more information about Peercoin?',
 	'faq.q13_ans_l1' => '<a href="https://talk.peercoin.net/t/pillows-peercoin-myths/2518">Unfounded rumors about Peercoin</a> (also known as <b>Pillow’s Peercoin Myths</b>)',
-   	'faq.q13_ans_l2' => 'Discord <a href="https://discord.gg/m294ReV</a>',
+   	'faq.q13_ans_l2' => '<a href="https://discord.gg/m294ReV">Discord</a>',
    	'faq.q13_ans_l3' => '<a href="https://peercoin.net/faq.php?locale=en">peercoin.net/faq.php?locale=en</a>',
    	'faq.q13_ans_l4' => '<a href="https://talk.peercoin.net/t/peercoin-documentation-content-maintenance-thread/5148/12">talk.peercoin.net/t/peercoin-documentation-content-maintenance-thread/5148/12</a>',
    	'faq.q13_ans_l5' => '<a href="https://github.com/peercoin/peercoin/wiki/FAQ">github.com/peercoin/peercoin/wiki/FAQ</a>',
