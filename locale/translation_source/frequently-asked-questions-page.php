@@ -33,7 +33,7 @@ $lang['en'] += array(
 	'faq.q12_ans' => 'You can <a href="https://chainz.cryptoid.info/ppc/#!rich">find it here</a>. As with many other coins the richest peercoin owners are exchanges.',
    	'faq.q13' => 'Where can I find more information about Peercoin?',
 	'faq.q13_ans_l1' => '<a href="https://talk.peercoin.net/t/pillows-peercoin-myths/2518">Unfounded rumors about Peercoin</a> (also known as <b>Pillow’s Peercoin Myths</b>)',
-   	'faq.q13_ans_l2' => 'General info and links: <a href="https://peercoin.chat/home">peercoin.chat/home</a> (only accessible when logged in to the chat)',
+   	'faq.q13_ans_l2' => '<a href="https://discord.gg/m294ReV">Discord</a>',
    	'faq.q13_ans_l3' => '<a href="https://peercoin.net/faq.php?locale=en">peercoin.net/faq.php?locale=en</a>',
    	'faq.q13_ans_l4' => '<a href="https://talk.peercoin.net/t/peercoin-documentation-content-maintenance-thread/5148/12">talk.peercoin.net/t/peercoin-documentation-content-maintenance-thread/5148/12</a>',
    	'faq.q13_ans_l5' => '<a href="https://github.com/peercoin/peercoin/wiki/FAQ">github.com/peercoin/peercoin/wiki/FAQ</a>',
@@ -41,5 +41,5 @@ $lang['en'] += array(
     	'faq.q13_ans_l7' => 'Small FAQ: <a href="https://reddit.com/r/peercoin/wiki/faq">reddit.com/r/peercoin/wiki/faq</a>',
     	'faq.q13_ans_l8' => 'Many info, but not maintained anymore: <a href="http://wiki.peercointalk.org/index.php?title=FAQ">wiki.peercointalk.org/index.php?title=FAQ</a>',
     	'faq.q14' => 'I have more questions, how can I get in contact with other Peercoin users, developers etc.? Where is the forum? Is there a chat?',
-	'faq.q14_ans' => 'Write us in the <a href="https://talk.peercoin.net/">Peercoin forum</a> or chat with us in our <a href="https://peercoin.chat/">Peercoin chat</a>. <br><br> You may also ask questions in our <a href="https://www.reddit.com/r/peercoin/">Peercoin reddit channel</a>, retweet and respond to our official <a href="https://twitter.com/peercoinppc">Peercoin twitter account</a>.',
+	'faq.q14_ans' => 'Write us in the <a href="https://talk.peercoin.net/">Peercoin forum</a> or chat with us on <a href="https://discord.gg/m294ReV">Discord</a>. <br><br> You may also ask questions in our <a href="https://www.reddit.com/r/peercoin/">Peercoin reddit channel</a>, retweet and respond to our official <a href="https://twitter.com/peercoinppc">Peercoin twitter account</a>.',
 );

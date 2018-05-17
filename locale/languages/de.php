@@ -20,7 +20,7 @@ $lang['de'] += array(
 	'developers.peershares_desc' => '<b>Peershares</b> ist eine kostengünstiger und dezentraler Aktienregister, der von Unternehmen für Mittelakquisition, Verfolgung von Aktienbesitz und automatisierte Dividendenausschüttungen verwendet werden kann. Jedes Unternehmen, das Peershares verwendet, besitzt eine eigene Blockkette, welche von allen anderen unabhängig ist und kostengünstig und einfach durch Peercoins Beweis-durch-Anteil geschützt wird.',
 	'developers.peerbox_desc' => '<b>Peerbox</b> ist ein sicheres Betriebssystem fürs Prägen und Betreiben von Peercoinknoten, welches im Moment aktiv weiterentwickelt wird. Es fokussiert sich auf günstige, energieeffiziente Geräte wie das Raspberry Pi, das mit Peercoins Ziel, der Bereitstellung einer energieeffizienten Kryptowährung, kompatibel ist. Wenn ASIC ein Begriff für dediziertes und energieeffizientes Schürfen ist, dann ist Peerbox das ASIC des Beweises-durch-Anteil.',
 	'developers.nubits_desc' => '<b>NuBits</b> ist ein Projekt des Schöpfers von Peershares, Jordan Lee. NuBits ist die erste Umsetzung von Peershares. Es ist dazu gedacht das Problem der Volatilität von Kryptowährungen zu lösen.',
-	'developers.devforums' => 'Entdecke andere innovative Ideen in unserem <a href="https://talk.peercoin.net/c/projects">Forum</a> oder tritt dem <a href="https://peercoin.chat">Chat</a> bei um Deine eigenen mitzuteilen und zu diskutieren.',
+	'developers.devforums' => 'Entdecke andere innovative Ideen in unserem <a href="https://talk.peercoin.net/c/projects">Forum</a> oder tritt dem <a href="https://discord.gg/m294ReV">Chat</a> bei um Deine eigenen mitzuteilen und zu diskutieren.',
 );
 $lang['de'] += array(
 	//Exchanges

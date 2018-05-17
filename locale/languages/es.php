@@ -20,7 +20,7 @@ $lang['es'] += array(
 	'developers.peershares_desc' => '<b>Peershares</b> es un libro de contabilidad económico y descentralizado para ser utilizado por las empresas para recaudar fondos, para el seguimiento de la propiedad de acciones y para la distribución de dividendos de manera automatizada. Cada negocio usando Peershares tiene su propia cadena de bloques independiente de todas las demás, la cual es asegurada de manera económica y fácil usando la prueba de participación de Peercoin .',
 	'developers.peerbox_desc' => '<b>PeerBox</ b> es un sistema operativo seguro para la acuñar y correr  nodos Peercoin, y está actualmente bajo desarrollo activo. Se centra en dispositivos energéticamente eficientes y de bajo costo tales como el Raspberry Pi, que es compatible con el objetivo de Peercoin de proporcionar una criptomoneda energéticamente eficiente. Si ASIC es un término para la minería dedicada y de eficiencia energética, entonces PeerBox es el ASIC de la prueba de participación.',
 	'developers.nubits_desc' => '<b>NuBits</b> es un proyecto del creador de Peershares, Jordan Lee. NuBits es la primera implementación de Peershares. Se pretende resolver el problema de la volatilidad en las criptomonedas.',
-	'developers.devforums' => 'Encuentra otras innovadoras ideas en nuestros <a href="https://talk.peercoin.net/c/projects">foros</a> o entra en el <a href="https://peercoin.chat">chat</a> para discutir o compartir las tuyas.',
+	'developers.devforums' => 'Encuentra otras innovadoras ideas en nuestros <a href="https://talk.peercoin.net/c/projects">foros</a> o entra en el <a href="https://discord.gg/m294ReV">chat</a> para discutir o compartir las tuyas.',
 );
 $lang['es'] += array(
 	//Exchanges
