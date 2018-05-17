@@ -20,7 +20,7 @@ $lang['ro'] += array(
 	'developers.peershares_desc' => '<b>Peershares</b> este un registru ieftin și descentralizat pentru a fi utilizat în afaceri pentru a obține fonduri, a urmări proprietatea asupra acțiunilor și a distribui dividendele într-un mod automat. Fiecare afacere care utilizează Peershares are propriul bloc de blocuri, care este independent de toate celelalte și asigurat ieftin și ușor, folosind Peercoin Proof-of-Stake.',
 	'developers.peerbox_desc' => '<b>Peerbox</b> este un sistem de operare securizat pentru minarea și rularea nodurilor Peercoin și este în curs de dezvoltare activă. Se concentrează pe dispozitive ieftine, eficiente din punct de vedere energetic, cum ar fi Raspberry Pi, care este compatibil cu obiectivul Peercoin: de a oferi o cripto-valută eficientă din punct de vedere energetic. Dacă ASIC-ul este un dispozitiv dedicat activităților miniere eficiente din punct de vedere energetic, atunci Peerbox este un ASIC a minării prin Menținere POS.',
 	'developers.nubits_desc' => '<b>NuBits</b> este un proiect al creatorului Peershares, Jordan Lee. NuBits este prima implementare de Peershares. Se intenționează rezolvarea problemei volatilității în cripto-valute.',
-	'developers.devforums' => 'Găsiți alte idei inovatoare pe <a href="https://talk.peercoin.net/c/projects"> forumurile </a> sau participați la <a href="https://peercoin.chat"> chat </a> pentru a discuta și împărtăși părerea Dvs',
+	'developers.devforums' => 'Găsiți alte idei inovatoare pe <a href="https://talk.peercoin.net/c/projects"> forumurile </a> sau participați la <a href="https://discord.gg/m294ReV"> chat </a> pentru a discuta și împărtăși părerea Dvs',
 );
 $lang['ro'] += array(
 	//Exchanges
