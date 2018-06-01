@@ -28,6 +28,25 @@
             </p>
         </div>
 	</div>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <h3>Contact us</h3>
+                <p><b>Stichting Peercoin Foundation</b></p>
+
+        <p>         
+                    Kingsfordweg 151<br>
+                    1043GR Amsterdam<br>
+                    The Netherlands
+        </p>    
+
+                <p>
+                <a href="mailto:foundation@peercoin.net">foundation@peercoin.net</a><br>
+                RSIN: 858715958
+                </p>
+
+        </div>
+        </div>
+
 	<div class="row">
 		
 	</div>
