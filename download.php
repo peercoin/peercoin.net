@@ -2,9 +2,9 @@
 <?php
     // Download link list:
     $download_links = array(
-        'windows' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.3ppc/Peercoin_v0.6.3_win.zip',
-        'mac' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.3ppc/Peercoin_v0.6.3_osx.zip',
-        'linux' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.3ppc/Peercoin_v0.6.3_linux.zip'
+        'windows' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.4ppc/peercoin-v0.6.4ppc-win-gitian.zip',
+        'mac' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.4ppc/peercoin-v0.6.4ppc-osx-gitian.zip',
+        'linux' => 'https://github.com/peercoin/peercoin/releases/download/v0.6.4ppc/peercoin-v0.6.4ppc-linux-gitian.zip'
     );
 
     $CurrOS = "windows";
