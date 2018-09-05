@@ -5,4 +5,10 @@ $lang['en'] += array(
     'foundation.foundation_text' => 'Peercoin Foundation',
     'foundation.community_support' => 'Community Support',
     'foundation.community_support_desc' => 'If you would like to get involved with Peercoin, or would simply like to support the team, there are a handful of options at your disposal. If you are interested in becoming a developer for Peercoin or Peercoin related projects such as PeerAssets, send us an email at <a href="mailto:foundation@peercoin.net">foundation@peercoin.net</a>. If you would like to donate PPC to the Peercoin Foundation to support the expansion of a project, simply send your PPC donation to the multisignature address below.',
+    'foundation.name' => 'Stichting Peercoin Foundation',
+    'foundation.rsin' => '858715958',
+    'foundation.contact_details' => 'Kingsfordweg 151
+1043GR Amsterdam
+The Netherlands', 
+    'foundation.email' => 'foundation@peercoin.net',
 );
