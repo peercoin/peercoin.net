@@ -84,16 +84,16 @@
                                 <th>SHA-256</th>
                             </tr>
                             <tr>
-                                <td><code>Peercoin_v0.6.3_win.zip</code></td>
-                                <td>60e4847280bd39af907ba1dbb3a41a0b328543e7d4658d0bb491ac89fe2cff2c</td>
+                                <td><code>peercoin-v0.6.4ppc-win-gitian.zip</code></td>
+                                <td>e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</td>
                             </tr>
                             <tr>
-                                <td><code>Peercoin_v0.6.3_osx.zip</code></td>
-                                <td>8c3b74d66d1b31bca2e8864a24fc0d6104dbcb92dc4ac31ad84bc61a9cb956d2</td>
+                                <td><code>peercoin-v0.6.4ppc-osx-gitian.zip</code></td>
+                                <td>5503b0e4b7b0fa656a48687d6ea9ff3caced3842cb76135fba620fcbeebb2e29</td>
                             </tr>
                             <tr>
-                                <td><code>Peercoin_v0.6.3_linux.zip</code></td>
-                                <td>42a5f1d344ca6662af608f245e6909ba0e7358793f6bbda411ccad5dec71cbc6</td>
+                                <td><code>peercoin-v0.6.4ppc-linux-gitian.zip</code></td>
+                                <td>7ee8026f5292f4953b741cc3259e1c66742a095e038642e09d6f22c2438b4467</td>
                             </tr>
                         </table>
                     </div>
@@ -122,7 +122,7 @@
            
              <ul>
                 <li>Open or Extract
-                <code>Peercoin_v0.6.3_win.zip</code></li>
+                <code>Peercoin_v0.6.4_win.zip</code></li>
                 <li>Install 32 bit or 64 bit version</li>
                 
                 <li>Default installation directory is
@@ -156,7 +156,7 @@
            <p>NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/@PeercoinPulse/peercoin-v0-6-release-2831fb4394ad">here</a>.</p>
 
             <ul>
-                <li>Extract <code>Peercoin_v0.6.3_osx.zip</code>
+                <li>Extract <code>peercoin-v0.6.4ppc-osx-gitian.zip </code>
                 <li>Mount <code>Peercoin-Qt.dmg</code> by opening
                 it</li>
 
@@ -200,7 +200,7 @@
 
             <ul>
                 <li>Unpack
-                <code>Peercoin_v0.6.3_linux.zip</code></li>
+                <code>peercoin-v0.6.4ppc-linux-gitian.zip</code></li>
 
                 <li>Run <code>bin/32/peercoin-qt</code> <em>(requires
                 libqt4-gui)</em></li>
@@ -232,51 +232,23 @@
                    <p><code>yaourt -S peercoin-qt</code></p>
                 </div>
                 <div class="tab-pane" id="deb">
-                    <h2 id="config">Debian 8.0</h2>
+                    <h2 id="config">Debian 9.0 (stretch)</h2>
 
                     <p><em>Open the terminal as root and paste following commands:</em></p>
                     <p><em>Add keys</em></p>
                     <div style="background-color:#F1F1F1">
-                        <p><code>wget http://download.opensuse.org/repositories/home:peerchemist/Debian_8.0/Release.key</code>
-                        <br>
-                        <code> apt-key add - &#60; Release.key </code>
-                        </p>
+                        <p><code>wget -O - https://repo.peercoin.net/peercoin.gpg.key | sudo apt-key add -</code></p>
                     </div>
                     <p><em>Add repository:</em></p>
                     <div style="background-color:#F1F1F1">
-                        <p><code>echo 'deb http://download.opensuse.org/repositories/home:/peerchemist/Debian_8.0/ /' >> /etc/apt/sources.list.d/ppcoin.list   </code><br>
+                        <p><code>sudo sh -c "echo 'deb http://repo.peercoin.net stretch main' >> /etc/apt/sources.list.d/peercoin.list"</code><br>
                     </div>
                     <p><em>Update and install:</em></p>
                     <div style="background-color:#F1F1F1">
-                        <code>apt-get update && apt-get install ppcoin  </code><br>
+                        <code>sudo apt-get update && sudo apt-get install peercoin-qt</code><br>
                         <code>  </code></p>
                 </div>
                 </div>
-                <div class="tab-pane" id="ubu">
-                    <h2 id="config">Ubuntu 15.10</h2>
-                   
-                    <h4>Important: Only Ubuntu 15.10 and <b>above</b> are supported</h4>
-   
-                    <p><em>Open the terminal and paste following commands:</em></p>
-                    <p><em>Add key:</em></p>
-                    <div style="background-color:#F1F1F1">
-                        <p><code>wget http://download.opensuse.org/repositories/home:peerchemist/xUbuntu_15.10/Release.key</code>
-                        <br>
-                        <code> sudo apt-key add - &#60; Release.key </code>
-                        </p>
-                    </div>
-                    <p><em>Add repository:</em></p>
-                    <div style="background-color:#F1F1F1">
-                        
-                        <p><code>sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/peerchemist/xUbuntu_15.10/ /' >> /etc/apt/sources.list.d/ppcoin.list" </code><br>
-                        
-                    </div>
-                    <p><em>Update and install:</em></p>
-                    <div style="background-color:#F1F1F1">
-                        
-                        <p><code>sudo apt-get update && sudo apt-get install ppcoin </code><br>
-                        
-                    </div>
                 </div>
             </div>
         </div>
