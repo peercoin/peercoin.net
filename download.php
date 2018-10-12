@@ -85,7 +85,7 @@
                             </tr>
                             <tr>
                                 <td><code>peercoin-v0.6.4ppc-win-gitian.zip</code></td>
-                                <td>e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</td>
+                                <td>07ce9d85bc3ec63b72de5795c3f2d87cea1bed3ceee11bfbc31f42b7d312491e</td>
                             </tr>
                             <tr>
                                 <td><code>peercoin-v0.6.4ppc-osx-gitian.zip</code></td>
