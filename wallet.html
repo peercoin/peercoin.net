@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wallet - Peercoin</title>
+        <link rel="icon" type="image/png" href="img/logos/favicons/Leaf/favicon16.png" sizes="16x16" />
+        <link rel="icon" type="image/png" href="img/logos/favicons/Leaf/favicon32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="img/logos/favicons/Leaf/favicon48.png" sizes="48x48" />
+        <link rel="icon" type="image/png" href="img/logos/favicons/Leaf/favicon64.png" sizes="64x64" />
+        <link rel="icon" type="image/png" href="img/logos/favicons/Leaf/favicon96.png" sizes="96x96" />
+        <link rel="icon" type="image/png" href="img/logos/favicons/Leaf/favicon128.png" sizes="128x128" />
+        <link rel="icon" type="image/png" href="img/logos/favicons/Leaf/favicon256.png" sizes="256x256" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animate.css">
+    </head>
+    <body>
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+        </div>
+        <section id="language">
+            <script language="javascript" type="text/javascript" src="language.html"></script>
+        </section>
+        <section id="first">
+            <script language="javascript" type="text/javascript" src="menu.html"></script>
+            <!-- MENU CODE CHUNK ABOVE.  PASTE TO UPDATE PAGES-->
+            <div id="header-content" class="center-content">
+                <h1 class="title">Wallets</h1>
+                <p class="desc">For general inquiries, the Peercoin Foundation is here to answer!</p>
+                <div class="buttonWrap">
+                    <a href="#install"><span><button>Installation</button></span></a>
+                    <a href="#paperwallet"><span><button>Paper Wallet</button></span></a>
+                    <a href="#unofficialclients"><span><button>Unofficial Wallets</button></span></a>
+                </div>
+            </div>
+        </section>
+        <section id="seven">
+            <div data-wow-delay=".2s" class="container wow fadeIn justify-content-center">
+                <div class="row justify-content-center" style="margin-bottom: 2vh;">
+                    <h1 class="title">Desktop Wallets</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row mb-4 mt-2">
+                            <a class="col-md-12 bigbutton-wallet" href="https://github.com/peercoin/peercoin/releases/download/v0.6.4ppc/peercoin-v0.6.4ppc-win-gitian.zip">
+                                <br>
+                                <h4 style="color: #41B54A;">Windows</h4>
+                                <img class="wallet-icon" src="img/icons/windows.png"><br>
+                                Download
+                                <br><br>
+                            </a>
+                        </div>
+                        <div class="row mb-4">
+                            <a class="col-md-12 bigbutton-wallet" href="https://github.com/peercoin/peercoin/releases/download/v0.6.4ppc/peercoin-v0.6.4ppc-osx-gitian.zip">
+                                <br>
+                                <h4 style="color: #41B54A;">Mac OS X</h4>
+                                <img class="wallet-icon" src="img/icons/apple.png"><br>
+                                Download<br>
+                                <br>
+                            </a>
+                        </div>
+                        <div class="row mb-4">
+                            <a class="col-md-12 bigbutton-wallet" href="https://github.com/peercoin/peercoin/releases/download/v0.6.4ppc/peercoin-v0.6.4ppc-linux-gitian.zip">
+                                <br>
+                                <h4 style="color: #41B54A;">Linux</h4>
+                                <img class="wallet-icon" src="img/icons/linux.png"><br>
+                                Download<br>
+                                <br>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <img src="img/wallets_splash.png" alt="" class="img-fluid" style="padding-bottom: 15px;">
+                        <!-- Signatures -->
+                        <button class="collapsible justify-content-center">Signatures</button>
+                        <div class="content">
+                            <table>
+                                <tr>
+                                    <th><i>File</i></th>
+                                    <th><i>SHA-256</i></th>
+                                </tr>
+                                <!-- Windows Signature -->
+                                <tr>
+                                    <th>peercoin-v0.6.4ppc-win-gitian.zip</th>
+                                    <th>07ce9d85bc3ec63b72de5795c3f2d87cea1bed3ceee11bfbc31f42b7d312491e</th>
+                                </tr>
+                                <!-- OS X Signature -->
+                                <tr>
+                                    <th>peercoin-v0.6.4ppc-osx-gitian.zip</th>
+                                    <th>5503b0e4b7b0fa656a48687d6ea9ff3caced3842cb76135fba620fcbeebb2e29</th>
+                                </tr>
+                                <!-- Linux Signature -->
+                                <tr>
+                                    <th>peercoin-v0.6.4ppc-linux-gitian.zip</th>
+                                    <th>7ee8026f5292f4953b741cc3259e1c66742a095e038642e09d6f22c2438b4467</th>
+                                </tr>
+                            </table>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <!-- Container Script -->
+                <script>
+                    var coll = document.getElementsByClassName("collapsible");
+                    var i;
+
+                    for (i = 0; i < coll.length; i++) {
+                      coll[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var content = this.nextElementSibling;
+                        if (content.style.display === "block") {
+                          content.style.display = "none";
+                        } else {
+                          content.style.display = "block";
+                        }
+                      });
+                    }
+                </script>
+            </div>
+        </section>
+        <section id="walletguide">
+            <div data-wow-delay=".2s" class="container wow fadeIn justify-content-center">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="title"><a name="install" class="linked">Installation</a></h1>
+                        <br>
+                        <div id="accordion">
+                            <!-- Windows -->
+                            <div class="card">
+                                <div class="card-header" id="wallets_dropdown">
+                                    <h5 data-toggle="collapse" data-target="#collapsezero" aria-expanded="true" aria-controls="collapsezero">
+                                        <a id="wallets_dropdown"><span>Windows</span></a>
+                                    </h5>
+                                </div>
+                                <div id="collapsezero" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h3>Windows</h3>
+                                                NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/peercoin/peercoin-v0-6-release-2831fb4394ad"><u style="color:#3cb054">here.</u></a><br>
+                                                <ul>
+                                                    <li>Open or Extract <code class="green">Peercoin_v0.6.4_win.zip</code></li>
+                                                    <li>Install 32 bit or 64 bit version</li>
+                                                    <li>Default installation directory is <code class="green">C:\Program Files\PPCoin</code> or <code class="green">C:\Program Files\Peercoin</code></li>
+                                                    <li>Run <code class="green">peercoin-qt</code> or <code class="green">peercoin</code> from the Start menu or the installation directory</li>
+                                                </ul>
+                                                <br>
+                                                <h4>Daemon</h4>
+                                                <ul>
+                                                    <li>Create <code class="green">ppcoin.conf</code> in <code class="green">%APPDATA%\PPCoin</code></li>
+                                                    <li>Run <code class="green">daemon\peercoind</code></li>
+                                                    <li>Your wallet is located in <code class="green">C:\Users\&lt;username&gt;\AppData</code> (hidden folder).</li>
+                                                    <li>Open the folder with <code class="green">Start menu -> Run...</code> (or press <code class="green">Winkey-R</code>), type <code class="green">%APPDATA%\PPCoin</code> into the field, and press Enter.</li>
+                                                </ul>
+                                                <br>
+                                                Additional help can be found in the Peercoin <a href="https://docs.peercoin.net/"><u style="color:#3cb054">Documentation</u></a> or by asking on our <a href="https://talk.peercoin.net/"><u style="color:#3cb054">Forums.</u></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="purchasing_dropdown">
+                                    <h5 data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <span>OS X</span>
+                                    </h5>
+                                </div>
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h3>OS X</h3>
+                                                NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/peercoin/peercoin-v0-6-release-2831fb4394ad"><u style="color:#3cb054">here.</u></a><br>
+                                                <ul>
+                                                    <li>Open or Extract <code class="green">peercoin-v0.6.4ppc-osx-gitian.zip</code></li>
+                                                    <li>Mount <code class="green">Peercoin-Qt.dmg</code> by opening it</li>
+                                                    <li>Drag <code class="green">Peercoin-Qt.app</code> or <code class="green">Peercoin.app</code> to <code class="green">Applications</code></li>
+                                                    <li>Drag <code class="green">Peercoin-Qt.app</code> or <code class="green">Peercoin.app</code> to <code class="green">Applications</code></li>
+                                                    <li>Go to <code class="green">Applications</code> and open <code class="green">Peercoin-Qt.app</code> or <code class="green">Peercoin.app</code></li>
+                                                </ul>
+                                                <br>
+                                                <h4>Daemon</h4>
+                                                <ul>
+                                                    <li>Unzip <code class="green">peercoind.zip</code></li>
+                                                    <li>Create <code class="green">ppcoin.conf</code> in <code class="green">~/Library/Application Support/PPCoin</code></li>
+                                                    <li>Run <code class="green">peercoind</code></li>
+                                                </ul>
+                                                Your wallet is located in <code class="green">~/Library/Application Support/PPCoin</code>. To open the folder, press Command-Shift-G in Finder, insert the path, and press Enter.<br><br>
+                                                Additional help can be found in the Peercoin <a href="https://docs.peercoin.net/"><u style="color:#3cb054">Documentation</u></a> or by asking on our <a href="https://talk.peercoin.net/"><u style="color:#3cb054">Forums.</u></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="minting_dropdwon">
+                                    <h5 data-toggle="collapse" data-target="#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
+                                        <span>Linux</span>
+                                    </h5>
+                                </div>
+                                <div id="collapsetwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h3>Generic Linux</h3>
+                                                NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/peercoin/peercoin-v0-6-release-2831fb4394ad"><u style="color:#3cb054">here.</u></a><br>
+                                                <ul>
+                                                    <li>Unpack <code class="green">peercoin-v0.6.4ppc-linux-gitian.zip</code></li>
+                                                    <li>Run <code class="green">bin/32/peercoin-qt</code> (requires libqt4-gui)</li>
+                                                </ul>
+                                                <br>
+                                                <h4>Daemon</h4>
+                                                <ul>
+                                                    <li>Create <code class="green">ppcoin.conf</code> in <code class="green">~/.ppcoin</code></li>
+                                                    <li>Run <code class="green">bin/32/peercoind</code></li>
+                                                </ul>
+                                                Your wallet is located in <code class="green">~/.ppcoin.</code><br>
+                                                <i>Note: 64 bit binaries available in <code class="green">bin/64/{peercoin-qt,peercoind}</code>.</i>
+                                                <h3>ArchLinux</h3>
+                                                NOTICE: If you are updating to v0.6 from a previous version, a full blockchain redownload is required due to the move to the leveldb database. You can find instructions on how to do this <a href="https://medium.com/peercoin/peercoin-v0-6-release-2831fb4394ad"><u style="color:#3cb054">here.</u></a><br><br>
+                                                If you are ArchLinux user, you can use an AUR helper like yaourt to automate the process for you.<br>
+                                                <code class="green">yaourt -S peercoin-qt</code>
+                                                <br><br>
+                                                Additional help can be found in the Peercoin <a href="https://docs.peercoin.net/"><u style="color:#3cb054">Documentation</u></a> or by asking on our <a href="https://talk.peercoin.net/"><u style="color:#3cb054">Forums.</u></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="mining_dropdown">
+                                    <h5 data-toggle="collapse" data-target="#collapsethree" aria-expanded="true" aria-controls="collapsethree">
+                                        <span>Advanced Configuration</span>
+                                    </h5>
+                                </div>
+                                <div id="collapsethree" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h3>Advanced Configuration</h3>
+                                                <i>Note: Optional if you use only PPCoin-Qt.</i><br>
+                                                Create <code class="green">ppcoin.conf</code> in the wallet directory.<br><br>
+                                                <h4>Enable RPC query capabilities with PPCoin-Qt</h4>
+                                                Change or add <code class="green">server=1</code> to <code class="green">ppcoin.conf</code>.<br><br>
+                                                <h3>Sample PPCoin configuration</h3>
+                                                You have to set <code class="green">rpcpassword</code> to something secure. If you run <code class="green">ppcoind</code> without setting it you will get a computer generated password.<br>
+                                                <pre><font color="white">
+# ppcoin.conf configuration file. Lines beginning with # are comments.
+
+### Network-related settings
+
+# Run on the test network instead of the production PPCoin network
+#testnet=0
+
+# Connect via a SOCKS4 proxy (default: none)
+#proxy=127.0.0.1:9050
+
+# Accept incoming connections
+#listen=1
+
+# Enable UPnP negotiation with router/firewall to accept incoming connections
+#upnp=1
+
+#################################################################
+##           Quick Primer on 'addnode' vs 'connect'            ##
+##                                                             ##
+##  Let's say for instance you use 'addnode=4.2.2.4'.          ##
+##                                                             ##
+##  'addnode' will connect you to and tell you about the       ##
+##    nodes connected to 4.2.2.4.  In addition it will tell    ##
+##    the other nodes connected to it that you exist so        ##
+##    they can connect to you.                                 ##
+##  'connect' will not do the above when you 'connect' to it.  ##
+##    It will *only* connect you to 4.2.2.4 and no one else.   ##
+##                                                             ##
+##  So if you're behind a firewall, or have other problems     ##
+##  finding nodes, add some using 'addnode'.                   ##
+##                                                             ##
+##  If you want to stay private, use 'connect' to only         ##
+##  connect to "trusted" nodes.                                ##
+##                                                             ##
+##  If you run multiple nodes on a LAN, there's no need for    ##
+##  all of them to open lots of connections.  Instead          ##
+##  'connect' them all to one node that is port forwarded      ##
+##  and has lots of connections.                               ##
+##                                                             ##
+##            Thanks goes to [Noodle] on Freenode.             ##
+#################################################################
+
+# Use as many addnode= settings as you like to connect to specific peers
+#addnode=69.164.218.197
+#addnode=10.0.0.2:8333
+
+# ... or use as many connect= settings as you like to ONLY connect
+# to specific peers:
+#connect=69.164.218.197
+#connect=10.0.0.1:8333
+
+# Maximum number of inbound+outbound connections
+#maxconnections=
+
+
+### JSON-RPC options (for controlling a running PPCoin-Qt/ppcoind process)
+
+# Enable JSON-RPC commands with PPCoin-Qt
+#server=0
+
+# You must set rpcuser and rpcpassword to secure the JSON-RPC API
+#rpcuser=Ulysseys
+#rpcpassword=YourSuperGreatPasswordNumber_DO_NOT_USE_THIS_OR_YOU_WILL_GET_ROBBED_385593
+
+# How many seconds PPCoin will wait for a complete RPC HTTP request
+# after the HTTP connection is established.
+#rpctimeout=30
+
+# By default, only RPC connections from localhost are allowed.  Specify
+# as many rpcallowip= settings as you like to allow connections from
+# other hosts (and you may use * as a wildcard character):
+#rpcallowip=10.1.1.34
+#rpcallowip=192.168.1.*
+
+# Listen for RPC connections on this TCP port:
+#rpcport=9902
+
+# You can use ppcoind to send commands to ppcoind
+# running on another host using this option:
+#rpcconnect=127.0.0.1
+
+# Use Secure Sockets Layer (also known as TLS or HTTPS) to communicate
+# with ppcoind
+#rpcssl=1
+
+# OpenSSL settings used when rpcssl=1
+#rpcsslciphers=TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH
+#rpcsslcertificatechainfile=server.cert
+#rpcsslprivatekeyfile=server.pem
+
+
+### Miscellaneous options
+
+# Set gen=1 to attempt to generate PPCoins using built-in CPU mining
+#gen=0
+
+# Use SSE instructions to try speeding up PPCoin generation
+# with built-in CPU mining.
+#4way=1
+
+# Pre-generate this many public/private key pairs, so wallet backups will be
+# valid for both prior transactions and several dozen future transactions.
+#keypool=100
+
+# Pay transaction fee amount per kilobyte. Default 0.01 (1 cent)
+# Minimum required 0.01 (1 cent)
+#paytxfee=0.01
+
+# Reserve amount of PPCoins to not use in proof-of-stake
+# (stake is withheld from spending for 520 blocks)
+#reservebalance=0
+                                        </font></pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Paper Wallet -->
+        <section id="seven">
+            <div data-wow-delay=".2s" class="container wow fadeIn justify-content-center">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="title"><a name="paperwallet" class="linked">Paper Wallet</a></h1>
+                        <br>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row justify-content-center">
+                            <a class="col-xs-12 col-sm-12 col-md-3 col-lg-3 bigbutton-white" href="https://paperwallet.peercoin.net/">
+                                <h4>Paper Wallet</h4>
+                                <img class="exchange-icon" src="img/explorers/peercoin_green.png"><br>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Whitepaper -->
+        <section id="seven">
+            <div data-wow-delay=".2s" class="container wow fadeIn justify-content-center">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="title"><a name="unofficialclients" class="linked">Unofficial Wallets</a></h1>
+                        <br>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row justify-content-center">
+                            <a class="col-xs-12 col-sm-12 col-md-3 col-lg-3 bigbutton-white" href="https://www.ledger.com/">
+                                <h4>Ledger</h4>
+                                <img class="exchange-icon" src="img/wallets/ledger.png"><br>
+                                <i>Hardware Wallet</i><br>
+                            </a>
+                            <a class="col-xs-12 col-sm-12 col-md-3 col-lg-3 bigbutton-white" href="https://www.coinomi.com/">
+                                <h4>Coinomi</h4>
+                                <img class="exchange-icon" src="img/wallets/coinomi.png"><br>
+                                <i>Mobile Wallet</i><br>
+                            </a>
+                            <a class="col-xs-12 col-sm-12 col-md-3 col-lg-3 bigbutton-white" href="https://www.cryptonator.com/">
+                                <h4>Cryptonator</h4>
+                                <img class="exchange-icon" src="img/wallets/cryptonator.png"><br>
+                                <i>Mobile/Web Wallet</i><br>
+                            </a>
+                            <a class="col-xs-12 col-sm-12 col-md-3 col-lg-3 bigbutton-white" href="http://uberpay.io/">
+                                <h4>UberPay</h4>
+                                <img class="exchange-icon" src="img/wallets/uberpay.png"><br>
+                                <i>Mobile/Web Wallet</i><br>
+                            </a>
+                            <a class="col-xs-12 col-sm-12 col-md-3 col-lg-3 bigbutton-white" href="https://www.coinspot.com.au/">
+                                <h4>Coinspot</h4>
+                                <img class="exchange-icon" src="img/wallets/coinspot.png"><br>
+                                <i>Web Wallet</i><br>
+                            </a>
+                            <a class="col-xs-12 col-sm-12 col-md-3 col-lg-3 bigbutton-white" href="https://www.coinvault.io/">
+                                <h4>CoinVault</h4>
+                                <img class="exchange-icon" src="img/wallets/coinvault.png"><br>
+                                <i>Web Wallet</i><br>
+                            </a>
+                            <a class="col-xs-12 col-sm-12 col-md-3 col-lg-3 bigbutton-white" href="https://holytransaction.com/">
+                                <h4>HolyTransaction</h4>
+                                <img class="exchange-icon" src="img/wallets/holytransaction.png"><br>
+                                <i>Web Wallet</i><br>
+                            </a>
+                            <a class="col-xs-12 col-sm-12 col-md-3 col-lg-3 bigbutton-white" href="https://magnumwallet.co">
+                                <h4>Magnum</h4>
+                                <img class="exchange-icon" src="img/wallets/magnum.png"><br>
+                                <i>Web Wallet</i><br>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- NEWSLETTER SECTION -->
+        <section id="six">
+            <script language="javascript" type="text/javascript" src="newsletter.html"></script>
+        </section>
+        <!-- FOOTER SECTION -->
+        <footer>
+            <script language="javascript" type="text/javascript" src="footer.html"></script>
+        </footer>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
