@@ -382,11 +382,13 @@ section#first header ul li.nav-item a {
 }
 
 section#first header ul li.nav-item:hover {
- text-decoration: underline;
+    text-decoration: underline;
+    color: #fff;
 }
 
 section#first header ul li.nav-item:active {
- text-decoration: underline;
+    text-decoration: underline;
+    color: #fff;
 }
 
 
