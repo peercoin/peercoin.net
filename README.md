@@ -12,6 +12,9 @@ If you have a simple change to the website, we ask that you put in a pull reques
 
 If don't know how to submit a pull request use these helpful guides: [one](https://help.github.com/articles/using-pull-requests) and [two](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/).
 
+### Updating Wallet Signatures
+Because Github hosting does not allow for PHP, we use Javascript for persistant content.  Signatures can be updated in the signatures file.  Other JS files have readable (HTML) versions in the readable folder.  
+
 ### Installing and Running
 If you want to test out the website locally, raise a local http server.
 For example `python3 -m http.server 8080`.
