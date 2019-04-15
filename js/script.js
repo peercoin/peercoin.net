@@ -11,11 +11,13 @@ $(window).scroll(function() {
 
 $("span.menu-trigger").click(function(){
     $("nav.mobile-only").toggleClass("show");
+    $("body").toggleClass("rm-sc");
     $("header nav.mobile-only li.nav-item").removeClass("clicked");
 });
 
 $("span.menu-close").click(function(){
     $("nav.mobile-only").removeClass("show");
+    $("body").removeClass("rm-sc");
 });
 
 $("li#language").click(function(){
