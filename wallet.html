@@ -49,7 +49,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="row mb-4 mt-2">
-                            <a class="col-md-12 bigbutton-wallet" href="https://github.com/peercoin/peercoin/releases/download/v0.7.3ppc/peercoin-v0.7.3ppc-win-gitian.zip">
+                            <a class="col-md-12 bigbutton-wallet" href="https://github.com/peercoin/peercoin/releases/download/v0.8.0ppc/peercoin-0.8.0-win64-setup-unsigned.exe">
                                 <br>
                                 <h4 style="color: #41B54A;">Windows</h4>
                                 <img class="wallet-icon" src="img/icons/windows.png"><br>
@@ -58,7 +58,7 @@
                             </a>
                         </div>
                         <div class="row mb-4">
-                            <a class="col-md-12 bigbutton-wallet" href="https://github.com/peercoin/peercoin/releases/download/v0.7.3ppc/peercoin-v0.7.3ppc-osx-gitian.zip">
+                            <a class="col-md-12 bigbutton-wallet" href="https://github.com/peercoin/peercoin/releases/download/v0.8.0ppc/peercoin-0.8.0-osx-unsigned.dmg">
                                 <br>
                                 <h4 style="color: #41B54A;">Mac OS X</h4>
                                 <img class="wallet-icon" src="img/icons/apple.png"><br>
@@ -67,7 +67,7 @@
                             </a>
                         </div>
                         <div class="row mb-4">
-                            <a class="col-md-12 bigbutton-wallet" href="https://github.com/peercoin/peercoin/releases/download/v0.7.3ppc/peercoin-v0.7.3ppc-linux-gitian.zip">
+                            <a class="col-md-12 bigbutton-wallet" href="https://github.com/peercoin/peercoin/releases/download/v0.8.0ppc/peercoin-0.8.0-x86_64-linux-gnu.tar.gz">
                                 <br>
                                 <h4 style="color: #41B54A;">Linux</h4>
                                 <img class="wallet-icon" src="img/icons/linux.png"><br>
@@ -88,18 +88,18 @@
                                 </tr>
                                 <!-- Windows Signature -->
                                 <tr>
-                                    <th>peercoin-v0.7.3ppc-win-gitian.zip</th>
-                                    <th>bbb5d6fe5c126e84b68e9a0d343a129f8da024d3ea9d8f076cc5ca76b257bc69</th>
+                                    <th>peercoin-0.8.0-win64-setup-unsigned.exe</th>
+                                    <th>30bddadd2ba7d67d7c7dc9947ab37c2ae262e0fb80efe18e69f698b35de88a1a</th>
                                 </tr>
                                 <!-- OS X Signature -->
                                 <tr>
-                                    <th>peercoin-v0.7.3ppc-osx-gitian.zip</th>
-                                    <th>7619e434d74808aa55445d1ce933e7be3753001ba408bc8165aabf99daefec44</th>
+                                    <th>peercoin-0.8.0-osx-unsigned.dmg</th>
+                                    <th>18f3f72dc39ae0c04f1b1db6e77dcc0bd510a7b7726f4eead8fe5c173b370003</th>
                                 </tr>
                                 <!-- Linux Signature -->
                                 <tr>
-                                    <th>peercoin-v0.7.3ppc-linux-gitian.zip</th>
-                                    <th>43ba43c50b88639d09398f054d519d816ba1027983ad004db10c3490c2494c58</th>
+                                    <th>peercoin-v0.8.0ppc-linux-gitian.zip</th>
+                                    <th>b36c7d87a14ab0e4e3b1886c8fc01ec2950a2f353ea468d4e2353b68a34323a8</th>
                                 </tr>
                             </table>
                             <br>
@@ -145,15 +145,14 @@
                                             <div class="col-md-12">
                                                 <h3>Windows</h3>
                                                 <ul>
-                                                    <li>Open or Extract <code class="green">Peercoin_v0.7.3_win.zip</code></li>
-                                                    <li>Install 32 bit or 64 bit version</li>
+                                                    <li>Open <code class="green">peercoin-0.8.0-win64-setup-unsigned.exe</code></li>
                                                     <li>Default installation directory is <code class="green">C:\Program Files\PPCoin</code> or <code class="green">C:\Program Files\Peercoin</code></li>
                                                     <li>Run <code class="green">peercoin-qt</code> or <code class="green">peercoin</code> from the Start menu or the installation directory</li>
                                                 </ul>
                                                 <br>
                                                 <h4>Daemon</h4>
                                                 <ul>
-                                                    <li>Create <code class="green">ppcoin.conf</code> in <code class="green">%APPDATA%\PPCoin</code></li>
+                                                    <li>Create <code class="green">peercoin.conf</code> in <code class="green">%APPDATA%\PPCoin</code></li>
                                                     <li>Run <code class="green">daemon\peercoind</code></li>
                                                     <li>Your wallet is located in <code class="green">C:\Users\&lt;username&gt;\AppData</code> (hidden folder).</li>
                                                     <li>Open the folder with <code class="green">Start menu -> Run...</code> (or press <code class="green">Winkey-R</code>), type <code class="green">%APPDATA%\PPCoin</code> into the field, and press Enter.</li>
@@ -177,7 +176,7 @@
                                             <div class="col-md-12">
                                                 <h3>OS X</h3>
                                                 <ul>
-                                                    <li>Open or Extract <code class="green">peercoin-v0.7.3ppc-osx-gitian.zip</code></li>
+                                                    <li>Open <code class="green">peercoin-0.8.0-osx-unsigned.dmg</code></li>
                                                     <li>Mount <code class="green">Peercoin-Qt.dmg</code> by opening it</li>
                                                     <li>Drag <code class="green">Peercoin-Qt.app</code> or <code class="green">Peercoin.app</code> to <code class="green">Applications</code></li>
                                                     <li>Drag <code class="green">Peercoin-Qt.app</code> or <code class="green">Peercoin.app</code> to <code class="green">Applications</code></li>
@@ -209,7 +208,7 @@
                                             <div class="col-md-12">
                                                 <h3>Generic Linux</h3>
                                                 <ul>
-                                                    <li>Unpack <code class="green">peercoin-v0.7.3ppc-linux-gitian.zip</code></li>
+                                                    <li>Unpack <code class="green">peercoin-0.8.0-x86_64-linux-gnu.tar.gz</code></li>
                                                     <li>Run <code class="green">bin/32/peercoin-qt</code> (requires libqt4-gui)</li>
                                                 </ul>
                                                 <br>
@@ -221,9 +220,6 @@
                                                 Your wallet is located in <code class="green">~/.peercoin.</code><br>
                                                 <i>Note: 64 bit binaries available in <code class="green">bin/64/{peercoin-qt,peercoind}</code>.</i><br><br>
 
-                                                <h3>ArchLinux</h3>
-                                                <code class="green">yaourt -S peercoin-qt</code>
-                                                <br><br>
                                                 Additional help can be found in the Peercoin <a href="https://docs.peercoin.net/"><u style="color:#3cb054">Documentation</u></a> or by asking on our <a href="https://talk.peercoin.net/"><u style="color:#3cb054">Forums.</u></a>
                                             </div>
                                         </div>
