@@ -72,10 +72,77 @@ function Index() {
         <div className="container">
           <div className="timeline">
             <h2 className="timeline__title">Get Started</h2>
-            <Collapsible trigger="Start here">
-              <p>This is the collapsible content. It can be any element or React component you like.</p>
-              <p>It can even be another Collapsible component. Check out the next section!</p>
-            </Collapsible>
+            <div className="timeline__body">
+              <Collapsible open={true} trigger={<div className="timeline__body__section"><img src="/img/icons/graduationcap_white.png" alt=""/> Learn</div>}>
+                <div className="timeline__body__content">
+                  <div className="timeline__body__content__text">
+                    <p>For an in-depth overview of the project, <a href="https://university.peercoin.net/">Peercoin University</a> is the best starting place. For more articles and writings on Peercoin, check out our <a href="https://medium.com/peercoin">Medium Blog</a>.</p>
+                    <p>For those who are looking to develop, PeerAssets is Peercoin’s second layer solution for tokens. More information can be found on our <a href="projects.html">projects</a> page.</p>
+                    <p>A wealth of technical information can be found in the <a href="https://docs.peercoin.net/">Peercoin Documentation</a> as well.</p>
+                  </div>
+                  <div className="timeline__body__content__img">
+                    <img src="/img/icons/sidecard-learn.png" alt=""/>
+                  </div>
+                </div>
+              </Collapsible>
+              <Collapsible trigger={<div className="timeline__body__section"><img src="/img/icons/purchasing_white.png" alt=""/> Purchase</div>}>
+                <div className="timeline__body__content">
+                  <div className="timeline__body__content__text">
+                    <p>Peercoin is available through a variety of exchanges and services. You can <a href="resources.html#exchanges">check here for a list</a>.</p>
+                    <p>A guide to buying Peercoin is also available <a href="https://docs.peercoin.net/#/purchase">here</a>.</p>
+                  </div>
+                  <div className="timeline__body__content__img">
+                    <img src="/img/icons/sidecard-purchasing.png" alt=""/>
+                  </div>
+                </div>
+              </Collapsible>
+              <Collapsible trigger={<div className="timeline__body__section"><img src="/img/icons/wallets.png" alt=""/> Wallet</div>}>
+                <div className="timeline__body__content">
+                  <div className="timeline__body__content__text">
+                    <p>The <a href="wallet.html">Peercoin wallet</a> is available on Windows, Mac OSX, and Linux platforms.</p>
+                    <p>Command-line experiences are also available.</p>
+                    <p>To get started, check out the Wallet download page and the Installation guide's.</p>
+                  </div>
+                  <div className="timeline__body__content__img">
+                    <img src="/img/icons/sidecard-wallet.png" alt=""/>
+                  </div>
+                </div>
+              </Collapsible>
+              <Collapsible trigger={<div className="timeline__body__section"><img src="/img/icons/anvil.png" alt=""/> Mint</div>}>
+                <div className="timeline__body__content">
+                  <div className="timeline__body__content__text">
+                    <p> Proof-of-stake minting is an efficient process where stakeholders mint new blocks for the network. These blocks contain transactions that were initiated by users of the network. The role of the minter is to process these blocks of transactions and provide security for the network. </p>
+                    <p>Minting is an energy and cost efficient process, which makes it possible for stakeholders to participate using many different types of devices. Stakeholders participate in minting simply by installing the version of Peercoin they support, loading their wallet with PPC, and holding them while they are occasionally selected by Peercoin’s protocol to mint the next block in the chain. Every minted block rewards stakeholders with new PPC. </p>
+                    <p> To learn how to mint, check out the minting section in the <a href="https://docs.peercoin.net/#/wallets">wallets documentation</a>. More general information about minting can be found <a href="https://docs.peercoin.net/#/peercoin-minting-behaviour">here</a>. </p>
+                  </div>
+                  <div className="timeline__body__content__img">
+                    <img src="/img/icons/sidecard-anvil.png" alt=""/>
+                  </div>
+                </div>
+              </Collapsible>
+              <Collapsible trigger={<div className="timeline__body__section"><img src="/img/icons/pickaxe.png" alt=""/> Mine</div>}>
+                <div className="timeline__body__content">
+                  <div className="timeline__body__content__text">
+                    <p>Peercoin uses the hashcash double iterated SHA-256 algorithm for proof-of-work mining. This means any hardware that can mine Bitcoin can mine Peercoin as well.</p>
+                    <p>To get started, check out the <a href="https://docs.peercoin.net/#/mining">mining documentation</a>.</p>
+                  </div>
+                  <div className="timeline__body__content__img">
+                    <img src="/img/icons/sidecard-mining.png" alt=""/>
+                  </div>
+                </div>
+              </Collapsible>
+              <Collapsible trigger={<div className="timeline__body__section"><img src="/img/icons/community_white.png" alt=""/> Community</div>}>
+                <div className="timeline__body__content">
+                  <div className="timeline__body__content__text">
+                    <p>Join our <a href="https://talk.peercoin.net/">Forum</a>, <a href="https://discord.gg/XPxfwtG">Discord</a>, or <a href="https://t.me/peercoin">Telegram</a> to chat with other Peercoin community members and developers. Subscribe to our <a href="https://twitter.com/PeercoinPPC">Twitter</a>, <a href="https://www.reddit.com/r/peercoin">Reddit</a>, <a href="https://medium.com/peercoin">Medium Blog</a>, or <a href="https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877">Newsletter</a> to stay up to date with all the latest Peercoin news. Check <a href="resources.html#communities">here</a> for a list of all other community resources.</p>
+                    <p>Important updates can also be delivered directly to your mobile device through platforms like <a href="https://blockfolio.com/">Blockfolio</a>, <a href="https://delta.app/">Delta</a>, and <a href="https://www.coingecko.com/">CoinGecko</a>. Subscribe to stay up to date with the latest news.</p>
+                  </div>
+                  <div className="timeline__body__content__img">
+                    <img src="/img/icons/sidecard-community.png" alt=""/>
+                  </div>
+                </div>
+              </Collapsible>
+            </div>
           </div>
         </div>
       </div>
