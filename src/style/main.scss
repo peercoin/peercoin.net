@@ -16,6 +16,10 @@ body {
 
 .main {
   margin: 50px 0;
+
+  &--green {
+    background: $color-green;
+  }
 }
 
 .container {

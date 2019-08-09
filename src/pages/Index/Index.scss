@@ -95,3 +95,14 @@
     width: 510px;
   }
 }
+
+.timeline {
+  overflow: auto;
+  
+  &__title {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin: 25px 0;
+  }
+}

@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
+    "react-collapsible": "^2.6.0",
     "react-dom": "^16.8.6",
     "react-enroute": "^3.0.2",
     "react-router-dom": "^5.0.1",

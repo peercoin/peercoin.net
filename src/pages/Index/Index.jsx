@@ -1,4 +1,5 @@
 import React from 'react';
+import Collapsible from 'react-collapsible';
 import './Index.scss';
 import Menu from '../../components/Menu/Menu';
 
@@ -19,7 +20,7 @@ function Index() {
     </div>
     <div className="main">
       <div className="container">
-      <section className="home-description">
+        <section className="home-description">
           <div className="home-description__text">
             <h2 className="home-description__text__title">Efficient Security</h2>
             <p>Peercoin (PPC) first came online in 2012, making it one of the earliest pioneering blockchains. The key innovation of Peercoin is its invention of proof-of-stake, an alternative consensus protocol to Bitcoin’s proof-of-work.</p>
@@ -66,6 +67,17 @@ function Index() {
           </div>
           <img className="home-description__img" src="/img/animations/reliable-store-of-value.svg" alt=""/>
         </section>
+      </div>
+      <div className="main main--green">
+        <div className="container">
+          <div className="timeline">
+            <h2 className="timeline__title">Get Started</h2>
+            <Collapsible trigger="Start here">
+              <p>This is the collapsible content. It can be any element or React component you like.</p>
+              <p>It can even be another Collapsible component. Check out the next section!</p>
+            </Collapsible>
+          </div>
+        </div>
       </div>
     </div>
     </>
