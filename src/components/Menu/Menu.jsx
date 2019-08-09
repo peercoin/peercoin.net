@@ -2,13 +2,12 @@ import React, { useEffect, useState } from 'react';
 import './Menu.scss';
 
 function Menu() {
-  const [isFixed, setIsFixed] = useState(false);
+  const triggerHeight = 100;
+  const [isFixed, setIsFixed] = useState(window.scrollY > triggerHeight);
   
   useEffect(() => {
-    let heroHeight = 100;
-
     window.addEventListener('scroll', () => {
-      if (window.scrollY > heroHeight) {
+      if (window.scrollY > triggerHeight) {
         setIsFixed(true);
       } else {
         setIsFixed(false);
