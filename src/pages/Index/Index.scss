@@ -1,0 +1,60 @@
+@import "../../style/_variables";
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background: $color-green;
+  padding-top: 150px;
+
+  &__title {
+    color: #fff;
+    font-weight: 200;
+    font-size: 4rem;
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+
+  &__description {
+    width: 700px;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+  }
+
+  &__actions {
+    display: flex;
+    margin-top: 35px;
+
+    &__action {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 202px;
+      height: 52px;
+      border-radius: 100px;
+      border: 2px solid #fff;
+      color: #fff;
+      text-decoration: none;
+      transition: all 0.5s cubic-bezier(.02,.7,.4,1);
+
+      &:hover {
+        transform: translate3d(0, -4px, 0);
+      }
+
+      &--white {
+        background: #fff;
+        color: $color-green;
+      }
+
+      + a {
+        margin-left: 20px;
+      }
+    }
+  }
+}
