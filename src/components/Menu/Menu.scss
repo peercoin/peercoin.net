@@ -96,6 +96,16 @@
         &:hover {
           background: $color-green;
           color: #fff;
+
+          img {
+            filter: brightness(0) invert(1);
+          }
+        }
+
+        img {
+          width: 20px;
+          height: auto;
+          margin-right: 15px;
         }
       }
     }

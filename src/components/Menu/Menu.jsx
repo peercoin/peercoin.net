@@ -23,10 +23,42 @@ function Menu() {
           </ul>
         </li>
         <li>Get Started</li>
-        <li>Resources</li>
-        <li>Project</li>
+        <li>
+          Resources
+          <ul className="menu__main__submenu">
+            <li><a href="https://docs.peercoin.net/" class="submenu"><img src="/img/icons/docs_green.png" alt="" />Documentation</a></li>
+            <li><a href="/resources#mining" class="submenu"><img src="/img/icons/pickaxe_green.png" alt="" />Mining</a></li>
+            <li><a href="/resources#university" class="submenu"><img src="/img/icons/graduationcap.png" alt="" />Peercoin University</a></li>
+            <li><a href="/resources#exchanges" class="submenu"><img src="/img/icons/exchange_green.png" alt="" />Exchanges</a></li>
+            <li><a href="/resources#blockexplorers" class="submenu"><img src="/img/icons/block_green.png" alt="" />Block Explorers</a></li>
+            <li><a href="/resources#whitepaper" class="submenu"><img src="/img/icons/whitepaper_green.png" alt="" />Whitepaper</a></li>
+            <li><a href="/resources#graphics" class="submenu"><img src="/img/icons/graphics_green.png" alt="" />Graphics</a></li>
+          </ul>
+        </li>
+        <li>
+          Project
+          <ul className="menu__main__submenu">
+            <li><a href="https://github.com/peercoin/" class="submenu"><img src="/img/icons/github_green.png" alt="" />GitHub</a></li>
+            <li><a href="projects.html" class="submenu"><img src="/img/icons/projects_green.png" alt="" />Projects</a></li>
+            <li><a href="https://medium.com/peercoin" class="submenu"><img src="/img/icons/blog_green.png" alt="" />Blog</a></li>
+            <li><a href="foundation.html" class="submenu"><img src="/img/icons/foundation_green.png" alt="" />Peercoin Foundation</a></li>
+            <li><a href="contactus.html" class="submenu"><img src="/img/icons/contact_green.png" alt="" />Contact Us</a></li>
+          </ul>
+        </li>
         <li>Wallet</li>
-        <li>Community</li>
+        <li>
+          Community
+          <ul className="menu__main__submenu">
+            <li><a href="https://talk.peercoin.net/" class="submenu"><img src="/img/icons/forum_green.png" alt="" />Forum</a></li>
+            <li><a href="https://twitter.com/PeercoinPPC" class="submenu"><img src="/img/icons/twitter_green.png" alt="" />Twitter</a></li>
+            <li><a href="https://www.facebook.com/Peercoin/" class="submenu"><img src="/img/icons/facebook_green.png" alt="" />Facebook</a></li>
+            <li><a href="https://www.reddit.com/r/peercoin" class="submenu"><img src="/img/icons/reddit_green.png" alt="" />Reddit</a></li>
+            <li><a href="https://t.me/peercoin" class="submenu"><img src="/img/icons/telegram_green.png" alt="" />Telegram</a></li>
+            <li><a href="https://discord.gg/XPxfwtG" class="submenu"><img src="/img/icons/discord_green.png" alt="" />Discord</a></li>
+            <li><a href="https://www.youtube.com/user/PeerCoin" class="submenu"><img src="/img/icons/youtube_green.png" alt="" />Youtube</a></li>
+            <li><a href="https://bitcointalk.org/index.php?topic=101820.0" class="submenu"><img src="/img/icons/bitcoinchat_green.png" alt="" />Bitcointalk</a></li>
+          </ul>
+        </li>
       </ul>
     </nav>
   );
