@@ -8,6 +8,7 @@ function Menu() {
         <li>Home</li>
         <li>
           Learn
+          <img src="/img/icon-menu-arrow-down.svg" alt=""/>
           <ul className="menu__main__submenu">      
             <li><a href="https://peercoin.github.io/PeercoinUniversity/" class="submenu">Peercoin University</a></li>
             <li><a href="https://peercoin.github.io/PeercoinUniversity/#/2-what-is-a-blockchain-" class="submenu">What is a Blockchain?</a></li>
@@ -25,6 +26,7 @@ function Menu() {
         <li>Get Started</li>
         <li>
           Resources
+          <img src="/img/icon-menu-arrow-down.svg" alt=""/>
           <ul className="menu__main__submenu">
             <li><a href="https://docs.peercoin.net/" class="submenu"><img src="/img/icons/docs_green.png" alt="" />Documentation</a></li>
             <li><a href="/resources#mining" class="submenu"><img src="/img/icons/pickaxe_green.png" alt="" />Mining</a></li>
@@ -37,6 +39,7 @@ function Menu() {
         </li>
         <li>
           Project
+          <img src="/img/icon-menu-arrow-down.svg" alt=""/>
           <ul className="menu__main__submenu">
             <li><a href="https://github.com/peercoin/" class="submenu"><img src="/img/icons/github_green.png" alt="" />GitHub</a></li>
             <li><a href="projects.html" class="submenu"><img src="/img/icons/projects_green.png" alt="" />Projects</a></li>
@@ -48,6 +51,7 @@ function Menu() {
         <li>Wallet</li>
         <li>
           Community
+          <img src="/img/icon-menu-arrow-down.svg" alt=""/>
           <ul className="menu__main__submenu">
             <li><a href="https://talk.peercoin.net/" class="submenu"><img src="/img/icons/forum_green.png" alt="" />Forum</a></li>
             <li><a href="https://twitter.com/PeercoinPPC" class="submenu"><img src="/img/icons/twitter_green.png" alt="" />Twitter</a></li>

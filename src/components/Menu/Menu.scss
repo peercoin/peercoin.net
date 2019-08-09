@@ -18,6 +18,8 @@
     margin: 0;
 
     > li {
+      display: flex;
+      align-items: center;
       list-style: none;
       color: #fff;
       font-size: 16px;
@@ -35,6 +37,16 @@
           transform: translate3d(0, 0, 0) scale(1);
           opacity: 1;
         }
+
+        > img {
+          transform: rotate(180deg);
+        }
+      }
+
+      > img {
+        display: block;
+        margin-left: 5px;
+        transition: transform 0.3s ease-in-out;
       }
     }
 
