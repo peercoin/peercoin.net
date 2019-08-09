@@ -4,13 +4,32 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 10;
+  z-index: 12;
   margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 70px;
+
+  &--fixed {
+    position: fixed;
+    z-index: 10;
+    background: $color-green;
+    margin-top: 0;
+    box-shadow: 0 2px 4px rgba(#000, 0.1);
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex: 1;
+    }
+  }
+
+  &__logo {
+    width: 180px;
+  }
 
   &__main {
     display: flex;
@@ -25,7 +44,7 @@
       font-size: 16px;
       cursor: pointer;
       position: relative;
-      padding: 20px 24px;
+      padding: 20px;
 
       &:last-child {
         margin-right: 0;
