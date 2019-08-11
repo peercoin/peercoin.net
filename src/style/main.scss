@@ -26,3 +26,14 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.title {
+  text-align: center;
+  margin: 50px auto;
+  font-weight: 300;
+  font-size: 3.8rem;
+
+  &--green {
+    color: $color-green;
+  }
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import Collapsible from 'react-collapsible';
 import './Index.scss';
 import Menu from '../../components/Menu/Menu';
+import LatestNews from '../../components/LatestNews/LatestNews';
 
 function Index() {
   return (
@@ -144,6 +145,12 @@ function Index() {
               </Collapsible>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="main">
+        <div className="container">
+          <h2 className="title title--green">Latest News</h2>
+          <LatestNews />
         </div>
       </div>
     </div>
