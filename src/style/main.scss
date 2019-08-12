@@ -20,6 +20,18 @@ body {
   &--green {
     background: $color-green;
   }
+
+  &--dark {
+    background: $color-black;
+  }
+
+  &--grey {
+    background: $color-grey-lighter;
+  }
+
+  &--no_bottom {
+    margin-bottom: 0;
+  }
 }
 
 .container {

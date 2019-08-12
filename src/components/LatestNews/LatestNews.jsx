@@ -23,10 +23,10 @@ function LatestNews() {
   return (
     <div className="latest-news">
       {posts.length > 0 && posts.map(post => (
-        <a href={post.link} className="post" key={Math.random()} target="_blank">
+        <a href={post.link} className="post" key={Math.random()} target="_blank" rel="noopener noreferrer">
           <img src={post.img} alt={post.title} className="post__img" />
           <h3 className="post__title">{post.title}</h3>
-          <a href={post.link} className="post__button" target="_blank">Read more</a>
+          <span href={post.link} className="post__button">Read more</span>
         </a>
       ))}
     </div>

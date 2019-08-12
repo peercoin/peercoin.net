@@ -3,6 +3,7 @@ import Collapsible from 'react-collapsible';
 import './Index.scss';
 import Menu from '../../components/Menu/Menu';
 import LatestNews from '../../components/LatestNews/LatestNews';
+import Footer from '../../components/Footer/Footer';
 
 function Index() {
   return (
@@ -154,6 +155,7 @@ function Index() {
         </div>
       </div>
     </div>
+    <Footer />
     </>
   );
 }
