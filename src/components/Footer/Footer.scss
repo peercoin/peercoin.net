@@ -3,7 +3,6 @@
 .footer-wrapper {
   overflow: hidden;
   position: relative;
-  padding-bottom: 50px;
 
   &__dark_bg {
     position: absolute;
@@ -92,5 +91,12 @@
         }
       }
     }
+  }
+
+  &__copyright {
+    color: rgba($color-black, 0.4);
+    font-size: 14px;
+    padding: 35px 0;
+    text-align: center;
   }
 }
