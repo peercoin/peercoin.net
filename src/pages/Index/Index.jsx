@@ -13,7 +13,7 @@ function Index() {
       <img src="/img/logo-white.svg" alt="Peercoin Logo" width="220" />
       <h1 className="hero__title">Pioneer of Proof of Stake</h1>
       <p className="hero__description">
-        The world's first efficient and sustainable public blockchain, serving as a secure base layer and cryptocurrency for the future blockchain connected world.
+      The world's first efficient and sustainable public blockchain, serving as a secure base layer and cryptocurrency for the future blockchain connected world.
       </p>
       <div className="hero__actions">
         <a href="/get-started" className="hero__actions__action">Get Started</a>
@@ -29,10 +29,10 @@ function Index() {
             <p>Proof-of-work blockchains are secured by proving the consumption of a costly limited resource: electricity. Proof-of-stake replaces this expensive security protocol by utilizing an alternative scarce resource: time.</p>
             <p>Due to the cost efficient nature of proof-of-stake’s time based consensus rules, Peercoin is capable of allowing any network connected computer to participate in the blockchain’s security process. This efficiency strengthens Peercoin by growing the number of security providers and ensuring that security can be sustained over the long-term.</p>
           </div>
-          <img className="home-description__img" src="/img/animations/efficient-and-sustainable.svg" alt=""/>
+          <img className="home-description__img" src="/img/animations/efficient-and-sustainable.svg" alt="" />
         </section>
         <section className="home-description">
-          <img className="home-description__img" src="/img/animations/user-driven-governance.svg" alt=""/>
+          <img className="home-description__img" src="/img/animations/user-driven-governance.svg" alt="" />
           <div className="home-description__text home-description__text--left">
             <h2 className="home-description__text__title">User Governance</h2>
             <p>In Peercoin, coin owners (stakeholders) are the ones who wield influence over the network, produce new blocks, and secure the chain. Stakeholders of Peercoin co-own the blockchain and collectively decide its future through protocol voting.</p>
@@ -48,10 +48,10 @@ function Index() {
             <p>This role focuses Peercoin development on modularity, keeping the protocol simple and secure with as few features as possible, while maintaining the blockchain as a stable base upon which any number of additional layers can be built on top.</p>
             <p>Rather than being coded directly into the blockchain protocol itself, features like tokens and smart contracts are developed as secondary layer protocols that exist on top of Peercoin. Building additional functionality as separate, independent layers helps protect the base layer blockchain from exposure to new exploits and prevents chain bloat by allowing for off-chain scaling solutions.</p>
           </div>
-          <img className="home-description__img" src="/img/animations/trustless-base-layer.svg" alt=""/>
+          <img className="home-description__img" src="/img/animations/trustless-base-layer.svg" alt="" />
         </section>
         <section className="home-description">
-          <img className="home-description__img" src="/img/animations/pos-security-and-distribution.svg" alt=""/>
+          <img className="home-description__img" src="/img/animations/pos-security-and-distribution.svg" alt="" />
           <div className="home-description__text home-description__text--left">
             <h2 className="home-description__text__title">Fair Distribution</h2>
             <p>Effective cryptocurrencies have fair distributions that are wide enough to ensure the overall coin supply does not get concentrated into the hands of too few people. This is especially important for a cryptocurrency like Peercoin where stakeholders are responsible for securing the network.</p>
@@ -67,7 +67,7 @@ function Index() {
             <p>This primary focus works to preserve the trustless, immutable and censorship resistant nature of Peercoin so that it can always be relied upon to fulfill its core role as a distributed mechanism for securely storing all types of value.</p>
             <p>This value can be anything from fiat wealth being stored in PPC, to data being stored on the chain in the form of tokens, records, or contracts. Regardless of the type of value that is being stored, Peercoin was built with the fundamentals in mind to always ensure that your data remains safe and secure.</p>
           </div>
-          <img className="home-description__img" src="/img/animations/reliable-store-of-value.svg" alt=""/>
+          <img className="home-description__img" src="/img/animations/reliable-store-of-value.svg" alt="" />
         </section>
       </div>
       <div className="main main--green">
@@ -94,11 +94,11 @@ function Index() {
                     <p>A guide to buying Peercoin is also available <a href="https://docs.peercoin.net/#/purchase">here</a>.</p>
                   </div>
                   <div className="timeline__body__content__img">
-                    <img src="/img/icons/sidecard-purchasing.png" alt=""/>
+                    <img src="/img/icons/sidecard-purchasing.png" alt="" />
                   </div>
                 </div>
               </Collapsible>
-              <Collapsible trigger={<div className="timeline__body__section"><img src="/img/icons/wallets.png" alt=""/> Wallet</div>}>
+              <Collapsible trigger={<div className="timeline__body__section"><img src="/img/icons/wallets.png" alt="" /> Wallet</div>}>
                 <div className="timeline__body__content">
                   <div className="timeline__body__content__text">
                     <p>The <a href="wallet.html">Peercoin wallet</a> is available on Windows, Mac OSX, and Linux platforms.</p>
@@ -106,7 +106,7 @@ function Index() {
                     <p>To get started, check out the Wallet download page and the Installation guide's.</p>
                   </div>
                   <div className="timeline__body__content__img">
-                    <img src="/img/icons/sidecard-wallet.png" alt=""/>
+                    <img src="/img/icons/sidecard-wallet.png" alt="" />
                   </div>
                 </div>
               </Collapsible>
@@ -118,22 +118,22 @@ function Index() {
                     <p> To learn how to mint, check out the minting section in the <a href="https://docs.peercoin.net/#/wallets">wallets documentation</a>. More general information about minting can be found <a href="https://docs.peercoin.net/#/peercoin-minting-behaviour">here</a>. </p>
                   </div>
                   <div className="timeline__body__content__img">
-                    <img src="/img/icons/sidecard-anvil.png" alt=""/>
+                    <img src="/img/icons/sidecard-anvil.png" alt="" />
                   </div>
                 </div>
               </Collapsible>
-              <Collapsible trigger={<div className="timeline__body__section"><img src="/img/icons/pickaxe.png" alt=""/> Mine</div>}>
+              <Collapsible trigger={<div className="timeline__body__section"><img src="/img/icons/pickaxe.png" alt="" /> Mine</div>}>
                 <div className="timeline__body__content">
                   <div className="timeline__body__content__text">
                     <p>Peercoin uses the hashcash double iterated SHA-256 algorithm for proof-of-work mining. This means any hardware that can mine Bitcoin can mine Peercoin as well.</p>
                     <p>To get started, check out the <a href="https://docs.peercoin.net/#/mining">mining documentation</a>.</p>
                   </div>
                   <div className="timeline__body__content__img">
-                    <img src="/img/icons/sidecard-mining.png" alt=""/>
+                    <img src="/img/icons/sidecard-mining.png" alt="" />
                   </div>
                 </div>
               </Collapsible>
-              <Collapsible trigger={<div className="timeline__body__section"><img src="/img/icons/community_white.png" alt=""/> Community</div>}>
+              <Collapsible trigger={<div className="timeline__body__section"><img src="/img/icons/community_white.png" alt="" /> Community</div>}>
                 <div className="timeline__body__content">
                   <div className="timeline__body__content__text">
                     <p>Join our <a href="https://talk.peercoin.net/">Forum</a>, <a href="https://discord.gg/XPxfwtG">Discord</a>, or <a href="https://t.me/peercoin">Telegram</a> to chat with other Peercoin community members and developers. Subscribe to our <a href="https://twitter.com/PeercoinPPC">Twitter</a>, <a href="https://www.reddit.com/r/peercoin">Reddit</a>, <a href="https://medium.com/peercoin">Medium Blog</a>, or <a href="https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877">Newsletter</a> to stay up to date with all the latest Peercoin news. Check <a href="resources.html#communities">here</a> for a list of all other community resources.</p>

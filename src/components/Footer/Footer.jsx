@@ -15,11 +15,11 @@ function Footer() {
           </div>
           <footer className="footer">
             <div className="footer__twitter">
-            <TwitterTimelineEmbed
-              sourceType="profile"
-              screenName="PeercoinPPC"
-              options={{width: 265, height: 350}}
-            />
+              <TwitterTimelineEmbed
+                sourceType="profile"
+                screenName="PeercoinPPC"
+                options={{width: 265, height: 350}}
+              />
             </div>
 
             <nav className="footer__links">
