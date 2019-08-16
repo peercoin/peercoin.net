@@ -48,4 +48,48 @@ body {
   &--green {
     color: $color-green;
   }
+
+  &--left {
+    text-align: left;
+  }
+}
+
+h3.title {
+  font-size: 2.5rem;
+  margin: 20px auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+
+  .col {
+    flex: 1;
+
+    &:nth-child(2n) {
+      margin-left: 20px;
+    }
+  }
+}
+
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  min-width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  background: $color-green;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.2s linear;
+
+  &:hover {
+    background: $color-green-dark;
+  }
+
+  & + .btn {
+    margin-left: 20px;
+  }
 }

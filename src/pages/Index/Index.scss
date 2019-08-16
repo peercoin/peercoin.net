@@ -13,6 +13,12 @@
   padding-top: 150px;
   padding-bottom: 50px;
 
+  &--thin {
+    min-height: 0;
+    padding-top: 110px;
+    padding-bottom: 30px;
+  }
+
   &__title {
     color: #fff;
     font-weight: 200;

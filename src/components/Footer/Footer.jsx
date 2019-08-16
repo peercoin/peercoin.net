@@ -66,7 +66,7 @@ function Footer() {
             </nav>
           </footer>
         </div>
-        <div className="footer-wrapper__copyright">Copyright © 2019 Peercoin Foundation | All Rights Reserved</div>
+        <div className="footer-wrapper__copyright">Copyright © {(new Date()).getFullYear()} Peercoin Foundation | All Rights Reserved</div>
       </div>
     </div>
   );

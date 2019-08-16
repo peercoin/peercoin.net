@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Menu.scss';
 
 function Menu() {
@@ -40,7 +41,7 @@ function Menu() {
           </li>
           <li>Get Started</li>
           <li>
-            Resources
+            <Link to="/resources">Resources</Link>
             <img src="/img/icon-menu-arrow-down.svg" alt=""/>
             <ul className="menu__main__submenu">
               <li><a href="https://docs.peercoin.net/" className="submenu"><img src="/img/icons/docs_green.png" alt="" />Documentation</a></li>
