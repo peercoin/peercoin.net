@@ -79,7 +79,7 @@ function Index() {
                 <div className="timeline__body__content">
                   <div className="timeline__body__content__text">
                     <p>For an in-depth overview of the project, <a href="https://university.peercoin.net/">Peercoin University</a> is the best starting place. For more articles and writings on Peercoin, check out our <a href="https://medium.com/peercoin">Medium Blog</a>.</p>
-                    <p>For those who are looking to develop, PeerAssets is Peercoin’s second layer solution for tokens. More information can be found on our <a href="projects.html">projects</a> page.</p>
+                    <p>For those who are looking to develop, PeerAssets is Peercoin’s second layer solution for tokens. More information can be found on our <a href="/projects">projects</a> page.</p>
                     <p>A wealth of technical information can be found in the <a href="https://docs.peercoin.net/">Peercoin Documentation</a> as well.</p>
                   </div>
                   <div className="timeline__body__content__img">

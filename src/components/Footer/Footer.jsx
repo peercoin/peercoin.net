@@ -47,9 +47,9 @@ function Footer() {
                 <li className="footer__links__list__title">Wallet</li>
                 <li className="footer__links__list__title">Project</li>
                 <li><a href="https://github.com/peercoin/">GitHub</a></li>
-                <li><a href="projects.html">Projects</a></li>
+                <li><a href="/projects">Projects</a></li>
                 <li><a href="https://medium.com/peercoin">Blog</a></li>
-                <li><a href="foundation.html">Foundation</a></li>
+                <li><a href="/foundation">Foundation</a></li>
                 <li><a href="privacypolicy.html">Privacy Policy</a></li>
               </ul>
               <ul className="footer__links__list">

@@ -58,10 +58,10 @@ function Menu() {
             <img src="/img/icon-menu-arrow-down.svg" alt=""/>
             <ul className="menu__main__submenu">
               <li><a href="https://github.com/peercoin/" className="submenu"><img src="/img/icons/github_green.png" alt="" />GitHub</a></li>
-              <li><a href="projects.html" className="submenu"><img src="/img/icons/projects_green.png" alt="" />Projects</a></li>
+              <li><a href="/projects" className="submenu"><img src="/img/icons/projects_green.png" alt="" />Projects</a></li>
               <li><a href="https://medium.com/peercoin" className="submenu"><img src="/img/icons/blog_green.png" alt="" />Blog</a></li>
-              <li><a href="foundation.html" className="submenu"><img src="/img/icons/foundation_green.png" alt="" />Peercoin Foundation</a></li>
-              <li><a href="contactus.html" className="submenu"><img src="/img/icons/contact_green.png" alt="" />Contact Us</a></li>
+              <li><a href="/foundation" className="submenu"><img src="/img/icons/foundation_green.png" alt="" />Peercoin Foundation</a></li>
+              <li><a href="/contact" className="submenu"><img src="/img/icons/contact_green.png" alt="" />Contact Us</a></li>
             </ul>
           </li>
           <li>Wallet</li>
