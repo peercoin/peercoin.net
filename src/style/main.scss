@@ -59,6 +59,15 @@ h3.title {
   margin: 20px auto;
 }
 
+p + .title {
+  margin-top: 50px !important;
+}
+
+a + .title {
+  margin-top: 50px !important;
+}
+
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -68,6 +77,11 @@ h3.title {
 
     &:nth-child(2n) {
       margin-left: 20px;
+    }
+
+    &--small {
+      max-width: 370px;
+      margin-left: 50px !important;
     }
   }
 }
