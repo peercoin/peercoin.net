@@ -14,9 +14,9 @@ function Wallet() {
           Send, receive, and store Peercoin. The desktop wallet also enables minting blocks and securing of the network.
         </p>
         <div className="hero__actions">
-          <a href="#exchanges" className="hero__actions__action hero__actions__action--white">Installation</a>
-          <a href="#blockexplorers" className="hero__actions__action hero__actions__action--white">Paper Wallet</a>
-          <a href="#communities" className="hero__actions__action hero__actions__action--white">Unofficial Wallets</a>
+          <a href="#install" className="hero__actions__action hero__actions__action--white">Installation</a>
+          <a href="#paperwallet" className="hero__actions__action hero__actions__action--white">Paper Wallet</a>
+          <a href="#unofficialclients" className="hero__actions__action hero__actions__action--white">Unofficial Wallets</a>
         </div>
       </div>
 
@@ -131,6 +131,55 @@ function Wallet() {
                 </div>
               </Collapsible>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="main">
+        <div className="container">
+          <h2 className="title title--green">Paper Wallet</h2>
+          <div className="blocks-list">
+            <a href="https://bittrex.com/" className="blocks-list__block">
+              <h4 className="blocks-list__block__title">Paper Wallet</h4>
+              <img className="blocks-list__block__img" src="/img/explorers/peercoin_green.png" />
+            </a>
+          </div>
+          <h2 className="title title--green">Unofficial Wallets</h2>
+          <div className="blocks-list">
+            <a href="https://www.ledger.com/" className="blocks-list__block">
+              <h4 className="blocks-list__block__title">Ledger</h4>
+              <img className="blocks-list__block__img" src="/img/wallets/ledger.png" />
+              <div className="blocks-list__block__type">Hardware Wallet</div>
+            </a>
+            <a href="https://www.cryptonator.com/" className="blocks-list__block">
+              <h4 className="blocks-list__block__title">Cryptonator</h4>
+              <img className="blocks-list__block__img" src="/img/wallets/cryptonator.png" />
+              <div className="blocks-list__block__type">Mobile/Web Wallet</div>
+            </a>
+            <a href="http://uberpay.io/" className="blocks-list__block">
+              <h4 className="blocks-list__block__title">UberPay</h4>
+              <img className="blocks-list__block__img" src="/img/wallets/uberpay.png" />
+              <div className="blocks-list__block__type">Mobile/Web Wallet</div>
+            </a>
+            <a href="https://www.coinspot.com.au/" className="blocks-list__block">
+              <h4 className="blocks-list__block__title">Coinspot</h4>
+              <img className="blocks-list__block__img" src="/img/wallets/coinspot.png" />
+              <div className="blocks-list__block__type">Web Wallet</div>
+            </a>
+            <a href="https://www.coinvault.io/" className="blocks-list__block">
+              <h4 className="blocks-list__block__title">CoinVault</h4>
+              <img className="blocks-list__block__img" src="/img/wallets/coinvault.png" />
+              <div className="blocks-list__block__type">Web Wallet</div>
+            </a>
+            <a href="https://holytransaction.com/" className="blocks-list__block">
+              <h4 className="blocks-list__block__title">HolyTransaction</h4>
+              <img className="blocks-list__block__img" src="/img/wallets/holytransaction.png" />
+              <div className="blocks-list__block__type">Web Wallet</div>
+            </a>
+            <a href="https://magnumwallet.co/" className="blocks-list__block">
+              <h4 className="blocks-list__block__title">Magnum</h4>
+              <img className="blocks-list__block__img" src="/img/wallets/magnum.png" />
+              <div className="blocks-list__block__type">Mobile/Web Wallet</div>
+            </a>
           </div>
         </div>
       </div>
