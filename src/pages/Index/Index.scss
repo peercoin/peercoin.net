@@ -1,4 +1,5 @@
 @import "../../style/_variables";
+@import "../../style/_viewports";
 
 .hero {
   position: relative;
@@ -34,11 +35,19 @@
     color: #fff;
     text-align: center;
     font-weight: 300;
+
+    @include viewports(up-to small) {
+      width: 100%;
+    }
   }
 
   &__actions {
     display: flex;
     margin-top: 35px;
+
+    @include viewports(up-to small) {
+      flex-direction: column;
+    }
 
     &__action {
       display: flex;
@@ -63,6 +72,11 @@
 
       + a {
         margin-left: 20px;
+
+        @include viewports(up-to small) {
+          margin-left: 0;
+          margin-top: 20px;
+        }
       }
     }
   }
@@ -73,13 +87,28 @@
   align-items: center;
   margin: 40px 0;
 
+  @include viewports(up-to small) {
+    flex-direction: column;
+    align-items: center;
+  }
+
   &__text {
     flex: 1;
     margin-right: 50px;
 
+    @include viewports(up-to small) {
+      order: 2;
+      margin-right: 0;
+      margin-bottom: 50px;
+    }
+
     &--left {
       margin-right: 0;
       margin-left: 50px;
+
+      @include viewports(up-to small) {
+        margin-left: 0;
+      }
     }
 
     &__title {
@@ -99,6 +128,11 @@
 
   &__img {
     width: 510px;
+
+    @include viewports(up-to small) {
+      width: 80%;
+      order: 1;
+    }
   }
 }
 
@@ -170,6 +204,11 @@
 
     &__content {
       display: flex;
+
+      @include viewports(up-to small) {
+        flex-direction: column;
+        align-items: center;
+      }
 
       &__text {
         flex: 1;

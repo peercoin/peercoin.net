@@ -1,4 +1,5 @@
 @import "_variables";
+@import "_viewports";
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -35,8 +36,9 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1240px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .title {
@@ -96,16 +98,29 @@ a + .title {
   display: flex;
   flex-wrap: wrap;
 
+  @include viewports(up-to small) {
+    justify-content: center;
+    align-items: center;
+  }
+
   .col {
     flex: 1;
 
     &:nth-child(2n) {
       margin-left: 20px;
+
+      @include viewports(up-to small) {
+        margin-left: 0;
+      }
     }
 
     &--small {
       max-width: 370px;
       margin-left: 50px !important;
+
+      @include viewports(up-to small) {
+        margin-left: 0 !important;
+      }
     }
   }
 }
@@ -123,11 +138,23 @@ a + .title {
   font-size: 16px;
   transition: all 0.2s linear;
 
+  @include viewports(up-to small) {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   &:hover {
     background: $color-green-dark;
   }
 
   & + .btn {
     margin-left: 20px;
+
+    @include viewports(up-to small) {
+      margin-left: 0;
+      margin-top: 20px;
+    }
   }
 }

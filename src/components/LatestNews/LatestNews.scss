@@ -1,8 +1,14 @@
 @import "../../style/_variables";
+@import "../../style/_viewports";
 
 .latest-news {
   display: flex;
   justify-content: space-between;
+
+  @include viewports(up-to small) {
+    flex-direction: column;
+    align-items: center;
+  }
 
   .post {
     display: block;
@@ -11,6 +17,12 @@
     box-shadow: 0 20px 32px -5px rgba(15, 39, 61, 0.12);
     transition: all 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
     text-decoration: none;
+
+    @include viewports(up-to small) {
+      max-width: 90%;
+      min-width: 90%;
+      margin-bottom: 20px;
+    }
     
     &:hover {
       box-shadow: 0 20px 32px -3px rgba(15, 39, 61, 0.12), 0 32px 72px -20px rgba(15, 39, 61, 0.17), 0 40px 100px 0 rgba(9, 24, 37, 0.09);
