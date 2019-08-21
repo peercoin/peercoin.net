@@ -52,6 +52,16 @@
   flex-wrap: wrap;
   margin-top: 50px;
 
+  &--grey {
+    .blocks-list__block {
+      background: $color-black;
+    }
+
+    .blocks-list__block__img {
+      width: 80px;
+    }
+  }
+
   &__block {
     display: flex;
     align-items: center;
@@ -68,7 +78,7 @@
     transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
 
     &:hover {
-      transform: rotate(-5deg);
+      transform: rotate(-2deg);
     }
 
     &__title {
@@ -86,6 +96,19 @@
     &__type {
       color: $color-green;
       margin: 0;
+    }
+
+    a {
+      color: $color-green;
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin: 4px 0;
+      transition: all 0.2s linear;
+
+      &:hover {
+        color: #fff;
+      }
     }
   }
 }

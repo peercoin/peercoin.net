@@ -72,6 +72,25 @@ a + .title {
   margin-top: 50px !important;
 }
 
+.subtitle {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 300;
+
+  b {
+    font-weight: bold;
+  }
+
+  &--left {
+    text-align: left;
+  }
+
+  a {
+    color: $color-green;
+    text-decoration: none;
+  }
+}
+
 
 .row {
   display: flex;

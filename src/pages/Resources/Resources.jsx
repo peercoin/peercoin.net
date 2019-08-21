@@ -1,6 +1,7 @@
 import React from 'react';
 import './Resources.scss';
 import Menu from '../../components/Menu/Menu';
+import Footer from '../../components/Footer/Footer';
 
 function Resources() {
   return (
@@ -305,39 +306,215 @@ function Resources() {
 
       <div className="main">
         <div className="container">
-          <h2 className="title title--green">Visual Communication</h2>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
+          <h2 className="title title--green">Graphics</h2>
+          <p className="subtitle">Looking for more graphics? An up-to-date collection of logos and wallpapers can be found on the <a href="">Peercoin GitHub</a>.</p>
+          <h3 className="title">Vertical Logo</h3>
+          <div className="blocks-list blocks-list--grey">
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-vertical-greenicon-blacktext-transparent.png" />
+              <a href="/img/logos/verticalset/insidecircle/Transparent/GreenIcon-BlackText/peercoin-vertical-greenicon-blacktext-transparent@6x.png"><span>PNG</span></a>
+              <a href="/img/logos/verticalset/insidecircle/Transparent/GreenIcon-BlackText/peercoin-vertical-greenicon-blacktext-transparent.svg"><span>SVG</span></a>
+              <a href="/img/logos/verticalset/insidecircle/Transparent/GreenIcon-BlackText/peercoin-vertical-greenicon-blacktext-transparent.eps"><span>EPS</span></a>
+            </div>
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-vertical-greenicon-greentext-transparent.png" />
+              <a href="/img/logos/verticalset/insidecircle/Transparent/GreenIcon-GreenText/peercoin-vertical-greenicon-greentext-transparent@6x.png"><span>PNG</span></a>
+              <a href="/img/logos/verticalset/insidecircle/Transparent/GreenIcon-GreenText/peercoin-vertical-greenicon-greentext-transparent.svg"><span>SVG</span></a>
+              <a href="/img/logos/verticalset/insidecircle/Transparent/GreenIcon-GreenText/peercoin-vertical-greenicon-greentext-transparent.eps"><span>EPS</span></a>
+            </div>
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-vertical-greenicon-whitetext-transparent.png" />
+              <a href="/img/logos/verticalset/insidecircle/Transparent/GreenIcon-WhiteText/peercoin-vertical-greenicon-whitetext-transparent@6x.png"><span>PNG</span></a>
+              <a href="/img/logos/verticalset/insidecircle/Transparent/GreenIcon-WhiteText/peercoin-vertical-greenicon-whitetext-transparent.svg"><span>SVG</span></a>
+              <a href="/img/logos/verticalset/insidecircle/Transparent/GreenIcon-WhiteText/peercoin-vertical-greenicon-whitetext-transparent.eps"><span>EPS</span></a>
+            </div>
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-vertical-greenicon-graytext-transparent.png" />
+              <a href="/img/logos/verticalset/insidecircle/Transparent/GreenIcon-GrayText/peercoin-vertical-greenicon-graytext-transparent@6x.png"><span>PNG</span></a>
+              <a href="/img/logos/verticalset/insidecircle/Transparent/GreenIcon-GrayText/peercoin-vertical-greenicon-graytext-transparent.svg"><span>SVG</span></a>
+              <a href="/img/logos/verticalset/insidecircle/Transparent/GreenIcon-GrayText/peercoin-vertical-greenicon-graytext-transparent.eps"><span>EPS</span></a>
+            </div>
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-vertical-greenleaf-blacktext-transparent.png" />
+              <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-BlackText/peercoin-vertical-greenleaf-blacktext-transparent@6x.png"><span>PNG</span></a>
+              <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-BlackText/peercoin-vertical-greenleaf-blacktext-transparent.svg"><span>SVG</span></a>
+              <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-BlackText/peercoin-vertical-greenleaf-blacktext-transparent.eps"><span>EPS</span></a>
+            </div>
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-vertical-greenleaf-graytext-transparent.png" />
+              <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-GrayText/peercoin-vertical-greenleaf-graytext-transparent@6x.png"><span>PNG</span></a>
+              <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-GrayText/peercoin-vertical-greenleaf-graytext-transparent.svg"><span>SVG</span></a>
+              <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-GrayText/peercoin-vertical-greenleaf-graytext-transparent.eps"><span>EPS</span></a>
+            </div>
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-vertical-greenleaf-greentext-transparent.png" />
+              <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-GreenText/peercoin-vertical-greenleaf-greentext-transparent@6x.png"><span>PNG</span></a>
+              <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-GreenText/peercoin-vertical-greenleaf-greentext-transparent.svg"><span>SVG</span></a>
+              <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-GreenText/peercoin-vertical-greenleaf-greentext-transparent.eps"><span>EPS</span></a>
+            </div>
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-vertical-greenleaf-whitetext-transparent.png" />
+              <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-WhiteText/peercoin-vertical-greenleaf-whitetext-transparent@6x.png"><span>PNG</span></a>
+              <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-WhiteText/peercoin-vertical-greenleaf-whitetext-transparent.svg"><span>SVG</span></a>
+              <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-WhiteText/peercoin-vertical-greenleaf-whitetext-transparent.eps"><span>EPS</span></a>
+            </div>
+          </div>
+          <h3 className="title">Horizontal Logo</h3>
+          <div className="blocks-list blocks-list--grey">
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-horizontal-blackleaf-blacktext-transparent.png" />
+              <a href="/img/logos/horizontalset/outsidecircle/Transparent/BlackLeaf-BlackText/peercoin-horizontal-blackleaf-blacktext-transparent@6x.png"><span>PNG</span></a>
+              <a href="/img/logos/horizontalset/outsidecircle/Transparent/BlackLeaf-BlackText/peercoin-horizontal-blackleaf-blacktext-transparent.svg"><span>SVG</span></a>
+              <a href="/img/logos/horizontalset/outsidecircle/Transparent/BlackLeaf-BlackText/peercoin-horizontal-blackleaf-blacktext-transparent.eps"><span>EPS</span></a>
+            </div>
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-horizontal-greenleaf-blacktext-transparent.png" />
+              <a href="/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-BlackText/peercoin-horizontal-greenleaf-blacktext-transparent@6x.png"><span>PNG</span></a>
+              <a href="/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-BlackText/peercoin-horizontal-greenleaf-blacktext-transparent.svg"><span>SVG</span></a>
+              <a href="/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-BlackText/peercoin-horizontal-greenleaf-blacktext-transparent.eps"><span>EPS</span></a>
+            </div>
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-horizontal-greenleaf-graytext-transparent.png" />
+              <a href="/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-GrayText/peercoin-horizontal-greenleaf-graytext-transparent@6x.png"><span>PNG</span></a>
+              <a href="/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-GrayText/peercoin-horizontal-greenleaf-graytext-transparent.svg"><span>SVG</span></a>
+              <a href="/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-GrayText/peercoin-horizontal-greenleaf-graytext-transparent.eps"><span>EPS</span></a>
+            </div>
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-horizontal-greenleaf-whitetext-transparent.png" />
+              <a href="/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-WhiteText/peercoin-horizontal-greenleaf-whitetext-transparent@6x.png"><span>PNG</span></a>
+              <a href="/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-WhiteText/peercoin-horizontal-greenleaf-whitetext-transparent.svg"><span>SVG</span></a>
+              <a href="/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-WhiteText/peercoin-horizontal-greenleaf-whitetext-transparent.eps"><span>EPS</span></a>
+            </div>
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-horizontal-whiteleaf-whitetext-transparent.png" />
+              <a href="/img/logos/horizontalset/outsidecircle/Transparent/WhiteLeaf-WhiteText/peercoin-horizontal-whiteleaf-whitetext-transparent@6x.png"><span>PNG</span></a>
+              <a href="/img/logos/horizontalset/outsidecircle/Transparent/WhiteLeaf-WhiteText/peercoin-horizontal-whiteleaf-whitetext-transparent.svg"><span>SVG</span></a>
+              <a href="/img/logos/horizontalset/outsidecircle/Transparent/WhiteLeaf-WhiteText/peercoin-horizontal-whiteleaf-whitetext-transparent.eps"><span>EPS</span></a>
+            </div>
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-horizontal-greenicon-blacktext-transparent.png" />
+              <a href="/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-BlackText/peercoin-horizontal-greenicon-blacktext-transparent@6x.png"><span>PNG</span></a>
+              <a href="/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-BlackText/peercoin-horizontal-greenicon-blacktext-transparent.svg"><span>SVG</span></a>
+              <a href="/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-BlackText/peercoin-horizontal-greenicon-blacktext-transparent.eps"><span>EPS</span></a>
+            </div>
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-horizontal-greenicon-greentext-transparent.png" />
+              <a href="/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-GreenText/peercoin-horizontal-greenicon-greentext-transparent@6x.png"><span>PNG</span></a>
+              <a href="/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-GreenText/peercoin-horizontal-greenicon-greentext-transparent.svg"><span>SVG</span></a>
+              <a href="/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-GreenText/peercoin-horizontal-greenicon-greentext-transparent.eps"><span>EPS</span></a>
+            </div>
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-horizontal-greenicon-graytext-transparent.png" />
+              <a href="/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-GrayText/peercoin-horizontal-greenicon-graytext-transparent@6x.png"><span>PNG</span></a>
+              <a href="/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-GrayText/peercoin-horizontal-greenicon-graytext-transparent.svg"><span>SVG</span></a>
+              <a href="/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-GrayText/peercoin-horizontal-greenicon-graytext-transparent.eps"><span>EPS</span></a>
+            </div>
+          </div>
+          <h3 className="title">Icon Only</h3>
+          <div className="blocks-list blocks-list--grey">
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-icon-green-transparent.png" />
+              <a href="/img/logos/icononly/insidecircle/Transparent/GreenIcon/peercoin-icon-green-transparent@6x.png"><span>PNG</span></a>
+              <a href="/img/logos/icononly/insidecircle/Transparent/GreenIcon/peercoin-icon-green-transparent.svg"><span>SVG</span></a>
+              <a href="/img/logos/icononly/insidecircle/Transparent/GreenIcon/peercoin-icon-green-transparent.eps"><span>EPS</span></a>
+            </div>
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-leaf-green-transparent.png" />
+              <a href="/img/logos/icononly/outsidecircle/Transparent/GreenLeaf/peercoin-leaf-green-transparent@6x.png"><span>PNG</span></a>
+              <a href="/img/logos/icononly/outsidecircle/Transparent/GreenLeaf/peercoin-leaf-green-transparent.svg"><span>SVG</span></a>
+              <a href="/img/logos/icononly/outsidecircle/Transparent/GreenLeaf/peercoin-leaf-green-transparent.eps"><span>EPS</span></a>
+            </div>
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-leaf-transparent-black.png" />
+              <a href="/img/logos/icononly/outsidecircle/Transparent/BlackLeaf/peercoin-leaf-transparent@6x.png"><span>PNG</span></a>
+              <a href="/img/logos/icononly/outsidecircle/Transparent/BlackLeaf/peercoin-leaf-transparent.svg"><span>SVG</span></a>
+              <a href="/img/logos/icononly/outsidecircle/Transparent/BlackLeaf/peercoin-leaf-transparent.eps"><span>EPS</span></a>
+            </div>
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-leaf-white-transparent.png" />
+              <a href="/img/logos/icononly/outsidecircle/Transparent/WhiteLeaf/peercoin-leaf-white-transparent@6x.png"><span>PNG</span></a>
+              <a href="/img/logos/icononly/outsidecircle/Transparent/WhiteLeaf/peercoin-leaf-white-transparent.svg"><span>SVG</span></a>
+              <a href="/img/logos/icononly/outsidecircle/Transparent/WhiteLeaf/peercoin-leaf-white-transparent.eps"><span>EPS</span></a>
+            </div>
+          </div>
+          <h3 className="title">Text Only</h3>
+          <div className="blocks-list blocks-list--grey">
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-text-black-transparent.png" />
+              <a href="/img/logos/textonly/Transparent/BlackText/peercoin-text-black-transparent@6x.png"><span>PNG</span></a>
+              <a href="/img/logos/textonly/Transparent/BlackText/peercoin-text-black-transparent.svg"><span>SVG</span></a>
+              <a href="/img/logos/textonly/Transparent/BlackText/peercoin-text-black-transparent.eps"><span>EPS</span></a>
+            </div>
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-text-gray-transparent.png" />
+              <a href="/img/logos/textonly/Transparent/GrayText/peercoin-text-gray-transparent@6x.png"><span>PNG</span></a>
+              <a href="/img/logos/textonly/Transparent/GrayText/peercoin-text-gray-transparent.svg"><span>SVG</span></a>
+              <a href="/img/logos/textonly/Transparent/GrayText/peercoin-text-gray-transparent.eps"><span>EPS</span></a>
+            </div>
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-text-green-transparent.png" />
+              <a href="/img/logos/textonly/Transparent/GreenText/peercoin-text-green-transparent@6x.png"><span>PNG</span></a>
+              <a href="/img/logos/textonly/Transparent/GreenText/peercoin-text-green-transparent.svg"><span>SVG</span></a>
+              <a href="/img/logos/textonly/Transparent/GreenText/peercoin-text-green-transparent.eps"><span>EPS</span></a>
+            </div>
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-text-white-transparent.png" />
+              <a href="/img/logos/textonly/Transparent/WhiteText/peercoin-text-white-transparent@6x.png"><span>PNG</span></a>
+              <a href="/img/logos/textonly/Transparent/WhiteText/peercoin-text-white-transparent.svg"><span>SVG</span></a>
+              <a href="/img/logos/textonly/Transparent/WhiteText/peercoin-text-white-transparent.eps"><span>EPS</span></a>
+            </div>
+          </div>
+          <h3 className="title">Favicons</h3>
+          <div className="blocks-list blocks-list--grey">
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/favicon256.png" />
+              <a href="/img/logos/favicons/Leaf/favicon16.png"><span>16px</span></a>
+              <a href="/img/logos/favicons/Leaf/favicon32.png"><span>32px</span></a>
+              <a href="/img/logos/favicons/Leaf/favicon48.png"><span>48px</span></a>
+              <a href="/img/logos/favicons/Leaf/favicon64.png"><span>64px</span></a>
+              <a href="/img/logos/favicons/Leaf/favicon96.png"><span>96px</span></a>
+              <a href="/img/logos/favicons/Leaf/favicon128.png"><span>128px</span></a>
+              <a href="/img/logos/favicons/Leaf/favicon256.png"><span>256px</span></a>
+            </div>
+            <div className="blocks-list__block">
+              <img className="blocks-list__block__img" src="/img/logos/webfixed/circlefavicon256.png" />
+              <a href="/img/logos/favicons/Icon/favicon16.png"><span>16px</span></a>
+              <a href="/img/logos/favicons/Icon/favicon32.png"><span>32px</span></a>
+              <a href="/img/logos/favicons/Icon/favicon48.png"><span>48px</span></a>
+              <a href="/img/logos/favicons/Icon/favicon64.png"><span>64px</span></a>
+              <a href="/img/logos/favicons/Icon/favicon96.png"><span>96px</span></a>
+              <a href="/img/logos/favicons/Icon/favicon128.png"><span>128px</span></a>
+              <a href="/img/logos/favicons/Icon/favicon256.png"><span>256px</span></a>
+            </div>
+          </div>
+          <p className="subtitle">
+            ZIP folder for all graphics is available <a href="https://peercoin.net/assets/Peercoin%202018%20Graphics.zip">here</a>.
+          </p>
+          <h2 className="title title--centere title--green">Brand Identity</h2>
+          <p className="subtitle subtitle--left">
+            <b>Peercoin Color Codes & Fonts:</b>
+          </p>
+          <p className="subtitle subtitle--left">
+          Please use these color codes on your Peercoin related websites whenever possible. This will help us keep the Peercoin ecosystem and its branding and visuals consistent.
+          </p>
+          <p className="subtitle subtitle--left">
+            <code>Green:</code><br />
+            <code>#3cb054</code><br />
+            <code>RBG: 24, 69, 33</code><br />
+            <code>CMYK: 66, 0, 52, 31</code>
+          </p>
+          <p className="subtitle subtitle--left">
+            The Peercoin text logo uses the following font:<br />
+            Font: FF Mark<br />
+            Type: Mark-Medium<br /><br />
+            Website: <a href="http://www.ffmark.com/">http://www.ffmark.com/</a>
+          </p>
+          <p className="subtitle subtitle--left">
+            The Peercoin website and wallets use the Roboto font for its content. 
+          </p>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

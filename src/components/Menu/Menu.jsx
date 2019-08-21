@@ -21,7 +21,7 @@ function Menu() {
       <div className="container">
         {isFixed && <img src="/img/logo-menu-white.svg" alt="Peercoin" className="menu__logo" />}
         <ul className="menu__main">
-          <li>Home</li>
+          <li><Link to="/">Home</Link></li>
           <li>
             Learn
             <img src="/img/icon-menu-arrow-down.svg" alt=""/>
