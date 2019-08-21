@@ -13,7 +13,6 @@ function LatestNews() {
         .filter(post => post.categories.length > 0)
         .map(post => ({ img: post.thumbnail, title: post.title, link: post.link }))
         .slice(0, 3);
-      console.log(posts);
       await setPosts(posts);
     }
 

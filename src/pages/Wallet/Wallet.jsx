@@ -25,25 +25,25 @@ function Wallet() {
           <h2 className="title title--green">Desktop Wallets</h2>
           <div className="desktop-downloads">
             <div className="desktop-downloads__items">
-              <a className="desktop-downloads__items__item" href="https://github.com/peercoin/peercoin/releases/download/v0.8.2.1ppc/peercoin-0.8.2-win64-setup-unsigned.exe" target="_blank"> 
+              <a className="desktop-downloads__items__item" href="https://github.com/peercoin/peercoin/releases/download/v0.8.2.1ppc/peercoin-0.8.2-win64-setup-unsigned.exe" target="_blank" rel="noopener noreferrer"> 
                 <div className="desktop-downloads__items__item__title">Windows</div>
-                <img className="desktop-downloads__items__item__img" src="/img/icons/windows.png" />
+                <img className="desktop-downloads__items__item__img" src="/img/icons/windows.png" alt="" />
                 <div className="desktop-downloads__items__item__checksum">
                   <span>Checksum (SHA-256):</span>
                   83148a5ab61fbf4dbffbcf807787421dee0495e6018fb928d0a26fd2af0529ae
                 </div>
               </a>
-              <a className="desktop-downloads__items__item" href="https://github.com/peercoin/peercoin/releases/download/v0.8.2.1ppc/peercoin-0.8.2-osx-unsigned.dmg" target="_blank">
+              <a className="desktop-downloads__items__item" href="https://github.com/peercoin/peercoin/releases/download/v0.8.2.1ppc/peercoin-0.8.2-osx-unsigned.dmg" target="_blank" rel="noopener noreferrer">
                 <div className="desktop-downloads__items__item__title">macOS</div>
-                <img className="desktop-downloads__items__item__img" src="/img/icons/apple.png" />
+                <img className="desktop-downloads__items__item__img" src="/img/icons/apple.png" alt="" />
                 <div className="desktop-downloads__items__item__checksum">
                   <span>Checksum (SHA-256):</span>
                   b49be26ed42efe167b6d886cd02ea95e4a7ed4ad6f0fa80d98df50d807c24723
                 </div>
               </a>
-              <a className="desktop-downloads__items__item" href="https://github.com/peercoin/peercoin/releases/download/v0.8.2.1ppc/peercoin-0.8.2-x86_64-linux-gnu.tar.gz" target="_blank">
+              <a className="desktop-downloads__items__item" href="https://github.com/peercoin/peercoin/releases/download/v0.8.2.1ppc/peercoin-0.8.2-x86_64-linux-gnu.tar.gz" target="_blank" rel="noopener noreferrer">
                 <div className="desktop-downloads__items__item__title">Linux</div>
-                <img className="desktop-downloads__items__item__img" src="/img/icons/linux.png" />
+                <img className="desktop-downloads__items__item__img" src="/img/icons/linux.png" alt="" />
                 <div className="desktop-downloads__items__item__checksum">
                   <span>Checksum (SHA-256):</span>
                   81c416600d356f0d3fa04be0b97756c57441a33a85ce3a1dcf2e4d393d50726f
@@ -140,44 +140,44 @@ function Wallet() {
           <div className="blocks-list">
             <a href="https://bittrex.com/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">Paper Wallet</h4>
-              <img className="blocks-list__block__img" src="/img/explorers/peercoin_green.png" />
+              <img className="blocks-list__block__img" src="/img/explorers/peercoin_green.png" alt="" />
             </a>
           </div>
           <h2 className="title title--green" id="unofficialclients">Unofficial Wallets</h2>
           <div className="blocks-list">
             <a href="https://www.ledger.com/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">Ledger</h4>
-              <img className="blocks-list__block__img" src="/img/wallets/ledger.png" />
+              <img className="blocks-list__block__img" src="/img/wallets/ledger.png" alt="" />
               <div className="blocks-list__block__type">Hardware Wallet</div>
             </a>
             <a href="https://www.cryptonator.com/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">Cryptonator</h4>
-              <img className="blocks-list__block__img" src="/img/wallets/cryptonator.png" />
+              <img className="blocks-list__block__img" src="/img/wallets/cryptonator.png" alt="" />
               <div className="blocks-list__block__type">Mobile/Web Wallet</div>
             </a>
             <a href="http://uberpay.io/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">UberPay</h4>
-              <img className="blocks-list__block__img" src="/img/wallets/uberpay.png" />
+              <img className="blocks-list__block__img" src="/img/wallets/uberpay.png" alt="" />
               <div className="blocks-list__block__type">Mobile/Web Wallet</div>
             </a>
             <a href="https://www.coinspot.com.au/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">Coinspot</h4>
-              <img className="blocks-list__block__img" src="/img/wallets/coinspot.png" />
+              <img className="blocks-list__block__img" src="/img/wallets/coinspot.png" alt="" />
               <div className="blocks-list__block__type">Web Wallet</div>
             </a>
             <a href="https://www.coinvault.io/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">CoinVault</h4>
-              <img className="blocks-list__block__img" src="/img/wallets/coinvault.png" />
+              <img className="blocks-list__block__img" src="/img/wallets/coinvault.png" alt="" />
               <div className="blocks-list__block__type">Web Wallet</div>
             </a>
             <a href="https://holytransaction.com/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">HolyTransaction</h4>
-              <img className="blocks-list__block__img" src="/img/wallets/holytransaction.png" />
+              <img className="blocks-list__block__img" src="/img/wallets/holytransaction.png" alt="" />
               <div className="blocks-list__block__type">Web Wallet</div>
             </a>
             <a href="https://magnumwallet.co/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">Magnum</h4>
-              <img className="blocks-list__block__img" src="/img/wallets/magnum.png" />
+              <img className="blocks-list__block__img" src="/img/wallets/magnum.png" alt="" />
               <div className="blocks-list__block__type">Mobile/Web Wallet</div>
             </a>
           </div>
