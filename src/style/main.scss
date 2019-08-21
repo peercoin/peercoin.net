@@ -41,12 +41,17 @@ body {
 
 .title {
   text-align: center;
-  margin: 50px auto;
+  margin: 0 auto;
+  padding: 50px 0;
   font-weight: 300;
   font-size: 3.8rem;
 
   &--green {
     color: $color-green;
+  }
+
+  &--white {
+    color: #fff;
   }
 
   &--left {

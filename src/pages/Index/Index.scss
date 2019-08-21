@@ -104,6 +104,14 @@
 
 .timeline {
   display: inline-block;
+
+  &--dark {
+    .timeline__body__section {
+      &:before {
+        border-color: $color-black;
+      }
+    } 
+  }
   
   &__title {
     color: #fff;
@@ -192,6 +200,17 @@
           width: 100%;
         }
       }
+    }
+
+    code {
+      background: rgba($color-green, 0.1);
+      border: 1px solid rgba($color-green, 0.1);
+      padding: 2px 4px;
+      border-radius: 3px;
+      color: $color-green;
+      font-weight: normal;
+      font-size: 1.5rem;
+      text-shadow: 0 1px 0 rgba(#000, 0.3);
     }
   }
 }

@@ -64,7 +64,7 @@ function Menu() {
               <li><a href="/contact" className="submenu"><img src="/img/icons/contact_green.png" alt="" />Contact Us</a></li>
             </ul>
           </li>
-          <li>Wallet</li>
+          <li><Link to="/wallet">Wallet</Link></li>
           <li>
             Community
             <img src="/img/icon-menu-arrow-down.svg" alt=""/>
