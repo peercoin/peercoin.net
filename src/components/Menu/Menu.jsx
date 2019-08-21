@@ -14,6 +14,12 @@ function Menu() {
         setIsFixed(false);
       }
     });
+
+    if (window.scrollY > triggerHeight) {
+      setIsFixed(true);
+    } else {
+      setIsFixed(false);
+    }
   }, []);
 
   return (
@@ -39,7 +45,7 @@ function Menu() {
               <li><a href="https://docs.peercoin.net/#/frequently-asked-questions" className="submenu">Frequently Asked Questions</a></li>
             </ul>
           </li>
-          <li>Get Started</li>
+          <li><a href="/#getstarted">Get Started</a></li>
           <li>
             <Link to="/resources">Resources</Link>
             <img src="/img/icon-menu-arrow-down.svg" alt=""/>
@@ -58,10 +64,10 @@ function Menu() {
             <img src="/img/icon-menu-arrow-down.svg" alt=""/>
             <ul className="menu__main__submenu">
               <li><a href="https://github.com/peercoin/" className="submenu"><img src="/img/icons/github_green.png" alt="" />GitHub</a></li>
-              <li><a href="/projects" className="submenu"><img src="/img/icons/projects_green.png" alt="" />Projects</a></li>
-              <li><a href="https://medium.com/peercoin" className="submenu"><img src="/img/icons/blog_green.png" alt="" />Blog</a></li>
-              <li><a href="/foundation" className="submenu"><img src="/img/icons/foundation_green.png" alt="" />Peercoin Foundation</a></li>
-              <li><a href="/contact" className="submenu"><img src="/img/icons/contact_green.png" alt="" />Contact Us</a></li>
+              <li><Link to="/projects" className="submenu"><img src="/img/icons/projects_green.png" alt="" />Projects</Link></li>
+              <li><Link to="https://medium.com/peercoin" className="submenu"><img src="/img/icons/blog_green.png" alt="" />Blog</Link></li>
+              <li><Link to="/foundation" className="submenu"><img src="/img/icons/foundation_green.png" alt="" />Peercoin Foundation</Link></li>
+              <li><Link to="/contact" className="submenu"><img src="/img/icons/contact_green.png" alt="" />Contact Us</Link></li>
             </ul>
           </li>
           <li><Link to="/wallet">Wallet</Link></li>

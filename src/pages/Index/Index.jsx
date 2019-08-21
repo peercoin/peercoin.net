@@ -16,8 +16,8 @@ function Index() {
       The world's first efficient and sustainable public blockchain, serving as a secure base layer and cryptocurrency for the future blockchain connected world.
       </p>
       <div className="hero__actions">
-        <a href="/get-started" className="hero__actions__action">Get Started</a>
-        <a href="/what-is-peercoin" className="hero__actions__action hero__actions__action--white">What is Peercoin?</a>
+        <a href="/#getstarted" className="hero__actions__action">Get Started</a>
+        <a href="https://peercoin.github.io/PeercoinUniversity/#/9-peercoin-proof-of-stake-consensus" className="hero__actions__action hero__actions__action--white">What is Peercoin?</a>
       </div>
     </div>
     <div className="main">
@@ -70,7 +70,7 @@ function Index() {
           <img className="home-description__img" src="/img/animations/reliable-store-of-value.svg" alt="" />
         </section>
       </div>
-      <div className="main main--green">
+      <div className="main main--green" id="getstarted">
         <div className="container">
           <div className="timeline">
             <h2 className="timeline__title">Get Started</h2>

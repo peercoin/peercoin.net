@@ -61,7 +61,7 @@ function Wallet() {
           </div>
         </div>
       </div>
-      <div className="main main--dark">
+      <div className="main main--dark" id="install">
         <div className="container">
           <h2 className="title title--white title--left">Installation</h2>
 
@@ -92,17 +92,17 @@ function Wallet() {
                   <div className="timeline__body__content__text">
                     <h2>macOS</h2>
                     <ul>
-                      <li>Open <code class="green">peercoin-0.8.2-osx-unsigned.dmg</code></li>
-                      <li>Mount <code class="green">Peercoin-Qt.dmg</code> by opening it</li>
-                      <li>Drag <code class="green">Peercoin-Qt.app</code> or <code class="green">Peercoin.app</code> to <code class="green">Applications</code></li>
-                      <li>Drag <code class="green">Peercoin-Qt.app</code> or <code class="green">Peercoin.app</code> to <code class="green">Applications</code></li>
-                      <li>Go to <code class="green">Applications</code> and open <code class="green">Peercoin-Qt.app</code> or <code class="green">Peercoin.app</code></li>
+                      <li>Open <code className="green">peercoin-0.8.2-osx-unsigned.dmg</code></li>
+                      <li>Mount <code className="green">Peercoin-Qt.dmg</code> by opening it</li>
+                      <li>Drag <code className="green">Peercoin-Qt.app</code> or <code className="green">Peercoin.app</code> to <code className="green">Applications</code></li>
+                      <li>Drag <code className="green">Peercoin-Qt.app</code> or <code className="green">Peercoin.app</code> to <code className="green">Applications</code></li>
+                      <li>Go to <code className="green">Applications</code> and open <code className="green">Peercoin-Qt.app</code> or <code className="green">Peercoin.app</code></li>
                     </ul>
                     <h2>Daemon</h2>
                     <ul>
-                      <li>Unzip <code class="green">peercoind.zip</code></li>
-                      <li>Create <code class="green">ppcoin.conf</code> in <code class="green">~/Library/Application Support/PPCoin</code></li>
-                      <li>Run <code class="green">peercoind</code></li>
+                      <li>Unzip <code className="green">peercoind.zip</code></li>
+                      <li>Create <code className="green">ppcoin.conf</code> in <code className="green">~/Library/Application Support/PPCoin</code></li>
+                      <li>Run <code className="green">peercoind</code></li>
                     </ul>
                     <p> Your wallet is located in <code>~/Library/Application Support/PPCoin</code>. To open the folder, press <code>Command-Shift-G</code> in Finder, insert the path, and press Enter.</p>
                     <p>Additional help can be found in the <a href="https://docs.peercoin.net/">Peercoin Documentation</a> or by asking on our <a href="https://talk.peercoin.net/">Forums</a>.</p>
@@ -115,13 +115,13 @@ function Wallet() {
                   <div className="timeline__body__content__text">
                     <h2>Linux</h2>
                     <ul>
-                      <li>Unpack <code class="green">peercoin-0.8.2-x86_64-linux-gnu.tar.gz</code></li>
-                      <li>Run <code class="green">bin/32/peercoin-qt</code> (requires libqt4-gui)</li>
+                      <li>Unpack <code className="green">peercoin-0.8.2-x86_64-linux-gnu.tar.gz</code></li>
+                      <li>Run <code className="green">bin/32/peercoin-qt</code> (requires libqt4-gui)</li>
                     </ul>
                     <h2>Daemon</h2>
                     <ul>
-                      <li>Create <code class="green">peercoin.conf</code> in <code class="green">~/.peercoin</code></li>
-                      <li>Run <code class="green">bin/32/peercoind</code></li>
+                      <li>Create <code className="green">peercoin.conf</code> in <code className="green">~/.peercoin</code></li>
+                      <li>Run <code className="green">bin/32/peercoind</code></li>
                     </ul>
                     <p>Your wallet is located in <code>~/.peercoin</code>.</p>
                     <p><i>Note: 64 bit binaries available in <code>bin/64/[peercoin-qt,peercoind]</code>.</i></p>
@@ -134,7 +134,7 @@ function Wallet() {
           </div>
         </div>
       </div>
-      <div className="main">
+      <div className="main" id="paperwallet">
         <div className="container">
           <h2 className="title title--green">Paper Wallet</h2>
           <div className="blocks-list">
@@ -143,7 +143,7 @@ function Wallet() {
               <img className="blocks-list__block__img" src="/img/explorers/peercoin_green.png" />
             </a>
           </div>
-          <h2 className="title title--green">Unofficial Wallets</h2>
+          <h2 className="title title--green" id="unofficialclients">Unofficial Wallets</h2>
           <div className="blocks-list">
             <a href="https://www.ledger.com/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">Ledger</h4>

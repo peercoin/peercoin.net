@@ -36,7 +36,7 @@ function Resources() {
             </div>
           </div>
           <div className="row">
-            <div className="col">
+            <div className="col" id="mining">
               <h2 className="title title--green title--left">Mining</h2>
               <p>Peercoin uses the hashcash double iterated SHA-256 algorithm for proof-of-work mining. This means that any hardware that can mine Bitcoin can mine Peercoin as well.</p>
               <p> To mine Peercoin, you need mining software. Below is an unofficial list of mining software that has been found to have a decent reputation. </p>
@@ -48,7 +48,7 @@ function Resources() {
               <a href="#" className="btn btn--green">Documentation</a>
               <a href="#" className="btn btn--green">Calculator</a>
             </div>
-            <div className="col">
+            <div className="col" id="university">
               <h2 className="title title--green title--left">Peercoin University</h2>
               <p> Peercoin University is an educational article geared toward less technical members of the community to help them understand the complex topic of public blockchain.</p>
               <p> The article starts off by explaining what a blockchain is, how it works, and its many benefits and use cases. Bitcoin and proof-of-work is detailed next, followed by Peercoin and proof-of-stake. Other topics include security, centralization, decentralization, scalability, and economics </p>
@@ -62,7 +62,7 @@ function Resources() {
           </div>
         </div>
       </div>
-      <div className="main">
+      <div className="main" id="exchanges">
         <div className="container">
           <h2 className="title title--green">Exchanges</h2>
           <p className="description">DISCLAIMER: This list is provided for informational purposes only. Services listed here have not been evaluated or endorsed by the Peercoin Foundation. Exercise discretion when using third-party platforms and services.</p>
@@ -156,7 +156,7 @@ function Resources() {
         </div>
       </div>
       
-      <div className="main">
+      <div className="main" id="blockexplorers">
         <div className="container">
           <h2 className="title title--green">Block Explorers</h2>
           <h3 className="title title--green">Mainnet</h3>
@@ -192,7 +192,7 @@ function Resources() {
         </div>
       </div>
 
-      <div className="main">
+      <div className="main" id="tools">
         <div className="container">
           <h2 className="title title--green">Tools</h2>
           <div className="blocks-list">
@@ -216,7 +216,7 @@ function Resources() {
         </div>
       </div>
 
-      <div className="main">
+      <div className="main" id="communities">
         <div className="container">
           <h2 className="title title--green">Community</h2>
           <div className="blocks-list">
@@ -264,7 +264,7 @@ function Resources() {
         </div>
       </div>
 
-      <div className="main">
+      <div className="main" id="whitepaper">
         <div className="container">
           <h2 className="title title--green">Whitepaper</h2>
           <div className="blocks-list">
@@ -304,7 +304,7 @@ function Resources() {
         </div>
       </div>
 
-      <div className="main">
+      <div className="main" id="graphics">
         <div className="container">
           <h2 className="title title--green">Graphics</h2>
           <p className="subtitle">Looking for more graphics? An up-to-date collection of logos and wallpapers can be found on the <a href="">Peercoin GitHub</a>.</p>
