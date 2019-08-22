@@ -62,7 +62,7 @@ function Index() {
         </section>
         <section className="home-description">
           <div className="home-description__text">
-            <h2 className="home-description__text__title">Fair Distribution</h2>
+            <h2 className="home-description__text__title">Reliable Value Store</h2>
             <p>Efficiency, sustainability, user governance, scalability through modularity, and a fair distribution. All these qualities combine to form a long-term minded blockchain network that is primarily focused on maximizing decentralization.</p>
             <p>This primary focus works to preserve the trustless, immutable and censorship resistant nature of Peercoin so that it can always be relied upon to fulfill its core role as a distributed mechanism for securely storing all types of value.</p>
             <p>This value can be anything from fiat wealth being stored in PPC, to data being stored on the chain in the form of tokens, records, or contracts. Regardless of the type of value that is being stored, Peercoin was built with the fundamentals in mind to always ensure that your data remains safe and secure.</p>

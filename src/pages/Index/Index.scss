@@ -14,10 +14,21 @@
   padding-top: 150px;
   padding-bottom: 50px;
 
+  @include viewports(up-to small) {
+    padding: 0 20px;
+  }
+
   &--thin {
     min-height: 0;
     padding-top: 110px;
     padding-bottom: 30px;
+  }
+
+  > img {
+    @include viewports(up-to small) {
+      width: 70%;
+      margin-top: 100px;
+    }
   }
 
   &__title {
@@ -26,6 +37,7 @@
     font-size: 4rem;
     margin-top: 60px;
     margin-bottom: 20px;
+    text-align: center;
   }
 
   &__description {

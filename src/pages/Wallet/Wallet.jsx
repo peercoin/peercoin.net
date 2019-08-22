@@ -25,38 +25,39 @@ function Wallet() {
           <h2 className="title title--green">Desktop Wallets</h2>
           <div className="desktop-downloads">
             <div className="desktop-downloads__items">
-              <a className="desktop-downloads__items__item" href="https://github.com/peercoin/peercoin/releases/download/v0.8.2.1ppc/peercoin-0.8.2-win64-setup-unsigned.exe" target="_blank" rel="noopener noreferrer"> 
-                <div className="desktop-downloads__items__item__title">Windows</div>
-                <img className="desktop-downloads__items__item__img" src="/img/icons/windows.png" alt="" />
+              <div className="desktop-downloads__items__item">
+                <a href="https://github.com/peercoin/peercoin/releases/download/v0.8.2.1ppc/peercoin-0.8.2-win64-setup-unsigned.exe" target="_blank" rel="noopener noreferrer">
+                  <div className="desktop-downloads__items__item__title">Windows</div>
+                  <img className="desktop-downloads__items__item__img" src="/img/icons/windows.png" alt="" />
+                </a> 
                 <div className="desktop-downloads__items__item__checksum">
                   <span>Checksum (SHA-256):</span>
                   83148a5ab61fbf4dbffbcf807787421dee0495e6018fb928d0a26fd2af0529ae
                 </div>
-              </a>
-              <a className="desktop-downloads__items__item" href="https://github.com/peercoin/peercoin/releases/download/v0.8.2.1ppc/peercoin-0.8.2-osx-unsigned.dmg" target="_blank" rel="noopener noreferrer">
-                <div className="desktop-downloads__items__item__title">macOS</div>
-                <img className="desktop-downloads__items__item__img" src="/img/icons/apple.png" alt="" />
+              </div>
+              <div className="desktop-downloads__items__item">
+                <a href="https://github.com/peercoin/peercoin/releases/download/v0.8.2.1ppc/peercoin-0.8.2-osx-unsigned.dmg" target="_blank" rel="noopener noreferrer">
+                  <div className="desktop-downloads__items__item__title">macOS</div>
+                  <img className="desktop-downloads__items__item__img" src="/img/icons/apple.png" alt="" />
+                </a>
                 <div className="desktop-downloads__items__item__checksum">
                   <span>Checksum (SHA-256):</span>
                   b49be26ed42efe167b6d886cd02ea95e4a7ed4ad6f0fa80d98df50d807c24723
                 </div>
-              </a>
-              <a className="desktop-downloads__items__item" href="https://github.com/peercoin/peercoin/releases/download/v0.8.2.1ppc/peercoin-0.8.2-x86_64-linux-gnu.tar.gz" target="_blank" rel="noopener noreferrer">
-                <div className="desktop-downloads__items__item__title">Linux</div>
-                <img className="desktop-downloads__items__item__img" src="/img/icons/linux.png" alt="" />
+              </div>
+              <div className="desktop-downloads__items__item">
+                <a href="https://github.com/peercoin/peercoin/releases/download/v0.8.2.1ppc/peercoin-0.8.2-x86_64-linux-gnu.tar.gz" target="_blank" rel="noopener noreferrer">
+                  <div className="desktop-downloads__items__item__title">Linux</div>
+                  <img className="desktop-downloads__items__item__img" src="/img/icons/linux.png" alt="" />
+                </a>
                 <div className="desktop-downloads__items__item__checksum">
                   <span>Checksum (SHA-256):</span>
                   81c416600d356f0d3fa04be0b97756c57441a33a85ce3a1dcf2e4d393d50726f
                 </div>
-              </a>
+              </div>
             </div>
             <div className="desktop-downloads__img">
               <img src="/img/wallets_splash.png" alt=""/>
-            </div>
-          </div>
-          <div className="signatures">
-            <div className="signatures__line">
-
             </div>
           </div>
         </div>
@@ -138,7 +139,7 @@ function Wallet() {
         <div className="container">
           <h2 className="title title--green">Paper Wallet</h2>
           <div className="blocks-list">
-            <a href="https://bittrex.com/" className="blocks-list__block">
+            <a href="https://paperwallet.peercoin.net/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">Paper Wallet</h4>
               <img className="blocks-list__block__img" src="/img/explorers/peercoin_green.png" alt="" />
             </a>
