@@ -1,0 +1,113 @@
+{
+  "menuComponent": {
+    "links": {
+      "home": {
+        "title": "Home"
+      },
+      "learn": {
+        "title": "Learn",
+        "peercoinUniversity": "Peercoin University",
+        "whatIsBlockchain": "What is a Blockchain?",
+        "inherentCentralization": "Inherent Centralization of Proof-of-Work Blockchains",
+        "peercoinProofOfStake": "Peercoin &amp; Proof-of-Stake Consensus",
+        "efficientSustainableSecurity": "Efficient &amp; Sustainable Security",
+        "economicsOfPeercoin": "Economics of Peercoin",
+        "scalabilityOfPeercoin": "Scalability of Peercoin",
+        "deflationAndCriptocurrencies": "Deflation and Cryptocurrencies",
+        "peercoinHybridChainSolution": "Peercoin's Hybrid Chain Solution",
+        "richRicherFallacy": "\"Rich get Richer\" Fallacy",
+        "frequentlyAskedQuestions": "Frequently Asked Questions"
+      },
+      "getStarted": {
+        "title": "Get Started"
+      },
+      "resources": {
+        "title": "Resources",
+        "documentation": "Documentation",
+        "mining": "Mining",
+        "peercoinUniversity": "Peercoin University",
+        "exchanges": "Exchanges",
+        "blockExplorers": "Block Explorers",
+        "whitepaper": "Whitepaper",
+        "graphics": "Graphics"
+      },
+      "project": {
+        "title": "Project",
+        "github": "GitHub",
+        "projects": "Projects",
+        "blog": "Blog",
+        "peercoinFoundation": "Peercoin Foundation",
+        "contactUs": "Contact Us"
+      },
+      "wallet": {
+        "title": "Wallet"
+      },
+      "community": {
+        "title": "Community",
+        "forum": "Forum",
+        "twitter": "Twitter",
+        "facebook": "Facebook",
+        "reddit": "Reddit",
+        "telegram": "Telegram",
+        "discord": "Discord",
+        "youtube": "Youtube",
+        "bitcointalk": "Bitcointalk"
+      }
+    }
+  },
+  "footerComponent": {
+    "subscribeTitle": "Subscribe to Peercoin News",
+    "subscribeSubtitle": "Stay up to date with the latest Peercoin news by signing up for our newsletter!",
+    "subscribeBtnLabel": "Subscribe",
+    "links": {
+      "learn": {
+        "title": "Learn",
+        "linkPeercoinUniversity": "Peercoin University",
+        "linkWhatIsBlockchain": "What is a Blockchain?",
+        "linkInherentCentralization": "Inherent Centralization of Proof-of-Work Blockchains",
+        "linkPeercoinProofOfStakeConsensus": "Peercoin & Proof-of-Stake Consensus",
+        "linkEfficientSustainableSecurity": "Efficient & Sustainable Security",
+        "linkEconomicsOfPeercoin": "Economics of Peercoin",
+        "linkScalabilityOfPeercoin": "Scalability of Peercoin",
+        "linkFAQ": "Frequently Asked Questions"
+      },
+      "getStarted": {
+        "title": "Get Started"
+      },
+      "resources": {
+        "title": "Resources",
+        "linkDocumentation": "Documentation",
+        "linkExchanges": "Exchanges",
+        "linkBLockExplorers": "Block Explorers",
+        "linkWhitepaper": "Whitepaper",
+        "linkGraphics": "Graphics"
+      },
+      "wallet": {
+        "title": "Wallet"
+      },
+      "project": {
+        "title": "Project",
+        "linkGithub": "GitHub",
+        "linkProjects": "Projects",
+        "linkBlog": "Blog",
+        "linkFoundation": "Founda tion",
+        "linkPrivacyPolicy": "Privacy Policy"
+      },
+      "community": {
+        "title": "Community",
+        "linkForum": "GitHub",
+        "linkReddit": "Reddit",
+        "linkTelegram": "Telegram",
+        "linkDiscord": "Discord",
+        "linkBitcointalk": "Bitcointalk",
+        "linkFacebook": "Facebook",
+        "linkTwitter": "Twitter",
+        "linkYoutube": "Youtube"
+      }
+    },
+    "copyright": {
+      "copyright": "Copyright ©",
+      "rights": "Peercoin Foundation | All Rights Reserved"
+    }
+  }
+}
