@@ -1,9 +1,10 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useState, Suspense} from 'react';
+import { useTranslation } from 'react-i18next';
 import './LatestNews.scss';
-
-
+import Loader from '../Loader/Loader';
 
 function LatestNews() {
+  const { t } = useTranslation();
   const [posts, setPosts] = useState([]);
   
   useEffect(() => {
@@ -25,11 +26,19 @@ function LatestNews() {
         <a href={post.link} className="post" key={Math.random()} target="_blank" rel="noopener noreferrer">
           <img src={post.img} alt={post.title} className="post__img" />
           <h3 className="post__title">{post.title}</h3>
-          <span href={post.link} className="post__button">Read more</span>
+          <span href={post.link} className="post__button">{t('latestNewsComp.readMore')}</span>
         </a>
       ))}
     </div>
   );
 }
 
-export default LatestNews;
+function HoF() {
+  return (
+    <Suspense fallback={<Loader open={true} />}>
+      <LatestNews />
+    </Suspense>
+  );
+}
+
+export default HoF;

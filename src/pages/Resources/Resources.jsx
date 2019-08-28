@@ -1,23 +1,27 @@
-import React from 'react';
+import React, { Suspense } from 'react';
+import { useTranslation } from 'react-i18next';
 import './Resources.scss';
 import Menu from '../../components/Menu/Menu';
 import Footer from '../../components/Footer/Footer';
+import Loader from '../../components/Loader/Loader';
 
 function Resources() {
+  const { t } = useTranslation();
+
   return (
     <>
       <Menu />
       <div className="hero hero--thin">
-        <h1 className="hero__title">Resources</h1>
+        <h1 className="hero__title">{t('resourcesPage.title')}</h1>
         <p className="hero__description">
-        Tools and community resources: including exchanges, block explorers, graphics, social media, forums, chats and more!
+        {t('resourcesPage.description')}
         </p>
         <div className="hero__actions">
-          <a href="#exchanges" className="hero__actions__action hero__actions__action--white">Exchanges</a>
-          <a href="#blockexplorers" className="hero__actions__action hero__actions__action--white">Block Explorers</a>
-          <a href="#communities" className="hero__actions__action hero__actions__action--white">Community</a>
-          <a href="#whitepaper" className="hero__actions__action hero__actions__action--white">Whitepaper</a>
-          <a href="#graphics" className="hero__actions__action hero__actions__action--white">Graphics</a>
+          <a href="#exchanges" className="hero__actions__action hero__actions__action--white">{t('resourcesPage.actions.action1')}</a>
+          <a href="#blockexplorers" className="hero__actions__action hero__actions__action--white">{t('resourcesPage.actions.action2')}</a>
+          <a href="#communities" className="hero__actions__action hero__actions__action--white">{t('resourcesPage.actions.action3')}</a>
+          <a href="#whitepaper" className="hero__actions__action hero__actions__action--white">{t('resourcesPage.actions.action4')}</a>
+          <a href="#graphics" className="hero__actions__action hero__actions__action--white">{t('resourcesPage.actions.action5')}</a>
         </div>
       </div>
 
@@ -39,7 +43,7 @@ function Resources() {
             <div className="col" id="mining">
               <h2 className="title title--green title--left">Mining</h2>
               <p>Peercoin uses the hashcash double iterated SHA-256 algorithm for proof-of-work mining. This means that any hardware that can mine Bitcoin can mine Peercoin as well.</p>
-              <p> To mine Peercoin, you need mining software. Below is an unofficial list of mining software that has been found to have a decent reputation. </p>
+              <p>To mine Peercoin, you need mining software. Below is an unofficial list of mining software that has been found to have a decent reputation.</p>
               <ul>
                 <li><a href="http://bfgminer.org/">BFGMiner</a></li>
                 <li><a href="https://github.com/ckolivas/cgminer">CGMiner</a></li>
@@ -50,8 +54,8 @@ function Resources() {
             </div>
             <div className="col" id="university">
               <h2 className="title title--green title--left">Peercoin University</h2>
-              <p> Peercoin University is an educational article geared toward less technical members of the community to help them understand the complex topic of public blockchain.</p>
-              <p> The article starts off by explaining what a blockchain is, how it works, and its many benefits and use cases. Bitcoin and proof-of-work is detailed next, followed by Peercoin and proof-of-stake. Other topics include security, centralization, decentralization, scalability, and economics </p>
+              <p>Peercoin University is an educational article geared toward less technical members of the community to help them understand the complex topic of public blockchain.</p>
+              <p>The article starts off by explaining what a blockchain is, how it works, and its many benefits and use cases. Bitcoin and proof-of-work is detailed next, followed by Peercoin and proof-of-stake. Other topics include security, centralization, decentralization, scalability, and economics</p>
               <ul>
                 <li><a href="https://university.peercoin.net/#/2-what-is-a-blockchain-">What is a Blockchain?</a></li>
                 <li><a href="https://university.peercoin.net/#/6-inherent-centralization-of-proof-of-work-blockchains">Inherent Centralization of Proof-of-Work Blockchains</a></li>
@@ -519,4 +523,12 @@ function Resources() {
   );
 }
 
-export default Resources;
+function HoF() {
+  return (
+    <Suspense fallback={<Loader open={true} />}>
+      <Resources />
+    </Suspense>
+  );
+}
+
+export default HoF;

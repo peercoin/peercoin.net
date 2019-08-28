@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { Suspense } from 'react';
+import { useTranslation } from 'react-i18next';
 import './Foundation.scss';
 import Menu from '../../components/Menu/Menu';
 import Footer from '../../components/Footer/Footer';
+import Loader from '../../components/Loader/Loader';
 
 function Foundation() {
+  const { t } = useTranslation();
+
   return (
     <>
       <Menu />
@@ -15,24 +19,24 @@ function Foundation() {
         <div className="container">
           <div className="row">
             <div className="col">
-              <h2 className="title title--green title--left">Mission Statement</h2>
-              <p>The Peercoin Foundation has been established with the simple mission of promoting and supporting the continued education, development, and overall progression of the Peercoin project. We seek to empower future Peercoin team members by providing the tools necessary to perpetuate Peercoin's long standing reputation for bringing world-first innovations to the Blockchain.</p>
+              <h2 className="title title--green title--left">{t('foundationPage.missionStatementTitle')}</h2>
+              <p>{t('foundationPage.missionStatementText')}</p>
               
-              <h2 className="title title--green title--left">Community Support</h2>
-              <p>If you would like to get involved with Peercoin, or would simply like to support the team, there are a handful of options at your disposal. If you are interested in becoming a developer for Peercoin or Peercoin related projects such as PeerAssets, send us an email at foundation@peercoin.net. If you would like to donate PPC to the Peercoin Foundation to support the expansion of a project, simply send your PPC donation to the multisignature address below.</p>
+              <h2 className="title title--green title--left">{t('foundationPage.technicalSupportTitle')}</h2>
+              <p>{t('foundationPage.technicalSupportText')}</p>
               <p>
-              General Fund - PPC Donation Address: <b>p92W3t7YkKfQEPDb7cG9jQ6iMh7cpKLvwK</b><br />
-              General Fund - BTC Donation Address: <b>376NhxVL1LFBFndHNx9k7hvwvUzq6RZiPT</b><br />
-              Exchange Listing Fund - BTC Donation Address: <b>3NtJTUyXuH8KJj4BXJJxtQS7SPnLNm711CM</b>
+              {t('foundationPage.generalFundPpcAddress')} <b>p92W3t7YkKfQEPDb7cG9jQ6iMh7cpKLvwK</b><br />
+              {t('foundationPage.generalFundBtcAddress')} <b>376NhxVL1LFBFndHNx9k7hvwvUzq6RZiPT</b><br />
+              {t('foundationPage.exchangeBtcAddress')} <b>3NtJTUyXuH8KJj4BXJJxtQS7SPnLNm711CM</b>
               </p>
             </div>
             <div className="col col--small">
-              <h2 className="title title--green title--left">Contact Us</h2>
+              <h2 className="title title--green title--left">{t('foundationPage.contactUsTitle')}</h2>
               <p>
                 <b>Stichting Peercoin Foundation</b><br />
                 Postbus 7875<br />
                 1008AB AMSTERDAM<br />
-                The Netherlands<br />
+                {t('foundationPage.addressCountry')}<br />
               </p>
               <p>
                 <a href="mailto:foundation@peercoin.net">foundation@peercoin.net</a><br />
@@ -47,4 +51,12 @@ function Foundation() {
   );
 }
 
-export default Foundation;
+function HoF() {
+  return (
+    <Suspense fallback={<Loader open={true} />}>
+      <Foundation />
+    </Suspense>
+  );
+}
+
+export default HoF;

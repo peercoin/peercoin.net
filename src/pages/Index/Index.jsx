@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import Collapsible from 'react-collapsible';
 import './Index.scss';
 import Menu from '../../components/Menu/Menu';
 import LatestNews from '../../components/LatestNews/LatestNews';
 import Footer from '../../components/Footer/Footer';
+import Loader from '../../components/Loader/Loader';
 
 function Index() {
   return (
@@ -160,4 +161,12 @@ function Index() {
   );
 }
 
-export default Index;
+function HoF() {
+  return (
+    <Suspense fallback={<Loader open={true} />}>
+      <Index />
+    </Suspense>
+  );
+}
+
+export default HoF;
