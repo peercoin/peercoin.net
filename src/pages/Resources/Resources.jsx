@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
+import renderHTML from 'react-render-html';
 import './Resources.scss';
 import Menu from '../../components/Menu/Menu';
 import Footer from '../../components/Footer/Footer';
@@ -29,132 +30,132 @@ function Resources() {
         <div className="container">
           <div className="row">
             <div className="col">
-              <h2 className="title title--green title--left">Contribute</h2>
-              <p>Peercoin is always under development and any developer is welcome to contribute. There are a variety of ways to contribute, including core development and writing documentation. Please check our GitHub below to get started.</p>
-              <a href="https://github.com/peercoin/" className="btn btn--green">GitHub</a>
+              <h2 className="title title--green title--left">{t('resourcesPage.contributeTitle')}</h2>
+              <p>{t('resourcesPage.contributeText')}</p>
+              <a href="https://github.com/peercoin/" className="btn btn--green">{t('resourcesPage.contributeBtn')}</a>
             </div>
             <div className="col">
-              <h2 className="title title--green title--left">Documentation</h2>
-              <p>To learn more about the technical details of Peercoin and how to use existing tools or framework, it is recommended that you start by reading the Peercoin documentation.</p>
-              <a href="https://docs.peercoin.net/" className="btn btn--green">Documentation</a>
+              <h2 className="title title--green title--left">{t('resourcesPage.documentationTitle')}</h2>
+              <p>{t('resourcesPage.documentationText')}</p>
+              <a href="https://docs.peercoin.net/" className="btn btn--green">{t('resourcesPage.documentationBtn')}</a>
             </div>
           </div>
           <div className="row">
             <div className="col" id="mining">
-              <h2 className="title title--green title--left">Mining</h2>
-              <p>Peercoin uses the hashcash double iterated SHA-256 algorithm for proof-of-work mining. This means that any hardware that can mine Bitcoin can mine Peercoin as well.</p>
-              <p>To mine Peercoin, you need mining software. Below is an unofficial list of mining software that has been found to have a decent reputation.</p>
+              <h2 className="title title--green title--left">{t('resourcesPage.miningTitle')}</h2>
+              <p>{t('resourcesPage.miningText1')}</p>
+              <p>{t('resourcesPage.miningText2')}</p>
               <ul>
                 <li><a href="http://bfgminer.org/">BFGMiner</a></li>
                 <li><a href="https://github.com/ckolivas/cgminer">CGMiner</a></li>
                 <li><a href="https://easyminer.net/">EasyMiner</a></li>
               </ul>
-              <a href="https://docs.peercoin.net/#/mining" className="btn btn--green">Documentation</a>
-              <a href="https://www.coinwarz.com/calculators/peercoin-mining-calculator" className="btn btn--green">Calculator</a>
+              <a href="https://docs.peercoin.net/#/mining" className="btn btn--green">{t('resourcesPage.miningBtn1')}</a>
+              <a href="https://www.coinwarz.com/calculators/peercoin-mining-calculator" className="btn btn--green">{t('resourcesPage.miningBtn2')}</a>
             </div>
             <div className="col" id="university">
-              <h2 className="title title--green title--left">Peercoin University</h2>
-              <p>Peercoin University is an educational article geared toward less technical members of the community to help them understand the complex topic of public blockchain.</p>
-              <p>The article starts off by explaining what a blockchain is, how it works, and its many benefits and use cases. Bitcoin and proof-of-work is detailed next, followed by Peercoin and proof-of-stake. Other topics include security, centralization, decentralization, scalability, and economics</p>
+              <h2 className="title title--green title--left">{t('resourcesPage.universityTitle')}</h2>
+              <p>{t('resourcesPage.universityText1')}</p>
+              <p>{t('resourcesPage.universityText2')}</p>
               <ul>
-                <li><a href="https://university.peercoin.net/#/2-what-is-a-blockchain-">What is a Blockchain?</a></li>
-                <li><a href="https://university.peercoin.net/#/6-inherent-centralization-of-proof-of-work-blockchains">Inherent Centralization of Proof-of-Work Blockchains</a></li>
-                <li><a href="https://university.peercoin.net/#/9-peercoin-proof-of-stake-consensus">Peercoin & Proof-Of-Stake Consensus</a></li>
+                <li><a href="https://university.peercoin.net/#/2-what-is-a-blockchain-">{t('resourcesPage.universityLink1')}</a></li>
+                <li><a href="https://university.peercoin.net/#/6-inherent-centralization-of-proof-of-work-blockchains">{t('resourcesPage.universityLink2')}</a></li>
+                <li><a href="https://university.peercoin.net/#/9-peercoin-proof-of-stake-consensus">{t('resourcesPage.universityLink3')}</a></li>
               </ul>
-              <a href="https://university.peercoin.net/" className="btn btn--green">Peercoin University</a>
+              <a href="https://university.peercoin.net/" className="btn btn--green">{t('resourcesPage.universityBtn')}</a>
             </div>
           </div>
         </div>
       </div>
       <div className="main" id="exchanges">
         <div className="container">
-          <h2 className="title title--green">Exchanges</h2>
-          <p className="description">DISCLAIMER: This list is provided for informational purposes only. Services listed here have not been evaluated or endorsed by the Peercoin Foundation. Exercise discretion when using third-party platforms and services.</p>
+          <h2 className="title title--green">{t('resourcesPage.exchangesTitle')}</h2>
+          <p className="description">{t('resourcesPage.exchangesText')}</p>
           <div className="blocks-list">
             <a href="https://bittrex.com/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">Bittrex</h4>
               <img className="blocks-list__block__img" src="/img/exchanges/bittrex_green.png" alt="" />
-              <div className="blocks-list__block__type">Exchange</div>
+              <div className="blocks-list__block__type">{t('resourcesPage.exchangesType1')}</div>
             </a>
             <a href="https://www.coinegg.com/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">CoinEgg</h4>
               <img className="blocks-list__block__img" src="/img/exchanges/coinegg_green.png" alt="" />
-              <div className="blocks-list__block__type">Exchange</div>
+              <div className="blocks-list__block__type">{t('resourcesPage.exchangesType1')}</div>
             </a>
             <a href="https://hitbtc.com/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">HitBTC</h4>
               <img className="blocks-list__block__img" src="/img/exchanges/hitbtc_green.png" alt="" />
-              <div className="blocks-list__block__type">Exchange</div>
+              <div className="blocks-list__block__type">{t('resourcesPage.exchangesType1')}</div>
             </a>
             <a href="https://www.livecoin.net/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">Livecoin</h4>
               <img className="blocks-list__block__img" src="/img/exchanges/livecoin_green.png" alt="" />
-              <div className="blocks-list__block__type">Exchange</div>
+              <div className="blocks-list__block__type">{t('resourcesPage.exchangesType1')}</div>
             </a>
             <a href="https://www.therocktrading.com/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">The Rock Trading</h4>
               <img className="blocks-list__block__img" src="/img/exchanges/therocktrading_green.png" alt="" />
-              <div className="blocks-list__block__type">Exchange</div>
+              <div className="blocks-list__block__type">{t('resourcesPage.exchangesType1')}</div>
             </a>
             <a href="https://www.litebit.eu/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">LiteBit</h4>
               <img className="blocks-list__block__img" src="/img/exchanges/litebit_green.png" alt="" />
-              <div className="blocks-list__block__type">Exchange</div>
+              <div className="blocks-list__block__type">{t('resourcesPage.exchangesType1')}</div>
             </a>
             <a href="https://bx.in.th/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">BX Thailand</h4>
               <img className="blocks-list__block__img" src="/img/exchanges/bxthailand_green.png" alt="" />
-              <div className="blocks-list__block__type">Exchange</div>
+              <div className="blocks-list__block__type">{t('resourcesPage.exchangesType1')}</div>
             </a>
             <a href="https://bittylicious.com/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">Bittylicious</h4>
               <img className="blocks-list__block__img" src="/img/exchanges/bittylicious_green.png" alt="" />
-              <div className="blocks-list__block__type">Service</div>
+              <div className="blocks-list__block__type">{t('resourcesPage.exchangesType2')}</div>
             </a>
             <a href="https://coinswitch.co/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">Coin Switch</h4>
               <img className="blocks-list__block__img" src="/img/exchanges/coinswitch_green.png" alt="" />
-              <div className="blocks-list__block__type">Service</div>
+              <div className="blocks-list__block__type">{t('resourcesPage.exchangesType2')}</div>
             </a>
             <a href="https://freiexchange.com/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">FreiExchange</h4>
               <img className="blocks-list__block__img" src="/img/exchanges/freiexchange_green.png" alt="" />
-              <div className="blocks-list__block__type">Exchange</div>
+              <div className="blocks-list__block__type">{t('resourcesPage.exchangesType1')}</div>
             </a>
             <a href="https://novaexchange.com/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">Nova Exchange</h4>
               <img className="blocks-list__block__img" src="/img/exchanges/novaexchange_green.png" alt="" />
-              <div className="blocks-list__block__type">Exchange</div>
+              <div className="blocks-list__block__type">{t('resourcesPage.exchangesType1')}</div>
             </a>
             <a href="https://flyp.me/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">Flyp.me</h4>
               <img className="blocks-list__block__img" src="/img/exchanges/flypme_green.png" alt="" />
-              <div className="blocks-list__block__type">Service</div>
+              <div className="blocks-list__block__type">{t('resourcesPage.exchangesType2')}</div>
             </a>
             <a href="https://i2trading.com/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">i2 Trading</h4>
               <img className="blocks-list__block__img" src="/img/exchanges/i2trading_green.png" alt="" />
-              <div className="blocks-list__block__type">Exchange</div>
+              <div className="blocks-list__block__type">{t('resourcesPage.exchangesType1')}</div>
             </a>
             <a href="https://shapeshift.io/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">Shapeshift</h4>
               <img className="blocks-list__block__img" src="/img/exchanges/shapeshift_green.png" alt="" />
-              <div className="blocks-list__block__type">Service</div>
+              <div className="blocks-list__block__type">{t('resourcesPage.exchangesType2')}</div>
             </a>
             <a href="https://www.bcbitcoin.co.uk/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">BCBitcoin</h4>
               <img className="blocks-list__block__img" src="/img/exchanges/bcbitcoin_green.png" alt="" />
-              <div className="blocks-list__block__type">Service</div>
+              <div className="blocks-list__block__type">{t('resourcesPage.exchangesType2')}</div>
             </a>
             <a href="https://coinpaprika.com/coin/ppc-peercoin/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">More Exchanges</h4>
               <img className="blocks-list__block__img" src="/img/exchanges/coinpaprika_green.png" alt="" />
-              <div className="blocks-list__block__type">Market Information</div>
+              <div className="blocks-list__block__type">{t('resourcesPage.exchangesType3')}</div>
             </a>
             <a href="https://coinmarketcap.com/currencies/peercoin/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">More Exchanges</h4>
               <img className="blocks-list__block__img" src="/img/exchanges/coinmarketcap_green.png" alt="" />
-              <div className="blocks-list__block__type">Market Information</div>
+              <div className="blocks-list__block__type">{t('resourcesPage.exchangesType3')}</div>
             </a>
           </div>
         </div>
@@ -162,8 +163,8 @@ function Resources() {
       
       <div className="main" id="blockexplorers">
         <div className="container">
-          <h2 className="title title--green">Block Explorers</h2>
-          <h3 className="title title--green">Mainnet</h3>
+          <h2 className="title title--green">{t('resourcesPage.explorersTitle')}</h2>
+          <h3 className="title title--green">{t('resourcesPage.explorersMainnet')}</h3>
           <div className="blocks-list">
             <a href="https://bitinfocharts.com/peercoin/explorer/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">BitInfoCharts</h4>
@@ -182,7 +183,7 @@ function Resources() {
               <img className="blocks-list__block__img" src="/img/explorers/peercoin_green.png" alt="" />
             </a>
           </div>
-          <h3 className="title title--green">Testnet</h3>
+          <h3 className="title title--green">{t('resourcesPage.explorersTestnet')}</h3>
           <div className="blocks-list">
             <a href="https://testnet-explorer.peercoin.net/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">PeerExplorer</h4>
@@ -198,22 +199,22 @@ function Resources() {
 
       <div className="main" id="tools">
         <div className="container">
-          <h2 className="title title--green">Tools</h2>
+          <h2 className="title title--green">{t('resourcesPage.toolsTitle')}</h2>
           <div className="blocks-list">
             <a href="https://www.peercoinexplorer.net/inflation/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Inflation</h4>
+              <h4 className="blocks-list__block__title">{t('resourcesPage.toolsInflation')}</h4>
               <img className="blocks-list__block__img" src="/img/icons/mint_green.png" alt="" />
             </a>
             <a href="https://www.peercoinexplorer.net/mempool/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Mempool</h4>
+              <h4 className="blocks-list__block__title">{t('resourcesPage.toolsMempool')}</h4>
               <img className="blocks-list__block__img" src="/img/icons/mint_green.png" alt="" />
             </a>
             <a href="https://www.coinexplorer.net/PPC" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Energy Statistics</h4>
+              <h4 className="blocks-list__block__title">{t('resourcesPage.toolsEnergyStatistics')}</h4>
               <img className="blocks-list__block__img" src="/img/icons/mint_green.png" alt="" />
             </a>
             <a href="https://faucet.peercoinexplorer.net/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Testnet Faucet</h4>
+              <h4 className="blocks-list__block__title">{t('resourcesPage.toolsTestnetFaucet')}</h4>
               <img className="blocks-list__block__img" src="/img/icons/mint_green.png" alt="" />
             </a>
           </div>
@@ -222,7 +223,7 @@ function Resources() {
 
       <div className="main" id="communities">
         <div className="container">
-          <h2 className="title title--green">Community</h2>
+          <h2 className="title title--green">{t('resourcesPage.communityTitle')}</h2>
           <div className="blocks-list">
             <a href="https://talk.peercoin.net/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">Forum</h4>
@@ -270,38 +271,38 @@ function Resources() {
 
       <div className="main" id="whitepaper">
         <div className="container">
-          <h2 className="title title--green">Whitepaper</h2>
+          <h2 className="title title--green">{t('resourcesPage.whitepaperTitle')}</h2>
           <div className="blocks-list">
             <a href="/whitepapers/peercoin-paper.pdf" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">English</h4>
+              <h4 className="blocks-list__block__title">{t('resourcesPage.whitepaperEnglish')}</h4>
               <img className="blocks-list__block__img" src="/img/icons/whitepaper_green.png" alt="" />
             </a>
             <a href="/whitepapers/peercoin-paper-cn.pdf" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Chinese/中文</h4>
+              <h4 className="blocks-list__block__title">{t('resourcesPage.whitepaperChinese')}/中文</h4>
               <img className="blocks-list__block__img" src="/img/icons/whitepaper_green.png" alt="" />
             </a>
             <a href="/whitepapers/peercoin-paper-es.pdf" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Spanish/Español</h4>
+              <h4 className="blocks-list__block__title">{t('resourcesPage.whitepaperSpanish')}/Español</h4>
               <img className="blocks-list__block__img" src="/img/icons/whitepaper_green.png" alt="" />
             </a>
             <a href="/whitepapers/peercoin-paper-nl.pdf" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Dutch/Nederlands</h4>
+              <h4 className="blocks-list__block__title">{t('resourcesPage.whitepaperDutch')}/Nederlands</h4>
               <img className="blocks-list__block__img" src="/img/icons/whitepaper_green.png" alt="" />
             </a>
             <a href="/whitepapers/peercoin-paper-fr.pdf" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">French/Français</h4>
+              <h4 className="blocks-list__block__title">{t('resourcesPage.whitepaperFrench')}/Français</h4>
               <img className="blocks-list__block__img" src="/img/icons/whitepaper_green.png" alt="" />
             </a>
             <a href="/whitepapers/peercoin-paper-de.pdf" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">German/Deutsch</h4>
+              <h4 className="blocks-list__block__title">{t('resourcesPage.whitepaperGerman')}/Deutsch</h4>
               <img className="blocks-list__block__img" src="/img/icons/whitepaper_green.png" alt="" />
             </a>
             <a href="/whitepapers/peercoin-paper-jp.pdf" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Japanese/日本語</h4>
+              <h4 className="blocks-list__block__title">{t('resourcesPage.whitepaperJapanese')}/日本語</h4>
               <img className="blocks-list__block__img" src="/img/icons/whitepaper_green.png" alt="" />
             </a>
             <a href="/whitepapers/peercoin-paper-kr.pdf" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Korean/한국말</h4>
+              <h4 className="blocks-list__block__title">{t('resourcesPage.whitepaperKorean')}/한국말</h4>
               <img className="blocks-list__block__img" src="/img/icons/whitepaper_green.png" alt="" />
             </a>
           </div>
@@ -310,9 +311,9 @@ function Resources() {
 
       <div className="main" id="graphics">
         <div className="container">
-          <h2 className="title title--green">Graphics</h2>
-          <p className="subtitle">Looking for more graphics? An up-to-date collection of logos and wallpapers can be found on the <a href="https://github.com/peercoin">Peercoin GitHub</a>.</p>
-          <h3 className="title">Vertical Logo</h3>
+          <h2 className="title title--green">{t('resourcesPage.graphicsTitle')}</h2>
+          <p className="subtitle">{renderHTML(t('resourcesPage.graphicsText'))}</p>
+          <h3 className="title">{t('resourcesPage.graphicsVertical')}</h3>
           <div className="blocks-list blocks-list--grey">
             <div className="blocks-list__block">
               <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-vertical-greenicon-blacktext-transparent.png" alt="" />
@@ -363,7 +364,7 @@ function Resources() {
               <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-WhiteText/peercoin-vertical-greenleaf-whitetext-transparent.eps"><span>EPS</span></a>
             </div>
           </div>
-          <h3 className="title">Horizontal Logo</h3>
+          <h3 className="title">{t('resourcesPage.graphicsHorizontal')}</h3>
           <div className="blocks-list blocks-list--grey">
             <div className="blocks-list__block">
               <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-horizontal-blackleaf-blacktext-transparent.png" alt="" />
@@ -414,7 +415,7 @@ function Resources() {
               <a href="/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-GrayText/peercoin-horizontal-greenicon-graytext-transparent.eps"><span>EPS</span></a>
             </div>
           </div>
-          <h3 className="title">Icon Only</h3>
+          <h3 className="title">{t('resourcesPage.graphicsIconOnly')}</h3>
           <div className="blocks-list blocks-list--grey">
             <div className="blocks-list__block">
               <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-icon-green-transparent.png" alt="" />
@@ -441,7 +442,7 @@ function Resources() {
               <a href="/img/logos/icononly/outsidecircle/Transparent/WhiteLeaf/peercoin-leaf-white-transparent.eps"><span>EPS</span></a>
             </div>
           </div>
-          <h3 className="title">Text Only</h3>
+          <h3 className="title">{t('resourcesPage.graphicsTextOnly')}</h3>
           <div className="blocks-list blocks-list--grey">
             <div className="blocks-list__block">
               <img className="blocks-list__block__img" src="/img/logos/webfixed/peercoin-text-black-transparent.png" alt="" />
@@ -468,7 +469,7 @@ function Resources() {
               <a href="/img/logos/textonly/Transparent/WhiteText/peercoin-text-white-transparent.eps"><span>EPS</span></a>
             </div>
           </div>
-          <h3 className="title">Favicons</h3>
+          <h3 className="title">{t('resourcesPage.graphicsFavicons')}</h3>
           <div className="blocks-list blocks-list--grey">
             <div className="blocks-list__block">
               <img className="blocks-list__block__img" src="/img/logos/webfixed/favicon256.png" alt="" />
@@ -492,29 +493,29 @@ function Resources() {
             </div>
           </div>
           <p className="subtitle">
-            ZIP folder for all graphics is available <a href="https://peercoin.net/assets/Peercoin%202018%20Graphics.zip">here</a>.
+            {renderHTML(t('resourcesPage.graphicsZipFolder'))}.
           </p>
-          <h2 className="title title--centere title--green">Brand Identity</h2>
+          <h2 className="title title--centere title--green">{t('resourcesPage.brandIdentityTitle')}</h2>
           <p className="subtitle subtitle--left">
-            <b>Peercoin Color Codes & Fonts:</b>
-          </p>
-          <p className="subtitle subtitle--left">
-          Please use these color codes on your Peercoin related websites whenever possible. This will help us keep the Peercoin ecosystem and its branding and visuals consistent.
+            <b>{t('resourcesPage.brandIdentityColrosFonts')}</b>
           </p>
           <p className="subtitle subtitle--left">
-            <code>Green:</code><br />
+          {t('resourcesPage.brandIdentityDisclaimer')}
+          </p>
+          <p className="subtitle subtitle--left">
+            <code>{t('resourcesPage.brandIdentityGreen')}:</code><br />
             <code>#3cb054</code><br />
             <code>RBG: 24, 69, 33</code><br />
             <code>CMYK: 66, 0, 52, 31</code>
           </p>
           <p className="subtitle subtitle--left">
-            The Peercoin text logo uses the following font:<br />
-            Font: FF Mark<br />
-            Type: Mark-Medium<br /><br />
-            Website: <a href="http://www.ffmark.com/">http://www.ffmark.com/</a>
+            {t('resourcesPage.brandIdentityFont')}:<br />
+            {t('resourcesPage.brandIdentityFontFont')}: FF Mark<br />
+            {t('resourcesPage.brandIdentityFontType')}: Mark-Medium<br /><br />
+            {t('resourcesPage.brandIdentityFontWebsite')}: <a href="http://www.ffmark.com/">http://www.ffmark.com/</a>
           </p>
           <p className="subtitle subtitle--left">
-            The Peercoin website and wallets use the Roboto font for its content. 
+            {t('resourcesPage.brandIdentityFontRoboto')}
           </p>
         </div>
       </div>
