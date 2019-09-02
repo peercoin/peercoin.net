@@ -216,6 +216,19 @@
         }
       }
 
+      &--small {
+        @include viewports(above small) {
+          width: 60px;
+          margin-left: -30px;
+          padding-top: 5px;
+        }
+
+        li {
+          text-align: center;
+          padding: 5px;
+        }
+      }
+
       li {
         margin-right: 0;
         list-style: none;
@@ -269,4 +282,9 @@
       }
     }
   }
+}
+
+.menu-flag {
+  border: 1px solid #fff;
+  border-radius: 3px;
 }

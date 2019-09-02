@@ -1,11 +1,15 @@
 import React, { useEffect, useState, Suspense } from 'react';
 import { Link } from 'react-router-dom';
 import classNames from 'classnames';
+import i18n from 'i18next';
 import { useTranslation } from 'react-i18next';
 import Loader from '../Loader/Loader';
 import './Menu.scss';
+import { getCurrentFlag, getCurrentLanguage } from '../../helpers/Language';
+
 
 function Menu() {
+  console.log(getCurrentLanguage());
   const { t } = useTranslation();
   const triggerHeight = 100;
   const [isFixed, setIsFixed] = useState(window.scrollY > triggerHeight);
@@ -107,6 +111,14 @@ function Menu() {
                 <li><a href="https://discord.gg/XPxfwtG" className="submenu"><img src="/img/icons/discord_green.png" alt="" />{t('menuComponent.links.community.discord')}</a></li>
                 <li><a href="https://www.youtube.com/user/PeerCoin" className="submenu"><img src="/img/icons/youtube_green.png" alt="" />{t('menuComponent.links.community.youtube')}</a></li>
                 <li><a href="https://bitcointalk.org/index.php?topic=101820.0" className="submenu"><img src="/img/icons/bitcoinchat_green.png" alt="" />{t('menuComponent.links.community.bitcointalk')}</a></li>
+              </ul>
+            </li>
+            <li>
+              <span><img className="menu-flag" src={`/img/flags/${getCurrentFlag()}.svg`} alt="en-US"/></span>
+              <img src="/img/icon-menu-arrow-down.svg" alt=""/>
+              <ul className="menu__main__submenu menu__main__submenu--small">
+                <li onClick={() => i18n.changeLanguage('en-US')}><img className="menu-flag" src="img/flags/US.svg" alt="en-US"/></li>
+                {/* <li onClick={() => i18n.changeLanguage('pt-BR')}><img className="menu-flag" src="img/flags/BR.svg" alt="pt-BR"/></li> */}
               </ul>
             </li>
           </ul>
