@@ -9,8 +9,8 @@
         "peercoinUniversity": "Peercoin University",
         "whatIsBlockchain": "What is a Blockchain?",
         "inherentCentralization": "Inherent Centralization of Proof-of-Work Blockchains",
-        "peercoinProofOfStake": "Peercoin &amp; Proof-of-Stake Consensus",
-        "efficientSustainableSecurity": "Efficient &amp; Sustainable Security",
+        "peercoinProofOfStake": "Peercoin & Proof-of-Stake Consensus",
+        "efficientSustainableSecurity": "Efficient & Sustainable Security",
         "economicsOfPeercoin": "Economics of Peercoin",
         "scalabilityOfPeercoin": "Scalability of Peercoin",
         "deflationAndCriptocurrencies": "Deflation and Cryptocurrencies",
@@ -90,7 +90,7 @@
         "linkGithub": "GitHub",
         "linkProjects": "Projects",
         "linkBlog": "Blog",
-        "linkFoundation": "Founda tion",
+        "linkFoundation": "Foundation",
         "linkPrivacyPolicy": "Privacy Policy"
       },
       "community": {
@@ -338,7 +338,7 @@
       "purchaseText1": "Peercoin is available through a variety of exchanges and services. You can <a href=\"resources.html#exchanges\">check here for a list</a>.",
       "purchaseText2": "A guide to buying Peercoin is also available <a href=\"https://docs.peercoin.net/#/purchase\">here</a>.",
       "walletTitle": "Wallet",
-      "walletText1": "The <a href=\"wallet.html\">Peercoin wallet</a> is available on Windows, Mac OSX, and Linux platforms.",
+      "walletText1": "The <a href=\"/wallet\">Peercoin wallet</a> is available on Windows, Mac OSX, and Linux platforms.",
       "walletText2": "Command-line experiences are also available.",
       "walletText3": "To get started, check out the Wallet download page and the Installation guide's.",
       "mintTitle": "Mint",

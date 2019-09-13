@@ -96,6 +96,7 @@
   }
 
   &__logo {
+    display: block;
     width: 160px;
 
     @include viewports(up-to medium) {

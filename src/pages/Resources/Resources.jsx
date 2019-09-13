@@ -10,7 +10,7 @@ function Resources() {
   const { t } = useTranslation();
 
   return (
-    <>
+    <div className="ResourcesPage">
       <Menu />
       <div className="hero hero--thin">
         <h1 className="hero__title">{t('resourcesPage.title')}</h1>
@@ -520,7 +520,7 @@ function Resources() {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
 

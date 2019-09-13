@@ -22,7 +22,7 @@ function Index() {
       </p>
       <div className="hero__actions">
         <a href="/#getstarted" className="hero__actions__action">{t('indexPage.actions.action1')}</a>
-        <a href="https://peercoin.github.io/PeercoinUniversity/#/9-peercoin-proof-of-stake-consensus" className="hero__actions__action hero__actions__action--white">{t('indexPage.actions.action2')}</a>
+        <a href="https://university.peercoin.net/#/9-peercoin-proof-of-stake-consensus" className="hero__actions__action hero__actions__action--white">{t('indexPage.actions.action2')}</a>
       </div>
     </div>
     <div className="main">

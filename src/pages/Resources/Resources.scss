@@ -1,5 +1,17 @@
 @import "../../style/_variables";
 
+.ResourcesPage {
+  h3.title {
+    padding: 0;
+    margin-top: 0;
+    font-weight: normal;
+
+    & + .blocks-list {
+      margin-top: 15px;
+    }
+  }
+}
+
 .text-sections {
   .title {
     font-weight: 500;

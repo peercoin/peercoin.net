@@ -53,20 +53,20 @@ function Menu() {
           <img src="/img/back.png" alt=""/>
         </div>
         <div className="container">
-          {isFixed && <img src="/img/logo-menu-white.svg" alt="Peercoin" className="menu__logo" />}
+          {isFixed && <Link to="/"><img src="/img/logo-menu-white.svg" alt="Peercoin" className="menu__logo" /></Link>}
           <ul className="menu__main">
             <li><Link to="/">{t('menuComponent.links.home.title')}</Link></li>
             <li>
               <span>{t('menuComponent.links.learn.title')}</span>
               <img src="/img/icon-menu-arrow-down.svg" alt=""/>
               <ul className="menu__main__submenu">      
-                <li><a href="https://peercoin.github.io/PeercoinUniversity/" className="submenu">{t('menuComponent.links.learn.peercoinUniversity')}</a></li>
-                <li><a href="https://peercoin.github.io/PeercoinUniversity/#/2-what-is-a-blockchain-" className="submenu">{t('menuComponent.links.learn.whatIsBlockchain')}</a></li>
-                <li><a href="https://peercoin.github.io/PeercoinUniversity/#/6-centralization-of-bitcoin" className="submenu">{t('menuComponent.links.learn.inherentCentralization')}</a></li>
-                <li><a href="https://peercoin.github.io/PeercoinUniversity/#/9-peercoin-proof-of-stake-consensus" className="submenu">{t('menuComponent.links.learn.peercoinProofOfStake')}</a></li>
-                <li><a href="https://peercoin.github.io/PeercoinUniversity/#/10-first-efficient-sustainable-blockchain" className="submenu">{t('menuComponent.links.learn.efficientSustainableSecurity')}</a></li>
-                <li><a href="https://peercoin.github.io/PeercoinUniversity/#/11-economics-of-peercoin" className="submenu">{t('menuComponent.links.learn.economicsOfPeercoin')}</a></li>
-                <li><a href="https://peercoin.github.io/PeercoinUniversity/#/12-scalability-of-peercoin-" className="submenu">{t('menuComponent.links.learn.scalabilityOfPeercoin')}</a></li>
+                <li><a href="https://university.peercoin.net/" className="submenu">{t('menuComponent.links.learn.peercoinUniversity')}</a></li>
+                <li><a href="https://university.peercoin.net/#/2-what-is-a-blockchain-" className="submenu">{t('menuComponent.links.learn.whatIsBlockchain')}</a></li>
+                <li><a href="https://university.peercoin.net/#/6-inherent-centralization-of-proof-of-work-blockchains" className="submenu">{t('menuComponent.links.learn.inherentCentralization')}</a></li>
+                <li><a href="https://university.peercoin.net/#/9-peercoin-proof-of-stake-consensus" className="submenu">{t('menuComponent.links.learn.peercoinProofOfStake')}</a></li>
+                <li><a href="https://university.peercoin.net/#/10-first-efficient-sustainable-blockchain" className="submenu">{t('menuComponent.links.learn.efficientSustainableSecurity')}</a></li>
+                <li><a href="https://university.peercoin.net/#/11-economics-of-peercoin" className="submenu">{t('menuComponent.links.learn.economicsOfPeercoin')}</a></li>
+                <li><a href="https://university.peercoin.net/#/12-scalability-of-peercoin" className="submenu">{t('menuComponent.links.learn.scalabilityOfPeercoin')}</a></li>
                 <li><a href="https://medium.com/peercoin/deflation-and-cryptocurrencies-the-long-term-ramifications-of-fixed-supply-currencies-c192f44dddc1" className="submenu">{t('menuComponent.links.learn.deflationAndCriptocurrencies')}</a></li>
                 <li><a href="https://medium.com/peercoin/peercoins-hybrid-chain-solution-to-proof-of-work-global-scaling-and-environmental-impact-c36757e89d6e" className="submenu">{t('menuComponent.links.learn.peercoinHybridChainSolution')}</a></li>
                 <li><a href="https://medium.com/peercoin/the-rich-get-richer-concept-in-proof-of-stake-systems-82c5ceeff326" className="submenu">{t('menuComponent.links.learn.richRicherFallacy')}</a></li>
@@ -93,7 +93,7 @@ function Menu() {
               <ul className="menu__main__submenu">
                 <li><a href="https://github.com/peercoin/" className="submenu"><img src="/img/icons/github_green.png" alt="" />{t('menuComponent.links.project.github')}</a></li>
                 <li><Link to="/projects" className="submenu"><img src="/img/icons/projects_green.png" alt="" />{t('menuComponent.links.project.projects')}</Link></li>
-                <li><Link to="https://medium.com/peercoin" className="submenu"><img src="/img/icons/blog_green.png" alt="" />{t('menuComponent.links.project.blog')}</Link></li>
+                <li><a href="https://medium.com/peercoin" className="submenu"><img src="/img/icons/blog_green.png" alt="" />{t('menuComponent.links.project.blog')}</a></li>
                 <li><Link to="/foundation" className="submenu"><img src="/img/icons/foundation_green.png" alt="" />{t('menuComponent.links.project.peercoinFoundation')}</Link></li>
                 <li><Link to="/contact" className="submenu"><img src="/img/icons/contact_green.png" alt="" />{t('menuComponent.links.project.contactUs')}</Link></li>
               </ul>
@@ -118,7 +118,7 @@ function Menu() {
               <img src="/img/icon-menu-arrow-down.svg" alt=""/>
               <ul className="menu__main__submenu menu__main__submenu--small">
                 <li onClick={() => i18n.changeLanguage('en-US')}><img className="menu-flag" src="img/flags/US.svg" alt="en-US"/></li>
-                {/* <li onClick={() => i18n.changeLanguage('pt-BR')}><img className="menu-flag" src="img/flags/BR.svg" alt="pt-BR"/></li> */}
+                {/* <li onClick={() => i18n.changeLanguage('pt- BR')}><img className="menu-flag" src="img/flags/BR.svg" alt="pt-BR"/></li> */}
               </ul>
             </li>
           </ul>

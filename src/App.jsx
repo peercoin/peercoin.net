@@ -8,6 +8,7 @@ import Foundation from './pages/Foundation/Foundation';
 import Contact from './pages/Contact/Contact';
 import Wallet from './pages/Wallet/Wallet';
 import ScrollTop from './components/ScrollTop/ScrollTop';
+import Privacy from './pages/Privacy/Privacy';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/" component={Index} />
           <Route path="/resources" component={Resources} />
           <Route path="/projects" component={Projects} />
+          <Route path="/privacy" component={Privacy} />
           <Route path="/foundation" component={Foundation} />
           <Route path="/wallet" component={Wallet} />
           <Route path="/contact" component={Contact} />

@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
+import renderHTML from 'react-render-html';
 import './Projects.scss';
 import Menu from '../../components/Menu/Menu';
 import Footer from '../../components/Footer/Footer';
@@ -26,7 +27,7 @@ function Projects() {
               <p>{t('projectsPage.peerAssetsP1')}</p>
               <p>{t('projectsPage.peerAssetsP2')}</p>
               <p>{t('projectsPage.peerAssetsP3')}</p>
-              <p>{t('projectsPage.peerAssetsP4')}</p>
+              <p>{renderHTML(t('projectsPage.peerAssetsP4'))}</p>
               <a href="https://github.com/PeerAssets" className="btn btn--green">{t('projectsPage.peerAssetsBtnGithub')}</a>
               <a href="https://peerassets.github.io/WhitePaper/" className="btn btn--green">{t('projectsPage.peerAssetsBtnWhitepaper')}</a>
             </div>
@@ -35,7 +36,8 @@ function Projects() {
               <p>{t('projectsPage.perperaP1')}</p>
               <p>{t('projectsPage.perperaP2')}</p>
               <p>{t('projectsPage.perperaP3')}</p>
-              <p>{t('projectsPage.perperaP4')}</p>
+              <p><i>{t('projectsPage.perperaP4')}</i></p>
+              <p>{t('projectsPage.perperaP5')}</p>
               <a href="https://github.com/PeerAssets/perpera" className="btn btn--green">{t('projectsPage.perperaBtnGithub')}</a>
             </div>
           </div>
