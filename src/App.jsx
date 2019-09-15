@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './style/main.scss';
 import Index from './pages/Index/Index.jsx';
@@ -9,8 +9,13 @@ import Contact from './pages/Contact/Contact';
 import Wallet from './pages/Wallet/Wallet';
 import ScrollTop from './components/ScrollTop/ScrollTop';
 import Privacy from './pages/Privacy/Privacy';
+import { handleHash } from './helpers/Hash';
 
 function App() {
+  useEffect(() => {
+    handleHash();
+  }, []);
+
   return (
     <Router>
       <>

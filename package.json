@@ -17,7 +17,8 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "react-transition-group": "^4.2.2",
-    "react-twitter-embed": "^2.0.8"
+    "react-twitter-embed": "^2.0.8",
+    "smoothscroll-polyfill": "^0.4.4"
   },
   "scripts": {
     "start": "react-scripts start",

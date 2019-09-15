@@ -93,7 +93,8 @@ function Index() {
           <img className="home-description__img" src="/img/animations/reliable-store-of-value.svg" alt="" />
         </section>
       </div>
-      <div className="main main--green" id="getstarted">
+      <div className="main main--green">
+      <div className="anchor" data-id="getstarted"></div>
         <div className="container">
           <div className="timeline">
             <h2 className="timeline__title">{t('indexPage.getStartedTitle')}</h2>

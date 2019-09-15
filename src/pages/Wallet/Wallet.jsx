@@ -90,7 +90,8 @@ function Wallet() {
           </div>
         </div>
       </div>
-      <div className="main main--dark" id="install">
+      <div className="main main--dark">
+        <div className="anchor" data-id="install"></div>
         <div className="container">
           <h1 className="title title--white title--left">{t('walletPage.installationTitle')}</h1>
 
@@ -160,7 +161,8 @@ function Wallet() {
           </div>
         </div>
       </div>
-      <div className="main" id="paperwallet">
+      <div className="main">
+        <div className="anchor" data-id="paperwallet"></div>
         <div className="container">
           <h2 className="title title--green">{t('walletPage.paperWalletTitle')}</h2>
           <div className="blocks-list">
@@ -169,7 +171,10 @@ function Wallet() {
               <img className="blocks-list__block__img" src="/img/explorers/peercoin_green.png" alt="" />
             </a>
           </div>
-          <h2 className="title title--green" id="unofficialclients">{t('walletPage.paperWalletSubtitle2')}</h2>
+          <h2 className="title title--green">
+            <div className="anchor" data-id="unofficialclients"></div>
+            {t('walletPage.paperWalletSubtitle2')}
+          </h2>
           <div className="blocks-list">
             <a href="https://www.ledger.com/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">Ledger</h4>

@@ -41,7 +41,8 @@ function Resources() {
             </div>
           </div>
           <div className="row">
-            <div className="col" id="mining">
+            <div className="col">
+              <div className="anchor" data-id="mining"></div>
               <h2 className="title title--green title--left">{t('resourcesPage.miningTitle')}</h2>
               <p>{t('resourcesPage.miningText1')}</p>
               <p>{t('resourcesPage.miningText2')}</p>
@@ -53,7 +54,8 @@ function Resources() {
               <a href="https://docs.peercoin.net/#/mining" className="btn btn--green">{t('resourcesPage.miningBtn1')}</a>
               <a href="https://www.coinwarz.com/calculators/peercoin-mining-calculator" className="btn btn--green">{t('resourcesPage.miningBtn2')}</a>
             </div>
-            <div className="col" id="university">
+            <div className="col">
+              <div className="anchor" data-id="university"></div>
               <h2 className="title title--green title--left">{t('resourcesPage.universityTitle')}</h2>
               <p>{t('resourcesPage.universityText1')}</p>
               <p>{t('resourcesPage.universityText2')}</p>
@@ -67,7 +69,8 @@ function Resources() {
           </div>
         </div>
       </div>
-      <div className="main" id="exchanges">
+      <div className="main">
+        <div className="anchor" data-id="exchanges"></div>
         <div className="container">
           <h2 className="title title--green">{t('resourcesPage.exchangesTitle')}</h2>
           <p className="description">{t('resourcesPage.exchangesText')}</p>
@@ -161,7 +164,8 @@ function Resources() {
         </div>
       </div>
       
-      <div className="main" id="blockexplorers">
+      <div className="main">
+        <div className="anchor" data-id="blockexplorers"></div>
         <div className="container">
           <h2 className="title title--green">{t('resourcesPage.explorersTitle')}</h2>
           <h3 className="title title--green">{t('resourcesPage.explorersMainnet')}</h3>
@@ -197,7 +201,8 @@ function Resources() {
         </div>
       </div>
 
-      <div className="main" id="tools">
+      <div className="main">
+        <div className="anchor" data-id="tools"></div>
         <div className="container">
           <h2 className="title title--green">{t('resourcesPage.toolsTitle')}</h2>
           <div className="blocks-list">
@@ -221,7 +226,8 @@ function Resources() {
         </div>
       </div>
 
-      <div className="main" id="communities">
+      <div className="main">
+        <div className="anchor" data-id="communities"></div>
         <div className="container">
           <h2 className="title title--green">{t('resourcesPage.communityTitle')}</h2>
           <div className="blocks-list">
@@ -269,7 +275,8 @@ function Resources() {
         </div>
       </div>
 
-      <div className="main" id="whitepaper">
+      <div className="main">
+        <div className="anchor" data-id="whitepaper"></div>
         <div className="container">
           <h2 className="title title--green">{t('resourcesPage.whitepaperTitle')}</h2>
           <div className="blocks-list">
@@ -309,7 +316,8 @@ function Resources() {
         </div>
       </div>
 
-      <div className="main" id="graphics">
+      <div className="main">
+        <div className="anchor" data-id="graphics"></div>
         <div className="container">
           <h2 className="title title--green">{t('resourcesPage.graphicsTitle')}</h2>
           <p className="subtitle">{renderHTML(t('resourcesPage.graphicsText'))}</p>
