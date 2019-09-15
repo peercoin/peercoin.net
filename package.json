@@ -13,6 +13,7 @@
     "react-enroute": "^3.0.2",
     "react-i18next": "^10.12.2",
     "react-render-html": "^0.6.0",
+    "react-responsive-accordion": "^1.0.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "react-transition-group": "^4.2.2",

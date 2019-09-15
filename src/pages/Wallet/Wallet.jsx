@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Collapsible from 'react-collapsible';
 import renderHTML from 'react-render-html';
@@ -9,6 +9,29 @@ import Loader from '../../components/Loader/Loader';
 
 function Wallet() {
   const { t } = useTranslation();
+  const [ cs1, setCs1 ] = useState(true);
+  const [ cs2, setCs2 ] = useState(false);
+  const [ cs3, setCs3 ] = useState(false);
+
+  async function handleOpen(num) {
+    if (num === 0) {
+      setCs1(true);
+      setCs2(false);
+      setCs3(false);
+    }
+
+    if (num === 1) {
+      setCs1(false);
+      setCs2(true);
+      setCs3(false);
+    }
+
+    if (num === 2) {
+      setCs1(false);
+      setCs2(false);
+      setCs3(true);
+    }
+  }
 
   return (
     <>
@@ -69,11 +92,11 @@ function Wallet() {
       </div>
       <div className="main main--dark" id="install">
         <div className="container">
-          <h2 className="title title--white title--left">{t('walletPage.installationTitle')}</h2>
+          <h1 className="title title--white title--left">{t('walletPage.installationTitle')}</h1>
 
           <div className="timeline timeline--dark">
             <div className="timeline__body">
-              <Collapsible open={true} trigger={<div className="timeline__body__section">{t('walletPage.walletWindows')}</div>}>
+              <Collapsible onOpening={() => handleOpen(0)} open={cs1} trigger={<div className="timeline__body__section">{t('walletPage.walletWindows')}</div>}>
                 <div className="timeline__body__content">
                   <div className="timeline__body__content__text">
                     <h2>{t('walletPage.walletWindows')}</h2>
@@ -93,7 +116,7 @@ function Wallet() {
                   </div>
                 </div>
               </Collapsible>
-              <Collapsible trigger={<div className="timeline__body__section">{t('walletPage.sectionMac.title1')}</div>}>
+              <Collapsible onOpening={() => handleOpen(1)} trigger={<div className="timeline__body__section">{t('walletPage.sectionMac.title1')}</div>} open={cs2}>
                 <div className="timeline__body__content">
                   <div className="timeline__body__content__text">
                     <h2>{t('walletPage.sectionMac.title1')}</h2>
@@ -114,7 +137,7 @@ function Wallet() {
                   </div>
                 </div>
               </Collapsible>
-              <Collapsible trigger={<div className="timeline__body__section">{t('walletPage.sectionLinux.title1')}</div>}>
+              <Collapsible onOpening={() => handleOpen(2)} trigger={<div className="timeline__body__section">{t('walletPage.sectionLinux.title1')}</div>} open={cs3}>
                 <div className="timeline__body__content">
                   <div className="timeline__body__content__text">
                     <h2>{t('walletPage.sectionLinux.title1')}</h2>

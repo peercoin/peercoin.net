@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Collapsible from 'react-collapsible';
 import renderHTML from 'react-render-html';
@@ -10,6 +10,24 @@ import Loader from '../../components/Loader/Loader';
 
 function Index() {
   const { t } = useTranslation();
+  const [ cs1, setCs1 ] = useState(true);
+  const [ cs2, setCs2 ] = useState(false);
+  const [ cs3, setCs3 ] = useState(false);
+  const [ cs4, setCs4 ] = useState(false);
+  const [ cs5, setCs5 ] = useState(false);
+  const [ cs6, setCs6 ] = useState(false);
+
+  const sets = [setCs1, setCs2, setCs3, setCs4, setCs5, setCs6];
+
+  async function handleOpen(num) {
+    sets.forEach((set, i) => {
+      if(i === num) {
+        set(true);
+      } else {
+        set(false);
+      }
+    });
+  }
 
   return (
     <>
@@ -80,7 +98,7 @@ function Index() {
           <div className="timeline">
             <h2 className="timeline__title">{t('indexPage.getStartedTitle')}</h2>
             <div className="timeline__body">
-              <Collapsible open={true} trigger={<div className="timeline__body__section"><img src="/img/icons/graduationcap_white.png" alt=""/> {t('indexPage.collapsables.learnTitle')}</div>}>
+              <Collapsible onOpening={() => handleOpen(0) } open={cs1} trigger={<div className="timeline__body__section"><img src="/img/icons/graduationcap_white.png" alt=""/> {t('indexPage.collapsables.learnTitle')}</div>}>
                 <div className="timeline__body__content">
                   <div className="timeline__body__content__text">
                     <p>{renderHTML(t('indexPage.collapsables.learnText1'))}</p>
@@ -92,7 +110,7 @@ function Index() {
                   </div>
                 </div>
               </Collapsible>
-              <Collapsible trigger={<div className="timeline__body__section"><img src="/img/icons/purchasing_white.png" alt=""/> {t('indexPage.collapsables.purchaseTitle')}</div>}>
+              <Collapsible onOpening={() => handleOpen(1) } open={cs2} trigger={<div className="timeline__body__section"><img src="/img/icons/purchasing_white.png" alt=""/> {t('indexPage.collapsables.purchaseTitle')}</div>}>
                 <div className="timeline__body__content">
                   <div className="timeline__body__content__text">
                     <p>{renderHTML(t('indexPage.collapsables.purchaseText1'))}</p>
@@ -103,7 +121,7 @@ function Index() {
                   </div>
                 </div>
               </Collapsible>
-              <Collapsible trigger={<div className="timeline__body__section"><img src="/img/icons/wallets.png" alt="" /> {t('indexPage.collapsables.walletTitle')}</div>}>
+              <Collapsible onOpening={() => handleOpen(2) } open={cs3} trigger={<div className="timeline__body__section"><img src="/img/icons/wallets.png" alt="" /> {t('indexPage.collapsables.walletTitle')}</div>}>
                 <div className="timeline__body__content">
                   <div className="timeline__body__content__text">
                     <p>{renderHTML(t('indexPage.collapsables.walletText1'))}</p>
@@ -115,7 +133,7 @@ function Index() {
                   </div>
                 </div>
               </Collapsible>
-              <Collapsible trigger={<div className="timeline__body__section"><img src="/img/icons/anvil.png" alt=""/> {t('indexPage.collapsables.mintTitle')}</div>}>
+              <Collapsible onOpening={() => handleOpen(3) } open={cs4} trigger={<div className="timeline__body__section"><img src="/img/icons/anvil.png" alt=""/> {t('indexPage.collapsables.mintTitle')}</div>}>
                 <div className="timeline__body__content">
                   <div className="timeline__body__content__text">
                     <p>{renderHTML(t('indexPage.collapsables.mintText1'))}</p>
@@ -127,7 +145,7 @@ function Index() {
                   </div>
                 </div>
               </Collapsible>
-              <Collapsible trigger={<div className="timeline__body__section"><img src="/img/icons/pickaxe.png" alt="" /> {t('indexPage.collapsables.mineTitle')}</div>}>
+              <Collapsible onOpening={() => handleOpen(4) } open={cs5} trigger={<div className="timeline__body__section"><img src="/img/icons/pickaxe.png" alt="" /> {t('indexPage.collapsables.mineTitle')}</div>}>
                 <div className="timeline__body__content">
                   <div className="timeline__body__content__text">
                     <p>{renderHTML(t('indexPage.collapsables.mineText1'))}</p>
@@ -138,7 +156,7 @@ function Index() {
                   </div>
                 </div>
               </Collapsible>
-              <Collapsible trigger={<div className="timeline__body__section"><img src="/img/icons/community_white.png" alt="" /> {t('indexPage.collapsables.communityTitle')}</div>}>
+              <Collapsible onOpening={() => handleOpen(5) } open={cs6} trigger={<div className="timeline__body__section"><img src="/img/icons/community_white.png" alt="" /> {t('indexPage.collapsables.communityTitle')}</div>}>
                 <div className="timeline__body__content">
                   <div className="timeline__body__content__text">
                     <p>{renderHTML(t('indexPage.collapsables.communityText1'))}</p>
