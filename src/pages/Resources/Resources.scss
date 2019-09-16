@@ -65,7 +65,7 @@
   flex-wrap: wrap;
   margin-top: 50px;
 
-  @include viewports(up-to small) {
+  @include viewports(up-to tiny) {
     margin-left: -20px;
     margin-right: -20px;
   }
@@ -95,7 +95,7 @@
     margin-bottom: 15px;
     transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
 
-    @include viewports(up-to small) {
+    @include viewports(up-to tiny) {
       width: 138px;
       padding: 11px;
     }

@@ -102,7 +102,7 @@ a + .title {
   display: flex;
   flex-wrap: wrap;
 
-  @include viewports(up-to small) {
+  @include viewports(up-to tiny) {
     justify-content: center;
     align-items: center;
   }
@@ -113,7 +113,7 @@ a + .title {
     &:nth-child(2n) {
       margin-left: 20px;
 
-      @include viewports(up-to small) {
+      @include viewports(up-to tiny) {
         margin-left: 0;
       }
     }
@@ -122,7 +122,7 @@ a + .title {
       max-width: 370px;
       margin-left: 50px !important;
 
-      @include viewports(up-to small) {
+      @include viewports(up-to tiny) {
         margin-left: 0 !important;
       }
     }
@@ -142,7 +142,7 @@ a + .title {
   font-size: 16px;
   transition: all 0.2s linear;
 
-  @include viewports(up-to small) {
+  @include viewports(up-to tiny) {
     display: flex;
     width: 100%;
     margin-left: 0;
@@ -156,7 +156,7 @@ a + .title {
   & + .btn {
     margin-left: 20px;
 
-    @include viewports(up-to small) {
+    @include viewports(up-to tiny) {
       margin-left: 0;
       margin-top: 20px;
     }

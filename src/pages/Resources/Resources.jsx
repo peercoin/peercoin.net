@@ -235,18 +235,6 @@ function Resources() {
               <h4 className="blocks-list__block__title">Forum</h4>
               <img className="blocks-list__block__img" src="/img/icons/forum_green.png" alt="" />
             </a>
-            <a href="https://www.reddit.com/r/peercoin" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Reddit</h4>
-              <img className="blocks-list__block__img" src="/img/icons/reddit_green.png" alt="" />
-            </a>
-            <a href="https://discord.gg/XPxfwtG" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Discord</h4>
-              <img className="blocks-list__block__img" src="/img/icons/discord_green.png" alt="" />
-            </a>
-            <a href="https://t.me/peercoin" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Telegram</h4>
-              <img className="blocks-list__block__img" src="/img/icons/telegram_green.png" alt="" />
-            </a>
             <a href="https://twitter.com/PeercoinPPC" className="blocks-list__block">
               <h4 className="blocks-list__block__title">Twitter</h4>
               <img className="blocks-list__block__img" src="/img/icons/twitter_green.png" alt="" />
@@ -254,6 +242,18 @@ function Resources() {
             <a href="https://www.facebook.com/Peercoin/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">Facebook</h4>
               <img className="blocks-list__block__img" src="/img/icons/facebook_green.png" alt="" />
+            </a>
+            <a href="https://www.reddit.com/r/peercoin" className="blocks-list__block">
+              <h4 className="blocks-list__block__title">Reddit</h4>
+              <img className="blocks-list__block__img" src="/img/icons/reddit_green.png" alt="" />
+            </a>
+            <a href="https://t.me/peercoin" className="blocks-list__block">
+              <h4 className="blocks-list__block__title">Telegram</h4>
+              <img className="blocks-list__block__img" src="/img/icons/telegram_green.png" alt="" />
+            </a>
+            <a href="https://discord.gg/XPxfwtG" className="blocks-list__block">
+              <h4 className="blocks-list__block__title">Discord</h4>
+              <img className="blocks-list__block__img" src="/img/icons/discord_green.png" alt="" />
             </a>
             <a href="https://www.youtube.com/user/PeerCoin" className="blocks-list__block">
               <h4 className="blocks-list__block__title">Youtube</h4>

@@ -43,10 +43,11 @@ function Footer() {
                 <li className="footer__links__list__title"><a href="/#getstarted">{t('footerComponent.links.getStarted.title')}</a></li>
                 <li className="footer__links__list__title"><Link to="/resources">{t('footerComponent.links.resources.title')}</Link></li>
                 <li><a href="https://docs.peercoin.net/">{t('footerComponent.links.resources.linkDocumentation')}</a></li>
-                <li><a href="resources.html#exchanges">{t('footerComponent.links.resources.linkExchanges')}</a></li>
-                <li><a href="resources.html#blockexplorers">{t('footerComponent.links.resources.linkBLockExplorers')}</a></li>
-                <li><a href="resources.html#whitepaper">{t('footerComponent.links.resources.linkWhitepaper')}</a></li>
-                <li><a href="resources.html#graphics">{t('footerComponent.links.resources.linkGraphics')}</a></li>                        
+                <li><a href="/resources#exchanges">{t('footerComponent.links.resources.linkExchanges')}</a></li>
+                <li><a href="/resources#mining">{t('footerComponent.links.resources.linkMining')}</a></li>
+                <li><a href="/resources#blockexplorers">{t('footerComponent.links.resources.linkBLockExplorers')}</a></li>
+                <li><a href="/resources#whitepaper">{t('footerComponent.links.resources.linkWhitepaper')}</a></li>
+                <li><a href="/resources#graphics">{t('footerComponent.links.resources.linkGraphics')}</a></li>                        
               </ul>
               <ul className="footer__links__list">
                 <li className="footer__links__list__title"><Link to="/wallet">{t('footerComponent.links.wallet.title')}</Link></li>
@@ -55,18 +56,19 @@ function Footer() {
                 <li><a href="/projects">{t('footerComponent.links.project.linkProjects')}</a></li>
                 <li><a href="https://medium.com/peercoin">{t('footerComponent.links.project.linkBlog')}</a></li>
                 <li><a href="/foundation">{t('footerComponent.links.project.linkFoundation')}</a></li>
+                <li><Link to="/contact">{t('footerComponent.links.project.linkContact')}</Link></li>
                 <li><Link to="/privacy">{t('footerComponent.links.project.linkPrivacyPolicy')}</Link></li>
               </ul>
               <ul className="footer__links__list">
-                <li className="footer__links__list__title"><a href="/resources#community">{t('footerComponent.links.community.title')}</a></li>
+                <li className="footer__links__list__title"><a href="/resources#communities">{t('footerComponent.links.community.title')}</a></li>
                 <li><a href="https://talk.peercoin.net/">{t('footerComponent.links.community.linkForum')}</a></li>
-                <li><a href="https://www.reddit.com/r/peercoin">{t('footerComponent.links.community.linkReddit')}</a></li>
-                <li><a href="https://t.me/peercoin">{t('footerComponent.links.community.linkTelegram')}</a></li>
-                <li><a href="https://discord.gg/XPxfwtG">{t('footerComponent.links.community.linkDiscord')}</a></li>
-                <li><a href="https://bitcointalk.org/index.php?topic=101820.0">{t('footerComponent.links.community.linkBitcointalk')}</a></li>
-                <li><a href="https://www.facebook.com/Peercoin/">{t('footerComponent.links.community.linkFacebook')}</a></li>
                 <li><a href="https://twitter.com/PeercoinPPC">{t('footerComponent.links.community.linkTwitter')}</a></li>
+                <li><a href="https://t.me/peercoin">{t('footerComponent.links.community.linkTelegram')}</a></li>
+                <li><a href="https://www.facebook.com/Peercoin/">{t('footerComponent.links.community.linkFacebook')}</a></li>
+                <li><a href="https://www.reddit.com/r/peercoin">{t('footerComponent.links.community.linkReddit')}</a></li>
+                <li><a href="https://discord.gg/XPxfwtG">{t('footerComponent.links.community.linkDiscord')}</a></li>
                 <li><a href="https://www.youtube.com/user/PeerCoin">{t('footerComponent.links.community.linkYoutube')}</a></li>
+                <li><a href="https://bitcointalk.org/index.php?topic=101820.0">{t('footerComponent.links.community.linkBitcointalk')}</a></li>
               </ul>
             </nav>
           </footer>

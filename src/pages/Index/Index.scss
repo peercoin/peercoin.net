@@ -14,7 +14,7 @@
   padding-top: 150px;
   padding-bottom: 50px;
 
-  @include viewports(up-to small) {
+  @include viewports(up-to tiny) {
     padding: 0 20px;
   }
 
@@ -25,7 +25,7 @@
   }
 
   > img {
-    @include viewports(up-to small) {
+    @include viewports(up-to tiny) {
       width: 70%;
       margin-top: 100px;
     }
@@ -38,6 +38,10 @@
     margin-top: 60px;
     margin-bottom: 20px;
     text-align: center;
+
+    @include viewports(up-to tiny) {
+      font-size: 2.5rem;
+    }
   }
 
   &__description {
@@ -48,7 +52,7 @@
     text-align: center;
     font-weight: 300;
 
-    @include viewports(up-to small) {
+    @include viewports(up-to tiny) {
       width: 100%;
     }
   }
@@ -57,8 +61,13 @@
     display: flex;
     margin-top: 35px;
 
-    @include viewports(up-to small) {
+    @include viewports(up-to tiny) {
       flex-direction: column;
+    }
+
+    @include viewports(up-to small) {
+      flex-wrap: wrap;
+      justify-content: center;
     }
 
     &__action {
@@ -73,6 +82,14 @@
       text-decoration: none;
       transition: all 0.5s cubic-bezier(.02,.7,.4,1);
 
+      @include viewports(up-to small) {
+        margin: 10px 0;
+      }
+
+      @include viewports(up-to tiny) {
+        margin: 0;
+      }
+
       &:hover {
         transform: translate3d(0, -4px, 0);
       }
@@ -85,7 +102,7 @@
       + a {
         margin-left: 20px;
 
-        @include viewports(up-to small) {
+        @include viewports(up-to tiny) {
           margin-left: 0;
           margin-top: 20px;
         }
@@ -99,7 +116,7 @@
   align-items: center;
   margin: 40px 0;
 
-  @include viewports(up-to small) {
+  @include viewports(up-to tiny) {
     flex-direction: column;
     align-items: center;
   }
@@ -108,7 +125,7 @@
     flex: 1;
     margin-right: 50px;
 
-    @include viewports(up-to small) {
+    @include viewports(up-to tiny) {
       order: 2;
       margin-right: 0;
       margin-bottom: 50px;
@@ -118,7 +135,7 @@
       margin-right: 0;
       margin-left: 50px;
 
-      @include viewports(up-to small) {
+      @include viewports(up-to tiny) {
         margin-left: 0;
       }
     }
@@ -141,9 +158,13 @@
   &__img {
     width: 510px;
 
-    @include viewports(up-to small) {
+    @include viewports(up-to tiny) {
       width: 80%;
       order: 1;
+    }
+
+    @include viewports(up-to small) {
+      width: 300px;
     }
   }
 }
@@ -217,7 +238,7 @@
     &__content {
       display: flex;
 
-      @include viewports(up-to small) {
+      @include viewports(up-to tiny) {
         flex-direction: column;
         align-items: center;
       }
@@ -249,6 +270,10 @@
 
         img {
           width: 100%;
+
+          @include viewports(up-to small) {
+            width: 250px;
+          }
         }
       }
     }

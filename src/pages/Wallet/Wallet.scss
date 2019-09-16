@@ -87,7 +87,7 @@
   &__img {
     flex: 1;
 
-    @include viewports(up-to small) {
+    @include viewports(up-to tiny) {
       margin-top: 10px;
     }
 

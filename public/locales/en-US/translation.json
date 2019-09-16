@@ -80,7 +80,8 @@
         "linkExchanges": "Exchanges",
         "linkBLockExplorers": "Block Explorers",
         "linkWhitepaper": "Whitepaper",
-        "linkGraphics": "Graphics"
+        "linkGraphics": "Graphics",
+        "linkMining": "Mining"
       },
       "wallet": {
         "title": "Wallet"
@@ -91,11 +92,12 @@
         "linkProjects": "Projects",
         "linkBlog": "Blog",
         "linkFoundation": "Foundation",
-        "linkPrivacyPolicy": "Privacy Policy"
+        "linkPrivacyPolicy": "Privacy Policy",
+        "linkContact": "Contact"
       },
       "community": {
         "title": "Community",
-        "linkForum": "GitHub",
+        "linkForum": "Forum",
         "linkReddit": "Reddit",
         "linkTelegram": "Telegram",
         "linkDiscord": "Discord",
@@ -335,7 +337,7 @@
       "learnText2": "For those who are looking to develop, PeerAssets is Peercoin’s second layer solution for tokens. More information can be found on our <a href=\"/projects\">projects</a> page.",
       "learnText3": "A wealth of technical information can be found in the <a href=\"https://docs.peercoin.net/\">Peercoin Documentation</a> as well.",
       "purchaseTitle": "Purchase",
-      "purchaseText1": "Peercoin is available through a variety of exchanges and services. You can <a href=\"resources.html#exchanges\">check here for a list</a>.",
+      "purchaseText1": "Peercoin is available through a variety of exchanges and services. You can <a href=\"/resources#exchanges\">check here for a list</a>.",
       "purchaseText2": "A guide to buying Peercoin is also available <a href=\"https://docs.peercoin.net/#/purchase\">here</a>.",
       "walletTitle": "Wallet",
       "walletText1": "The <a href=\"/wallet\">Peercoin wallet</a> is available on Windows, Mac OSX, and Linux platforms.",
@@ -349,7 +351,7 @@
       "mineText1": "Peercoin uses the hashcash double iterated SHA-256 algorithm for proof-of-work mining. This means any hardware that can mine Bitcoin can mine Peercoin as well.",
       "mineText2": "To get started, check out the <a href=\"https://docs.peercoin.net/#/mining\">mining documentation</a>.",
       "communityTitle": "Community",
-      "communityText1": "Join our <a href=\"https://talk.peercoin.net/\">Forum</a>, <a href=\"https://discord.gg/XPxfwtG\">Discord</a>, or <a href=\"https://t.me/peercoin\">Telegram</a> to chat with other Peercoin community members and developers. Subscribe to our <a href=\"https://twitter.com/PeercoinPPC\">Twitter</a>, <a href=\"https://www.reddit.com/r/peercoin\">Reddit</a>, <a href=\"https://medium.com/peercoin\">Medium Blog</a>, or <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\">Newsletter</a> to stay up to date with all the latest Peercoin news. Check <a href=\"resources.html#communities\">here</a> for a list of all other community resources.",
+      "communityText1": "Join our <a href=\"https://talk.peercoin.net/\">Forum</a>, <a href=\"https://discord.gg/XPxfwtG\">Discord</a>, or <a href=\"https://t.me/peercoin\">Telegram</a> to chat with other Peercoin community members and developers. Subscribe to our <a href=\"https://twitter.com/PeercoinPPC\">Twitter</a>, <a href=\"https://www.reddit.com/r/peercoin\">Reddit</a>, <a href=\"https://medium.com/peercoin\">Medium Blog</a>, or <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\">Newsletter</a> to stay up to date with all the latest Peercoin news. Check <a href=\"/resources#communities\">here</a> for a list of all other community resources.",
       "communityText2": "Important updates can also be delivered directly to your mobile device through platforms like <a href=\"https://blockfolio.com/\">Blockfolio</a>, <a href=\"https://delta.app/\">Delta</a>, and <a href=\"https://www.coingecko.com/\">CoinGecko</a>. Subscribe to stay up to date with the latest news."
     },
     "latestNewsTitle": "Latest News"
