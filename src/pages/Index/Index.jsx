@@ -32,7 +32,7 @@ function Index() {
   return (
     <>
     <Menu />
-    <div className="hero">
+    <div className="Index hero">
       <img src="/img/logo-white.svg" alt="Peercoin Logo" width="220" />
       <h1 className="hero__title">{t('indexPage.title')}</h1>
       <p className="hero__description">
