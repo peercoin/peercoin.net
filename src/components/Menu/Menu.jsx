@@ -64,7 +64,7 @@ function Menu() {
                 <li><a href="https://university.peercoin.net/#/2-what-is-a-blockchain-" className="submenu">{t('menuComponent.links.learn.whatIsBlockchain')}</a></li>
                 <li><a href="https://university.peercoin.net/#/6-inherent-centralization-of-proof-of-work-blockchains" className="submenu">{t('menuComponent.links.learn.inherentCentralization')}</a></li>
                 <li><a href="https://university.peercoin.net/#/9-peercoin-proof-of-stake-consensus" className="submenu">{t('menuComponent.links.learn.peercoinProofOfStake')}</a></li>
-                <li><a href="https://university.peercoin.net/#/10-first-efficient-sustainable-blockchain" className="submenu">{t('menuComponent.links.learn.efficientSustainableSecurity')}</a></li>
+                <li><a href="https://university.peercoin.net/#/10-efficient-sustainable-security" className="submenu">{t('menuComponent.links.learn.efficientSustainableSecurity')}</a></li>
                 <li><a href="https://university.peercoin.net/#/11-economics-of-peercoin" className="submenu">{t('menuComponent.links.learn.economicsOfPeercoin')}</a></li>
                 <li><a href="https://university.peercoin.net/#/12-scalability-of-peercoin" className="submenu">{t('menuComponent.links.learn.scalabilityOfPeercoin')}</a></li>
                 <li><a href="https://medium.com/peercoin/deflation-and-cryptocurrencies-the-long-term-ramifications-of-fixed-supply-currencies-c192f44dddc1" className="submenu">{t('menuComponent.links.learn.deflationAndCriptocurrencies')}</a></li>
