@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home - Peercoin</title>
+        <!-- Copy to here -->
+        <link rel="icon" type="image/png" href="img/logos/favicons/Leaf/favicon16.png" sizes="16x16" />
+        <link rel="icon" type="image/png" href="img/logos/favicons/Leaf/favicon32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="img/logos/favicons/Leaf/favicon48.png" sizes="48x48" />
+        <link rel="icon" type="image/png" href="img/logos/favicons/Leaf/favicon64.png" sizes="64x64" />
+        <link rel="icon" type="image/png" href="img/logos/favicons/Leaf/favicon96.png" sizes="96x96" />
+        <link rel="icon" type="image/png" href="img/logos/favicons/Leaf/favicon128.png" sizes="128x128" />
+        <link rel="icon" type="image/png" href="img/logos/favicons/Leaf/favicon256.png" sizes="256x256" />
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animate.css">
+        
+    </head>
+    <body>
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+        </div>
+        <section id="language">
+            <script language="javascript" type="text/javascript" src="language.html"></script>
+        </section>
+        <section id="first">
+            <script language="javascript" type="text/javascript" src="menu.html"></script>
+            <!-- MENU CODE CHUNK ABOVE.  PASTE TO UPDATE PAGES-->
+            <div id="header-content" class="center-content">
+                <h1 class="title">Wallets</h1>
+                <p class="desc">Send, receive, and store Peercoin. The desktop wallet also enables minting blocks and securing of the network.</p>
+                <div class="buttonWrap head-nav-list">
+                    <a href="#install"><span><button>Installation</button></span></a>
+                    <a href="#paperwallet"><span><button>Paper Wallet</button></span></a>
+                    <a href="#unofficialclients"><span><button>Unofficial Wallets</button></span></a>
+                </div>
+            </div>
+        </section>
+        <section id="seven">
+            <div data-wow-delay=".2s" class="container wow fadeIn justify-content-center">
+                <div class="row justify-content-center" style="margin-bottom: 2vh;">
+                    <h1 class="title">Desktop Wallets</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row mb-4 mt-2">
+                            <a class="col-md-12 bigbutton-wallet" href="https://github.com/peercoin/peercoin/releases/download/v0.8.4ppc/peercoin-0.8.4-win64-setup-unsigned.exe">
+                                <br>
+                                <h4 style="color: #41B54A;">Windows</h4>
+                                <img class="wallet-icon" src="img/icons/windows.png"><br>
+                                Download
+                                <br><br>
+                            </a>
+                        </div>
+                        <div class="row mb-4">
+                            <a class="col-md-12 bigbutton-wallet" href="https://github.com/peercoin/peercoin/releases/download/v0.8.4ppc/peercoin-0.8.4-osx-unsigned.dmg">
+                                <br>
+                                <h4 style="color: #41B54A;">Mac OS X</h4>
+                                <img class="wallet-icon" src="img/icons/apple.png"><br>
+                                Download<br>
+                                <br>
+                            </a>
+                        </div>
+                        <div class="row mb-4">
+                            <a class="col-md-12 bigbutton-wallet" href="https://github.com/peercoin/peercoin/releases/download/v0.8.4ppc/peercoin-0.8.4-x86_64-linux-gnu.tar.gz">
+                                <br>
+                                <h4 style="color: #41B54A;">Linux</h4>
+                                <img class="wallet-icon" src="img/icons/linux.png"><br>
+                                Download<br>
+                                <br>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <img src="img/wallets_splash.png" alt="" class="img-fluid" style="padding-bottom: 15px;">
+                        <!-- Signatures -->
+                        <button class="collapsible justify-content-center">Signatures</button>
+                        <div class="content">
+                            <table>
+                                <tr>
+                                    <th><i>File</i></th>
+                                    <th><i>SHA-256</i></th>
+                                </tr>
+                                <!-- Windows Signature -->
+                                <tr>
+                                    <th>peercoin-0.8.4-win64-setup-unsigned.exe</th>
+                                    <th>b55761f5fa2cb3a8517b7d6b88ced534cb36eed8228e302e122520e74a8e358d</th>
+                                </tr>
+                                <!-- OS X Signature -->
+                                <tr>
+                                    <th>peercoin-0.8.4-osx-unsigned.dmg</th>
+                                    <th>1df8a9674024bf051d3dcda8bee633f37cd210d4f3bdc2277f2156881dd2f32e</th>
+                                </tr>
+                                <!-- Linux Signature -->
+                                <tr>
+                                    <th>peercoin-0.8.4-x86_64-linux-gnu.tar.gz</th>
+                                    <th>4f70268af74bb83acf0350c61ae1ce43fc3c03f831d5c4fd75624717e5dce316</th>
+                                </tr>
+                            </table>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <!-- Container Script -->
+                <script>
+                    var coll = document.getElementsByClassName("collapsible");
+                    var i;
+
+                    for (i = 0; i < coll.length; i++) {
+                      coll[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var content = this.nextElementSibling;
+                        if (content.style.display === "block") {
+                          content.style.display = "none";
+                        } else {
+                          content.style.display = "block";
+                        }
+                      });
+                    }
+                </script>
+            </div>
+        </section>
+        <section id="walletguide">
+            <div data-wow-delay=".2s" class="container wow fadeIn justify-content-center">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="title"><a name="install" class="linked">Installation</a></h1>
+                        <br>
+                        <div id="accordion">
+                            <!-- Windows -->
+                            <div class="card">
+                                <div class="card-header" id="wallets_dropdown">
+                                    <h5 data-toggle="collapse" data-target="#collapsezero" aria-expanded="true" aria-controls="collapsezero">
+                                        <a id="wallets_dropdown"><span>Windows</span></a>
+                                    </h5>
+                                </div>
+                                <div id="collapsezero" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h3>Windows</h3>
+                                                <ul>
+                                                    <li>Open <code class="green">peercoin-0.8.4-win64-setup-unsigned.exe</code></li>
+                                                    <li>Default installation directory is <code class="green">C:\Program Files\PPCoin</code> or <code class="green">C:\Program Files\Peercoin</code></li>
+                                                    <li>Run <code class="green">peercoin-qt</code> or <code class="green">peercoin</code> from the Start menu or the installation directory</li>
+                                                </ul>
+                                                <br>
+                                                <h4>Daemon</h4>
+                                                <ul>
+                                                    <li>Create <code class="green">peercoin.conf</code> in <code class="green">%APPDATA%\PPCoin</code></li>
+                                                    <li>Run <code class="green">daemon\peercoind</code></li>
+                                                    <li>Your wallet is located in <code class="green">C:\Users\&lt;username&gt;\AppData</code> (hidden folder).</li>
+                                                    <li>Open the folder with <code class="green">Start menu -> Run...</code> (or press <code class="green">Winkey-R</code>), type <code class="green">%APPDATA%\PPCoin</code> into the field, and press Enter.</li>
+                                                </ul>
+                                                <br>
+                                                Additional help can be found in the Peercoin <a href="https://docs.peercoin.net/"><u style="color:#3cb054">Documentation</u></a> or by asking on our <a href="https://talk.peercoin.net/"><u style="color:#3cb054">Forums.</u></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="purchasing_dropdown">
+                                    <h5 data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <span>OS X</span>
+                                    </h5>
+                                </div>
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h3>OS X</h3>
+                                                <ul>
+                                                    <li>Open <code class="green">peercoin-0.8.4-osx-unsigned.dmg</code></li>
+                                                    <li>Mount <code class="green">Peercoin-Qt.dmg</code> by opening it</li>
+                                                    <li>Drag <code class="green">Peercoin-Qt.app</code> or <code class="green">Peercoin.app</code> to <code class="green">Applications</code></li>
+                                                    <li>Drag <code class="green">Peercoin-Qt.app</code> or <code class="green">Peercoin.app</code> to <code class="green">Applications</code></li>
+                                                    <li>Go to <code class="green">Applications</code> and open <code class="green">Peercoin-Qt.app</code> or <code class="green">Peercoin.app</code></li>
+                                                </ul>
+                                                <br>
+                                                <h4>Daemon</h4>
+                                                <ul>
+                                                    <li>Unzip <code class="green">peercoind.zip</code></li>
+                                                    <li>Create <code class="green">ppcoin.conf</code> in <code class="green">~/Library/Application Support/PPCoin</code></li>
+                                                    <li>Run <code class="green">peercoind</code></li>
+                                                </ul>
+                                                Your wallet is located in <code class="green">~/Library/Application Support/PPCoin</code>. To open the folder, press Command-Shift-G in Finder, insert the path, and press Enter.<br><br>
+                                                Additional help can be found in the Peercoin <a href="https://docs.peercoin.net/"><u style="color:#3cb054">Documentation</u></a> or by asking on our <a href="https://talk.peercoin.net/"><u style="color:#3cb054">Forums.</u></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="minting_dropdwon">
+                                    <h5 data-toggle="collapse" data-target="#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
+                                        <span>Linux</span>
+                                    </h5>
+                                </div>
+                                <div id="collapsetwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h3>Generic Linux</h3>
+                                                <ul>
+                                                    <li>Unpack <code class="green">peercoin-0.8.4-x86_64-linux-gnu.tar.gz</code></li>
+                                                    <li>Run <code class="green">bin/32/peercoin-qt</code> (requires libqt4-gui)</li>
+                                                </ul>
+                                                <br>
+                                                <h4>Daemon</h4>
+                                                <ul>
+                                                    <li>Create <code class="green">peercoin.conf</code> in <code class="green">~/.peercoin</code></li>
+                                                    <li>Run <code class="green">bin/32/peercoind</code></li>
+                                                </ul>
+                                                Your wallet is located in <code class="green">~/.peercoin.</code><br>
+                                                <i>Note: 64 bit binaries available in <code class="green">bin/64/{peercoin-qt,peercoind}</code>.</i><br><br>
+
+                                                Additional help can be found in the Peercoin <a href="https://docs.peercoin.net/"><u style="color:#3cb054">Documentation</u></a> or by asking on our <a href="https://talk.peercoin.net/"><u style="color:#3cb054">Forums.</u></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Paper Wallet -->
+        <section id="seven">
+            <div data-wow-delay=".2s" class="container wow fadeIn justify-content-center">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="title"><a name="paperwallet" class="linked">Paper Wallet</a></h1>
+                        <br>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row justify-content-center">
+                            <a class="col-xs-12 col-sm-12 col-md-3 col-lg-3 bigbutton-white" href="https://paperwallet.peercoin.net/">
+                                <h4>Paper Wallet</h4>
+                                <img class="exchange-icon" src="img/explorers/peercoin_green.png"><br>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Whitepaper -->
+        <section id="seven">
+            <div data-wow-delay=".2s" class="container wow fadeIn justify-content-center">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="title"><a name="unofficialclients" class="linked">Unofficial Wallets</a></h1>
+                        <br>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row justify-content-center">
+                            <a class="col-xs-12 col-sm-12 col-md-3 col-lg-3 bigbutton-white" href="https://www.ledger.com/">
+                                <h4>Ledger</h4>
+                                <img class="exchange-icon" src="img/wallets/ledger.png"><br>
+                                <i>Hardware Wallet</i><br>
+                            </a>
+                            <a class="col-xs-12 col-sm-12 col-md-3 col-lg-3 bigbutton-white" href="https://www.cryptonator.com/">
+                                <h4>Cryptonator</h4>
+                                <img class="exchange-icon" src="img/wallets/cryptonator.png"><br>
+                                <i>Mobile/Web Wallet</i><br>
+                            </a>
+                            <a class="col-xs-12 col-sm-12 col-md-3 col-lg-3 bigbutton-white" href="http://uberpay.io/">
+                                <h4>UberPay</h4>
+                                <img class="exchange-icon" src="img/wallets/uberpay.png"><br>
+                                <i>Mobile/Web Wallet</i><br>
+                            </a>
+                            <a class="col-xs-12 col-sm-12 col-md-3 col-lg-3 bigbutton-white" href="https://www.coinspot.com.au/">
+                                <h4>Coinspot</h4>
+                                <img class="exchange-icon" src="img/wallets/coinspot.png"><br>
+                                <i>Web Wallet</i><br>
+                            </a>
+                            <a class="col-xs-12 col-sm-12 col-md-3 col-lg-3 bigbutton-white" href="https://www.coinvault.io/">
+                                <h4>CoinVault</h4>
+                                <img class="exchange-icon" src="img/wallets/coinvault.png"><br>
+                                <i>Web Wallet</i><br>
+                            </a>
+                            <a class="col-xs-12 col-sm-12 col-md-3 col-lg-3 bigbutton-white" href="https://holytransaction.com/">
+                                <h4>HolyTransaction</h4>
+                                <img class="exchange-icon" src="img/wallets/holytransaction.png"><br>
+                                <i>Web Wallet</i><br>
+                            </a>
+                            <a class="col-xs-12 col-sm-12 col-md-3 col-lg-3 bigbutton-white" href="https://magnumwallet.co">
+                                <h4>Magnum</h4>
+                                <img class="exchange-icon" src="img/wallets/magnum.png"><br>
+                                <i>Mobile/Web Wallet</i><br>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- NEWSLETTER SECTION -->
+        <section id="six">
+            <script language="javascript" type="text/javascript" src="newsletter.html"></script>
+        </section>
+        <!-- FOOTER SECTION -->
+        <footer>
+            <script language="javascript" type="text/javascript" src="footer.html"></script>
+        </footer>
+    </body>
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/collapse.js"></script>
+    <script src="js/script.js"></script>
+
+</html>
