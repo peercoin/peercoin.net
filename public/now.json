@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "routes": [
+    {"src": "/static/(.*)", "dest": "/static/$1"},
+    {"src": "/img/(.*)", "dest": "/img/$1"},
+    {"src": "/assets/(.*)", "dest": "/img/$1"},
+    {"src": "/whitepapers/(.*)", "dest": "/img/$1"},
+    {"src": "/locales/(.*)", "dest": "/locales/$1"},
+    {"src": "/(.*)", "dest": "/index.html"}
+  ]
+}

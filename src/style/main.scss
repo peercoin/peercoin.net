@@ -1,0 +1,175 @@
+@import "_variables";
+@import "_viewports";
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main {
+  margin: 50px 0;
+
+  &--green {
+    background: $color-green;
+  }
+
+  &--dark {
+    background: $color-black;
+  }
+
+  &--grey {
+    background: $color-grey-lighter;
+  }
+
+  &--no_bottom {
+    margin-bottom: 0;
+  }
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.title {
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px 0;
+  font-weight: 300;
+  font-size: 3.8rem;
+
+  &--green {
+    color: $color-green;
+  }
+
+  &--white {
+    color: #fff;
+  }
+
+  &--left {
+    text-align: left;
+  }
+}
+
+h2.title {
+  padding: 0;
+}
+
+h3.title {
+  font-size: 2.5rem;
+  margin: 20px auto;
+}
+
+p + .title {
+  margin-top: 50px !important;
+}
+
+a + .title {
+  margin-top: 50px !important;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 300;
+
+  b {
+    font-weight: bold;
+  }
+
+  &--left {
+    text-align: left;
+  }
+
+  a {
+    color: $color-green;
+    text-decoration: none;
+  }
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+
+  @include viewports(up-to tiny) {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .col {
+    flex: 1;
+
+    &:nth-child(2n) {
+      margin-left: 20px;
+
+      @include viewports(up-to tiny) {
+        margin-left: 0;
+      }
+    }
+
+    &--small {
+      max-width: 370px;
+      margin-left: 50px !important;
+
+      @include viewports(up-to tiny) {
+        margin-left: 0 !important;
+      }
+    }
+  }
+}
+
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  min-width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  background: $color-green;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.2s linear;
+
+  @include viewports(up-to tiny) {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  &:hover {
+    background: $color-green-dark;
+  }
+
+  & + .btn {
+    margin-left: 20px;
+
+    @include viewports(up-to tiny) {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  }
+}
+
+.blocks-list + h1,
+.blocks-list + h2 {
+  margin-top: 50px;
+}
+
+.anchor {
+  width: 1px;
+  height: 1px;
+  display: block;
+}
