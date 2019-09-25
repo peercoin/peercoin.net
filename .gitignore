@@ -1,4 +1,25 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+### OSX ###
+.AppleDouble
+.LSOverride
+.tx
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Other Stuff
+wiki/
+blog/
+html/
+
+# reCAPTCHA keys
+include/recaptcha_keys.php
+8AC722ACF131D71F7FC21ADB7A03D561.txt
 
 # dependencies
 /node_modules
