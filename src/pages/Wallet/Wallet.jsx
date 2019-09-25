@@ -54,33 +54,33 @@ function Wallet() {
           <div className="desktop-downloads">
             <div className="desktop-downloads__items">
               <div className="desktop-downloads__items__item">
-                <a href="https://github.com/peercoin/peercoin/releases/download/v0.8.2.1ppc/peercoin-0.8.2-win64-setup-unsigned.exe" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/peercoin/peercoin/releases/download/v0.8.4ppc/peercoin-0.8.4-win64-setup-unsigned.exe" target="_blank" rel="noopener noreferrer">
                   <div className="desktop-downloads__items__item__title">{t('walletPage.walletWindows')}</div>
                   <img className="desktop-downloads__items__item__img" src="/img/icons/windows.png" alt="" />
                 </a> 
                 <div className="desktop-downloads__items__item__checksum">
                   <span>Checksum (SHA-256):</span>
-                  83148a5ab61fbf4dbffbcf807787421dee0495e6018fb928d0a26fd2af0529ae
+                  b55761f5fa2cb3a8517b7d6b88ced534cb36eed8228e302e122520e74a8e358d
                 </div>
               </div>
               <div className="desktop-downloads__items__item">
-                <a href="https://github.com/peercoin/peercoin/releases/download/v0.8.2.1ppc/peercoin-0.8.2-osx-unsigned.dmg" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/peercoin/peercoin/releases/download/v0.8.4ppc/peercoin-0.8.4-osx-unsigned.dmg" target="_blank" rel="noopener noreferrer">
                   <div className="desktop-downloads__items__item__title">{t('walletPage.walletMac')}</div>
                   <img className="desktop-downloads__items__item__img" src="/img/icons/apple.png" alt="" />
                 </a>
                 <div className="desktop-downloads__items__item__checksum">
                   <span>Checksum (SHA-256):</span>
-                  b49be26ed42efe167b6d886cd02ea95e4a7ed4ad6f0fa80d98df50d807c24723
+                  1df8a9674024bf051d3dcda8bee633f37cd210d4f3bdc2277f2156881dd2f32e
                 </div>
               </div>
               <div className="desktop-downloads__items__item">
-                <a href="https://github.com/peercoin/peercoin/releases/download/v0.8.2.1ppc/peercoin-0.8.2-x86_64-linux-gnu.tar.gz" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/peercoin/peercoin/releases/download/v0.8.4ppc/peercoin-0.8.4-x86_64-linux-gnu.tar.gz" target="_blank" rel="noopener noreferrer">
                   <div className="desktop-downloads__items__item__title">{t('walletPage.walletLinux')}</div>
                   <img className="desktop-downloads__items__item__img" src="/img/icons/linux.png" alt="" />
                 </a>
                 <div className="desktop-downloads__items__item__checksum">
                   <span>Checksum (SHA-256):</span>
-                  81c416600d356f0d3fa04be0b97756c57441a33a85ce3a1dcf2e4d393d50726f
+                  4f70268af74bb83acf0350c61ae1ce43fc3c03f831d5c4fd75624717e5dce316
                 </div>
               </div>
             </div>
