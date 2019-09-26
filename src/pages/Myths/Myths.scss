@@ -1,0 +1,113 @@
+@import "../../style/_variables";
+@import "../../style/_viewports";
+
+.myths {
+  h4 {
+    font-size: 2.5rem;
+    color: $color-green;
+    font-weight: 300;
+    margin: 10px 0;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    color: black;
+    font-weight: 300;
+    margin: 10px 0;
+  }
+
+  .btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    min-width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid white;
+    background:$color-green;
+    color:$color-green;
+    font-size: 16px;
+  }
+
+}
+
+
+.blocks-list-myths {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+
+  @include viewports(up-to tiny) {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+
+  &--grey {
+    .blocks-list__block {
+      background: #737373;
+    }
+
+    .blocks-list__block__img {
+      width: 80px;
+    }
+  }
+
+  &__block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(#000, 0.2);
+    padding: 50px;
+    width: 100%;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+    @include viewports(up-to tiny) {
+      width: 138px;
+      padding: 11px;
+    }
+
+    &:hover {
+      transform: rotate(-2deg);
+    }
+
+    &__title {
+      color: $color-green;
+      margin: 0;
+      font-weight: 300;
+      font-size: 1.7rem;
+      text-align: center;
+    }
+
+    &__img {
+      width: 45px;
+      margin: 20px 0;
+    }
+
+    &__type {
+      color: $color-green;
+      margin: 0;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin: 4px 0;
+      transition: all 0.2s linear;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}
+
