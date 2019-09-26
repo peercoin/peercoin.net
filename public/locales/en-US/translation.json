@@ -126,6 +126,23 @@
     "contactUsTitle": "Contact Us",
     "addressCountry": "The Netherlands"
   },
+  "mythsPage":{
+    "title":"Myths",
+    "description":"There are some myths about Peercoin. These myths are often based on misconceptions about Peercoin and born out of ignorance.",
+    "moreInfo": "More info",
+    "myths":[
+      {
+        "title":"Peercoin is Highly Vulnerable to 51% Attack",
+        "description":"Given enough coins, it’s very easy to control the blockchain.",
+        "url":"http://www.peercointalk.org/index.php?topic=2976.msg28107#msg28107"
+      },
+      {
+        "title":"Nothing-at-Stake",
+        "description":"There is nothing that prevents minters from minting on several chains at once, and since doing so doesn’t cost anything, there is an incentive to do so. Therefore, the network will never reach consensus and there will be a multitude of competing chain forks.",
+        "url":"http://www.peercointalk.org/index.php?topic=2976.msg27787#msg27787 49"
+      }
+    ]
+  },
   "contactPage": {
     "contactTitle": "Contact Us",
     "contactDescription": "For general inquiries, the Peercoin Foundation is here to answer!",
