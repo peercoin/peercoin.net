@@ -123,6 +123,7 @@
     "generalFundPpcAddress": "General Fund - PPC Donation Address:",
     "generalFundBtcAddress": "General Fund - BTC Donation Address:",
     "exchangeBtcAddress": "Exchange Listing Fund - BTC Donation Address:",
+    "viewOnExplorer":"View on explorer",
     "contactUsTitle": "Contact Us",
     "addressCountry": "The Netherlands"
   },
