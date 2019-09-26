@@ -25,10 +25,10 @@ function Foundation() {
               <h2 className="title title--green title--left">{t('foundationPage.technicalSupportTitle')}</h2>
               <p>{t('foundationPage.technicalSupportText')}</p>
               <p>
-              {t('foundationPage.generalFundPpcAddress')} <b>p92W3t7YkKfQEPDb7cG9jQ6iMh7cpKLvwK</b>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.coinexplorer.net/PPC/address/p92W3t7YkKfQEPDb7cG9jQ6iMh7cpKLvwK"> [ {t('foundationPage.viewOnExplorer')} ]</a><br />
-              {t('foundationPage.generalFundBtcAddress')} <b>376NhxVL1LFBFndHNx9k7hvwvUzq6RZiPT</b>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.blockchain.com/fr/btc/address/376NhxVL1LFBFndHNx9k7hvwvUzq6RZiPT"> [ {t('foundationPage.viewOnExplorer')} ]</a>
+              {t('foundationPage.generalFundPpcAddress')} <b>p92W3t7YkKfQEPDb7cG9jQ6iMh7cpKLvwK </b>
+              <a target="_blank" rel="noopener noreferrer" href="https://chainz.cryptoid.info/ppc/address.dws?p92W3t7YkKfQEPDb7cG9jQ6iMh7cpKLvwK.htm">[ {t('foundationPage.viewOnExplorer')} ]</a><br />
+              {t('foundationPage.generalFundBtcAddress')} <b>376NhxVL1LFBFndHNx9k7hvwvUzq6RZiPT </b>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.blockchain.com/fr/btc/address/376NhxVL1LFBFndHNx9k7hvwvUzq6RZiPT">[ {t('foundationPage.viewOnExplorer')} ]</a>
               <br />
               {t('foundationPage.exchangeBtcAddress')} <b>3NtJTUyXuH8KJj4BXJJxtQS7SPnLNm711CM</b>
               </p>
