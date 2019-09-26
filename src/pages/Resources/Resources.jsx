@@ -206,19 +206,19 @@ function Resources() {
         <div className="container">
           <h2 className="title title--green">{t('resourcesPage.toolsTitle')}</h2>
           <div className="blocks-list">
-            <a href="https://www.peercoinexplorer.net/inflation/" className="blocks-list__block">
+            <a href="https://www.peercoinexplorer.net/inflation/" target="_blank" rel="noopener noreferrer" className="blocks-list__block">
               <h4 className="blocks-list__block__title">{t('resourcesPage.toolsInflation')}</h4>
               <img className="blocks-list__block__img" src="/img/icons/mint_green.png" alt="" />
             </a>
-            <a href="https://www.peercoinexplorer.net/mempool/" className="blocks-list__block">
+            <a href="https://www.peercoinexplorer.net/mempool/" target="_blank" rel="noopener noreferrer" className="blocks-list__block">
               <h4 className="blocks-list__block__title">{t('resourcesPage.toolsMempool')}</h4>
               <img className="blocks-list__block__img" src="/img/icons/mint_green.png" alt="" />
             </a>
-            <a href="https://www.coinexplorer.net/PPC" className="blocks-list__block">
+            <a href="https://www.peercoin.site/#energytable" target="_blank" rel="noopener noreferrer" className="blocks-list__block">
               <h4 className="blocks-list__block__title">{t('resourcesPage.toolsEnergyStatistics')}</h4>
               <img className="blocks-list__block__img" src="/img/icons/mint_green.png" alt="" />
             </a>
-            <a href="https://faucet.peercoinexplorer.net/" className="blocks-list__block">
+            <a href="https://faucet.peercoinexplorer.net/" target="_blank" rel="noopener noreferrer" className="blocks-list__block">
               <h4 className="blocks-list__block__title">{t('resourcesPage.toolsTestnetFaucet')}</h4>
               <img className="blocks-list__block__img" src="/img/icons/mint_green.png" alt="" />
             </a>
