@@ -261,7 +261,7 @@
     "installationTitle": "Installation",
     "sectionWindows": {
       "title1": "Windows",
-      "text1": "Open <code>peercoin-0.8.2-win64-setup-unsigned.exe</code>",
+      "text1": "Open <code>peercoin-0.8.4-win64-setup-unsigned.exe</code>",
       "text2": "Default installation directory is <code>C:\\Program Files\\PPCoin or C:\\Program Files\\Peercoin</code>",
       "text3": "Run <code>peercoin-qt</code> or <code>peercoin</code> from the Start menu or the installation directory",
       "title2": "Daemon",
@@ -273,7 +273,7 @@
     },
     "sectionMac": {
       "title1": "macOS",
-      "text1": "Open <code className=\"green\">peercoin-0.8.2-osx-unsigned.dmg</code>",
+      "text1": "Open <code className=\"green\">peercoin-0.8.4-osx-unsigned.dmg</code>",
       "text2": "Mount <code className=\"green\">Peercoin-Qt.dmg</code> by opening it",
       "text3": "Drag <code className=\"green\">Peercoin-Qt.app</code> or <code className=\"green\">Peercoin.app</code> to <code className=\"green\">Applications</code>",
       "text4": "Go to <code className=\"green\">Applications</code> and open <code className=\"green\">Peercoin-Qt.app</code> or <code className=\"green\">Peercoin.app</code>",
@@ -286,7 +286,7 @@
     },
     "sectionLinux": {
       "title1": "Linux",
-      "text1": "Unpack <code className=\"green\">peercoin-0.8.2-x86_64-linux-gnu.tar.gz</code>",
+      "text1": "Unpack <code className=\"green\">peercoin-0.8.4-x86_64-linux-gnu.tar.gz</code>",
       "text2": "Run <code className=\"green\">bin/32/peercoin-qt</code> (requires libqt4-gui)",
       "title2": "Daemon",
       "text3": "Create <code className=\"green\">peercoin.conf</code> in <code className=\"green\">~/.peercoin</code>",
