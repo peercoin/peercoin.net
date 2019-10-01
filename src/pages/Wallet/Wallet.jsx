@@ -1,4 +1,4 @@
-import React, { Suspense, useState } from 'react';
+import React, { Suspense, useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import Collapsible from 'react-collapsible';
 import renderHTML from 'react-render-html';
@@ -12,6 +12,16 @@ function Wallet() {
   const [ cs1, setCs1 ] = useState(true);
   const [ cs2, setCs2 ] = useState(false);
   const [ cs3, setCs3 ] = useState(false);
+  const [ data, setData ] = useState([]);
+
+  useEffect(() => {
+    fetch('/data/wallets.json')
+    .then(res => res.json())
+    .then((jsonData) => {
+      console.log(jsonData);
+      setData(jsonData);
+    });
+  }, []);
 
   async function handleOpen(num) {
     if (num === 0) {
@@ -33,6 +43,15 @@ function Wallet() {
     }
   }
 
+  function getFilename(os) {
+    if (data.length === 0) {
+      return '';
+    }
+
+    const osData = data.filter(item => item.os === os)[0];
+    return osData.link.split('/')[osData.link.split('/').length - 1];
+  }
+
   return (
     <>
       <Menu />
@@ -50,39 +69,21 @@ function Wallet() {
 
       <div className="main text-sections">
         <div className="container">
-          <h2 className="title title--green">{t('walletPage.desktopWalletTitle')}</h2>
+          <h2 className="title title--green">{t('walletPage.title')}</h2>
           <div className="desktop-downloads">
             <div className="desktop-downloads__items">
-              <div className="desktop-downloads__items__item">
-                <a href="https://github.com/peercoin/peercoin/releases/download/v0.8.4ppc/peercoin-0.8.4-win64-setup-unsigned.exe" target="_blank" rel="noopener noreferrer">
-                  <div className="desktop-downloads__items__item__title">{t('walletPage.walletWindows')}</div>
-                  <img className="desktop-downloads__items__item__img" src="/img/icons/windows.png" alt="" />
-                </a> 
-                <div className="desktop-downloads__items__item__checksum">
-                  <span>Checksum (SHA-256):</span>
-                  b55761f5fa2cb3a8517b7d6b88ced534cb36eed8228e302e122520e74a8e358d
+              {data.length > 0 && data.map(item => (
+                <div className="desktop-downloads__items__item">
+                  <a href={item.link} target="_blank" rel="noopener noreferrer">
+                    <div className="desktop-downloads__items__item__title">{item.os}</div>
+                    <img className="desktop-downloads__items__item__img" src={item.img} alt="" />
+                  </a> 
+                  <div className="desktop-downloads__items__item__checksum">
+                    <span>Checksum (SHA-256):</span>
+                    {item.checksum}
+                  </div>
                 </div>
-              </div>
-              <div className="desktop-downloads__items__item">
-                <a href="https://github.com/peercoin/peercoin/releases/download/v0.8.4ppc/peercoin-0.8.4-osx-unsigned.dmg" target="_blank" rel="noopener noreferrer">
-                  <div className="desktop-downloads__items__item__title">{t('walletPage.walletMac')}</div>
-                  <img className="desktop-downloads__items__item__img" src="/img/icons/apple.png" alt="" />
-                </a>
-                <div className="desktop-downloads__items__item__checksum">
-                  <span>Checksum (SHA-256):</span>
-                  1df8a9674024bf051d3dcda8bee633f37cd210d4f3bdc2277f2156881dd2f32e
-                </div>
-              </div>
-              <div className="desktop-downloads__items__item">
-                <a href="https://github.com/peercoin/peercoin/releases/download/v0.8.4ppc/peercoin-0.8.4-x86_64-linux-gnu.tar.gz" target="_blank" rel="noopener noreferrer">
-                  <div className="desktop-downloads__items__item__title">{t('walletPage.walletLinux')}</div>
-                  <img className="desktop-downloads__items__item__img" src="/img/icons/linux.png" alt="" />
-                </a>
-                <div className="desktop-downloads__items__item__checksum">
-                  <span>Checksum (SHA-256):</span>
-                  4f70268af74bb83acf0350c61ae1ce43fc3c03f831d5c4fd75624717e5dce316
-                </div>
-              </div>
+              ))}
             </div>
             <div className="desktop-downloads__img">
               <img src="/img/wallets_splash.png" alt=""/>
@@ -102,7 +103,7 @@ function Wallet() {
                   <div className="timeline__body__content__text">
                     <h2>{t('walletPage.walletWindows')}</h2>
                     <ul>
-                      <li>{renderHTML(t('walletPage.sectionWindows.text1'))}</li>
+                      <li>{renderHTML(t('walletPage.sectionWindows.text1', { file: getFilename('Windows') }))}</li>
                       <li>{renderHTML(t('walletPage.sectionWindows.text2'))}</li>
                       <li>{renderHTML(t('walletPage.sectionWindows.text3'))}</li>
                     </ul>
@@ -122,7 +123,7 @@ function Wallet() {
                   <div className="timeline__body__content__text">
                     <h2>{t('walletPage.sectionMac.title1')}</h2>
                     <ul>
-                      <li>{renderHTML(t('walletPage.sectionMac.text1'))}</li>
+                      <li>{renderHTML(t('walletPage.sectionMac.text1', { file: getFilename('macOS') }))}</li>
                       <li>{renderHTML(t('walletPage.sectionMac.text2'))}</li>
                       <li>{renderHTML(t('walletPage.sectionMac.text3'))}</li>
                       <li>{renderHTML(t('walletPage.sectionMac.text4'))}</li>
@@ -143,7 +144,7 @@ function Wallet() {
                   <div className="timeline__body__content__text">
                     <h2>{t('walletPage.sectionLinux.title1')}</h2>
                     <ul>
-                      <li>{renderHTML(t('walletPage.sectionLinux.text1'))}</li>
+                      <li>{renderHTML(t('walletPage.sectionLinux.text1', { file: getFilename('Linux') }))}</li>
                       <li>{renderHTML(t('walletPage.sectionLinux.text2'))}</li>
                     </ul>
                     <h2>{t('walletPage.sectionLinux.title2')}</h2>
