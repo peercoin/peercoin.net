@@ -191,7 +191,7 @@
     "contributeText": "Peercoin is always under development and any developer is welcome to contribute. There are a variety of ways to contribute, including core development and writing documentation. Please check our GitHub below to get started.",
     "contributeBtn": "GitHub",
     "documentationTitle": "Documentation",
-    "documentationText": "Peercoin is always under development and any developer is welcome to contribute. There are a variety of ways to contribute, including core development and writing documentation. Please check our GitHub below to get started.",
+    "documentationText": "To learn more about the technical details of Peercoin and how to use existing tools or framework, it is recommended that you start by reading the Peercoin documentation.",
     "documentationBtn": "Documentation",
     "miningTitle": "Mining",
     "miningText1": "Peercoin uses the hashcash double iterated SHA-256 algorithm for proof-of-work mining. This means that any hardware that can mine Bitcoin can mine Peercoin as well.",
@@ -269,7 +269,7 @@
       "text5": "Run <code>daemon\\peercoind</code>",
       "text6": "Your wallet is located in <code>C:\\Users\\{username}\\AppData</code> (hidden folder).",
       "text7": "Open the folder with <code>Start menu -> Run...</code> (or press <code>Winkey-R</code>), type <code>%APPDATA%\\PPCoin</code> into the field, and press Enter.",
-      "text8": "Additional help can be found in the <a href=\"https://docs.peercoin.net/\">Peercoin Documentation</a> or by asking on our <a href=\"https://talk.peercoin.net/\">Forums</a>."
+      "text8": "Ayuda adicional se puede encontrar de peercoin en su <a href=\"https://docs.peercoin.net/\">Documentación</a> or by asking on our <a href=\"https://talk.peercoin.net/\">Forums</a>."
     },
     "sectionMac": {
       "title1": "macOS",
