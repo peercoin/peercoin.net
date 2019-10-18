@@ -65,11 +65,11 @@
         "linkPeercoinUniversity": "Universidad de Peercoin",
         "linkWhatIsBlockchain": "¿Qué es un blockchain?",
         "linkInherentCentralization": "Centralización inherente de las cadenas de bloques de Proof-of-Work",
-        "linkPeercoinProofOfStakeConsensus": "Peercoin y Consenso de Proof-of-Stake1",
+        "linkPeercoinProofOfStakeConsensus": "Peercoin y Consenso de Proof-of-Stake",
         "linkEfficientSustainableSecurity": "Primera cadena de bloques eficiente y sostenible",
         "linkEconomicsOfPeercoin": "Economía de Peercoin",
-        "linkScalabilityOfPeercoin": "Escalabilidad de Peercoin1",
-        "linkFAQ": "Preguntas Más frecuentes"
+        "linkScalabilityOfPeercoin": "Escalabilidad de Peercoin",
+        "linkFAQ": "Preguntas más frecuentes"
       },
       "getStarted": {
         "title": "Empezar"
@@ -87,7 +87,7 @@
         "title": "Billetera"
       },
       "project": {
-        "title": "Proyect",
+        "title": "Proyecto",
         "linkGithub": "GitHub",
         "linkProjects": "Proyectos",
         "linkBlog": "Blog",
