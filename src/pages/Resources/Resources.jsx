@@ -100,14 +100,19 @@ function Resources() {
               <img className="blocks-list__block__img" src="/img/exchanges/therocktrading_green.png" alt="" />
               <div className="blocks-list__block__type">{t('resourcesPage.exchangesType1')}</div>
             </a>
+			<a href="https://changelly.com/" className="blocks-list__block">
+              <h4 className="blocks-list__block__title">Changelly</h4>
+              <img className="blocks-list__block__img" src="/img/exchanges/changelly_green.png" alt="" />
+              <div className="blocks-list__block__type">{t('resourcesPage.exchangesType1')}</div>
+            </a>
+			<a href="https://changeangel.io/" className="blocks-list__block">
+              <h4 className="blocks-list__block__title">ChangeAngel</h4>
+              <img className="blocks-list__block__img" src="/img/exchanges/changeangel_green.png" alt="" />
+              <div className="blocks-list__block__type">{t('resourcesPage.exchangesType1')}</div>
+            </a>
             <a href="https://www.litebit.eu/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">LiteBit</h4>
               <img className="blocks-list__block__img" src="/img/exchanges/litebit_green.png" alt="" />
-              <div className="blocks-list__block__type">{t('resourcesPage.exchangesType1')}</div>
-            </a>
-            <a href="https://bx.in.th/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">BX Thailand</h4>
-              <img className="blocks-list__block__img" src="/img/exchanges/bxthailand_green.png" alt="" />
               <div className="blocks-list__block__type">{t('resourcesPage.exchangesType1')}</div>
             </a>
             <a href="https://bittylicious.com/" className="blocks-list__block">
