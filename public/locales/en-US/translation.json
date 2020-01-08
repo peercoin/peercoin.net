@@ -191,7 +191,7 @@
     "contributeText": "Peercoin is always under development and any developer is welcome to contribute. There are a variety of ways to contribute, including core development and writing documentation. Please check our GitHub below to get started.",
     "contributeBtn": "GitHub",
     "documentationTitle": "Documentation",
-    "documentationText": "Peercoin is always under development and any developer is welcome to contribute. There are a variety of ways to contribute, including core development and writing documentation. Please check our GitHub below to get started.",
+        "documentationText": "To learn more about the technical details of Peercoin and how to use existing tools or framework, it is recommended that you start by reading the Peercoin documentation.",
     "documentationBtn": "Documentation",
     "miningTitle": "Mining",
     "miningText1": "Peercoin uses the hashcash double iterated SHA-256 algorithm for proof-of-work mining. This means that any hardware that can mine Bitcoin can mine Peercoin as well.",
