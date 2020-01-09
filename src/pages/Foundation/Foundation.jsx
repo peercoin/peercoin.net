@@ -37,8 +37,8 @@ function Foundation() {
               <h2 className="title title--green title--left">{t('foundationPage.contactUsTitle')}</h2>
               <p>
                 <b>Stichting Peercoin Foundation</b><br />
-                Postbus 7875<br />
-                1008AB AMSTERDAM<br />
+                Kennedylaan 19<br />
+                2517JK The Hague<br />
                 {t('foundationPage.addressCountry')}<br />
               </p>
               <p>
