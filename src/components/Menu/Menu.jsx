@@ -118,6 +118,12 @@ function Menu() {
               <img src="/img/icon-menu-arrow-down.svg" alt=""/>
               <ul className="menu__main__submenu menu__main__submenu--small">
                 <li onClick={() => i18n.changeLanguage('en-US')}><img className="menu-flag" src="img/flags/US.svg" alt="en-US"/></li>
+                <li onClick={() => i18n.changeLanguage('cn')}><img className="menu-flag" src="img/flags/CN.svg" alt="cn"/></li>
+                <li onClick={() => i18n.changeLanguage('de')}><img className="menu-flag" src="img/flags/DE.svg" alt="de"/></li>
+                <li onClick={() => i18n.changeLanguage('es')}><img className="menu-flag" src="img/flags/ES.svg" alt="es"/></li>
+                <li onClick={() => i18n.changeLanguage('fr')}><img className="menu-flag" src="img/flags/FR.svg" alt="fr"/></li>
+                <li onClick={() => i18n.changeLanguage('kr')}><img className="menu-flag" src="img/flags/KR.svg" alt="kr"/></li>
+                <li onClick={() => i18n.changeLanguage('pt')}><img className="menu-flag" src="img/flags/PT.svg" alt="pt"/></li>
                 {/* <li onClick={() => i18n.changeLanguage('pt- BR')}><img className="menu-flag" src="img/flags/BR.svg" alt="pt-BR"/></li> */}
               </ul>
             </li>
