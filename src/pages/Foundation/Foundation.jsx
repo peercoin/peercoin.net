@@ -20,8 +20,9 @@ function Foundation() {
           <div className="row">
             <div className="col">
               <h2 className="title title--green title--left">{t('foundationPage.missionStatementTitle')}</h2>
-              <p>{t('foundationPage.missionStatementText')}</p>
-              
+              <p>{t('foundationPage.missionStatementText1')}</p>
+              <p>{t('foundationPage.missionStatementText2')}</p>
+
               <h2 className="title title--green title--left">{t('foundationPage.technicalSupportTitle')}</h2>
               <p>{t('foundationPage.technicalSupportText')}</p>
               <p>
