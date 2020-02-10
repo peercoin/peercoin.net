@@ -69,7 +69,6 @@ function Index() {
             <p>{renderHTML(t('indexPage.trustlessText1'))}</p>
             <p>{renderHTML(t('indexPage.trustlessText2'))}</p>
             <p>{renderHTML(t('indexPage.trustlessText3'))}</p>
-            <p>{renderHTML(t('indexPage.trustlessText4'))}</p>
           </div>
           <img className="home-description__img" src="/img/animations/trustless-base-layer.svg" alt="" />
         </section>

@@ -20,8 +20,9 @@ function Foundation() {
           <div className="row">
             <div className="col">
               <h2 className="title title--green title--left">{t('foundationPage.missionStatementTitle')}</h2>
-              <p>{t('foundationPage.missionStatementText')}</p>
-              
+              <p>{t('foundationPage.missionStatementText1')}</p>
+              <p>{t('foundationPage.missionStatementText2')}</p>
+
               <h2 className="title title--green title--left">{t('foundationPage.technicalSupportTitle')}</h2>
               <p>{t('foundationPage.technicalSupportText')}</p>
               <p>
@@ -30,7 +31,7 @@ function Foundation() {
               {t('foundationPage.generalFundBtcAddress')} <b>376NhxVL1LFBFndHNx9k7hvwvUzq6RZiPT </b>
               <a target="_blank" rel="noopener noreferrer" href="https://www.blockchain.com/btc/address/376NhxVL1LFBFndHNx9k7hvwvUzq6RZiPT">[ {t('foundationPage.viewOnExplorer')} ]</a>
               <br />
-              {t('foundationPage.exchangeBtcAddress')} <b>3NtJTUyXuH8KJj4BXJJxtQS7SPnLNm711CM</b>
+              {t('foundationPage.exchangeBtcAddress')} <b>3NtJTUyXuH8KJj4BXJJxtQS7SPnLNm711C</b>
               </p>
             </div>
             <div className="col col--small">
