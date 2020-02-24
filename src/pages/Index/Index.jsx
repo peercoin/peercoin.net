@@ -2,6 +2,7 @@ import React, { Suspense, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Collapsible from 'react-collapsible';
 import renderHTML from 'react-render-html';
+import YouTube from 'react-youtube';
 import './Index.scss';
 import Menu from '../../components/Menu/Menu';
 import LatestNews from '../../components/LatestNews/LatestNews';
@@ -9,6 +10,8 @@ import Footer from '../../components/Footer/Footer';
 import Loader from '../../components/Loader/Loader';
 
 function Index() {
+  const youtubeVideos = ['x8KAsime9EI', 'ns0RJ_K8baQ', 'V2469sPrz1w', 'uhVJKAvl1qA', 'HbnSlQbUf0U'];
+
   const { t } = useTranslation();
   const [ cs1, setCs1 ] = useState(true);
   const [ cs2, setCs2 ] = useState(false);
@@ -16,8 +19,11 @@ function Index() {
   const [ cs4, setCs4 ] = useState(false);
   const [ cs5, setCs5 ] = useState(false);
   const [ cs6, setCs6 ] = useState(false);
+  const [ currentVideo, setCurrentVideo ] = useState(0);
+  const [ isVideoPristine, setIsVideoPristine ] = useState(true);
 
   const sets = [setCs1, setCs2, setCs3, setCs4, setCs5, setCs6];
+
 
   async function handleOpen(num) {
     sets.forEach((set, i) => {
@@ -27,6 +33,20 @@ function Index() {
         set(false);
       }
     });
+  }
+
+  async function onYoutubeEnd() {
+    if (currentVideo === youtubeVideos.length - 1) {
+      return;
+    }
+
+    await setIsVideoPristine(false);
+    await setCurrentVideo(currentVideo + 1);
+  }
+
+  async function setVideo(index) {
+    await setIsVideoPristine(false);
+    await setCurrentVideo(index);
   }
 
   return (
@@ -45,6 +65,29 @@ function Index() {
     </div>
     <div className="main">
       <div className="container">
+        <section className="home-youtube">
+          <h1 class="title title--green">Peercoin Primer</h1>
+          <YouTube
+            opts={{
+              playerVars: {
+                modestbranding: 1,
+                autoplay: isVideoPristine ? 0 : 1
+              }
+            }}
+            videoId={youtubeVideos[currentVideo]}
+            className="home-youtube__video__player"
+            containerClassName="home-youtube__video"
+            onEnd={onYoutubeEnd}
+          />
+          <div className="video-buttons">
+            <button className={currentVideo === 0 ? 'btn btn--selected' : 'btn'} onClick={() => setVideo(0)}>Part 1: Launch</button>
+            <button className={currentVideo === 1 ? 'btn btn--selected' : 'btn'} onClick={() => setVideo(1)}>Part 2: Security</button>
+            <button className={currentVideo === 2 ? 'btn btn--selected' : 'btn'} onClick={() => setVideo(2)}>Part 3: Benefits</button>
+            <button className={currentVideo === 3 ? 'btn btn--selected' : 'btn'} onClick={() => setVideo(3)}>Part 4: Economics</button>
+            <button className={currentVideo === 4 ? 'btn btn--selected' : 'btn'} onClick={() => setVideo(4)}>Part 5: Mission</button>
+          </div>
+        </section>
+
         <section className="home-description">
           <div className="home-description__text">
             <h2 className="home-description__text__title">{t('indexPage.efficientEnergyTitle')}</h2>
