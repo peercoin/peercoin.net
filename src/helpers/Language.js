@@ -20,7 +20,7 @@ export function getCurrentLanguage() {
     return i18n.language;
   }
 
-  return languages[languages.length - 1];
+  return languages[0];
 }
 
 export function getCurrentFlag() {
