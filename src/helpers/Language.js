@@ -3,7 +3,13 @@ import i18n from 'i18next';
 export function getAvailableLanguages() {
   return [
     'en-US',
-    // 'pt-BR'
+    'pt-BR',
+    'cn',
+    'de',
+    'es',
+    'fr',
+    'kr',
+    'pt',
   ];
 }
 
@@ -19,16 +25,10 @@ export function getCurrentLanguage() {
 
 export function getCurrentFlag() {
   let lang = getCurrentLanguage();
-  let flagName = '';
 
-  const map = {
-    en: 'US',
-    pt: 'BR',
-  };
-
-  if (map[lang.split('-')[0]] !== undefined) {
-    return map[lang.split('-')[0]];
+  if (lang.includes('-')) {
+    return lang.split('-')[1].toUpperCase();
   }
 
-  return lang.split('-')[1].toString().toUpperCase();
+  return lang.toUpperCase();
 }
