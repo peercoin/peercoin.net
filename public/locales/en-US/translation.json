@@ -310,6 +310,14 @@
       "action1": "Get Started",
       "action2": "What is Peercoin?"
     },
+    "youtubeSection": {
+      "subText": "The Peercoin Primer is a short five part video series covering the basic fundamentals of Peercoin. Learn about important topics such as Peercoin's initial distribution, how proof of stake consensus works and the many benefits it offers, Peercoin's economic model and its use of limited inflation to produce sustainable security. Finally, we'll explain Peercoin's long-term mission as a trustless backbone cryptocurrency.",
+      "btnVideo1": "Part 1: Launch",
+      "btnVideo2": "Part 2: Security",
+      "btnVideo3": "Part 3: Benefits",
+      "btnVideo4": "Part 4: Economics",
+      "btnVideo5": "Part 5: Mission"
+    },
     "efficientEnergyTitle": "Efficient Security",
     "efficientEnergyText1": "Peercoin (PPC) first came online in 2012, making it one of the earliest pioneering blockchains. The key innovation of Peercoin is its invention of proof-of-stake, an alternative consensus protocol to Bitcoin’s proof-of-work.",
     "efficientEnergyText2": "Proof-of-work blockchains are secured by proving the consumption of a costly limited resource: electricity. Proof-of-stake replaces this expensive security protocol by utilizing an alternative scarce resource: time.",

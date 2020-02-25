@@ -26,6 +26,14 @@
   border-bottom: 4px solid $color-grey-lighter;
   padding-bottom: 50px;
 
+  &__subtext {
+    font-weight: 300;
+    margin-bottom: 50px;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    margin-top: -10px;
+  }
+
   &__video {
     margin-bottom: 50px;
     

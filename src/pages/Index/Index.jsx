@@ -10,7 +10,7 @@ import Footer from '../../components/Footer/Footer';
 import Loader from '../../components/Loader/Loader';
 
 function Index() {
-  const youtubeVideos = ['x8KAsime9EI', 'ns0RJ_K8baQ', 'V2469sPrz1w', 'uhVJKAvl1qA', 'HbnSlQbUf0U'];
+  const youtubeVideos = ['x8KAsime9EI', 'L5RW1-6w7i4', 'V2469sPrz1w', 'uhVJKAvl1qA', 'HbnSlQbUf0U'];
 
   const { t } = useTranslation();
   const [ cs1, setCs1 ] = useState(true);
@@ -66,7 +66,8 @@ function Index() {
     <div className="main">
       <div className="container">
         <section className="home-youtube">
-          <h1 class="title title--green">Peercoin Primer</h1>
+          <h1 className="title title--green">Peercoin Primer</h1>
+          <p className="home-youtube__subtext">{t('indexPage.youtubeSection.subText')}</p>
           <YouTube
             opts={{
               playerVars: {
@@ -80,11 +81,11 @@ function Index() {
             onEnd={onYoutubeEnd}
           />
           <div className="video-buttons">
-            <button className={currentVideo === 0 ? 'btn btn--selected' : 'btn'} onClick={() => setVideo(0)}>Part 1: Launch</button>
-            <button className={currentVideo === 1 ? 'btn btn--selected' : 'btn'} onClick={() => setVideo(1)}>Part 2: Security</button>
-            <button className={currentVideo === 2 ? 'btn btn--selected' : 'btn'} onClick={() => setVideo(2)}>Part 3: Benefits</button>
-            <button className={currentVideo === 3 ? 'btn btn--selected' : 'btn'} onClick={() => setVideo(3)}>Part 4: Economics</button>
-            <button className={currentVideo === 4 ? 'btn btn--selected' : 'btn'} onClick={() => setVideo(4)}>Part 5: Mission</button>
+            <button className={currentVideo === 0 ? 'btn btn--selected' : 'btn'} onClick={() => setVideo(0)}>{t('indexPage.youtubeSection.btnVideo1')}</button>
+            <button className={currentVideo === 1 ? 'btn btn--selected' : 'btn'} onClick={() => setVideo(1)}>{t('indexPage.youtubeSection.btnVideo2')}</button>
+            <button className={currentVideo === 2 ? 'btn btn--selected' : 'btn'} onClick={() => setVideo(2)}>{t('indexPage.youtubeSection.btnVideo3')}</button>
+            <button className={currentVideo === 3 ? 'btn btn--selected' : 'btn'} onClick={() => setVideo(3)}>{t('indexPage.youtubeSection.btnVideo4')}</button>
+            <button className={currentVideo === 4 ? 'btn btn--selected' : 'btn'} onClick={() => setVideo(4)}>{t('indexPage.youtubeSection.btnVideo5')}</button>
           </div>
         </section>
 
