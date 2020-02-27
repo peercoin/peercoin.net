@@ -17,6 +17,7 @@
     "react-scripts": "3.0.1",
     "react-transition-group": "^4.2.2",
     "react-twitter-embed": "^2.0.8",
+    "react-youtube": "^7.9.0",
     "smoothscroll-polyfill": "^0.4.4"
   },
   "scripts": {
