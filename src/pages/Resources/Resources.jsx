@@ -150,6 +150,11 @@ function Resources() {
               <img className="blocks-list__block__img" src="/img/exchanges/bcbitcoin_green.png" alt="" />
               <div className="blocks-list__block__type">{t('resourcesPage.exchangesType2')}</div>
             </a>
+											<a href="https://swapspace.co/" className="blocks-list__block">
+              <h4 className="blocks-list__block__title">SwapSpace</h4>
+              <img className="blocks-list__block__img" src="/img/exchanges/swapspace_green.png" alt="" />
+              <div className="blocks-list__block__type">{t('resourcesPage.exchangesType2')}</div>
+            </a>
             <a href="https://coinpaprika.com/coin/ppc-peercoin/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">More Exchanges</h4>
               <img className="blocks-list__block__img" src="/img/exchanges/coinpaprika_green.png" alt="" />
