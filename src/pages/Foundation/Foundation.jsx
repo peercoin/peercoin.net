@@ -43,7 +43,7 @@ function Foundation() {
                 {t('foundationPage.addressCountry')}<br />
               </p>
               <p>
-                <a href="mailto:foundation@peercoin.net">foundation@peercoin.net</a><br />
+                <a href="mailto:foundation@peercoin.net">foundation AT peercoin DOT net</a><br />
                 RSIN: 858715958 
               </p>
             </div>
