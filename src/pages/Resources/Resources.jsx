@@ -187,14 +187,14 @@ function Resources() {
               <h4 className="blocks-list__block__title">CoinExplorer</h4>
               <img className="blocks-list__block__img" src="/img/explorers/coinexplorer_green.png" alt="" />
             </a>
-            <a href="https://explorer.peercoin.net/" className="blocks-list__block">
+            <a href="https://blockbook.peercoin.net/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">PeerExplorer</h4>
               <img className="blocks-list__block__img" src="/img/explorers/peercoin_green.png" alt="" />
             </a>
           </div>
           <h3 className="title title--green">{t('resourcesPage.explorersTestnet')}</h3>
           <div className="blocks-list">
-            <a href="https://testnet-explorer.peercoin.net/" className="blocks-list__block">
+            <a href="https://tblockbook.peercoin.net/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">PeerExplorer</h4>
               <img className="blocks-list__block__img" src="/img/explorers/peercoin_green.png" alt="" />
             </a>
