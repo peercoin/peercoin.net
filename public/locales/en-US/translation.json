@@ -288,13 +288,12 @@
     "sectionLinux": {
       "title1": "Linux",
       "text1": "Unpack <code className=\"green\">{{file}}</code>",
-      "text2": "Run <code className=\"green\">bin/32/peercoin-qt</code> (requires libqt4-gui)",
+      "text2": "Run <code className=\"green\">bin/peercoin-qt</code>",
       "title2": "Daemon",
       "text3": "Create <code className=\"green\">peercoin.conf</code> in <code className=\"green\">~/.peercoin</code>",
-      "text4": "Run <code className=\"green\">bin/32/peercoind</code>",
+      "text4": "Run <code className=\"green\">bin/peercoind</code>",
       "text5": "Your wallet is located in <code>~/.peercoin</code>.",
-      "text6": "<i>Note: 64 bit binaries available in <code>bin/64/[peercoin-qt,peercoind]</code>.</i>",
-      "text7": "Additional help can be found in the <a href=\"https://docs.peercoin.net/\">Peercoin Documentation</a> or by asking on our <a href=\"https://talk.peercoin.net/\">Forums</a>."
+      "text6": "Additional help can be found in the <a href=\"https://docs.peercoin.net/\">Peercoin Documentation</a> or by asking on our <a href=\"https://talk.peercoin.net/\">Forums</a>."
     },
     "paperWalletTitle": "Paper Wallet",
     "paperWalletSubtitle1": "Paper Wallet",
