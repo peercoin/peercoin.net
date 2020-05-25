@@ -345,17 +345,6 @@ function Resources() {
           </h3>
           <div className="blocks-list">
             <a
-              href="https://bitinfocharts.com/peercoin/explorer/"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">BitInfoCharts</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/explorers/bitinfocharts_green.png"
-                alt=""
-              />
-            </a>
-            <a
               href="https://chainz.cryptoid.info/ppc/"
               className="blocks-list__block"
             >
