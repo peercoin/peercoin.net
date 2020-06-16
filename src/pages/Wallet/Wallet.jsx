@@ -227,6 +227,15 @@ function Wallet() {
                       </li>
                       <li>{renderHTML(t("walletPage.sectionLinux.text2"))}</li>
                     </ul>
+                    <ul>
+                      <li>{renderHTML(t("walletPage.sectionLinux.titleapt"))}</li> 
+                      <li><code className="green">sudo apt-get update</code></li>
+                      <li><code className="green">sudo apt-get install apt-transport-https</code></li>
+                      <li><code className="green">sudo sh -c &quot;echo 'deb https://peercoin.github.io/deb-repo/ buster main' &gt;&gt; /etc/apt/sources.list.d/peercoin.list&quot;</code></li>
+                      <li><code className="green">wget -O - https://peercoin.github.io/deb-repo/peercoin.apt.key | sudo apt-key add -</code></li>
+                      <li><code className="green">sudo apt-get update</code></li>
+                      <li><code className="green">sudo apt-get install peercoin-qt</code></li>
+                    </ul>
                     <h2>{t("walletPage.sectionLinux.title2")}</h2>
                     <ul>
                       <li>{renderHTML(t("walletPage.sectionLinux.text3"))}</li>

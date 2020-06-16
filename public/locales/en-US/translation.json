@@ -289,6 +289,7 @@
       "title1": "Linux",
       "text1": "Unpack <code className=\"green\">{{file}}</code>",
       "text2": "Run <code className=\"green\">bin/peercoin-qt</code>",
+      "titleapt": "Peercoin APT repository for Debian Buster",
       "title2": "Daemon",
       "text3": "Create <code className=\"green\">peercoin.conf</code> in <code className=\"green\">~/.peercoin</code>",
       "text4": "Run <code className=\"green\">bin/peercoind</code>",
