@@ -303,6 +303,20 @@ function Resources() {
               </div>
             </a>
             <a
+              href="https://www.coinspot.com.au/"
+              className="blocks-list__block"
+            >
+              <h4 className="blocks-list__block__title">CoinSpot</h4>
+              <img
+                className="blocks-list__block__img"
+                src="/img/exchanges/coinspot_green.png"
+                alt=""
+              />
+              <div className="blocks-list__block__type">
+                {t("resourcesPage.exchangesType1")}
+              </div>
+            </a>
+            <a
               href="https://coinpaprika.com/coin/ppc-peercoin/"
               className="blocks-list__block"
             >
