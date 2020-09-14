@@ -330,20 +330,6 @@ function Resources() {
                 {t("resourcesPage.exchangesType3")}
               </div>
             </a>
-            <a
-              href="https://coinmarketcap.com/currencies/peercoin/"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">More Exchanges</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/exchanges/coinmarketcap_green.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("resourcesPage.exchangesType3")}
-              </div>
-            </a>
           </div>
         </div>
       </div>
