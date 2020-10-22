@@ -16,8 +16,8 @@ function Wallet() {
 
   useEffect(() => {
     fetch("/data/wallets.json")
-      .then(res => res.json())
-      .then(jsonData => {
+      .then((res) => res.json())
+      .then((jsonData) => {
         console.log(jsonData);
         setData(jsonData);
       });
@@ -48,7 +48,7 @@ function Wallet() {
       return "";
     }
 
-    const osData = data.filter(item => item.os === os)[0];
+    const osData = data.filter((item) => item.os === os)[0];
     return osData.link.split("/")[osData.link.split("/").length - 1];
   }
 
@@ -86,7 +86,7 @@ function Wallet() {
           <div className="desktop-downloads">
             <div className="desktop-downloads__items">
               {data.length > 0 &&
-                data.map(item => (
+                data.map((item) => (
                   <div className="desktop-downloads__items__item">
                     <a
                       href={item.link}
@@ -140,7 +140,7 @@ function Wallet() {
                       <li>
                         {renderHTML(
                           t("walletPage.sectionWindows.text1", {
-                            file: getFilename("Windows")
+                            file: getFilename("Windows"),
                           })
                         )}
                       </li>
@@ -186,7 +186,7 @@ function Wallet() {
                       <li>
                         {renderHTML(
                           t("walletPage.sectionMac.text1", {
-                            file: getFilename("macOS")
+                            file: getFilename("macOS"),
                           })
                         )}
                       </li>
@@ -221,7 +221,7 @@ function Wallet() {
                       <li>
                         {renderHTML(
                           t("walletPage.sectionLinux.text1", {
-                            file: getFilename("Linux")
+                            file: getFilename("Linux"),
                           })
                         )}
                       </li>
@@ -277,20 +277,6 @@ function Wallet() {
               />
               <div className="blocks-list__block__type">
                 {t("walletPage.type1")}
-              </div>
-            </a>
-            <a
-              href="https://www.cryptonator.com/"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">Cryptonator</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/wallets/cryptonator.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("walletPage.type2")}
               </div>
             </a>
             <a href="http://uberpay.io/" className="blocks-list__block">
