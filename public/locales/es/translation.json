@@ -123,7 +123,7 @@
     "generalFundPpcAddress": "General Fund - PPC Donation Address:",
     "generalFundBtcAddress": "General Fund - BTC Donation Address:",
     "exchangeBtcAddress": "Exchange Listing Fund - BTC Donation Address:",
-    "viewOnExplorer":"View on explorer",
+    "viewOnExplorer": "View on explorer",
     "contactUsTitle": "Contáctenos",
     "addressCountry": "The Netherlands"
   },
@@ -214,7 +214,6 @@
     "explorersMainnet": "Mainnet",
     "explorersTestnet": "Testnet",
     "toolsTitle": "Recursos",
-    "toolsInflation": "Inflación",
     "toolsMempool": "Mempool",
     "toolsEnergyStatistics": "Estadísticas energéticas",
     "toolsTestnetFaucet": "Testnet Faucet",
@@ -268,7 +267,7 @@
       "text4": "Create peercoin.conf in <code>%APPDATA%\\PPCoin</code>",
       "text5": "Correr <code>daemon\\peercoind</code>",
       "text6": "Su billetera se encuentra en <code>C:\\Users\\{username}\\AppData</code> (carpeta oculta).",
-      "text7": "Abra la carpeta co <code>Menú de inicio -> Ejecutar ...</code> (o presione <code>Winkey-R</code>), escriba <code>%APPDATA%\\PPCoin</code> en el campo, y presione Enter.", 
+      "text7": "Abra la carpeta co <code>Menú de inicio -> Ejecutar ...</code> (o presione <code>Winkey-R</code>), escriba <code>%APPDATA%\\PPCoin</code> en el campo, y presione Enter.",
       "text8": "Ayuda adicional se puede encontrar de peercoin en su <a href=\"https://docs.peercoin.net/\">Peercoin Documentation</a> o preguntando por nuestro <a href=\"https://talk.peercoin.net/\">foros</a>."
     },
     "sectionMac": {
@@ -317,7 +316,7 @@
     "userGovernanceText1": "En Peercoin, los propietarios de monedas (stakeholders) son quienes ejercen influencia sobre La red, produce nuevos bloques, y asegura la cadena. Las partes interesadas de Peercoin co-propietario de la cadena de bloques y decidir colectivamente su futuro a través de la votación de protocolo.",
     "userGovernanceText2": "La votación se lleva a cabo de la misma manera que se asegura Peercoin, a través de un proceso llamado Proof-of-stake, la acuñación de Las partes interesadas participan en la acuñación simplemente instalando la versión de Peercoin que soportan, cargando su billetera con PPC, y sosteniendo ellos mientras que ocasionalmente son seleccionados por el protocolo de Peercoin para acuñar el próximo Bloque en la cadena. Cada bloque acuñado recompensa a las partes interesadas con un nuevo PPC y un voto.",
     "userGovernanceText3": "Esto hace que Peercoin sea el primer blockchain capaz de permitir que sus reglas de protocolo ser gobernados directamente por sus usuarios, lo que hace que la red sea más descentralizada, Democrático, y fácilmente asegurado por personas de todo el mundo.",
-	"trustlessTitle": "Capa base sin confianza",
+    "trustlessTitle": "Capa base sin confianza",
     "trustlessText1": "Dado que el blockchain es inmutable por su propia naturaleza y todos los datos registrados se almacena para siempre, la hinchazón de la cadena se convierte en un problema creciente a un mayor uso niveles que dañan tanto la seguridad como la capacidad de la red para escalar.",
     "trustlessText2": "Para preservar la seguridad sin confianza de la cadena de bloques y garantizar su capacidad para escalar a los niveles de uso globales, los inventores de Peercoin adaptaron el blockchain y su economía para cumplir con el papel específico de la red de liquidación de capa base.",
     "trustlessText3": "Este rol enfoca el desarrollo de Peercoin en la modularidad, manteniendo el protocolo simple y Asegúrelo con la menor cantidad de funciones posible, mientras mantiene la cadena de bloques como una base Estable sobre la cual se puede construir cualquier número de capas adicionales en la parte superior.",

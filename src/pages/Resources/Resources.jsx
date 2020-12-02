@@ -405,13 +405,13 @@ function Resources() {
           </h2>
           <div className="blocks-list">
             <a
-              href="https://www.peercoinexplorer.net/inflation/"
+              href="https://www.peercoinexplorer.net/charts/"
               target="_blank"
               rel="noopener noreferrer"
               className="blocks-list__block"
             >
               <h4 className="blocks-list__block__title">
-                {t("resourcesPage.toolsInflation")}
+                {t("resourcesPage.toolsCharts")}
               </h4>
               <img
                 className="blocks-list__block__img"

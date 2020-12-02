@@ -123,7 +123,7 @@
     "generalFundPpcAddress": "Fond Général - Adresse Donation PPC:",
     "generalFundBtcAddress": "Fond Général - Adresse Donation BTC:",
     "exchangeBtcAddress": "Fond pour l'inscription aux Exchanges - Adresse Donation BTC:",
-    "viewOnExplorer":"View on explorer",
+    "viewOnExplorer": "View on explorer",
     "contactUsTitle": "Contactez-Nous",
     "addressCountry": "The Netherlands"
   },
@@ -214,7 +214,6 @@
     "explorersMainnet": "Réseau principal",
     "explorersTestnet": "Réseau de preuves",
     "toolsTitle": "Resources",
-    "toolsInflation": "Inflation",
     "toolsMempool": "Mempool",
     "toolsEnergyStatistics": "Energy Statistics",
     "toolsTestnetFaucet": "Testnet Faucet",
