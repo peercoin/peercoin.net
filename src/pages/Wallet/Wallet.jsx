@@ -329,17 +329,6 @@ function Wallet() {
                 {t("walletPage.type3")}
               </div>
             </a>
-            <a href="https://magnumwallet.co/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Magnum</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/wallets/magnum.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("walletPage.type2")}
-              </div>
-            </a>
             <a href="https://www.abra.com/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">Abra</h4>
               <img
