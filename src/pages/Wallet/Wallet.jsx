@@ -351,6 +351,17 @@ function Wallet() {
                 {t("walletPage.type2")}
               </div>
             </a>
+            <a href="https://www.coinomi.com/" className="blocks-list__block">
+              <h4 className="blocks-list__block__title">Coinomi</h4>
+              <img
+                className="blocks-list__block__img"
+                src="/img/wallets/coinomi.png"
+                alt=""
+              />
+              <div className="blocks-list__block__type">
+                {t("walletPage.type2")}
+              </div>
+            </a>
           </div>
         </div>
       </div>
