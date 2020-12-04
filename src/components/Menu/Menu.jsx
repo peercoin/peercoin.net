@@ -248,7 +248,7 @@ function Menu() {
                 </li>
                 <li>
                   <Link to="/contribute" className="submenu">
-                    <img src="/img/icons/contact_green.png" alt="" />
+                    <img src="/img/icons/pickaxe_green.png" alt="" />
                     {t("menuComponent.links.project.contribute")}
                   </Link>
                 </li>
