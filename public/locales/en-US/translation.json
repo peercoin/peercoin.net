@@ -37,7 +37,8 @@
         "projects": "Projects",
         "blog": "Blog",
         "peercoinFoundation": "Peercoin Foundation",
-        "contactUs": "Contact Us"
+        "contactUs": "Contact Us",
+        "contribute": "Contribute"
       },
       "wallet": {
         "title": "Wallet"
