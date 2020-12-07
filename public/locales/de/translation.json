@@ -128,6 +128,27 @@
     "contactUsTitle": "Kontakt",
     "addressCountry": "The Netherlands"
   },
+  "contributePage": {
+    "contributeTitle": "Mitwirken ",
+    "conributeDescription": "Wie Sie Peercoin besser machen können",
+    "contributeIntro": "Peercoin ist ein quelloffenes Projekt, und Sie können uns jederzeit helfen es besser zu machen! Es gibt viele Arten zu Helfen:",
+    "header": {
+      "reportBugs": "Fehler melden",
+      "helpOthers": "Anderen bei ihren Fehlermeldungen helfen",
+      "translate": "Übersetzen Sie Peercoin in Ihre Sprache",
+      "write": "Code schreiben"
+    },
+    "content": {
+      "reportBugs": "If you find bugs in Peercoin client, we need you to file them in our issue tracker. \n Your problem may have already been reported, so it’s a good idea to check to avoid filing a duplicate. \n You have suggestions for new features or enhancements? \n Open an issue at our GitHub.",
+      "helpOthers": "You can help the development team keep up with the bug reports by closing duplicates, helping to clarify reporters problems, and confirming that you can reproduce bugs. Our Discord or our forums would be a good start.",
+      "translate": "Peercoin has been translated into dozens of languages, but if the translation for your language doesn’t exist or is out of date, you can help bring Peercoin to entire new populations simply by translating some text.",
+      "write": "We welcome code contributions from anyone, whether you have a one-line fix or a big idea, a lot of experience programming or none at all."
+    },
+    "buttons": {
+      "help": "Forum",
+      "translate": "Transifex"
+    }
+  },
   "contactPage": {
     "contactTitle": "Kontakt",
     "contactDescription": "Bei allgemeinen Anfragen, wenden Sie sich an die Peercoin Foundation - wir antworten Ihnen gerne!",
