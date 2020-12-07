@@ -36,8 +36,8 @@ function Contribute() {
                 {t("contributePage.header.helpOthers")}
               </h2>
               <p>{t("contributePage.content.helpOthers")}</p>
-              <a href="https://github.com/peercoin/" className="btn btn--green">
-                {t("resourcesPage.contributeBtn")}
+              <a href="https://talk.peercoin.net/" className="btn btn--green">
+                {t("contributePage.buttons.help")}
               </a>
             </div>
           </div>
@@ -47,8 +47,11 @@ function Contribute() {
                 {t("contributePage.header.translate")}
               </h2>
               <p>{t("contributePage.content.translate")}</p>
-              <a href="https://github.com/peercoin/" className="btn btn--green">
-                {t("resourcesPage.contributeBtn")}
+              <a
+                href="https://www.transifex.com/peercoin-foundation/public/"
+                className="btn btn--green"
+              >
+                {t("contributePage.buttons.translate")}
               </a>
             </div>
             <div className="col">

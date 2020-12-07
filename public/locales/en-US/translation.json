@@ -141,9 +141,13 @@
     },
     "content": {
       "reportBugs": "If you find bugs in Peercoin client, we need you to file them in our issue tracker. \n Your problem may have already been reported, so it’s a good idea to check to avoid filing a duplicate. \n You have suggestions for new features or enhancements? \n Open an issue at our GitHub.",
-      "helpOthers": "You can help the development team keep up with the bug reports by closing duplicates, helping to clarify reporters problems, and confirming that you can reproduce bugs. Learn more about [link here]",
-      "translate": "Peercoin has been translated into dozens of languages, but if the translation for your language doesn’t exist or is out of date, you can help bring Peercoin to entire new populations simply by translating some text. Learn [link here]",
-      "write": "We welcome code contributions from anyone, whether you have a one-line fix or a big idea, a lot of experience programming or none at all. Learn more about [link here]"
+      "helpOthers": "You can help the development team keep up with the bug reports by closing duplicates, helping to clarify reporters problems, and confirming that you can reproduce bugs. Our Discord or our forums would be a good start.",
+      "translate": "Peercoin has been translated into dozens of languages, but if the translation for your language doesn’t exist or is out of date, you can help bring Peercoin to entire new populations simply by translating some text.",
+      "write": "We welcome code contributions from anyone, whether you have a one-line fix or a big idea, a lot of experience programming or none at all."
+    },
+    "buttons": {
+      "help": "Forums",
+      "translate": "Transifex"
     }
   },
   "contactPage": {
