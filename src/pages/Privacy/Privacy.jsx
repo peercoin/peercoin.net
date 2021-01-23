@@ -13,9 +13,6 @@ function Privacy() {
       <Menu />
       <div className="hero hero--thin">
         <h1 className="hero__title">Privacy Policy</h1>
-        <p className="hero__description">
-          Contact Us description
-        </p>
       </div>
 
       <div className="PrivacyPage main text-sections">
@@ -42,8 +39,8 @@ function Privacy() {
           <h1>Where can you find more information about cookies </h1>
           <p>You can learn more about cookies and the following third-party websites:</p>
           <ul>
-            <li>AllAboutCookies: http://www.allaboutcookies.org/</li>
-            <li>Network Advertising Initiative: http://www.networkadvertising.org/</li>
+            <li>AllAboutCookies: https://www.allaboutcookies.org/</li>
+            <li>Network Advertising Initiative: https://www.networkadvertising.org/</li>
           </ul>
 
           <h1>Changes to the Peercoin Privacy Policy</h1>
