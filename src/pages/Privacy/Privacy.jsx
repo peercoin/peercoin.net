@@ -13,9 +13,6 @@ function Privacy() {
       <Menu />
       <div className="hero hero--thin">
         <h1 className="hero__title">Privacy Policy</h1>
-        <p className="hero__description">
-          Contact Us description
-        </p>
       </div>
 
       <div className="PrivacyPage main text-sections">
