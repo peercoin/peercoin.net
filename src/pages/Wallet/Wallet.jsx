@@ -279,7 +279,7 @@ function Wallet() {
                 {t("walletPage.type1")}
               </div>
             </a>
-            <a href="http://uberpay.io/" className="blocks-list__block">
+            <a href="https://uberpay.io/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">UberPay</h4>
               <img
                 className="blocks-list__block__img"
