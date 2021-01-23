@@ -298,7 +298,7 @@ function Resources() {
               href="https://coinpaprika.com/coin/ppc-peercoin/"
               className="blocks-list__block"
             >
-              <h4 className="blocks-list__block__title">More Exchanges</h4>
+              <h4 className="blocks-list__block__title">CoinPaprika</h4>
               <img
                 className="blocks-list__block__img"
                 src="/img/exchanges/coinpaprika_green.png"
