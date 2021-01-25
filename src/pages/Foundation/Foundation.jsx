@@ -64,13 +64,15 @@ function Foundation() {
                   3NtJTUyXuH8KJj4BXJJxtQS7SPnLNm711C
                 </a>
                 <br />
-                Fiat Donations - <b>USD/EUR</b> by <b>Credit/Debit/Wire</b>:{" "}
+                {t("foundationPage.openCollectiveNoteFront")} -{" "}
+                <strong>USD/EUR</strong>
+                {t("foundationPage.openCollectiveNoteMiddle")} -{" "}
+                <strong>{t("foundationPage.openCollectiveNoteEnd")}: </strong>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://opencollective.com/peercoin"
                 >
-                  {" "}
                   opencollective.com/peercoin
                 </a>
               </p>

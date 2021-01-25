@@ -126,6 +126,9 @@
     "generalFundBtcAddress": "General Fund - BTC Donation Address:",
     "exchangeBtcAddress": "Exchange Listing Fund - BTC Donation Address:",
     "viewOnExplorer": "View on explorer",
+    "openCollectiveNoteFront": "Fiat Donations",
+    "openCollectiveNoteMiddle": " by ",
+    "openCollectiveNoteEnd": "Credit/Debit/Wire",
     "contactUsTitle": "Contact Us",
     "addressCountry": "The Netherlands"
   },
