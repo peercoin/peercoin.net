@@ -284,7 +284,7 @@ function Resources() {
               </div>
             </a>
             <a href="https://swapzone.io/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">CoinSwap</h4>
+              <h4 className="blocks-list__block__title">Swapzone</h4>
               <img
                 className="blocks-list__block__img"
                 src="/img/exchanges/swapzone_green.png"
