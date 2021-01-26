@@ -66,7 +66,7 @@ function Foundation() {
                 <br />
                 {t("foundationPage.openCollectiveNoteFront")} -{" "}
                 <strong>USD/EUR</strong>
-                {t("foundationPage.openCollectiveNoteMiddle")} -{" "}
+                {t("foundationPage.openCollectiveNoteMiddle")}
                 <strong>{t("foundationPage.openCollectiveNoteEnd")}: </strong>
                 <a
                   target="_blank"
