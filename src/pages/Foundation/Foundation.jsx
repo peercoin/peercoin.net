@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import { useTranslation } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 import "./Foundation.scss";
 import Menu from "../../components/Menu/Menu";
 import Footer from "../../components/Footer/Footer";
@@ -34,7 +34,9 @@ function Foundation() {
               </h2>
               <p>{t("foundationPage.technicalSupportText")}</p>
               <p>
-                {t("foundationPage.generalFundPpcAddress")}
+                <Trans i18nKey="foundationPage.generalFundPpcAddress">
+                  General Fund - <strong>PPC</strong> Donation Address
+                </Trans>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -44,7 +46,9 @@ function Foundation() {
                   p92W3t7YkKfQEPDb7cG9jQ6iMh7cpKLvwK
                 </a>
                 <br />
-                {t("foundationPage.generalFundBtcAddress")}
+                <Trans i18nKey="foundationPage.generalFundBtcAddress">
+                  General Fund - <strong>BTC</strong> Donation Address
+                </Trans>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -54,7 +58,9 @@ function Foundation() {
                   376NhxVL1LFBFndHNx9k7hvwvUzq6RZiPT
                 </a>
                 <br />
-                {t("foundationPage.exchangeBtcAddress")}
+                <Trans i18nKey="foundationPage.exchangeBtcAddress">
+                  Exchange Listing Fund - <strong>BTC</strong> Donation Address:
+                </Trans>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -64,15 +70,16 @@ function Foundation() {
                   3NtJTUyXuH8KJj4BXJJxtQS7SPnLNm711C
                 </a>
                 <br />
-                {t("foundationPage.openCollectiveNoteFront")} -{" "}
-                <strong>USD/EUR</strong>
-                {t("foundationPage.openCollectiveNoteMiddle")} -{" "}
-                <strong>{t("foundationPage.openCollectiveNoteEnd")}: </strong>
+                <Trans i18nKey="foundationPage.openCollectiveNote">
+                  Fiat Donations - <strong>USD/EUR</strong> by
+                  Credit/Debit/Wire:
+                </Trans>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://opencollective.com/peercoin"
                 >
+                  {" "}
                   opencollective.com/peercoin
                 </a>
               </p>
