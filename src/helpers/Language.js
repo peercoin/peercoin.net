@@ -10,6 +10,7 @@ export function getAvailableLanguages() {
     'fr',
     'kr',
     'pt',
+    'pl',
   ];
 }
 
