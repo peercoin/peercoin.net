@@ -167,17 +167,6 @@ function Resources() {
                 {t("resourcesPage.exchangesType1")}
               </div>
             </a>
-            <a href="https://www.livecoin.net/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Livecoin</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/exchanges/livecoin_green.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("resourcesPage.exchangesType1")}
-              </div>
-            </a>
             <a
               href="https://www.therocktrading.com/"
               className="blocks-list__block"
