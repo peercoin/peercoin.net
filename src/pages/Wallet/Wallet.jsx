@@ -234,7 +234,6 @@ function Wallet() {
                     </ul>
                     <p>{renderHTML(t("walletPage.sectionLinux.text5"))}</p>
                     <p>{renderHTML(t("walletPage.sectionLinux.text6"))}</p>
-                    <p>{renderHTML(t("walletPage.sectionLinux.text7"))}</p>
                   </div>
                 </div>
               </Collapsible>
