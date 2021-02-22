@@ -377,5 +377,8 @@
       "communityText2": "Wichtige Updates können Sie auch direkt auf Ihr Smartphone  bekommen über Plattformen wie <a href=\"https://blockfolio.com/\">Blockfolio</a>, <a href=\"https://delta.app/\">Delta</a>, und <a href=\"https://www.coingecko.com/\">CoinGecko</a>. Abonnieren Sie die News, um auf dem Laufenden zu bleiben."
     },
     "latestNewsTitle": "Aktuelles"
+  },
+  "notFoundPage": {
+    "title": "404 Angeforderte URL nicht gefunden"
   }
 }

@@ -386,5 +386,8 @@
       "communityText2": "Important updates can also be delivered directly to your mobile device through platforms like <a href=\"https://blockfolio.com/\">Blockfolio</a>, <a href=\"https://delta.app/\">Delta</a>, and <a href=\"https://www.coingecko.com/\">CoinGecko</a>. Subscribe to stay up to date with the latest news."
     },
     "latestNewsTitle": "Latest News"
+  },
+  "notFoundPage": {
+    "title": "404 Requested URL not found"
   }
 }
