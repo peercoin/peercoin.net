@@ -1,6 +1,5 @@
 import React, { Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
-import './NotFound.scss';
 import Menu from '../../components/Menu/Menu';
 import Loader from '../../components/Loader/Loader';
 
