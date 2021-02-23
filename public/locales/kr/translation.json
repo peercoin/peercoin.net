@@ -123,7 +123,7 @@
     "generalFundPpcAddress": "피어코인 재단 다중 서명 기부 주소:",
     "generalFundBtcAddress": "피어코인 재단 비트코인 다중 서명 기부 주소:",
     "exchangeBtcAddress": "Exchange Listing Fund - BTC Donation Address:",
-    "viewOnExplorer":"View on explorer",
+    "viewOnExplorer": "View on explorer",
     "contactUsTitle": "문의하기",
     "addressCountry": "The Netherlands"
   },
@@ -214,7 +214,6 @@
     "explorersMainnet": "메인넷",
     "explorersTestnet": "테스트넷",
     "toolsTitle": "리소스",
-    "toolsInflation": "인플레이션",
     "toolsMempool": "메모리풀",
     "toolsEnergyStatistics": "에너지 통계",
     "toolsTestnetFaucet": "테스트넷 Faucet",
@@ -242,7 +241,7 @@
     "brandIdentityGreen": "녹색",
     "brandIdentityFont": "피어코인 텍스트 로고는 아래 폰트를 사용합니다",
     "brandIdentityFontFont": "폰트",
-    "brandIdentityFontType": "타입,
+    "brandIdentityFontType": "타입",
     "brandIdentityFontWebsite": "웹사이트",
     "brandIdentityFontRoboto": " 피어코인 웹사이트와 지갑 컨텐츠는 Roboto 폰트를 사용합니다."
   },
@@ -265,10 +264,10 @@
       "text2": "기본 설치 폴더는 <code>C:\\Program Files\\PPCoin 또는 C:\\Program Files\\Peercoin</code>",
       "text3": "<code>peercoin-qt</code> 또는 <code>peercoin</code> 을 시작 메뉴 또는 설치 디렉토리에서 실행하세요",
       "title2": "데몬",
-      "text4": "ppcoin.conf 를 <code>%APPDATA%\PPCoin</code> 에 생성",
+      "text4": "ppcoin.conf 를 <code>%APPDATA%PPCoin</code> 에 생성",
       "text5": "<code>daemon\\peercoind</code> 실행",
-      "text6": "당신의 지갑은 <code>C:\Users\&lt;username&gt;\AppData</code> 에 있습니다(숨김 폴더)..",
-      "text7": "<code>시작 메뉴 -> 실행...</code> (또는 단축키 <code>Winkey-R</code>) 메뉴를 선택하여 <code>%APPDATA%\PPCoin</code> 라고 입력 후 엔터를 클릭해서 폴더를 엽니다.",
+      "text6": "당신의 지갑은 <code>C:Users&lt;username&gt;AppData</code> 에 있습니다(숨김 폴더)..",
+      "text7": "<code>시작 메뉴 -> 실행...</code> (또는 단축키 <code>Winkey-R</code>) 메뉴를 선택하여 <code>%APPDATA%PPCoin</code> 라고 입력 후 엔터를 클릭해서 폴더를 엽니다.",
       "text8": "추가적인 도움은 피어코인 <a href=\"https://docs.peercoin.net/\">문서</a> 또는 <a href=\"https://talk.peercoin.net/\">포럼</a> 에서 찾을 수 있습니다."
     },
     "sectionMac": {

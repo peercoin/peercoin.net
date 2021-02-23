@@ -156,33 +156,11 @@ function Resources() {
                 {t("resourcesPage.exchangesType1")}
               </div>
             </a>
-            <a href="https://www.coinegg.com/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">CoinEgg</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/exchanges/coinegg_green.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("resourcesPage.exchangesType1")}
-              </div>
-            </a>
             <a href="https://hitbtc.com/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">HitBTC</h4>
               <img
                 className="blocks-list__block__img"
                 src="/img/exchanges/hitbtc_green.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("resourcesPage.exchangesType1")}
-              </div>
-            </a>
-            <a href="https://www.livecoin.net/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Livecoin</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/exchanges/livecoin_green.png"
                 alt=""
               />
               <div className="blocks-list__block__type">
@@ -269,28 +247,6 @@ function Resources() {
                 {t("resourcesPage.exchangesType2")}
               </div>
             </a>
-            <a href="https://i2trading.com/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">i2 Trading</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/exchanges/i2trading_green.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("resourcesPage.exchangesType1")}
-              </div>
-            </a>
-            <a href="https://shapeshift.io/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Shapeshift</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/exchanges/shapeshift_green.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("resourcesPage.exchangesType2")}
-              </div>
-            </a>
             <a href="https://swapspace.co/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">SwapSpace</h4>
               <img
@@ -303,27 +259,38 @@ function Resources() {
               </div>
             </a>
             <a
-              href="https://coinpaprika.com/coin/ppc-peercoin/"
+              href="https://www.coinspot.com.au/"
               className="blocks-list__block"
             >
-              <h4 className="blocks-list__block__title">More Exchanges</h4>
+              <h4 className="blocks-list__block__title">CoinSpot</h4>
               <img
                 className="blocks-list__block__img"
-                src="/img/exchanges/coinpaprika_green.png"
+                src="/img/exchanges/coinspot_green.png"
                 alt=""
               />
               <div className="blocks-list__block__type">
-                {t("resourcesPage.exchangesType3")}
+                {t("resourcesPage.exchangesType1")}
+              </div>
+            </a>
+            <a href="https://swapzone.io/" className="blocks-list__block">
+              <h4 className="blocks-list__block__title">Swapzone</h4>
+              <img
+                className="blocks-list__block__img"
+                src="/img/exchanges/swapzone_green.png"
+                alt=""
+              />
+              <div className="blocks-list__block__type">
+                {t("resourcesPage.exchangesType2")}
               </div>
             </a>
             <a
-              href="https://coinmarketcap.com/currencies/peercoin/"
+              href="https://coinpaprika.com/coin/ppc-peercoin/"
               className="blocks-list__block"
             >
-              <h4 className="blocks-list__block__title">More Exchanges</h4>
+              <h4 className="blocks-list__block__title">CoinPaprika</h4>
               <img
                 className="blocks-list__block__img"
-                src="/img/exchanges/coinmarketcap_green.png"
+                src="/img/exchanges/coinpaprika_green.png"
                 alt=""
               />
               <div className="blocks-list__block__type">
@@ -416,13 +383,13 @@ function Resources() {
           </h2>
           <div className="blocks-list">
             <a
-              href="https://www.peercoinexplorer.net/inflation/"
+              href="https://www.peercoinexplorer.net/charts/"
               target="_blank"
               rel="noopener noreferrer"
               className="blocks-list__block"
             >
               <h4 className="blocks-list__block__title">
-                {t("resourcesPage.toolsInflation")}
+                {t("resourcesPage.toolsCharts")}
               </h4>
               <img
                 className="blocks-list__block__img"

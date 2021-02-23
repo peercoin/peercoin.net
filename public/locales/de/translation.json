@@ -37,7 +37,8 @@
         "projects": "Projekte",
         "blog": "Blog",
         "peercoinFoundation": "Peercoin Foundation",
-        "contactUs": "Kontaktieren Sie uns"
+        "contactUs": "Kontaktieren Sie uns",
+        "contribute": "Mitwirken"
       },
       "wallet": {
         "title": "Wallet"
@@ -123,9 +124,30 @@
     "generalFundPpcAddress": "General Fund - PPC Donation Address:",
     "generalFundBtcAddress": "General Fund - BTC Donation Address:",
     "exchangeBtcAddress": "Exchange Listing Fund - BTC Donation Address:",
-    "viewOnExplorer":"View on explorer",
+    "viewOnExplorer": "View on explorer",
     "contactUsTitle": "Kontakt",
     "addressCountry": "The Netherlands"
+  },
+  "contributePage": {
+    "contributeTitle": "Mitwirken ",
+    "conributeDescription": "Wie Sie Peercoin besser machen können",
+    "contributeIntro": "Peercoin ist ein quelloffenes Projekt, und Sie können uns jederzeit helfen es besser zu machen! Es gibt viele Arten zu Helfen:",
+    "header": {
+      "reportBugs": "Fehler melden",
+      "helpOthers": "Anderen bei ihren Fehlermeldungen helfen",
+      "translate": "Übersetzen Sie Peercoin in Ihre Sprache",
+      "write": "Code schreiben"
+    },
+    "content": {
+      "reportBugs": "If you find bugs in Peercoin client, we need you to file them in our issue tracker. \n Your problem may have already been reported, so it’s a good idea to check to avoid filing a duplicate. \n You have suggestions for new features or enhancements? \n Open an issue at our GitHub.",
+      "helpOthers": "You can help the development team keep up with the bug reports by closing duplicates, helping to clarify reporters problems, and confirming that you can reproduce bugs. Our Discord or our forums would be a good start.",
+      "translate": "Peercoin has been translated into dozens of languages, but if the translation for your language doesn’t exist or is out of date, you can help bring Peercoin to entire new populations simply by translating some text.",
+      "write": "We welcome code contributions from anyone, whether you have a one-line fix or a big idea, a lot of experience programming or none at all."
+    },
+    "buttons": {
+      "help": "Forum",
+      "translate": "Transifex"
+    }
   },
   "contactPage": {
     "contactTitle": "Kontakt",
@@ -214,7 +236,6 @@
     "explorersMainnet": "Mainnet",
     "explorersTestnet": "Testnet",
     "toolsTitle": "Resources",
-    "toolsInflation": "Inflation",
     "toolsMempool": "Mempool",
     "toolsEnergyStatistics": "Statistiken zum Energieverbrauch",
     "toolsTestnetFaucet": "Testnet Faucet",
@@ -356,5 +377,8 @@
       "communityText2": "Wichtige Updates können Sie auch direkt auf Ihr Smartphone  bekommen über Plattformen wie <a href=\"https://blockfolio.com/\">Blockfolio</a>, <a href=\"https://delta.app/\">Delta</a>, und <a href=\"https://www.coingecko.com/\">CoinGecko</a>. Abonnieren Sie die News, um auf dem Laufenden zu bleiben."
     },
     "latestNewsTitle": "Aktuelles"
+  },
+  "notFoundPage": {
+    "title": "404 Angeforderte URL nicht gefunden"
   }
 }

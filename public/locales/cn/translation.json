@@ -123,7 +123,7 @@
     "generalFundPpcAddress": "General Fund - PPC Donation Address:",
     "generalFundBtcAddress": "General Fund - BTC Donation Address:",
     "exchangeBtcAddress": "Exchange Listing Fund - BTC Donation Address:",
-    "viewOnExplorer":"View on explorer",
+    "viewOnExplorer": "View on explorer",
     "contactUsTitle": "联系我们",
     "addressCountry": "The Netherlands"
   },
@@ -214,7 +214,6 @@
     "explorersMainnet": "Mainnet",
     "explorersTestnet": "Testnet",
     "toolsTitle": "Resources",
-    "toolsInflation": "通货膨胀",
     "toolsMempool": "内存池",
     "toolsEnergyStatistics": "能源统计",
     "toolsTestnetFaucet": "Testnet水龙头",

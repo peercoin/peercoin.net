@@ -37,7 +37,8 @@
         "projects": "Projects",
         "blog": "Blog",
         "peercoinFoundation": "Peercoin Foundation",
-        "contactUs": "Contact Us"
+        "contactUs": "Contact Us",
+        "contribute": "Contribute"
       },
       "wallet": {
         "title": "Wallet"
@@ -121,12 +122,34 @@
     "missionStatementText2": "The Peercoin blockchain network and the Peercoin project in general is an open-source decentralized ledger, with no governing body. The Peercoin Foundation makes no claims over intellectual property related to the Peercoin project, unless explicitly stated otherwise.",
     "technicalSupportTitle": "Community Support",
     "technicalSupportText": "If you would like to get involved with Peercoin, or would simply like to support the team, there are a handful of options at your disposal. If you are interested in becoming a developer for Peercoin or Peercoin related projects such as PeerAssets, send us an email at foundation@peercoin.net. If you would like to donate PPC to the Peercoin Foundation to support the expansion of a project, simply send your PPC donation to the multisignature address below.",
-    "generalFundPpcAddress": "General Fund - PPC Donation Address:",
-    "generalFundBtcAddress": "General Fund - BTC Donation Address:",
-    "exchangeBtcAddress": "Exchange Listing Fund - BTC Donation Address:",
-    "viewOnExplorer":"View on explorer",
+    "generalFundPpcAddress": "General Fund - <strong>PPC</strong> Donation Address:",
+    "generalFundBtcAddress": "General Fund - <strong>BTC</strong> Donation Address:",
+    "exchangeBtcAddress": "Exchange Listing Fund - <strong>BTC</strong> Donation Address:",
+    "viewOnExplorer": "View on explorer",
+    "openCollectiveNote": "Fiat Donations - <strong>USD/EUR</strong> by Credit/Debit/Wire:",
     "contactUsTitle": "Contact Us",
     "addressCountry": "The Netherlands"
+  },
+  "contributePage": {
+    "contributeTitle": "Contribute ",
+    "conributeDescription": "How You Can Help Make Peercoin Better",
+    "contributeIntro": "Peercoin is a free/open-source project, and you are more than welcome to help us make it better! There are many ways you can help:",
+    "header": {
+      "reportBugs": "Report Bugs",
+      "helpOthers": "Help Others With Their Bug Reports",
+      "translate": "Translate Peercoin Into Your Language",
+      "write": "Write Code"
+    },
+    "content": {
+      "reportBugs": "If you find bugs in Peercoin client, we need you to file them in our issue tracker. \n Your problem may have already been reported, so it’s a good idea to check to avoid filing a duplicate. \n You have suggestions for new features or enhancements? \n Open an issue at our GitHub.",
+      "helpOthers": "You can help the development team keep up with the bug reports by closing duplicates, helping to clarify reporters problems, and confirming that you can reproduce bugs. Our Discord or our forums would be a good start.",
+      "translate": "Peercoin has been translated into dozens of languages, but if the translation for your language doesn’t exist or is out of date, you can help bring Peercoin to entire new populations simply by translating some text.",
+      "write": "We welcome code contributions from anyone, whether you have a one-line fix or a big idea, a lot of experience programming or none at all."
+    },
+    "buttons": {
+      "help": "Forums",
+      "translate": "Transifex"
+    }
   },
   "contactPage": {
     "contactTitle": "Contact Us",
@@ -192,7 +215,7 @@
     "contributeText": "Peercoin is always under development and any developer is welcome to contribute. There are a variety of ways to contribute, including core development and writing documentation. Please check our GitHub below to get started.",
     "contributeBtn": "GitHub",
     "documentationTitle": "Documentation",
-        "documentationText": "To learn more about the technical details of Peercoin and how to use existing tools or framework, it is recommended that you start by reading the Peercoin documentation.",
+    "documentationText": "To learn more about the technical details of Peercoin and how to use existing tools or framework, it is recommended that you start by reading the Peercoin documentation.",
     "documentationBtn": "Documentation",
     "miningTitle": "Mining",
     "miningText1": "Peercoin uses the hashcash double iterated SHA-256 algorithm for proof-of-work mining. This means that any hardware that can mine Bitcoin can mine Peercoin as well.",
@@ -215,7 +238,7 @@
     "explorersMainnet": "Mainnet",
     "explorersTestnet": "Testnet",
     "toolsTitle": "Resources",
-    "toolsInflation": "Inflation",
+    "toolsCharts": "Charts",
     "toolsMempool": "Mempool",
     "toolsEnergyStatistics": "Energy Statistics",
     "toolsTestnetFaucet": "Testnet Faucet",
@@ -363,5 +386,8 @@
       "communityText2": "Important updates can also be delivered directly to your mobile device through platforms like <a href=\"https://blockfolio.com/\">Blockfolio</a>, <a href=\"https://delta.app/\">Delta</a>, and <a href=\"https://www.coingecko.com/\">CoinGecko</a>. Subscribe to stay up to date with the latest news."
     },
     "latestNewsTitle": "Latest News"
+  },
+  "notFoundPage": {
+    "title": "404 Requested URL not found"
   }
 }
