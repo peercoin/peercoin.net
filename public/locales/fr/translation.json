@@ -299,8 +299,7 @@
     "paperWalletSubtitle2": "Unofficial Wallets",
     "type1": "Hardware Wallet",
     "type2": "Mobile/Web Wallet",
-    "type3": "Web Wallet",
-    "type4": "Mobile Wallet"
+    "type3": "Web Wallet"
   },
   "indexPage": {
     "title": "Pionnier de la Preuve d'Enjeu",
