@@ -299,7 +299,8 @@
     "paperWalletSubtitle2": "Carteras no oficiales",
     "type1": "Cartera de hardware3",
     "type2": "Movil/ Billetera Web3",
-    "type3": "Billetera Web"
+    "type3": "Billetera Web",
+    "type4": "Movil"
   },
   "indexPage": {
     "title": "Pionero de Proof of Stake",

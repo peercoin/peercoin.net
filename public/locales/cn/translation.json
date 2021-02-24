@@ -299,7 +299,8 @@
     "paperWalletSubtitle2": "非官方钱包1",
     "type1": "硬件钱包",
     "type2": "移动/ Web的钱包",
-    "type3": "网络钱包"
+    "type3": "网络钱包",
+    "type4": "移动"
   },
   "indexPage": {
     "title": "权益证明的先驱",

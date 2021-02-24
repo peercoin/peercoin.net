@@ -299,7 +299,8 @@
     "paperWalletSubtitle2": "Inoffizielle Wallets",
     "type1": "Carteira Hardware",
     "type2": "Carteira Móvel/Web",
-    "type3": "Carteira Web"
+    "type3": "Carteira Web",
+    "type4": "Carteira Móvel"
   },
   "indexPage": {
     "title": "Página Inicial",

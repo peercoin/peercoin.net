@@ -323,7 +323,8 @@
       "paperWalletSubtitle2": "Nieoficjalne portfele",
       "type1": "Portfel sprzętowy",
       "type2": "Portfel mobilny / internetowy",
-      "type3": "Portfel internetowy"
+      "type3": "Portfel internetowy",
+      "type4": "Portfel mobilny"
     },
     "indexPage": {
       "title": "Pionier Proof of Stake",
