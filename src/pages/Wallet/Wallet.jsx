@@ -278,7 +278,7 @@ function Wallet() {
                 {t("walletPage.type1")}
               </div>
             </a>
-            <a href="https://github.com/primecoin/gemmer" className="blocks-list__block">
+            <a href="https://play.google.com/store/apps/details?id=net.primecoin.app.gemmer" className="blocks-list__block">
               <h4 className="blocks-list__block__title">gemmer</h4>
               <img
                 className="blocks-list__block__img"
