@@ -1154,7 +1154,7 @@ function Resources() {
             <br />
             <code>#3cb054</code>
             <br />
-            <code>RBG: 24, 69, 33</code>
+            <code>RBG: 60, 176, 84</code>
             <br />
             <code>CMYK: 66, 0, 52, 31</code>
           </p>
