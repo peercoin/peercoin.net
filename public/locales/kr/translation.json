@@ -299,7 +299,8 @@
     "paperWalletSubtitle2": "1비공식 지갑",
     "type1": "하드웨어 지갑",
     "type2": "모바일/웹 지갑",
-    "type3": "웹 지갑"
+    "type3": "웹 지갑",
+    "type4": "모바일"
   },
   "indexPage": {
     "title": "지분증명의 선구자",
