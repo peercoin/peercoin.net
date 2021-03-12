@@ -276,7 +276,7 @@ function Wallet() {
             </a>
           </div>
           <h2 className="title title--green">
-            <div className="anchor" data-id="unofficialclients"></div>
+            <div className="anchor" data-id="hardwarewallets"></div>
             {t("walletPage.paperWalletSubtitle3")}
           </h2>
           <div className="blocks-list">
