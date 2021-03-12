@@ -261,6 +261,19 @@ function Wallet() {
                 alt=""
               />
             </a>
+            <a
+              href="https://github.com/technologiespro/paper-wallet-generator"
+              className="blocks-list__block"
+            >
+              <h4 className="blocks-list__block__title">
+                paper-wallet-generator
+              </h4>
+              <img
+                className="blocks-list__block__img"
+                src="/img/explorers/peercoin_green.png"
+                alt=""
+              />
+            </a>
           </div>
           <h2 className="title title--green">
             <div className="anchor" data-id="unofficialclients"></div>
