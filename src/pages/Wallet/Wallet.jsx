@@ -261,10 +261,23 @@ function Wallet() {
                 alt=""
               />
             </a>
+            <a
+              href="https://github.com/technologiespro/paper-wallet-generator"
+              className="blocks-list__block"
+            >
+              <h4 className="blocks-list__block__title">
+                paper-wallet-generator
+              </h4>
+              <img
+                className="blocks-list__block__img"
+                src="/img/explorers/peercoin_green.png"
+                alt=""
+              />
+            </a>
           </div>
           <h2 className="title title--green">
-            <div className="anchor" data-id="unofficialclients"></div>
-            {t("walletPage.paperWalletSubtitle2")}
+            <div className="anchor" data-id="hardwarewallets"></div>
+            {t("walletPage.paperWalletSubtitle3")}
           </h2>
           <div className="blocks-list">
             <a href="https://www.ledger.com/" className="blocks-list__block">
@@ -278,7 +291,27 @@ function Wallet() {
                 {t("walletPage.type1")}
               </div>
             </a>
-            <a href="https://play.google.com/store/apps/details?id=net.primecoin.app.gemmer" className="blocks-list__block">
+            <a href="https://trezor.io/" className="blocks-list__block">
+              <h4 className="blocks-list__block__title">Trezor</h4>
+              <img
+                className="blocks-list__block__img"
+                src="/img/wallets/trezor.png"
+                alt=""
+              />
+              <div className="blocks-list__block__type mt-1">
+                {t("walletPage.type1")}
+              </div>
+            </a>
+          </div>
+          <h2 className="title title--green">
+            <div className="anchor" data-id="unofficialclients"></div>
+            {t("walletPage.paperWalletSubtitle2")}
+          </h2>
+          <div className="blocks-list">
+            <a
+              href="https://play.google.com/store/apps/details?id=net.primecoin.app.gemmer"
+              className="blocks-list__block"
+            >
               <h4 className="blocks-list__block__title">gemmer</h4>
               <img
                 className="blocks-list__block__img"
