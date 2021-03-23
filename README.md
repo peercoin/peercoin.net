@@ -10,7 +10,10 @@ Content requests, bugs, etc. are all handled through [Github Issues](https://git
 ### Pull Requests
 If you have a simple change to the website, we ask that you put in a pull request instead of an issue. These include things like link changes, text errors, etc. We can add these to the live site just by accepting the pull, which makes everything easier.
 
-If don't know how to submit a pull request use these helpful guides: [one](https://help.github.com/articles/using-pull-requests) and [two](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/).
+If you don't know how to submit a pull request use these helpful guides: 
+[one](https://help.github.com/articles/using-pull-requests) 
+And 
+[two](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/).
 
 ### Installing and Running
 If you want to test out the website locally, raise a local http server.
