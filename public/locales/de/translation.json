@@ -309,12 +309,11 @@
       "title1": "Linux, allgemein",
       "text1": "Entpacken Sie <code className=\"green\">{{file}}</code>",
       "text2": "Starten Sie <code className=\"green\">bin/32/peercoin-qt</code> (benötigt libqt4-gui)",
-      "title2": "Daemon",
-      "text3": "Erstellen Sie <code className=\"green\">peercoin.conf</code> in <code className=\"green\">~/.peercoin</code>",
-      "text4": "Starten Sie <code className=\"green\">bin/32/peercoind</code>",
-      "text5": "Ihr Wallet befindet sich in <code>~/.peercoin</code>.",
-      "text6": "<i>Note: 64 bit binaries available in <code>bin/64/[peercoin-qt,peercoind]</code>.</i>",
-      "text7": "Weitere Hilfe können Sie finden in der <a href=\"https://docs.peercoin.net/\">Peercoin Dokumentation </a> oder indem Sie in unserem <a href=\"https://talk.peercoin.net/\">Forums</a> fragen."
+      "title3": "Daemon",
+      "text6": "Erstellen Sie <code className=\"green\">peercoin.conf</code> in <code className=\"green\">~/.peercoin</code>",
+      "text7": "Starten Sie <code className=\"green\">bin/32/peercoind</code>",
+      "text8": "Ihr Wallet befindet sich in <code>~/.peercoin</code>.",
+      "text9": "Weitere Hilfe können Sie finden in der <a href=\"https://docs.peercoin.net/\">Peercoin Dokumentation </a> oder indem Sie in unserem <a href=\"https://talk.peercoin.net/\">Forums</a> fragen."
     },
     "paperWalletTitle": "Paper Wallet",
     "paperWalletSubtitle1": "Paper Wallet",
