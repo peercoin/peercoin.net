@@ -287,12 +287,11 @@
       "title1": "Linux",
       "text1": "Descompactar <code className=\"green\">{{file}}</code>",
       "text2": "Executar <code className=\"green\">bin/32/peercoin-qt</code>  (necessita libqt4-gui)",
-      "title2": "Daemon",
-      "text3": "Criar  <code className=\"green\">peercoin.conf</code> em <code className=\"green\">~/.peercoin</code>",
-      "text4": "Executar <code className=\"green\">bin/32/peercoind</code>",
-      "text5": "A sua carteira está localizada em <code>~/.peercoin</code>.",
-      "text6": "<i>Note: 64 bit binaries available in <code>bin/64/[peercoin-qt,peercoind]</code>.</i>",
-      "text7": "Informação adicional pode ser encontrada na <a href=\"https://docs.peercoin.net/\">Peercoin Documentation</a> Peercoin ou perguntando aos nossos <a href=\"https://talk.peercoin.net/\">Forums</a>."
+      "title3": "Daemon",
+      "text6": "Criar  <code className=\"green\">peercoin.conf</code> em <code className=\"green\">~/.peercoin</code>",
+      "text7": "Executar <code className=\"green\">bin/32/peercoind</code>",
+      "text8": "A sua carteira está localizada em <code>~/.peercoin</code>.",
+      "text9": "Informação adicional pode ser encontrada na <a href=\"https://docs.peercoin.net/\">Peercoin Documentation</a> Peercoin ou perguntando aos nossos <a href=\"https://talk.peercoin.net/\">Forums</a>."
     },
     "paperWalletTitle": "Paper Wallet",
     "paperWalletSubtitle1": "Paper Wallet",

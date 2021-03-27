@@ -287,12 +287,11 @@
       "title1": "Linux",
       "text1": "解压 <code className=\"green\">{{file}}</code>",
       "text2": "运行 <code className=\"green\">bin/32/peercoin-qt</code> (需要 libqt4-gui)",
-      "title2": "Daemon",
-      "text3": "创建 <code className=\"green\">peercoin.conf</code 在 <code className=\"green\">~/.peercoin</code>",
-      "text4": "运行 <code className=\"green\">bin/32/peercoind</code>",
-      "text5": "你的钱包在 <code>~/.peercoin</code>.",
-      "text6": "<i>Note: 64 bit binaries available in <code>bin/64/[peercoin-qt,peercoind]</code>.</i>",
-      "text7": "额外的帮助可以在点点币中找到 <a href=\"https://docs.peercoin.net/\">文档</a> 或者通过问我们  <a href=\"https://talk.peercoin.net/\">论坛。</a>"
+      "title3": "Daemon",
+      "text5": "创建 <code className=\"green\">peercoin.conf</code 在 <code className=\"green\">~/.peercoin</code>",
+      "text7": "运行 <code className=\"green\">bin/32/peercoind</code>",
+      "text8": "你的钱包在 <code>~/.peercoin</code>.",
+      "text9": "额外的帮助可以在点点币中找到 <a href=\"https://docs.peercoin.net/\">文档</a> 或者通过问我们  <a href=\"https://talk.peercoin.net/\">论坛。</a>"
     },
     "paperWalletTitle": "纸钱包",
     "paperWalletSubtitle1": "纸钱包",

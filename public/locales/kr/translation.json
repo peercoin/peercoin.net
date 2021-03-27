@@ -287,12 +287,11 @@
       "title1": "Linux",
       "text1": "<code className=\"green\">{{file}}</code> 압축 풀기",
       "text2": "<code className=\"green\">bin/32/peercoin-qt</code> 실행(libqt4-gui 필요)",
-      "title2": "Daemon",
-      "text3": "<code className=\"green\">peercoin.conf</code> 파일을 <code className=\"green\">~/.peercoin</code> 에 생성",
-      "text4": "<code className=\"green\">bin/32/peercoind</code> 실행",
-      "text5": "당신의 지갑은 에 있습니다 <code>~/.peercoin</code>.",
-      "text6": "<i>참고: <code>bin/64/[peercoin-qt, peercoind]</code> 에서 사용 가능한 64 비트 바이너리</i>",
-      "text7": " 추가적인 도움은 피어코인 <a href=\"https://docs.peercoin.net/\">문서</a>  또는 <a href=\"https://talk.peercoin.net/\">포럼</a> 에서 찾을 수 있습니다."
+      "title3": "Daemon",
+      "text6": "<code className=\"green\">peercoin.conf</code> 파일을 <code className=\"green\">~/.peercoin</code> 에 생성",
+      "text7": "<code className=\"green\">bin/32/peercoind</code> 실행",
+      "text8": "당신의 지갑은 에 있습니다 <code>~/.peercoin</code>.",
+      "text9": " 추가적인 도움은 피어코인 <a href=\"https://docs.peercoin.net/\">문서</a>  또는 <a href=\"https://talk.peercoin.net/\">포럼</a> 에서 찾을 수 있습니다."
     },
     "paperWalletTitle": "종이 지갑",
     "paperWalletSubtitle1": "종이 지갑",
