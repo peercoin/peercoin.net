@@ -16,5 +16,7 @@ And
 [two](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/).
 
 ### Installing and Running
-If you want to test out the website locally, raise a local http server.
-For example `python3 -m http.server 8080`.
+```sh
+npm install react-scripts
+npm start
+```
