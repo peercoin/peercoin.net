@@ -228,12 +228,26 @@ function Wallet() {
                       <li>{renderHTML(t("walletPage.sectionLinux.text2"))}</li>
                     </ul>
                     <h2>{t("walletPage.sectionLinux.title2")}</h2>
-                    <ul>
-                      <li>{renderHTML(t("walletPage.sectionLinux.text3"))}</li>
-                      <li>{renderHTML(t("walletPage.sectionLinux.text4"))}</li>
-                    </ul>
+                    <p>{renderHTML(t("walletPage.sectionLinux.text3"))}</p>
+                    <p>{renderHTML(t("walletPage.sectionLinux.text4"))}</p>
+                    <p>
+                      <code>sudo apt-get update</code><br/>
+                      <code>sudo apt-get install apt-transport-https</code>
+                    </p>
+                    <p>
+                      <code>sudo sh -c "echo 'deb https://peercoin.github.io/deb-repo/ buster main' >> /etc/apt/sources.list.d/peercoin.list"</code><br/>
+                      <code>wget -O - https://peercoin.github.io/deb-repo/peercoin.apt.key | sudo apt-key add -</code><br/>
+                      <code>sudo apt-get update</code><br/>
+                      <code>sudo apt-get install peercoin-qt</code>
+                    </p>
                     <p>{renderHTML(t("walletPage.sectionLinux.text5"))}</p>
-                    <p>{renderHTML(t("walletPage.sectionLinux.text6"))}</p>
+                    <h2>{t("walletPage.sectionLinux.title3")}</h2>
+                    <ul>
+                      <li>{renderHTML(t("walletPage.sectionLinux.text6"))}</li>
+                      <li>{renderHTML(t("walletPage.sectionLinux.text7"))}</li>
+                    </ul>
+                    <p>{renderHTML(t("walletPage.sectionLinux.text8"))}</p>
+                    <p>{renderHTML(t("walletPage.sectionLinux.text9"))}</p>
                   </div>
                 </div>
               </Collapsible>
