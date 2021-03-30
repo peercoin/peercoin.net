@@ -192,17 +192,6 @@ function Resources() {
                 {t("resourcesPage.exchangesType1")}
               </div>
             </a>
-            <a href="https://changeangel.io/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">ChangeAngel</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/exchanges/changeangel_green.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("resourcesPage.exchangesType1")}
-              </div>
-            </a>
             <a href="https://coinswitch.co/" className="blocks-list__block">
               <h4 className="blocks-list__block__title">Coin Switch</h4>
               <img
