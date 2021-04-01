@@ -14,7 +14,7 @@ function Contribute() {
       <div className="hero hero--thin">
         <h1 className="hero__title">{t("contributePage.contributeTitle")}</h1>
         <p className="hero__description">
-          {t("contributePage.conributeDescription")}
+          {t("contributePage.contributeDescription")}
         </p>
       </div>
 
