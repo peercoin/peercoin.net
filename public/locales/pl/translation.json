@@ -79,7 +79,7 @@
           "title": "Zasoby",
           "linkDocumentation": "Dokumentacja",
           "linkExchanges": "Wymiana",
-          "linkBLockExplorers": "Block Explorers",
+          "linkBlockExplorers": "Block Explorers",
           "linkWhitepaper": "Whitepaper",
           "linkGraphics": "Grafika",
           "linkMining": "Mining"
@@ -393,4 +393,3 @@
       "latestNewsTitle": "Najnowsze wiadomości"
     }
   }
-  

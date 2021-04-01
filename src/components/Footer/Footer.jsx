@@ -45,9 +45,9 @@ function Footer() {
                 <li><a href="https://docs.peercoin.net/">{t('footerComponent.links.resources.linkDocumentation')}</a></li>
                 <li><a href="/resources#exchanges">{t('footerComponent.links.resources.linkExchanges')}</a></li>
                 <li><a href="/resources#mining">{t('footerComponent.links.resources.linkMining')}</a></li>
-                <li><a href="/resources#blockexplorers">{t('footerComponent.links.resources.linkBLockExplorers')}</a></li>
+                <li><a href="/resources#blockexplorers">{t('footerComponent.links.resources.linkBlockExplorers')}</a></li>
                 <li><a href="/resources#whitepaper">{t('footerComponent.links.resources.linkWhitepaper')}</a></li>
-                <li><a href="/resources#graphics">{t('footerComponent.links.resources.linkGraphics')}</a></li>                        
+                <li><a href="/resources#graphics">{t('footerComponent.links.resources.linkGraphics')}</a></li>
               </ul>
               <ul className="footer__links__list">
                 <li className="footer__links__list__title"><Link to="/wallet">{t('footerComponent.links.wallet.title')}</Link></li>
