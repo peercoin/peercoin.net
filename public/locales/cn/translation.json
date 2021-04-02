@@ -236,7 +236,7 @@
     "graphicsFavicons": "网站图标",
     "graphicsZipFolder": "所有图形的ZIP文件夹都是可用的 <a href=\"https://peercoin.net/assets/Peercoin%202018%20Graphics.zip\">这里</a>",
     "brandIdentityTitle": "品牌标识",
-    "brandIdentityColrosFonts": "点点币颜色代码和字体:",
+    "brandIdentityColorsFonts": "点点币颜色代码和字体:",
     "brandIdentityDisclaimer": "请尽可能在您的Peercoin相关网站上使用这些颜色代码。这将帮助我们保持Peercoin生态系统及其品牌和视觉效果的一致性。",
     "brandIdentityGreen": "Green",
     "brandIdentityFont": "点点币文字标识使用以下字体",
