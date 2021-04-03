@@ -7,9 +7,9 @@
       "learn": {
         "title": "학습",
         "peercoinUniversity": "피어코인 대학",
-        "whatIsBlockchain": "블록체인이란 무엇일까요?1",
+        "whatIsBlockchain": "블록체인이란 무엇일까요?",
         "inherentCentralization": "비트코인의 중앙화",
-        "peercoinProofOfStake": "피어코인과 지분증명 합의1",
+        "peercoinProofOfStake": "피어코인과 지분증명 합의",
         "efficientSustainableSecurity": "효율적이면서 지속 가능한 최초의 블록체인",
         "economicsOfPeercoin": "피어코인 경제학",
         "scalabilityOfPeercoin": "피어코인의 확장성",
@@ -27,7 +27,7 @@
         "mining": "채굴",
         "peercoinUniversity": "피어코인 대학",
         "exchanges": "거래소",
-        "blockExplorers": "블록 익스플로러1",
+        "blockExplorers": "블록 익스플로러",
         "whitepaper": "백서",
         "graphics": "그래픽"
       },
@@ -295,7 +295,7 @@
     },
     "paperWalletTitle": "종이 지갑",
     "paperWalletSubtitle1": "종이 지갑",
-    "paperWalletSubtitle2": "1비공식 지갑",
+    "paperWalletSubtitle2": "비공식 지갑",
     "type1": "하드웨어 지갑",
     "type2": "모바일/웹 지갑",
     "type3": "웹 지갑",
@@ -330,7 +330,7 @@
     "valueStoreText1": "효율성, 지속 가능성, 사용자 거버넌스, 모듈화를 통한 확장성 및 공정한 배포. 이러한 모든 요소들을 결합하여 탈 중앙화를 극대화하는데 주안점을 둔 장기적인 블록체인 네트워크를 형성합니다.",
     "valueStoreText2": "이것은 피어코인의 신뢰할 수 없고 불변하며 검열에 저항하는 특성을 보존하기 위한 목적으로 동작하기에, 모든 유형의 가치를 안전하게 저장하기 위한 분산된 메커니즘으로서의 핵심 역할을 수행하는 것을 항상 신뢰할 수 있습니다.",
     "valueStoreText3": "이 가치는 PPC에 저장된 평범한 재산에서부터 토큰, 레코드 또는 계약 형태로 체인에 저장된 데이터에 이르기까지 다양합니다. 저장되는 가치 유형에 관계없이 피어코인은 데이터가 항상 안전하고 보안성 있게 유지되도록 염두에 두고 만들어졌습니다.",
-    "getStartedTitle": "시작하기1",
+    "getStartedTitle": "시작하기",
     "collapsables": {
       "learnTitle": "학습",
       "learnText1": "프로젝트에 대한 보다 깊이 있는 내용을 확인하려면, <a href=\"https://university.peercoin.net/\">피어코인 대학</a> 이 가장 좋은 출발점입니다.  피어코인에 대한 더 많은 기사와 글은 <a href=\"https://medium.com/peercoin\">Medium Blog</a> 를 확인하세요.",
