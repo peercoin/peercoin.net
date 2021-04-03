@@ -261,7 +261,7 @@
     "graphicsFavicons": "Favicons",
     "graphicsZipFolder": "ZIP folder for all graphics is available <a href=\"https://peercoin.net/assets/Peercoin%202018%20Graphics.zip\">here</a>",
     "brandIdentityTitle": "Brand Identity",
-    "brandIdentityColrosFonts": "Peercoin Color Codes & Fonts:",
+    "brandIdentityColorsFonts": "Peercoin Color Codes & Fonts:",
     "brandIdentityDisclaimer": "Please use these color codes on your Peercoin related websites whenever possible. This will help us keep the Peercoin ecosystem and its branding and visuals consistent.",
     "brandIdentityGreen": "Green",
     "brandIdentityFont": "The Peercoin text logo uses the following font",

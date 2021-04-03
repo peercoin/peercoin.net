@@ -236,7 +236,7 @@
     "graphicsFavicons": "Favicons",
     "graphicsZipFolder": "Carpeta ZIP para todos los gráficos está disponible <a href=\"https://peercoin.net/assets/Peercoin%202018%20Graphics.zip\">aquí1</a>",
     "brandIdentityTitle": "Identidad de la marca",
-    "brandIdentityColrosFonts": "Códigos y fuentes de colores de Peercoin:",
+    "brandIdentityColorsFonts": "Códigos y fuentes de colores de Peercoin:",
     "brandIdentityDisclaimer": "Utilice estos códigos de color en los sitios web relacionados con Peercoin siempre que sea posible. Esto nos ayudará a mantener la coherencia del ecosistema de Peercoin y su imagen y elementos visuales.",
     "brandIdentityGreen": "Verde",
     "brandIdentityFont": "El logo de texto de Peercoin usa la siguiente fuente:",

@@ -1136,7 +1136,7 @@ function Resources() {
             {t("resourcesPage.brandIdentityTitle")}
           </h2>
           <p className="subtitle subtitle--left">
-            <b>{t("resourcesPage.brandIdentityColrosFonts")}</b>
+            <b>{t("resourcesPage.brandIdentityColorsFonts")}</b>
           </p>
           <p className="subtitle subtitle--left">
             {t("resourcesPage.brandIdentityDisclaimer")}
