@@ -51,7 +51,7 @@
           "reddit": "Reddit",
           "telegram": "Telegram",
           "discord": "Discord",
-          "youtube": "Youtube",
+          "youtube": "YouTube",
           "bitcointalk": "Bitcointalk"
         }
       }
@@ -105,7 +105,7 @@
           "linkBitcointalk": "Bitcointalk",
           "linkFacebook": "Facebook",
           "linkTwitter": "Twitter",
-          "linkYoutube": "Youtube"
+          "linkYoutube": "YouTube"
         }
       },
       "copyright": {

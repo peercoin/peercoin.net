@@ -506,7 +506,7 @@ function Resources() {
               href="https://www.youtube.com/user/PeerCoin"
               className="blocks-list__block"
             >
-              <h4 className="blocks-list__block__title">Youtube</h4>
+              <h4 className="blocks-list__block__title">YouTube</h4>
               <img
                 className="blocks-list__block__img"
                 src="/img/icons/youtube_green.png"
