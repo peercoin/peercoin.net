@@ -394,6 +394,7 @@
     "latestNewsTitle": "Latest News"
   },
   "notFoundPage": {
-    "title": "404 Requested URL not found"
+    "title": "404 - Requested URL Not Found",
+    "description": "Click <a href=\"https://www.peercoin.net/\" style=\"color: white;\">here</a> to return to the homepage."
   }
 }
