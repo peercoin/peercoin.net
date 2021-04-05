@@ -355,5 +355,9 @@
       "communityText2": "重要的更新也可以通过以下平台直接发送到您的移动设备 <a href=\"https://blockfolio.com/\">Blockfolio</a>, <a href=\"https://delta.app/\">Delta</a>, 和 <a href=\"https://www.coingecko.com/\">CoinGecko</a>. 订阅以了解最新消息。"
     },
     "latestNewsTitle": "最新消息"
+  },
+  "notFoundPage": {
+    "title": "404 - 页面找不到",
+    "description": "<a href=\"https://www.peercoin.net/\" style=\"color: white;\">点击这里可以回到首页</a>"
   }
 }

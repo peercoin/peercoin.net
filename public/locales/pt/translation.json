@@ -355,5 +355,9 @@
       "communityText2": "Atualizações importantes também podem ser apresentadas diretamente no seu dispositivo móvel através de plataformas como <a href=\"https://blockfolio.com/\">Blockfolio</a>, <a href=\"https://delta.app/\">Delta</a>, e <a href=\"https://www.coingecko.com/\">CoinGecko</a>. Subscreva para se manter a par das ultimas notícias."
     },
     "latestNewsTitle": "Últimas Notícias"
+  },
+  "notFoundPage": {
+    "title": "404 - Página não encontrada",
+    "description": "Clique <a href=\"https://www.peercoin.net/\" style=\"color: white;\">aqui</a> para voltar à página inicial."
   }
 }
