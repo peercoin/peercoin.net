@@ -378,6 +378,7 @@
     "latestNewsTitle": "Aktuelles"
   },
   "notFoundPage": {
-    "title": "404 Angeforderte URL nicht gefunden"
+    "title": "404 - Angeforderte URL nicht gefunden",
+    "description": "Klicken Sie <a href=\"https://www.peercoin.net/\" style=\"color: white;\">hier</a>, um zur Startseite zurückzukehren."
   }
 }
