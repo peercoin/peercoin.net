@@ -37,7 +37,8 @@
         "projects": "프로젝트",
         "blog": "블로그",
         "peercoinFoundation": "피어코인 재단",
-        "contactUs": "문의하기"
+        "contactUs": "문의하기",
+        "contribute": "기여"
       },
       "wallet": {
         "title": "지갑"

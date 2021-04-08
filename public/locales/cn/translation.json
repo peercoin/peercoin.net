@@ -37,7 +37,8 @@
         "projects": "项目",
         "blog": "博客",
         "peercoinFoundation": "点点币基金会",
-        "contactUs": "联系我们"
+        "contactUs": "联系我们",
+        "contribute": "贡献"
       },
       "wallet": {
         "title": "钱包"
