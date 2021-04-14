@@ -32,3 +32,10 @@ matrix:
       env:
       install:
         - 'npm install'
+      before_script:
+        - 'npx lerna bootstrap'
+      script:
+        - 'npx lerna run build'
+    - node_js: "lts/*"
+      env: LINT=true
+      stage: test
