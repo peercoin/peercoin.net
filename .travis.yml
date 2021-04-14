@@ -147,7 +147,7 @@ after_script:
   - 'if [ -n "${REACT-}" ] && [ "${TRAVIS_ALLOW_FAILURE}" != true ]; then bash <(curl -s https://codecov.io/bash) -f coverage/*.json; fi'
 matrix:
   fast_finish: true
-  include:
+  include: 
     - stage: install-build
       workspaces:
         create:
