@@ -23,7 +23,7 @@ matrix:
   fast_finish: true
   include: 
     - stage: install-build
-      workspaces:
+      workspaces: 
         create:
           name: build
           paths:
