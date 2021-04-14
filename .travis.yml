@@ -50,7 +50,7 @@ matrix:
       env: REACT=16.8 RENDERER=16.7
       stage: test
     - node_js: "lts/*" 
-      env: REACT=16.7 RENDERER=16.8 
+      env: REACT=16.7 RENDERER=16.8  
       stage: test 
     - node_js: "lts/*"
       env: REACT=16.7 RENDERER=16.7 
