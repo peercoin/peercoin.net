@@ -90,3 +90,5 @@ matrix:
       env: KARMA=true REACT=0.13
     - node_js: "6"
       env: KARMA=true REACT=0.14
+    - node_js: "6"
+      env: KARMA=true REACT=15.4
