@@ -232,7 +232,7 @@ matrix:
       env: KARMA=true REACT=16
     - node_js: "lts/*" 
       env: REACT=16.8.5 RENDERER=16.8.3
-    - node_js: "lts/*" 
+    - node_js: "lts/*"  
       env: REACT=16.8 RENDERER=16.7
   exclude:
     - node_js: "6"
