@@ -120,8 +120,8 @@ env:
   - REACT=16.8
   - REACT=16.7
   - REACT=16.6
-  - REACT=16.5
-  - REACT=16.4
+  - REACT=16.5 
+  - REACT=16.4 
   - REACT=16.3 
   - REACT=16.2 
   - REACT=16.1 
