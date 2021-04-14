@@ -51,7 +51,7 @@ matrix:
     - node_js: "lts/*" 
           env: REACT=16.8.3
       stage: test 
-    - node_js: "lts/*"
+    - node_js: "lts/*" 
           env: REACT=16.8 RENDERER=16.7
       stage: test
     - node_js: "lts/*"
