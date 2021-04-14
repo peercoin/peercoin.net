@@ -70,3 +70,6 @@ matrix:
     - node_js: "lts/*"
       env: REACT=15.0
       stage: test
+    - node_js: "6"
+      env: KARMA=true REACT=0.13
+      stage: test
