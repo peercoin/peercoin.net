@@ -70,9 +70,9 @@ matrix:
       env: REACT=15.2
       stage: test
     - node_js: "lts/*"
-      env: REACT=15.1
+      env: REACT=15.1 
       stage: test
     - node_js: "lts/*"
-      env: REACT=15.0
+      env: REACT=15.0 
       stage: test
     - node_js: "6"
