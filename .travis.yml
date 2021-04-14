@@ -128,3 +128,6 @@ env:
 workspaces:
   use:
     - build
+stages:
+  - install-build
+  - test
