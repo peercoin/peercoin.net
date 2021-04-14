@@ -166,3 +166,14 @@ matrix:
       env: LINT=true
       stage: test
     - node_js: "8"
+      env: REACT=16
+      stage: test
+    - node_js: "6"
+      env: REACT=16
+      stage: test
+    - node_js: "lts/*"
+      env: REACT=16.8.5 RENDERER=16.8.5
+      stage: test
+    - node_js: "lts/*"
+      env: REACT=16.8.5 RENDERER=16.8.3
+      stage: test
