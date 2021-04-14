@@ -29,7 +29,7 @@ matrix:
           paths:
             - ./
       node_js: "lts/*"
-      env: 
+      env:  
       install:
         - 'npm install' 
       before_script:
