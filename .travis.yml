@@ -24,7 +24,7 @@ matrix:
       env: 
       install:
         - 'npm install'
-      before_script:
+      before_script: 
         - 'npx lerna bootstrap'
       script: 
         - 'npx lerna run build'
