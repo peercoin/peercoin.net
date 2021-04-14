@@ -19,7 +19,7 @@ script:
 matrix:
   fast_finish: true
   include:
-    - stage: install-build
+    - stage: install-build 
       workspaces:
         create:
           name: build
