@@ -240,3 +240,4 @@ matrix:
 env:
   - REACT=16.14
   - REACT=16.13
+  - REACT=16.12
