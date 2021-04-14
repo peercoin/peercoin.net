@@ -40,3 +40,6 @@ matrix:
       env: REACT=16
       stage: test
     - node_js: "6"
+      env: REACT=16
+      stage: test
+    - node_js: "lts/*"
