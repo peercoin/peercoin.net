@@ -30,7 +30,7 @@ matrix:
       install:
         - 'npm install'
       before_script:
-        - 'npx lerna bootstrap'
+        - 'npx lerna bootstrap' 
       script:
         - 'npx lerna run build'
     - node_js: "lts/*"
