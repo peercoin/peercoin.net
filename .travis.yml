@@ -6,7 +6,7 @@ stages:
   - install-build 
   - test
 node_js:
-  - "12"
+  - "12"  
   - "4"
 import:
   - travis-ci:node/latest-npm.yml
