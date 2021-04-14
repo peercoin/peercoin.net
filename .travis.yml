@@ -18,7 +18,7 @@ script:
   - 'if [ -n "${LINT-}" ]; then npm run lint; elif [ -n "${KARMA-}" ]; then npm run test:karma -- --single-run; elif [ -n "${REACT-}" ]; then npm run travis; else false ; fi'
 matrix:
   fast_finish: true
-  include:
+  include: 
     - stage: install-build 
       workspaces: 
         create: 
