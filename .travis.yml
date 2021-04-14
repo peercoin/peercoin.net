@@ -110,3 +110,5 @@ allow_failures:
   exclude:
     - node_js: "6"
       env: REACT=0.13
+env:
+  - REACT=16.14
