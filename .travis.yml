@@ -22,7 +22,7 @@ matrix:
             - ./ 
       node_js: "lts/*" 
       env: 
-      install:
+      install: 
         - 'npm install'
       before_script: 
         - 'npx lerna bootstrap'
