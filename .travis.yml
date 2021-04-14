@@ -20,3 +20,7 @@ matrix:
           name: build
           paths:
             - ./
+      node_js: "lts/*"
+      env:
+      install:
+        - 'npm install'
