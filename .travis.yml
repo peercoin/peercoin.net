@@ -131,3 +131,6 @@ workspaces:
 stages:
   - install-build
   - test
+node_js:
+  - "12"
+  - "4"
