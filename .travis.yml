@@ -89,5 +89,5 @@ matrix:
       stage: test
     - node_js: "6"
       env: KARMA=true REACT=16
-      stage: test
+      stage: test 
   allow_failures:
