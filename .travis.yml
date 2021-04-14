@@ -117,7 +117,7 @@ env:
   - REACT=16.11
   - REACT=16.10
   - REACT=16.9
-  - REACT=16.8
+  - REACT=16.8 
   - REACT=16.7 
   - REACT=16.6 
   - REACT=16.5 
