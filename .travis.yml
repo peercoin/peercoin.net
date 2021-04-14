@@ -8,7 +8,7 @@ stages:
 node_js: 
   - "12" 
   - "4" 
-import:
+import: 
   - /travis-ci:node/latest-npm.yml 
 install: 'echo already installed!'
 before_script:
