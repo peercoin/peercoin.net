@@ -1,7 +1,7 @@
 language: node_js
 workspaces:
   use:
-    - build
+    - build 
 stages: 
   - install-build 
   - test 
