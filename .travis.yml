@@ -136,3 +136,4 @@ node_js:
   - "4"
 import:
   - /travis-ci:node/latest-npm.yml
+install: 'echo already installed!'
