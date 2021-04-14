@@ -29,7 +29,7 @@ matrix:
       script: 
         - 'npx lerna run build'
     - node_js: "lts/*"
-      env: LINT=true
+      env: LINT=true 
       stage: test 
     - node_js: "8"
       env: REACT=16
