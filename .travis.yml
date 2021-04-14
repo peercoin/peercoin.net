@@ -128,3 +128,4 @@ env:
   - REACT=16.0
   - REACT=15.5
   - REACT=15.4
+  - REACT=0.14
