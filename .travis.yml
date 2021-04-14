@@ -6,7 +6,7 @@ stages:
   - install-build 
   - test 
 node_js: 
-  - "12"
+  - "12" 
   - "4"  
 before_script:
   - 'nvm exec node sh install-relevant-react.sh'
