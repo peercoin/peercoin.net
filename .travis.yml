@@ -85,3 +85,6 @@ matrix:
       env: KARMA=true REACT=15.4
       stage: test
     - node_js: "6"
+      env: KARMA=true REACT=15
+      stage: test
+    - node_js: "6"
