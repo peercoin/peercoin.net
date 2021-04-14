@@ -124,3 +124,7 @@ env:
   - REACT=15.4  
   - REACT=0.14 
   - REACT=0.13 
+  
+workspaces:
+  use:
+    - build
