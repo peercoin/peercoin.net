@@ -4,7 +4,7 @@ workspaces:
     - build
 stages:
   - install-build  
-  - test
+  - test 
 node_js:
   - "12"  
   - "4"  
