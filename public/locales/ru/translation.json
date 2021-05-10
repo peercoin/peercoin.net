@@ -206,7 +206,7 @@
     "description": "Инструменты и ресурсы сообщества: в том числе совместное использование, проводник блоков, графика, социальные сети, форумы, чаты и т.д.",
     "actions": {
       "action1": "Биржи",
-      "action2": "Explorator de Blocuri",
+      "action2": "Блок проводник",
       "action3": "Сообщество",
       "action4": "Белая Бумага",
       "action5": "Графика"
@@ -247,7 +247,7 @@
     "whitepaperEnglish": "Английский",
     "whitepaperChinese": "Китайский",
     "whitepaperSpanish": "Испанский",
-    "whitepaperDutch": "Голландский",
+    "whitepaperDutch": "Нидерландский",
     "whitepaperFrench": "Французский",
     "whitepaperGerman": "Немецкий",
     "whitepaperJapanese": "Японский",
