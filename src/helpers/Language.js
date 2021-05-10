@@ -11,7 +11,8 @@ export function getAvailableLanguages() {
     'kr',
     'pt',
     'pl',
-    'ro'
+    'ro',
+    'ru'
   ];
 }
 
