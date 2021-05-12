@@ -674,6 +674,19 @@ function Resources() {
                 alt=""
               />
             </a>
+            <a
+              href="/whitepapers/peercoin-paper-ru.pdf"
+              className="blocks-list__block"
+            >
+              <h4 className="blocks-list__block__title">
+                {t("resourcesPage.whitepaperRussian")}/русский
+              </h4>
+              <img
+                className="blocks-list__block__img"
+                src="/img/icons/whitepaper_green.png"
+                alt=""
+              />
+            </a>
           </div>
         </div>
       </div>
