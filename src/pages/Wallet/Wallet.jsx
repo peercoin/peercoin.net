@@ -115,7 +115,7 @@ function Wallet() {
           </div>
         </div>
       </div>
-      <div className="main main--dark">
+      <div className="main main--dark main--no_bottom">
         <div className="anchor" data-id="install"></div>
         <div className="container">
           <h1 className="title title--white title--left">
