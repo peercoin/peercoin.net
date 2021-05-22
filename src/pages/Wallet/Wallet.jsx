@@ -13,21 +13,14 @@ function Wallet() {
   const [cs2, setCs2] = useState(false);
   const [cs3, setCs3] = useState(false);
   const [officialWallets, setOfficialWallets] = useState([]);
-  const [wallets, setWallets] = useState([]);
+  const [wallets, setOtherWallets] = useState([]);
   
-  useEffect(() => {
-    fetch("/data/official-wallets.json")
-      .then((res) => res.json())
-      .then((jsonData) => {
-        setOfficialWallets(jsonData);
-      });
-  }, []);
-
   useEffect(() => {
     fetch("/data/wallets.json")
       .then((res) => res.json())
       .then((jsonData) => {
-        setWallets(jsonData);
+        setOfficialWallets(jsonData["official"]);
+        setOtherWallets(jsonData["other"]);
       });
   }, []);
 
