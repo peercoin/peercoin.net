@@ -73,8 +73,6 @@
     }
 
     @include viewports(up-to small) {
-      max-width: 45%;
-      min-width: 45%;
       margin: 20px 5px;
     }
     
