@@ -12,14 +12,22 @@ function Wallet() {
   const [cs1, setCs1] = useState(true);
   const [cs2, setCs2] = useState(false);
   const [cs3, setCs3] = useState(false);
-  const [data, setData] = useState([]);
+  const [officialWallets, setOfficialWallets] = useState([]);
+  const [wallets, setWallets] = useState([]);
+  
+  useEffect(() => {
+    fetch("/data/official-wallets.json")
+      .then((res) => res.json())
+      .then((jsonData) => {
+        setOfficialWallets(jsonData);
+      });
+  }, []);
 
   useEffect(() => {
     fetch("/data/wallets.json")
       .then((res) => res.json())
       .then((jsonData) => {
-        console.log(jsonData);
-        setData(jsonData);
+        setWallets(jsonData);
       });
   }, []);
 
@@ -44,11 +52,11 @@ function Wallet() {
   }
 
   function getFilename(os) {
-    if (data.length === 0) {
+    if (officialWallets.length === 0) {
       return "";
     }
 
-    const osData = data.filter((item) => item.os === os)[0];
+    const osData = officialWallets.filter((item) => item.os === os)[0];
     return osData.link.split("/")[osData.link.split("/").length - 1];
   }
 
@@ -85,8 +93,8 @@ function Wallet() {
           <h2 className="title title--green">{t("walletPage.title")}</h2>
           <div className="desktop-downloads">
             <div className="desktop-downloads__items">
-              {data.length > 0 &&
-                data.map((item) => (
+              {officialWallets.length > 0 &&
+                officialWallets.map((item) => (
                   <div className="desktop-downloads__items__item">
                     <a
                       href={item.link}
@@ -256,159 +264,30 @@ function Wallet() {
         </div>
       </div>
       <div className="main">
-        <div className="anchor" data-id="paperwallet"></div>
         <div className="container">
-          <h2 className="title title--green">
-            {t("walletPage.paperWalletTitle")}
-          </h2>
-          <div className="blocks-list">
-            <a
-              href="https://paperwallet.peercoin.net/"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">
-                {t("walletPage.paperWalletSubtitle1")}
-              </h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/explorers/peercoin_green.png"
-                alt=""
-              />
-            </a>
-            <a
-              href="https://github.com/technologiespro/paper-wallet-generator"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">
-                paper-wallet-generator
-              </h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/explorers/peercoin_green.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <h2 className="title title--green">
-            <div className="anchor" data-id="hardwarewallets"></div>
-            {t("walletPage.paperWalletSubtitle3")}
-          </h2>
-          <div className="blocks-list">
-            <a href="https://www.ledger.com/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Ledger</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/wallets/ledger.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("walletPage.type1")}
+          {
+            wallets.map(type => (
+              <div className="blocks-list-container">
+                <h2 className="title title--green" data-id={type.key}>
+                  {t(type.title)}
+                </h2>
+                <div className="blocks-list">
+                  {type.wallets.map(wallet => (
+                    <a href={wallet.url} className="blocks-list__block">
+                      <h4 className="blocks-list__block__title">
+                        {wallet.title.translated ? t(wallet.title.text) : wallet.title.text}
+                      </h4>
+                      <img className="blocks-list__block__img" src={wallet.image} alt="" />
+                      {wallet.subtitle ? (
+                        <div className="blocks-list__block__type mt-1">
+                          {wallet.subtitle && wallet.subtitle.translated ? t(wallet.subtitle.text) : wallet.subtitle.text}
+                        </div>
+                      ) : null}
+                    </a>
+                ))}
               </div>
-            </a>
-            <a href="https://trezor.io/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Trezor</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/wallets/trezor.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type mt-1">
-                {t("walletPage.type1")}
-              </div>
-            </a>
-          </div>
-          <h2 className="title title--green">
-            <div className="anchor" data-id="unofficialclients"></div>
-            {t("walletPage.paperWalletSubtitle2")}
-          </h2>
-          <div className="blocks-list">
-            <a
-              href="https://play.google.com/store/apps/details?id=net.primecoin.app.gemmer"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">gemmer</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/wallets/gemmer.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("walletPage.type4")}
-              </div>
-            </a>
-            <a href="https://uberpay.io/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">UberPay</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/wallets/uberpay.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("walletPage.type2")}
-              </div>
-            </a>
-            <a
-              href="https://www.coinspot.com.au/"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">Coinspot</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/wallets/coinspot.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("walletPage.type3")}
-              </div>
-            </a>
-            <a href="https://www.coinvault.io/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">CoinVault</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/wallets/coinvault.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("walletPage.type3")}
-              </div>
-            </a>
-            <a
-              href="https://holytransaction.com/"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">HolyTransaction</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/wallets/holytransaction.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("walletPage.type3")}
-              </div>
-            </a>
-            <a href="https://www.abra.com/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Abra</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/wallets/abra.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("walletPage.type2")}
-              </div>
-            </a>
-            <a href="https://www.coinomi.com/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Coinomi</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/wallets/coinomi.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("walletPage.type2")}
-              </div>
-            </a>
-          </div>
+            </div>
+          ))}
         </div>
       </div>
       <Footer />
