@@ -266,7 +266,7 @@ function Wallet() {
       <div className="main">
         <div className="container">
           {
-            wallets.map(type => (
+            wallets.length > 0 && wallets.map(type => (
               <div className="blocks-list-container">
                 <h2 className="title title--green" data-id={type.key}>
                   {t(type.title)}
