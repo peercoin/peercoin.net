@@ -244,7 +244,7 @@
       order: 1;
     }
 
-    @include viewports(up-to small) {
+    @include viewports(up-to medium) {
       width: 300px;
     }
   }
@@ -352,7 +352,7 @@
         img {
           width: 100%;
 
-          @include viewports(up-to small) {
+          @include viewports(up-to medium) {
             width: 250px;
           }
         }
