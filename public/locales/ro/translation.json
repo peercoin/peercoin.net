@@ -270,7 +270,7 @@
     "brandIdentityFontFont": "Font",
     "brandIdentityFontType": "Tip",
     "brandIdentityFontWebsite": "Site-ul web",
-    "brandIdentityFontRoboto": "Site-ul Peercoin și portofelele folosesc fontul Roboto pentru conținut."
+    "brandIdentityFontRoboto": "Site-ul Peercoin și portofelele folosesc fontul <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\">Roboto</a> pentru conținut."
   },
   "walletPage": {
     "title": "Portmonee",

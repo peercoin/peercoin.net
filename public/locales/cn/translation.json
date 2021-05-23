@@ -244,7 +244,7 @@
     "brandIdentityFontFont": "Font",
     "brandIdentityFontType": "Type",
     "brandIdentityFontWebsite": "网站",
-    "brandIdentityFontRoboto": "点点币网站和钱包使用Roboto字体显示内容。"
+    "brandIdentityFontRoboto": "点点币网站和钱包使用<a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\">Roboto</a>字体显示内容。"
   },
   "walletPage": {
     "title": "钱包",

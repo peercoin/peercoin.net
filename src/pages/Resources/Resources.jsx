@@ -1198,7 +1198,7 @@ function Resources() {
             <a href="http://www.ffmark.com/">http://www.ffmark.com/</a>
           </p>
           <p className="subtitle subtitle--left">
-            {t("resourcesPage.brandIdentityFontRoboto")}
+            {renderHTML(t("resourcesPage.brandIdentityFontRoboto"))}
           </p>
         </div>
       </div>

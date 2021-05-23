@@ -270,7 +270,7 @@
     "brandIdentityFontFont": "Шрифт",
     "brandIdentityFontType": "Тип",
     "brandIdentityFontWebsite": "Веб-сайт",
-    "brandIdentityFontRoboto": "Веб-сайт и кошельки Peercoin используют шрифт Roboto для контента."
+    "brandIdentityFontRoboto": "Веб-сайт и кошельки Peercoin используют шрифт <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\">Roboto</a> для контента."
   },
   "walletPage": {
     "title": "Кошельки",

@@ -270,7 +270,7 @@
     "brandIdentityFontFont": "Font",
     "brandIdentityFontType": "Type",
     "brandIdentityFontWebsite": "Website",
-    "brandIdentityFontRoboto": "The Peercoin website and wallets use the Roboto font for its content."
+    "brandIdentityFontRoboto": "The Peercoin website and wallets use the <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\">Roboto</a> font for its content."
   },
   "walletPage": {
     "title": "Wallets",

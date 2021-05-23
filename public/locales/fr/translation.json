@@ -244,7 +244,7 @@
     "brandIdentityFontFont": "Font",
     "brandIdentityFontType": "Type",
     "brandIdentityFontWebsite": "Website",
-    "brandIdentityFontRoboto": "Le site internet et portefeuille Peercoin utilise la police Roboto pour ces contenus."
+    "brandIdentityFontRoboto": "Le site internet et portefeuille Peercoin utilise la police <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\">Roboto</a> pour ces contenus."
   },
   "walletPage": {
     "title": "Wallets",

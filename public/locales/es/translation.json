@@ -244,7 +244,7 @@
     "brandIdentityFontFont": "Font",
     "brandIdentityFontType": "Type",
     "brandIdentityFontWebsite": "Sitio web",
-    "brandIdentityFontRoboto": "El sitio web y las carteras de Peercoin utilizan la fuente Roboto para su contenido."
+    "brandIdentityFontRoboto": "El sitio web y las carteras de Peercoin utilizan la fuente <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\">Roboto</a> para su contenido."
   },
   "walletPage": {
     "title": "Carteras",
