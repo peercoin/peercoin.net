@@ -21,6 +21,7 @@
           {
             "type": "list",
             "items": [
+              "walletPage.sectionWindows.text4",
               "walletPage.sectionWindows.text5",
               "walletPage.sectionWindows.text6",
               "walletPage.sectionWindows.text7"
