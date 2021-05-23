@@ -293,10 +293,10 @@
       "text4": "Arquitecturas soportadas: amd64, arm64 and armhf.",
       "text5": "Paquetes soportados: peercoind peeroin-qt peercoin-tx",
       "title3": "Daemon",
-      "text6": "Crear <code className=\"green\">peercoin.conf</code> en <code className=\"green\">~/.peercoin</code>",
-      "text7": "Correr <code className=\"green\">bin/32/peercoind</code>",
-      "text8": "Su billetera se encuentra en <code>~/.peercoin</code>.",
-      "text9": "Ayuda adicional se puede encontrar en el <a href=\"https://docs.peercoin.net/\">Peercoin Documentation</a> o preguntando por nuestro <a href=\"https://talk.peercoin.net/\">Forums</a>."
+      "text13": "Crear <code className=\"green\">peercoin.conf</code> en <code className=\"green\">~/.peercoin</code>",
+      "text14": "Correr <code className=\"green\">bin/32/peercoind</code>",
+      "text15": "Su billetera se encuentra en <code>~/.peercoin</code>.",
+      "text16": "Ayuda adicional se puede encontrar en el <a href=\"https://docs.peercoin.net/\">Peercoin Documentation</a> o preguntando por nuestro <a href=\"https://talk.peercoin.net/\">Forums</a>."
     },
     "paperWalletTitle": "Billetera de papel",
     "paperWalletSubtitle1": "Billetera de papel",

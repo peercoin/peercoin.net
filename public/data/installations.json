@@ -1,0 +1,146 @@
+[
+  {
+    "title": "Windows",
+    "options": [
+      {
+        "title": "walletPage.sectionWindows.title1",
+        "steps": [
+          {
+            "type": "list",
+            "items": [
+              "walletPage.sectionWindows.text1",
+              "walletPage.sectionWindows.text2",
+              "walletPage.sectionWindows.text3"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "walletPage.sectionWindows.title2",
+        "steps": [ 
+          {
+            "type": "list",
+            "items": [
+              "walletPage.sectionWindows.text5",
+              "walletPage.sectionWindows.text6",
+              "walletPage.sectionWindows.text7"
+            ]
+          }, 
+          {
+            "type": "text",
+            "text": "walletPage.sectionWindows.text8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "macOS",
+    "options": [
+      {
+        "title": "walletPage.sectionMac.title1",
+        "steps": [
+          {
+            "type": "list",
+            "items": [
+              "walletPage.sectionMac.text1",
+              "walletPage.sectionMac.text2",
+              "walletPage.sectionMac.text3",
+              "walletPage.sectionMac.text4"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "walletPage.sectionMac.title2",
+        "steps": [ 
+          {
+            "type": "list",
+            "items": [
+              "walletPage.sectionMac.text5",
+              "walletPage.sectionMac.text6",
+              "walletPage.sectionMac.text7"
+            ]
+          }, 
+          {
+            "type": "text",
+            "text": "walletPage.sectionMac.text8"
+          }, 
+          {
+            "type": "text",
+            "text": "walletPage.sectionMac.text9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Linux",
+    "options": [
+      {
+        "title": "walletPage.sectionLinux.title1",
+        "steps": [
+          {
+            "type": "list",
+            "items": [
+              "walletPage.sectionLinux.text1",
+              "walletPage.sectionLinux.text2"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "walletPage.sectionLinux.title2",
+        "steps": [ 
+          {
+            "type": "text",
+            "text": "walletPage.sectionLinux.text3"
+          }, 
+          {
+            "type": "text",
+            "text": "walletPage.sectionLinux.text4"
+          }, 
+          {
+            "type": "text",
+            "text": "walletPage.sectionLinux.text5"
+          }, 
+          {
+            "type": "list",
+            "items": [
+              "walletPage.sectionLinux.text6",
+              "walletPage.sectionLinux.text7",
+              "walletPage.sectionLinux.text8",
+              "walletPage.sectionLinux.text9",
+              "walletPage.sectionLinux.text10",
+              "walletPage.sectionLinux.text11"
+            ]
+          }, 
+          {
+            "type": "text",
+            "text": "walletPage.sectionLinux.text12"
+          }
+        ]
+      },
+      {
+        "title": "walletPage.sectionLinux.title3",
+        "steps": [
+          {
+            "type": "list",
+            "items": [
+              "walletPage.sectionLinux.text13",
+              "walletPage.sectionLinux.text14"
+            ]
+          }, 
+          {
+            "type": "text",
+            "text": "walletPage.sectionLinux.text15"
+          }, 
+          {
+            "type": "text",
+            "text": "walletPage.sectionLinux.text16"
+          }
+        ]
+      }
+    ]
+  }
+]

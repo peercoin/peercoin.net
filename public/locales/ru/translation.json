@@ -319,10 +319,10 @@
       "text4": "Поддерживаемая архитектура: amd64, arm64 and armhf.",
       "text5": "Доступные пакеты: peercoind peercoin-qt peercoin-tx",
       "title3": "Daemon",
-      "text6": "Создайте <code className=\"green\">peercoin.conf</code> in <code className=\"green\">~/.peercoin</code>",
-      "text7": "Запустите <code className=\"green\">bin/peercoind</code>",
-      "text8": "Ваш кошелек находится в <code>~/.peercoin</code>.",
-      "text9": "Дополнительную помощь можно найти в <a href=\"https://docs.peercoin.net/\">Peercoin Документации</a> или спрашивая на <a href=\"https://talk.peercoin.net/\">Форуме</a>."
+      "text13": "Создайте <code className=\"green\">peercoin.conf</code> in <code className=\"green\">~/.peercoin</code>",
+      "text14": "Запустите <code className=\"green\">bin/peercoind</code>",
+      "text15": "Ваш кошелек находится в <code>~/.peercoin</code>.",
+      "text16": "Дополнительную помощь можно найти в <a href=\"https://docs.peercoin.net/\">Peercoin Документации</a> или спрашивая на <a href=\"https://talk.peercoin.net/\">Форуме</a>."
     },
     "paperWalletTitle": "Бумажный Кошелек",
     "paperWalletSubtitle1": "Бумажный Кошелек",
