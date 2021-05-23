@@ -17,6 +17,11 @@
     display: none;
   }
 
+  @include viewports(up-to small) {
+    border-radius: 50%;
+    margin: 3px;
+  }
+
   img {
     width: 35px;
   }
