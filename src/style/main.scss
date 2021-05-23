@@ -165,9 +165,10 @@ a + .title {
   }
 }
 
-.blocks-list + h1,
-.blocks-list + h2 {
-  margin-top: 50px;
+.blocks-list-container { 
+  h1,h2 {
+    margin-top: 50px;
+  }
 }
 
 .anchor {

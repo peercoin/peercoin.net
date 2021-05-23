@@ -1,20 +1,170 @@
-[
-  {
-    "os": "Windows",
-    "img": "/img/icons/windows.png",
-    "checksum": "8f20562727e23badee51df47d75b8b1ff94e629c895e2fcf6f1bf5b0081389fe",
-    "link": "https://github.com/peercoin/peercoin/releases/download/v0.10.0ppc/peercoin-0.10.0-win64-setup-unsigned.exe"
-  },
-  {
-    "os": "macOS",
-    "img": "/img/icons/apple.png",
-    "checksum": "05a34358f4a155c710f6688274bf14736693f1a04a4d97341c48b742a3a09516",
-    "link": "https://github.com/peercoin/peercoin/releases/download/v0.10.0ppc/peercoin-0.10.0-osx-unsigned.dmg"
-  },
-  {
-    "os": "Linux",
-    "img": "/img/icons/linux.png",
-    "checksum": "2b032396a89623eb11f1708530e8f7ef1063c716916e9d68d3ff76c4e98ccc4f",
-    "link": "https://github.com/peercoin/peercoin/releases/download/v0.10.0ppc/peercoin-0.10.0-x86_64-linux-gnu.tar.gz"
-  }
-]
+
+{
+  "official": [
+    {
+      "os": "Windows",
+      "img": "/img/icons/windows.png",
+      "checksum": "8f20562727e23badee51df47d75b8b1ff94e629c895e2fcf6f1bf5b0081389fe",
+      "link": "https://github.com/peercoin/peercoin/releases/download/v0.10.0ppc/peercoin-0.10.0-win64-setup-unsigned.exe"
+    },
+    {
+      "os": "macOS",
+      "img": "/img/icons/apple.png",
+      "checksum": "05a34358f4a155c710f6688274bf14736693f1a04a4d97341c48b742a3a09516",
+      "link": "https://github.com/peercoin/peercoin/releases/download/v0.10.0ppc/peercoin-0.10.0-osx-unsigned.dmg"
+    },
+    {
+      "os": "Linux",
+      "img": "/img/icons/linux.png",
+      "checksum": "2b032396a89623eb11f1708530e8f7ef1063c716916e9d68d3ff76c4e98ccc4f",
+      "link": "https://github.com/peercoin/peercoin/releases/download/v0.10.0ppc/peercoin-0.10.0-x86_64-linux-gnu.tar.gz"
+    }
+  ],
+  "other": [
+    {
+      "key": "paperwallet",
+      "title": "walletPage.paperWalletTitle",
+      "wallets": [
+        {
+          "url": "https://paperwallet.peercoin.net/",
+          "image": "/img/explorers/peercoin_green.png",
+          "title": {
+            "translated": true,
+            "text": "walletPage.paperWalletSubtitle1"
+          },
+          "subtitle": null
+        },
+        {
+          "url": "https://github.com/technologiespro/paper-wallet-generator",
+          "image": "/img/explorers/peercoin_green.png",
+          "title": {
+            "translated": false,
+            "text": "paper-wallet-generator"
+          },
+          "subtitle": null
+        }
+      ]
+    },
+    {
+      "key": "hardwarewallet",
+      "title": "walletPage.paperWalletSubtitle3",
+      "wallets": [
+        {
+          "url": "https://www.ledger.com/",
+          "image": "/img/wallets/ledger.png",
+          "title": {
+            "translated": false,
+            "text": "Ledger"
+          },
+          "subtitle": {
+            "translated": true,
+            "text": "walletPage.type1"
+          }
+        },
+        {
+          "url": "https://trezor.io/",
+          "image": "/img/wallets/trezor.png",
+          "title": {
+            "translated": false,
+            "text": "Trezor"
+          },
+          "subtitle": {
+            "translated": true,
+            "text": "walletPage.type1"
+          }
+        }
+      ]
+    },
+    {
+      "key": "unofficialclients",
+      "title": "walletPage.paperWalletSubtitle2",
+      "wallets": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=net.primecoin.app.gemmer",
+          "image": "/img/wallets/gemmer.png",
+          "title": {
+            "translated": false,
+            "text": "gemmer"
+          },
+          "subtitle": {
+            "translated": true,
+            "text": "walletPage.type4"
+          }
+        },
+        {
+          "url": "https://uberpay.io/",
+          "image": "/img/wallets/uberpay.png",
+          "title": {
+            "translated": false,
+            "text": "UberPay"
+          },
+          "subtitle": {
+            "translated": true,
+            "text": "walletPage.type2"
+          }
+        },
+        {
+          "url": "https://www.coinspot.com.au/",
+          "image": "/img/wallets/coinspot.png",
+          "title": {
+            "translated": false,
+            "text": "Coinspot"
+          },
+          "subtitle": {
+            "translated": true,
+            "text": "walletPage.type3"
+          }
+        },
+        {
+          "url": "https://www.coinvault.io/",
+          "image": "/img/wallets/coinvault.png",
+          "title": {
+            "translated": false,
+            "text": "CoinVault"
+          },
+          "subtitle": {
+            "translated": true,
+            "text": "walletPage.type3"
+          }
+        },
+        {
+          "url": "https://holytransaction.com/",
+          "image": "/img/wallets/holytransaction.png",
+          "title": {
+            "translated": false,
+            "text": "HolyTransaction"
+          },
+          "subtitle": {
+            "translated": true,
+            "text": "walletPage.type3"
+          }
+        },
+        {
+          "url": "https://www.abra.com/",
+          "image": "/img/wallets/abra.png",
+          "title": {
+            "translated": false,
+            "text": "Abra"
+          },
+          "subtitle": {
+            "translated": true,
+            "text": "walletPage.type2"
+          }
+        },
+        {
+          "url": "https://www.coinomi.com/",
+          "image": "/img/wallets/coinomi.png",
+          "title": {
+            "translated": false,
+            "text": "Coinomi"
+          },
+          "subtitle": {
+            "translated": true,
+            "text": "walletPage.type2"
+          }
+        }
+      ]
+    }
+  ]
+}
+
