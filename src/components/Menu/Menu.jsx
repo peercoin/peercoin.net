@@ -70,94 +70,61 @@ function Menu() {
               <img src="/img/icon-menu-arrow-down.svg" alt="" />
               <ul className="menu__main__submenu">
                 <li>
-                  <a
-                    href="https://university.peercoin.net/"
-                    className="submenu"
-                  >
+                  <a href="https://university.peercoin.net/" className="submenu" target="_blank">
                     {t("menuComponent.links.learn.peercoinUniversity")}
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://university.peercoin.net/#/2-what-is-a-blockchain-"
-                    className="submenu"
-                  >
+                  <a href="https://university.peercoin.net/#/2-what-is-a-blockchain-" className="submenu" target="_blank">
                     {t("menuComponent.links.learn.whatIsBlockchain")}
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://university.peercoin.net/#/6-inherent-centralization-of-proof-of-work-blockchains"
-                    className="submenu"
-                  >
+                  <a href="https://university.peercoin.net/#/6-inherent-centralization-of-proof-of-work-blockchains" className="submenu" target="_blank">
                     {t("menuComponent.links.learn.inherentCentralization")}
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://university.peercoin.net/#/9-peercoin-proof-of-stake-consensus"
-                    className="submenu"
-                  >
+                  <a href="https://university.peercoin.net/#/9-peercoin-proof-of-stake-consensus" className="submenu" target="_blank">
                     {t("menuComponent.links.learn.peercoinProofOfStake")}
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://university.peercoin.net/#/10-efficient-sustainable-security"
-                    className="submenu"
-                  >
+                  <a href="https://university.peercoin.net/#/10-efficient-sustainable-security" className="submenu" target="_blank">
                     {t(
                       "menuComponent.links.learn.efficientSustainableSecurity"
                     )}
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://university.peercoin.net/#/11-economics-of-peercoin"
-                    className="submenu"
-                  >
+                  <a href="https://university.peercoin.net/#/11-economics-of-peercoin" className="submenu" target="_blank">
                     {t("menuComponent.links.learn.economicsOfPeercoin")}
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://university.peercoin.net/#/12-scalability-of-peercoin"
-                    className="submenu"
-                  >
+                  <a href="https://university.peercoin.net/#/12-scalability-of-peercoin" className="submenu" target="_blank">
                     {t("menuComponent.links.learn.scalabilityOfPeercoin")}
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://medium.com/peercoin/deflation-and-cryptocurrencies-the-long-term-ramifications-of-fixed-supply-currencies-c192f44dddc1"
-                    className="submenu"
-                  >
+                  <a href="https://medium.com/peercoin/deflation-and-cryptocurrencies-the-long-term-ramifications-of-fixed-supply-currencies-c192f44dddc1" className="submenu" target="_blank">
                     {t(
                       "menuComponent.links.learn.deflationAndCriptocurrencies"
                     )}
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://medium.com/peercoin/peercoins-hybrid-chain-solution-to-proof-of-work-global-scaling-and-environmental-impact-c36757e89d6e"
-                    className="submenu"
-                  >
+                  <a href="https://medium.com/peercoin/peercoins-hybrid-chain-solution-to-proof-of-work-global-scaling-and-environmental-impact-c36757e89d6e" className="submenu" target="_blank">
                     {t("menuComponent.links.learn.peercoinHybridChainSolution")}
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://medium.com/peercoin/the-rich-get-richer-concept-in-proof-of-stake-systems-82c5ceeff326"
-                    className="submenu"
-                  >
+                  <a href="https://medium.com/peercoin/the-rich-get-richer-concept-in-proof-of-stake-systems-82c5ceeff326" className="submenu" target="_blank">
                     {t("menuComponent.links.learn.richRicherFallacy")}
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://docs.peercoin.net/#/frequently-asked-questions"
-                    className="submenu"
-                  >
+                  <a href="https://docs.peercoin.net/#/frequently-asked-questions" className="submenu" target="_blank">
                     {t("menuComponent.links.learn.frequentlyAskedQuestions")}
                   </a>
                 </li>
@@ -175,7 +142,7 @@ function Menu() {
               <img src="/img/icon-menu-arrow-down.svg" alt="" />
               <ul className="menu__main__submenu">
                 <li>
-                  <a href="https://docs.peercoin.net/" className="submenu">
+                  <a href="https://docs.peercoin.net/" className="submenu" target="_blank">
                     <img src="/img/icons/docs_green.png" alt="" />
                     {t("menuComponent.links.resources.documentation")}
                   </a>
@@ -223,7 +190,7 @@ function Menu() {
               <img src="/img/icon-menu-arrow-down.svg" alt="" />
               <ul className="menu__main__submenu">
                 <li>
-                  <a href="https://github.com/peercoin/" className="submenu">
+                  <a href="https://github.com/peercoin/" className="submenu" target="_blank">
                     <img src="/img/icons/github_green.png" alt="" />
                     {t("menuComponent.links.project.github")}
                   </a>
@@ -235,7 +202,7 @@ function Menu() {
                   </Link>
                 </li>
                 <li>
-                  <a href="https://medium.com/peercoin" className="submenu">
+                  <a href="https://medium.com/peercoin" className="submenu" target="_blank">
                     <img src="/img/icons/blog_green.png" alt="" />
                     {t("menuComponent.links.project.blog")}
                   </a>
