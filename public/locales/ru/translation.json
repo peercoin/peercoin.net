@@ -269,7 +269,6 @@
     "brandIdentityFont": "В текстовом логотипе Peercoin используется следующий шрифт",
     "brandIdentityFontFont": "Шрифт",
     "brandIdentityFontType": "Тип",
-    "brandIdentityFontWebsite": "Веб-сайт",
     "brandIdentityFontRoboto": "Веб-сайт и кошельки Peercoin используют шрифт Roboto для контента."
   },
   "walletPage": {

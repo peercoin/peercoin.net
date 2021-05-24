@@ -243,7 +243,6 @@
     "brandIdentityFont": "El logo de texto de Peercoin usa la siguiente fuente:",
     "brandIdentityFontFont": "Font",
     "brandIdentityFontType": "Type",
-    "brandIdentityFontWebsite": "Sitio web",
     "brandIdentityFontRoboto": "El sitio web y las carteras de Peercoin utilizan la fuente Roboto para su contenido."
   },
   "walletPage": {

@@ -243,7 +243,6 @@
     "brandIdentityFont": "点点币文字标识使用以下字体",
     "brandIdentityFontFont": "Font",
     "brandIdentityFontType": "Type",
-    "brandIdentityFontWebsite": "网站",
     "brandIdentityFontRoboto": "点点币网站和钱包使用Roboto字体显示内容。"
   },
   "walletPage": {
