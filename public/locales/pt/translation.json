@@ -143,7 +143,7 @@
     "faqTitle": "Perguntas Frequentes",
     "faq": {
       "howOldQuestion": "Que idade tem o projeto Peercoin?",
-      "howOldAnswer": "A chain Peercoin começou a 19 de Agosto de 2012, às 18:00:00 UTC. Não existiu mining prévio e o lançamento do projeto foi anunciado 9 dias antes do seu inicio. Pode consultar o anúncio original aqui: https://bitcointalk.org/index.php?topic=101820.0",
+      "howOldAnswer": "A chain Peercoin começou a 19 de Agosto de 2012, às 18:00:00 UTC. Não existiu mining prévio e o lançamento do projeto foi anunciado 9 dias antes do seu inicio. Pode consultar o anúncio original aqui: <a href=\"https://bitcointalk.org/index.php?topic=101820.0\" target=\"_blank\">Bitcointalk</a>",
       "howCanIMineQuestion": "Como posso minar Peercoin?",
       "howCanIMineAnswer": "O Peercoin utiliza a função hash criptográfica SHA256. Qualquer hardware que mine Bitcoin efetivamente pode ser utilizado para minar Peercoin.",
       "whyMintingQuestion": "Porquê um retorno de 1% de minting? Porque é que não existe um limite do número total de PPC? Isto não desqualifica o Peercoin como moeda deflacionária?",

@@ -166,7 +166,7 @@
       "faqTitle": "Najczęściej Zadawane Pytania",
       "faq": {
         "howOldQuestion": "Ile lat ma projekt Peercoin?",
-        "howOldAnswer": "Sieć Peercoin rozpoczęła się 19 sierpnia 2012 o godzinie 18:00:00 UTC. Nie było żadnych warunków wstępnych, a rozpoczęcie projektu ogłoszono dziewięć dni przed jego uruchomieniem. Możesz przeczytać oryginalny wątek z ogłoszeniem tutaj: https://bitcointalk.org/index.php?topic=101820.0",
+        "howOldAnswer": "Sieć Peercoin rozpoczęła się 19 sierpnia 2012 o godzinie 18:00:00 UTC. Nie było żadnych warunków wstępnych, a rozpoczęcie projektu ogłoszono dziewięć dni przed jego uruchomieniem. Możesz przeczytać oryginalny wątek z ogłoszeniem tutaj: <a href=\"https://bitcointalk.org/index.php?topic=101820.0\" target=\"_blank\">Bitcointalk</a>",
         "howCanIMineQuestion": "Jak mogę wydobywać Peercoin?",
         "howCanIMineAnswer": "Peercoin używa kryptograficznej funkcji skrótu SHA256. Każdy sprzęt, który może efektywnie wydobywać Bitcoin, może być użyty do wydobywania Peercoin.",
         "whyMintingQuestion": "Dlaczego 1% zysku ze stakingu? Dlaczego nie ma sztywnego limitu całkowitej liczby PPC? Czy to nie dyskwalifikuje Peercoin jako waluty deflacyjnej?",

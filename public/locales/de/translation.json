@@ -164,7 +164,7 @@
     "faqTitle": "Häufige Fragen",
     "faq": {
       "howOldQuestion": "Seit wann gibt es Peercoin?",
-      "howOldAnswer": "Peercoins Blockchain startete am 19. August 2012 um 19:00:00 MEZ. Es gab keinen Premine und der Start des Projekts wurde neun Tage im Voraus angekündigt. Den Orginal-Thread mit der Ankündigung finden Sie hier: https://bitcointalk.org/index.php?topic=101820.0",
+      "howOldAnswer": "Peercoins Blockchain startete am 19. August 2012 um 19:00:00 MEZ. Es gab keinen Premine und der Start des Projekts wurde neun Tage im Voraus angekündigt. Den Orginal-Thread mit der Ankündigung finden Sie hier: <a href=\"https://bitcointalk.org/index.php?topic=101820.0\" target=\"_blank\">Bitcointalk</a>",
       "howCanIMineQuestion": "Wie kann ich Peercoins minen?",
       "howCanIMineAnswer": "Peercoin verwendet den SHA256 Algorithmus. Jede Hardware die Bitcoin effektiv minen kann, kann auch genutzt werden, um Peercoins zu minen.",
       "whyMintingQuestion": "Warum 1% Ertrag für das Staken? Warum kein festes Limit für die Gesamtzahl PPC? Disqualifiziert das nicht Peercoin als deflationäres Geld?",

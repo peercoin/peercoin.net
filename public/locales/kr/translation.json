@@ -143,7 +143,7 @@
     "faqTitle": "자주 묻는 질문",
     "faq": {
       "howOldQuestion": "피어코인 프로젝트는 얼마나 오래되었나요?",
-      "howOldAnswer": "피어코인 체인은 2012년 8월 19일 18:00:00 UTC에서 처음 시작되었습니다. 사전 채굴은 없었고 프로젝트 런칭은 그것이 시작되기 9일 전에 발표되었습니다. 발표 원문 스레드를 여기에서 읽을 수 있습니다: https://bitcointalk.org/index.php?topic=101820.0",
+      "howOldAnswer": "피어코인 체인은 2012년 8월 19일 18:00:00 UTC에서 처음 시작되었습니다. 사전 채굴은 없었고 프로젝트 런칭은 그것이 시작되기 9일 전에 발표되었습니다. 발표 원문 스레드를 여기에서 읽을 수 있습니다: <a href=\"https://bitcointalk.org/index.php?topic=101820.0\" target=\"_blank\">Bitcointalk</a>",
       "howCanIMineQuestion": "어떻게 피어코인을 채굴할 수 있나요?",
       "howCanIMineAnswer": "피어코인은 SHA256 암호화 해시 함수를 사용합니다. 비트코인을 채굴할 수 있는 모든 하드웨어는 피어코인 채굴에도 사용될 수 있습니다.",
       "whyMintingQuestion": "왜 보유분의 1% 발행 반환이 있나요? PPC의 총 수에는 왜 제한이 없습니까? 이것이 피어코인을 디플레이션 통화로써 부적합하게 하지 않나요?",

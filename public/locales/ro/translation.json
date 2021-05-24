@@ -166,7 +166,7 @@
     "faqTitle": "Întrebări frecvente",
     "faq": {
       "howOldQuestion": "De când este proiectul Peercoin?",
-      "howOldAnswer": "Blockchain-ul Peercoin a început pe 19 august 2012 la 18:00:00 UTC. Nu a existat nicio monetă preminată, iar lansarea proiectului a fost anunțată cu nouă zile înainte. Puteți citi anunțul original aici: https://bitcointalk.org/index.php?topic=101820.0",
+      "howOldAnswer": "Blockchain-ul Peercoin a început pe 19 august 2012 la 18:00:00 UTC. Nu a existat nicio monetă preminată, iar lansarea proiectului a fost anunțată cu nouă zile înainte. Puteți citi anunțul original aici: <a href=\"https://bitcointalk.org/index.php?topic=101820.0\" target=\"_blank\">Bitcointalk</a>",
       "howCanIMineQuestion": "Cum pot mina Peercoin?",
       "howCanIMineAnswer": "Peercoin folosește funcția criptografică de hash - SHA256. Orice hardware care poate extrage Bitcoin, poate fi folosit pentru extragerea Peercoin.",
       "whyMintingQuestion": "De ce rentabilitatea e de 1%? De ce nu există o limită a numărului total de PPC? Nu descalifică acest lucru Peercoin ca monedă deflaționistă?",

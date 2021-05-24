@@ -143,7 +143,7 @@
     "faqTitle": "Foire Aux Questions",
     "faq": {
       "howOldQuestion": "Depuis quand le projet Peercoin existe?",
-      "howOldAnswer": "La chain du Peercoin à commencé le 19 Août 2012 à 18h00 UTC. Il n'y avait pas de Préminage et le lancement à été annoncé neuf jours avant. Vous pouvez lire l'annonce originale ici: https://bitcointalk.org/index.php?topic=101820.0",
+      "howOldAnswer": "La chain du Peercoin à commencé le 19 Août 2012 à 18h00 UTC. Il n'y avait pas de Préminage et le lancement à été annoncé neuf jours avant. Vous pouvez lire l'annonce originale ici: <a href=\"https://bitcointalk.org/index.php?topic=101820.0\" target=\"_blank\">Bitcointalk</a>",
       "howCanIMineQuestion": "Comment miner du Peercoin?",
       "howCanIMineAnswer": "Peercoin utilise l'algorythme SHA256. Tout les hardware qui peuvent miner du Bitcoin peuvent miner du Peercoin",
       "whyMintingQuestion": "Pourquoi un intérêt de 1% sur la frappe? Pourquoi y'a t'il une limite sur le nombre total de PPC? Cela ne disqualifie-t-il pas Peercoin en tant que monnaie déflationniste?",
