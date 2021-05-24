@@ -113,7 +113,7 @@ function Resources() {
                 {t("resourcesPage.contributeTitle")}
               </h2>
               <p>{t("resourcesPage.contributeText")}</p>
-              <a href="https://github.com/peercoin/" className="btn btn--green">
+              <a href="https://github.com/peercoin/" target="_blank" className="btn btn--green">
                 {t("resourcesPage.contributeBtn")}
               </a>
             </div>
@@ -122,7 +122,7 @@ function Resources() {
                 {t("resourcesPage.documentationTitle")}
               </h2>
               <p>{t("resourcesPage.documentationText")}</p>
-              <a href="https://docs.peercoin.net/" className="btn btn--green">
+              <a href="https://docs.peercoin.net/" target="_blank" className="btn btn--green">
                 {t("resourcesPage.documentationBtn")}
               </a>
             </div>
@@ -137,25 +137,19 @@ function Resources() {
               <p>{t("resourcesPage.miningText2")}</p>
               <ul>
                 <li>
-                  <a href="http://bfgminer.org/">BFGMiner</a>
+                  <a href="http://bfgminer.org/" target="_blank">BFGMiner</a>
                 </li>
                 <li>
-                  <a href="https://github.com/ckolivas/cgminer">CGMiner</a>
+                  <a href="https://github.com/ckolivas/cgminer" target="_blank">CGMiner</a>
                 </li>
                 <li>
-                  <a href="https://easyminer.net/">EasyMiner</a>
+                  <a href="https://easyminer.net/" target="_blank">EasyMiner</a>
                 </li>
               </ul>
-              <a
-                href="https://docs.peercoin.net/#/mining"
-                className="btn btn--green"
-              >
+              <a href="https://docs.peercoin.net/#/mining" className="btn btn--green" target="_blank">
                 {t("resourcesPage.miningBtn1")}
               </a>
-              <a
-                href="https://www.coinwarz.com/calculators/peercoin-mining-calculator"
-                className="btn btn--green"
-              >
+              <a href="https://www.coinwarz.com/calculators/peercoin-mining-calculator" className="btn btn--green" target="_blank">
                 {t("resourcesPage.miningBtn2")}
               </a>
             </div>
@@ -168,25 +162,22 @@ function Resources() {
               <p>{t("resourcesPage.universityText2")}</p>
               <ul>
                 <li>
-                  <a href="https://university.peercoin.net/#/2-what-is-a-blockchain-">
+                  <a href="https://university.peercoin.net/#/2-what-is-a-blockchain-" target="_blank">
                     {t("resourcesPage.universityLink1")}
                   </a>
                 </li>
                 <li>
-                  <a href="https://university.peercoin.net/#/6-inherent-centralization-of-proof-of-work-blockchains">
+                  <a href="https://university.peercoin.net/#/6-inherent-centralization-of-proof-of-work-blockchains" target="_blank">
                     {t("resourcesPage.universityLink2")}
                   </a>
                 </li>
                 <li>
-                  <a href="https://university.peercoin.net/#/9-peercoin-proof-of-stake-consensus">
+                  <a href="https://university.peercoin.net/#/9-peercoin-proof-of-stake-consensus" target="_blank">
                     {t("resourcesPage.universityLink3")}
                   </a>
                 </li>
               </ul>
-              <a
-                href="https://university.peercoin.net/"
-                className="btn btn--green"
-              >
+              <a href="https://university.peercoin.net/" className="btn btn--green" target="_blank">
                 {t("resourcesPage.universityBtn")}
               </a>
             </div>
