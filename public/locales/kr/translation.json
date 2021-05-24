@@ -167,7 +167,7 @@
     "peerAssetsP1": "프로토콜은 메시지가 자산을, 주소가 피어를 나타내는 블록체인에서 메시지를 쓰고 읽음으로써 동작한다고 간략히 설명할 수 있습니다.",
     "peerAssetsP2": "PeerAsset 프로토콜 기반의 자산은 채권이나 보통주와 같은 모든 유형의 자산을 나타내는데 활용할 수 있습니다. PeerAssets는 또한 실생활의 객체를 나타낼 수 있으며, 그렇게 함으로써 블록체인 상에서 존재 여부를 확인합니다. PeerAssets는 기본 프로토콜 체인에 추가적인 레이어를 사용하지 않아 가벼운 프로토콜입니다. 블록체인 기본 통화 외에 거래 수수료 지불을 위한 다른 외부 토큰은 필요하지 않습니다. PeerAssets는 공공 장부를 만들거나 유지하는데 참여하지는 않지만 그것의 안정성과 신뢰성이 주는 장점을 활용합니다. PeerAssets는 비트코인에서 포크 되거나 호환 가능한 코드 베이스를 유지하는 피어코인, 라이트코인과 같은 주요 암호화폐에서 동작합니다.",
     "peerAssetsP3": "PeerAssets는 호스트 네트워크의 하드 또는 소프트 포크가 필요하지는 않지만 PeerAssets 인식을 위한 클라이언트를 개발해야 합니다. PeerAssets는 \"Colored Coins\"이라는 원래 아이디어에서 영감을 얻었으며, OP_RETURN을 사용해서 블록체인 상에 데이터를 기록하지만 OP_RETURN을 통해 기록된 데이 터양을 줄이기 위한 최적화 기능을 제공합니다. PeerAssets는 관련 트랜잭션을 블록체인 상에서 쉽게 쿼리 할 수 있으며 주주 투표나 배당금 지급과 같은 몇 가지 추가 기능도 제공합니다.",
-    "peerAssetsP4": "시작하시려면, <a href=\"https://medium.com/@buckkets/basic-deck-creation-with-peerassets-tutorial-e416415b3cc8\">덱 생성에 대한 기본 튜토리얼을 확인하십시오.</a>",
+    "peerAssetsP4": "시작하시려면, <a href=\"https://medium.com/@buckkets/basic-deck-creation-with-peerassets-tutorial-e416415b3cc8\" target=\"_blank\">덱 생성에 대한 기본 튜토리얼을 확인하십시오.</a>",
     "peerAssetsBtnGithub": "GitHub",
     "peerAssetsBtnWhitepaper": "백서",
     "perperaTitle": "Perpera",
@@ -269,7 +269,7 @@
       "text5": "<code>daemon\\peercoind</code> 실행",
       "text6": "당신의 지갑은 <code>C:Users&lt;username&gt;AppData</code> 에 있습니다(숨김 폴더)..",
       "text7": "<code>시작 메뉴 -> 실행...</code> (또는 단축키 <code>Winkey-R</code>) 메뉴를 선택하여 <code>%APPDATA%PPCoin</code> 라고 입력 후 엔터를 클릭해서 폴더를 엽니다.",
-      "text8": "추가적인 도움은 피어코인 <a href=\"https://docs.peercoin.net/\">문서</a> 또는 <a href=\"https://talk.peercoin.net/\">포럼</a> 에서 찾을 수 있습니다."
+      "text8": "추가적인 도움은 피어코인 <a href=\"https://docs.peercoin.net/\" target=\"_blank\">문서</a> 또는 <a href=\"https://talk.peercoin.net/\" target=\"_blank\">포럼</a> 에서 찾을 수 있습니다."
     },
     "sectionMac": {
       "title1": "macOS",
@@ -282,7 +282,7 @@
       "text6": "<code className=\"green\">ppcoin.conf</code> 파일을 <code className=\"green\">~/Library/Application Support/PPCoin</code> 에 생성",
       "text7": "<code className=\"green\">peercoind</code> 실행",
       "text8": "여러분의 지갑은<code>~/Library/Application Support/PPCoin</code>. 에 있습니다. 폴더를 열기 위해, Finder에서 Command-Shift-G키를 누른 후, 경로를 넣고, Enter키를 누르세요.",
-      "text9": "추가적인 도움은 피어코인 <a href=\"https://docs.peercoin.net/\">문서</a> 또는  <a href=\"https://talk.peercoin.net/\">포럼</a> 에서 찾을 수 있습니다."
+      "text9": "추가적인 도움은 피어코인 <a href=\"https://docs.peercoin.net/\" target=\"_blank\">문서</a> 또는  <a href=\"https://talk.peercoin.net/\" target=\"_blank\">포럼</a> 에서 찾을 수 있습니다."
     },
     "sectionLinux": {
       "title1": "Linux",
@@ -292,7 +292,7 @@
       "text6": "<code className=\"green\">peercoin.conf</code> 파일을 <code className=\"green\">~/.peercoin</code> 에 생성",
       "text7": "<code className=\"green\">bin/32/peercoind</code> 실행",
       "text8": "당신의 지갑은 에 있습니다 <code>~/.peercoin</code>.",
-      "text9": " 추가적인 도움은 피어코인 <a href=\"https://docs.peercoin.net/\">문서</a>  또는 <a href=\"https://talk.peercoin.net/\">포럼</a> 에서 찾을 수 있습니다."
+      "text9": " 추가적인 도움은 피어코인 <a href=\"https://docs.peercoin.net/\" target=\"_blank\">문서</a>  또는 <a href=\"https://talk.peercoin.net/\" target=\"_blank\">포럼</a> 에서 찾을 수 있습니다."
     },
     "paperWalletTitle": "종이 지갑",
     "paperWalletSubtitle1": "종이 지갑",
@@ -334,12 +334,12 @@
     "getStartedTitle": "시작하기",
     "collapsables": {
       "learnTitle": "학습",
-      "learnText1": "프로젝트에 대한 보다 깊이 있는 내용을 확인하려면, <a href=\"https://university.peercoin.net/\">피어코인 대학</a> 이 가장 좋은 출발점입니다.  피어코인에 대한 더 많은 기사와 글은 <a href=\"https://medium.com/peercoin\">Medium Blog</a> 를 확인하세요.",
+      "learnText1": "프로젝트에 대한 보다 깊이 있는 내용을 확인하려면, <a href=\"https://university.peercoin.net/\" target=\"_blank\">피어코인 대학</a> 이 가장 좋은 출발점입니다.  피어코인에 대한 더 많은 기사와 글은 <a href=\"https://medium.com/peercoin\" target=\"_blank\">Medium Blog</a> 를 확인하세요.",
       "learnText2": "개발에 관심있는 분들에게 PeerAssets는 피어코인의 토큰과 관련된 두 번째 계층 솔루션입니다. 더 많은 정보는 <a href=\"/projects\">프로젝트</a> 페이지에서 찾으실 수 있습니다.",
-      "learnText3": "보다 많은 기술 정보를 <a href=\"https://docs.peercoin.net/\">피어코인 문서</a> 에서도 찾으실 수 있습니다.",
+      "learnText3": "보다 많은 기술 정보를 <a href=\"https://docs.peercoin.net/\" target=\"_blank\">피어코인 문서</a> 에서도 찾으실 수 있습니다.",
       "purchaseTitle": "구입",
       "purchaseText1": "피어코인은 다양한 거래소와 서비스를 지원합니다. <a href=\"/resources#exchanges\">여기에서 리스트를 확인하실 수 있습니다</a>.",
-      "purchaseText2": "<a href=\"https://docs.peercoin.net/#/purchase\">여기</a> 에서 피어코인을 구입하는 가이드도 확인하실 수 있습니다.",
+      "purchaseText2": "<a href=\"https://docs.peercoin.net/#/purchase\" target=\"_blank\">여기</a> 에서 피어코인을 구입하는 가이드도 확인하실 수 있습니다.",
       "walletTitle": "지갑",
       "walletText1": "<a href=\"/wallet\">피어코인 지갑</a> 은 Windows와 Mac OSX, Linux 플랫폼을 지원합니다.",
       "walletText2": " 커맨드 라인 기반의 경험도 제공합니다.",
@@ -347,13 +347,13 @@
       "mintTitle": "발행",
       "mintText1": "지분 증명 발행은 지분 보유자가 네트워크를 위한 새로운 블록을 만들어내는 효율적인 프로세스입니다. 이 새로운 블록들에는 네트워크 사용자들로부터 시작된 거래 내역들이 들어 있습니다. 채굴자의 역할은 이러한 거래 블록들을 처리하고 네트워크 보안을 제공하는 것입니다.",
       "mintText2": "발행은 지분 보유자가 다양한 유형의 장치를 사용해서 참여할 수 있게 하는 동력이자 비용 효율적인 프로세스입니다. 지분 보유자들은 그들이 제공하는 피어코인의 버전을 설치하고, 지갑에 PPC를 채운 후 피어코인 프로토콜에 의해 체인의 다음 블록을 생성에 선택되기까지 보유하고 있음으로써 발행 과정에 참여할 수 있습니다. 모든 신규 생성 블록은 새로운 PPC를 통해 지분 보유자에게 보상됩니다.",
-      "mintText3": "발행 방법을 배우시려면 <a href=\"https://docs.peercoin.net/#/wallets\">지갑 설명서</a>. 의 발행 부분을 확인하십시오. 발행에 대한 보다 일반적인 정보는 <a href=\"https://docs.peercoin.net/#/peercoin-minting-behaviour\">여기</a> 에서 찾을 수 있습니다.",
+      "mintText3": "발행 방법을 배우시려면 <a href=\"https://docs.peercoin.net/#/wallets\" target=\"_blank\">지갑 설명서</a>. 의 발행 부분을 확인하십시오. 발행에 대한 보다 일반적인 정보는 <a href=\"https://docs.peercoin.net/#/peercoin-minting-behaviour\" target=\"_blank\">여기</a> 에서 찾을 수 있습니다.",
       "mineTitle": "채굴",
       "mineText1": "피어코인은 작업 증명 채굴을 위해 해시캐시 double iterated SHA-256 알고리즘을 사용합니다. 이것은 비트코인을 채굴할 수 있는 모든 하드웨어가 피어코인도 채굴할 수 있음을 의미합니다.",
       "mineText2": "시작하려면 <a href=\"https://docs.peercoin.net/#/mining\"발행 문서</a> 를 참고하세요.",
       "communityTitle": "커뮤니티",
-      "communityText1": "피어코인 커뮤니티 멤버 및 개발자들과 소통하기 위해 저희 <a href=\"https://talk.peercoin.net/\">포럼</a>, <a href=\"https://discord.gg/XPxfwtG\">Discord</a>, 또는 <a href=\"https://t.me/peercoin\">텔레그램</a> 에 가입하세요. 최신의 피어코인 관련 소식을 접하기 위해 <a href=\"https://twitter.com/PeercoinPPC\">트위터</a>, <a href=\"https://www.reddit.com/r/peercoin\">Reddit</a>, <a href=\"https://medium.com/peercoin\">Medium Blog</a>, 또는 <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\">뉴스레터</a> 를 구독하세요. <a href=\"/resources#communities\">여기</a> 에서 다른 커뮤니티 리소스 목록을 확인하세요.",
-      "communityText2": "중요한 업데이트는 <a href=\"https://blockfolio.com/\">Blockfolio</a>, <a href=\"https://delta.app/\">Delta</a>, 또는 <a href=\"https://www.coingecko.com/\">CoinGecko</a>. 와 같은 플랫폼을 통해 여러분의 모바일 기기로 바로 전달될 수 있습니다. 최신 정보를 유지하기 위해 구독하세요."
+      "communityText1": "피어코인 커뮤니티 멤버 및 개발자들과 소통하기 위해 저희 <a href=\"https://talk.peercoin.net/\" target=\"_blank\">포럼</a>, <a href=\"https://discord.gg/XPxfwtG\" target=\"_blank\">Discord</a>, 또는 <a href=\"https://t.me/peercoin\" target=\"_blank\">텔레그램</a> 에 가입하세요. 최신의 피어코인 관련 소식을 접하기 위해 <a href=\"https://twitter.com/PeercoinPPC\" target=\"_blank\">트위터</a>, <a href=\"https://www.reddit.com/r/peercoin\" target=\"_blank\">Reddit</a>, <a href=\"https://medium.com/peercoin\" target=\"_blank\">Medium Blog</a>, 또는 <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\" target=\"_blank\">뉴스레터</a> 를 구독하세요. <a href=\"/resources#communities\">여기</a> 에서 다른 커뮤니티 리소스 목록을 확인하세요.",
+      "communityText2": "중요한 업데이트는 <a href=\"https://blockfolio.com/\" target=\"_blank\">Blockfolio</a>, <a href=\"https://delta.app/\" target=\"_blank\">Delta</a>, 또는 <a href=\"https://www.coingecko.com/\" target=\"_blank\">CoinGecko</a>. 와 같은 플랫폼을 통해 여러분의 모바일 기기로 바로 전달될 수 있습니다. 최신 정보를 유지하기 위해 구독하세요."
     },
     "latestNewsTitle": "최신 소식"
   },
