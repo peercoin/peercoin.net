@@ -204,7 +204,7 @@ function Wallet() {
                 </h2>
                 <div className="blocks-list">
                   {type.wallets.map(wallet => (
-                    <a href={wallet.url} className="blocks-list__block">
+                    <a href={wallet.url} className="blocks-list__block" target="_blank">
                       <h4 className="blocks-list__block__title">
                         {wallet.title.translated ? t(wallet.title.text) : wallet.title.text}
                       </h4>
