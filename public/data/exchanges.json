@@ -1,0 +1,84 @@
+{
+  "title": "resourcesPage.exchangesTitle",
+  "description": "resourcesPage.exchangesText",
+  "resources": [
+    {
+      "title": "Bittrex",
+      "url": "https://bittrex.com/",
+      "image": "/img/exchanges/bittrex_green.png",
+      "type": "resourcesPage.exchangesType1"
+    },
+    {
+      "title": "HitBTC",
+      "url": "https://hitbtc.com/",
+      "image": "/img/exchanges/hitbtc_green.png",
+      "type": "resourcesPage.exchangesType1"
+    },
+    {
+      "title": "The Rock Trading",
+      "url": "https://www.therocktrading.com/",
+      "image": "/img/exchanges/therocktrading_green.png",
+      "type": "resourcesPage.exchangesType1"
+    },
+    {
+      "title": "Changelly",
+      "url": "https://changelly.com/",
+      "image": "/img/exchanges/changelly_green.png",
+      "type": "resourcesPage.exchangesType1"
+    },
+    {
+      "title": "Coin Switch",
+      "url": "https://coinswitch.co/",
+      "image": "/img/exchanges/coinswitch_green.png",
+      "type": "resourcesPage.exchangesType2"
+    },
+    {
+      "title": "FreiExchange",
+      "url": "https://freiexchange.com/",
+      "image": "/img/exchanges/freiexchange_green.png",
+      "type": "resourcesPage.exchangesType1"
+    },
+    {
+      "title": "Flyp.me",
+      "url": "https://flyp.me/",
+      "image": "/img/exchanges/flypme_green.png",
+      "type": "resourcesPage.exchangesType2"
+    },
+    {
+      "title": "SwapSpace",
+      "url": "https://swapspace.co/",
+      "image": "/img/exchanges/swapspace_green.png",
+      "type": "resourcesPage.exchangesType2"
+    },
+    {
+      "title": "CoinSpot",
+      "url": "https://www.coinspot.com.au/",
+      "image": "/img/exchanges/coinspot_green.png",
+      "type": "resourcesPage.exchangesType1"
+    },
+    {
+      "title": "Swapzone",
+      "url": "https://swapzone.io/",
+      "image": "/img/exchanges/swapzone_green.png",
+      "type": "resourcesPage.exchangesType2"
+    },
+    {
+      "title": "anycoindirect",
+      "url": "https://anycoindirect.eu/en/buy-peercoin/",
+      "image": "/img/exchanges/anycoin_green.png",
+      "type": "resourcesPage.exchangesType1"
+    },
+    {
+      "title": "Indacoin",
+      "url": "https://buy.peercoin.net/",
+      "image": "/img/exchanges/indacoin_green.png",
+      "type": "resourcesPage.exchangesType2"
+    },
+    {
+      "title": "CoinPaprika",
+      "url": "https://coinpaprika.com/coin/ppc-peercoin/",
+      "image": "/img/exchanges/coinpaprika_green.png",
+      "type": "resourcesPage.exchangesType3"
+    }
+  ]
+}
