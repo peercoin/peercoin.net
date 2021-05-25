@@ -1,19 +1,6 @@
-import React, {useEffect, useState, Suspense} from 'react';
-import { useTranslation } from 'react-i18next';
+import React from 'react';
 
-function Address() {
-  const { t } = useTranslation();
-  const [address, setAddress] = useState([]);
-  
-  useEffect(() => {
-    fetch("/data/address.json")
-      .then((res) => res.json())
-      .then((jsonData) => {
-        setAddress(jsonData);
-      });
-  }, []);
-  
-  return (
+function Address() {return (
     <div>
       <h2 className="title title--green title--left">{t('contactPage.contactUsTitle')}</h2>
         <p>
