@@ -1,0 +1,25 @@
+{
+  "title": "resourcesPage.toolsTitle",
+  "resources": [
+    {
+      "title": "resourcesPage.toolsCharts",
+      "url": "https://www.peercoinexplorer.net/charts/",
+      "image": "/img/icons/mint_green.png"
+    },
+    {
+      "title": "resourcesPage.toolsMempool",
+      "url": "https://www.peercoinexplorer.net/mempool/",
+      "image": "/img/icons/mint_green.png"
+    },
+    {
+      "title": "resourcesPage.toolsEnergyStatistics",
+      "url": "https://www.peercoin.site/#energytable",
+      "image": "/img/icons/mint_green.png"
+    },
+    {
+      "title": "resourcesPage.toolsTestnetFaucet",
+      "url": "https://faucet.peercoinexplorer.net/",
+      "image": "/img/icons/mint_green.png"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import renderHTML from "react-render-html";
 import "./Resources.scss";
@@ -8,6 +8,50 @@ import Loader from "../../components/Loader/Loader";
 
 function Resources() {
   const { t } = useTranslation();
+  const [explorers, setExplorers] = useState([]);
+  const [exchanges, setExchanges] = useState([]);
+  const [tools, setTools] = useState([]);
+  const [community, setCommunity] = useState([]);
+  const [whitepaper, setWhitepaper] = useState([]);
+  const [graphics, setGraphics] = useState([]);
+
+  useEffect(() => {
+    fetch("/data/explorers.json")
+      .then((res) => res.json())
+      .then((jsonData) => {
+        setExplorers(jsonData);
+      });
+
+    fetch("/data/exchanges.json")
+      .then((res) => res.json())
+      .then((jsonData) => {
+        setExchanges(jsonData);
+      });
+  
+    fetch("/data/tools.json")
+      .then((res) => res.json())
+      .then((jsonData) => {
+        setTools(jsonData);
+      });
+    
+    fetch("/data/community.json")
+      .then((res) => res.json())
+      .then((jsonData) => {
+        setCommunity(jsonData);
+      });
+    
+    fetch("/data/whitepaper.json")
+      .then((res) => res.json())
+      .then((jsonData) => {
+        setWhitepaper(jsonData);
+      });
+
+    fetch("/data/graphics.json")
+      .then((res) => res.json())
+      .then((jsonData) => {
+        setGraphics(jsonData);
+      });
+  }, []);
 
   return (
     <div className="ResourcesPage">
@@ -57,7 +101,7 @@ function Resources() {
                 {t("resourcesPage.contributeTitle")}
               </h2>
               <p>{t("resourcesPage.contributeText")}</p>
-              <a href="https://github.com/peercoin/" className="btn btn--green">
+              <a href="https://github.com/peercoin/" target="_blank" className="btn btn--green">
                 {t("resourcesPage.contributeBtn")}
               </a>
             </div>
@@ -66,7 +110,7 @@ function Resources() {
                 {t("resourcesPage.documentationTitle")}
               </h2>
               <p>{t("resourcesPage.documentationText")}</p>
-              <a href="https://docs.peercoin.net/" className="btn btn--green">
+              <a href="https://docs.peercoin.net/" target="_blank" className="btn btn--green">
                 {t("resourcesPage.documentationBtn")}
               </a>
             </div>
@@ -81,25 +125,19 @@ function Resources() {
               <p>{t("resourcesPage.miningText2")}</p>
               <ul>
                 <li>
-                  <a href="http://bfgminer.org/">BFGMiner</a>
+                  <a href="http://bfgminer.org/" target="_blank">BFGMiner</a>
                 </li>
                 <li>
-                  <a href="https://github.com/ckolivas/cgminer">CGMiner</a>
+                  <a href="https://github.com/ckolivas/cgminer" target="_blank">CGMiner</a>
                 </li>
                 <li>
-                  <a href="https://easyminer.net/">EasyMiner</a>
+                  <a href="https://easyminer.net/" target="_blank">EasyMiner</a>
                 </li>
               </ul>
-              <a
-                href="https://docs.peercoin.net/#/mining"
-                className="btn btn--green"
-              >
+              <a href="https://docs.peercoin.net/#/mining" className="btn btn--green" target="_blank">
                 {t("resourcesPage.miningBtn1")}
               </a>
-              <a
-                href="https://www.coinwarz.com/calculators/peercoin-mining-calculator"
-                className="btn btn--green"
-              >
+              <a href="https://www.coinwarz.com/calculators/peercoin-mining-calculator" className="btn btn--green" target="_blank">
                 {t("resourcesPage.miningBtn2")}
               </a>
             </div>
@@ -112,25 +150,22 @@ function Resources() {
               <p>{t("resourcesPage.universityText2")}</p>
               <ul>
                 <li>
-                  <a href="https://university.peercoin.net/#/2-what-is-a-blockchain-">
+                  <a href="https://university.peercoin.net/#/2-what-is-a-blockchain-" target="_blank">
                     {t("resourcesPage.universityLink1")}
                   </a>
                 </li>
                 <li>
-                  <a href="https://university.peercoin.net/#/6-inherent-centralization-of-proof-of-work-blockchains">
+                  <a href="https://university.peercoin.net/#/6-inherent-centralization-of-proof-of-work-blockchains" target="_blank">
                     {t("resourcesPage.universityLink2")}
                   </a>
                 </li>
                 <li>
-                  <a href="https://university.peercoin.net/#/9-peercoin-proof-of-stake-consensus">
+                  <a href="https://university.peercoin.net/#/9-peercoin-proof-of-stake-consensus" target="_blank">
                     {t("resourcesPage.universityLink3")}
                   </a>
                 </li>
               </ul>
-              <a
-                href="https://university.peercoin.net/"
-                className="btn btn--green"
-              >
+              <a href="https://university.peercoin.net/" className="btn btn--green" target="_blank">
                 {t("resourcesPage.universityBtn")}
               </a>
             </div>
@@ -141,240 +176,48 @@ function Resources() {
         <div className="anchor" data-id="exchanges"></div>
         <div className="container">
           <h2 className="title title--green">
-            {t("resourcesPage.exchangesTitle")}
+            {t(exchanges.title)}
           </h2>
-          <p className="description">{t("resourcesPage.exchangesText")}</p>
+          {exchanges.description ? <p className="description">{t(exchanges.description)}</p> : null}
           <div className="blocks-list">
-            <a href="https://bittrex.com/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Bittrex</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/exchanges/bittrex_green.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("resourcesPage.exchangesType1")}
-              </div>
-            </a>
-            <a href="https://hitbtc.com/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">HitBTC</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/exchanges/hitbtc_green.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("resourcesPage.exchangesType1")}
-              </div>
-            </a>
-            <a
-              href="https://www.therocktrading.com/"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">The Rock Trading</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/exchanges/therocktrading_green.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("resourcesPage.exchangesType1")}
-              </div>
-            </a>
-            <a href="https://changelly.com/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Changelly</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/exchanges/changelly_green.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("resourcesPage.exchangesType1")}
-              </div>
-            </a>
-            <a href="https://coinswitch.co/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Coin Switch</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/exchanges/coinswitch_green.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("resourcesPage.exchangesType2")}
-              </div>
-            </a>
-            <a href="https://freiexchange.com/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">FreiExchange</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/exchanges/freiexchange_green.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("resourcesPage.exchangesType1")}
-              </div>
-            </a>
-            <a href="https://flyp.me/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Flyp.me</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/exchanges/flypme_green.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("resourcesPage.exchangesType2")}
-              </div>
-            </a>
-            <a href="https://swapspace.co/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">SwapSpace</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/exchanges/swapspace_green.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("resourcesPage.exchangesType2")}
-              </div>
-            </a>
-            <a
-              href="https://www.coinspot.com.au/"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">CoinSpot</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/exchanges/coinspot_green.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("resourcesPage.exchangesType1")}
-              </div>
-            </a>
-            <a href="https://swapzone.io/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Swapzone</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/exchanges/swapzone_green.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("resourcesPage.exchangesType2")}
-              </div>
-            </a>
-            <a
-              href="https://anycoindirect.eu/en/buy-peercoin/"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">anycoindirect</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/exchanges/anycoin_green.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("resourcesPage.exchangesType1")}
-              </div>
-            </a>
-            <a href="https://buy.peercoin.net/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Indacoin</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/exchanges/indacoin_green.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("resourcesPage.exchangesType2")}
-              </div>
-            </a>
-            <a
-              href="https://coinpaprika.com/coin/ppc-peercoin/"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">CoinPaprika</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/exchanges/coinpaprika_green.png"
-                alt=""
-              />
-              <div className="blocks-list__block__type">
-                {t("resourcesPage.exchangesType3")}
-              </div>
-            </a>
+            {exchanges.resources && exchanges.resources.map(exchange => (
+              <a href={exchange.url} target="_blank" className="blocks-list__block">
+                <h4 className="blocks-list__block__title">{exchange.title}</h4>
+                <img
+                  className="blocks-list__block__img"
+                  src={exchange.image}
+                  alt={exchange.title}
+                />
+                <div className="blocks-list__block__type">
+                  {t(exchange.type)}
+                </div>
+              </a>
+            ))}
           </div>
         </div>
       </div>
-
+ 
       <div className="main">
         <div className="anchor" data-id="blockexplorers"></div>
         <div className="container">
           <h2 className="title title--green">
-            {t("resourcesPage.explorersTitle")}
+            {t(explorers.title)}
           </h2>
-          <h3 className="title title--green">
-            {t("resourcesPage.explorersMainnet")}
-          </h3>
-          <div className="blocks-list">
-            <a
-              href="https://chainz.cryptoid.info/ppc/"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">Chainz.CryptoID</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/explorers/cryptoid_green.png"
-                alt=""
-              />
-            </a>
-            <a
-              href="https://www.coinexplorer.net/PPC"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">CoinExplorer</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/explorers/coinexplorer_green.png"
-                alt=""
-              />
-            </a>
-            <a
-              href="https://blockbook.peercoin.net/"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">PeerExplorer</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/explorers/peercoin_green.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <h3 className="title title--green">
-            {t("resourcesPage.explorersTestnet")}
-          </h3>
-          <div className="blocks-list">
-            <a
-              href="https://tblockbook.peercoin.net/"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">PeerExplorer</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/explorers/peercoin_green.png"
-                alt=""
-              />
-            </a>
-            <a
-              href="https://chainz.cryptoid.info/ppc-test/"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">Chainz.CryptoID</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/explorers/cryptoid_green.png"
-                alt=""
-              />
-            </a>
-          </div>
+          {explorers.categories && explorers.categories.map(category => (
+            <div>
+              <h3 className="title title--green">
+                {category.title ? t(category.title) : null}
+              </h3>
+              <div className="blocks-list">
+                {category.resources.map(resource => (
+                  <a href={resource.url} target="_blank" className="blocks-list__block">
+                    <h4 className="blocks-list__block__title">{resource.title}</h4>
+                    <img className="blocks-list__block__img" src={resource.image} alt={resource.title} />
+                  </a>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
 
@@ -382,69 +225,17 @@ function Resources() {
         <div className="anchor" data-id="tools"></div>
         <div className="container">
           <h2 className="title title--green">
-            {t("resourcesPage.toolsTitle")}
+            {t(tools.title)}
           </h2>
           <div className="blocks-list">
-            <a
-              href="https://www.peercoinexplorer.net/charts/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">
-                {t("resourcesPage.toolsCharts")}
-              </h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/icons/mint_green.png"
-                alt=""
-              />
-            </a>
-            <a
-              href="https://www.peercoinexplorer.net/mempool/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">
-                {t("resourcesPage.toolsMempool")}
-              </h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/icons/mint_green.png"
-                alt=""
-              />
-            </a>
-            <a
-              href="https://www.peercoin.site/#energytable"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">
-                {t("resourcesPage.toolsEnergyStatistics")}
-              </h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/icons/mint_green.png"
-                alt=""
-              />
-            </a>
-            <a
-              href="https://faucet.peercoinexplorer.net/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">
-                {t("resourcesPage.toolsTestnetFaucet")}
-              </h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/icons/mint_green.png"
-                alt=""
-              />
-            </a>
+            {tools.resources && tools.resources.map(tool => (
+              <a href={tool.url} target="_blank" rel="noopener noreferrer" className="blocks-list__block">
+                <h4 className="blocks-list__block__title">
+                  {t(tool.title)}
+                </h4>
+                <img className="blocks-list__block__img" src={tool.image} alt={t(tool.title)}/>
+              </a>
+            ))}
           </div>
         </div>
       </div>
@@ -453,110 +244,15 @@ function Resources() {
         <div className="anchor" data-id="communities"></div>
         <div className="container">
           <h2 className="title title--green">
-            {t("resourcesPage.communityTitle")}
+            {t(community.title)}
           </h2>
           <div className="blocks-list">
-            <a href="https://talk.peercoin.net/" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Forum</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/icons/forum_green.png"
-                alt=""
-              />
-            </a>
-            <a
-              href="https://twitter.com/PeercoinPPC"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">Twitter</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/icons/twitter_green.png"
-                alt=""
-              />
-            </a>
-            <a
-              href="https://www.facebook.com/Peercoin/"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">Facebook</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/icons/facebook_green.png"
-                alt=""
-              />
-            </a>
-            <a
-              href="https://www.reddit.com/r/peercoin"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">Reddit</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/icons/reddit_green.png"
-                alt=""
-              />
-            </a>
-            <a href="https://t.me/peercoin" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Telegram</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/icons/telegram_green.png"
-                alt=""
-              />
-            </a>
-            <a href="https://discord.gg/XPxfwtG" className="blocks-list__block">
-              <h4 className="blocks-list__block__title">Discord</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/icons/discord_green.png"
-                alt=""
-              />
-            </a>
-            <a
-              href="https://www.youtube.com/user/PeerCoin"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">YouTube</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/icons/youtube_green.png"
-                alt=""
-              />
-            </a>
-            <a
-              href="https://bitcointalk.org/index.php?topic=101820.0"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">BitcoinTalk</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/icons/bitcoinchat_green.png"
-                alt=""
-              />
-            </a>
-            <a
-              href="https://github.com/peercoin/"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">GitHub</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/icons/github_green.png"
-                alt=""
-              />
-            </a>
-            <a
-              href="https://medium.com/peercoin"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">Blog</h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/icons/blog_green.png"
-                alt=""
-              />
-            </a>
+            {community.resources && community.resources.map(community => (
+              <a href={community.url} target="_blank" className="blocks-list__block">
+                <h4 className="blocks-list__block__title">{community.title}</h4>
+                <img className="blocks-list__block__img" src={community.image} alt={community.title} />
+              </a>
+            ))}
           </div>
         </div>
       </div>
@@ -565,139 +261,17 @@ function Resources() {
         <div className="anchor" data-id="whitepaper"></div>
         <div className="container">
           <h2 className="title title--green">
-            {t("resourcesPage.whitepaperTitle")}
+            {t(whitepaper.title)}
           </h2>
           <div className="blocks-list">
-            <a
-              href="/whitepapers/peercoin-paper.pdf"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">
-                {t("resourcesPage.whitepaperEnglish")}
-              </h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/icons/whitepaper_green.png"
-                alt=""
-              />
-            </a>
-            <a
-              href="/whitepapers/peercoin-paper-cn.pdf"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">
-                {t("resourcesPage.whitepaperChinese")}/中文
-              </h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/icons/whitepaper_green.png"
-                alt=""
-              />
-            </a>
-            <a
-              href="/whitepapers/peercoin-paper-es.pdf"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">
-                {t("resourcesPage.whitepaperSpanish")}/Español
-              </h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/icons/whitepaper_green.png"
-                alt=""
-              />
-            </a>
-            <a
-              href="/whitepapers/peercoin-paper-nl.pdf"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">
-                {t("resourcesPage.whitepaperDutch")}/Nederlands
-              </h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/icons/whitepaper_green.png"
-                alt=""
-              />
-            </a>
-            <a
-              href="/whitepapers/peercoin-paper-fr.pdf"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">
-                {t("resourcesPage.whitepaperFrench")}/Français
-              </h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/icons/whitepaper_green.png"
-                alt=""
-              />
-            </a>
-            <a
-              href="/whitepapers/peercoin-paper-de.pdf"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">
-                {t("resourcesPage.whitepaperGerman")}/Deutsch
-              </h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/icons/whitepaper_green.png"
-                alt=""
-              />
-            </a>
-            <a
-              href="/whitepapers/peercoin-paper-jp.pdf"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">
-                {t("resourcesPage.whitepaperJapanese")}/日本語
-              </h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/icons/whitepaper_green.png"
-                alt=""
-              />
-            </a>
-            <a
-              href="/whitepapers/peercoin-paper-kr.pdf"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">
-                {t("resourcesPage.whitepaperKorean")}/한국말
-              </h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/icons/whitepaper_green.png"
-                alt=""
-              />
-            </a>
-            <a
-              href="/whitepapers/peercoin-paper-ro.pdf"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">
-                {t("resourcesPage.whitepaperRomanian")}/Română
-              </h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/icons/whitepaper_green.png"
-                alt=""
-              />
-            </a>
-            <a
-              href="/whitepapers/peercoin-paper-ru.pdf"
-              className="blocks-list__block"
-            >
-              <h4 className="blocks-list__block__title">
-                {t("resourcesPage.whitepaperRussian")}/русский
-              </h4>
-              <img
-                className="blocks-list__block__img"
-                src="/img/icons/whitepaper_green.png"
-                alt=""
-              />
-            </a>
+            {whitepaper.resources && whitepaper.resources.map(whitepaper => (
+              <a href={whitepaper.url} target="_blank" className="blocks-list__block">
+                <h4 className="blocks-list__block__title">
+                  {t(whitepaper.title)}
+                </h4>
+                <img className="blocks-list__block__img" src={whitepaper.image} alt={whitepaper.title} />
+              </a>
+            ))}
           </div>
         </div>
       </div>
@@ -705,467 +279,33 @@ function Resources() {
       <div className="main">
         <div className="anchor" data-id="graphics"></div>
         <div className="container">
+
+          
           <h2 className="title title--green">
-            {t("resourcesPage.graphicsTitle")}
+            {t(graphics.title)}
           </h2>
           <p className="subtitle">
-            {renderHTML(t("resourcesPage.graphicsText"))}
+            {renderHTML(t(graphics.description))}
           </p>
-          <h3 className="title">{t("resourcesPage.graphicsVertical")}</h3>
-          <div className="blocks-list blocks-list--grey">
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/peercoin-vertical-greenicon-blacktext-transparent.png"
-                alt=""
-              />
-              <a href="/img/logos/verticalset/insidecircle/Transparent/GreenIcon-BlackText/peercoin-vertical-greenicon-blacktext-transparent@6x.png">
-                <span>PNG</span>
-              </a>
-              <a href="/img/logos/verticalset/insidecircle/Transparent/GreenIcon-BlackText/peercoin-vertical-greenicon-blacktext-transparent.svg">
-                <span>SVG</span>
-              </a>
-              <a href="/img/logos/verticalset/insidecircle/Transparent/GreenIcon-BlackText/peercoin-vertical-greenicon-blacktext-transparent.eps">
-                <span>EPS</span>
-              </a>
+
+          {graphics.categories && graphics.categories.map(graphic => (
+            <div>
+              <h3 className="title">{t(graphic.title)}</h3>
+              <div className="blocks-list blocks-list--grey">
+                {graphic.resources.map(resource => (
+                  <div className="blocks-list__block">
+                    <img className="blocks-list__block__img" src={resource.image} alt="" />
+                    {resource.files.map(file => (
+                      <a href={file.url} target="_blank">
+                        <span>{file.type}</span>
+                      </a>
+                    ))}
+                  </div>
+                ))}
+              </div>
             </div>
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/peercoin-vertical-greenicon-greentext-transparent.png"
-                alt=""
-              />
-              <a href="/img/logos/verticalset/insidecircle/Transparent/GreenIcon-GreenText/peercoin-vertical-greenicon-greentext-transparent@6x.png">
-                <span>PNG</span>
-              </a>
-              <a href="/img/logos/verticalset/insidecircle/Transparent/GreenIcon-GreenText/peercoin-vertical-greenicon-greentext-transparent.svg">
-                <span>SVG</span>
-              </a>
-              <a href="/img/logos/verticalset/insidecircle/Transparent/GreenIcon-GreenText/peercoin-vertical-greenicon-greentext-transparent.eps">
-                <span>EPS</span>
-              </a>
-            </div>
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/peercoin-vertical-greenicon-whitetext-transparent.png"
-                alt=""
-              />
-              <a href="/img/logos/verticalset/insidecircle/Transparent/GreenIcon-WhiteText/peercoin-vertical-greenicon-whitetext-transparent@6x.png">
-                <span>PNG</span>
-              </a>
-              <a href="/img/logos/verticalset/insidecircle/Transparent/GreenIcon-WhiteText/peercoin-vertical-greenicon-whitetext-transparent.svg">
-                <span>SVG</span>
-              </a>
-              <a href="/img/logos/verticalset/insidecircle/Transparent/GreenIcon-WhiteText/peercoin-vertical-greenicon-whitetext-transparent.eps">
-                <span>EPS</span>
-              </a>
-            </div>
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/peercoin-vertical-greenicon-graytext-transparent.png"
-                alt=""
-              />
-              <a href="/img/logos/verticalset/insidecircle/Transparent/GreenIcon-GrayText/peercoin-vertical-greenicon-graytext-transparent@6x.png">
-                <span>PNG</span>
-              </a>
-              <a href="/img/logos/verticalset/insidecircle/Transparent/GreenIcon-GrayText/peercoin-vertical-greenicon-graytext-transparent.svg">
-                <span>SVG</span>
-              </a>
-              <a href="/img/logos/verticalset/insidecircle/Transparent/GreenIcon-GrayText/peercoin-vertical-greenicon-graytext-transparent.eps">
-                <span>EPS</span>
-              </a>
-            </div>
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/peercoin-vertical-greenleaf-blacktext-transparent.png"
-                alt=""
-              />
-              <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-BlackText/peercoin-vertical-greenleaf-blacktext-transparent@6x.png">
-                <span>PNG</span>
-              </a>
-              <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-BlackText/peercoin-vertical-greenleaf-blacktext-transparent.svg">
-                <span>SVG</span>
-              </a>
-              <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-BlackText/peercoin-vertical-greenleaf-blacktext-transparent.eps">
-                <span>EPS</span>
-              </a>
-            </div>
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/peercoin-vertical-greenleaf-graytext-transparent.png"
-                alt=""
-              />
-              <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-GrayText/peercoin-vertical-greenleaf-graytext-transparent@6x.png">
-                <span>PNG</span>
-              </a>
-              <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-GrayText/peercoin-vertical-greenleaf-graytext-transparent.svg">
-                <span>SVG</span>
-              </a>
-              <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-GrayText/peercoin-vertical-greenleaf-graytext-transparent.eps">
-                <span>EPS</span>
-              </a>
-            </div>
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/peercoin-vertical-greenleaf-greentext-transparent.png"
-                alt=""
-              />
-              <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-GreenText/peercoin-vertical-greenleaf-greentext-transparent@6x.png">
-                <span>PNG</span>
-              </a>
-              <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-GreenText/peercoin-vertical-greenleaf-greentext-transparent.svg">
-                <span>SVG</span>
-              </a>
-              <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-GreenText/peercoin-vertical-greenleaf-greentext-transparent.eps">
-                <span>EPS</span>
-              </a>
-            </div>
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/peercoin-vertical-greenleaf-whitetext-transparent.png"
-                alt=""
-              />
-              <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-WhiteText/peercoin-vertical-greenleaf-whitetext-transparent@6x.png">
-                <span>PNG</span>
-              </a>
-              <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-WhiteText/peercoin-vertical-greenleaf-whitetext-transparent.svg">
-                <span>SVG</span>
-              </a>
-              <a href="/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-WhiteText/peercoin-vertical-greenleaf-whitetext-transparent.eps">
-                <span>EPS</span>
-              </a>
-            </div>
-          </div>
-          <h3 className="title">{t("resourcesPage.graphicsHorizontal")}</h3>
-          <div className="blocks-list blocks-list--grey">
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/peercoin-horizontal-blackleaf-blacktext-transparent.png"
-                alt=""
-              />
-              <a href="/img/logos/horizontalset/outsidecircle/Transparent/BlackLeaf-BlackText/peercoin-horizontal-blackleaf-blacktext-transparent@6x.png">
-                <span>PNG</span>
-              </a>
-              <a href="/img/logos/horizontalset/outsidecircle/Transparent/BlackLeaf-BlackText/peercoin-horizontal-blackleaf-blacktext-transparent.svg">
-                <span>SVG</span>
-              </a>
-              <a href="/img/logos/horizontalset/outsidecircle/Transparent/BlackLeaf-BlackText/peercoin-horizontal-blackleaf-blacktext-transparent.eps">
-                <span>EPS</span>
-              </a>
-            </div>
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/peercoin-horizontal-greenleaf-blacktext-transparent.png"
-                alt=""
-              />
-              <a href="/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-BlackText/peercoin-horizontal-greenleaf-blacktext-transparent@6x.png">
-                <span>PNG</span>
-              </a>
-              <a href="/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-BlackText/peercoin-horizontal-greenleaf-blacktext-transparent.svg">
-                <span>SVG</span>
-              </a>
-              <a href="/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-BlackText/peercoin-horizontal-greenleaf-blacktext-transparent.eps">
-                <span>EPS</span>
-              </a>
-            </div>
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/peercoin-horizontal-greenleaf-graytext-transparent.png"
-                alt=""
-              />
-              <a href="/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-GrayText/peercoin-horizontal-greenleaf-graytext-transparent@6x.png">
-                <span>PNG</span>
-              </a>
-              <a href="/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-GrayText/peercoin-horizontal-greenleaf-graytext-transparent.svg">
-                <span>SVG</span>
-              </a>
-              <a href="/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-GrayText/peercoin-horizontal-greenleaf-graytext-transparent.eps">
-                <span>EPS</span>
-              </a>
-            </div>
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/peercoin-horizontal-greenleaf-whitetext-transparent.png"
-                alt=""
-              />
-              <a href="/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-WhiteText/peercoin-horizontal-greenleaf-whitetext-transparent@6x.png">
-                <span>PNG</span>
-              </a>
-              <a href="/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-WhiteText/peercoin-horizontal-greenleaf-whitetext-transparent.svg">
-                <span>SVG</span>
-              </a>
-              <a href="/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-WhiteText/peercoin-horizontal-greenleaf-whitetext-transparent.eps">
-                <span>EPS</span>
-              </a>
-            </div>
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/peercoin-horizontal-whiteleaf-whitetext-transparent.png"
-                alt=""
-              />
-              <a href="/img/logos/horizontalset/outsidecircle/Transparent/WhiteLeaf-WhiteText/peercoin-horizontal-whiteleaf-whitetext-transparent@6x.png">
-                <span>PNG</span>
-              </a>
-              <a href="/img/logos/horizontalset/outsidecircle/Transparent/WhiteLeaf-WhiteText/peercoin-horizontal-whiteleaf-whitetext-transparent.svg">
-                <span>SVG</span>
-              </a>
-              <a href="/img/logos/horizontalset/outsidecircle/Transparent/WhiteLeaf-WhiteText/peercoin-horizontal-whiteleaf-whitetext-transparent.eps">
-                <span>EPS</span>
-              </a>
-            </div>
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/peercoin-horizontal-greenicon-blacktext-transparent.png"
-                alt=""
-              />
-              <a href="/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-BlackText/peercoin-horizontal-greenicon-blacktext-transparent@6x.png">
-                <span>PNG</span>
-              </a>
-              <a href="/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-BlackText/peercoin-horizontal-greenicon-blacktext-transparent.svg">
-                <span>SVG</span>
-              </a>
-              <a href="/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-BlackText/peercoin-horizontal-greenicon-blacktext-transparent.eps">
-                <span>EPS</span>
-              </a>
-            </div>
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/peercoin-horizontal-greenicon-greentext-transparent.png"
-                alt=""
-              />
-              <a href="/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-GreenText/peercoin-horizontal-greenicon-greentext-transparent@6x.png">
-                <span>PNG</span>
-              </a>
-              <a href="/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-GreenText/peercoin-horizontal-greenicon-greentext-transparent.svg">
-                <span>SVG</span>
-              </a>
-              <a href="/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-GreenText/peercoin-horizontal-greenicon-greentext-transparent.eps">
-                <span>EPS</span>
-              </a>
-            </div>
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/peercoin-horizontal-greenicon-graytext-transparent.png"
-                alt=""
-              />
-              <a href="/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-GrayText/peercoin-horizontal-greenicon-graytext-transparent@6x.png">
-                <span>PNG</span>
-              </a>
-              <a href="/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-GrayText/peercoin-horizontal-greenicon-graytext-transparent.svg">
-                <span>SVG</span>
-              </a>
-              <a href="/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-GrayText/peercoin-horizontal-greenicon-graytext-transparent.eps">
-                <span>EPS</span>
-              </a>
-            </div>
-          </div>
-          <h3 className="title">{t("resourcesPage.graphicsIconOnly")}</h3>
-          <div className="blocks-list blocks-list--grey">
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/peercoin-icon-green-transparent.png"
-                alt=""
-              />
-              <a href="/img/logos/icononly/insidecircle/Transparent/GreenIcon/peercoin-icon-green-transparent@6x.png">
-                <span>PNG</span>
-              </a>
-              <a href="/img/logos/icononly/insidecircle/Transparent/GreenIcon/peercoin-icon-green-transparent.svg">
-                <span>SVG</span>
-              </a>
-              <a href="/img/logos/icononly/insidecircle/Transparent/GreenIcon/peercoin-icon-green-transparent.eps">
-                <span>EPS</span>
-              </a>
-            </div>
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/peercoin-leaf-green-transparent.png"
-                alt=""
-              />
-              <a href="/img/logos/icononly/outsidecircle/Transparent/GreenLeaf/peercoin-leaf-green-transparent@6x.png">
-                <span>PNG</span>
-              </a>
-              <a href="/img/logos/icononly/outsidecircle/Transparent/GreenLeaf/peercoin-leaf-green-transparent.svg">
-                <span>SVG</span>
-              </a>
-              <a href="/img/logos/icononly/outsidecircle/Transparent/GreenLeaf/peercoin-leaf-green-transparent.eps">
-                <span>EPS</span>
-              </a>
-            </div>
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/peercoin-leaf-transparent-black.png"
-                alt=""
-              />
-              <a href="/img/logos/icononly/outsidecircle/Transparent/BlackLeaf/peercoin-leaf-transparent@6x.png">
-                <span>PNG</span>
-              </a>
-              <a href="/img/logos/icononly/outsidecircle/Transparent/BlackLeaf/peercoin-leaf-transparent.svg">
-                <span>SVG</span>
-              </a>
-              <a href="/img/logos/icononly/outsidecircle/Transparent/BlackLeaf/peercoin-leaf-transparent.eps">
-                <span>EPS</span>
-              </a>
-            </div>
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/peercoin-leaf-white-transparent.png"
-                alt=""
-              />
-              <a href="/img/logos/icononly/outsidecircle/Transparent/WhiteLeaf/peercoin-leaf-white-transparent@6x.png">
-                <span>PNG</span>
-              </a>
-              <a href="/img/logos/icononly/outsidecircle/Transparent/WhiteLeaf/peercoin-leaf-white-transparent.svg">
-                <span>SVG</span>
-              </a>
-              <a href="/img/logos/icononly/outsidecircle/Transparent/WhiteLeaf/peercoin-leaf-white-transparent.eps">
-                <span>EPS</span>
-              </a>
-            </div>
-          </div>
-          <h3 className="title">{t("resourcesPage.graphicsTextOnly")}</h3>
-          <div className="blocks-list blocks-list--grey">
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/peercoin-text-black-transparent.png"
-                alt=""
-              />
-              <a href="/img/logos/textonly/Transparent/BlackText/peercoin-text-black-transparent@6x.png">
-                <span>PNG</span>
-              </a>
-              <a href="/img/logos/textonly/Transparent/BlackText/peercoin-text-black-transparent.svg">
-                <span>SVG</span>
-              </a>
-              <a href="/img/logos/textonly/Transparent/BlackText/peercoin-text-black-transparent.eps">
-                <span>EPS</span>
-              </a>
-            </div>
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/peercoin-text-gray-transparent.png"
-                alt=""
-              />
-              <a href="/img/logos/textonly/Transparent/GrayText/peercoin-text-gray-transparent@6x.png">
-                <span>PNG</span>
-              </a>
-              <a href="/img/logos/textonly/Transparent/GrayText/peercoin-text-gray-transparent.svg">
-                <span>SVG</span>
-              </a>
-              <a href="/img/logos/textonly/Transparent/GrayText/peercoin-text-gray-transparent.eps">
-                <span>EPS</span>
-              </a>
-            </div>
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/peercoin-text-green-transparent.png"
-                alt=""
-              />
-              <a href="/img/logos/textonly/Transparent/GreenText/peercoin-text-green-transparent@6x.png">
-                <span>PNG</span>
-              </a>
-              <a href="/img/logos/textonly/Transparent/GreenText/peercoin-text-green-transparent.svg">
-                <span>SVG</span>
-              </a>
-              <a href="/img/logos/textonly/Transparent/GreenText/peercoin-text-green-transparent.eps">
-                <span>EPS</span>
-              </a>
-            </div>
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/peercoin-text-white-transparent.png"
-                alt=""
-              />
-              <a href="/img/logos/textonly/Transparent/WhiteText/peercoin-text-white-transparent@6x.png">
-                <span>PNG</span>
-              </a>
-              <a href="/img/logos/textonly/Transparent/WhiteText/peercoin-text-white-transparent.svg">
-                <span>SVG</span>
-              </a>
-              <a href="/img/logos/textonly/Transparent/WhiteText/peercoin-text-white-transparent.eps">
-                <span>EPS</span>
-              </a>
-            </div>
-          </div>
-          <h3 className="title">{t("resourcesPage.graphicsFavicons")}</h3>
-          <div className="blocks-list blocks-list--grey">
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/favicon256.png"
-                alt=""
-              />
-              <a href="/img/logos/favicons/Leaf/favicon16.png">
-                <span>16px</span>
-              </a>
-              <a href="/img/logos/favicons/Leaf/favicon32.png">
-                <span>32px</span>
-              </a>
-              <a href="/img/logos/favicons/Leaf/favicon48.png">
-                <span>48px</span>
-              </a>
-              <a href="/img/logos/favicons/Leaf/favicon64.png">
-                <span>64px</span>
-              </a>
-              <a href="/img/logos/favicons/Leaf/favicon96.png">
-                <span>96px</span>
-              </a>
-              <a href="/img/logos/favicons/Leaf/favicon128.png">
-                <span>128px</span>
-              </a>
-              <a href="/img/logos/favicons/Leaf/favicon256.png">
-                <span>256px</span>
-              </a>
-            </div>
-            <div className="blocks-list__block">
-              <img
-                className="blocks-list__block__img"
-                src="/img/logos/webfixed/circlefavicon256.png"
-                alt=""
-              />
-              <a href="/img/logos/favicons/Icon/favicon16.png">
-                <span>16px</span>
-              </a>
-              <a href="/img/logos/favicons/Icon/favicon32.png">
-                <span>32px</span>
-              </a>
-              <a href="/img/logos/favicons/Icon/favicon48.png">
-                <span>48px</span>
-              </a>
-              <a href="/img/logos/favicons/Icon/favicon64.png">
-                <span>64px</span>
-              </a>
-              <a href="/img/logos/favicons/Icon/favicon96.png">
-                <span>96px</span>
-              </a>
-              <a href="/img/logos/favicons/Icon/favicon128.png">
-                <span>128px</span>
-              </a>
-              <a href="/img/logos/favicons/Icon/favicon256.png">
-                <span>256px</span>
-              </a>
-            </div>
-          </div>
+          ))}
+
           <p className="subtitle">
             {renderHTML(t("resourcesPage.graphicsZipFolder"))}.
           </p>
@@ -1194,7 +334,7 @@ function Resources() {
             {t("resourcesPage.brandIdentityFontType")}: Mark-Medium
           </p>
           <p className="subtitle subtitle--left">
-            {t("resourcesPage.brandIdentityFontRoboto")}
+            {renderHTML(t("resourcesPage.brandIdentityFontRoboto"))}
           </p>
         </div>
       </div>

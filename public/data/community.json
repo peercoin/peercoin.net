@@ -1,0 +1,55 @@
+{
+  "title": "resourcesPage.communityTitle",
+  "resources": [
+    {
+      "title": "Forum",
+      "url": "https://talk.peercoin.net/",
+      "image": "/img/icons/forum_green.png"
+    },
+    {
+      "title": "Twitter",
+      "url": "https://twitter.com/PeercoinPPC",
+      "image": "/img/icons/twitter_green.png"
+    },
+    {
+      "title": "Facebook",
+      "url": "https://www.facebook.com/Peercoin/",
+      "image": "/img/icons/facebook_green.png"
+    },
+    {
+      "title": "Reddit",
+      "url": "https://www.reddit.com/r/peercoin",
+      "image": "/img/icons/reddit_green.png"
+    },
+    {
+      "title": "Telegram",
+      "url": "https://t.me/peercoin",
+      "image": "/img/icons/telegram_green.png"
+    },
+    {
+      "title": "Discord",
+      "url": "https://discord.gg/XPxfwtG",
+      "image": "/img/icons/discord_green.png"
+    },
+    {
+      "title": "YouTube",
+      "url": "https://www.youtube.com/user/PeerCoin",
+      "image": "/img/icons/youtube_green.png"
+    },
+    {
+      "title": "BitcoinTalk",
+      "url": "https://bitcointalk.org/index.php?topic=101820.0",
+      "image": "/img/icons/bitcoinchat_green.png"
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/peercoin/",
+      "image": "/img/icons/github_green.png"
+    },
+    {
+      "title": "Blog",
+      "url": "https://medium.com/peercoin",
+      "image": "/img/icons/blog_green.png"
+    }
+  ]
+}

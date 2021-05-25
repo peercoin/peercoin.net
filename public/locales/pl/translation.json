@@ -267,7 +267,7 @@
       "brandIdentityFont": "Logo tekstowe Peercoin używa następującej czcionki",
       "brandIdentityFontFont": "Czcionka",
       "brandIdentityFontType": "Typ",
-      "brandIdentityFontRoboto": "Strona internetowa Peercoin i portfele używają czcionki Roboto do swojej zawartości."
+      "brandIdentityFontRoboto": "Strona internetowa Peercoin i portfele używają czcionki <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\">Roboto</a> do swojej zawartości."
     },
     "walletPage": {
       "title": "Portfele",

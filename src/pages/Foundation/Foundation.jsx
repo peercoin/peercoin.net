@@ -2,12 +2,13 @@ import React, { Suspense } from "react";
 import { useTranslation, Trans } from "react-i18next";
 import "./Foundation.scss";
 import Menu from "../../components/Menu/Menu";
+import Address from '../../components/Address/Address';
 import Footer from "../../components/Footer/Footer";
 import Loader from "../../components/Loader/Loader";
 
 function Foundation() {
   const { t } = useTranslation();
-
+  
   return (
     <>
       <Menu />
@@ -85,19 +86,7 @@ function Foundation() {
               </p>
             </div>
             <div className="col col--small">
-              <h2 className="title title--green title--left">
-                {t("foundationPage.contactUsTitle")}
-              </h2>
-              <p>
-                <b>Stichting Peercoin Foundation</b>
-                <br />
-                President Kennedylaan 19
-                <br />
-                2517JK The Hague
-                <br />
-                {t("foundationPage.addressCountry")}
-                <br />
-              </p>
+              <Address />
               <p>
                 <a href="mailto:foundation@peercoin.net">
                   foundation@peercoin.net

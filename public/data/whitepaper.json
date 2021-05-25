@@ -1,0 +1,55 @@
+{
+  "title": "resourcesPage.whitepaperTitle",
+  "resources": [
+    {
+      "title": "resourcesPage.whitepaperEnglish",
+      "url": "/whitepapers/peercoin-paper.pdf",
+      "image": "/img/icons/whitepaper_green.png"
+    },
+    {
+      "title": "resourcesPage.whitepaperChinese",
+      "url": "/whitepapers/peercoin-paper-cn.pdf",
+      "image": "/img/icons/whitepaper_green.png"
+    },
+    {
+      "title": "resourcesPage.whitepaperSpanish",
+      "url": "/whitepapers/peercoin-paper-es.pdf",
+      "image": "/img/icons/whitepaper_green.png"
+    },
+    {
+      "title": "resourcesPage.whitepaperDutch",
+      "url": "/whitepapers/peercoin-paper-nl.pdf",
+      "image": "/img/icons/whitepaper_green.png"
+    },
+    {
+      "title": "resourcesPage.whitepaperFrench",
+      "url": "/whitepapers/peercoin-paper-fr.pdf",
+      "image": "/img/icons/whitepaper_green.png"
+    },
+    {
+      "title": "resourcesPage.whitepaperGerman",
+      "url": "/whitepapers/peercoin-paper-de.pdf",
+      "image": "/img/icons/whitepaper_green.png"
+    },
+    {
+      "title": "resourcesPage.whitepaperJapanese",
+      "url": "/whitepapers/peercoin-paper-jp.pdf",
+      "image": "/img/icons/whitepaper_green.png"
+    },
+    {
+      "title": "resourcesPage.whitepaperKorean",
+      "url": "/whitepapers/peercoin-paper-kr.pdf",
+      "image": "/img/icons/whitepaper_green.png"
+    },
+    {
+      "title": "resourcesPage.whitepaperRomanian",
+      "url": "/whitepapers/peercoin-paper-ro.pdf",
+      "image": "/img/icons/whitepaper_green.png"
+    },
+    {
+      "title": "resourcesPage.whitepaperRussian",
+      "url": "/whitepapers/peercoin-paper-ru.pdf",
+      "image": "/img/icons/whitepaper_green.png"
+    }
+  ]
+}

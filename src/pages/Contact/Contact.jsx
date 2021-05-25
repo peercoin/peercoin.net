@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import renderHTML from "react-render-html";
 import './Contact.scss';
 import Menu from '../../components/Menu/Menu';
+import Address from '../../components/Address/Address';
 import Footer from '../../components/Footer/Footer';
 import Loader from '../../components/Loader/Loader';
 
@@ -32,16 +33,7 @@ function Contact() {
               <a href="https://talk.peercoin.net/" className="btn btn--green">Peercointalk</a>
             </div>
             <div className="col col--small">
-              <h2 className="title title--green title--left">{t('contactPage.contactUsTitle')}</h2>
-              <p>
-                Address:<br />
-                <b>{}</b><br />
-                Postbus 7875<br />
-                1008AB AMSTERDAM<br />
-                {t('contactPage.addressCountry')}<br /><br />
-                RSIN: 858715958
-              </p>
-              
+              <Address />
               <h2 className="title title--green title--left">{t('contactPage.documentationTitle')}</h2>
               <p>{t('contactPage.documentationText')}</p>
               <a href="https://docs.peercoin.net/" className="btn btn--green">{t('contactPage.documentationBtn')}</a>

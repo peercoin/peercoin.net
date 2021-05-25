@@ -243,7 +243,7 @@
     "brandIdentityFont": "Le texte du logo Peercoin utilise les polices suivantes:",
     "brandIdentityFontFont": "Font",
     "brandIdentityFontType": "Type",
-    "brandIdentityFontRoboto": "Le site internet et portefeuille Peercoin utilise la police Roboto pour ces contenus."
+    "brandIdentityFontRoboto": "Le site internet et portefeuille Peercoin utilise la police <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\" rel=\"noopener noreferrer\">Roboto</a> pour ces contenus."
   },
   "walletPage": {
     "title": "Wallets",
@@ -291,7 +291,7 @@
       "text13": "Créer <code className=\"green\">peercoin.conf</code> dans <code className=\"green\">~/.peercoin</code>",
       "text14": "Exécuter <code className=\"green\">bin/32/peercoind</code>",
       "text15": "Votre wallet est dans <code>~/.peercoin</code>.",
-      "text16": "Une aide est disponible dans Peercoin <a href=\"https://docs.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Documentation</a> ou en demandant sur nos <a href=\"https://talk.peercoin.net/\">Forums</a>."
+      "text16": "Une aide est disponible dans Peercoin <a href=\"https://docs.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Documentation</a> ou en demandant sur nos <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Forums</a>."
     },
     "paperWalletTitle": "Portefeuille Papier",
     "paperWalletSubtitle1": "Portefeuille Papier",
