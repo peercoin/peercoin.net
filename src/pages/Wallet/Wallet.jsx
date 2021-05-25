@@ -28,9 +28,7 @@ function Wallet() {
         jsonData["official"].forEach(wallet => _filenames[wallet.os] = wallet.link.split("/")[wallet.link.split("/").length - 1]);
         setFilenames(_filenames);
       });
-  }, []);
 
-  useEffect(() => {
     fetch("/data/installations.json")
       .then((res) => res.json())
       .then((jsonData) => {
