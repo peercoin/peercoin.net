@@ -75,16 +75,16 @@ function Menu() {
               </Link>
               <img src="/img/icon-menu-arrow-down.svg" alt="" />
               <ul className="menu__main__submenu">
-              <li>
-                  <a href="/resources#university" className="submenu">
-                    <img src="/img/icons/graduationcap.png" alt="" />
-                    {t("menuComponent.links.resources.peercoinUniversity")}
-                  </a>
-                </li>
                 <li>
                   <a href="https://www.youtube.com/watch?v=x8KAsime9EI&list=PLvd1OhApu6fULYdoGIDBxlNl9qglo2vJG" className="submenu" target="_blank" rel="noopener noreferrer">
                     <img src="/img/icons/youtube_green.png" alt="" />
                     Peercoin Primer
+                  </a>
+                </li>
+                <li>
+                  <a href="/resources#university" className="submenu">
+                    <img src="/img/icons/graduationcap.png" alt="" />
+                    {t("menuComponent.links.resources.peercoinUniversity")}
                   </a>
                 </li>
                 <li>
