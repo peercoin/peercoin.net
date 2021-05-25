@@ -8,7 +8,6 @@ import "./Menu.scss";
 import { getCurrentFlag, getCurrentLanguage } from "../../helpers/Language";
 
 function Menu() {
-  console.log(getCurrentLanguage());
   const { t } = useTranslation();
   const triggerHeight = 100;
   const [isFixed, setIsFixed] = useState(window.scrollY > triggerHeight);
