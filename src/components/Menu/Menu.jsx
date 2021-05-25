@@ -286,6 +286,11 @@ function Menu() {
               </ul>
             </li>
             <li>
+              <Link to="/foundation#donate">
+                <span>{t("menuComponent.links.donate.title")}</span>
+              </Link>
+            </li>
+            <li>
               <span>
                 <img
                   className="menu-flag"

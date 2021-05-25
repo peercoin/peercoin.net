@@ -53,6 +53,9 @@
         "discord": "Discord",
         "youtube": "YouTube",
         "bitcointalk": "Bitcointalk"
+      },
+      "donate": {
+        "title": "Donate"
       }
     }
   },
