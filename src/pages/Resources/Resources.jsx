@@ -1192,10 +1192,6 @@ function Resources() {
             {t("resourcesPage.brandIdentityFontFont")}: FF Mark
             <br />
             {t("resourcesPage.brandIdentityFontType")}: Mark-Medium
-            <br />
-            <br />
-            {t("resourcesPage.brandIdentityFontWebsite")}:{" "}
-            <a href="http://www.ffmark.com/">http://www.ffmark.com/</a>
           </p>
           <p className="subtitle subtitle--left">
             {t("resourcesPage.brandIdentityFontRoboto")}
