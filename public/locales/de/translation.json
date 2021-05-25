@@ -164,7 +164,7 @@
     "faqTitle": "Häufige Fragen",
     "faq": {
       "howOldQuestion": "Seit wann gibt es Peercoin?",
-      "howOldAnswer": "Peercoins Blockchain startete am 19. August 2012 um 19:00:00 MEZ. Es gab keinen Premine und der Start des Projekts wurde neun Tage im Voraus angekündigt. Den Orginal-Thread mit der Ankündigung finden Sie hier: <a href=\"https://bitcointalk.org/index.php?topic=101820.0\" target=\"_blank\">Bitcointalk</a>",
+      "howOldAnswer": "Peercoins Blockchain startete am 19. August 2012 um 19:00:00 MEZ. Es gab keinen Premine und der Start des Projekts wurde neun Tage im Voraus angekündigt. Den Orginal-Thread mit der Ankündigung finden Sie hier: <a href=\"https://bitcointalk.org/index.php?topic=101820.0\" target=\"_blank\" rel=\"noopener noreferrer\">Bitcointalk</a>",
       "howCanIMineQuestion": "Wie kann ich Peercoins minen?",
       "howCanIMineAnswer": "Peercoin verwendet den SHA256 Algorithmus. Jede Hardware die Bitcoin effektiv minen kann, kann auch genutzt werden, um Peercoins zu minen.",
       "whyMintingQuestion": "Warum 1% Ertrag für das Staken? Warum kein festes Limit für die Gesamtzahl PPC? Disqualifiziert das nicht Peercoin als deflationäres Geld?",
@@ -188,7 +188,7 @@
     "peerAssetsP1": "Das PeerAssets Protokoll ist einfach zu verstehen. Bei PeerAssets werden Nachrichten in die Blockchain geschrieben und darin gelesen, wobei die Nachrichten beliebige Besitzgüter (Assets) darstellen können, während die Adressen die Eigentümer dieser Besitzgüter repräsentieren.",
     "peerAssetsP2": "Die Assets im PeerAsset Protokoll können verwendet werden, um z.B. Kapitalbeteilungen oder Schuldscheine zu repräsentieren. Auch reale Gegenstände können durch PeerAssets auf der Blockchain dargestellt werden. PeerAssets ist ein sehr einfaches Protokoll, es wird außer der zu Grunde liegenden Blockchain kein weiterer Rahmen benötigt. Durch die Nutzung einer zu Grunde liegenden Blockchain einer Cryptowährung fallen bei jeder Aktion geringe Transaktionsgebühren an. Dies sind die einzigen Kosten, die anfallen. PeerAssets profitiert von der Stabilitat und Sicherheit der verwendeten Blockchain, ist aber neutral und nicht der weiteren Entwicklung dieser Blockchain verpflichtet. PeerAssets ist kompatibel zu allen Cryptowährungen, die auf dem Code von Bitcoin basieren und kann daher grundsätzlich auf jeder dieser Blockchains Anwendung finden. Dazu zählen unter anderem Peercoin und Litecoin.",
     "peerAssetsP3": "Für die Anwendung von PeerAssets ist kein Hardfork oder Softfork der genutzten Cryptowährung notwendig, es muss jedoch ein passendes Anwendungsprogramm geschrieben werden. PeerAssets baut auf der älteren Idee der \"Colored Coins\" auf und nutzt OP_RETURN, um Daten in die Blockchain zu schreiben. Es bietet jedoch mehrere Optimierungen, die die Menge der Daten verringern, die in OP_RETURN geschrieben werden. PeerAssets ermöglichst einfaches Suchen nach zugehörigen Transaktionen in der Blockchain und bietet einige extra Features wie zum Beispiel Abstimmungen der Shareholder und Dividendenzahlungen.",
-    "peerAssetsP4": "Zum Einsteg, <a href=\"https://medium.com/@buckkets/basic-deck-creation-with-peerassets-tutorial-e416415b3cc8\" target=\"_blank\">Probieren Sie dieses einfache Tutoral zur Erstellung eines Kartendecks.</a>",
+    "peerAssetsP4": "Zum Einsteg, <a href=\"https://medium.com/@buckkets/basic-deck-creation-with-peerassets-tutorial-e416415b3cc8\" target=\"_blank\" rel=\"noopener noreferrer\">Probieren Sie dieses einfache Tutoral zur Erstellung eines Kartendecks.</a>",
     "peerAssetsBtnGithub": "GitHub",
     "peerAssetsBtnWhitepaper": "Whitepaper",
     "perperaTitle": "Perpera",
@@ -264,7 +264,7 @@
     "brandIdentityFont": "Das Peercoin Testlogo nutzt folgende Schriftart",
     "brandIdentityFontFont": "Schriftart",
     "brandIdentityFontType": "Type",
-    "brandIdentityFontRoboto": "Die Peercoin Website und die Wallets nutzen die <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\">Roboto</a> Schriftart."
+    "brandIdentityFontRoboto": "Die Peercoin Website und die Wallets nutzen die <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\" rel=\"noopener noreferrer\">Roboto</a> Schriftart."
   },
   "walletPage": {
     "title": "Wallets",
@@ -289,7 +289,7 @@
       "text5": "Starten Sie <code>daemon\\peercoind</code>",
       "text6": "Ihr Wallet befndet sich in <code>C:\\Users\\{username}\\AppData</code> (verstecktes Verzeichnis).",
       "text7": "Öffnen Sie das Verzeichnis mit <code>Startmenü -> Ausführen...</code>  (oder drücken Sie <code>Winkey-R</code>), tippen Sie <code>%APPDATA%\\PPCoin</code> in das Feld und drücken Sie Enter.",
-      "text8": "Weitere Hilfe können Sie finden in der <a href=\"https://docs.peercoin.net/\" target=\"_blank\">Peercoin Dokumentation</a> oder indem Sie in unserem <a href=\"https://talk.peercoin.net/\" target=\"_blank\">Forums</a> fragen.."
+      "text8": "Weitere Hilfe können Sie finden in der <a href=\"https://docs.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Dokumentation</a> oder indem Sie in unserem <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Forums</a> fragen.."
     },
     "sectionMac": {
       "title1": "macOS",
@@ -302,7 +302,7 @@
       "text6": "Erstellen Sie <code className=\"green\">ppcoin.conf</code> in <code className=\"green\">~/Library/Application Support/PPCoin</code>",
       "text7": "Starte <code className=\"green\">peercoind</code>",
       "text8": "Ihr Wallet befindet sich in <code>~/Library/Application Support/PPCoin</code>. Öffnen Sie das Verzeichnis, drücken Sie STRG+Shift+G im Suchfeld, fügen Sie den Pfad ein, und drücken Sie Enter.",
-      "text9": "Weitere Hilfe können Sie finden in der <a href=\"https://docs.peercoin.net/\" target=\"_blank\">Peercoin Dokumentation</a> oder indem Sie in unserem <a href=\"https://talk.peercoin.net/\" target=\"_blank\">Forums</a> fragen."
+      "text9": "Weitere Hilfe können Sie finden in der <a href=\"https://docs.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Dokumentation</a> oder indem Sie in unserem <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Forums</a> fragen."
     },
     "sectionLinux": {
       "title1": "Linux, allgemein",
@@ -312,7 +312,7 @@
       "text6": "Erstellen Sie <code className=\"green\">peercoin.conf</code> in <code className=\"green\">~/.peercoin</code>",
       "text7": "Starten Sie <code className=\"green\">bin/32/peercoind</code>",
       "text8": "Ihr Wallet befindet sich in <code>~/.peercoin</code>.",
-      "text9": "Weitere Hilfe können Sie finden in der <a href=\"https://docs.peercoin.net/\" target=\"_blank\">Peercoin Dokumentation </a> oder indem Sie in unserem <a href=\"https://talk.peercoin.net/\" target=\"_blank\">Forums</a> fragen."
+      "text9": "Weitere Hilfe können Sie finden in der <a href=\"https://docs.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Dokumentation </a> oder indem Sie in unserem <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Forums</a> fragen."
     },
     "paperWalletTitle": "Paper Wallet",
     "paperWalletSubtitle1": "Paper Wallet",
@@ -353,12 +353,12 @@
     "getStartedTitle": "Jetzt loslegen",
     "collapsables": {
       "learnTitle": "Mehr erfahren",
-      "learnText1": "Wenn Sie eine genaue Übersicht über das Projekt suchen, sehen Sie sich am besten den Bereich, <a href=\"https://university.peercoin.net/\" target=\"_blank\">Peercoin Grundlagen</a>  an.  Weitere Artikel und Kolumnen über Peercoin finden Sie in unserem <a href=\"https://medium.com/peercoin\" target=\"_blank\">Medium Blog</a>.",
+      "learnText1": "Wenn Sie eine genaue Übersicht über das Projekt suchen, sehen Sie sich am besten den Bereich, <a href=\"https://university.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Grundlagen</a>  an.  Weitere Artikel und Kolumnen über Peercoin finden Sie in unserem <a href=\"https://medium.com/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Medium Blog</a>.",
       "learnText2": "Besonders für Entwickler ist auch PeerAssets von Interesse, Peercoins Second Layer Projekt für Token. Mehr Informationen finden Sie auf der <a href=\"/projects\">Webseite des Projekts</a>.",
-      "learnText3": "Jede Menge technischer Informationen finden Sie auch in der <a href=\"https://docs.peercoin.net/\" target=\"_blank\">Peercoin Dokumentation</a>.",
+      "learnText3": "Jede Menge technischer Informationen finden Sie auch in der <a href=\"https://docs.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Dokumentation</a>.",
       "purchaseTitle": "Kauf",
       "purchaseText1": "Peercoin kann bei verschiedenen Börsen und Online-Wechselstuben gekauft werden.  Eine Liste <a href=\"/resources#exchanges\">finden Sie hier</a>.",
-      "purchaseText2": "Eine Anleitung zum Kauf von Peercoin finden Sie auch <a href=\"https://docs.peercoin.net/#/purchase\" target=\"_blank\">hier</a>.",
+      "purchaseText2": "Eine Anleitung zum Kauf von Peercoin finden Sie auch <a href=\"https://docs.peercoin.net/#/purchase\" target=\"_blank\" rel=\"noopener noreferrer\">hier</a>.",
       "walletTitle": "Wallet",
       "walletText1": "Das <a href=\"/wallet\">Peercoin wallet</a> gibt es für Windows, Mac OSX und Linux-Systeme.",
       "walletText2": "Kommandozeilen-Funktionalität ist auch vorhanden.",
@@ -366,13 +366,13 @@
       "mintTitle": "Staken",
       "mintText1": "Beim Staken (auch: Staking / Minting) werden von den Besitzern der Coins neue Blöcke für das Netzwerk generiert. Dabei wird fast keine Energie verbraucht. Die Blöcke beinhalten die Transaktionen, die von Nutzern im Netzwerk verschickt werden. Die Aufgabe der Stakeholder ist es auch, diese Blöcke mit Transaktionen zu verifizieren, und so für die Sicherheit des Netzwerks zu sorgen.",
       "mintText2": "Staken ist ein energie- und kosteneffizienter Prozess, so dass man zum Staken verschiedene Arten von Computern verwenden kann. Dazu muss man lediglich Peercoins besitzen, die gewünschte Version des Peercoin Clients installieren und das Wallet mit den PPC laden. Ein Zufallsalgorithmus im Protokoll steuert dann automatisch das Erstellen der eigenen Blöcke auf der Blockchain. Jeder selbst erzeugte Block bringt dem Stakeholder eine Belohnung in Form neuer PPC.",
-      "mintText3": "Eine Anleitung zum Staken finden Sie im Bereich \"Wallet Overview\" in der <a href=\"https://docs.peercoin.net/#/wallets\" target=\"_blank\">Wallet Dokumentation</a>. Allgemeine Infos über das Staken finden Sie <a href=\"https://docs.peercoin.net/#/peercoin-minting-behaviour\" target=\"_blank\">hier</a>.",
+      "mintText3": "Eine Anleitung zum Staken finden Sie im Bereich \"Wallet Overview\" in der <a href=\"https://docs.peercoin.net/#/wallets\" target=\"_blank\" rel=\"noopener noreferrer\">Wallet Dokumentation</a>. Allgemeine Infos über das Staken finden Sie <a href=\"https://docs.peercoin.net/#/peercoin-minting-behaviour\" target=\"_blank\" rel=\"noopener noreferrer\">hier</a>.",
       "mineTitle": "Minen",
       "mineText1": "Peercoin verwendet den doppelt ausgeführten Hashcash SHA-256 Algorithmus zum Proof-of-Work Minen. Daher kann jede Hardware, die Bitcoin minen kann, auch Peercoin minen.",
-      "mineText2": "Zum Start, beachten Sie bitte die Hilfe zum Minen in der <a href=\"https://docs.peercoin.net/#/mining\" target=\"_blank\">Dokumentation</a>.",
+      "mineText2": "Zum Start, beachten Sie bitte die Hilfe zum Minen in der <a href=\"https://docs.peercoin.net/#/mining\" target=\"_blank\" rel=\"noopener noreferrer\">Dokumentation</a>.",
       "communityTitle": "Community",
-      "communityText1": "Treten Sie uns bei in <a href=\"https://talk.peercoin.net/\" target=\"_blank\">Forum</a>, <a href=\"https://discord.gg/XPxfwtG\" target=\"_blank\">Discord</a>, oder <a href=\"https://t.me/peercoin\" target=\"_blank\">Telegram</a>  um sich mit anderen Mitgliedern und Entwicklern der Peercoin Community auszutauschen. Abonnieren Sie unsere Kanäle auf <a href=\"https://twitter.com/PeercoinPPC\" target=\"_blank\">Twitter</a>, <a href=\"https://www.reddit.com/r/peercoin\" target=\"_blank\">Reddit</a>, <a href=\"https://medium.com/peercoin\" target=\"_blank\">Medium Blog</a>, oder <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\" target=\"_blank\">Newsletter</a>, um auf dem Laufenden zu bleiben, was es Neues rund um Peercoin gibt. Eine Liste aller wichtigen Links zur Peercoin Community finden Sie <a href=\"/resources#communities\">8hier</a>.",
-      "communityText2": "Wichtige Updates können Sie auch direkt auf Ihr Smartphone  bekommen über Plattformen wie <a href=\"https://blockfolio.com/\" target=\"_blank\">Blockfolio</a>, <a href=\"https://delta.app/\" target=\"_blank\">Delta</a>, und <a href=\"https://www.coingecko.com/\" target=\"_blank\">CoinGecko</a>. Abonnieren Sie die News, um auf dem Laufenden zu bleiben."
+      "communityText1": "Treten Sie uns bei in <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Forum</a>, <a href=\"https://discord.gg/XPxfwtG\" target=\"_blank\" rel=\"noopener noreferrer\">Discord</a>, oder <a href=\"https://t.me/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Telegram</a>  um sich mit anderen Mitgliedern und Entwicklern der Peercoin Community auszutauschen. Abonnieren Sie unsere Kanäle auf <a href=\"https://twitter.com/PeercoinPPC\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter</a>, <a href=\"https://www.reddit.com/r/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>, <a href=\"https://medium.com/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Medium Blog</a>, oder <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\" target=\"_blank\" rel=\"noopener noreferrer\">Newsletter</a>, um auf dem Laufenden zu bleiben, was es Neues rund um Peercoin gibt. Eine Liste aller wichtigen Links zur Peercoin Community finden Sie <a href=\"/resources#communities\">8hier</a>.",
+      "communityText2": "Wichtige Updates können Sie auch direkt auf Ihr Smartphone  bekommen über Plattformen wie <a href=\"https://blockfolio.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blockfolio</a>, <a href=\"https://delta.app/\" target=\"_blank\" rel=\"noopener noreferrer\">Delta</a>, und <a href=\"https://www.coingecko.com/\" target=\"_blank\" rel=\"noopener noreferrer\">CoinGecko</a>. Abonnieren Sie die News, um auf dem Laufenden zu bleiben."
     },
     "latestNewsTitle": "Aktuelles"
   },

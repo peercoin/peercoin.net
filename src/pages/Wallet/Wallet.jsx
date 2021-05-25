@@ -82,22 +82,13 @@ function Wallet() {
         <h1 className="hero__title">{t("walletPage.title")}</h1>
         <p className="hero__description">{t("walletPage.description")}</p>
         <div className="hero__actions">
-          <a
-            href="#install"
-            className="hero__actions__action hero__actions__action--white"
-          >
+          <a href="#install" className="hero__actions__action hero__actions__action--white">
             {t("walletPage.actions.action1")}
           </a>
-          <a
-            href="#paperwallet"
-            className="hero__actions__action hero__actions__action--white"
-          >
+          <a href="#paperwallet" className="hero__actions__action hero__actions__action--white">
             {t("walletPage.actions.action2")}
           </a>
-          <a
-            href="#unofficialclients"
-            className="hero__actions__action hero__actions__action--white"
-          >
+          <a href="#unofficialclients" className="hero__actions__action hero__actions__action--white">
             {t("walletPage.actions.action3")}
           </a>
         </div>
@@ -111,11 +102,7 @@ function Wallet() {
               {officialWallets.length > 0 &&
                 officialWallets.map((item) => (
                   <div className="desktop-downloads__items__item">
-                    <a
-                      href={item.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href={item.link}  target="_blank" rel="noopener noreferrer">
                       <div className="desktop-downloads__items__item__title">
                         {item.os}
                       </div>
@@ -202,7 +189,7 @@ function Wallet() {
                 </h2>
                 <div className="blocks-list">
                   {type.wallets.map(wallet => (
-                    <a href={wallet.url} className="blocks-list__block" target="_blank">
+                    <a href={wallet.url} className="blocks-list__block" target="_blank" rel="noopener noreferrer">
                       <h4 className="blocks-list__block__title">
                         {wallet.title.translated ? t(wallet.title.text) : wallet.title.text}
                       </h4>

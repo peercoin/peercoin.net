@@ -166,7 +166,7 @@
     "faqTitle": "Частые вопросы",
     "faq": {
       "howOldQuestion": "Когда стартовал проект Peercoin?",
-      "howOldAnswer": "Блокчейн Peercoin был запущен 19 августа 2012 года в 18:00:00 по всемирному координированному времени. Премайнинга не было, и о запуске проекта было объявлено за девять дней. Вы можете прочитать оригинальное объявление здесь: <a href=\"https://bitcointalk.org/index.php?topic=101820.0\" target=\"_blank\">Bitcointalk</a>",
+      "howOldAnswer": "Блокчейн Peercoin был запущен 19 августа 2012 года в 18:00:00 по всемирному координированному времени. Премайнинга не было, и о запуске проекта было объявлено за девять дней. Вы можете прочитать оригинальное объявление здесь: <a href=\"https://bitcointalk.org/index.php?topic=101820.0\" target=\"_blank\" rel=\"noopener noreferrer\">Bitcointalk</a>",
       "howCanIMineQuestion": "Как я могу майнить Peercoin?",
       "howCanIMineAnswer": "Peercoin использует криптографическую хеш-функцию - SHA256. Любое оборудование, которое может извлекать биткойны, может быть использовано для извлечения Peercoin.",
       "whyMintingQuestion": "Почему рентабельность 1%? Почему нет ограничения на общее количество PPC? Это не дисквалифицирует Peercoin как дефляционную валюту?",
@@ -190,7 +190,7 @@
     "peerAssetsP1": "Простое объяснение протокола PeerAssets заключается в том, что он работает, записывая и читая сообщения в цепочке блоков, где сообщения это активы, а адреса пиры.",
     "peerAssetsP2": "Активы основанные на протоколе PeerAsset, могут использоваться для представления любого типа актива, такого как облигации или акции. PeerAssets также могут представлять реальные объекты, таким образом подтверждать их существование в блокчейне. PeerAssets - это легкий протокол, поскольку он не использует дополнительных уровней по сравнению с блокчейном. Он не требует токенов с внешней стоимостью в дополнение к собственной валюте блокчейна, которая используется для оплаты комиссий за транзакции. PeerAssets не участвует в организации и ведении публичного реестра, но пользуется его стабильностью и доверием. PeerAssets может работать с любой криптовалютой, разветленной из биткойн которые сохранили его код, включая Peercoin, Litecoin и другие..",
     "peerAssetsP3": "PeerAssets не требует хард-форка или софт-форка сети, но требует разработки клиента PeerAssets. PeerAssets также вдохновлен оригинальной идеей цветных монет и использует OP_RETURN для записи данных в цепочку блоков, но предлагает некоторые оптимизации для уменьшения объема данных, записываемых в OP_RETURN. PeerAssets позволяет легко сканировать блокчейн на предмет необходимых транзакций и предлагает некоторые дополнительные функции, такие как голосование акционеров и выплата дивидендов.",
-    "peerAssetsP4": "Для начала ознакомьтесь с этим <a href=\"https://medium.com/@buckkets/basic-deck-creation-with-peerassets-tutorial-e416415b3cc8\" target=\"_blank\"> руководством по созданию дека.</a>",
+    "peerAssetsP4": "Для начала ознакомьтесь с этим <a href=\"https://medium.com/@buckkets/basic-deck-creation-with-peerassets-tutorial-e416415b3cc8\" target=\"_blank\" rel=\"noopener noreferrer\"> руководством по созданию дека.</a>",
     "peerAssetsBtnGithub": "GitHub",
     "peerAssetsBtnWhitepaper": "Белая Бумага",
     "perperaTitle": "Perpera",
@@ -255,7 +255,7 @@
     "whitepaperRussian": "Русский",
     "whitepaperRomanian": "Румынский",
     "graphicsTitle": "Графика",
-    "graphicsText": "Ищете больше графики? Обновленную коллекцию логотипов и обоев можно найти на <a href=\"https://github.com/peercoin/media\" target=\"_blank\">Peercoin GitHub</a>.",
+    "graphicsText": "Ищете больше графики? Обновленную коллекцию логотипов и обоев можно найти на <a href=\"https://github.com/peercoin/media\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin GitHub</a>.",
     "graphicsVertical": "Вертикальный логотип",
     "graphicsHorizontal": "Горизонтальный логотип",
     "graphicsIconOnly": "Только Иконки",
@@ -269,7 +269,7 @@
     "brandIdentityFont": "В текстовом логотипе Peercoin используется следующий шрифт",
     "brandIdentityFontFont": "Шрифт",
     "brandIdentityFontType": "Тип",
-    "brandIdentityFontRoboto": "Веб-сайт и кошельки Peercoin используют шрифт <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\">Roboto</a> для контента."
+    "brandIdentityFontRoboto": "Веб-сайт и кошельки Peercoin используют шрифт <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\" rel=\"noopener noreferrer\">Roboto</a> для контента."
   },
   "walletPage": {
     "title": "Кошельки",
@@ -294,7 +294,7 @@
       "text5": "Запустите <code>daemon\\peercoind</code>",
       "text6": "Ваш кошелек в <code>C:\\Users\\{username}\\AppData</code> (hidden folder).",
       "text7": "Откройте папку <code>Start menu -> Run...</code> (или нажмите <code>Winkey-R</code>), запишите: <code>%APPDATA%\\PPCoin</code> в этом поле и нажмите Enter.",
-      "text8": "Дополнительную помощь можно найти в <a href=\"https://docs.peercoin.net/\" target=\"_blank\">Документации Peercoin</a> или спрашивая в <a href=\"https://talk.peercoin.net/\" target=\"_blank\">Форуме</a>."
+      "text8": "Дополнительную помощь можно найти в <a href=\"https://docs.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Документации Peercoin</a> или спрашивая в <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Форуме</a>."
     },
     "sectionMac": {
       "title1": "macOS",
@@ -307,7 +307,7 @@
       "text6": "Создайте <code className=\"green\">ppcoin.conf</code> в <code className=\"green\">~/Library/Application Support/PPCoin</code>",
       "text7": "Запустите <code className=\"green\">peercoind</code>",
       "text8": "Ваш кошелек находится в папке <code>~/Library/Application Support/PPCoin</code>. Чтобы открыть папку, нажмите <code>Command-Shift-G</code> в Finder, введите путь (path), и нажмите Enter.",
-      "text9": "Дополнительную помощь можно найти в <a href=\"https://docs.peercoin.net/\" target=\"_blank\">Документации Peercoin</a> или спрашивая в <a href=\"https://talk.peercoin.net/\" target=\"_blank\">Форуме</a>."
+      "text9": "Дополнительную помощь можно найти в <a href=\"https://docs.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Документации Peercoin</a> или спрашивая в <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Форуме</a>."
     },
     "sectionLinux": {
       "title1": "Linux",
@@ -371,12 +371,12 @@
     "getStartedTitle": "Начнем",
     "collapsables": {
       "learnTitle": "Учить",
-      "learnText1": "Для подробной презентации проекта, <a href=\"https://university.peercoin.net/\" target=\"_blank\">Peercoin Университет</a> это лучшее место для начала. Дополнительные статьи о Peercoin смотрите здесь: <a href=\"https://medium.com/peercoin\" target=\"_blank\">Blogul Medium</a>.",
+      "learnText1": "Для подробной презентации проекта, <a href=\"https://university.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Университет</a> это лучшее место для начала. Дополнительные статьи о Peercoin смотрите здесь: <a href=\"https://medium.com/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Blogul Medium</a>.",
       "learnText2": "Для тех, кто хочет участвовать в разработке, PeerAssets - это решение в слоях Peercoin для токенов. Более подробную информацию можно найти на странице <a href=\"/projects\">projects</a> нашего сайта.",
-      "learnText3": "Больше технической информации можно найти в <a href=\"https://docs.peercoin.net/\" target=\"_blank\">Документации Peercoin</a>.",
+      "learnText3": "Больше технической информации можно найти в <a href=\"https://docs.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Документации Peercoin</a>.",
       "purchaseTitle": "Купить",
       "purchaseText1": "Peercoin доступен на многих биржах и сервисах. <a href=\"/resources#exchanges\">Посмотри здесь список</a>.",
-      "purchaseText2": "Для покупки Peercoin также доступен <a href=\"https://docs.peercoin.net/#/purchase\" target=\"_blank\">гид</a>.",
+      "purchaseText2": "Для покупки Peercoin также доступен <a href=\"https://docs.peercoin.net/#/purchase\" target=\"_blank\" rel=\"noopener noreferrer\">гид</a>.",
       "walletTitle": "Кошелек",
       "walletText1": "<a href=\"/wallet\">Кошелек Peercoin</a> доступен на платформах Windows, Mac OSX și Linux.",
       "walletText2": "Также доступны возможности командной строки.",
@@ -384,13 +384,13 @@
       "mintTitle": "Чеканка",
       "mintText1": "Производство с помощью Доказательства Ставки (PoS) - это эффективный процесс, в котором заинтересованные стороны создают новые блоки для сети. Эти блоки содержат транзакции, инициированные пользователями сети. Роль производства - обрабатывать эти блоки транзакций и обеспечивать безопасность сети.",
       "mintText2": "Чеканка (PoS) - это энергоэффективный и экономичный процесс, который позволяет заинтересованным сторонам участвовать с использованием нескольких различных типов устройств. Заинтересованные стороны участвуют в чеканке, просто устанавливая версию Peercoin заполняя PPC свой кошелек храня их на время. Транзакции выбираются через протокол Peercoin для включения в следующий блок в цепочке блоков. Каждый произведенный блок вознаграждает заинтересованных сторон новыми PPC.",
-      "mintText3": "Pentru a afla cum să fabricați monede, consultați Secțiunea de Fabricare din <a href=\"https://docs.peercoin.net/#/wallets\" target=\"_blank\">Documentația portmoneului</a>. Mai multe informații despre fabricare puteți găsi <a href=\"https://docs.peercoin.net/#/peercoin-minting-behaviour\" target=\"_blank\">here</a>.",
+      "mintText3": "Pentru a afla cum să fabricați monede, consultați Secțiunea de Fabricare din <a href=\"https://docs.peercoin.net/#/wallets\" target=\"_blank\" rel=\"noopener noreferrer\">Documentația portmoneului</a>. Mai multe informații despre fabricare puteți găsi <a href=\"https://docs.peercoin.net/#/peercoin-minting-behaviour\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.",
       "mineTitle": "Майнинг",
       "mineText1": "Peercoin использует алгоритм хэширования SHA-256 с двойной итерацией для извлечения Доказательства Работы (PoW). Это означает что любое оборудование которое может извлекать Bitcoin, также может извлекать Peercoin.",
-      "mineText2": "Для начала прочтите <a href=\"https://docs.peercoin.net/#/mining\" target=\"_blank\">документацию майнинга</a>.",
+      "mineText2": "Для начала прочтите <a href=\"https://docs.peercoin.net/#/mining\" target=\"_blank\" rel=\"noopener noreferrer\">документацию майнинга</a>.",
       "communityTitle": "Сообщество",
-      "communityText1": "Присоединяйтесь на <a href=\"https://talk.peercoin.net/\" target=\"_blank\">Форуме</a>, <a href=\"https://discord.gg/XPxfwtG\" target=\"_blank\">Discord</a>, или на <a href=\"https://t.me/peercoin\" target=\"_blank\">Telegram</a> для общения с другими участниками и разработчиками сообщества Peercoin. Подписаться на <a href=\"https://twitter.com/PeercoinPPC\" target=\"_blank\">Twitter</a>, <a href=\"https://www.reddit.com/r/peercoin\" target=\"_blank\">Reddit</a>, <a href=\"https://medium.com/peercoin\" target=\"_blank\">Medium Блог</a>, или на <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\" target=\"_blank\">Новости</a> чтобы быть в курсе последних новостей Peercoin. Смотрите также <a href=\"/resources#communities\">здесь</a> список ресурсов сообщества.",
-      "communityText2": "Важные обновления могут быть доставлены прямо на ваше мобильное устройство через такие платформы, как <a href=\"https://blockfolio.com/\" target=\"_blank\">Blockfolio</a>, <a href=\"https://delta.app/\" target=\"_blank\">Delta</a>, или <a href=\"https://www.coingecko.com/\" target=\"_blank\">CoinGecko</a>. Подпишитесь на последние новости."
+      "communityText1": "Присоединяйтесь на <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Форуме</a>, <a href=\"https://discord.gg/XPxfwtG\" target=\"_blank\" rel=\"noopener noreferrer\">Discord</a>, или на <a href=\"https://t.me/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Telegram</a> для общения с другими участниками и разработчиками сообщества Peercoin. Подписаться на <a href=\"https://twitter.com/PeercoinPPC\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter</a>, <a href=\"https://www.reddit.com/r/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>, <a href=\"https://medium.com/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Medium Блог</a>, или на <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\" target=\"_blank\" rel=\"noopener noreferrer\">Новости</a> чтобы быть в курсе последних новостей Peercoin. Смотрите также <a href=\"/resources#communities\">здесь</a> список ресурсов сообщества.",
+      "communityText2": "Важные обновления могут быть доставлены прямо на ваше мобильное устройство через такие платформы, как <a href=\"https://blockfolio.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blockfolio</a>, <a href=\"https://delta.app/\" target=\"_blank\" rel=\"noopener noreferrer\">Delta</a>, или <a href=\"https://www.coingecko.com/\" target=\"_blank\" rel=\"noopener noreferrer\">CoinGecko</a>. Подпишитесь на последние новости."
     },
     "latestNewsTitle": "Последние новости"
   },
