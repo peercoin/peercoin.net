@@ -264,7 +264,6 @@
     "brandIdentityFont": "Das Peercoin Testlogo nutzt folgende Schriftart",
     "brandIdentityFontFont": "Schriftart",
     "brandIdentityFontType": "Type",
-    "brandIdentityFontWebsite": "Website",
     "brandIdentityFontRoboto": "Die Peercoin Website und die Wallets nutzen die Roboto Schriftart."
   },
   "walletPage": {
