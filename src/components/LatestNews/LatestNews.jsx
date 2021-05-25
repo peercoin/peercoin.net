@@ -1,11 +1,9 @@
 import React, {useEffect, useState, Suspense} from 'react';
-import { useTranslation } from 'react-i18next';
 import './LatestNews.scss';
 import Loader from '../Loader/Loader';
 import { formatTime } from "../../helpers/Time";
 
 function LatestNews() {
-  const { t } = useTranslation();
   const [posts, setPosts] = useState([]);
   
   useEffect(() => {

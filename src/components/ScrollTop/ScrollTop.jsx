@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 import { withRouter } from 'react-router-dom';
-import { handleHash } from '../../helpers/Hash';
 
 function ScrollTop({ history }) {
   useEffect(() => {
