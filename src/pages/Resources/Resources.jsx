@@ -21,49 +21,37 @@ function Resources() {
       .then((jsonData) => {
         setExplorers(jsonData);
       });
-  }, []);
 
-  useEffect(() => {
     fetch("/data/exchanges.json")
       .then((res) => res.json())
       .then((jsonData) => {
         setExchanges(jsonData);
       });
-  }, []);
   
-  useEffect(() => {
     fetch("/data/tools.json")
       .then((res) => res.json())
       .then((jsonData) => {
         setTools(jsonData);
       });
-  }, []);
     
-  useEffect(() => {
     fetch("/data/community.json")
       .then((res) => res.json())
       .then((jsonData) => {
         setCommunity(jsonData);
       });
-  }, []);
     
-  useEffect(() => {
     fetch("/data/whitepaper.json")
       .then((res) => res.json())
       .then((jsonData) => {
         setWhitepaper(jsonData);
       });
-  }, []);
 
-  useEffect(() => {
     fetch("/data/graphics.json")
       .then((res) => res.json())
       .then((jsonData) => {
-        console.log(jsonData);
         setGraphics(jsonData);
       });
   }, []);
-
 
   return (
     <div className="ResourcesPage">
