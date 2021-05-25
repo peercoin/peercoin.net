@@ -1,6 +1,10 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
-function Address() {return (
+function Address() {
+  const { t } = useTranslation();
+
+  return (
     <div>
       <h2 className="title title--green title--left">{t('contactPage.contactUsTitle')}</h2>
         <p>
