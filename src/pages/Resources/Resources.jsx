@@ -1194,7 +1194,7 @@ function Resources() {
             {t("resourcesPage.brandIdentityFontType")}: Mark-Medium
           </p>
           <p className="subtitle subtitle--left">
-            {t("resourcesPage.brandIdentityFontRoboto")}
+            {renderHTML(t("resourcesPage.brandIdentityFontRoboto"))}
           </p>
         </div>
       </div>

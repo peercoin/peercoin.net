@@ -243,7 +243,7 @@
     "brandIdentityFont": "피어코인 텍스트 로고는 아래 폰트를 사용합니다",
     "brandIdentityFontFont": "폰트",
     "brandIdentityFontType": "타입",
-    "brandIdentityFontRoboto": " 피어코인 웹사이트와 지갑 컨텐츠는 Roboto 폰트를 사용합니다."
+    "brandIdentityFontRoboto": " 피어코인 웹사이트와 지갑 컨텐츠는 <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\">Roboto</a> 폰트를 사용합니다."
   },
   "walletPage": {
     "title": "지갑",
