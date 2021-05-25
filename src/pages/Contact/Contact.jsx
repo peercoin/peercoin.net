@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
+import renderHTML from "react-render-html";
 import './Contact.scss';
 import Menu from '../../components/Menu/Menu';
 import Footer from '../../components/Footer/Footer';
@@ -51,7 +52,7 @@ function Contact() {
               <h2 className="title title--green title--left">{t('contactPage.faqTitle')}</h2>
               <div className="faq">
                 <h4>{t('contactPage.faq.howOldQuestion')}</h4>
-                <p>{t('contactPage.faq.howOldAnswer')}</p>
+                <p>{renderHTML(t('contactPage.faq.howOldAnswer'))}</p>
 
                 <h4>{t('contactPage.faq.howCanIMineQuestion')}</h4>
                 <p>{t('contactPage.faq.howCanIMineAnswer')}</p>
