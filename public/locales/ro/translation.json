@@ -190,7 +190,7 @@
     "peerAssetsP1": "O explicație simplă a protocolului PeerAssets ar fi că funcționează scriind și citind mesaje pe blockchain, unde dintre mesajele reprezintă active.",
     "peerAssetsP2": "Activele bazate pe protocolul PeerAsset pot fi utilizate pentru a reprezenta orice tip de activ, cum ar fi obligațiunile sau capitalurile proprii. PeerAssets pot reprezenta, de asemenea, obiecte din viața reală și confirmând astfel existența lor pe blockchain. PeerAssets este un protocol ușor, deoarece nu utilizează straturi suplimentare peste blockchain-ul de bază. Nu necesită tokeni cu valoare externă pe lângă moneda nativă a blockchain-ului, care este utilizată pentru plata taxelor de tranzacție. PeerAssets nu participă la organizarea și menținerea registrului public, ci profită de stabilitatea și încrederea acestuia. PeerAssets poate funcționa pe orice criptomonedă care provine din Bitcoin și care și-a păstrat baza de cod compatibilă, inclusiv Peercoin, Litecoin și altele.",
     "peerAssetsP3": "PeerAssets nu necesită o bifurcație hard sau soft a rețelei gazdă, dar necesită dezvoltarea unui client PeerAssets. PeerAssets este, de asemenea, inspirat din ideea originală de monede colorate și folosește OP_RETURN pentru a scrie datele în blockchain, dar oferă câteva optimizări pentru a reduce cantitatea de date scrise în OP_RETURN. PeerAssets permite scanarea ușoară a blockchain-ului pentru tranzacțiile necesare și oferă câteva caracteristici suplimentare, cum ar fi votul acționarilor și plata dividendelor.",
-    "peerAssetsP4": "Pentru început, consultați acest <a href=\"https://medium.com/@buckkets/basic-deck-creation-with-peerassets-tutorial-e416415b3cc8\">tutorial despre crearea deck-ului.</a>",
+    "peerAssetsP4": "Pentru început, consultați acest <a href=\"https://medium.com/@buckkets/basic-deck-creation-with-peerassets-tutorial-e416415b3cc8\" target=\"_blank\">tutorial despre crearea deck-ului.</a>",
     "peerAssetsBtnGithub": "GitHub",
     "peerAssetsBtnWhitepaper": "Hartia Albă",
     "perperaTitle": "Perpera",
@@ -255,7 +255,7 @@
     "whitepaperRussian": "Rusă",
     "whitepaperRomanian": "Română",
     "graphicsTitle": "Grafică",
-    "graphicsText": "Căutați mai multă grafică? O colecție actualizată de sigle și imagini de fundal poate fi găsită pe <a href=\"https://github.com/peercoin/media\">Peercoin GitHub</a>.",
+    "graphicsText": "Căutați mai multă grafică? O colecție actualizată de sigle și imagini de fundal poate fi găsită pe <a href=\"https://github.com/peercoin/media\" target=\"_blank\">Peercoin GitHub</a>.",
     "graphicsVertical": "Logo Vertical",
     "graphicsHorizontal": "Logo Horizontal",
     "graphicsIconOnly": "Doar Iconițe",
@@ -294,7 +294,7 @@
       "text5": "Rulați <code>daemon\\peercoind</code>",
       "text6": "Portmoneul dvs e în <code>C:\\Users\\{username}\\AppData</code> (hidden folder).",
       "text7": "Deschideți folderul cu <code>Start menu -> Run...</code> (sau apăsați <code>Winkey-R</code>), înscrieți <code>%APPDATA%\\PPCoin</code> în acest câmp și apăsați Enter.",
-      "text8": "Ajutor suplimentar puteți găsit în <a href=\"https://docs.peercoin.net/\">Documentația Peercoin</a> sau întrebând în <a href=\"https://talk.peercoin.net/\">Forumuri</a>."
+      "text8": "Ajutor suplimentar puteți găsit în <a href=\"https://docs.peercoin.net/\" target=\"_blank\">Documentația Peercoin</a> sau întrebând în <a href=\"https://talk.peercoin.net/\" target=\"_blank\">Forumuri</a>."
     },
     "sectionMac": {
       "title1": "macOS",
@@ -307,7 +307,7 @@
       "text6": "Creați <code className=\"green\">ppcoin.conf</code> în <code className=\"green\">~/Library/Application Support/PPCoin</code>",
       "text7": "Rulați <code className=\"green\">peercoind</code>",
       "text8": "Portmoneul dvs e în folderul<code>~/Library/Application Support/PPCoin</code>. Pentru a deschide folderul apăsați <code>Command-Shift-G</code> în Finder, introduceți calea (path), ași apăsați Enter.",
-      "text9": "Ajutor suplimentar puteți găsit în <a href=\"https://docs.peercoin.net/\">Documentația Peercoin</a> sau întrebând în <a href=\"https://talk.peercoin.net/\">Forumuri</a>."
+      "text9": "Ajutor suplimentar puteți găsit în <a href=\"https://docs.peercoin.net/\" target=\"_blank\">Documentația Peercoin</a> sau întrebând în <a href=\"https://talk.peercoin.net/\" target=\"_blank\">Forumuri</a>."
     },
     "sectionLinux": {
       "title1": "Linux",
@@ -321,7 +321,7 @@
       "text6": "Creați <code className=\"green\">peercoin.conf</code> in <code className=\"green\">~/.peercoin</code>",
       "text7": "Rulați <code className=\"green\">bin/peercoind</code>",
       "text8": "Portmoneul dvs e în <code>~/.peercoin</code>.",
-      "text9": "Ajutor suplimentar puteți găsit în <a href=\"https://docs.peercoin.net/\">Peercoin Documentation</a> sau întrebând în <a href=\"https://talk.peercoin.net/\">Forumuri</a>."
+      "text9": "Ajutor suplimentar puteți găsit în <a href=\"https://docs.peercoin.net/\" target=\"_blank\">Peercoin Documentation</a> sau întrebând în <a href=\"https://talk.peercoin.net/\" target=\"_blank\">Forumuri</a>."
     },
     "paperWalletTitle": "Portmoneu de Hârtie",
     "paperWalletSubtitle1": "Portmoneu de Hârtie",
@@ -371,12 +371,12 @@
     "getStartedTitle": "Să începem",
     "collapsables": {
       "learnTitle": "Învăță",
-      "learnText1": "Pentru o prezentare detaliată a proiectului, <a href=\"https://university.peercoin.net/\">Peercoin University</a> este cel mai bun loc de plecare. Pentru mai multe articole despre Peercoin, consultați <a href=\"https://medium.com/peercoin\">Blogul Medium</a>.",
+      "learnText1": "Pentru o prezentare detaliată a proiectului, <a href=\"https://university.peercoin.net/\" target=\"_blank\">Peercoin University</a> este cel mai bun loc de plecare. Pentru mai multe articole despre Peercoin, consultați <a href=\"https://medium.com/peercoin\" target=\"_blank\">Blogul Medium</a>.",
       "learnText2": "Pentru cei care doresc să se implice în dezvoltare, PeerAssets este soluția din straturile Peercoin pentru tokeni. Mai multe informații pot fi găsite pe pagina <a href=\"/projects\">projects</a> site-ului nostru.",
-      "learnText3": "Multe informații tehnice pot fi găsite în <a href=\"https://docs.peercoin.net/\">Documentația Peercoin</a>.",
+      "learnText3": "Multe informații tehnice pot fi găsite în <a href=\"https://docs.peercoin.net/\" target=\"_blank\">Documentația Peercoin</a>.",
       "purchaseTitle": "Cumpără",
       "purchaseText1": "Peercoin este disponibil în multe schimburi și servicii. <a href=\"/resources#exchanges\">Vezi aici o listă</a>.",
-      "purchaseText2": "Pentru cumpărarea Peercoin este disponibil și un <a href=\"https://docs.peercoin.net/#/purchase\">ghid</a>.",
+      "purchaseText2": "Pentru cumpărarea Peercoin este disponibil și un <a href=\"https://docs.peercoin.net/#/purchase\" target=\"_blank\">ghid</a>.",
       "walletTitle": "Portmoneu",
       "walletText1": "<a href=\"/wallet\">Portmoneul Peercoin</a> este disponibil pe platformele Windows, Mac OSX și Linux.",
       "walletText2": "Sunt disponibile și experiențele Liniei de Comandă.",
@@ -384,13 +384,13 @@
       "mintTitle": "Fabricare",
       "mintText1": "Fabricarea prin Dovada Mizei este un proces eficient în care părțile interesate crează noi blocuri pentru rețea. Aceste blocuri conțin tranzacții inițiate de utilizatorii rețelei. Rolul fabricării este de a procesa aceste blocuri de tranzacții și de a oferi securitate rețelei.",
       "mintText2": "Fabricarea (PoS) este un proces eficient din punct de vedere energetic și din punct de vedere al costurilor, care face posibilă participarea părților interesate utilizând mai multe tipuri diferite de dispozitive. Părțile interesate participă la inventare pur și simplu instalând versiunea de Peercoin, suplinindu-și portofelul cu PPC și ținându-le în timp. TRanzactiile sunt selectate ocazional prin protocolul Peercoin pentru a fi incluse în următorul bloc din blockchain. Fiecare bloc fabricat recompensează părțile interesate cu PPC.",
-      "mintText3": "Pentru a afla cum să fabricați monede, consultați Secțiunea de Fabricare din <a href=\"https://docs.peercoin.net/#/wallets\">Documentația portmoneului</a>. Mai multe informații despre fabricare puteți găsi <a href=\"https://docs.peercoin.net/#/peercoin-minting-behaviour\">here</a>.",
+      "mintText3": "Pentru a afla cum să fabricați monede, consultați Secțiunea de Fabricare din <a href=\"https://docs.peercoin.net/#/wallets\" target=\"_blank\">Documentația portmoneului</a>. Mai multe informații despre fabricare puteți găsi <a href=\"https://docs.peercoin.net/#/peercoin-minting-behaviour\" target=\"_blank\">here</a>.",
       "mineTitle": "Minare",
       "mineText1": "Peercoin folosește algoritmul hashcash SHA-256 dublu iterat pentru extragerea Dovezii Muncii (PoW). Aceasta înseamnă că orice hardware care poate extrage Bitcoin poate extrage și Peercoin.",
-      "mineText2": "Pentru a începe, citiți <a href=\"https://docs.peercoin.net/#/mining\">documentația fabricării</a>.",
+      "mineText2": "Pentru a începe, citiți <a href=\"https://docs.peercoin.net/#/mining\" target=\"_blank\">documentația fabricării</a>.",
       "communityTitle": "Comunitatea",
-      "communityText1": "Alăturați-vă pe <a href=\"https://talk.peercoin.net/\">Forum</a>, <a href=\"https://discord.gg/XPxfwtG\">Discord</a>, ori pe <a href=\"https://t.me/peercoin\">Telegram</a> pentru a discuta cu alți membri și dezvoltatori ai comunității Peercoin. Abonați-vă la <a href=\"https://twitter.com/PeercoinPPC\">Twitter</a>, <a href=\"https://www.reddit.com/r/peercoin\">Reddit</a>, <a href=\"https://medium.com/peercoin\">Blogul Medium </a>, ori <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\">Noutăți</a> pentru a fi la curent cu ultimele știri ale Peercoin. Vedeți și <a href=\"/resources#communities\">here</a> lista de resurse ale comunității.",
-      "communityText2": "Actualizările importante pot fi livrate direct pe dispozitivul dvs mobil prin intermediul unor platforme precum <a href=\"https://blockfolio.com/\">Blockfolio</a>, <a href=\"https://delta.app/\">Delta</a>, sau <a href=\"https://www.coingecko.com/\">CoinGecko</a>. Abonați-vă la ultimele noutăți."
+      "communityText1": "Alăturați-vă pe <a href=\"https://talk.peercoin.net/\" target=\"_blank\">Forum</a>, <a href=\"https://discord.gg/XPxfwtG\" target=\"_blank\">Discord</a>, ori pe <a href=\"https://t.me/peercoin\" target=\"_blank\">Telegram</a> pentru a discuta cu alți membri și dezvoltatori ai comunității Peercoin. Abonați-vă la <a href=\"https://twitter.com/PeercoinPPC\" target=\"_blank\">Twitter</a>, <a href=\"https://www.reddit.com/r/peercoin\" target=\"_blank\">Reddit</a>, <a href=\"https://medium.com/peercoin\" target=\"_blank\">Blogul Medium </a>, ori <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\" target=\"_blank\">Noutăți</a> pentru a fi la curent cu ultimele știri ale Peercoin. Vedeți și <a href=\"/resources#communities\">here</a> lista de resurse ale comunității.",
+      "communityText2": "Actualizările importante pot fi livrate direct pe dispozitivul dvs mobil prin intermediul unor platforme precum <a href=\"https://blockfolio.com/\" target=\"_blank\">Blockfolio</a>, <a href=\"https://delta.app/\" target=\"_blank\">Delta</a>, sau <a href=\"https://www.coingecko.com/\" target=\"_blank\">CoinGecko</a>. Abonați-vă la ultimele noutăți."
     },
     "latestNewsTitle": "Ultimile Noutăți"
   },

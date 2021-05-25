@@ -167,7 +167,7 @@
     "peerAssetsP1": "关于PeerAssets协议的一个简单解释是，它通过在区块链上编写和读取消息来工作，其中消息表示资产，地址表示对等点。",
     "peerAssetsP2": "基于PeerAsset协议的资产可以用于表示任何类型的资产，如债券或股票。PeerAssets还可以表示真实的对象，通过这样做可以确认它们在区块链上的存在。PeerAssets是一个轻量级协议，因为它没有在底层区块链上使用额外的层。除了用于支付交易费用的区块链本地货币之外，它不需要外部值令牌。PeerAssets不参与公共分类账的组织和维护，而是利用其稳定性和可信性。PeerAssets可以在所有由比特币派生的加密货币上工作，并保持兼容的代码库，包括Peercoin、Litecoin等。",
     "peerAssetsP3": "PeerAssets不需要主机网络的硬分支或软分支，但是它需要开发一个支持PeerAssets的客户机。PeerAssets也受到“彩色硬币”的原始思想的启发，使用OP_RETURN在区块链上写入数据，但是提供了一些优化来减少OP_RETURN中写入的数据量。PeerAssets可以方便地查询相关交易的区块链，并提供一些额外的功能，如股东投票和股息支付。",
-    "peerAssetsP4": "开始,  <a href=\"https://medium.com/@buckkets/basic-deck-creation-with-peerassets-tutorial-e416415b3cc8\">查看这个关于deck创建的基本教程。</a>",
+    "peerAssetsP4": "开始,  <a href=\"https://medium.com/@buckkets/basic-deck-creation-with-peerassets-tutorial-e416415b3cc8\" target=\"_blank\">查看这个关于deck创建的基本教程。</a>",
     "peerAssetsBtnGithub": "GitHub",
     "peerAssetsBtnWhitepaper": "白皮书",
     "perperaTitle": "Perpera",
@@ -268,7 +268,7 @@
       "text5": "运行 <code>daemon\\peercoind</code>",
       "text6": "你的钱包位置在 <code>C:\\Users\\{username}\\AppData</code> (隐藏文件).",
       "text7": "打开文档 <code>开始菜单 -> 运行...</code> (或者按<code>Winkey-R</code>)), 输入 <code>%APPDATA%\\PPCoin</code> 进入字段，并按Enter键。",
-      "text8": "额外的帮助可以在点点币中找到 <a href=\"https://docs.peercoin.net/\">文档</a> 或者通过问我们 <a href=\"https://talk.peercoin.net/\">论坛。</a>."
+      "text8": "额外的帮助可以在点点币中找到 <a href=\"https://docs.peercoin.net/\" target=\"_blank\">文档</a> 或者通过问我们 <a href=\"https://talk.peercoin.net/\" target=\"_blank\">论坛。</a>."
     },
     "sectionMac": {
       "title1": "macOS",
@@ -281,7 +281,7 @@
       "text6": "创建 <code className=\"green\">ppcoin.conf</code> 在 <code className=\"green\">~/Library/Application Support/PPCoin</code>",
       "text7": "运行 <code className=\"green\">peercoind</code>",
       "text8": "你的钱包在 <code>~/Library/Application Support/PPCoin</code>。打开文件夹，在Finder中按<code>Command-Shift-G</code>键，插入路径，然后回车。",
-      "text9": "额外的帮助可以在点点币中找到 <a href=\"https://docs.peercoin.net/\">文档</a> 或者通过问我们 <a href=\"https://talk.peercoin.net/\">论坛。</a>"
+      "text9": "额外的帮助可以在点点币中找到 <a href=\"https://docs.peercoin.net/\" target=\"_blank\">文档</a> 或者通过问我们 <a href=\"https://talk.peercoin.net/\" target=\"_blank\">论坛。</a>"
     },
     "sectionLinux": {
       "title1": "Linux",
@@ -291,7 +291,7 @@
       "text6": "创建 <code className=\"green\">peercoin.conf</code 在 <code className=\"green\">~/.peercoin</code>",
       "text7": "运行 <code className=\"green\">bin/32/peercoind</code>",
       "text8": "你的钱包在 <code>~/.peercoin</code>.",
-      "text9": "额外的帮助可以在点点币中找到 <a href=\"https://docs.peercoin.net/\">文档</a> 或者通过问我们  <a href=\"https://talk.peercoin.net/\">论坛。</a>"
+      "text9": "额外的帮助可以在点点币中找到 <a href=\"https://docs.peercoin.net/\" target=\"_blank\">文档</a> 或者通过问我们  <a href=\"https://talk.peercoin.net/\" target=\"_blank\">论坛。</a>"
     },
     "paperWalletTitle": "纸钱包",
     "paperWalletSubtitle1": "纸钱包",
@@ -333,12 +333,12 @@
     "getStartedTitle": "开始",
     "collapsables": {
       "learnTitle": "学习",
-      "learnText1": "有关项目的深入概览，<a href=\"https://university.peercoin.net/\">点点币大学</a> 是最好的起点。有关Peercoin的更多文章，请浏览我们的 <a href=\"https://medium.com/peercoin\">Medium Blog</a>.",
+      "learnText1": "有关项目的深入概览，<a href=\"https://university.peercoin.net/\" target=\"_blank\">点点币大学</a> 是最好的起点。有关Peercoin的更多文章，请浏览我们的 <a href=\"https://medium.com/peercoin\" target=\"_blank\">Medium Blog</a>.",
       "learnText2": "对于那些希望进行开发的人来说，PeerAssets是Peercoin针对令牌的第二层解决方案。更多的信息可以在我们的网站上找到 <a href=\"/projects\">项目</a> 页面",
-      "learnText3": " 可以找到丰富的技术信息在 <a href=\"https://docs.peercoin.net/\">Peercoin文档</a> 里。",
+      "learnText3": " 可以找到丰富的技术信息在 <a href=\"https://docs.peercoin.net/\" target=\"_blank\">Peercoin文档</a> 里。",
       "purchaseTitle": "购买",
       "purchaseText1": "点点币可以通过各种交流和服务获得。你可以 <a href=\"/resources#exchanges\">在这里查看列表</a>.",
-      "purchaseText2": "也有购买点点币的指南 <a href=\"https://docs.peercoin.net/#/purchase\">在这里</a>.",
+      "purchaseText2": "也有购买点点币的指南 <a href=\"https://docs.peercoin.net/#/purchase\" target=\"_blank\">在这里</a>.",
       "walletTitle": "钱包",
       "walletText1": "<a href=\"/wallet\">点点币钱包</a> 可以在 Windows, Mac OSX和 Linux平台上运营",
       "walletText2": "命令行体验也可用。",
@@ -346,13 +346,13 @@
       "mintTitle": "挖矿",
       "mintText1": "权益证明生成是一个有效的过程，涉众为网络生成新的块。这些块包含由网络用户发起的事务。minter的作用是处理这些事务块并为网络提供安全性。",
       "mintText2": "铸造是一个能源和成本效率高的过程，这使得涉众可以使用许多不同类型的设备参与其中。涉众只需安装他们支持的Peercoin版本，将PPC加载到他们的钱包中，并在他们偶尔被Peercoin的协议选中时持有PPC，就可以参与铸币。每个生成块都用新的PPC奖励参与者。",
-      "mintText3": "要了解如何进行挖矿，检查铸造部分在 <a href=\"https://docs.peercoin.net/#/wallets\">钱包的文档</a>. 可以找到关于铸造的更一般的信息 <a href=\"https://docs.peercoin.net/#/peercoin-minting-behaviour\">在这里</a>.",
+      "mintText3": "要了解如何进行挖矿，检查铸造部分在 <a href=\"https://docs.peercoin.net/#/wallets\" target=\"_blank\">钱包的文档</a>. 可以找到关于铸造的更一般的信息 <a href=\"https://docs.peercoin.net/#/peercoin-minting-behaviour\" target=\"_blank\">在这里</a>.",
       "mineTitle": "挖矿",
       "mineText1": "点点币使用hashcash双迭代SHA-256算法进行工作证明挖掘。这意味着任何可以开采比特币的硬件也可以开采点点币。",
-      "mineText2": "首先，请查看 <a href=\"https://docs.peercoin.net/#/mining\">挖掘文档</a>.",
+      "mineText2": "首先，请查看 <a href=\"https://docs.peercoin.net/#/mining\" target=\"_blank\">挖掘文档</a>.",
       "communityTitle": "社区",
-      "communityText1": "加入我们的 <a href=\"https://talk.peercoin.net/\">Forum</a>, <a href=\"https://discord.gg/XPxfwtG\">Discord</a>, 或 <a href=\"https://t.me/peercoin\">Telegram</a> 与其他点点币社区成员和开发人员聊天。订阅我们的 <a href=\"https://twitter.com/PeercoinPPC\">Twitter</a>, <a href=\"https://www.reddit.com/r/peercoin\">Reddit</a>, <a href=\"https://medium.com/peercoin\">Medium Blog</a>, 或 <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\">Newsletter</a> 了解最新的点点币新闻。检查 <a href=\"/resources#communities\">在这里</a>  获取所有其他社区资源的列表。",
-      "communityText2": "重要的更新也可以通过以下平台直接发送到您的移动设备 <a href=\"https://blockfolio.com/\">Blockfolio</a>, <a href=\"https://delta.app/\">Delta</a>, 和 <a href=\"https://www.coingecko.com/\">CoinGecko</a>. 订阅以了解最新消息。"
+      "communityText1": "加入我们的 <a href=\"https://talk.peercoin.net/\" target=\"_blank\">Forum</a>, <a href=\"https://discord.gg/XPxfwtG\" target=\"_blank\">Discord</a>, 或 <a href=\"https://t.me/peercoin\" target=\"_blank\">Telegram</a> 与其他点点币社区成员和开发人员聊天。订阅我们的 <a href=\"https://twitter.com/PeercoinPPC\" target=\"_blank\">Twitter</a>, <a href=\"https://www.reddit.com/r/peercoin\" target=\"_blank\">Reddit</a>, <a href=\"https://medium.com/peercoin\" target=\"_blank\">Medium Blog</a>, 或 <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\" target=\"_blank\">Newsletter</a> 了解最新的点点币新闻。检查 <a href=\"/resources#communities\">在这里</a>  获取所有其他社区资源的列表。",
+      "communityText2": "重要的更新也可以通过以下平台直接发送到您的移动设备 <a href=\"https://blockfolio.com/\" target=\"_blank\">Blockfolio</a>, <a href=\"https://delta.app/\" target=\"_blank\">Delta</a>, 和 <a href=\"https://www.coingecko.com/\" target=\"_blank\">CoinGecko</a>. 订阅以了解最新消息。"
     },
     "latestNewsTitle": "最新消息"
   },
