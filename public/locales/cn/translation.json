@@ -143,7 +143,7 @@
     "faqTitle": "常见问题",
     "faq": {
       "howOldQuestion": "点点币项目有多久了?",
-      "howOldAnswer": "点点币的链于2012年8月19日18:00开始。当时还没有预挖，项目上线前九天就宣布了。您可以在这里阅读原始的公告线程:https://bitcointalk.org/index.php?topic=101820.0",
+      "howOldAnswer": "点点币的链于2012年8月19日18:00开始。当时还没有预挖，项目上线前九天就宣布了。您可以在这里阅读原始的公告线程:<a href=\"https://bitcointalk.org/index.php?topic=101820.0\" target=\"_blank\">Bitcointalk</a>",
       "howCanIMineQuestion": "我怎样才能挖到点点币呢?",
       "howCanIMineAnswer": "点点币使用SHA256加密哈希函数。任何能够有效挖掘比特币的硬件都可以用来挖掘点点币。",
       "whyMintingQuestion": "为什么押注回报率为1% ?为什么点点币的总量没有硬性限制呢?这难道不是取消了点点币作为通货紧缩货币的资格吗?",

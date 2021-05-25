@@ -166,7 +166,7 @@
     "faqTitle": "Frequently Asked Questions",
     "faq": {
       "howOldQuestion": "How old is the Peercoin project?",
-      "howOldAnswer": "Peercoin's chain started on August 19th, 2012 at 18:00:00 UTC. There was no premine and the launch of the project was announced nine days before it went live. You can read the original announcement thread here: https://bitcointalk.org/index.php?topic=101820.0",
+      "howOldAnswer": "Peercoin's chain started on August 19th, 2012 at 18:00:00 UTC. There was no premine and the launch of the project was announced nine days before it went live. You can read the original announcement thread here: <a href=\"https://bitcointalk.org/index.php?topic=101820.0\" target=\"_blank\">Bitcointalk</a>",
       "howCanIMineQuestion": "How can I mine Peercoin?",
       "howCanIMineAnswer": "Peercoin uses the SHA256 cryptographic hash function. Any hardware that can effectively mine Bitcoin can be used to mine Peercoin.",
       "whyMintingQuestion": "Why a 1% minting return on staking? Why isn't there a hard limit on the total number of PPC? Doesn't this disqualify Peercoin as a deflationary currency?",
