@@ -243,7 +243,7 @@
     "brandIdentityFont": "El logo de texto de Peercoin usa la siguiente fuente:",
     "brandIdentityFontFont": "Font",
     "brandIdentityFontType": "Type",
-    "brandIdentityFontRoboto": "El sitio web y las carteras de Peercoin utilizan la fuente <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\">Roboto</a> para su contenido."
+    "brandIdentityFontRoboto": "El sitio web y las carteras de Peercoin utilizan la fuente <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\" rel=\"noopener noreferrer\">Roboto</a> para su contenido."
   },
   "walletPage": {
     "title": "Carteras",
@@ -292,10 +292,10 @@
       "text4": "Arquitecturas soportadas: amd64, arm64 and armhf.",
       "text5": "Paquetes soportados: peercoind peeroin-qt peercoin-tx",
       "title3": "Daemon",
-      "text6": "Crear <code className=\"green\">peercoin.conf</code> en <code className=\"green\">~/.peercoin</code>",
-      "text7": "Correr <code className=\"green\">bin/32/peercoind</code>",
-      "text8": "Su billetera se encuentra en <code>~/.peercoin</code>.",
-      "text9": "Ayuda adicional se puede encontrar en el <a href=\"https://docs.peercoin.net/\" target=\"_blank\">Peercoin Documentation</a> o preguntando por nuestro <a href=\"https://talk.peercoin.net/\" target=\"_blank\">Forums</a>."
+      "text13": "Crear <code className=\"green\">peercoin.conf</code> en <code className=\"green\">~/.peercoin</code>",
+      "text14": "Correr <code className=\"green\">bin/32/peercoind</code>",
+      "text15": "Su billetera se encuentra en <code>~/.peercoin</code>.",
+      "text16": "Ayuda adicional se puede encontrar en el <a href=\"https://docs.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Documentation</a> o preguntando por nuestro <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Forums</a>."
     },
     "paperWalletTitle": "Billetera de papel",
     "paperWalletSubtitle1": "Billetera de papel",

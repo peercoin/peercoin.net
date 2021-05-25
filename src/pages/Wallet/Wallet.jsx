@@ -14,6 +14,8 @@ function Wallet() {
   const [cs3, setCs3] = useState(false);
   const [officialWallets, setOfficialWallets] = useState([]);
   const [wallets, setOtherWallets] = useState([]);
+  const [installations, setInstallations] = useState([]);
+  const [filenames, setFilenames] = useState([]);
   
   useEffect(() => {
     fetch("/data/wallets.json")
@@ -21,6 +23,16 @@ function Wallet() {
       .then((jsonData) => {
         setOfficialWallets(jsonData["official"]);
         setOtherWallets(jsonData["other"]);
+
+        const _filenames = {};
+        jsonData["official"].forEach(wallet => _filenames[wallet.os] = wallet.link.split("/")[wallet.link.split("/").length - 1]);
+        setFilenames(_filenames);
+      });
+
+    fetch("/data/installations.json")
+      .then((res) => res.json())
+      .then((jsonData) => {
+        setInstallations(jsonData);
       });
   }, []);
 
@@ -44,13 +56,23 @@ function Wallet() {
     }
   }
 
-  function getFilename(os) {
-    if (officialWallets.length === 0) {
-      return "";
+  function getCollapseVar(index) {
+    switch (index) {
+      case 0:
+        return cs1;
+      case 1:
+        return cs2;
+      case 2:
+        return cs3;
+      default:
+        throw new Error("Could not resolve collapse var for value " + index)
     }
+  }
 
-    const osData = officialWallets.filter((item) => item.os === os)[0];
-    return osData.link.split("/")[osData.link.split("/").length - 1];
+  function translate(str, os) {
+    return renderHTML(t(str, {
+      file: filenames[os]
+    }));
   }
 
   return (
@@ -125,133 +147,47 @@ function Wallet() {
 
           <div className="timeline timeline--dark">
             <div className="timeline__body">
-              <Collapsible
-                onOpening={() => handleOpen(0)}
-                open={cs1}
-                trigger={
-                  <div className="timeline__body__section">
-                    {t("walletPage.walletWindows")}
-                  </div>
+
+                {
+                  installations.map((installation, index) => (
+                    <Collapsible onOpening={() => handleOpen(index)} open={getCollapseVar(index)} trigger={
+                        <div className="timeline__body__section">
+                          {t(installation.title)}
+                        </div>
+                      }
+                    >
+                      <div className="timeline__body__content">
+                        <div className="timeline__body__content__text">
+
+                          {
+                            installation.options.map(option => (
+                              <div>
+                                <h2>{t(option.title)}</h2>
+                                {
+                                  option.steps.map(step => {
+                                    if (step.type === "list") {
+                                      return <ul>
+                                        {step.items.map(item => (
+                                          <li>
+                                            {translate(item, installation.title)}
+                                          </li>
+                                        ))}
+                                      </ul>
+                                    } else if (step.type === "text") {
+                                      return <p>{renderHTML(t(step.text))}</p>
+                                    }
+                                    
+                                    throw new Error("Could not resolve option step for type " + step.type)
+                                  })
+                                }
+                              </div>
+                            ))
+                          }
+                        </div>
+                      </div>
+                    </Collapsible>
+                  ))
                 }
-              >
-                <div className="timeline__body__content">
-                  <div className="timeline__body__content__text">
-                    <h2>{t("walletPage.walletWindows")}</h2>
-                    <ul>
-                      <li>
-                        {renderHTML(
-                          t("walletPage.sectionWindows.text1", {
-                            file: getFilename("Windows"),
-                          })
-                        )}
-                      </li>
-                      <li>
-                        {renderHTML(t("walletPage.sectionWindows.text2"))}
-                      </li>
-                      <li>
-                        {renderHTML(t("walletPage.sectionWindows.text3"))}
-                      </li>
-                    </ul>
-                    <h2>{t("walletPage.sectionWindows.title2")}</h2>
-                    <ul>
-                      <li>
-                        {renderHTML(t("walletPage.sectionWindows.text4"))}
-                      </li>
-                      <li>
-                        {renderHTML(t("walletPage.sectionWindows.text5"))}
-                      </li>
-                      <li>
-                        {renderHTML(t("walletPage.sectionWindows.text6"))}
-                      </li>
-                      <li>
-                        {renderHTML(t("walletPage.sectionWindows.text7"))}
-                      </li>
-                    </ul>
-                    <p>{renderHTML(t("walletPage.sectionWindows.text8"))}</p>
-                  </div>
-                </div>
-              </Collapsible>
-              <Collapsible
-                onOpening={() => handleOpen(1)}
-                trigger={
-                  <div className="timeline__body__section">
-                    {t("walletPage.sectionMac.title1")}
-                  </div>
-                }
-                open={cs2}
-              >
-                <div className="timeline__body__content">
-                  <div className="timeline__body__content__text">
-                    <h2>{t("walletPage.sectionMac.title1")}</h2>
-                    <ul>
-                      <li>
-                        {renderHTML(
-                          t("walletPage.sectionMac.text1", {
-                            file: getFilename("macOS"),
-                          })
-                        )}
-                      </li>
-                      <li>{renderHTML(t("walletPage.sectionMac.text2"))}</li>
-                      <li>{renderHTML(t("walletPage.sectionMac.text3"))}</li>
-                      <li>{renderHTML(t("walletPage.sectionMac.text4"))}</li>
-                    </ul>
-                    <h2>{t("walletPage.sectionMac.title2")}</h2>
-                    <ul>
-                      <li>{renderHTML(t("walletPage.sectionMac.text5"))}</li>
-                      <li>{renderHTML(t("walletPage.sectionMac.text6"))}</li>
-                      <li>{renderHTML(t("walletPage.sectionMac.text7"))}</li>
-                    </ul>
-                    <p>{renderHTML(t("walletPage.sectionMac.text8"))}</p>
-                    <p>{renderHTML(t("walletPage.sectionMac.text9"))}</p>
-                  </div>
-                </div>
-              </Collapsible>
-              <Collapsible
-                onOpening={() => handleOpen(2)}
-                trigger={
-                  <div className="timeline__body__section">
-                    {t("walletPage.sectionLinux.title1")}
-                  </div>
-                }
-                open={cs3}
-              >
-                <div className="timeline__body__content">
-                  <div className="timeline__body__content__text">
-                    <h2>{t("walletPage.sectionLinux.title1")}</h2>
-                    <ul>
-                      <li>
-                        {renderHTML(
-                          t("walletPage.sectionLinux.text1", {
-                            file: getFilename("Linux"),
-                          })
-                        )}
-                      </li>
-                      <li>{renderHTML(t("walletPage.sectionLinux.text2"))}</li>
-                    </ul>
-                    <h2>{t("walletPage.sectionLinux.title2")}</h2>
-                    <p>{renderHTML(t("walletPage.sectionLinux.text3"))}</p>
-                    <p>{renderHTML(t("walletPage.sectionLinux.text4"))}</p>
-                    <p>
-                      <code>sudo apt-get update</code><br/>
-                      <code>sudo apt-get install apt-transport-https</code>
-                    </p>
-                    <p>
-                      <code>sudo sh -c "echo 'deb https://peercoin.github.io/deb-repo/ buster main' >> /etc/apt/sources.list.d/peercoin.list"</code><br/>
-                      <code>wget -O - https://peercoin.github.io/deb-repo/peercoin.apt.key | sudo apt-key add -</code><br/>
-                      <code>sudo apt-get update</code><br/>
-                      <code>sudo apt-get install peercoin-qt</code>
-                    </p>
-                    <p>{renderHTML(t("walletPage.sectionLinux.text5"))}</p>
-                    <h2>{t("walletPage.sectionLinux.title3")}</h2>
-                    <ul>
-                      <li>{renderHTML(t("walletPage.sectionLinux.text6"))}</li>
-                      <li>{renderHTML(t("walletPage.sectionLinux.text7"))}</li>
-                    </ul>
-                    <p>{renderHTML(t("walletPage.sectionLinux.text8"))}</p>
-                    <p>{renderHTML(t("walletPage.sectionLinux.text9"))}</p>
-                  </div>
-                </div>
-              </Collapsible>
             </div>
           </div>
         </div>
@@ -266,7 +202,7 @@ function Wallet() {
                 </h2>
                 <div className="blocks-list">
                   {type.wallets.map(wallet => (
-                    <a href={wallet.url} className="blocks-list__block">
+                    <a href={wallet.url} className="blocks-list__block" target="_blank">
                       <h4 className="blocks-list__block__title">
                         {wallet.title.translated ? t(wallet.title.text) : wallet.title.text}
                       </h4>

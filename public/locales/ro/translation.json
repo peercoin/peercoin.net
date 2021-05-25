@@ -318,10 +318,10 @@
       "text4": "Arhitectura acceptată: amd64, arm64 and armhf.",
       "text5": "Pachete disponibile: peercoind peercoin-qt peercoin-tx",
       "title3": "Daemon",
-      "text6": "Creați <code className=\"green\">peercoin.conf</code> in <code className=\"green\">~/.peercoin</code>",
-      "text7": "Rulați <code className=\"green\">bin/peercoind</code>",
-      "text8": "Portmoneul dvs e în <code>~/.peercoin</code>.",
-      "text9": "Ajutor suplimentar puteți găsit în <a href=\"https://docs.peercoin.net/\" target=\"_blank\">Peercoin Documentation</a> sau întrebând în <a href=\"https://talk.peercoin.net/\" target=\"_blank\">Forumuri</a>."
+      "text13": "Creați <code className=\"green\">peercoin.conf</code> in <code className=\"green\">~/.peercoin</code>",
+      "text14": "Rulați <code className=\"green\">bin/peercoind</code>",
+      "text15": "Portmoneul dvs e în <code>~/.peercoin</code>.",
+      "text16": "Ajutor suplimentar puteți găsit în <a href=\"https://docs.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Documentation</a> sau întrebând în <a href=\"https://talk.peercoin.net/\">Forumuri</a>."
     },
     "paperWalletTitle": "Portmoneu de Hârtie",
     "paperWalletSubtitle1": "Portmoneu de Hârtie",

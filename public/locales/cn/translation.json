@@ -243,7 +243,7 @@
     "brandIdentityFont": "点点币文字标识使用以下字体",
     "brandIdentityFontFont": "Font",
     "brandIdentityFontType": "Type",
-    "brandIdentityFontRoboto": "点点币网站和钱包使用<a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\">Roboto</a>字体显示内容。"
+    "brandIdentityFontRoboto": "点点币网站和钱包使用<a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\" rel=\"noopener noreferrer\">Roboto</a>字体显示内容。"
   },
   "walletPage": {
     "title": "钱包",
@@ -288,10 +288,10 @@
       "text1": "解压 <code className=\"green\">{{file}}</code>",
       "text2": "运行 <code className=\"green\">bin/32/peercoin-qt</code> (需要 libqt4-gui)",
       "title3": "Daemon",
-      "text6": "创建 <code className=\"green\">peercoin.conf</code 在 <code className=\"green\">~/.peercoin</code>",
-      "text7": "运行 <code className=\"green\">bin/32/peercoind</code>",
-      "text8": "你的钱包在 <code>~/.peercoin</code>.",
-      "text9": "额外的帮助可以在点点币中找到 <a href=\"https://docs.peercoin.net/\" target=\"_blank\">文档</a> 或者通过问我们  <a href=\"https://talk.peercoin.net/\" target=\"_blank\">论坛。</a>"
+      "text13": "创建 <code className=\"green\">peercoin.conf</code 在 <code className=\"green\">~/.peercoin</code>",
+      "text14": "运行 <code className=\"green\">bin/32/peercoind</code>",
+      "text15": "你的钱包在 <code>~/.peercoin</code>.",
+      "text16": "额外的帮助可以在点点币中找到 <a href=\"https://docs.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">文档</a> 或者通过问我们  <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">论坛。</a>"
     },
     "paperWalletTitle": "纸钱包",
     "paperWalletSubtitle1": "纸钱包",

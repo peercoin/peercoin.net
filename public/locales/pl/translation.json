@@ -316,10 +316,10 @@
         "text4": "Supported architectures: amd64, arm64 and armhf.",
         "text5": "Available packages: peercoind peercoin-qt peercoin-tx",
         "title3": "Daemon",
-        "text6": "Create <code className=\"green\">peercoin.conf</code> in <code className=\"green\">~/.peercoin</code>",
-        "text7": "Run <code className=\"green\">bin/peercoind</code>",
-        "text8": "Your wallet is located in <code>~/.peercoin</code>.",
-        "text9": "Dodatkową pomoc można znaleźć w <a href=\"https://docs.peercoin.net/\" target=\"_blank\"> Dokumentacji Peercoin </a> lub pytając na naszym <a href=\"https://talk.peercoin.net/\" target=\"_blank\"> Forum </a>."
+        "text13": "Create <code className=\"green\">peercoin.conf</code> in <code className=\"green\">~/.peercoin</code>",
+        "text14": "Run <code className=\"green\">bin/peercoind</code>",
+        "text15": "Your wallet is located in <code>~/.peercoin</code>.",
+        "text16": "Dodatkową pomoc można znaleźć w <a href=\"https://docs.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\"> Dokumentacji Peercoin </a> lub pytając na naszym <a href=\"https://talk.peercoin.net/\"> Forum </a>."
       },
       "paperWalletTitle": "Portfel papierowy",
       "paperWalletSubtitle1": "Portfel papierowy",
