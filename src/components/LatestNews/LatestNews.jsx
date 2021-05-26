@@ -23,7 +23,7 @@ function LatestNews() {
     <div className="latest-news">
       {posts.length > 0 && posts.map(post => (
         <div className="post">
-          <a href={post.link} key={Math.random()} target="_blank" rel="noopener noreferrer">
+          <a href={post.link} key={Math.random()}  target="_blank" rel="noopener noreferrer">
             <img src={post.img} alt={post.title} className="post__img" />
             <h3 className="post__title">{post.title}</h3>
           </a>
@@ -34,7 +34,7 @@ function LatestNews() {
           <div className="post__tag-container">
             {post.categories.map(category => (
               <div className="post__tag-container__tag">
-                <a href={"https://medium.com/peercoin/tagged/" + category}>{category}</a>
+                <a href={"https://medium.com/peercoin/tagged/" + category} target="_blank" rel="noopener noreferrer">{category}</a>
               </div>
             ))}
           </div>
