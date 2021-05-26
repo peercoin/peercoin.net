@@ -30,6 +30,7 @@ function Foundation() {
               <p>{t("foundationPage.missionStatementText1")}</p>
               <p>{t("foundationPage.missionStatementText2")}</p>
 
+              <div className="anchor" data-id="donate"></div>
               <h2 className="title title--green title--left">
                 {t("foundationPage.technicalSupportTitle")}
               </h2>

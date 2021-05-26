@@ -65,71 +65,6 @@ function Menu() {
               <Link to="/">{t("menuComponent.links.home.title")}</Link>
             </li>
             <li>
-              <span>{t("menuComponent.links.learn.title")}</span>
-              <img src="/img/icon-menu-arrow-down.svg" alt="" />
-              <ul className="menu__main__submenu">
-                <li>
-                  <a href="https://university.peercoin.net/" className="submenu" target="_blank" rel="noopener noreferrer">
-                    {t("menuComponent.links.learn.peercoinUniversity")}
-                  </a>
-                </li>
-                <li>
-                  <a href="https://university.peercoin.net/#/2-what-is-a-blockchain-" className="submenu" target="_blank" rel="noopener noreferrer">
-                    {t("menuComponent.links.learn.whatIsBlockchain")}
-                  </a>
-                </li>
-                <li>
-                  <a href="https://university.peercoin.net/#/6-inherent-centralization-of-proof-of-work-blockchains" className="submenu" target="_blank" rel="noopener noreferrer">
-                    {t("menuComponent.links.learn.inherentCentralization")}
-                  </a>
-                </li>
-                <li>
-                  <a href="https://university.peercoin.net/#/9-peercoin-proof-of-stake-consensus" className="submenu" target="_blank" rel="noopener noreferrer">
-                    {t("menuComponent.links.learn.peercoinProofOfStake")}
-                  </a>
-                </li>
-                <li>
-                  <a href="https://university.peercoin.net/#/10-efficient-sustainable-security" className="submenu" target="_blank" rel="noopener noreferrer">
-                    {t(
-                      "menuComponent.links.learn.efficientSustainableSecurity"
-                    )}
-                  </a>
-                </li>
-                <li>
-                  <a href="https://university.peercoin.net/#/11-economics-of-peercoin" className="submenu" target="_blank" rel="noopener noreferrer">
-                    {t("menuComponent.links.learn.economicsOfPeercoin")}
-                  </a>
-                </li>
-                <li>
-                  <a href="https://university.peercoin.net/#/12-scalability-of-peercoin" className="submenu" target="_blank" rel="noopener noreferrer">
-                    {t("menuComponent.links.learn.scalabilityOfPeercoin")}
-                  </a>
-                </li>
-                <li>
-                  <a href="https://medium.com/peercoin/deflation-and-cryptocurrencies-the-long-term-ramifications-of-fixed-supply-currencies-c192f44dddc1" className="submenu" target="_blank" rel="noopener noreferrer">
-                    {t(
-                      "menuComponent.links.learn.deflationAndCriptocurrencies"
-                    )}
-                  </a>
-                </li>
-                <li>
-                  <a href="https://medium.com/peercoin/peercoins-hybrid-chain-solution-to-proof-of-work-global-scaling-and-environmental-impact-c36757e89d6e" className="submenu" target="_blank" rel="noopener noreferrer">
-                    {t("menuComponent.links.learn.peercoinHybridChainSolution")}
-                  </a>
-                </li>
-                <li>
-                  <a href="https://medium.com/peercoin/the-rich-get-richer-concept-in-proof-of-stake-systems-82c5ceeff326" className="submenu" target="_blank" rel="noopener noreferrer">
-                    {t("menuComponent.links.learn.richRicherFallacy")}
-                  </a>
-                </li>
-                <li>
-                  <a href="https://docs.peercoin.net/#/frequently-asked-questions" className="submenu" target="_blank" rel="noopener noreferrer">
-                    {t("menuComponent.links.learn.frequentlyAskedQuestions")}
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li>
               <a href="/#getstarted">
                 {t("menuComponent.links.getStarted.title")}
               </a>
@@ -141,6 +76,18 @@ function Menu() {
               <img src="/img/icon-menu-arrow-down.svg" alt="" />
               <ul className="menu__main__submenu">
                 <li>
+                  <a href="https://www.youtube.com/watch?v=x8KAsime9EI&list=PLvd1OhApu6fULYdoGIDBxlNl9qglo2vJG" className="submenu" target="_blank" rel="noopener noreferrer">
+                    <img src="/img/icons/youtube_green.png" alt="" />
+                    Peercoin Primer
+                  </a>
+                </li>
+                <li>
+                  <a href="/resources#university" className="submenu">
+                    <img src="/img/icons/graduationcap.png" alt="" />
+                    {t("menuComponent.links.resources.peercoinUniversity")}
+                  </a>
+                </li>
+                <li>
                   <a href="https://docs.peercoin.net/" className="submenu" target="_blank" rel="noopener noreferrer">
                     <img src="/img/icons/docs_green.png" alt="" />
                     {t("menuComponent.links.resources.documentation")}
@@ -150,12 +97,6 @@ function Menu() {
                   <a href="/resources#mining" className="submenu">
                     <img src="/img/icons/pickaxe_green.png" alt="" />
                     {t("menuComponent.links.resources.mining")}
-                  </a>
-                </li>
-                <li>
-                  <a href="/resources#university" className="submenu">
-                    <img src="/img/icons/graduationcap.png" alt="" />
-                    {t("menuComponent.links.resources.peercoinUniversity")}
                   </a>
                 </li>
                 <li>
@@ -229,6 +170,11 @@ function Menu() {
             <li>
               <Link to="/wallet">
                 <span>{t("menuComponent.links.wallet.title")}</span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/foundation#donate">
+                <span>{t("menuComponent.links.donate.title")}</span>
               </Link>
             </li>
             <li>
