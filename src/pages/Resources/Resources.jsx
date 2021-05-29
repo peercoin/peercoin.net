@@ -60,34 +60,19 @@ function Resources() {
         <h1 className="hero__title">{t("resourcesPage.title")}</h1>
         <p className="hero__description">{t("resourcesPage.description")}</p>
         <div className="hero__actions">
-          <a
-            href="#exchanges"
-            className="hero__actions__action hero__actions__action--white"
-          >
+          <a href="#exchanges" className="hero__actions__action hero__actions__action--white">
             {t("resourcesPage.actions.action1")}
           </a>
-          <a
-            href="#blockexplorers"
-            className="hero__actions__action hero__actions__action--white"
-          >
+          <a href="#blockexplorers" className="hero__actions__action hero__actions__action--white">
             {t("resourcesPage.actions.action2")}
           </a>
-          <a
-            href="#communities"
-            className="hero__actions__action hero__actions__action--white"
-          >
+          <a href="#communities" className="hero__actions__action hero__actions__action--white">
             {t("resourcesPage.actions.action3")}
           </a>
-          <a
-            href="#whitepaper"
-            className="hero__actions__action hero__actions__action--white"
-          >
+          <a href="#whitepaper" className="hero__actions__action hero__actions__action--white">
             {t("resourcesPage.actions.action4")}
           </a>
-          <a
-            href="#graphics"
-            className="hero__actions__action hero__actions__action--white"
-          >
+          <a href="#graphics" className="hero__actions__action hero__actions__action--white">
             {t("resourcesPage.actions.action5")}
           </a>
         </div>
@@ -101,7 +86,7 @@ function Resources() {
                 {t("resourcesPage.contributeTitle")}
               </h2>
               <p>{t("resourcesPage.contributeText")}</p>
-              <a href="https://github.com/peercoin/" target="_blank" className="btn btn--green">
+              <a href="https://github.com/peercoin/" target="_blank" rel="noopener noreferrer" className="btn btn--green">
                 {t("resourcesPage.contributeBtn")}
               </a>
             </div>
@@ -110,7 +95,7 @@ function Resources() {
                 {t("resourcesPage.documentationTitle")}
               </h2>
               <p>{t("resourcesPage.documentationText")}</p>
-              <a href="https://docs.peercoin.net/" target="_blank" className="btn btn--green">
+              <a href="https://docs.peercoin.net/" target="_blank" rel="noopener noreferrer" className="btn btn--green">
                 {t("resourcesPage.documentationBtn")}
               </a>
             </div>
@@ -125,19 +110,19 @@ function Resources() {
               <p>{t("resourcesPage.miningText2")}</p>
               <ul>
                 <li>
-                  <a href="http://bfgminer.org/" target="_blank">BFGMiner</a>
+                  <a href="http://bfgminer.org/" target="_blank" rel="noopener noreferrer">BFGMiner</a>
                 </li>
                 <li>
-                  <a href="https://github.com/ckolivas/cgminer" target="_blank">CGMiner</a>
+                  <a href="https://github.com/ckolivas/cgminer" target="_blank" rel="noopener noreferrer">CGMiner</a>
                 </li>
                 <li>
-                  <a href="https://easyminer.net/" target="_blank">EasyMiner</a>
+                  <a href="https://easyminer.net/" target="_blank" rel="noopener noreferrer">EasyMiner</a>
                 </li>
               </ul>
-              <a href="https://docs.peercoin.net/#/mining" className="btn btn--green" target="_blank">
+              <a href="https://docs.peercoin.net/#/mining" className="btn btn--green" target="_blank" rel="noopener noreferrer">
                 {t("resourcesPage.miningBtn1")}
               </a>
-              <a href="https://www.coinwarz.com/calculators/peercoin-mining-calculator" className="btn btn--green" target="_blank">
+              <a href="https://www.coinwarz.com/calculators/peercoin-mining-calculator" className="btn btn--green" target="_blank" rel="noopener noreferrer">
                 {t("resourcesPage.miningBtn2")}
               </a>
             </div>
@@ -150,22 +135,22 @@ function Resources() {
               <p>{t("resourcesPage.universityText2")}</p>
               <ul>
                 <li>
-                  <a href="https://university.peercoin.net/#/2-what-is-a-blockchain-" target="_blank">
+                  <a href="https://university.peercoin.net/#/2-what-is-a-blockchain-" target="_blank" rel="noopener noreferrer">
                     {t("resourcesPage.universityLink1")}
                   </a>
                 </li>
                 <li>
-                  <a href="https://university.peercoin.net/#/6-inherent-centralization-of-proof-of-work-blockchains" target="_blank">
+                  <a href="https://university.peercoin.net/#/6-inherent-centralization-of-proof-of-work-blockchains" target="_blank" rel="noopener noreferrer">
                     {t("resourcesPage.universityLink2")}
                   </a>
                 </li>
                 <li>
-                  <a href="https://university.peercoin.net/#/9-peercoin-proof-of-stake-consensus" target="_blank">
+                  <a href="https://university.peercoin.net/#/9-peercoin-proof-of-stake-consensus" target="_blank" rel="noopener noreferrer">
                     {t("resourcesPage.universityLink3")}
                   </a>
                 </li>
               </ul>
-              <a href="https://university.peercoin.net/" className="btn btn--green" target="_blank">
+              <a href="https://university.peercoin.net/" className="btn btn--green" target="_blank" rel="noopener noreferrer">
                 {t("resourcesPage.universityBtn")}
               </a>
             </div>
@@ -181,7 +166,7 @@ function Resources() {
           {exchanges.description ? <p className="description">{t(exchanges.description)}</p> : null}
           <div className="blocks-list">
             {exchanges.resources && exchanges.resources.map(exchange => (
-              <a href={exchange.url} target="_blank" className="blocks-list__block">
+              <a href={exchange.url}  target="_blank" rel="noopener noreferrer" className="blocks-list__block">
                 <h4 className="blocks-list__block__title">{exchange.title}</h4>
                 <img
                   className="blocks-list__block__img"
@@ -210,7 +195,7 @@ function Resources() {
               </h3>
               <div className="blocks-list">
                 {category.resources.map(resource => (
-                  <a href={resource.url} target="_blank" className="blocks-list__block">
+                  <a href={resource.url}  target="_blank" rel="noopener noreferrer" className="blocks-list__block">
                     <h4 className="blocks-list__block__title">{resource.title}</h4>
                     <img className="blocks-list__block__img" src={resource.image} alt={resource.title} />
                   </a>
@@ -229,7 +214,7 @@ function Resources() {
           </h2>
           <div className="blocks-list">
             {tools.resources && tools.resources.map(tool => (
-              <a href={tool.url} target="_blank" rel="noopener noreferrer" className="blocks-list__block">
+              <a href={tool.url}  target="_blank" rel="noopener noreferrer" className="blocks-list__block">
                 <h4 className="blocks-list__block__title">
                   {t(tool.title)}
                 </h4>
@@ -248,7 +233,7 @@ function Resources() {
           </h2>
           <div className="blocks-list">
             {community.resources && community.resources.map(community => (
-              <a href={community.url} target="_blank" className="blocks-list__block">
+              <a href={community.url}  target="_blank" rel="noopener noreferrer" className="blocks-list__block">
                 <h4 className="blocks-list__block__title">{community.title}</h4>
                 <img className="blocks-list__block__img" src={community.image} alt={community.title} />
               </a>
@@ -265,7 +250,7 @@ function Resources() {
           </h2>
           <div className="blocks-list">
             {whitepaper.resources && whitepaper.resources.map(whitepaper => (
-              <a href={whitepaper.url} target="_blank" className="blocks-list__block">
+              <a href={whitepaper.url}  target="_blank" rel="noopener noreferrer" className="blocks-list__block">
                 <h4 className="blocks-list__block__title">
                   {t(whitepaper.title)}
                 </h4>
@@ -296,7 +281,7 @@ function Resources() {
                   <div className="blocks-list__block">
                     <img className="blocks-list__block__img" src={resource.image} alt="" />
                     {resource.files.map(file => (
-                      <a href={file.url} target="_blank">
+                      <a href={file.url}  target="_blank" rel="noopener noreferrer">
                         <span>{file.type}</span>
                       </a>
                     ))}

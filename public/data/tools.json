@@ -2,6 +2,11 @@
   "title": "resourcesPage.toolsTitle",
   "resources": [
     {
+      "title": "resourcesPage.toolsPresentation",
+      "url": "https://docs.google.com/presentation/d/1mWAFGIrTEeJTVas6XW4BSouBVhKWFYRK-n4x1_-m7eo/edit?usp=sharing",
+      "image": "/img/icons/whitepaper_green.png"
+    },
+    {
       "title": "resourcesPage.toolsCharts",
       "url": "https://www.peercoinexplorer.net/charts/",
       "image": "/img/icons/mint_green.png"

@@ -159,6 +159,7 @@ function Index() {
                   <div className="timeline__body__content__text">
                     <p>{renderHTML(t('indexPage.collapsables.purchaseText1'))}</p>
                     <p>{renderHTML(t('indexPage.collapsables.purchaseText2'))}</p>
+                    <p>{renderHTML(t('indexPage.collapsables.purchaseText3'))}</p>
                   </div>
                   <div className="timeline__body__content__img">
                     <img src="/img/icons/sidecard-purchasing.png" alt="" />
