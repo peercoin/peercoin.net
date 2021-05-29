@@ -96,7 +96,7 @@
   padding-bottom: 50px;
 
   @include viewports(up-to tiny) {
-    padding: 0 20px;
+    padding-top: 0;
   }
 
   &--thin {
