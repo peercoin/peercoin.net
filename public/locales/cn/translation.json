@@ -338,7 +338,7 @@
       "learnText3": " 可以找到丰富的技术信息在 <a href=\"https://docs.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin文档</a> 里。",
       "purchaseTitle": "购买",
       "purchaseText1": "点点币可以通过各种交流和服务获得。你可以 <a href=\"/resources#exchanges\">在这里查看列表</a>.",
-      "purchaseText2": "也有购买点点币的指南 <a href=\"https://docs.peercoin.net/#/purchase\" target=\"_blank\" rel=\"noopener noreferrer\">在这里</a>.",
+      "purchaseText3": "也有购买点点币的指南 <a href=\"https://docs.peercoin.net/#/purchase\" target=\"_blank\" rel=\"noopener noreferrer\">在这里</a>.",
       "walletTitle": "钱包",
       "walletText1": "<a href=\"/wallet\">点点币钱包</a> 可以在 Windows, Mac OSX和 Linux平台上运营",
       "walletText2": "命令行体验也可用。",

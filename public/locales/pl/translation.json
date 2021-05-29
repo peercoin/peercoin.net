@@ -373,7 +373,7 @@
         "learnText3": "Wiele informacji technicznych można znaleźć również w <a href=\"https://docs.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\"> Dokumentacji Peercoin </a>.",
         "purchaseTitle": "Zakup",
         "purchaseText1": "Peercoin jest dostępny za pośrednictwem różnych giełd i usług. Możesz <a href=\"/resources#exchanges\"> sprawdzić tutaj listę </a>.",
-        "purchaseText2": "Przewodnik dotyczący kupowania Peercoin jest również dostępny <a href=\"https://docs.peercoin.net/#/purchase\" target=\"_blank\" rel=\"noopener noreferrer\"> tutaj </a>.",
+        "purchaseText3": "Przewodnik dotyczący kupowania Peercoin jest również dostępny <a href=\"https://docs.peercoin.net/#/purchase\" target=\"_blank\" rel=\"noopener noreferrer\"> tutaj </a>.",
         "walletTitle": "Portfel",
         "walletText1": "<a href=\"/wallet\"> Portfel Peercoin </a> jest dostępny na platformach Windows, Mac OSX i Linux.",
         "walletText2": "Dostępne są również środowiska wiersza poleceń.",

@@ -338,7 +338,7 @@
       "learnText3": "보다 많은 기술 정보를 <a href=\"https://docs.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">피어코인 문서</a> 에서도 찾으실 수 있습니다.",
       "purchaseTitle": "구입",
       "purchaseText1": "피어코인은 다양한 거래소와 서비스를 지원합니다. <a href=\"/resources#exchanges\">여기에서 리스트를 확인하실 수 있습니다</a>.",
-      "purchaseText2": "<a href=\"https://docs.peercoin.net/#/purchase\" target=\"_blank\" rel=\"noopener noreferrer\">여기</a> 에서 피어코인을 구입하는 가이드도 확인하실 수 있습니다.",
+      "purchaseText3": "<a href=\"https://docs.peercoin.net/#/purchase\" target=\"_blank\" rel=\"noopener noreferrer\">여기</a> 에서 피어코인을 구입하는 가이드도 확인하실 수 있습니다.",
       "walletTitle": "지갑",
       "walletText1": "<a href=\"/wallet\">피어코인 지갑</a> 은 Windows와 Mac OSX, Linux 플랫폼을 지원합니다.",
       "walletText2": " 커맨드 라인 기반의 경험도 제공합니다.",

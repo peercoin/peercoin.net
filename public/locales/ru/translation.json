@@ -376,7 +376,7 @@
       "learnText3": "Больше технической информации можно найти в <a href=\"https://docs.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Документации Peercoin</a>.",
       "purchaseTitle": "Купить",
       "purchaseText1": "Peercoin доступен на многих биржах и сервисах. <a href=\"/resources#exchanges\">Посмотри здесь список</a>.",
-      "purchaseText2": "Для покупки Peercoin также доступен <a href=\"https://docs.peercoin.net/#/purchase\" target=\"_blank\" rel=\"noopener noreferrer\">гид</a>.",
+      "purchaseText3": "Для покупки Peercoin также доступен <a href=\"https://docs.peercoin.net/#/purchase\" target=\"_blank\" rel=\"noopener noreferrer\">гид</a>.",
       "walletTitle": "Кошелек",
       "walletText1": "<a href=\"/wallet\">Кошелек Peercoin</a> доступен на платформах Windows, Mac OSX și Linux.",
       "walletText2": "Также доступны возможности командной строки.",
