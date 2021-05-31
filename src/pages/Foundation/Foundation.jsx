@@ -2,13 +2,13 @@ import React, { Suspense } from "react";
 import { useTranslation, Trans } from "react-i18next";
 import "./Foundation.scss";
 import Menu from "../../components/Menu/Menu";
-import Address from "../../components/Address/Address";
+import Address from '../../components/Address/Address';
 import Footer from "../../components/Footer/Footer";
 import Loader from "../../components/Loader/Loader";
 
 function Foundation() {
   const { t } = useTranslation();
-
+  
   return (
     <>
       <Menu />
@@ -39,11 +39,7 @@ function Foundation() {
                 <Trans i18nKey="foundationPage.generalFundPpcAddress">
                   General Fund - <strong>PPC</strong> Donation Address:
                 </Trans>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://chainz.cryptoid.info/ppc/address.dws?p92W3t7YkKfQEPDb7cG9jQ6iMh7cpKLvwK.htm"
-                >
+                <a  target="_blank" rel="noopener noreferrer" href="https://chainz.cryptoid.info/ppc/address.dws?p92W3t7YkKfQEPDb7cG9jQ6iMh7cpKLvwK.htm">
                   {" "}
                   p92W3t7YkKfQEPDb7cG9jQ6iMh7cpKLvwK
                 </a>
@@ -51,11 +47,7 @@ function Foundation() {
                 <Trans i18nKey="foundationPage.generalFundBtcAddress">
                   General Fund - <strong>BTC</strong> Donation Address
                 </Trans>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.blockchain.com/btc/address/376NhxVL1LFBFndHNx9k7hvwvUzq6RZiPT"
-                >
+                <a  target="_blank" rel="noopener noreferrer" href="https://www.blockchain.com/btc/address/376NhxVL1LFBFndHNx9k7hvwvUzq6RZiPT">
                   {" "}
                   376NhxVL1LFBFndHNx9k7hvwvUzq6RZiPT
                 </a>
@@ -63,11 +55,7 @@ function Foundation() {
                 <Trans i18nKey="foundationPage.exchangeBtcAddress">
                   Exchange Listing Fund - <strong>BTC</strong> Donation Address:
                 </Trans>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.blockchain.com/btc/address/3NtJTUyXuH8KJj4BXJJxtQS7SPnLNm711C"
-                >
+                <a  target="_blank" rel="noopener noreferrer" href="https://www.blockchain.com/btc/address/3NtJTUyXuH8KJj4BXJJxtQS7SPnLNm711C">
                   {" "}
                   3NtJTUyXuH8KJj4BXJJxtQS7SPnLNm711C
                 </a>
@@ -76,11 +64,7 @@ function Foundation() {
                   Fiat Donations - <strong>USD/EUR</strong> by
                   Credit/Debit/Wire:
                 </Trans>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://opencollective.com/peercoin"
-                >
+                <a  target="_blank" rel="noopener noreferrer" href="https://opencollective.com/peercoin">
                   {" "}
                   opencollective.com/peercoin
                 </a>
