@@ -144,7 +144,7 @@
 
     "bountySubmissionHeader": "Bug Submission Rules:",
     "bountySubmissionPoint1": "Adhere to the Responsible Disclosure Policy (see above).",
-    "bountySubmissionPoint2": "If a participant has found a bug, please write a detailed report of the bug/vulnerability and email it to foundation@peercoin.net. The email should include both [Bug Bounty], followed by a short description of the bug/vulnerability in the title. Please allow three business days for a response.",
+    "bountySubmissionPoint2": "If a participant has found a bug, please write a detailed report of the bug/vulnerability and email it to the foundation email provided below. The email should include both [Bug Bounty], followed by a short description of the bug/vulnerability in the title. Please allow three business days for a response.",
     "bountySubmissionPoint3": "Known or previously submitted bugs are not eligible for rewards.",
     "bountySubmissionPoint4": "Members of the Peercoin Foundation are not eligible to receive bug bounty rewards.",
 
@@ -165,7 +165,10 @@
     "bountyGuidelinesPoint9": "Reproducibility: The easier a solution can be implemented, the higher the reward",
 
     "bountyScopeHeader": "Out of Scope:",
-    "bountyScopeIntro": "The Bug Bounty program only pertains to core protocol related issues. Website or social engineering related vulnerabilities are not eligible for a reward at this time."
+    "bountyScopeIntro": "The Bug Bounty program only pertains to core protocol related issues. Website or social engineering related vulnerabilities are not eligible for a reward at this time.",
+    "bountyContactHeader": "Contact Us:",
+    "bountyContactIntro": "To submit a bug report, contact the foundation below",
+    "bountyContactEmail": "<a href='mailto:foundation@peercoin.net'>foundation@peercoin.net</a>"
   },
   "contributePage": {
     "contributeTitle": "Contribute ",
