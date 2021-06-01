@@ -28,23 +28,29 @@ function Foundation() {
                                 {t("bountyPage.bountyDisclosureHeader")}
                             </h3>
                             <p>{t("bountyPage.bountyDisclosureIntro")}</p>
-                            <li className="list-item">{t("bountyPage.bountyDisclosurePoint1")}</li>
-                            <li className="list-item">{t("bountyPage.bountyDisclosurePoint2")}</li>
+                            <ul>
+                                <li className="list-item">{t("bountyPage.bountyDisclosurePoint1")}</li>
+                                <li className="list-item">{t("bountyPage.bountyDisclosurePoint2")}</li>
+                            </ul>
 
-                            <h3 className="title title--green title--left">
+                            <h2 className="title title--green title--left">
                                 {t("bountyPage.bountySubmissionHeader")}
-                            </h3>
-                            <li className="list-item">{t("bountyPage.bountySubmissionPoint1")}</li>
-                            <li className="list-item">{t("bountyPage.bountySubmissionPoint2")}</li>
-                            <li className="list-item">{t("bountyPage.bountySubmissionPoint3")}</li>
-                            <li className="list-item">{t("bountyPage.bountySubmissionPoint4")}</li>
+                            </h2>
+                            <ul>
+                                <li className="list-item">{t("bountyPage.bountySubmissionPoint1")}</li>
+                                <li className="list-item">{t("bountyPage.bountySubmissionPoint2")}</li>
+                                <li className="list-item">{t("bountyPage.bountySubmissionPoint3")}</li>
+                                <li className="list-item">{t("bountyPage.bountySubmissionPoint4")}</li>
+                            </ul>
 
-                            <h3 className="title title--green title--left">
+                            <h2 className="title title--green title--left">
                                 {t("bountyPage.bountyGuidelinesHeader")}
-                            </h3>
+                            </h2>
                             <p>{t("bountyPage.bountyGuidelinesIntro1")}</p>
-                            <li className="list-item">{t("bountyPage.bountyGuidelinesPoint1")}</li>
-                            <li className="list-item">{t("bountyPage.bountyGuidelinesPoint2")}</li>
+                            <ul>
+                                <li className="list-item">{t("bountyPage.bountyGuidelinesPoint1")}</li>
+                                <li className="list-item">{t("bountyPage.bountyGuidelinesPoint2")}</li>
+                            </ul>
 
                             <div className="bounty-image-parent">
                                 <img
@@ -55,24 +61,28 @@ function Foundation() {
                             </div>
 
                             <p>{t("bountyPage.bountyGuidelinesIntro2")}</p>
-                            <li className="list-item">{t("bountyPage.bountyGuidelinesPoint3")}</li>
-                            <li className="list-item">{t("bountyPage.bountyGuidelinesPoint4")}</li>
-                            <li className="list-item">{t("bountyPage.bountyGuidelinesPoint5")}</li>
-                            <li className="list-item">{t("bountyPage.bountyGuidelinesPoint6")}</li>
-                            <li className="list-item">{t("bountyPage.bountyGuidelinesPoint7")}</li>
+                            <ul>
+                                <li className="list-item">{t("bountyPage.bountyGuidelinesPoint3")}</li>
+                                <li className="list-item">{t("bountyPage.bountyGuidelinesPoint4")}</li>
+                                <li className="list-item">{t("bountyPage.bountyGuidelinesPoint5")}</li>
+                                <li className="list-item">{t("bountyPage.bountyGuidelinesPoint6")}</li>
+                                <li className="list-item">{t("bountyPage.bountyGuidelinesPoint7")}</li>
+                            </ul>
 
                             <p>{t("bountyPage.bountyGuidelinesIntro3")}</p>
-                            <li className="list-item">{t("bountyPage.bountyGuidelinesPoint8")}</li>
-                            <li className="list-item">{t("bountyPage.bountyGuidelinesPoint9")}</li>
+                            <ul>
+                                <li className="list-item">{t("bountyPage.bountyGuidelinesPoint8")}</li>
+                                <li className="list-item">{t("bountyPage.bountyGuidelinesPoint9")}</li>
+                            </ul>
 
-                            <h3 className="title title--green title--left">
+                            <h2 className="title title--green title--left">
                                 {t("bountyPage.bountyScopeHeader")}
-                            </h3>
+                            </h2>
                             <p>{t("bountyPage.bountyScopeIntro")}</p>
 
-                            <h3 className="title title--green title--left">
+                            <h2 className="title title--green title--left">
                                 {t("bountyPage.bountyContactHeader")}
-                            </h3>
+                            </h2>
                             <p>{t("bountyPage.bountyContactIntro")}</p>
                             <p>{renderHTML(t("bountyPage.bountyContactEmail"))}</p>
                         </div>
