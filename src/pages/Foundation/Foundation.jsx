@@ -37,7 +37,7 @@ function Foundation() {
               <p>{t("foundationPage.technicalSupportText")}</p>
               <p>
                 <Trans i18nKey="foundationPage.generalFundPpcAddress">
-                  General Fund - <strong>PPC</strong> Donation Address
+                  General Fund - <strong>PPC</strong> Donation Address:
                 </Trans>
                 <a
                   target="_blank"
