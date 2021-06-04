@@ -37,6 +37,7 @@
         "projects": "Projects",
         "blog": "Blog",
         "peercoinFoundation": "Peercoin Foundation",
+        "bounty": "Bug Bounty",
         "contactUs": "Contact Us",
         "contribute": "Contribute"
       },
@@ -132,6 +133,42 @@
     "openCollectiveNote": "Fiat Donations - <strong>USD/EUR</strong> by Credit/Debit/Wire:",
     "contactUsTitle": "Contact Us",
     "addressCountry": "The Netherlands"
+  },
+  "bountyPage": {
+    "bountyTitle": "Peercoin Bug Bounty Program",
+    "bountyDescription": "How You Can Help Make Peercoin Better",
+    "bountyDisclosureHeader": "Responsible Disclosure Policy",
+    "bountyDisclosureIntro": "Participants must comply with the following rules to qualify for a bug bounty reward.",
+    "bountyDisclosurePoint1": "Participants must give a reasonable amount of time for the Peercoin Team to investigate the reported issue before sharing or making the bug public knowledge.",
+    "bountyDisclosurePoint2": "Participants must not exploit a bug they discover for any reason.",
+
+    "bountySubmissionHeader": "Bug Submission Rules",
+    "bountySubmissionPoint1": "Adhere to the Responsible Disclosure Policy (see above).",
+    "bountySubmissionPoint2": "If a participant has found a bug, please write a detailed report of the bug/vulnerability and email it to the foundation email provided below. The email should include both [Bug Bounty], followed by a short description of the bug/vulnerability in the title. Please allow three business days for a response.",
+    "bountySubmissionPoint3": "Known or previously submitted bugs are not eligible for rewards.",
+    "bountySubmissionPoint4": "Members of the Peercoin Foundation are not eligible to receive bug bounty rewards.",
+
+    "bountyGuidelinesHeader": "Our Guidelines",
+    "bountyGuidelinesIntro1": "The Peercoin Team recognizes and appreciates the researchers that help maintain the integrity of the project.",
+    "bountyGuidelinesPoint1": "The Peercoin Team will investigate and respond to all valid and clearly submitted bug reports.",
+    "bountyGuidelinesPoint2": "Payout amounts are determined by a number of factors, including scope, impact, likelihood, etc… Ultimately it will be determined according to the Peercoin Team’s judgement, following the OWASP risk rating model.",
+
+    "bountyGuidelinesIntro2": "Reward sizes are estimated by the guidelines, but the Peercoin Team will have the sole and final discretion for payouts.",
+    "bountyGuidelinesPoint3": "Critical: Money amount here",
+    "bountyGuidelinesPoint4": "High: Money amount here",
+    "bountyGuidelinesPoint5": "Medium: Money amount here",
+    "bountyGuidelinesPoint6": "Low: Money amount here",
+    "bountyGuidelinesPoint7": "Minimum Payout: Money amount here",
+
+    "bountyGuidelinesIntro3": "In addition, other variables may be considered:",
+    "bountyGuidelinesPoint8": "Description: Well-written, clear submissions will always have a higher reward.",
+    "bountyGuidelinesPoint9": "Reproducibility: The easier a solution can be implemented, the higher the reward",
+
+    "bountyScopeHeader": "Out of Scope",
+    "bountyScopeIntro": "The Bug Bounty program only pertains to core protocol related issues. Website or social engineering related vulnerabilities are not eligible for a reward at this time.",
+    "bountyContactHeader": "Contact Us",
+    "bountyContactIntro": "To submit a bug report, contact the foundation below",
+    "bountyContactEmail": "<a href='mailto:foundation@peercoin.net'>foundation@peercoin.net</a>"
   },
   "contributePage": {
     "contributeTitle": "Contribute ",

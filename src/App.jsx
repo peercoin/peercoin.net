@@ -5,6 +5,7 @@ import Index from "./pages/Index/Index.jsx";
 import Resources from "./pages/Resources/Resources.jsx";
 import Projects from "./pages/Projects/Projects";
 import Foundation from "./pages/Foundation/Foundation";
+import Bounty from "./pages/Bounty/Bounty";
 import Contact from "./pages/Contact/Contact";
 import Wallet from "./pages/Wallet/Wallet";
 import ScrollTop from "./components/ScrollTop/ScrollTop";
@@ -28,6 +29,7 @@ function App() {
           <Route path="/projects" component={Projects} />
           <Route path="/privacy" component={Privacy} />
           <Route path="/foundation" component={Foundation} />
+          <Route path="/bounty" component={Bounty} />
           <Route path="/wallet" component={Wallet} />
           <Route path="/contact" component={Contact} />
           <Route path="/contribute" component={Contribute} />

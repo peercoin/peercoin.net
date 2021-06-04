@@ -154,6 +154,12 @@ function Menu() {
                   </Link>
                 </li>
                 <li>
+                  <Link to="/bounty" className="submenu">
+                    <img src="/img/icons/bounty_green.png" alt="" />
+                    {t("menuComponent.links.project.bounty")}
+                  </Link>
+                </li>
+                <li>
                   <Link to="/contribute" className="submenu">
                     <img src="/img/icons/pickaxe_green.png" alt="" />
                     {t("menuComponent.links.project.contribute")}
