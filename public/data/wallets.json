@@ -4,19 +4,19 @@
     {
       "os": "Windows",
       "img": "/img/icons/windows.png",
-      "checksum": "9a46c4507729b7c619f0eb2ce1448d30facde8b532fac5f434ceb0ddafe9ee75",
+      "checksum": "f19f6dff98e479ad3419e405b1dee7b6d891a55a9bb862a63b3376bacd4ef140",
       "link": "https://github.com/peercoin/peercoin/releases/download/v0.10.3ppc/peercoin-0.10.3-win64-setup-unsigned.exe"
     },
     {
       "os": "macOS",
       "img": "/img/icons/apple.png",
-      "checksum": "8d6fe6217027b56e7006aed7d273e5b08f393c28e32db21529abbbfd81afd673",
+      "checksum": "bfd551225f9e45af2cda8fe119e833a4ea1bec5ef23e0cfec6ffed91c1ab84a1",
       "link": "https://github.com/peercoin/peercoin/releases/download/v0.10.3ppc/peercoin-0.10.3-osx-unsigned.dmg"
     },
     {
       "os": "Linux",
       "img": "/img/icons/linux.png",
-      "checksum": "658adb0c0721f3eefac88755b1321884d5ae63a8b7e5a580386d2282ae1986a9",
+      "checksum": "578df82813106b98a8c250de5335064a7b866ed24cf2518faede604faea5fb77",
       "link": "https://github.com/peercoin/peercoin/releases/download/v0.10.3ppc/peercoin-0.10.3-x86_64-linux-gnu.tar.gz"
     }
   ],
