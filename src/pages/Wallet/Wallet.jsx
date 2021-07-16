@@ -16,7 +16,7 @@ function Wallet() {
   const [wallets, setOtherWallets] = useState([]);
   const [installations, setInstallations] = useState([]);
   const [filenames, setFilenames] = useState([]);
-  
+
   useEffect(() => {
     fetch("/data/wallets.json")
       .then((res) => res.json())
@@ -25,7 +25,11 @@ function Wallet() {
         setOtherWallets(jsonData["other"]);
 
         const _filenames = {};
-        jsonData["official"].forEach(wallet => _filenames[wallet.os] = wallet.link.split("/")[wallet.link.split("/").length - 1]);
+        jsonData["official"].forEach(
+          (wallet) =>
+            (_filenames[wallet.os] =
+              wallet.link.split("/")[wallet.link.split("/").length - 1])
+        );
         setFilenames(_filenames);
       });
 
@@ -65,14 +69,16 @@ function Wallet() {
       case 2:
         return cs3;
       default:
-        throw new Error("Could not resolve collapse var for value " + index)
+        throw new Error("Could not resolve collapse var for value " + index);
     }
   }
 
   function translate(str, os) {
-    return renderHTML(t(str, {
-      file: filenames[os]
-    }));
+    return renderHTML(
+      t(str, {
+        file: filenames[os],
+      })
+    );
   }
 
   return (
@@ -82,13 +88,28 @@ function Wallet() {
         <h1 className="hero__title">{t("walletPage.title")}</h1>
         <p className="hero__description">{t("walletPage.description")}</p>
         <div className="hero__actions">
-          <a href="#install" className="hero__actions__action hero__actions__action--white">
+          <a
+            href="#install"
+            className="hero__actions__action hero__actions__action--white"
+          >
             {t("walletPage.actions.action1")}
           </a>
-          <a href="#paperwallet" className="hero__actions__action hero__actions__action--white">
+          <a
+            href="#mobilewallet"
+            className="hero__actions__action hero__actions__action--white"
+          >
+            {t("walletPage.actions.action4")}
+          </a>
+          <a
+            href="#paperwallet"
+            className="hero__actions__action hero__actions__action--white"
+          >
             {t("walletPage.actions.action2")}
           </a>
-          <a href="#unofficialclients" className="hero__actions__action hero__actions__action--white">
+          <a
+            href="#unofficialclients"
+            className="hero__actions__action hero__actions__action--white"
+          >
             {t("walletPage.actions.action3")}
           </a>
         </div>
@@ -102,7 +123,11 @@ function Wallet() {
               {officialWallets.length > 0 &&
                 officialWallets.map((item) => (
                   <div className="desktop-downloads__items__item">
-                    <a href={item.link}  target="_blank" rel="noopener noreferrer">
+                    <a
+                      href={item.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <div className="desktop-downloads__items__item__title">
                         {item.os}
                       </div>
@@ -134,76 +159,89 @@ function Wallet() {
 
           <div className="timeline timeline--dark">
             <div className="timeline__body">
+              {installations.map((installation, index) => (
+                <Collapsible
+                  onOpening={() => handleOpen(index)}
+                  open={getCollapseVar(index)}
+                  trigger={
+                    <div className="timeline__body__section">
+                      {t(installation.title)}
+                    </div>
+                  }
+                >
+                  <div className="timeline__body__content">
+                    <div className="timeline__body__content__text">
+                      {installation.options.map((option) => (
+                        <div>
+                          <h2>{t(option.title)}</h2>
+                          {option.steps.map((step) => {
+                            if (step.type === "list") {
+                              return (
+                                <ul>
+                                  {step.items.map((item) => (
+                                    <li>
+                                      {translate(item, installation.title)}
+                                    </li>
+                                  ))}
+                                </ul>
+                              );
+                            } else if (step.type === "text") {
+                              return <p>{renderHTML(t(step.text))}</p>;
+                            }
 
-                {
-                  installations.map((installation, index) => (
-                    <Collapsible onOpening={() => handleOpen(index)} open={getCollapseVar(index)} trigger={
-                        <div className="timeline__body__section">
-                          {t(installation.title)}
+                            throw new Error(
+                              "Could not resolve option step for type " +
+                                step.type
+                            );
+                          })}
                         </div>
-                      }
-                    >
-                      <div className="timeline__body__content">
-                        <div className="timeline__body__content__text">
-
-                          {
-                            installation.options.map(option => (
-                              <div>
-                                <h2>{t(option.title)}</h2>
-                                {
-                                  option.steps.map(step => {
-                                    if (step.type === "list") {
-                                      return <ul>
-                                        {step.items.map(item => (
-                                          <li>
-                                            {translate(item, installation.title)}
-                                          </li>
-                                        ))}
-                                      </ul>
-                                    } else if (step.type === "text") {
-                                      return <p>{renderHTML(t(step.text))}</p>
-                                    }
-                                    
-                                    throw new Error("Could not resolve option step for type " + step.type)
-                                  })
-                                }
-                              </div>
-                            ))
-                          }
-                        </div>
-                      </div>
-                    </Collapsible>
-                  ))
-                }
+                      ))}
+                    </div>
+                  </div>
+                </Collapsible>
+              ))}
             </div>
           </div>
         </div>
       </div>
       <div className="main">
         <div className="container">
-          {
-            wallets.length > 0 && wallets.map(type => (
+          {wallets.length > 0 &&
+            wallets.map((type) => (
               <div className="blocks-list-container">
                 <h2 className="title title--green" data-id={type.key}>
                   {t(type.title)}
                 </h2>
                 <div className="blocks-list">
-                  {type.wallets.map(wallet => (
-                    <a href={wallet.url} className="blocks-list__block" target="_blank" rel="noopener noreferrer">
+                  {type.wallets.map((wallet) => (
+                    <a
+                      href={wallet.url}
+                      className="blocks-list__block"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <h4 className="blocks-list__block__title">
-                        {wallet.title.translated ? t(wallet.title.text) : wallet.title.text}
+                        {wallet.title.translated
+                          ? t(wallet.title.text)
+                          : wallet.title.text}
                       </h4>
-                      <img className="blocks-list__block__img" src={wallet.image} alt="" />
+                      <img
+                        className="blocks-list__block__img"
+                        src={wallet.image}
+                        alt=""
+                      />
                       {wallet.subtitle ? (
                         <div className="blocks-list__block__type mt-1">
-                          {wallet.subtitle && wallet.subtitle.translated ? t(wallet.subtitle.text) : wallet.subtitle.text}
+                          {wallet.subtitle && wallet.subtitle.translated
+                            ? t(wallet.subtitle.text)
+                            : wallet.subtitle.text}
                         </div>
                       ) : null}
                     </a>
-                ))}
+                  ))}
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
         </div>
       </div>
       <Footer />

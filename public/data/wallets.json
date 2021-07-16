@@ -22,6 +22,30 @@
   ],
   "other": [
     {
+      "key": "mobilewallet",
+      "title": "walletPage.mobileWalletTitle",
+      "wallets": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.coinerella.peercoin",
+          "image": "/img/wallets/android.png",
+          "title": {
+            "translated": false,
+            "text": "Android"
+          },
+          "subtitle": null
+        },
+        {
+          "url": "https://apps.apple.com/us/app/peercoin-wallet/id1571755170",
+          "image": "/img/wallets/ios.png",
+          "title": {
+            "translated": false,
+            "text": "iOS"
+          },
+          "subtitle": null
+        }
+      ]
+    },
+    {
       "key": "paperwallet",
       "title": "walletPage.paperWalletTitle",
       "wallets": [
