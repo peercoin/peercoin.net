@@ -1,6 +1,26 @@
 @import "../../style/_variables";
 @import "../../style/_viewports";
 
+.Index {
+  &.hero {
+    .hero__logo, .hero__actions {
+      @include viewports(large) {
+        width: 25%;
+      }
+      @include viewports(medium) {
+        width: 50%;
+      }
+      @include viewports(small) {
+        width: 75%;
+      }
+    }
+
+    .hero__logo {
+      padding-bottom: 2.5%;
+    }
+  }
+}
+
 .home-youtube {
   display: flex;
   flex-direction: column;
@@ -74,8 +94,11 @@
   width: 100%;
   min-height: 100vh;
   background: $color-green;
-  padding-top: 150px;
   padding-bottom: 50px;
+
+  @include viewports(above small) {
+    padding-top: 150px;
+  }
 
   @include viewports(up-to tiny) {
     padding: 0 20px;
@@ -129,7 +152,6 @@
     }
 
     @include viewports(up-to small) {
-      flex-wrap: wrap;
       justify-content: center;
     }
 
@@ -137,12 +159,13 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 202px;
+      width: 50%;
       height: 52px;
       border-radius: 100px;
       border: 2px solid #fff;
       color: #fff;
       text-decoration: none;
+      white-space: nowrap;
       transition: all 0.5s cubic-bezier(.02,.7,.4,1);
 
       @include viewports(up-to small) {
