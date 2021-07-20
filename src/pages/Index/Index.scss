@@ -8,9 +8,12 @@
         width: 25%;
       }
       @include viewports(medium) {
-        width: 50%;
+        width: 45%;
       }
       @include viewports(small) {
+        width: 60%;
+      }
+      @include viewports(tiny) {
         width: 75%;
       }
     }
@@ -147,10 +150,6 @@
     display: flex;
     margin-top: 35px;
 
-    @include viewports(up-to tiny) {
-      flex-direction: column;
-    }
-
     @include viewports(up-to small) {
       justify-content: center;
     }
@@ -168,14 +167,6 @@
       white-space: nowrap;
       transition: all 0.5s cubic-bezier(.02,.7,.4,1);
 
-      @include viewports(up-to small) {
-        margin: 10px 0;
-      }
-
-      @include viewports(up-to tiny) {
-        margin: 0;
-      }
-
       &:hover {
         transform: translate3d(0, -4px, 0);
       }
@@ -187,11 +178,6 @@
 
       + a {
         margin-left: 20px;
-
-        @include viewports(up-to tiny) {
-          margin-left: 0;
-          margin-top: 20px;
-        }
       }
     }
   }
