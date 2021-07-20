@@ -101,12 +101,9 @@
     padding: 150px 0;
   }
 
-  @include viewports(above tiny) {
-    min-height: 100vh;
-  }
-
   @include viewports(up-to small) {
     padding: 50px 0;
+    min-height: 100vh;
   }
 
   @include viewports(up-to tiny) {
