@@ -76,11 +76,19 @@
   background: $color-green;
   padding-top: 150px;
   padding-bottom: 50px;
-
+  
   @include viewports(up-to tiny) {
     padding: 0 20px;
   }
-
+    
+  @media not all and (min-resolution:.001dpcm) { 
+    @supports (-webkit-appearance:none) {
+      @include viewports(up-to tiny) {
+        min-height: -webkit-fill-available;
+      }
+    }
+  }
+  
   &--thin {
     min-height: 0;
     padding-top: 110px;
