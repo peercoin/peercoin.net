@@ -177,6 +177,14 @@
       text-decoration: none;
       white-space: nowrap;
       transition: all 0.5s cubic-bezier(.02,.7,.4,1);
+      
+      @include viewports(tiny) {
+        font-size: 75%;
+      }
+            
+      @include viewports(medium) {
+        font-size: 80%;
+      }
 
       &:hover {
         transform: translate3d(0, -4px, 0);
