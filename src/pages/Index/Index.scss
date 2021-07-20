@@ -1,24 +1,6 @@
 @import "../../style/_variables";
 @import "../../style/_viewports";
 
-.Index {
-  &.hero {
-    .hero__title {
-      @include viewports(up-to tiny) {
-        margin: 50px 0 10px;
-        width: 100vw;
-        font-size: 28px;
-      }
-    }
-
-    .hero__description {
-      @include viewports(up-to tiny) {
-        margin-top: 0;
-      }
-    }
-  }
-}
-
 .home-youtube {
   display: flex;
   flex-direction: column;

@@ -53,11 +53,7 @@ function Index() {
     <>
     <Menu />
     <div className="Index hero">
-      <img src="/img/logo-white.svg" alt="Peercoin Logo" width="220" />
-      <h1 className="hero__title">{t('indexPage.title')}</h1>
-      <p className="hero__description">
-      {t('indexPage.description')}
-      </p>
+      <img src="/img/logos/peercoin-vertical-whiteleaf-whitetext-transparent_slogan.svg" alt="Peercoin Logo" width="220" />
       <div className="hero__actions">
         <a href="/#getstarted" className="hero__actions__action">{t('indexPage.actions.action1')}</a>
         <a href="https://university.peercoin.net/#/9-peercoin-proof-of-stake-consensus" className="hero__actions__action hero__actions__action--white">{t('indexPage.actions.action2')}</a>
