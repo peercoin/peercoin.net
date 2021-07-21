@@ -180,12 +180,11 @@
       }
 
       @include viewports(up-to small) {
-        width: 100%;
+        width: 75%;
         margin-top: 10px;
-      }
-      
-      @include viewports(tiny) {
-        font-size: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.5rem;
       }
             
       @include viewports(medium) {
