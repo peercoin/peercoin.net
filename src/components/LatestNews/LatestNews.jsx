@@ -8,11 +8,22 @@ function LatestNews() {
 
   useEffect(() => {
     async function getData() {
-      const posts = (
+      const peercoinPosts = (
         await fetch(
           "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/peercoin"
         ).then((res) => res.json())
-      ).items
+      );
+      
+      // Temporary hack to insert Quantum Economics Report in our news feed.
+      const quantumEconomicsReport = [(
+        await fetch (
+          "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/quantum-economics/tagged/peercoin"
+          ).then((res) => res.json())
+      ).items[0]];
+      quantumEconomicsReport[0].title = quantumEconomicsReport[0].title === "Peercoin" ? "Quantum Economics Report" : quantumEconomicsReport[0].title;
+
+      const posts = peercoinPosts.items.concat(quantumEconomicsReport)
+        .sort((a,b) => new Date(b.pubDate) - new Date(a.pubDate))
         .filter((post) => post.categories.length > 0)
         .map((post) => ({
           published: post.pubDate,
@@ -22,6 +33,7 @@ function LatestNews() {
           categories: post.categories,
         }))
         .slice(0, 3);
+
       await setPosts(posts);
     }
 
