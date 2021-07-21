@@ -127,6 +127,7 @@
       cursor: pointer;
       position: relative;
       padding: 20px;
+      white-space: nowrap;
 
       @include viewports(up-to small) {
         flex-direction: column;
