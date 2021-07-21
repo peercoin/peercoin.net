@@ -96,7 +96,6 @@
   align-items: center;
   width: 100%;
   background: $color-green;
-  min-height: 100vh;
 
   @include viewports(above small) {
     padding: 150px 0;
@@ -104,6 +103,7 @@
 
   @include viewports(up-to small) {
     padding: 50px 0;
+    min-height: 100vh;
   }
     
   @media not all and (min-resolution:.001dpcm) { 
