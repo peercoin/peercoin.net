@@ -19,7 +19,7 @@
     }
 
     .hero__logo {
-      padding-bottom: 2.5%;
+      //padding-bottom: 2.5%;
     }
   }
 }
@@ -98,7 +98,7 @@
   background: $color-green;
 
   @include viewports(above small) {
-    padding: 150px 0;
+    padding: 225px 0 150px 0;
   }
 
   @include viewports(up-to small) {
@@ -109,7 +109,7 @@
   @media not all and (min-resolution:.001dpcm) { 
     @supports (-webkit-appearance:none) {
       @include viewports(up-to tiny) {
-        min-height: -webkit-fill-available;
+        min-height: 87vh;
       }
     }
   }
@@ -155,7 +155,7 @@
 
   &__actions {
     display: flex;
-    margin-top: 35px;
+    margin-top: 10px;
 
     @include viewports(up-to small) {
       justify-content: center;
