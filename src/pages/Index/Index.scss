@@ -1,6 +1,25 @@
 @import "../../style/_variables";
 @import "../../style/_viewports";
 
+.Index {
+  &.hero {
+    .hero__logo, .hero__actions {
+      @include viewports(large) {
+        width: 30rem;
+      }
+      @include viewports(medium) {
+        width: 25rem;
+      }
+      @include viewports(small) {
+        width: 55%;
+      }
+      @include viewports(tiny) {
+        width: 75%;
+      }
+    }
+  }
+}
+
 .home-youtube {
   display: flex;
   flex-direction: column;
@@ -72,19 +91,21 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  min-height: 100vh;
   background: $color-green;
-  padding-top: 150px;
-  padding-bottom: 50px;
-  
-  @include viewports(up-to tiny) {
-    padding: 0 20px;
+
+  @include viewports(above small) {
+    padding: 225px 0 150px 0;
+  }
+
+  @include viewports(up-to small) {
+    padding: 50px 0;
+    min-height: 100vh;
   }
     
   @media not all and (min-resolution:.001dpcm) { 
     @supports (-webkit-appearance:none) {
       @include viewports(up-to tiny) {
-        min-height: -webkit-fill-available;
+        min-height: 87vh;
       }
     }
   }
@@ -98,7 +119,6 @@
   > img {
     @include viewports(up-to tiny) {
       width: 70%;
-      margin-top: 100px;
     }
   }
 
@@ -129,15 +149,13 @@
   }
 
   &__actions {
-    display: flex;
-    margin-top: 35px;
-
-    @include viewports(up-to tiny) {
-      flex-direction: column;
+    @include viewports(above small) {
+      display: flex;
     }
 
+    margin-top: 10px;
+
     @include viewports(up-to small) {
-      flex-wrap: wrap;
       justify-content: center;
     }
 
@@ -145,20 +163,32 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 202px;
       height: 52px;
       border-radius: 100px;
       border: 2px solid #fff;
       color: #fff;
       text-decoration: none;
+      white-space: nowrap;
       transition: all 0.5s cubic-bezier(.02,.7,.4,1);
 
-      @include viewports(up-to small) {
-        margin: 10px 0;
+      @include viewports(above small) {
+        width: 50%;
+
+        + a {
+          margin-left: 10px;
+        }
       }
 
-      @include viewports(up-to tiny) {
-        margin: 0;
+      @include viewports(up-to small) {
+        width: 75%;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.5rem;
+      }
+            
+      @include viewports(medium) {
+        font-size: 80%;
       }
 
       &:hover {
@@ -168,15 +198,6 @@
       &--white {
         background: #fff;
         color: $color-green;
-      }
-
-      + a {
-        margin-left: 20px;
-
-        @include viewports(up-to tiny) {
-          margin-left: 0;
-          margin-top: 20px;
-        }
       }
     }
   }
