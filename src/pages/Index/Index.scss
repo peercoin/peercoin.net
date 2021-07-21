@@ -17,10 +17,6 @@
         width: 75%;
       }
     }
-
-    .hero__logo {
-      //padding-bottom: 2.5%;
-    }
   }
 }
 
@@ -123,7 +119,6 @@
   > img {
     @include viewports(up-to tiny) {
       width: 70%;
-      margin-top: 100px;
     }
   }
 
@@ -154,7 +149,10 @@
   }
 
   &__actions {
-    display: flex;
+    @include viewports(above small) {
+      display: flex;
+    }
+
     margin-top: 10px;
 
     @include viewports(up-to small) {
@@ -165,7 +163,6 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 50%;
       height: 52px;
       border-radius: 100px;
       border: 2px solid #fff;
@@ -173,6 +170,19 @@
       text-decoration: none;
       white-space: nowrap;
       transition: all 0.5s cubic-bezier(.02,.7,.4,1);
+
+      @include viewports(above small) {
+        width: 50%;
+
+        + a {
+          margin-left: 10px;
+        }
+      }
+
+      @include viewports(up-to small) {
+        width: 100%;
+        margin-top: 10px;
+      }
       
       @include viewports(tiny) {
         font-size: 75%;
@@ -189,10 +199,6 @@
       &--white {
         background: #fff;
         color: $color-green;
-      }
-
-      + a {
-        margin-left: 10px;
       }
     }
   }
