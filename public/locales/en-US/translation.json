@@ -335,7 +335,7 @@
       "text15": "Your wallet is located in <code>~/.peercoin</code>.",
       "text16": "Additional help can be found in the <a href=\"https://docs.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Documentation</a> or by asking on our <a href=\"https://talk.peercoin.net/\">Forums</a>."
     },
-    "mobileWalletTitle": "Official Mobile Wallet",
+    "mobileWalletTitle": "Mobile Wallet",
     "paperWalletTitle": "Paper Wallet",
     "paperWalletSubtitle1": "Paper Wallet",
     "paperWalletSubtitle2": "Unofficial Wallets",
