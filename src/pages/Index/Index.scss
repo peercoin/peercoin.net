@@ -153,6 +153,8 @@
       display: flex;
     }
 
+    width: 50%;
+
     margin-top: 10px;
 
     @include viewports(up-to small) {
