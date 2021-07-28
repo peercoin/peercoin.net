@@ -146,12 +146,18 @@
     @include viewports(up-to tiny) {
       width: 100%;
     }
+
+    @include viewports(up-to small) {
+      padding: 1rem;
+    }
   }
 
   &__actions {
     @include viewports(above small) {
       display: flex;
     }
+
+    width: 50%;
 
     margin-top: 10px;
 
