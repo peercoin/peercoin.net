@@ -146,6 +146,10 @@
     @include viewports(up-to tiny) {
       width: 100%;
     }
+
+    @include viewports(up-to small) {
+      padding: 1rem;
+    }
   }
 
   &__actions {
