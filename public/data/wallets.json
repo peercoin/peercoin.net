@@ -32,6 +32,15 @@
             "translated": false,
             "text": "Android"
           },
+          "subtitle": ""
+        },
+        {
+          "url": "https://f-droid.org/de/packages/com.coinerella.peercoin/",
+          "image": "/img/wallets/fdroid.png",
+          "title": {
+            "translated": false,
+            "text": "F-Droid"
+          },
           "subtitle": null
         },
         {
