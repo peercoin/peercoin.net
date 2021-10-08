@@ -79,6 +79,12 @@
       "url": "https://coinpaprika.com/coin/ppc-peercoin/",
       "image": "/img/exchanges/coinpaprika_green.png",
       "type": "resourcesPage.exchangesType3"
+    },
+    {
+      "title": "SouthXchange",
+      "url": "https://main.southxchange.com/",
+      "image": "/img/exchanges/southxchange_green.png",
+      "type": "resourcesPage.exchangesType1"
     }
   ]
 }
