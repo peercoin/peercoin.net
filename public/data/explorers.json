@@ -10,11 +10,6 @@
           "image": "/img/explorers/cryptoid_green.png"
         },
         {
-          "title": "CoinExplorer",
-          "url": "https://www.coinexplorer.net/PPC",
-          "image": "/img/explorers/coinexplorer_green.png"
-        },
-        {
           "title": "PeerExplorer",
           "url": "https://blockbook.peercoin.net/",
           "image": "/img/explorers/peercoin_green.png"
