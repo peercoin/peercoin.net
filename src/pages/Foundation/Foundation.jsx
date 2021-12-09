@@ -66,7 +66,7 @@ function Foundation() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://www.blockchain.com/btc/address/3NtJTUyXuH8KJj4BXJJxtQS7SPnLNm711C"
+                  href="https://www.blockstream.info/address/3NtJTUyXuH8KJj4BXJJxtQS7SPnLNm711C"
                 >
                   {" "}
                   3NtJTUyXuH8KJj4BXJJxtQS7SPnLNm711C
