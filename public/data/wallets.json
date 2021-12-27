@@ -11,7 +11,7 @@
       "os": "macOS",
       "img": "/img/icons/apple.png",
       "checksum": "01faae58a698ab20fd1fcd34385239529ab0081c9977d37b88e52d4beb6cd75d",
-      "link": "https://github.com/peercoin/peercoin/releases/download/v0.11.2ppc/peercoin-0.11.2-osx-unsigned.dmg"
+      "link": "https://github.com/peercoin/peercoin/releases/download/v0.11.3ppc/peercoin-0.11.3-osx-unsigned.dmg"
     },
     {
       "os": "Linux",
