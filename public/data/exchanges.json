@@ -85,6 +85,12 @@
       "url": "https://main.southxchange.com/",
       "image": "/img/exchanges/southxchange_green.png",
       "type": "resourcesPage.exchangesType1"
+    },
+    {
+      "title": "AtomicDEX",
+      "url": "https://atomicdex.io/",
+      "image": "/img/exchanges/atomicDEX_green.png",
+      "type": "resourcesPage.exchangesType1"
     }
   ]
 }
