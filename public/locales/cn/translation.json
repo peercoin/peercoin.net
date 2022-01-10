@@ -123,7 +123,6 @@
     "technicalSupportText": "如果您想参与点点币，或者只是想支持这个团队，有几个选项可供选择。如果您有兴趣成为点点币或点点币相关项目(如PeerAssets)的开发人员，请发送电子邮件至foundation@peercoin.net。如果您想向点点币基金会捐赠PPC来支持项目的扩展，只需将您的PPC捐款发送到下面的多签名地址即可.",
     "generalFundPpcAddress": "General Fund - PPC Donation Address:",
     "generalFundBtcAddress": "General Fund - BTC Donation Address:",
-    "exchangeBtcAddress": "Exchange Listing Fund - BTC Donation Address:",
     "viewOnExplorer": "View on explorer",
     "contactUsTitle": "联系我们",
     "addressCountry": "The Netherlands"
