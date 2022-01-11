@@ -60,18 +60,6 @@ function Foundation() {
                   376NhxVL1LFBFndHNx9k7hvwvUzq6RZiPT
                 </a>
                 <br />
-                <Trans i18nKey="foundationPage.exchangeBtcAddress">
-                  Exchange Listing Fund - <strong>BTC</strong> Donation Address:
-                </Trans>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://btc.cryptoid.info/btc/address.dws?3NtJTUyXuH8KJj4BXJJxtQS7SPnLNm711C.htm"
-                >
-                  {" "}
-                  3NtJTUyXuH8KJj4BXJJxtQS7SPnLNm711C
-                </a>
-                <br />
                 <Trans i18nKey="foundationPage.openCollectiveNote">
                   Fiat Donations - <strong>USD/EUR</strong> by
                   Credit/Debit/Wire:

@@ -123,7 +123,6 @@
     "technicalSupportText": "피어코인 참여 또는 팀에 지원을 원하신다면 선택할 수 있는 다음 몇 가지의 옵션이 있습니다. PeerAssets와 같은 피어코인 또는 피어코인 관련 프로젝트의 개발자가 되길 원하신다면 foundation@peercoin.net으로 이메일을 보내주세요. 만약 프로젝트 확장을 지원하기 위해 피어코인 재단에 PPC 기부를 원하신다면 아래의 다중 서명 주소로 보내주십시오.",
     "generalFundPpcAddress": "피어코인 재단 다중 서명 기부 주소:",
     "generalFundBtcAddress": "피어코인 재단 비트코인 다중 서명 기부 주소:",
-    "exchangeBtcAddress": "Exchange Listing Fund - BTC Donation Address:",
     "viewOnExplorer": "View on explorer",
     "contactUsTitle": "문의하기",
     "addressCountry": "The Netherlands"
@@ -242,7 +241,7 @@
     "brandIdentityGreen": "녹색",
     "brandIdentityFont": "피어코인 텍스트 로고는 아래 폰트를 사용합니다",
     "brandIdentityFontFont": "폰트",
-    "brandIdentityFontType": "타입"
+    "brandIdentityFontType": "타입",
     "brandIdentityFontRoboto": " 피어코인 웹사이트와 지갑 컨텐츠는 <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\" rel=\"noopener noreferrer\">Roboto</a> 폰트를 사용합니다."
   },
   "walletPage": {
