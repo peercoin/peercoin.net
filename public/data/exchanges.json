@@ -91,6 +91,12 @@
       "url": "https://atomicdex.io/",
       "image": "/img/exchanges/atomicDEX_green.png",
       "type": "resourcesPage.exchangesType1"
+    },
+    {
+      "title": "Uniswap",
+      "url": "https://uniswap.org/",
+      "image": "/img/exchanges/uniswap_green.png",
+      "type": "resourcesPage.exchangesType1"
     }
   ]
 }
