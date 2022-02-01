@@ -57,12 +57,6 @@
       "type": "resourcesPage.exchangesType1"
     },
     {
-      "title": "Swapzone",
-      "url": "https://swapzone.io/",
-      "image": "/img/exchanges/swapzone_green.png",
-      "type": "resourcesPage.exchangesType2"
-    },
-    {
       "title": "anycoindirect",
       "url": "https://anycoindirect.eu/en/buy-peercoin/",
       "image": "/img/exchanges/anycoin_green.png",
