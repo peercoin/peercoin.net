@@ -94,7 +94,7 @@
     },
     {
       "title": "Uniswap",
-      "url": "https://uniswap.org/",
+      "url": "https://app.uniswap.org/#/swap?chain=mainnet",
       "image": "/img/exchanges/uniswap_green.png",
       "type": "resourcesPage.exchangesType1"
     }
