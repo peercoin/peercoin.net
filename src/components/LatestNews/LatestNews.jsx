@@ -56,7 +56,7 @@ function LatestNews() {
             </a>
 
             <div title={post.published} className="post__published">
-              Published {formatTime(post.published)}
+              Published {formatTime(post.published.replace(/ /g,"T"))}
             </div>
             <hr></hr>
 
