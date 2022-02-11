@@ -10,15 +10,11 @@
           "files": [
             {
               "type": "PNG",
-              "url": "/img/logos/verticalset/insidecircle/Transparent/GreenIcon-BlackText/peercoin-vertical-greenicon-blacktext-transparent@6x.png"
+              "url": "/img/logos/verticalset/insidecircle/Transparent/GreenIcon-BlackText/peercoin-vertical-greenicon-blacktext-transparent@4x.png"
             },
             {
               "type": "SVG",
               "url": "/img/logos/verticalset/insidecircle/Transparent/GreenIcon-BlackText/peercoin-vertical-greenicon-blacktext-transparent.svg"
-            },
-            {
-              "type": "EPS",
-              "url": "/img/logos/verticalset/insidecircle/Transparent/GreenIcon-BlackText/peercoin-vertical-greenicon-blacktext-transparent.eps"
             }
           ]
         },
@@ -27,15 +23,11 @@
           "files": [
             {
               "type": "PNG",
-              "url": "/img/logos/verticalset/insidecircle/Transparent/GreenIcon-GreenText/peercoin-vertical-greenicon-greentext-transparent@6x.png"
+              "url": "/img/logos/verticalset/insidecircle/Transparent/GreenIcon-GreenText/peercoin-vertical-greenicon-greentext-transparent@4x.png"
             },
             {
               "type": "SVG",
               "url": "/img/logos/verticalset/insidecircle/Transparent/GreenIcon-GreenText/peercoin-vertical-greenicon-greentext-transparent.svg"
-            },
-            {
-              "type": "EPS",
-              "url": "/img/logos/verticalset/insidecircle/Transparent/GreenIcon-GreenText/peercoin-vertical-greenicon-greentext-transparent.eps"
             }
           ]
         },
@@ -44,32 +36,11 @@
           "files": [
             {
               "type": "PNG",
-              "url": "/img/logos/verticalset/insidecircle/Transparent/GreenIcon-WhiteText/peercoin-vertical-greenicon-whitetext-transparent@6x.png"
+              "url": "/img/logos/verticalset/insidecircle/Transparent/GreenIcon-WhiteText/peercoin-vertical-greenicon-whitetext-transparent@4x.png"
             },
             {
               "type": "SVG",
               "url": "/img/logos/verticalset/insidecircle/Transparent/GreenIcon-WhiteText/peercoin-vertical-greenicon-whitetext-transparent.svg"
-            },
-            {
-              "type": "EPS",
-              "url": "/img/logos/verticalset/insidecircle/Transparent/GreenIcon-WhiteText/peercoin-vertical-greenicon-whitetext-transparent.eps"
-            }
-          ]
-        },
-        {
-          "image": "/img/logos/webfixed/peercoin-vertical-greenicon-graytext-transparent.png",
-          "files": [
-            {
-              "type": "PNG",
-              "url": "/img/logos/verticalset/insidecircle/Transparent/GreenIcon-GrayText/peercoin-vertical-greenicon-graytext-transparent@6x.png"
-            },
-            {
-              "type": "SVG",
-              "url": "/img/logos/verticalset/insidecircle/Transparent/GreenIcon-GrayText/peercoin-vertical-greenicon-graytext-transparent.svg"
-            },
-            {
-              "type": "EPS",
-              "url": "/img/logos/verticalset/insidecircle/Transparent/GreenIcon-GrayText/peercoin-vertical-greenicon-graytext-transparent.eps"
             }
           ]
         },
@@ -78,32 +49,11 @@
           "files": [
             {
               "type": "PNG",
-              "url": "/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-BlackText/peercoin-vertical-greenleaf-blacktext-transparent@6x.png"
+              "url": "/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-BlackText/peercoin-vertical-greenleaf-blacktext-transparent@4x.png"
             },
             {
               "type": "SVG",
               "url": "/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-BlackText/peercoin-vertical-greenleaf-blacktext-transparent.svg"
-            },
-            {
-              "type": "EPS",
-              "url": "/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-BlackText/peercoin-vertical-greenleaf-blacktext-transparent.eps"
-            }
-          ]
-        },
-        {
-          "image": "/img/logos/webfixed/peercoin-vertical-greenleaf-graytext-transparent.png",
-          "files": [
-            {
-              "type": "PNG",
-              "url": "/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-GrayText/peercoin-vertical-greenleaf-graytext-transparent@6x.png"
-            },
-            {
-              "type": "SVG",
-              "url": "/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-GrayText/peercoin-vertical-greenleaf-graytext-transparent.svg"
-            },
-            {
-              "type": "EPS",
-              "url": "/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-GrayText/peercoin-vertical-greenleaf-graytext-transparent.eps"
             }
           ]
         },
@@ -112,15 +62,11 @@
           "files": [
             {
               "type": "PNG",
-              "url": "/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-GreenText/peercoin-vertical-greenleaf-greentext-transparent@6x.png"
+              "url": "/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-GreenText/peercoin-vertical-greenleaf-greentext-transparent@4x.png"
             },
             {
               "type": "SVG",
               "url": "/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-GreenText/peercoin-vertical-greenleaf-greentext-transparent.svg"
-            },
-            {
-              "type": "EPS",
-              "url": "/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-GreenText/peercoin-vertical-greenleaf-greentext-transparent.eps"
             }
           ]
         },
@@ -129,15 +75,11 @@
           "files": [
             {
               "type": "PNG",
-              "url": "/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-WhiteText/peercoin-vertical-greenleaf-whitetext-transparent@6x.png"
+              "url": "/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-WhiteText/peercoin-vertical-greenleaf-whitetext-transparent@4x.png"
             },
             {
               "type": "SVG",
               "url": "/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-WhiteText/peercoin-vertical-greenleaf-whitetext-transparent.svg"
-            },
-            {
-              "type": "EPS",
-              "url": "/img/logos/verticalset/outsidecircle/Transparent/GreenLeaf-WhiteText/peercoin-vertical-greenleaf-whitetext-transparent.eps"
             }
           ]
         }
@@ -151,15 +93,11 @@
           "files": [
             {
               "type": "PNG",
-              "url": "/img/logos/horizontalset/outsidecircle/Transparent/BlackLeaf-BlackText/peercoin-horizontal-blackleaf-blacktext-transparent@6x.png"
+              "url": "/img/logos/horizontalset/outsidecircle/Transparent/BlackLeaf-BlackText/peercoin-horizontal-blackleaf-blacktext-transparent@4x.png"
             },
             {
               "type": "SVG",
               "url": "/img/logos/horizontalset/outsidecircle/Transparent/BlackLeaf-BlackText/peercoin-horizontal-blackleaf-blacktext-transparent.svg"
-            },
-            {
-              "type": "EPS",
-              "url": "/img/logos/horizontalset/outsidecircle/Transparent/BlackLeaf-BlackText/peercoin-horizontal-blackleaf-blacktext-transparent.eps"
             }
           ]
         },
@@ -168,32 +106,11 @@
           "files": [
             {
               "type": "PNG",
-              "url": "/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-BlackText/peercoin-horizontal-greenleaf-blacktext-transparent@6x.png"
+              "url": "/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-BlackText/peercoin-horizontal-greenleaf-blacktext-transparent@4x.png"
             },
             {
               "type": "SVG",
               "url": "/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-BlackText/peercoin-horizontal-greenleaf-blacktext-transparent.svg"
-            },
-            {
-              "type": "EPS",
-              "url": "/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-BlackText/peercoin-horizontal-greenleaf-blacktext-transparent.eps"
-            }
-          ]
-        },
-        {
-          "image": "/img/logos/webfixed/peercoin-horizontal-greenleaf-graytext-transparent.png",
-          "files": [
-            {
-              "type": "PNG",
-              "url": "/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-GrayText/peercoin-horizontal-greenleaf-graytext-transparent@6x.png"
-            },
-            {
-              "type": "SVG",
-              "url": "/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-GrayText/peercoin-horizontal-greenleaf-graytext-transparent.svg"
-            },
-            {
-              "type": "EPS",
-              "url": "/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-GrayText/peercoin-horizontal-greenleaf-graytext-transparent.eps"
             }
           ]
         },
@@ -202,15 +119,11 @@
           "files": [
             {
               "type": "PNG",
-              "url": "/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-WhiteText/peercoin-horizontal-greenleaf-whitetext-transparent@6x.png"
+              "url": "/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-WhiteText/peercoin-horizontal-greenleaf-whitetext-transparent@4x.png"
             },
             {
               "type": "SVG",
               "url": "/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-WhiteText/peercoin-horizontal-greenleaf-whitetext-transparent.svg"
-            },
-            {
-              "type": "EPS",
-              "url": "/img/logos/horizontalset/outsidecircle/Transparent/GreenLeaf-WhiteText/peercoin-horizontal-greenleaf-whitetext-transparent.eps"
             }
           ]
         },
@@ -219,15 +132,11 @@
           "files": [
             {
               "type": "PNG",
-              "url": "/img/logos/horizontalset/outsidecircle/Transparent/WhiteLeaf-WhiteText/peercoin-horizontal-whiteleaf-whitetext-transparent@6x.png"
+              "url": "/img/logos/horizontalset/outsidecircle/Transparent/WhiteLeaf-WhiteText/peercoin-horizontal-whiteleaf-whitetext-transparent@4x.png"
             },
             {
               "type": "SVG",
               "url": "/img/logos/horizontalset/outsidecircle/Transparent/WhiteLeaf-WhiteText/peercoin-horizontal-whiteleaf-whitetext-transparent.svg"
-            },
-            {
-              "type": "EPS",
-              "url": "/img/logos/horizontalset/outsidecircle/Transparent/WhiteLeaf-WhiteText/peercoin-horizontal-whiteleaf-whitetext-transparent.eps"
             }
           ]
         },
@@ -236,15 +145,11 @@
           "files": [
             {
               "type": "PNG",
-              "url": "/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-BlackText/peercoin-horizontal-greenicon-blacktext-transparent@6x.png"
+              "url": "/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-BlackText/peercoin-horizontal-greenicon-blacktext-transparent@4x.png"
             },
             {
               "type": "SVG",
               "url": "/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-BlackText/peercoin-horizontal-greenicon-blacktext-transparent.svg"
-            },
-            {
-              "type": "EPS",
-              "url": "/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-BlackText/peercoin-horizontal-greenicon-blacktext-transparent.eps"
             }
           ]
         },
@@ -253,32 +158,11 @@
           "files": [
             {
               "type": "PNG",
-              "url": "/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-GreenText/peercoin-horizontal-greenicon-greentext-transparent@6x.png"
+              "url": "/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-GreenText/peercoin-horizontal-greenicon-greentext-transparent@4x.png"
             },
             {
               "type": "SVG",
               "url": "/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-GreenText/peercoin-horizontal-greenicon-greentext-transparent.svg"
-            },
-            {
-              "type": "EPS",
-              "url": "/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-GreenText/peercoin-horizontal-greenicon-greentext-transparent.eps"
-            }
-          ]
-        },
-        {
-          "image": "/img/logos/webfixed/peercoin-horizontal-greenicon-graytext-transparent.png",
-          "files": [
-            {
-              "type": "PNG",
-              "url": "/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-GrayText/peercoin-horizontal-greenicon-graytext-transparent@6x.png"
-            },
-            {
-              "type": "SVG",
-              "url": "/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-GrayText/peercoin-horizontal-greenicon-graytext-transparent.svg"
-            },
-            {
-              "type": "EPS",
-              "url": "/img/logos/horizontalset/insidecircle/Transparent/GreenIcon-GrayText/peercoin-horizontal-greenicon-graytext-transparent.eps"
             }
           ]
         }
@@ -314,10 +198,6 @@
             {
               "type": "SVG",
               "url": "/img/logos/icononly/outsidecircle/Transparent/GreenLeaf/peercoin-leaf-green-transparent.svg"
-            },
-            {
-              "type": "EPS",
-              "url": "/img/logos/icononly/outsidecircle/Transparent/GreenLeaf/peercoin-leaf-green-transparent.eps"
             }
           ]
         },
@@ -331,10 +211,6 @@
             {
               "type": "SVG",
               "url": "/img/logos/icononly/outsidecircle/Transparent/BlackLeaf/peercoin-leaf-transparent.svg"
-            },
-            {
-              "type": "EPS",
-              "url": "/img/logos/icononly/outsidecircle/Transparent/BlackLeaf/peercoin-leaf-transparent.eps"
             }
           ]
         },
@@ -348,10 +224,6 @@
             {
               "type": "SVG",
               "url": "/img/logos/icononly/outsidecircle/Transparent/WhiteLeaf/peercoin-leaf-white-transparent.svg"
-            },
-            {
-              "type": "EPS",
-              "url": "/img/logos/icononly/outsidecircle/Transparent/WhiteLeaf/peercoin-leaf-white-transparent.eps"
             }
           ]
         }
@@ -365,32 +237,11 @@
           "files": [
             {
               "type": "PNG",
-              "url": "/img/logos/textonly/Transparent/BlackText/peercoin-text-black-transparent@6x.png"
+              "url": "/img/logos/textonly/Transparent/peercoin-text-black-transparent@4x.png"
             },
             {
               "type": "SVG",
               "url": "/img/logos/textonly/Transparent/BlackText/peercoin-text-black-transparent.svg"
-            },
-            {
-              "type": "EPS",
-              "url": "/img/logos/textonly/Transparent/BlackText/peercoin-text-black-transparent.eps"
-            }
-          ]
-        },
-        {
-          "image": "/img/logos/webfixed/peercoin-text-gray-transparent.png",
-          "files": [
-            {
-              "type": "PNG",
-              "url": "/img/logos/textonly/Transparent/GrayText/peercoin-text-gray-transparent@6x.png"
-            },
-            {
-              "type": "SVG",
-              "url": "/img/logos/textonly/Transparent/GrayText/peercoin-text-gray-transparent.svg"
-            },
-            {
-              "type": "EPS",
-              "url": "/img/logos/textonly/Transparent/GrayText/peercoin-text-gray-transparent.eps"
             }
           ]
         },
@@ -399,15 +250,11 @@
           "files": [
             {
               "type": "PNG",
-              "url": "/img/logos/textonly/Transparent/GreenText/peercoin-text-green-transparent@6x.png"
+              "url": "/img/logos/textonly/Transparent/GreenText/peercoin-text-green-transparent@4x.png"
             },
             {
               "type": "SVG",
               "url": "/img/logos/textonly/Transparent/GreenText/peercoin-text-green-transparent.svg"
-            },
-            {
-              "type": "EPS",
-              "url": "/img/logos/textonly/Transparent/GreenText/peercoin-text-green-transparent.eps"
             }
           ]
         },
@@ -416,15 +263,11 @@
           "files": [
             {
               "type": "PNG",
-              "url": "/img/logos/textonly/Transparent/WhiteText/peercoin-text-white-transparent@6x.png"
+              "url": "/img/logos/textonly/Transparent/WhiteText/peercoin-text-white-transparent@4x.png"
             },
             {
               "type": "SVG",
               "url": "/img/logos/textonly/Transparent/WhiteText/peercoin-text-white-transparent.svg"
-            },
-            {
-              "type": "EPS",
-              "url": "/img/logos/textonly/Transparent/WhiteText/peercoin-text-white-transparent.eps"
             }
           ]
         }
