@@ -130,7 +130,9 @@
     "viewOnExplorer": "View on explorer",
     "openCollectiveNote": "Fiat Donations - <strong>USD/EUR</strong> by Credit/Debit/Wire:",
     "contactUsTitle": "Contact Us",
-    "addressCountry": "The Netherlands"
+    "addressCountry": "The Netherlands",
+    "reportsTitle": "Financial Reports",
+    "reportsSupportText": "The Peercoin Foundation releases financial reports anually. You may download them here."
   },
   "contributePage": {
     "contributeTitle": "Contribute ",
