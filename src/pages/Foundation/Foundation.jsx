@@ -73,6 +73,43 @@ function Foundation() {
                   opencollective.com/peercoin
                 </a>
               </p>
+              <div>
+                <h2 className="title title--green title--left">
+                  {t("foundationPage.reportsTitle")}
+                </h2>
+                <p>{t("foundationPage.reportsSupportText")}</p>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="/assets/reports/Stichting_Peercoin_Foundation_-_Jaarrekening_2018.pdf"
+                >
+                  Financial Report 2018
+                </a>{" "}
+                <br />
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="/assets/reports/Stichting_Peercoin_Foundation_-_Jaarrekening_2019.pdf"
+                >
+                  Financial Report 2019
+                </a>{" "}
+                <br />
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="/assets/reports/Stichting_Peercoin_Foundation_-_Jaarrekening_2020.pdf"
+                >
+                  Financial Report 2020
+                </a>{" "}
+                <br />
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="/assets/reports/Stichting_Peercoin_Foundation_-_Jaarrekening_2021.pdf"
+                >
+                  Financial Report 2021
+                </a>
+              </div>
             </div>
             <div className="col col--small">
               <Address />
