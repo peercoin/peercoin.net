@@ -91,6 +91,12 @@
       "url": "https://info.uniswap.org/#/tokens/0x044d078f1c86508e13328842cc75ac021b272958",
       "image": "/img/exchanges/uniswap_green.png",
       "type": "resourcesPage.exchangesType1"
+    },
+    {
+    "title": "QuickSwap",
+    "url": "https://info.quickswap.exchange/#/token/0x91e7e32c710661c44ae44d10aa86135d91c3ed65",
+    "image": "/img/exchanges/quickswap_green.png",
+    "type": "resourcesPage.exchangesType1"
     }
   ]
 }
