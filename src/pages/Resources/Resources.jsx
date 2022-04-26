@@ -74,6 +74,12 @@ function Resources() {
             {t("resourcesPage.actions.action1")}
           </a>
           <a
+            href="#wrapped-ppc"
+            className="hero__actions__action hero__actions__action--white"
+          >
+            {t("resourcesPage.wrapedPPCTitle")}
+          </a>
+          <a
             href="#blockexplorers"
             className="hero__actions__action hero__actions__action--white"
           >
