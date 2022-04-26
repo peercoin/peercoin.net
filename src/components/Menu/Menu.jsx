@@ -117,7 +117,7 @@ function Menu() {
                 </li>
                 <li>
                   <a href="/resources#wrapped-ppc" className="submenu">
-                    <img src="/img/icons/exchange_green.png" alt="" />
+                    <img src="/img/icons/wrapped_present.png" alt="" />
                     {t("resourcesPage.wrapedPPCTitle")}
                   </a>
                 </li>
