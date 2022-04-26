@@ -76,7 +76,12 @@ function Menu() {
               <img src="/img/icon-menu-arrow-down.svg" alt="" />
               <ul className="menu__main__submenu">
                 <li>
-                  <a href="https://www.youtube.com/watch?v=x8KAsime9EI&list=PLvd1OhApu6fULYdoGIDBxlNl9qglo2vJG" className="submenu" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://www.youtube.com/watch?v=x8KAsime9EI&list=PLvd1OhApu6fULYdoGIDBxlNl9qglo2vJG"
+                    className="submenu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img src="/img/icons/youtube_green.png" alt="" />
                     Peercoin Primer
                   </a>
@@ -88,7 +93,12 @@ function Menu() {
                   </a>
                 </li>
                 <li>
-                  <a href="https://docs.peercoin.net/" className="submenu" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://docs.peercoin.net/"
+                    className="submenu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img src="/img/icons/docs_green.png" alt="" />
                     {t("menuComponent.links.resources.documentation")}
                   </a>
@@ -103,6 +113,12 @@ function Menu() {
                   <a href="/resources#exchanges" className="submenu">
                     <img src="/img/icons/exchange_green.png" alt="" />
                     {t("menuComponent.links.resources.exchanges")}
+                  </a>
+                </li>
+                <li>
+                  <a href="/resources#wrapped-ppc" className="submenu">
+                    <img src="/img/icons/wrapped_present.png" alt="" />
+                    {t("resourcesPage.wrapedPPCTitle")}
                   </a>
                 </li>
                 <li>
@@ -130,7 +146,12 @@ function Menu() {
               <img src="/img/icon-menu-arrow-down.svg" alt="" />
               <ul className="menu__main__submenu">
                 <li>
-                  <a href="https://github.com/peercoin/" className="submenu" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://github.com/peercoin/"
+                    className="submenu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img src="/img/icons/github_green.png" alt="" />
                     {t("menuComponent.links.project.github")}
                   </a>
@@ -142,7 +163,12 @@ function Menu() {
                   </Link>
                 </li>
                 <li>
-                  <a href="https://medium.com/peercoin" className="submenu" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://medium.com/peercoin"
+                    className="submenu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img src="/img/icons/blog_green.png" alt="" />
                     {t("menuComponent.links.project.blog")}
                   </a>
@@ -182,49 +208,89 @@ function Menu() {
               <img src="/img/icon-menu-arrow-down.svg" alt="" />
               <ul className="menu__main__submenu">
                 <li>
-                  <a href="https://talk.peercoin.net/" className="submenu" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://talk.peercoin.net/"
+                    className="submenu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img src="/img/icons/forum_green.png" alt="" />
                     {t("menuComponent.links.community.forum")}
                   </a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/PeercoinPPC" className="submenu" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://twitter.com/PeercoinPPC"
+                    className="submenu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img src="/img/icons/twitter_green.png" alt="" />
                     {t("menuComponent.links.community.twitter")}
                   </a>
                 </li>
                 <li>
-                  <a href="https://t.me/peercoin" className="submenu" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://t.me/peercoin"
+                    className="submenu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img src="/img/icons/telegram_green.png" alt="" />
                     {t("menuComponent.links.community.telegram")}
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com/Peercoin/" className="submenu" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://www.facebook.com/Peercoin/"
+                    className="submenu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img src="/img/icons/facebook_green.png" alt="" />
                     {t("menuComponent.links.community.facebook")}
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.reddit.com/r/peercoin" className="submenu" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://www.reddit.com/r/peercoin"
+                    className="submenu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img src="/img/icons/reddit_green.png" alt="" />
                     {t("menuComponent.links.community.reddit")}
                   </a>
                 </li>
                 <li>
-                  <a href="https://discord.gg/XPxfwtG" className="submenu" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://discord.gg/XPxfwtG"
+                    className="submenu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img src="/img/icons/discord_green.png" alt="" />
                     {t("menuComponent.links.community.discord")}
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.youtube.com/user/PeerCoin" className="submenu" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://www.youtube.com/user/PeerCoin"
+                    className="submenu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img src="/img/icons/youtube_green.png" alt="" />
                     {t("menuComponent.links.community.youtube")}
                   </a>
                 </li>
                 <li>
-                  <a href="https://bitcointalk.org/index.php?topic=101820.0" className="submenu" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://bitcointalk.org/index.php?topic=101820.0"
+                    className="submenu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img src="/img/icons/bitcoinchat_green.png" alt="" />
                     {t("menuComponent.links.community.bitcointalk")}
                   </a>
