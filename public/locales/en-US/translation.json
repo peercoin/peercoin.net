@@ -238,6 +238,8 @@
     "exchangesType1": "Exchange",
     "exchangesType2": "Service",
     "exchangesType3": "Market Information",
+    "exchangesType4": "Ethereum Exchange",
+    "exchangesType5": "Polygon Exchange",
     "explorersTitle": "Block Explorers",
     "explorersMainnet": "Mainnet",
     "explorersTestnet": "Testnet",
@@ -274,7 +276,9 @@
     "brandIdentityFont": "The Peercoin text logo uses the following font",
     "brandIdentityFontFont": "Font",
     "brandIdentityFontType": "Type",
-    "brandIdentityFontRoboto": "The Peercoin website and wallets use the <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\" rel=\"noopener noreferrer\">Roboto</a> font for its content."
+    "brandIdentityFontRoboto": "The Peercoin website and wallets use the <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\" rel=\"noopener noreferrer\">Roboto</a> font for its content.",
+    "wrapedPPCTitle": "Wrapped Peercoin",
+    "wrappedPPCText": "Wrapped Peercoin (wPPC) is a synthetic Peercoin-backed token. wPPC is created when peercoin is wrapped using bridge.peercoin.net and destroyed as peercoins are unwrapped."
   },
   "walletPage": {
     "title": "Wallets",
