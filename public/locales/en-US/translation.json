@@ -323,6 +323,8 @@
       "title1": "Linux",
       "text1": "Unpack <code className=\"green\">{{file}}</code>",
       "text2": "Run <code className=\"green\">bin/peercoin-qt</code>",
+      "textFlathub": "Run <code className=\"green\">flatpak install --user net.peercoin.peercoin-qt</code>",
+      "descriptionFlathub": "Addtional information can be found on the <a href=\"https://flathub.org/apps/details/net.peercoin.peercoin-qt/\" target=\"_blank\" rel=\"noopener noreferrer\">Flathub Website</a>.",
       "title2": "APT Repository",
       "text3": "Peercoin APT repository for Debian Buster (10).",
       "text4": "Supported architectures: amd64, arm64 and armhf.",

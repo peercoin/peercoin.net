@@ -91,6 +91,21 @@
         ]
       },
       {
+        "title": "Flathub",
+        "steps": [
+          {
+            "type": "list",
+            "items": [
+              "walletPage.sectionLinux.textFlathub"
+            ]       
+          }, 
+          {
+            "type": "text",
+            "text": "walletPage.sectionLinux.descriptionFlathub"
+          }
+        ]
+      },
+      {
         "title": "walletPage.sectionLinux.title2",
         "steps": [ 
           {
