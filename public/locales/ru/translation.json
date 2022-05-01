@@ -293,7 +293,7 @@
       "text5": "Запустите <code>daemon\\peercoind</code>",
       "text6": "Ваш кошелек в <code>C:\\Users\\{username}\\AppData</code> (hidden folder).",
       "text7": "Откройте папку <code>Start menu -> Run...</code> (или нажмите <code>Winkey-R</code>), запишите: <code>%APPDATA%\\PPCoin</code> в этом поле и нажмите Enter.",
-      "text8": "Дополнительную помощь можно найти в <a href=\"https://docs.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Документации Peercoin</a> или спрашивая в <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Форуме</a>."
+      "text8": "Дополнительную помощь можно найти в <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Документации Peercoin</a> или спрашивая в <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Форуме</a>."
     },
     "sectionMac": {
       "title1": "macOS",
@@ -306,7 +306,7 @@
       "text6": "Создайте <code className=\"green\">ppcoin.conf</code> в <code className=\"green\">~/Library/Application Support/PPCoin</code>",
       "text7": "Запустите <code className=\"green\">peercoind</code>",
       "text8": "Ваш кошелек находится в папке <code>~/Library/Application Support/PPCoin</code>. Чтобы открыть папку, нажмите <code>Command-Shift-G</code> в Finder, введите путь (path), и нажмите Enter.",
-      "text9": "Дополнительную помощь можно найти в <a href=\"https://docs.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Документации Peercoin</a> или спрашивая в <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Форуме</a>."
+      "text9": "Дополнительную помощь можно найти в <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Документации Peercoin</a> или спрашивая в <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Форуме</a>."
     },
     "sectionLinux": {
       "title1": "Linux",
@@ -320,7 +320,7 @@
       "text13": "Создайте <code className=\"green\">peercoin.conf</code> in <code className=\"green\">~/.peercoin</code>",
       "text14": "Запустите <code className=\"green\">bin/peercoind</code>",
       "text15": "Ваш кошелек находится в <code>~/.peercoin</code>.",
-      "text16": "Дополнительную помощь можно найти в <a href=\"https://docs.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Документации</a> или спрашивая на <a href=\"https://talk.peercoin.net/\">Форуме</a>."
+      "text16": "Дополнительную помощь можно найти в <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Документации</a> или спрашивая на <a href=\"https://talk.peercoin.net/\">Форуме</a>."
     },
     "paperWalletTitle": "Бумажный Кошелек",
     "paperWalletSubtitle1": "Бумажный Кошелек",
@@ -368,12 +368,12 @@
     "getStartedTitle": "Начнем",
     "collapsables": {
       "learnTitle": "Учить",
-      "learnText1": "Для подробной презентации проекта, <a href=\"https://university.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Университет</a> это лучшее место для начала. Дополнительные статьи о Peercoin смотрите здесь: <a href=\"https://medium.com/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Blogul Medium</a>.",
+      "learnText1": "Для подробной презентации проекта, <a href=\"https://peercoin.net/university/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Университет</a> это лучшее место для начала. Дополнительные статьи о Peercoin смотрите здесь: <a href=\"https://medium.com/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Blogul Medium</a>.",
       "learnText2": "Для тех, кто хочет участвовать в разработке, PeerAssets - это решение в слоях Peercoin для токенов. Более подробную информацию можно найти на странице <a href=\"/projects\">projects</a> нашего сайта.",
-      "learnText3": "Больше технической информации можно найти в <a href=\"https://docs.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Документации Peercoin</a>.",
+      "learnText3": "Больше технической информации можно найти в <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Документации Peercoin</a>.",
       "purchaseTitle": "Купить",
       "purchaseText1": "Peercoin доступен на многих биржах и сервисах. <a href=\"/resources#exchanges\">Посмотри здесь список</a>.",
-      "purchaseText3": "Для покупки Peercoin также доступен <a href=\"https://docs.peercoin.net/#/purchase\" target=\"_blank\" rel=\"noopener noreferrer\">гид</a>.",
+      "purchaseText3": "Для покупки Peercoin также доступен <a href=\"https://peercoin.net/docs/#/purchase\" target=\"_blank\" rel=\"noopener noreferrer\">гид</a>.",
       "walletTitle": "Кошелек",
       "walletText1": "<a href=\"/wallet\">Кошелек Peercoin</a> доступен на платформах Windows, Mac OSX și Linux.",
       "walletText2": "Также доступны возможности командной строки.",
@@ -381,10 +381,10 @@
       "mintTitle": "Чеканка",
       "mintText1": "Производство с помощью Доказательства Ставки (PoS) - это эффективный процесс, в котором заинтересованные стороны создают новые блоки для сети. Эти блоки содержат транзакции, инициированные пользователями сети. Роль производства - обрабатывать эти блоки транзакций и обеспечивать безопасность сети.",
       "mintText2": "Чеканка (PoS) - это энергоэффективный и экономичный процесс, который позволяет заинтересованным сторонам участвовать с использованием нескольких различных типов устройств. Заинтересованные стороны участвуют в чеканке, просто устанавливая версию Peercoin заполняя PPC свой кошелек храня их на время. Транзакции выбираются через протокол Peercoin для включения в следующий блок в цепочке блоков. Каждый произведенный блок вознаграждает заинтересованных сторон новыми PPC.",
-      "mintText3": "Pentru a afla cum să fabricați monede, consultați Secțiunea de Fabricare din <a href=\"https://docs.peercoin.net/#/wallets\" target=\"_blank\" rel=\"noopener noreferrer\">Documentația portmoneului</a>. Mai multe informații despre fabricare puteți găsi <a href=\"https://docs.peercoin.net/#/peercoin-minting-behaviour\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.",
+      "mintText3": "Pentru a afla cum să fabricați monede, consultați Secțiunea de Fabricare din <a href=\"https://peercoin.net/docs/#/wallets\" target=\"_blank\" rel=\"noopener noreferrer\">Documentația portmoneului</a>. Mai multe informații despre fabricare puteți găsi <a href=\"https://peercoin.net/docs/#/peercoin-minting-behaviour\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.",
       "mineTitle": "Майнинг",
       "mineText1": "Peercoin использует алгоритм хэширования SHA-256 с двойной итерацией для извлечения Доказательства Работы (PoW). Это означает что любое оборудование которое может извлекать Bitcoin, также может извлекать Peercoin.",
-      "mineText2": "Для начала прочтите <a href=\"https://docs.peercoin.net/#/mining\" target=\"_blank\" rel=\"noopener noreferrer\">документацию майнинга</a>.",
+      "mineText2": "Для начала прочтите <a href=\"https://peercoin.net/docs/#/mining\" target=\"_blank\" rel=\"noopener noreferrer\">документацию майнинга</a>.",
       "communityTitle": "Сообщество",
       "communityText1": "Присоединяйтесь на <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Форуме</a>, <a href=\"https://discord.gg/XPxfwtG\" target=\"_blank\" rel=\"noopener noreferrer\">Discord</a>, или на <a href=\"https://t.me/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Telegram</a> для общения с другими участниками и разработчиками сообщества Peercoin. Подписаться на <a href=\"https://twitter.com/PeercoinPPC\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter</a>, <a href=\"https://www.reddit.com/r/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>, <a href=\"https://medium.com/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Medium Блог</a>, или на <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\" target=\"_blank\" rel=\"noopener noreferrer\">Новости</a> чтобы быть в курсе последних новостей Peercoin. Смотрите также <a href=\"/resources#communities\">здесь</a> список ресурсов сообщества.",
       "communityText2": "Важные обновления могут быть доставлены прямо на ваше мобильное устройство через такие платформы, как <a href=\"https://blockfolio.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blockfolio</a>, <a href=\"https://delta.app/\" target=\"_blank\" rel=\"noopener noreferrer\">Delta</a>, или <a href=\"https://www.coingecko.com/\" target=\"_blank\" rel=\"noopener noreferrer\">CoinGecko</a>. Подпишитесь на последние новости."
