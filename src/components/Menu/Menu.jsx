@@ -88,7 +88,7 @@ function Menu() {
                 </li>
                 <li>
                   <a
-                    href="/university/"
+                    href="https://www.peercoin.net/university/"
                     className="submenu"
                     rel="noopener noreferrer"
                   >
@@ -98,7 +98,7 @@ function Menu() {
                 </li>
                 <li>
                   <a
-                    href="/docs/"
+                    href="https://www.peercoin.net/docs/"
                     className="submenu"
                     target="_blank"
                     rel="noopener noreferrer"
