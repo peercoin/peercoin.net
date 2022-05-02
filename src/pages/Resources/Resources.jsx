@@ -129,7 +129,7 @@ function Resources() {
               </h2>
               <p>{t("resourcesPage.documentationText")}</p>
               <a
-                href="https://docs.peercoin.net/"
+                href="https://peercoin.net/docs/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn--green"
@@ -176,7 +176,7 @@ function Resources() {
                 </li>
               </ul>
               <a
-                href="https://docs.peercoin.net/#/mining"
+                href="https://peercoin.net/docs/#/mining"
                 className="btn btn--green"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -202,7 +202,7 @@ function Resources() {
               <ul>
                 <li>
                   <a
-                    href="https://university.peercoin.net/#/2-what-is-a-blockchain-"
+                    href="https://peercoin.net/university/#/2-what-is-a-blockchain-"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -211,7 +211,7 @@ function Resources() {
                 </li>
                 <li>
                   <a
-                    href="https://university.peercoin.net/#/6-inherent-centralization-of-proof-of-work-blockchains"
+                    href="https://peercoin.net/university/#/6-inherent-centralization-of-proof-of-work-blockchains"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -220,7 +220,7 @@ function Resources() {
                 </li>
                 <li>
                   <a
-                    href="https://university.peercoin.net/#/9-peercoin-proof-of-stake-consensus"
+                    href="https://peercoin.net/university/#/9-peercoin-proof-of-stake-consensus"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -229,7 +229,7 @@ function Resources() {
                 </li>
               </ul>
               <a
-                href="https://university.peercoin.net/"
+                href="https://peercoin.net/university/"
                 className="btn btn--green"
                 target="_blank"
                 rel="noopener noreferrer"
