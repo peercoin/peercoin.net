@@ -5,7 +5,7 @@ import i18n from "i18next";
 import { useTranslation } from "react-i18next";
 import Loader from "../Loader/Loader";
 import "./Menu.scss";
-import { getCurrentFlag, getCurrentLanguage } from "../../helpers/Language";
+import { getCurrentFlag } from "../../helpers/Language";
 
 function Menu() {
   const { t } = useTranslation();
@@ -87,14 +87,18 @@ function Menu() {
                   </a>
                 </li>
                 <li>
-                  <a href="/resources#university" className="submenu">
+                  <a
+                    href="/university/"
+                    className="submenu"
+                    rel="noopener noreferrer"
+                  >
                     <img src="/img/icons/graduationcap.png" alt="" />
                     {t("menuComponent.links.resources.peercoinUniversity")}
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://peercoin.net/docs/"
+                    href="/docs/"
                     className="submenu"
                     target="_blank"
                     rel="noopener noreferrer"
