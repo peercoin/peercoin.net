@@ -90,6 +90,7 @@ function Menu() {
                   <a
                     href="https://www.peercoin.net/university/"
                     className="submenu"
+                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     <img src="/img/icons/graduationcap.png" alt="" />
