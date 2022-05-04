@@ -11,6 +11,7 @@ import ScrollTop from "./components/ScrollTop/ScrollTop";
 import Privacy from "./pages/Privacy/Privacy";
 import Contribute from "./pages/Contribute/Contribute";
 import NotFound from "./pages/NotFound/NotFound";
+import Reader from "./pages/Reader/Reader";
 import { handleHash } from "./helpers/Hash";
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <Route path="/wallet" component={Wallet} />
           <Route path="/contact" component={Contact} />
           <Route path="/contribute" component={Contribute} />
+          <Route path="/read/:folder/:file" component={Reader} />
           <Route path="/*" component={NotFound} />
         </Switch>
       </>

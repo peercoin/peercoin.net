@@ -1,0 +1,14 @@
+.Reader {
+    &__container, &__embed {
+        min-height: 100vh;
+    }
+    &__embed {
+        padding: 5rem;
+        width: 100%;
+    }
+    &__button {
+        display: flex;
+        justify-content: center;
+        margin: 3rem;
+    }
+}
