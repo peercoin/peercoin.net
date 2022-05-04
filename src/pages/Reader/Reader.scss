@@ -1,8 +1,13 @@
 .Reader {
-    &__container, &__embed {
+    &__container {
         min-height: 100vh;
+
+        &--fault {
+            min-height: 10vh;
+        }
     }
     &__embed {
+        min-height: 100vh;
         padding: 5rem;
         width: 100%;
     }

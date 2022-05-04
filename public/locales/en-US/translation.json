@@ -418,6 +418,9 @@
     "description": "Click <a href=\"https://www.peercoin.net/\" style=\"color: white;\">here</a> to return to the homepage."
   },
   "reader": {
-    "buttonGoBack": "See other translations"
+    "buttonGoBack": "See other translations",
+    "buttonDownload": "Download Whitepaper",
+    "hint": "If you're not seing a document, your browser does not support this operation. Please download the whitepaper instead.",
+    "notFound": "The requested resource can not be displayed."
   }
 }
