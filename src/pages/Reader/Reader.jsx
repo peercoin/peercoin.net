@@ -31,7 +31,7 @@ function Reader() {
       <div className="hero hero--thin">
         <h1 className="hero__title">Whitepaper</h1>
       </div>
-      <div>
+      <div className="Reader">
         <div
           className={
             paperAvailable ? "Reader__container" : "Reader__container--fault"
