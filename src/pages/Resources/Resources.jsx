@@ -251,6 +251,7 @@ function Resources() {
             {exchanges.resources &&
               exchanges.resources.map((exchange) => (
                 <a
+                  key={exchange.title}
                   href={exchange.url}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -283,6 +284,7 @@ function Resources() {
             {wrappedPPC.resources &&
               wrappedPPC.resources.map((exchange) => (
                 <a
+                  key={exchange.title}
                   href={exchange.url}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -310,13 +312,14 @@ function Resources() {
           <h2 className="title title--green">{t(explorers.title)}</h2>
           {explorers.categories &&
             explorers.categories.map((category) => (
-              <div>
+              <div key={category.title}>
                 <h3 className="title title--green">
                   {category.title ? t(category.title) : null}
                 </h3>
                 <div className="blocks-list">
                   {category.resources.map((resource) => (
                     <a
+                      key={resource.title}
                       href={resource.url}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -346,6 +349,7 @@ function Resources() {
             {tools.resources &&
               tools.resources.map((tool) => (
                 <a
+                  key={tool.title}
                   href={tool.url}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -371,6 +375,7 @@ function Resources() {
             {community.resources &&
               community.resources.map((community) => (
                 <a
+                  key={community.title}
                   href={community.url}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -398,9 +403,8 @@ function Resources() {
             {whitepaper.resources &&
               whitepaper.resources.map((whitepaper) => (
                 <a
-                  href={whitepaper.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  key={whitepaper.title}
+                  href={`/read${whitepaper.url}`}
                   className="blocks-list__block"
                 >
                   <h4 className="blocks-list__block__title">
@@ -425,11 +429,11 @@ function Resources() {
 
           {graphics.categories &&
             graphics.categories.map((graphic) => (
-              <div>
+              <div key={graphic.title}>
                 <h3 className="title">{t(graphic.title)}</h3>
                 <div className="blocks-list blocks-list--grey">
                   {graphic.resources.map((resource) => (
-                    <div className="blocks-list__block">
+                    <div className="blocks-list__block" key={resource.image}>
                       <img
                         className="blocks-list__block__img"
                         src={resource.image}
@@ -438,6 +442,7 @@ function Resources() {
                       {resource.files.map((file) => (
                         <a
                           href={file.url}
+                          key={file.url}
                           target="_blank"
                           rel="noopener noreferrer"
                         >

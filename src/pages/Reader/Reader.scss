@@ -1,0 +1,32 @@
+.Reader {
+    p {
+        padding: 1rem;
+    }
+
+    &__container {
+        min-height: 80vh;
+
+        &--fault {
+            min-height: 10vh;
+        }        
+    }
+    &__embed {
+        min-height: 80vh;
+        padding: 3rem 15rem;
+        width: 100%;
+
+        @media screen and (max-width: 1024px) {
+            padding: 3rem;
+        }
+    }
+    &__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .btn {
+            margin: 3rem;
+        }
+    }
+}
