@@ -1,3 +1,4 @@
 /bin/peercoinpaper.pdf /whitepapers/peercoin-paper.pdf 301
 /docs /docs/ 301
 /university /university/ 301
+/whitepapers/* /read/papers/:splat 301
