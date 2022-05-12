@@ -52,7 +52,7 @@ function LatestNews() {
               {post.categories.map((category) => (
                 <div className="post__tag-container__tag" key={category}>
                   <a
-                    href={"https://medium.com/peercoin/tagged/" + category}
+                    href={"https://blog.peercoin.net/tagged/" + category}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
