@@ -278,7 +278,7 @@ function Footer() {
                   <a
                     href="https://www.youtube.com/user/PeerCoin"
                     target="_blank"
-                    rel="noopener noreferre nofollowr"
+                    rel="noopener noreferrer nofollow"
                   >
                     {t("footerComponent.links.community.linkYoutube")}
                   </a>
