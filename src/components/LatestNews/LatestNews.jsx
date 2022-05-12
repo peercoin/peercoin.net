@@ -48,7 +48,7 @@ function LatestNews() {
             </div>
             <hr></hr>
 
-            <div className="post__tag-container">
+            {/* <div className="post__tag-container">
               {post.categories.map((category) => (
                 <div className="post__tag-container__tag" key={category}>
                   <a
@@ -60,7 +60,7 @@ function LatestNews() {
                   </a>
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
         ))}
     </div>

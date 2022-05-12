@@ -21,7 +21,7 @@ function Footer() {
             <a
               href="https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&id=222c7e0877"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               className="footer-wrapper__subscribe__link"
             >
               {t("footerComponent.subscribeBtnLabel")}
@@ -179,7 +179,7 @@ function Footer() {
                   <a
                     href="https://github.com/peercoin/"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     {t("footerComponent.links.project.linkGithub")}
                   </a>
@@ -193,7 +193,7 @@ function Footer() {
                   <a
                     href="https://medium.com/peercoin"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     {t("footerComponent.links.project.linkBlog")}
                   </a>
@@ -233,7 +233,7 @@ function Footer() {
                   <a
                     href="https://twitter.com/PeercoinPPC"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     {t("footerComponent.links.community.linkTwitter")}
                   </a>
@@ -242,7 +242,7 @@ function Footer() {
                   <a
                     href="https://t.me/peercoin"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     {t("footerComponent.links.community.linkTelegram")}
                   </a>
@@ -251,7 +251,7 @@ function Footer() {
                   <a
                     href="https://www.facebook.com/Peercoin/"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     {t("footerComponent.links.community.linkFacebook")}
                   </a>
@@ -260,7 +260,7 @@ function Footer() {
                   <a
                     href="https://www.reddit.com/r/peercoin"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     {t("footerComponent.links.community.linkReddit")}
                   </a>
@@ -269,7 +269,7 @@ function Footer() {
                   <a
                     href="https://discord.gg/XPxfwtG"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     {t("footerComponent.links.community.linkDiscord")}
                   </a>
@@ -278,7 +278,7 @@ function Footer() {
                   <a
                     href="https://www.youtube.com/user/PeerCoin"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferre nofollowr"
                   >
                     {t("footerComponent.links.community.linkYoutube")}
                   </a>
@@ -287,7 +287,7 @@ function Footer() {
                   <a
                     href="https://bitcointalk.org/index.php?topic=101820.0"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     {t("footerComponent.links.community.linkBitcointalk")}
                   </a>

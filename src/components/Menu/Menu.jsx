@@ -80,7 +80,7 @@ function Menu() {
                     href="https://www.youtube.com/watch?v=x8KAsime9EI&list=PLvd1OhApu6fULYdoGIDBxlNl9qglo2vJG"
                     className="submenu"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     <img src="/img/icons/youtube_green.png" alt="" />
                     Peercoin Primer
@@ -155,7 +155,7 @@ function Menu() {
                     href="https://github.com/peercoin/"
                     className="submenu"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     <img src="/img/icons/github_green.png" alt="" />
                     {t("menuComponent.links.project.github")}
@@ -228,7 +228,7 @@ function Menu() {
                     href="https://twitter.com/PeercoinPPC"
                     className="submenu"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     <img src="/img/icons/twitter_green.png" alt="" />
                     {t("menuComponent.links.community.twitter")}
@@ -239,7 +239,7 @@ function Menu() {
                     href="https://t.me/peercoin"
                     className="submenu"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     <img src="/img/icons/telegram_green.png" alt="" />
                     {t("menuComponent.links.community.telegram")}
@@ -250,7 +250,7 @@ function Menu() {
                     href="https://www.facebook.com/Peercoin/"
                     className="submenu"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     <img src="/img/icons/facebook_green.png" alt="" />
                     {t("menuComponent.links.community.facebook")}
@@ -261,7 +261,7 @@ function Menu() {
                     href="https://www.reddit.com/r/peercoin"
                     className="submenu"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     <img src="/img/icons/reddit_green.png" alt="" />
                     {t("menuComponent.links.community.reddit")}
@@ -272,7 +272,7 @@ function Menu() {
                     href="https://discord.gg/XPxfwtG"
                     className="submenu"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     <img src="/img/icons/discord_green.png" alt="" />
                     {t("menuComponent.links.community.discord")}
@@ -283,7 +283,7 @@ function Menu() {
                     href="https://www.youtube.com/user/PeerCoin"
                     className="submenu"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     <img src="/img/icons/youtube_green.png" alt="" />
                     {t("menuComponent.links.community.youtube")}
@@ -294,7 +294,7 @@ function Menu() {
                     href="https://bitcointalk.org/index.php?topic=101820.0"
                     className="submenu"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     <img src="/img/icons/bitcoinchat_green.png" alt="" />
                     {t("menuComponent.links.community.bitcointalk")}
