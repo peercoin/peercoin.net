@@ -2,3 +2,4 @@
 /docs /docs/ 301
 /university /university/ 301
 /whitepapers/* /read/papers/:splat 301
+/blog* https://blog.peercoin.net 301
