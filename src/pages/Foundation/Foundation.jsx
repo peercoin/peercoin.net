@@ -41,7 +41,7 @@ function Foundation() {
                 </Trans>
                 <a
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   href="https://chainz.cryptoid.info/ppc/address.dws?p92W3t7YkKfQEPDb7cG9jQ6iMh7cpKLvwK.htm"
                 >
                   {" "}
@@ -53,7 +53,7 @@ function Foundation() {
                 </Trans>
                 <a
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   href="https://btc.cryptoid.info/btc/address.dws?376NhxVL1LFBFndHNx9k7hvwvUzq6RZiPT.htm"
                 >
                   {" "}
@@ -66,7 +66,7 @@ function Foundation() {
                 </Trans>
                 <a
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   href="https://opencollective.com/peercoin"
                 >
                   {" "}
@@ -80,7 +80,7 @@ function Foundation() {
                 <p>{t("foundationPage.reportsSupportText")}</p>
                 <a
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   href="/assets/reports/Stichting_Peercoin_Foundation_-_Jaarrekening_2018.pdf"
                 >
                   Financial Report 2018
@@ -88,7 +88,7 @@ function Foundation() {
                 <br />
                 <a
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   href="/assets/reports/Stichting_Peercoin_Foundation_-_Jaarrekening_2019.pdf"
                 >
                   Financial Report 2019
@@ -96,7 +96,7 @@ function Foundation() {
                 <br />
                 <a
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   href="/assets/reports/Stichting_Peercoin_Foundation_-_Jaarrekening_2020.pdf"
                 >
                   Financial Report 2020
@@ -104,7 +104,7 @@ function Foundation() {
                 <br />
                 <a
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   href="/assets/reports/Stichting_Peercoin_Foundation_-_Jaarrekening_2021.pdf"
                 >
                   Financial Report 2021

@@ -1,6 +1,5 @@
 import React, { Suspense, useEffect, useState } from "react";
 import Menu from "../../components/Menu/Menu";
-import Footer from "../../components/Footer/Footer";
 import Loader from "../../components/Loader/Loader";
 import { useParams } from "react-router-dom";
 import "./Reader.scss";
@@ -64,7 +63,6 @@ function Reader() {
           )}
         </div>
       </div>
-      <Footer />
     </>
   );
 }

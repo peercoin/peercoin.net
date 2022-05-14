@@ -8,23 +8,12 @@ function LatestNews() {
 
   useEffect(() => {
     async function getData() {
-      const peercoinPosts = (
-        await fetch(
-          "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/peercoin"
-        ).then((res) => res.json())
-      );
-      
-      // Temporary hack to insert Quantum Economics Report in our news feed.
-      const quantumEconomicsReport = [(
-        await fetch (
-          "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/quantum-economics/tagged/peercoin"
-          ).then((res) => res.json())
-      ).items[0]];
-      quantumEconomicsReport[0].title = quantumEconomicsReport[0].title === "Peercoin" ? "Quantum Economics Report" : quantumEconomicsReport[0].title;
+      const peercoinPosts = await fetch(
+        "https://api.rss2json.com/v1/api.json?rss_url=https://peercoin.net/blog/rss/"
+      ).then((res) => res.json());
 
-      const posts = peercoinPosts.items.concat(quantumEconomicsReport)
-        .sort((a,b) => new Date(b.pubDate) - new Date(a.pubDate))
-        .filter((post) => post.categories.length > 0)
+      const posts = peercoinPosts.items
+        .sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate))
         .map((post) => ({
           published: post.pubDate,
           img: post.thumbnail,
@@ -56,22 +45,7 @@ function LatestNews() {
             </a>
 
             <div title={post.published} className="post__published">
-              Published {formatTime(post.published.replace(/ /g,"T"))}
-            </div>
-            <hr></hr>
-
-            <div className="post__tag-container">
-              {post.categories.map((category) => (
-                <div className="post__tag-container__tag" key={category}>
-                  <a
-                    href={"https://medium.com/peercoin/tagged/" + category}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {category}
-                  </a>
-                </div>
-              ))}
+              Published {formatTime(post.published.replace(/ /g, "T"))}
             </div>
           </div>
         ))}
