@@ -117,7 +117,7 @@ function Resources() {
               <a
                 href="https://github.com/peercoin/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 className="btn btn--green"
               >
                 {t("resourcesPage.contributeBtn")}
@@ -151,7 +151,7 @@ function Resources() {
                   <a
                     href="http://bfgminer.org/"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     BFGMiner
                   </a>
@@ -160,7 +160,7 @@ function Resources() {
                   <a
                     href="https://github.com/ckolivas/cgminer"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     CGMiner
                   </a>
@@ -169,7 +169,7 @@ function Resources() {
                   <a
                     href="https://easyminer.net/"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     EasyMiner
                   </a>
@@ -187,7 +187,7 @@ function Resources() {
                 href="https://www.coinwarz.com/calculators/peercoin-mining-calculator"
                 className="btn btn--green"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
               >
                 {t("resourcesPage.miningBtn2")}
               </a>
@@ -254,7 +254,7 @@ function Resources() {
                   key={exchange.title}
                   href={exchange.url}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   className="blocks-list__block"
                 >
                   <h4 className="blocks-list__block__title">
@@ -287,7 +287,7 @@ function Resources() {
                   key={exchange.title}
                   href={exchange.url}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   className="blocks-list__block"
                 >
                   <h4 className="blocks-list__block__title">
@@ -322,7 +322,7 @@ function Resources() {
                       key={resource.title}
                       href={resource.url}
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="noopener noreferrer nofollow"
                       className="blocks-list__block"
                     >
                       <h4 className="blocks-list__block__title">
@@ -352,7 +352,7 @@ function Resources() {
                   key={tool.title}
                   href={tool.url}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   className="blocks-list__block"
                 >
                   <h4 className="blocks-list__block__title">{t(tool.title)}</h4>
@@ -378,7 +378,7 @@ function Resources() {
                   key={community.title}
                   href={community.url}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   className="blocks-list__block"
                 >
                   <h4 className="blocks-list__block__title">

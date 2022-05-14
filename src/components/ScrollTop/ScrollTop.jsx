@@ -1,10 +1,10 @@
-import { useEffect } from 'react';
-import { withRouter } from 'react-router-dom';
+import { useEffect } from "react";
+import { withRouter } from "react-router-dom";
 
 function ScrollTop({ history }) {
   useEffect(() => {
     const unlisten = history.listen((request, type) => {
-      if (type === 'POP') {
+      if (type === "POP") {
         if (!window.location.hash) {
           setTimeout(() => {
             window.scrollTo(0, window.scrollY + 1);
@@ -18,12 +18,10 @@ function ScrollTop({ history }) {
     });
     return () => {
       unlisten();
-    }
-  }, []);
+    };
+  }, [history]);
 
-  return (null);
+  return null;
 }
-
-
 
 export default withRouter(ScrollTop);

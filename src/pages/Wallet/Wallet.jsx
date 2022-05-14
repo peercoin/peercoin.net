@@ -126,7 +126,7 @@ function Wallet() {
                     <a
                       href={item.link}
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="noopener noreferrer nofollow"
                     >
                       <div className="desktop-downloads__items__item__title">
                         {item.os}
@@ -218,7 +218,7 @@ function Wallet() {
                       href={wallet.url}
                       className="blocks-list__block"
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="noopener noreferrer nofollow"
                     >
                       <h4 className="blocks-list__block__title">
                         {wallet.title.translated
