@@ -193,7 +193,7 @@ function Footer() {
                   <a
                     href="https://peercoin.net/blog/"
                     target="_blank"
-                    rel="noopener noreferrer nofollow"
+                    rel="noopener noreferrer"
                   >
                     {t("footerComponent.links.project.linkBlog")}
                   </a>
