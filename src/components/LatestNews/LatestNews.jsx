@@ -9,7 +9,7 @@ function LatestNews() {
   useEffect(() => {
     async function getData() {
       const peercoinPosts = await fetch(
-        "https://api.rss2json.com/v1/api.json?rss_url=https://blog.peercoin.net/rss.xml"
+        "https://api.rss2json.com/v1/api.json?rss_url=https://peercoin.net/blog/rss/"
       ).then((res) => res.json());
 
       const posts = peercoinPosts.items
@@ -20,7 +20,8 @@ function LatestNews() {
           title: post.title,
           link: post.link,
           categories: post.categories,
-        }));
+        }))
+        .slice(0, 3);
 
       await setPosts(posts);
     }
@@ -46,21 +47,6 @@ function LatestNews() {
             <div title={post.published} className="post__published">
               Published {formatTime(post.published.replace(/ /g, "T"))}
             </div>
-            <hr></hr>
-
-            {/* <div className="post__tag-container">
-              {post.categories.map((category) => (
-                <div className="post__tag-container__tag" key={category}>
-                  <a
-                    href={"https://blog.peercoin.net/tagged/" + category}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {category}
-                  </a>
-                </div>
-              ))}
-            </div> */}
           </div>
         ))}
     </div>
