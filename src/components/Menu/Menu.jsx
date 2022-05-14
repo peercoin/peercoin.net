@@ -169,7 +169,7 @@ function Menu() {
                 </li>
                 <li>
                   <a
-                    href="https://blog.peercoin.net"
+                    href="https://peercoin.net/blog/"
                     className="submenu"
                     target="_blank"
                     rel="noopener noreferrer"
