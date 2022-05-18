@@ -19,26 +19,8 @@ function Index() {
   ];
 
   const { t } = useTranslation();
-  const [cs1, setCs1] = useState(true);
-  const [cs2, setCs2] = useState(false);
-  const [cs3, setCs3] = useState(false);
-  const [cs4, setCs4] = useState(false);
-  const [cs5, setCs5] = useState(false);
-  const [cs6, setCs6] = useState(false);
   const [currentVideo, setCurrentVideo] = useState(0);
   const [isVideoPristine, setIsVideoPristine] = useState(true);
-
-  const sets = [setCs1, setCs2, setCs3, setCs4, setCs5, setCs6];
-
-  async function handleOpen(num) {
-    sets.forEach((set, i) => {
-      if (i === num) {
-        set(true);
-      } else {
-        set(false);
-      }
-    });
-  }
 
   async function onYoutubeEnd() {
     if (currentVideo === youtubeVideos.length - 1) {
@@ -214,8 +196,7 @@ function Index() {
               </h2>
               <div className="timeline__body">
                 <Collapsible
-                  onOpening={() => handleOpen(0)}
-                  open={cs1}
+                  open={true}
                   trigger={
                     <div className="timeline__body__section">
                       <img src="/img/icons/graduationcap_white.png" alt="" />{" "}
@@ -241,8 +222,7 @@ function Index() {
                   </div>
                 </Collapsible>
                 <Collapsible
-                  onOpening={() => handleOpen(1)}
-                  open={cs2}
+                  open={true}
                   trigger={
                     <div className="timeline__body__section">
                       <img src="/img/icons/purchasing_white.png" alt="" />{" "}
@@ -268,8 +248,7 @@ function Index() {
                   </div>
                 </Collapsible>
                 <Collapsible
-                  onOpening={() => handleOpen(2)}
-                  open={cs3}
+                  open={true}
                   trigger={
                     <div className="timeline__body__section">
                       <img src="/img/icons/wallets.png" alt="" />{" "}
@@ -295,8 +274,7 @@ function Index() {
                   </div>
                 </Collapsible>
                 <Collapsible
-                  onOpening={() => handleOpen(3)}
-                  open={cs4}
+                  open={true}
                   trigger={
                     <div className="timeline__body__section">
                       <img src="/img/icons/anvil.png" alt="" />{" "}
@@ -316,8 +294,7 @@ function Index() {
                   </div>
                 </Collapsible>
                 <Collapsible
-                  onOpening={() => handleOpen(4)}
-                  open={cs5}
+                  open={true}
                   trigger={
                     <div className="timeline__body__section">
                       <img src="/img/icons/pickaxe.png" alt="" />{" "}
@@ -336,8 +313,7 @@ function Index() {
                   </div>
                 </Collapsible>
                 <Collapsible
-                  onOpening={() => handleOpen(5)}
-                  open={cs6}
+                  open={true}
                   trigger={
                     <div className="timeline__body__section">
                       <img src="/img/icons/community_white.png" alt="" />{" "}
