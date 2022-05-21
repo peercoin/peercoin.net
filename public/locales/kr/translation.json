@@ -166,7 +166,7 @@
     "peerAssetsP1": "프로토콜은 메시지가 자산을, 주소가 피어를 나타내는 블록체인에서 메시지를 쓰고 읽음으로써 동작한다고 간략히 설명할 수 있습니다.",
     "peerAssetsP2": "PeerAsset 프로토콜 기반의 자산은 채권이나 보통주와 같은 모든 유형의 자산을 나타내는데 활용할 수 있습니다. PeerAssets는 또한 실생활의 객체를 나타낼 수 있으며, 그렇게 함으로써 블록체인 상에서 존재 여부를 확인합니다. PeerAssets는 기본 프로토콜 체인에 추가적인 레이어를 사용하지 않아 가벼운 프로토콜입니다. 블록체인 기본 통화 외에 거래 수수료 지불을 위한 다른 외부 토큰은 필요하지 않습니다. PeerAssets는 공공 장부를 만들거나 유지하는데 참여하지는 않지만 그것의 안정성과 신뢰성이 주는 장점을 활용합니다. PeerAssets는 비트코인에서 포크 되거나 호환 가능한 코드 베이스를 유지하는 피어코인, 라이트코인과 같은 주요 암호화폐에서 동작합니다.",
     "peerAssetsP3": "PeerAssets는 호스트 네트워크의 하드 또는 소프트 포크가 필요하지는 않지만 PeerAssets 인식을 위한 클라이언트를 개발해야 합니다. PeerAssets는 \"Colored Coins\"이라는 원래 아이디어에서 영감을 얻었으며, OP_RETURN을 사용해서 블록체인 상에 데이터를 기록하지만 OP_RETURN을 통해 기록된 데이 터양을 줄이기 위한 최적화 기능을 제공합니다. PeerAssets는 관련 트랜잭션을 블록체인 상에서 쉽게 쿼리 할 수 있으며 주주 투표나 배당금 지급과 같은 몇 가지 추가 기능도 제공합니다.",
-    "peerAssetsP4": "시작하시려면, <a href=\"https://medium.com/@buckkets/basic-deck-creation-with-peerassets-tutorial-e416415b3cc8\" target=\"_blank\" rel=\"noopener noreferrer\">덱 생성에 대한 기본 튜토리얼을 확인하십시오.</a>",
+    "peerAssetsP4": "시작하시려면, <a href=\"https://www.peercoin.net/blog/basic-deck-creation-with-peerassets-tutorial\" target=\"_blank\" rel=\"noopener noreferrer\">덱 생성에 대한 기본 튜토리얼을 확인하십시오.</a>",
     "peerAssetsBtnGithub": "GitHub",
     "peerAssetsBtnWhitepaper": "백서",
     "perperaTitle": "Perpera",

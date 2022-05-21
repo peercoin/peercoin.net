@@ -166,7 +166,7 @@
     "peerAssetsP1": "关于PeerAssets协议的一个简单解释是，它通过在区块链上编写和读取消息来工作，其中消息表示资产，地址表示对等点。",
     "peerAssetsP2": "基于PeerAsset协议的资产可以用于表示任何类型的资产，如债券或股票。PeerAssets还可以表示真实的对象，通过这样做可以确认它们在区块链上的存在。PeerAssets是一个轻量级协议，因为它没有在底层区块链上使用额外的层。除了用于支付交易费用的区块链本地货币之外，它不需要外部值令牌。PeerAssets不参与公共分类账的组织和维护，而是利用其稳定性和可信性。PeerAssets可以在所有由比特币派生的加密货币上工作，并保持兼容的代码库，包括Peercoin、Litecoin等。",
     "peerAssetsP3": "PeerAssets不需要主机网络的硬分支或软分支，但是它需要开发一个支持PeerAssets的客户机。PeerAssets也受到“彩色硬币”的原始思想的启发，使用OP_RETURN在区块链上写入数据，但是提供了一些优化来减少OP_RETURN中写入的数据量。PeerAssets可以方便地查询相关交易的区块链，并提供一些额外的功能，如股东投票和股息支付。",
-    "peerAssetsP4": "开始,  <a href=\"https://medium.com/@buckkets/basic-deck-creation-with-peerassets-tutorial-e416415b3cc8\" target=\"_blank\" rel=\"noopener noreferrer\">查看这个关于deck创建的基本教程。</a>",
+    "peerAssetsP4": "开始,  <a href=\"https://www.peercoin.net/blog/basic-deck-creation-with-peerassets-tutorial\" target=\"_blank\" rel=\"noopener noreferrer\">查看这个关于deck创建的基本教程。</a>",
     "peerAssetsBtnGithub": "GitHub",
     "peerAssetsBtnWhitepaper": "白皮书",
     "perperaTitle": "Perpera",
