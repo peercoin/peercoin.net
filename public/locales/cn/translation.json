@@ -330,7 +330,7 @@
     "getStartedTitle": "开始",
     "collapsables": {
       "learnTitle": "学习",
-      "learnText1": "有关项目的深入概览，<a href=\"https://peercoin.net/university/\" target=\"_blank\" rel=\"noopener noreferrer\">点点币大学</a> 是最好的起点。有关Peercoin的更多文章，请浏览我们的 <a href=\"https://peercoin.net/blog/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Blog</a>.",
+      "learnText1": "有关项目的深入概览，<a href=\"https://peercoin.net/university/\" target=\"_blank\" rel=\"noopener noreferrer\">点点币大学</a> 是最好的起点。有关Peercoin的更多文章，请浏览我们的 <a href=\"https://www.peercoin.net/blog/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Blog</a>.",
       "learnText2": "对于那些希望进行开发的人来说，PeerAssets是Peercoin针对令牌的第二层解决方案。更多的信息可以在我们的网站上找到 <a href=\"/projects\">项目</a> 页面",
       "learnText3": " 可以找到丰富的技术信息在 <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin文档</a> 里。",
       "purchaseTitle": "购买",
@@ -348,7 +348,7 @@
       "mineText1": "点点币使用hashcash双迭代SHA-256算法进行工作证明挖掘。这意味着任何可以开采比特币的硬件也可以开采点点币。",
       "mineText2": "首先，请查看 <a href=\"https://peercoin.net/docs/#/mining\" target=\"_blank\" rel=\"noopener noreferrer\">挖掘文档</a>.",
       "communityTitle": "社区",
-      "communityText1": "加入我们的 <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Forum</a>, <a href=\"https://discord.gg/XPxfwtG\" target=\"_blank\" rel=\"noopener noreferrer\">Discord</a>, 或 <a href=\"https://t.me/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Telegram</a> 与其他点点币社区成员和开发人员聊天。订阅我们的 <a href=\"https://twitter.com/PeercoinPPC\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter</a>, <a href=\"https://www.reddit.com/r/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>, <a href=\"https://peercoin.net/blog/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Blog</a>, 或 <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\" target=\"_blank\" rel=\"noopener noreferrer\">Newsletter</a> 了解最新的点点币新闻。检查 <a href=\"/resources#communities\">在这里</a>  获取所有其他社区资源的列表。",
+      "communityText1": "加入我们的 <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Forum</a>, <a href=\"https://discord.gg/XPxfwtG\" target=\"_blank\" rel=\"noopener noreferrer\">Discord</a>, 或 <a href=\"https://t.me/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Telegram</a> 与其他点点币社区成员和开发人员聊天。订阅我们的 <a href=\"https://twitter.com/PeercoinPPC\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter</a>, <a href=\"https://www.reddit.com/r/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>, <a href=\"https://www.peercoin.net/blog/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Blog</a>, 或 <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\" target=\"_blank\" rel=\"noopener noreferrer\">Newsletter</a> 了解最新的点点币新闻。检查 <a href=\"/resources#communities\">在这里</a>  获取所有其他社区资源的列表。",
       "communityText2": "重要的更新也可以通过以下平台直接发送到您的移动设备 <a href=\"https://blockfolio.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blockfolio</a>, <a href=\"https://delta.app/\" target=\"_blank\" rel=\"noopener noreferrer\">Delta</a>, 和 <a href=\"https://www.coingecko.com/\" target=\"_blank\" rel=\"noopener noreferrer\">CoinGecko</a>. 订阅以了解最新消息。"
     },
     "latestNewsTitle": "最新消息"
