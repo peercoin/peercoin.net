@@ -9,7 +9,7 @@ function LatestNews() {
   useEffect(() => {
     async function getData() {
       const peercoinPosts = await fetch(
-        "https://api.rss2json.com/v1/api.json?rss_url=https://peercoin.net/blog/rss/"
+        "https://api.rss2json.com/v1/api.json?rss_url=https://www.peercoin.net/blog/rss/"
       ).then((res) => res.json());
 
       const posts = peercoinPosts.items
