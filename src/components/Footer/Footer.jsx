@@ -191,7 +191,7 @@ function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://peercoin.net/blog/"
+                    href="https://www.peercoin.net/blog/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
