@@ -4,20 +4,20 @@
     {
       "os": "Windows",
       "img": "/img/icons/windows.png",
-      "checksum": "cad0ef1b5168d5fdebebe89a1736ad1d29a6c86eb1e31749a5a1f7c0282c37b2",
-      "link": "https://github.com/peercoin/peercoin/releases/tag/v0.11.7ppc"
+      "checksum": "d695fd26039660b24ebe453832e3073b414b6ae09aa75d4c7edb429b2b5dfe40",
+      "link": "https://github.com/peercoin/peercoin/releases/tag/v0.11.8ppc"
     },
     {
       "os": "macOS",
       "img": "/img/icons/apple.png",
-      "checksum": "800847526d04edf0357e05440465dfa4f2337fe31ff6343fc0647082896460f9",
-      "link": "https://github.com/peercoin/peercoin/releases/tag/v0.11.7ppc"
+      "checksum": "7b3368e6878424a8737540b13f6228a813d37bd181d6ea36aa20fa2388acde6c",
+      "link": "https://github.com/peercoin/peercoin/releases/tag/v0.11.8ppc"
     },
     {
       "os": "Linux",
       "img": "/img/icons/linux.png",
-      "checksum": "f3968780ac2506fff41d4ec7a3391c9af423f3f65275bbaa3763f88755147c8a",
-      "link": "https://github.com/peercoin/peercoin/releases/tag/v0.11.7ppc"
+      "checksum": "7e25301d402e2d70b3285e6784439e0527757393fdbbd21d3518088e10281f14",
+      "link": "https://github.com/peercoin/peercoin/releases/tag/v0.11.8ppc"
     }
   ],
   "other": [
