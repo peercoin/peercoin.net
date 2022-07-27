@@ -173,18 +173,6 @@
           }
         },
         {
-          "url": "https://www.abra.com/",
-          "image": "/img/wallets/abra.png",
-          "title": {
-            "translated": false,
-            "text": "Abra"
-          },
-          "subtitle": {
-            "translated": true,
-            "text": "walletPage.type2"
-          }
-        },
-        {
           "url": "https://www.coinomi.com/",
           "image": "/img/wallets/coinomi.png",
           "title": {
