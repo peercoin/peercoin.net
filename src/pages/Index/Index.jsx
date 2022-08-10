@@ -42,7 +42,7 @@ function Index() {
       <div className="Index hero">
         <img
           className="hero__logo"
-          src="/img/logos/peercoin-vertical-whiteleaf-whitetext-transparent_slogan.svg"
+          src="/img/logos/peercoin_sustainable_white.svg"
           alt="Peercoin Logo"
         />
         <div className="hero__actions">

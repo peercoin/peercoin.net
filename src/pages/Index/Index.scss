@@ -4,6 +4,7 @@
 .Index {
   &.hero {
     .hero__logo, .hero__actions {
+      margin: 1rem 0 1rem;
       @include viewports(large) {
         width: 30rem;
       }
