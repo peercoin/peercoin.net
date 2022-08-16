@@ -26,6 +26,15 @@
       "title": "walletPage.mobileWalletTitle",
       "wallets": [
         {
+          "url": "https://wallet.peercoin.net",
+          "image": "/img/wallets/browser.png",
+          "title": {
+            "translated": false,
+            "text": "Web Wallet"
+          },
+          "subtitle": ""
+        },
+        {
           "url": "https://play.google.com/store/apps/details?id=com.coinerella.peercoin",
           "image": "/img/wallets/android.png",
           "title": {
