@@ -89,6 +89,16 @@ function Privacy() {
             notified. As such, we encourage you to periodically review these
             policies for the latest information on practices.
           </p>
+          <p>
+            Icons provided by{" "}
+            <a
+              href="https://icons8.com"
+              rel="noopener norefferer"
+              target="_blank"
+            >
+              icons8.com
+            </a>{" "}
+          </p>
         </div>
       </div>
       <Footer />

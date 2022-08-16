@@ -287,7 +287,7 @@
       "action1": "Installation",
       "action2": "Paper Wallet",
       "action3": "Unofficial Wallets",
-      "action4": "Mobile Wallet"
+      "action4": "Flutter Wallet"
     },
     "desktopWalletTitle": "Desktop Wallets",
     "walletWindows": "Windows",
@@ -342,7 +342,7 @@
       "text15": "Your wallet is located in <code>~/.peercoin</code>.",
       "text16": "Additional help can be found in the <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Documentation</a> or by asking on our <a href=\"https://talk.peercoin.net/\">Forums</a>."
     },
-    "mobileWalletTitle": "Mobile Wallet",
+    "mobileWalletTitle": "Flutter Wallet",
     "paperWalletTitle": "Paper Wallet",
     "paperWalletSubtitle1": "Paper Wallet",
     "paperWalletSubtitle2": "Unofficial Wallets",
