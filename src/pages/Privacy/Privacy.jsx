@@ -93,7 +93,7 @@ function Privacy() {
             Icons provided by{" "}
             <a
               href="https://icons8.com"
-              rel="noopener norefferer"
+              rel="noreferrer noopener"
               target="_blank"
             >
               icons8.com

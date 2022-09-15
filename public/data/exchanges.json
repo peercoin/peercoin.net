@@ -79,6 +79,12 @@
       "url": "https://atomicdex.io/",
       "image": "/img/exchanges/atomicDEX_green.png",
       "type": "resourcesPage.exchangesType1"
+    },
+    {
+      "title": "XBTS DEX",
+      "url": "https://atomicdex.io/",
+      "image": "/img/exchanges/xbts_green.png",
+      "type": "resourcesPage.exchangesType1"
     }
   ]
 }
