@@ -10,7 +10,6 @@ function LatestNews() {
   useEffect(() => {
     async function getData() {
       const peercoinPosts = await parse("https://www.peercoin.net/blog/rss/");
-      console.log(peercoinPosts);
 
       const posts = peercoinPosts.items
         .sort((a, b) => new Date(b.published) - new Date(a.published))
