@@ -21,6 +21,7 @@
     border-radius: 6px;
     box-shadow: 0 20px 32px -5px rgba(15, 39, 61, 0.12);
     transition: all 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+    padding: 0 1rem;
 
     &__tag-container {
       margin: 10px 5px;
@@ -34,12 +35,12 @@
         display: inline-block;
         margin: 5px;
         font-size: 1rem;
-    
+
         a {
           text-transform: uppercase;
           color: white;
         }
-    
+
         &:hover {
           transform: translateY(-2px);
         }
@@ -53,7 +54,7 @@
       color: $color-green;
       padding: 0.5rem 0;
     }
-  
+
     hr {
       border: 0;
       border-bottom: 1px solid $color-green;
@@ -76,9 +77,11 @@
     @include viewports(up-to small) {
       margin: 20px 5px;
     }
-    
+
     &:hover {
-      box-shadow: 0 20px 32px -3px rgba(15, 39, 61, 0.12), 0 32px 72px -20px rgba(15, 39, 61, 0.17), 0 40px 100px 0 rgba(9, 24, 37, 0.09);
+      box-shadow: 0 20px 32px -3px rgba(15, 39, 61, 0.12),
+        0 32px 72px -20px rgba(15, 39, 61, 0.17),
+        0 40px 100px 0 rgba(9, 24, 37, 0.09);
       transform: translateY(-4px);
     }
 
