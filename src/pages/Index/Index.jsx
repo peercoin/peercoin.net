@@ -137,7 +137,6 @@ function Index() {
               </h2>
               <p>{renderHTML(t("indexPage.userGovernanceText1"))}</p>
               <p>{renderHTML(t("indexPage.userGovernanceText2"))}</p>
-              <p>{renderHTML(t("indexPage.userGovernanceText3"))}</p>
             </div>
           </section>
           <section className="home-description">
