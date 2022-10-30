@@ -300,6 +300,17 @@ function Menu() {
                     {t("menuComponent.links.community.bitcointalk")}
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="https://coinmarketcap.com/community/profile/Peercoin"
+                    className="submenu"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                  >
+                    <img src="/img/icons/cmc_green.png" alt="" />
+                    {t("menuComponent.links.community.cmc")}
+                  </a>
+                </li>
               </ul>
             </li>
             <li>
