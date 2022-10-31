@@ -47,6 +47,11 @@
       "image": "/img/icons/github_green.png"
     },
     {
+      "title": "CoinMarketCap",
+      "url": "https://coinmarketcap.com/community/profile/Peercoin",
+      "image": "/img/icons/cmc_green.png"
+    },
+    {
       "title": "Blog",
       "url": "https://www.peercoin.net/blog/",
       "image": "/img/icons/blog_green.png"
