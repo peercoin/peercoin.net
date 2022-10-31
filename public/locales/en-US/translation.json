@@ -52,7 +52,8 @@
         "telegram": "Telegram",
         "discord": "Discord",
         "youtube": "YouTube",
-        "bitcointalk": "Bitcointalk"
+        "bitcointalk": "Bitcointalk",
+        "cmc": "CoinMarketCap"
       },
       "donate": {
         "title": "Donate"
