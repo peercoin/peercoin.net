@@ -2,7 +2,12 @@ Peercoin.net Repo
 ============
 
 This repo holds the static HTML files for [Peercoin.net](https://peercoin.net).
-The site is hosted on GitHub itself, via gh-pages.
+The site is hosted on Cloudflare Pages.
+
+### Help Translate
+<a href="https://weblate.ppc.lol/engage/peercoin-net/">
+<img src="https://weblate.ppc.lol/widgets/peercoin-net/-/translations/multi-green.svg" alt="Übersetzungsstatus" />
+</a>
 
 ### Issues
 Content requests, bug reports, etc. are all handled through [GitHub Issues](https://github.com/peercoin/peercoin.net/issues). 
