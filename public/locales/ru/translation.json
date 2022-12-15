@@ -1,397 +1,428 @@
 {
-  "menuComponent": {
-    "links": {
-      "home": {
-        "title": "Главная"
-      },
-      "learn": {
-        "title": "Учим",
-        "peercoinUniversity": "Университет Peercoin",
-        "whatIsBlockchain": "Что такое блокчейн?",
-        "inherentCentralization": "Внутренняя централизация блокчейнов с Доказательством Работы (PoW)",
-        "peercoinProofOfStake": "Peercoin & Консенсус Доказательство Работы (PoS)",
-        "efficientSustainableSecurity": "Эффективность & Безопасность",
-        "economicsOfPeercoin": "Экономика Peercoin",
-        "scalabilityOfPeercoin": "Масштабируемость Peercoin",
-        "deflationAndCriptocurrencies": "Дефляция и Криптовалюты",
-        "peercoinHybridChainSolution": "Гибридное блокчейн решение",
-        "richRicherFallacy": "Заблуждение: \"Богатые становятся богаче\"",
-        "frequentlyAskedQuestions": "Частые вопросы"
-      },
-      "getStarted": {
-        "title": "Начать"
-      },
-      "resources": {
+    "menuComponent": {
+        "links": {
+            "home": {
+                "title": "Главная"
+            },
+            "learn": {
+                "title": "Учим",
+                "peercoinUniversity": "Университет Peercoin",
+                "whatIsBlockchain": "Что такое блокчейн?",
+                "inherentCentralization": "Внутренняя централизация блокчейнов с Доказательством Работы (PoW)",
+                "peercoinProofOfStake": "Peercoin & Консенсус Доказательство Работы (PoS)",
+                "efficientSustainableSecurity": "Эффективность & Безопасность",
+                "economicsOfPeercoin": "Экономика Peercoin",
+                "scalabilityOfPeercoin": "Масштабируемость Peercoin",
+                "deflationAndCriptocurrencies": "Дефляция и Криптовалюты",
+                "peercoinHybridChainSolution": "Гибридное блокчейн решение",
+                "richRicherFallacy": "Заблуждение: \"Богатые становятся богаче\"",
+                "frequentlyAskedQuestions": "Частые вопросы"
+            },
+            "getStarted": {
+                "title": "Начать"
+            },
+            "resources": {
+                "title": "Ресурсы",
+                "documentation": "Документация",
+                "mining": "Майнинг",
+                "peercoinUniversity": "Университет Peercoin",
+                "exchanges": "Биржи",
+                "blockExplorers": "Блок Эксплорер",
+                "whitepaper": "Белая Бумага",
+                "graphics": "Графика"
+            },
+            "project": {
+                "title": "Проект",
+                "github": "GitHub",
+                "projects": "Проекты",
+                "blog": "Блог",
+                "peercoinFoundation": "Фонд Peercoin",
+                "contactUs": "Свяжитесь с нами",
+                "contribute": "Сотрудничать"
+            },
+            "wallet": {
+                "title": "Кошелек"
+            },
+            "community": {
+                "title": "Сообщество",
+                "forum": "Форум",
+                "twitter": "Twitter",
+                "facebook": "Facebook",
+                "reddit": "Reddit",
+                "telegram": "Telegram",
+                "discord": "Discord",
+                "youtube": "YouTube",
+                "bitcointalk": "Bitcointalk",
+                "cmc": "CoinMarketCap"
+            },
+            "donate": {
+                "title": "Пожертвовать"
+            }
+        }
+    },
+    "footerComponent": {
+        "subscribeTitle": "Подпишитесь на новости Peercoin",
+        "subscribeSubtitle": "Будьте в курсе последних новостей Peercoin, подписавшись на нашу рассылку!",
+        "subscribeBtnLabel": "Подписаться",
+        "links": {
+            "learn": {
+                "title": "Учить",
+                "linkPeercoinUniversity": "Университет Peercoin",
+                "linkWhatIsBlockchain": "Что такое блокчейн?",
+                "linkInherentCentralization": "Внутренняя централизация блокчейнов c Доказательством Работы (PoW)",
+                "linkPeercoinProofOfStakeConsensus": "Peercoin & Консенсус Доказательство Работы (PoS)",
+                "linkEfficientSustainableSecurity": "Эффективность & Безопасность",
+                "linkEconomicsOfPeercoin": "Экономика Peercoin",
+                "linkScalabilityOfPeercoin": "Масштабируемость Peercoin",
+                "linkFAQ": "Частые вопросы"
+            },
+            "getStarted": {
+                "title": "Начнем"
+            },
+            "resources": {
+                "title": "Ресурсы",
+                "linkDocumentation": "Документация",
+                "linkExchanges": "Биржи",
+                "linkBlockExplorers": "Блок Эксплорер",
+                "linkWhitepaper": "Белая Бумага",
+                "linkGraphics": "Графика",
+                "linkMining": "Майнинг"
+            },
+            "wallet": {
+                "title": "Кошелек"
+            },
+            "project": {
+                "title": "Проект",
+                "linkGithub": "GitHub",
+                "linkProjects": "Проекты",
+                "linkBlog": "Блог",
+                "linkFoundation": "Фонд Peercoin",
+                "linkPrivacyPolicy": "Политика Конфиденциальности",
+                "linkContact": "Контакты"
+            },
+            "community": {
+                "title": "Сообщество",
+                "linkForum": "Forum",
+                "linkReddit": "Reddit",
+                "linkTelegram": "Telegram",
+                "linkDiscord": "Discord",
+                "linkBitcointalk": "Bitcointalk",
+                "linkFacebook": "Facebook",
+                "linkTwitter": "Twitter",
+                "linkYoutube": "YouTube"
+            }
+        },
+        "copyright": {
+            "copyright": "Copyright ©",
+            "rights": "Фонд Peercoin | Все права защищены"
+        }
+    },
+    "latestNewsComp": {
+        "readMore": "Читать больше"
+    },
+    "foundationPage": {
+        "missionStatementTitle": "Заявление о миссии",
+        "missionStatementText1": "Фонд Peercoin был основан с простой миссией продвижения и поддержки непрерывного образования, развития и общего прогресса проекта Peercoin. Мы стремимся расширить возможности будущих членов команды Peercoin, предоставляя инструменты, необходимые для сохранения давней репутации Peercoin в области внедрения инноваций первого поколения в блокчейн.",
+        "missionStatementText2": "Сеть блокчейна Peercoin и проект Peercoin в целом представляют собой децентрализованный реестр с открытым исходным кодом, без руководящего органа. Peercoin Фонд не предъявляет претензий в отношении интеллектуальной собственности, связанной с проектом Peercoin, если явно не указано иное.",
+        "technicalSupportTitle": "Поддержка сообщества",
+        "technicalSupportText": "Если вы хотите участвовать в проекте Peercoin, или просто хотите поддержать команду, у вас есть несколько вариантов. Если вы заинтересованы в том чтобы стать разработчиком Peercoin или связанных с Peercoin проектов, таких как PeerAssets, напишите нам по адресу foundation@peercoin.net . Если вы хотите сделать пожертвование Peercoin Фонда, или для поддержки любого расширенного проекта, просто отправьте свое пожертвование PPC на указанный ниже мултисиг адрес.",
+        "generalFundPpcAddress": "Общий фонд - <strong>PPC</strong> Адрес для пожертвования:",
+        "generalFundBtcAddress": "Общий фонд - <strong>BTC</strong> Адрес для пожертвования:",
+        "viewOnExplorer": "Посмотреть в Блок Експлорер",
+        "openCollectiveNote": "Пожертвования фиатом - <strong>USD/EUR</strong> Кредит/Дебит/Перевод:",
+        "contactUsTitle": "Свяжитесь с нами",
+        "addressCountry": "Нидерланды",
+        "reportsTitle": "Финансовые отчеты",
+        "reportsSupportText": "Фонд Peercoin ежегодно публикует финансовые отчеты. Вы можете скачать их здесь."
+    },
+    "contributePage": {
+        "contributeTitle": "Внести свой вклад ",
+        "contributeDescription": "Как вы можете помочь улучшить Peercoin",
+        "contributeIntro": "Peercoin это бесплатный проект с открытым исходным кодом, и помощь в его улучшении приветствуется! Есть несколько способов помочь:",
+        "header": {
+            "reportBugs": "Сообщить об ошибках",
+            "helpOthers": "Помогите другим сообщать об ошибках",
+            "translate": "Переведите Peercoin на вашем языке",
+            "write": "Пишите код"
+        },
+        "content": {
+            "reportBugs": "Если вы обнаружите ошибки в приложении Peercoin, вам необходимо записать их в наш трекер ошибок. \n Возможно, о вашей проблеме уже сообщалось, поэтому рекомендуется проверить, чтобы избежать дублирования. \n Если у вас есть предложения по новым функциям или улучшениям? \n Откройте запрос на GitHub.",
+            "helpOthers": "Вы можете помочь команде разработчиков не отставать в отчете об ошибках, закрывая дубликаты, помогая прояснять проблемы, с которыми сталкиваются репортеры, и подтверждая исправления ошибок. Хорошим началом будет Discord или наш форум.",
+            "translate": "Peercoin переведен на десятки языков, но если перевод для вашего языка не существует или не обновлялся, вы можете помочь сделать Peercoin ближе к людям просто переведя текст.",
+            "write": "Мы приветствуем вклад в изменение кода от любого, независимо от того есть ли у него большой опыт программирования или нет."
+        },
+        "buttons": {
+            "help": "Форум",
+            "translate": "Transifex"
+        }
+    },
+    "contactPage": {
+        "contactTitle": "Свяжитесь с нами",
+        "contactDescription": "По общим вопросам Peercoin Фонд всегда готов вам ответить!",
+        "contactUsTitle": "Свяжитесь с нами",
+        "contactUsText": "Чтобы получить техническую помощь или решить проблемы с кошельками, майнингом или с другими общими вопросами, посетите Peercointalk или другие ресурсы сообщества. По другим вопросам используйте эту ссылку:",
+        "contactUsBtn": "Свяжитесь с нами",
+        "technicalSupportTitle": "Техническая поддержка",
+        "technicalSupportText": "Нужна помощь с технической проблемой? Вы можете найти помощь и отличные ресурсы сообщества на Peercointalk.",
+        "addressCountry": "Нидерланды",
+        "documentationTitle": "Документация",
+        "documentationText": "Вы разработчик и ищете дополнительную информацию о Peercoin? Смотрите нашу документацию.",
+        "documentationBtn": "Документация",
+        "faqTitle": "Частые вопросы",
+        "faq": {
+            "howOldQuestion": "Когда стартовал проект Peercoin?",
+            "howOldAnswer": "Блокчейн Peercoin был запущен 19 августа 2012 года в 18:00:00 по всемирному координированному времени. Премайнинга не было, и о запуске проекта было объявлено за девять дней. Вы можете прочитать оригинальное объявление здесь: <a href=\"https://bitcointalk.org/index.php?topic=101820.0\" target=\"_blank\" rel=\"noopener noreferrer\">Bitcointalk</a>",
+            "howCanIMineQuestion": "Как я могу майнить Peercoin?",
+            "howCanIMineAnswer": "Peercoin использует криптографическую хеш-функцию - SHA256. Любое оборудование, которое может извлекать биткойны, может быть использовано для извлечения Peercoin.",
+            "whyMintingQuestion": "Почему рентабельность 1%? Почему нет ограничения на общее количество PPC? Это не дисквалифицирует Peercoin как дефляционную валюту?",
+            "whyMintingAnswer": "Peercoin имеет уровень инфляции 1%, что позволяет участникам расти со временем. Полностью дефляционные валюты не могут использоваться в качестве средства обмена, а могут использоваться только как сбережения. Допуская управляемый уровень инфляции, Peercoin остается ограниченным, но позволяет расширить участие. Это также помогает компенсировать монеты, которые выводятся из обращения из-за потери кошельков и налогов на оплату транзакций.",
+            "whyFixedFeeQuestion": "Почему комиссия за транзакцию должна быть фиксированной?",
+            "whyFixedFeeAnswer": "Peercoin имеет фиксированную комиссию за транзакцию и фильтрует типы спам-транзакций которые повредили такие блкчейны как Биткойн. Фиксированная комиссия также допускает предсказуемые комиссии за транзакции, поскольку нефиксированные комиссии в других блокчейнах могут быстро изменяются, в результате чего транзакции будут забыты на несколько дней. Фиксированная комиссия позволяет транзакциям проходить последовательно: первым пришел - первым обслужили. Peercoin может растягиваться, масштабироваться не беспокоясь о том, что цена повлияет на удобство использования. В версии 0.7 комиссия за транзакцию снижена с 0,01 PPC до 0,001 PPC.",
+            "howCanPeercoinQuestion": "Как может сеть Peercoin выжить без майнеров, обеспечивающих безопасность PoW, особенно в периоды низкого интереса?",
+            "howCanPeercoinAnswer": "Доказательство Работы (PoW) служит инфляционным механизмом для распределения монет. Сеть Peercoin предоставляется Возраст Валюты (Currency Age) и Доказательство Ставки (Proof-of-Stake) . С блочейнами PоW владельцы имеют ограниченную возможность защитить дорогостоящую цепочку, из-за высокой стоимости оборудования, что является серьезным препятствием. В Peercoin любой держатель может защитить свои инвестиции, позволив транзакции созреть, оставив свой кошелек открытым. Доказательство Ставки (PoS) обеспечивает безопасность сети с момента создания Peercoin.",
+            "whyNoMintingQuestion": "Я только что отправил PPC в свой кошелек, и он мне показывает что у меня нулевые шансы получить награждение в следующие 30 дней. Почему это так?",
+            "whyNoMintingAnswer": "Транзакции Peercoin должны быть открытыми на 30 дней или около 4320 блоков, прежде чем они станут пригодными для чеканки. Это число обновляется примерно каждые шесть часов. По истечении 30-дневного периода ваши монеты станут подходящими, и вероятность со временем должна повыситься.",
+            "howManyConfirmationsQuestion": "Сколько подтверждений необходимо в сети Peercoin для транзакции?",
+            "howManyConfirmationsAnswer": "Для подтверждения транзакции требуется шесть подтверждений. Каждый блок занимает около 10 минут.",
+            "whyNotAvailableMintinQuestion": "Я только что выиграл несколько монет, но кошелек показывает что они сейчас недоступны. Почему?",
+            "whyNotAvailableMintinAnswer": "После того, как транзакция выиграна, необходимо 520 подтверждений прежде чем эти монеты можно будет разблокировать. Это сделано для предотвращения подделок. Каждый блок в сети Peercoin занимает около 10 минут, поэтому монеты становятся доступными за 5200 минут или около 3,6 дня."
+        }
+    },
+    "projectsPage": {
+        "title": "Проекты",
+        "description": "Проекты, которые разрабатываются в экосистеме Peercoin для увеличения использования блокчейна.",
+        "peerAssetsTitle": "PeerAssets",
+        "peerAssetsP1": "Простое объяснение протокола PeerAssets заключается в том, что он работает, записывая и читая сообщения в цепочке блоков, где сообщения это активы, а адреса пиры.",
+        "peerAssetsP2": "Активы основанные на протоколе PeerAsset, могут использоваться для представления любого типа актива, такого как облигации или акции. PeerAssets также могут представлять реальные объекты, таким образом подтверждать их существование в блокчейне. PeerAssets - это легкий протокол, поскольку он не использует дополнительных уровней по сравнению с блокчейном. Он не требует токенов с внешней стоимостью в дополнение к собственной валюте блокчейна, которая используется для оплаты комиссий за транзакции. PeerAssets не участвует в организации и ведении публичного реестра, но пользуется его стабильностью и доверием. PeerAssets может работать с любой криптовалютой, разветленной из биткойн которые сохранили его код, включая Peercoin, Litecoin и другие..",
+        "peerAssetsP3": "PeerAssets не требует хард-форка или софт-форка сети, но требует разработки клиента PeerAssets. PeerAssets также вдохновлен оригинальной идеей цветных монет и использует OP_RETURN для записи данных в цепочку блоков, но предлагает некоторые оптимизации для уменьшения объема данных, записываемых в OP_RETURN. PeerAssets позволяет легко сканировать блокчейн на предмет необходимых транзакций и предлагает некоторые дополнительные функции, такие как голосование акционеров и выплата дивидендов.",
+        "peerAssetsP4": "Для начала ознакомьтесь с этим <a href=\"https://www.peercoin.net/blog/basic-deck-creation-with-peerassets-tutorial\" target=\"_blank\" rel=\"noopener noreferrer\"> руководством по созданию дека.</a>",
+        "peerAssetsBtnGithub": "GitHub",
+        "peerAssetsBtnWhitepaper": "Белая Бумага",
+        "perperaTitle": "Perpera",
+        "perperaP1": "\"Perpera\" это реализация протокола PeerAssets DataAudit, протокол, который впервые был представлен как RFC в июне 2018 г. Perpera - это библиотека, написанная на TypeScript, предназначенная для потребностей будущих приложений на основе веб-разработки и ориентированная на инструменты CLI.",
+        "perperaP2": "Главная цель этого протокола - включение произвольных документов в блокчейн, Доказательство Существования (Proof of Existence) и возможность просматривать упомянутые документы. В этом аспекте (поддержка доработок) этот протокол отличается от уже используемых аналогичных протоколов.",
+        "perperaP3": "Подробнее о протоколе PeerAssets DataAudit:",
+        "perperaP4": "Основная цель этого протокола - записывать криптографические хэши последовательных ревизий однофайловых документов в общедоступном блокчейне, таким образом, чтобы легкие клиенты могли легко запрашивать и проверять историю документов. Такие истории наследуют полезные свойства базовой цепочки блоков, а именно неизменность и массовую репликацию, и поэтому могут служить доказательством существования. Помимо криптографических хэшей, пользователи могут зарегистрировать набор URL-адресов для каждого документа, что упрощает извлечение содержимого документа из источников вне сети (IPFS, https, торрент). Цель состоит в том, чтобы наложить минимальные требования на блокчейн как с точки зрения функций, так и с точки зрения места для хранения.",
+        "perperaP5": "Чтобы узнать больше, смотрите официальный Perpera Github ниже.",
+        "perperaBtnGithub": "GitHub"
+    },
+    "resourcesPage": {
         "title": "Ресурсы",
-        "documentation": "Документация",
-        "mining": "Майнинг",
-        "peercoinUniversity": "Университет Peercoin",
-        "exchanges": "Биржи",
-        "blockExplorers": "Блок Эксплорер",
-        "whitepaper": "Белая Бумага",
-        "graphics": "Графика"
-      },
-      "project": {
-        "title": "Проект",
-        "github": "GitHub",
-        "projects": "Проекты",
-        "blog": "Блог",
-        "peercoinFoundation": "Фонд Peercoin",
-        "contactUs": "Свяжитесь с нами",
-        "contribute": "Сотрудничать"
-      },
-      "wallet": {
-        "title": "Кошелек"
-      },
-      "community": {
-        "title": "Сообщество",
-        "forum": "Форум",
-        "twitter": "Twitter",
-        "facebook": "Facebook",
-        "reddit": "Reddit",
-        "telegram": "Telegram",
-        "discord": "Discord",
-        "youtube": "YouTube",
-        "bitcointalk": "Bitcointalk"
-      }
+        "description": "Инструменты и ресурсы сообщества: в том числе совместное использование, проводник блоков, графика, социальные сети, форумы, чаты и т.д!",
+        "actions": {
+            "action1": "Биржи",
+            "action2": "Блок проводник",
+            "action3": "Сообщество",
+            "action4": "Белая Бумага",
+            "action5": "Графика"
+        },
+        "contributeTitle": "Способствовать",
+        "contributeText": "Peercoin всегда развивается, и любой разработчик может внести свой вклад. Есть множество способов внести свой вклад, включая базовую разработку и написание документации. Пожалуйста, проверьте GitHub ниже, чтобы начать.",
+        "contributeBtn": "GitHub",
+        "documentationTitle": "Документация",
+        "documentationText": "Чтобы узнать больше о технических деталях Peercoin и о том, как использовать существующие инструменты или фреймворк, рекомендуется начать с чтения документации Peercoin.",
+        "documentationBtn": "Документация",
+        "miningTitle": "Майнинг",
+        "miningText1": "Peercoin использует алгоритм хэширования SHA-256 с двойной итерацией для извлечения Доказательства Работы (PoW). Это означает что любое оборудование которое может извлекать Bitcoin, также может извлекать Peercoin.",
+        "miningText2": "Для майнинга Peercoin вам понадобится программное обеспечение. Ниже приведен неофициальный список программного обеспечения, имеющего достойную репутацию.",
+        "miningBtn1": "Документация",
+        "miningBtn2": "Калькулятор",
+        "universityTitle": "Университет Peercoin",
+        "universityText1": "Университет Peercoin - образовательная статья для менее технических членов сообщества, которая поможет им понять сложную тему публичного блокчейна.",
+        "universityText2": "Статья начинается с объяснения того, что такое блокчейн, как он работает, а также его многочисленные преимущества и варианты использования. Биткойн и Доказательство Работы (PoS) подробно описаны ниже, за ними следуют Peercoin и Доказательство Ставки (PoS). Другие темы включают безопасность, централизация, децентрализация, масштабируемость и экономика.",
+        "universityLink1": "Что такое блокчейн?",
+        "universityLink2": "Присущая централизация блокчейнов с Доказательством Работы (PoW)",
+        "universityLink3": "Peercoin & Консенсус Доказательство Ставки (PoS)",
+        "universityBtn": "Университет Peercoin",
+        "exchangesTitle": "Биржи",
+        "exchangesText": "ВНИМАНИЕ: этот список предназначен только для информационных целей. Перечисленные здесь услуги не были оценены и одобрены Peercoin Фондом. Осторожно используйте эти сторонние платформы и сервисы.",
+        "exchangesType1": "Биржи",
+        "exchangesType2": "Услуги",
+        "exchangesType3": "Информация о рынке",
+        "explorersTitle": "Проводники блоков",
+        "explorersMainnet": "Mainnet",
+        "explorersTestnet": "Testnet",
+        "toolsTitle": "Ресурсы",
+        "toolsCharts": "Графики",
+        "toolsMempool": "Mempool",
+        "toolsEnergyStatistics": "Статистика энергетики",
+        "toolsTestnetFaucet": "Testnet Кран",
+        "communityTitle": "Сообщество",
+        "whitepaperTitle": "Белая Бумага",
+        "whitepaperEnglish": "Английский",
+        "whitepaperChinese": "Китайский",
+        "whitepaperSpanish": "Испанский",
+        "whitepaperDutch": "Нидерландский",
+        "whitepaperFrench": "Французский",
+        "whitepaperGerman": "Немецкий",
+        "whitepaperJapanese": "Японский",
+        "whitepaperKorean": "Корейский",
+        "whitepaperRussian": "Русский",
+        "whitepaperRomanian": "Румынский",
+        "graphicsTitle": "Графика",
+        "graphicsText": "Ищете больше графики? Обновленную коллекцию логотипов и обоев можно найти на <a href=\"https://github.com/peercoin/media\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin GitHub</a>.",
+        "graphicsVertical": "Вертикальный логотип",
+        "graphicsHorizontal": "Горизонтальный логотип",
+        "graphicsIconOnly": "Только Иконки",
+        "graphicsTextOnly": "Только Текст",
+        "graphicsFavicons": "Favicon",
+        "graphicsZipFolder": "Доступен ZIP-файл для всех изображений <a href=\"https://peercoin.net/assets/Peercoin%202021%20Graphics.zip\">эдесь</a>",
+        "brandIdentityTitle": "Фирменный стиль",
+        "brandIdentityColorsFonts": "Цветовые коды и шрифты Peercoin:",
+        "brandIdentityDisclaimer": "По возможности используйте эти цветовые коды на своих сайтах Peercoin. Это поможет нам сохранить целостность экосистемы Peercoin, ее брендов и изображений.",
+        "brandIdentityGreen": "Зеленый",
+        "brandIdentityFont": "В текстовом логотипе Peercoin используется следующий шрифт",
+        "brandIdentityFontFont": "Шрифт",
+        "brandIdentityFontType": "Тип",
+        "brandIdentityFontRoboto": "Веб-сайт и кошельки Peercoin используют шрифт <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\" rel=\"noopener noreferrer\">Roboto</a> для контента.",
+        "exchangesType4": "Обмен Эфириума",
+        "exchangesType5": "Обмен Polygon",
+        "toolsPresentation": "Презентация",
+        "wrapedPPCTitle": "Токен wPPC",
+        "wrappedPPCText": "Wrapped Peercoin (wPPC) — это синтетический токен, подкрепленный Peercoin. wPPC создается из Peercoin, с помощью bridge.peercoin.net, и уничтожается при обратной конвертации в Peercoin."
+    },
+    "walletPage": {
+        "title": "Кошельки",
+        "description": "Отправляйте, получайте и храните Peercoin. Десктопный кошелек также позволяет создавать блоки и защищать вашу сеть.",
+        "actions": {
+            "action1": "Установка",
+            "action2": "Бумажный Кошелек",
+            "action3": "Неофициальные кошельки",
+            "action4": "Флаттер Кошелек"
+        },
+        "desktopWalletTitle": "Десктопные кошельки",
+        "walletWindows": "Windows",
+        "walletMac": "macOS",
+        "walletLinux": "Linux",
+        "installationTitle": "Установка",
+        "sectionWindows": {
+            "title1": "Windows",
+            "text1": "Запустите <code>{{file}}</code>",
+            "text2": "Установка по умолчанию находится в папке <code>C:\\Program Files\\PPCoin or C:\\Program Files\\Peercoin</code>",
+            "text3": "Запустите <code>peercoin-qt</code> или <code>peercoin</code> из меню Пуск или из папки, в которую он был установлен",
+            "title2": "Консоль",
+            "text4": "Создайте peercoin.conf в <code>%APPDATA%\\PPCoin</code>",
+            "text5": "Запустите <code>daemon\\peercoind</code>",
+            "text6": "Ваш кошелек в <code>C:\\Users\\{username}\\AppData</code> (hidden folder).",
+            "text7": "Откройте папку <code>Start menu -> Run...</code> (или нажмите <code>Winkey-R</code>), запишите: <code>%APPDATA%\\PPCoin</code> в этом поле и нажмите Enter.",
+            "text8": "Дополнительную помощь можно найти в <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Документации Peercoin</a> или спрашивая в <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Форуме</a>."
+        },
+        "sectionMac": {
+            "title1": "macOS",
+            "text1": "Запустите <code className=\"green\">{{file}}</code>",
+            "text2": "Монтируйте <code className=\"green\">Peercoin-Qt.dmg</code> нажимая на него",
+            "text3": "Тяните <code className=\"green\">Peercoin-Qt.app</code> или <code className=\"green\">Peercoin.app</code> в <code className=\"green\">Applications</code>",
+            "text4": "Mergeți la <code className=\"green\">Applicație</code> și deschideți <code className=\"green\">Peercoin-Qt.app</code> ori <code className=\"green\">Peercoin.app</code>",
+            "title2": "Консоль",
+            "text5": "Распакуйте <code className=\"green\">peercoind.zip</code>",
+            "text6": "Создайте <code className=\"green\">ppcoin.conf</code> в <code className=\"green\">~/Library/Application Support/PPCoin</code>",
+            "text7": "Запустите <code className=\"green\">peercoind</code>",
+            "text8": "Ваш кошелек находится в папке <code>~/Library/Application Support/PPCoin</code>. Чтобы открыть папку, нажмите <code>Command-Shift-G</code> в Finder, введите путь (path), и нажмите Enter.",
+            "text9": "Дополнительную помощь можно найти в <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Документации Peercoin</a> или спрашивая в <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Форуме</a>."
+        },
+        "sectionLinux": {
+            "title1": "Linux",
+            "text1": "Распакуйте <code className=\"green\">{{file}}</code>",
+            "text2": "Запустите <code className=\"green\">bin/peercoin-qt</code>",
+            "title2": "APT Репозиторий",
+            "text3": "APT Репозитория Peercoin для Debian Buster (10).",
+            "text4": "Поддерживаемая архитектура: amd64, arm64 and armhf.",
+            "text5": "Доступные пакеты: peercoind peercoin-qt peercoin-tx",
+            "title3": "Консоль",
+            "text13": "Создайте <code className=\"green\">peercoin.conf</code> in <code className=\"green\">~/.peercoin</code>",
+            "text14": "Запустите <code className=\"green\">bin/peercoind</code>",
+            "text15": "Ваш кошелек находится в <code>~/.peercoin</code>.",
+            "text16": "Дополнительную помощь можно найти в <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Документации</a> или спрашивая на <a href=\"https://talk.peercoin.net/\">Форуме</a>.",
+            "text9": "<code>wget -O - https://peercoin.github.io/deb-repo/peercoin.apt.key | sudo apt-key add -</code>",
+            "textFlathub": "Запустить <code className=\"green\">flatpak install --user net.peercoin.peercoin-qt</code>",
+            "descriptionFlathub": "Дополнительную информацию можно найти на <a href=\"https://flathub.org/apps/details/net.peercoin.peercoin-qt/\" target=\"_blank\" rel=\"noopener noreferrer\">сайте Flathub</a>.",
+            "text6": "<code>sudo apt-get update</code>",
+            "text7": "<code>sudo apt-get install apt-transport-https</code>",
+            "text8": "<code>sudo sh -c \"echo 'deb https://peercoin.github.io/deb-repo/ buster main' >> /etc/apt/sources.list.d/peercoin.list\"</code>",
+            "text10": "<code>sudo apt-get update</code>",
+            "text11": "<code>sudo apt-get install peercoin-qt</code>",
+            "text12": "Доступные пакеты: peercoind peercoin-qt peercoin-tx"
+        },
+        "paperWalletTitle": "Бумажный Кошелек",
+        "paperWalletSubtitle1": "Бумажный Кошелек",
+        "paperWalletSubtitle2": "Неофициальные Кошельки",
+        "paperWalletSubtitle3": "Аппаратный Кошелек",
+        "type1": "Аппаратный Кошелек",
+        "type2": "Мобильный/Веб-кошелек",
+        "type3": "Веб-кошелек",
+        "type4": "Мобильный Кошелек",
+        "mobileWalletTitle": "Флаттер Кошелек"
+    },
+    "indexPage": {
+        "actions": {
+            "action1": "Начнем",
+            "action2": "Что такое Peercoin?"
+        },
+        "youtubeSection": {
+            "subText": "Peercoin Primer - это короткая серия видео из пяти частей, в которой рассказывается об основах Peercoin. Узнайте о важных темах, таких как первоначальное распределение Peercoin, как работает консенсус Доказательство Ставки (PoS), о многих преимуществах, которые предлагает бизнес-модель Peercoin, а также об использовании ограниченной инфляции для обеспечения устойчивой безопасности. Наконец, мы объясним долгосрочную миссию Peercoin как криптовалюты, как надежную основу.",
+            "btnVideo1": "Part 1: Релиз",
+            "btnVideo2": "Part 2: Безопасность",
+            "btnVideo3": "Part 3: Преимущество",
+            "btnVideo4": "Part 4: Экономика",
+            "btnVideo5": "Part 5: Миссия"
+        },
+        "efficientEnergyTitle": "Эффективная безопасность",
+        "efficientEnergyText1": "Peercoin (PPC) появился в 2012 году, став одним из первых блокчейнов. Основным нововведением Peercoin является изобретение Доказательство Ставки (PoS), альтернативного консенсусного протоколу Bitcoin - Доказательство Работы (PoW).",
+        "efficientEnergyText2": "Проверенные в работе блокчейны защищены доказательством потребления ограниченного и дорогостоящего ресурса: электроэнергии. Доказательство Ставки заменяет этот дорогостоящий протокол безопасности альтернативным ресурсом: Временем.",
+        "efficientEnergyText3": "Благодаря рентабельности правил консенсуса, основанных на Доказательстве Ставки, Peercoin может позволить любому компьютеру подключенному к сети участвовать в процессе безопасности блокчейна. Эта эффективность укрепляет Peercoin за счет увеличения числа поставщиков безопасности и обеспечения долгосрочной безопасности.",
+        "userGovernanceTitle": "Власть пользователей",
+        "userGovernanceText1": "В Peercoin владельцы монет это те кто влияет на сеть, производят новые блоки и защищает цепочку. Владельцы блокчейна коллективно решают свое будущее путем голосования по протоколу.",
+        "userGovernanceText2": "Голосование проводится так же как и защита Peercoin, с помощью процесса называемого Доказательство Ставки. Заинтересованные стороны участвуют в производстве PPC просто устанавливая удобную версию Peercoin, заполняя свой кошелек PPC и держав их на время. Транзакции выбираются через протокол Peercoin для создания следующего блока в цепочке. Каждый произведенный блок вознаграждает заинтересованных лиц новыми PPC и одним голосом.",
+        "userGovernanceText3": "Это делает Peercoin первым блокчейном, который позволяет пользователям напрямую управлять правилами протокола, создавая более децентрализованную, демократичную и простую в защите сеть для людей по всему миру.",
+        "trustlessTitle": "Базовые слои с небольшим доверием",
+        "trustlessText1": "Поскольку цепочка блоков неизменна по самой своей природе, а все записанные данные хранятся вечно, увеличение блокчейна становится проблемой при более интенсивном использовании, что вредит как безопасности, так и возможности масштабирования сети.",
+        "trustlessText2": "Чтобы сохранить надежность блокчейна и обеспечить его способность расширяться до глобальных уровней использования, изобретатели Peercoin адаптировали блокчейн и его экономику для выполнения роли расчетной сети на базовом уровне.",
+        "trustlessText3": "Эта роль основана на разработке Peercoin на основе модулей, обеспечивающих простой и безопасный протокол с минимальным количеством функций, при этом блокчейн является стабильной основой для создания ряда дополнительных уровней..",
+        "fairDistributionTitle": "Справедливое распределение",
+        "fairDistributionText1": "Криптовалюты должны иметь достаточно широкое распространение, чтобы гарантировать, что глобальное распространение монет не будет сосредоточено в руках небольшого числа людей.",
+        "fairDistributionText2": "Однако есть проблема в блокчейнах, которые работают только на Доказательстве Ставки (PoS), потому что нет простого способа справедливо распределить монеты с самого начала. В сети блокчейнов с чистым Доказательством Ставки (PoS) все монеты обычно создается основателем проекта, который затем выбирает какие люди в конечном итоге будут держать монеты. Этот метод распределения часто заканчивается высокоцентрализованной сетью монет.",
+        "fairDistributionText3": "Чтобы решить эту проблему, Peercoin использует Доказательство Ставки (PoS) для сетевой безопасности и Доказательстве Работы (PoW) для распространения. Майнеры, добывающие с помощью Доказательством Работы, награждаются новыми PPC, генерируемыми сетью. Затем эти новые монеты продаются майнерами для получения прибыли на биржах и покупаются новыми заинтересованными сторонами, которые могут использовать их для создания новых блоков, участвуя в производстве Доказательством Ставки.",
+        "fairDistributionText4": "Таким образом, в то время как Доказательство Ставки обеспечивает безопасность напрямую, Доказательстве Работы призван делать это косвенно, усиливая децентрализацию сети для более широкого распространения PPC потенциальным новым производителям.",
+        "valueStoreTitle": "Надежный магазин ценностей",
+        "valueStoreText1": "Эффективность, надежность, управление пользователями, масштабируемость за счет модульности и справедливого распределения. Все эти качества в совокупности образуют долгосрочную блокчейн-сеть, ориентированную в первую очередь на максимизацию децентрализации.",
+        "valueStoreText2": "Этот основной фокус направлен на то, чтобы доверие оставалось неизменным и устойчивым к цензуре, чтобы его всегда можно было задействовать для выполнения своей основной роли как механизма безопасного хранения всех типов ценностей..",
+        "valueStoreText3": "Эти значения могут варьироваться от фидуциарных значений хранящихся в PPC, до данных хранящихся в блокчейне в виде токенов, записей или контрактов. Независимо от типа хранимого значения, Peercoin был создан с учетом основ чтобы ваши данные всегда оставались в безопасности.",
+        "getStartedTitle": "Начнем",
+        "collapsables": {
+            "learnTitle": "Учить",
+            "learnText1": "Для подробной презентации проекта, <a href=\"https://peercoin.net/university/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Университет</a> это лучшее место для начала. Дополнительные статьи о Peercoin смотрите здесь: <a href=\"https://www.peercoin.net/blog/\" target=\"_blank\" rel=\"noopener noreferrer\">Blogul Medium</a>.",
+            "learnText2": "Для тех, кто хочет участвовать в разработке, PeerAssets - это решение в слоях Peercoin для токенов. Более подробную информацию можно найти на странице <a href=\"/projects\">projects</a> нашего сайта.",
+            "learnText3": "Больше технической информации можно найти в <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Документации Peercoin</a>.",
+            "purchaseTitle": "Купить",
+            "purchaseText1": "Peercoin доступен на многих биржах и сервисах. <a href=\"/resources#exchanges\">Посмотри здесь список</a>.",
+            "purchaseText3": "Для покупки Peercoin также доступен <a href=\"https://peercoin.net/docs/#/purchase\" target=\"_blank\" rel=\"noopener noreferrer\">гид</a>.",
+            "walletTitle": "Кошелек",
+            "walletText1": "<a href=\"/wallet\">Кошелек Peercoin</a> доступен на платформах Windows, Mac OSX și Linux.",
+            "walletText2": "Также доступны возможности командной строки.",
+            "walletText3": "Чтобы начать работу, смотрите Страницу Загрузки кошелька и Руководство по установке.",
+            "mintTitle": "Чеканка (Proof-of-Stake)",
+            "mintText1": "Производство с помощью Доказательства Ставки (PoS) - это эффективный процесс, в котором заинтересованные стороны создают новые блоки для сети. Эти блоки содержат транзакции, инициированные пользователями сети. Роль производства - обрабатывать эти блоки транзакций и обеспечивать безопасность сети.",
+            "mintText2": "Чеканка (PoS) - это энергоэффективный и экономичный процесс, который позволяет заинтересованным сторонам участвовать с использованием нескольких различных типов устройств. Заинтересованные стороны участвуют в чеканке, просто устанавливая версию Peercoin заполняя PPC свой кошелек храня их на время. Транзакции выбираются через протокол Peercoin для включения в следующий блок в цепочке блоков. Каждый произведенный блок вознаграждает заинтересованных сторон новыми PPC.",
+            "mintText3": "Pentru a afla cum să fabricați monede, consultați Secțiunea de Fabricare din <a href=\"https://peercoin.net/docs/#/wallets\" target=\"_blank\" rel=\"noopener noreferrer\">Documentația portmoneului</a>. Mai multe informații despre fabricare puteți găsi <a href=\"https://peercoin.net/docs/#/peercoin-minting-behaviour\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.",
+            "mineTitle": "Майнинг (Proof-of-Work)",
+            "mineText1": "Peercoin использует алгоритм хэширования SHA-256 с двойной итерацией для извлечения Доказательства Работы (PoW). Это означает что любое оборудование которое может извлекать Bitcoin, также может извлекать Peercoin.",
+            "mineText2": "Для начала прочтите <a href=\"https://peercoin.net/docs/#/mining\" target=\"_blank\" rel=\"noopener noreferrer\">документацию майнинга</a>.",
+            "communityTitle": "Сообщество",
+            "communityText1": "Присоединяйтесь на <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Форуме</a>, <a href=\"https://discord.gg/XPxfwtG\" target=\"_blank\" rel=\"noopener noreferrer\">Discord</a>, или на <a href=\"https://t.me/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Telegram</a> для общения с другими участниками и разработчиками сообщества Peercoin. Подписаться на <a href=\"https://twitter.com/PeercoinPPC\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter</a>, <a href=\"https://www.reddit.com/r/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>, <a href=\"https://www.peercoin.net/blog/\" target=\"_blank\" rel=\"noopener noreferrer\">Medium Блог</a>, или на <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\" target=\"_blank\" rel=\"noopener noreferrer\">Новости</a> чтобы быть в курсе последних новостей Peercoin. Смотрите также <a href=\"/resources#communities\">здесь</a> список ресурсов сообщества.",
+            "communityText2": "Важные обновления могут быть доставлены прямо на ваше мобильное устройство через такие платформы, как <a href=\"https://blockfolio.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blockfolio</a>, <a href=\"https://delta.app/\" target=\"_blank\" rel=\"noopener noreferrer\">Delta</a>, или <a href=\"https://www.coingecko.com/\" target=\"_blank\" rel=\"noopener noreferrer\">CoinGecko</a>. Подпишитесь на последние новости.",
+            "purchaseText2": "<a href=\"https://buy.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Здесь</a> доступна прямая покупка Peercoin с помощью кредитной и дебетовой карты."
+        },
+        "latestNewsTitle": "Последние новости"
+    },
+    "notFoundPage": {
+        "title": "404 - запрошенный URL не найден",
+        "description": "Нажмите <a href=\"https://www.peercoin.net/\" style=\"color: white;\">здесь</a> для просмотра Главной страницы."
+    },
+    "reader": {
+        "buttonGoBack": "Посмотреть другие переводы",
+        "hint": "Если вы не видите документ, ваш браузер не поддерживает эту операцию. Лучше скачайте Белую Бумагу.",
+        "notFound": "Запрошенный ресурс не может быть отображен.",
+        "buttonDownload": "Скачать Белую Бумагу"
     }
-  },
-  "footerComponent": {
-    "subscribeTitle": "Подпишитесь на новости Peercoin",
-    "subscribeSubtitle": "Будьте в курсе последних новостей Peercoin, подписавшись на нашу рассылку!",
-    "subscribeBtnLabel": "Подписаться",
-    "links": {
-      "learn": {
-        "title": "Учить",
-        "linkPeercoinUniversity": "Университет Peercoin",
-        "linkWhatIsBlockchain": "Что такое блокчейн?",
-        "linkInherentCentralization": "Внутренняя централизация блокчейнов c Доказательством Работы (PoW)",
-        "linkPeercoinProofOfStakeConsensus": "Peercoin & Консенсус Доказательство Работы (PoS)",
-        "linkEfficientSustainableSecurity": "Эффективность & Безопасность",
-        "linkEconomicsOfPeercoin": "Экономика Peercoin",
-        "linkScalabilityOfPeercoin": "Масштабируемость Peercoin",
-        "linkFAQ": "Частые вопросы"
-      },
-      "getStarted": {
-        "title": "Начнем"
-      },
-      "resources": {
-        "title": "Ресурсы",
-        "linkDocumentation": "Документация",
-        "linkExchanges": "Биржи",
-        "linkBlockExplorers": "Блок Эксплорер",
-        "linkWhitepaper": "Белая Бумага",
-        "linkGraphics": "Графика",
-        "linkMining": "Майнинг"
-      },
-      "wallet": {
-        "title": "Кошелек"
-      },
-      "project": {
-        "title": "Проект",
-        "linkGithub": "GitHub",
-        "linkProjects": "Проекты",
-        "linkBlog": "Блог",
-        "linkFoundation": "Фонд Peercoin",
-        "linkPrivacyPolicy": "Политика Конфиденциальности",
-        "linkContact": "Контакты"
-      },
-      "community": {
-        "title": "Сообщество",
-        "linkForum": "Forum",
-        "linkReddit": "Reddit",
-        "linkTelegram": "Telegram",
-        "linkDiscord": "Discord",
-        "linkBitcointalk": "Bitcointalk",
-        "linkFacebook": "Facebook",
-        "linkTwitter": "Twitter",
-        "linkYoutube": "YouTube"
-      }
-    },
-    "copyright": {
-      "copyright": "Copyright ©",
-      "rights": "Фонд Peercoin | Все права защищены."
-    }
-  },
-  "latestNewsComp": {
-    "readMore": "Читать больше"
-  },
-  "foundationPage": {
-    "missionStatementTitle": "Заявление о миссии",
-    "missionStatementText1": "Фонд Peercoin был основан с простой миссией продвижения и поддержки непрерывного образования, развития и общего прогресса проекта Peercoin. Мы стремимся расширить возможности будущих членов команды Peercoin, предоставляя инструменты, необходимые для сохранения давней репутации Peercoin в области внедрения инноваций первого поколения в блокчейн.",
-    "missionStatementText2": "Сеть блокчейна Peercoin и проект Peercoin в целом представляют собой децентрализованный реестр с открытым исходным кодом, без руководящего органа. Peercoin Фонд не предъявляет претензий в отношении интеллектуальной собственности, связанной с проектом Peercoin, если явно не указано иное.",
-    "technicalSupportTitle": "Поддержка сообщества",
-    "technicalSupportText": "Если вы хотите участвовать в проекте Peercoin, или просто хотите поддержать команду, у вас есть несколько вариантов. Если вы заинтересованы в том чтобы стать разработчиком Peercoin или связанных с Peercoin проектов, таких как PeerAssets, напишите нам по адресу foundation@peercoin.net . Если вы хотите сделать пожертвование Peercoin Фонда, или для поддержки любого расширенного проекта, просто отправьте свое пожертвование PPC на указанный ниже мултисиг адрес.",
-    "generalFundPpcAddress": "Общий фонд - <strong>PPC</strong> Адрес для пожертвования:",
-    "generalFundBtcAddress": "Общий фонд - <strong>BTC</strong> Адрес для пожертвования:",
-    "viewOnExplorer": "Посмотреть в Блок Експлорер",
-    "openCollectiveNote": "Пожертвования фиатом - <strong>USD/EUR</strong> Кредит/Дебит/Перевод:",
-    "contactUsTitle": "Свяжитесь с нами",
-    "addressCountry": "Нидерланды"
-  },
-  "contributePage": {
-    "contributeTitle": "Внести свой вклад ",
-    "contributeDescription": "Как вы можете помочь улучшить Peercoin",
-    "contributeIntro": "Peercoin это бесплатный проект с открытым исходным кодом, и помощь в его улучшении приветствуется! Есть несколько способов помочь:",
-    "header": {
-      "reportBugs": "Сообщить об ошибках",
-      "helpOthers": "Помогите другим сообщать об ошибках",
-      "translate": "Переведите Peercoin на вашем языке",
-      "write": "Пишите код"
-    },
-    "content": {
-      "reportBugs": "Если вы обнаружите ошибки в приложении Peercoin, вам необходимо записать их в наш трекер ошибок. \n Возможно, о вашей проблеме уже сообщалось, поэтому рекомендуется проверить, чтобы избежать дублирования. \n Если у вас есть предложения по новым функциям или улучшениям? \n Откройте запрос на GitHub.",
-      "helpOthers": "Вы можете помочь команде разработчиков не отставать в отчете об ошибках, закрывая дубликаты, помогая прояснять проблемы, с которыми сталкиваются репортеры, и подтверждая исправления ошибок. Хорошим началом будет Discord или наш форум.",
-      "translate": "Peercoin переведен на десятки языков, но если перевод для вашего языка не существует или не обновлялся, вы можете помочь сделать Peercoin ближе к людям просто переведя текст.",
-      "write": "Мы приветствуем вклад в изменение кода от любого, независимо от того есть ли у него большой опыт программирования или нет."
-    },
-    "buttons": {
-      "help": "Форум"
-     }
-  },
-  "contactPage": {
-    "contactTitle": "Свяжитесь с нами",
-    "contactDescription": "По общим вопросам Peercoin Фонд всегда готов вам ответить!",
-    "contactUsTitle": "Свяжитесь с нами",
-    "contactUsText": "Чтобы получить техническую помощь или решить проблемы с кошельками, майнингом или с другими общими вопросами, посетите Peercointalk или другие ресурсы сообщества. По другим вопросам используйте эту ссылку:",
-    "contactUsBtn": "Свяжитесь с нами",
-    "technicalSupportTitle": "Техническая поддержка",
-    "technicalSupportText": "Нужна помощь с технической проблемой? Вы можете найти помощь и отличные ресурсы сообщества на Peercointalk.",
-    "addressCountry": "Нидерланды",
-    "documentationTitle": "Документация",
-    "documentationText": "Вы разработчик и ищете дополнительную информацию о Peercoin? Смотрите нашу документацию.",
-    "documentationBtn": "Документация",
-    "faqTitle": "Частые вопросы",
-    "faq": {
-      "howOldQuestion": "Когда стартовал проект Peercoin?",
-      "howOldAnswer": "Блокчейн Peercoin был запущен 19 августа 2012 года в 18:00:00 по всемирному координированному времени. Премайнинга не было, и о запуске проекта было объявлено за девять дней. Вы можете прочитать оригинальное объявление здесь: <a href=\"https://bitcointalk.org/index.php?topic=101820.0\" target=\"_blank\" rel=\"noopener noreferrer\">Bitcointalk</a>",
-      "howCanIMineQuestion": "Как я могу майнить Peercoin?",
-      "howCanIMineAnswer": "Peercoin использует криптографическую хеш-функцию - SHA256. Любое оборудование, которое может извлекать биткойны, может быть использовано для извлечения Peercoin.",
-      "whyMintingQuestion": "Почему рентабельность 1%? Почему нет ограничения на общее количество PPC? Это не дисквалифицирует Peercoin как дефляционную валюту?",
-      "whyMintingAnswer": "Peercoin имеет уровень инфляции 1%, что позволяет участникам расти со временем. Полностью дефляционные валюты не могут использоваться в качестве средства обмена, а могут использоваться только как сбережения. Допуская управляемый уровень инфляции, Peercoin остается ограниченным, но позволяет расширить участие. Это также помогает компенсировать монеты, которые выводятся из обращения из-за потери кошельков и налогов на оплату транзакций.",
-      "whyFixedFeeQuestion": "Почему комиссия за транзакцию должна быть фиксированной?",
-      "whyFixedFeeAnswer": "Peercoin имеет фиксированную комиссию за транзакцию и фильтрует типы спам-транзакций которые повредили такие блкчейны как Биткойн. Фиксированная комиссия также допускает предсказуемые комиссии за транзакции, поскольку нефиксированные комиссии в других блокчейнах могут быстро изменяются, в результате чего транзакции будут забыты на несколько дней. Фиксированная комиссия позволяет транзакциям проходить последовательно: первым пришел - первым обслужили. Peercoin может растягиваться, масштабироваться не беспокоясь о том, что цена повлияет на удобство использования. В версии 0.7 комиссия за транзакцию снижена с 0,01 PPC до 0,001 PPC.",
-      "howCanPeercoinQuestion": "Как может сеть Peercoin выжить без майнеров, обеспечивающих безопасность PoW, особенно в периоды низкого интереса?",
-      "howCanPeercoinAnswer": "Доказательство Работы (PoW) служит инфляционным механизмом для распределения монет. Сеть Peercoin предоставляется Возраст Валюты (Currency Age) и Доказательство Ставки (Proof-of-Stake) . С блочейнами PоW владельцы имеют ограниченную возможность защитить дорогостоящую цепочку, из-за высокой стоимости оборудования, что является серьезным препятствием. В Peercoin любой держатель может защитить свои инвестиции, позволив транзакции созреть, оставив свой кошелек открытым. Доказательство Ставки (PoS) обеспечивает безопасность сети с момента создания Peercoin.",
-      "whyNoMintingQuestion": "Я только что отправил PPC в свой кошелек, и он мне показывает что у меня нулевые шансы получить награждение в следующие 30 дней. Почему это так?",
-      "whyNoMintingAnswer": "Транзакции Peercoin должны быть открытыми на 30 дней или около 4320 блоков, прежде чем они станут пригодными для чеканки. Это число обновляется примерно каждые шесть часов. По истечении 30-дневного периода ваши монеты станут подходящими, и вероятность со временем должна повыситься.",
-      "howManyConfirmationsQuestion": "Сколько подтверждений необходимо в сети Peercoin для транзакции?",
-      "howManyConfirmationsAnswer": "Для подтверждения транзакции требуется шесть подтверждений. Каждый блок занимает около 10 минут.",
-      "whyNotAvailableMintinQuestion": "Я только что выиграл несколько монет, но кошелек показывает что они сейчас недоступны. Почему?",
-      "whyNotAvailableMintinAnswer": "После того, как транзакция выиграна, необходимо 520 подтверждений прежде чем эти монеты можно будет разблокировать. Это сделано для предотвращения подделок. Каждый блок в сети Peercoin занимает около 10 минут, поэтому монеты становятся доступными за 5200 минут или около 3,6 дня."
-    }
-  },
-  "projectsPage": {
-    "title": "Проекты",
-    "description": "Проекты, которые разрабатываются в экосистеме Peercoin для увеличения использования блокчейна.",
-    "peerAssetsTitle": "PeerAssets",
-    "peerAssetsP1": "Простое объяснение протокола PeerAssets заключается в том, что он работает, записывая и читая сообщения в цепочке блоков, где сообщения это активы, а адреса пиры.",
-    "peerAssetsP2": "Активы основанные на протоколе PeerAsset, могут использоваться для представления любого типа актива, такого как облигации или акции. PeerAssets также могут представлять реальные объекты, таким образом подтверждать их существование в блокчейне. PeerAssets - это легкий протокол, поскольку он не использует дополнительных уровней по сравнению с блокчейном. Он не требует токенов с внешней стоимостью в дополнение к собственной валюте блокчейна, которая используется для оплаты комиссий за транзакции. PeerAssets не участвует в организации и ведении публичного реестра, но пользуется его стабильностью и доверием. PeerAssets может работать с любой криптовалютой, разветленной из биткойн которые сохранили его код, включая Peercoin, Litecoin и другие..",
-    "peerAssetsP3": "PeerAssets не требует хард-форка или софт-форка сети, но требует разработки клиента PeerAssets. PeerAssets также вдохновлен оригинальной идеей цветных монет и использует OP_RETURN для записи данных в цепочку блоков, но предлагает некоторые оптимизации для уменьшения объема данных, записываемых в OP_RETURN. PeerAssets позволяет легко сканировать блокчейн на предмет необходимых транзакций и предлагает некоторые дополнительные функции, такие как голосование акционеров и выплата дивидендов.",
-    "peerAssetsP4": "Для начала ознакомьтесь с этим <a href=\"https://www.peercoin.net/blog/basic-deck-creation-with-peerassets-tutorial\" target=\"_blank\" rel=\"noopener noreferrer\"> руководством по созданию дека.</a>",
-    "peerAssetsBtnGithub": "GitHub",
-    "peerAssetsBtnWhitepaper": "Белая Бумага",
-    "perperaTitle": "Perpera",
-    "perperaP1": "\"Perpera\" это реализация протокола PeerAssets DataAudit, протокол, который впервые был представлен как RFC в июне 2018 г. Perpera - это библиотека, написанная на TypeScript, предназначенная для потребностей будущих приложений на основе веб-разработки и ориентированная на инструменты CLI.",
-    "perperaP2": "Главная цель этого протокола - включение произвольных документов в блокчейн, Доказательство Существования (Proof of Existence) и возможность просматривать упомянутые документы. В этом аспекте (поддержка доработок) этот протокол отличается от уже используемых аналогичных протоколов.",
-    "perperaP3": "Подробнее о протоколе PeerAssets DataAudit:",
-    "perperaP4": "Основная цель этого протокола - записывать криптографические хэши последовательных ревизий однофайловых документов в общедоступном блокчейне, таким образом, чтобы легкие клиенты могли легко запрашивать и проверять историю документов. Такие истории наследуют полезные свойства базовой цепочки блоков, а именно неизменность и массовую репликацию, и поэтому могут служить доказательством существования. Помимо криптографических хэшей, пользователи могут зарегистрировать набор URL-адресов для каждого документа, что упрощает извлечение содержимого документа из источников вне сети (IPFS, https, торрент). Цель состоит в том, чтобы наложить минимальные требования на блокчейн как с точки зрения функций, так и с точки зрения места для хранения.",
-    "perperaP5": "Чтобы узнать больше, смотрите официальный Perpera Github ниже.",
-    "perperaBtnGithub": "GitHub"
-  },
-  "resourcesPage": {
-    "title": "Ресурсы",
-    "description": "Инструменты и ресурсы сообщества: в том числе совместное использование, проводник блоков, графика, социальные сети, форумы, чаты и т.д.",
-    "actions": {
-      "action1": "Биржи",
-      "action2": "Блок проводник",
-      "action3": "Сообщество",
-      "action4": "Белая Бумага",
-      "action5": "Графика"
-    },
-    "contributeTitle": "Способствовать",
-    "contributeText": "Peercoin всегда развивается, и любой разработчик может внести свой вклад. Есть множество способов внести свой вклад, включая базовую разработку и написание документации. Пожалуйста, проверьте GitHub ниже, чтобы начать.",
-    "contributeBtn": "GitHub",
-    "documentationTitle": "Документация",
-    "documentationText": "Чтобы узнать больше о технических деталях Peercoin и о том, как использовать существующие инструменты или фреймворк, рекомендуется начать с чтения документации Peercoin.",
-    "documentationBtn": "Документация",
-    "miningTitle": "Майнинг",
-    "miningText1": "Peercoin использует алгоритм хэширования SHA-256 с двойной итерацией для извлечения Доказательства Работы (PoW). Это означает что любое оборудование которое может извлекать Bitcoin, также может извлекать Peercoin.",
-    "miningText2": "Для майнинга Peercoin вам понадобится программное обеспечение. Ниже приведен неофициальный список программного обеспечения, имеющего достойную репутацию.",
-    "miningBtn1": "Документация",
-    "miningBtn2": "Калькулятор",
-    "universityTitle": "Университет Peercoin",
-    "universityText1": "Университет Peercoin - образовательная статья для менее технических членов сообщества, которая поможет им понять сложную тему публичного блокчейна.",
-    "universityText2": "Статья начинается с объяснения того, что такое блокчейн, как он работает, а также его многочисленные преимущества и варианты использования. Биткойн и Доказательство Работы (PoS) подробно описаны ниже, за ними следуют Peercoin и Доказательство Ставки (PoS). Другие темы включают безопасность, централизация, децентрализация, масштабируемость и экономика.",
-    "universityLink1": "Что такое блокчейн?",
-    "universityLink2": "Присущая централизация блокчейнов с Доказательством Работы (PoW)",
-    "universityLink3": "Peercoin & Консенсус Доказательство Ставки (PoS)",
-    "universityBtn": "Университет Peercoin",
-    "exchangesTitle": "Биржи",
-    "exchangesText": "ВНИМАНИЕ: этот список предназначен только для информационных целей. Перечисленные здесь услуги не были оценены и одобрены Peercoin Фондом. Осторожно используйте эти сторонние платформы и сервисы.",
-    "exchangesType1": "Биржи",
-    "exchangesType2": "Услуги",
-    "exchangesType3": "Информация о рынке",
-    "explorersTitle": "Проводники блоков",
-    "explorersMainnet": "Mainnet",
-    "explorersTestnet": "Testnet",
-    "toolsTitle": "Ресурсы",
-    "toolsCharts": "Графики",
-    "toolsMempool": "Mempool",
-    "toolsEnergyStatistics": "Статистика энергетики",
-    "toolsTestnetFaucet": "Testnet Кран",
-    "communityTitle": "Сообщество",
-    "whitepaperTitle": "Белая Бумага",
-    "whitepaperEnglish": "Английский",
-    "whitepaperChinese": "Китайский",
-    "whitepaperSpanish": "Испанский",
-    "whitepaperDutch": "Нидерландский",
-    "whitepaperFrench": "Французский",
-    "whitepaperGerman": "Немецкий",
-    "whitepaperJapanese": "Японский",
-    "whitepaperKorean": "Корейский",
-    "whitepaperRussian": "Русский",
-    "whitepaperRomanian": "Румынский",
-    "graphicsTitle": "Графика",
-    "graphicsText": "Ищете больше графики? Обновленную коллекцию логотипов и обоев можно найти на <a href=\"https://github.com/peercoin/media\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin GitHub</a>.",
-    "graphicsVertical": "Вертикальный логотип",
-    "graphicsHorizontal": "Горизонтальный логотип",
-    "graphicsIconOnly": "Только Иконки",
-    "graphicsTextOnly": "Только Текст",
-    "graphicsFavicons": "Favicon",
-    "graphicsZipFolder": "Доступен ZIP-файл для всех изображений <a href=\"https://peercoin.net/assets/Peercoin%202021%20Graphics.zip\">эдесь</a>",
-    "brandIdentityTitle": "Фирменный стиль",
-    "brandIdentityColorsFonts": "Цветовые коды и шрифты Peercoin:",
-    "brandIdentityDisclaimer": "По возможности используйте эти цветовые коды на своих сайтах Peercoin. Это поможет нам сохранить целостность экосистемы Peercoin, ее брендов и изображений.",
-    "brandIdentityGreen": "Зеленый",
-    "brandIdentityFont": "В текстовом логотипе Peercoin используется следующий шрифт",
-    "brandIdentityFontFont": "Шрифт",
-    "brandIdentityFontType": "Тип",
-    "brandIdentityFontRoboto": "Веб-сайт и кошельки Peercoin используют шрифт <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\" rel=\"noopener noreferrer\">Roboto</a> для контента."
-  },
-  "walletPage": {
-    "title": "Кошельки",
-    "description": "Отправляйте, получайте и храните Peercoin. Десктопный кошелек также позволяет создавать блоки и защищать вашу сеть.",
-    "actions": {
-      "action1": "Установка",
-      "action2": "Бумажный Кошелек",
-      "action3": "Неофициальные кошельки"
-    },
-    "desktopWalletTitle": "Десктопные кошельки",
-    "walletWindows": "Windows",
-    "walletMac": "macOS",
-    "walletLinux": "Linux",
-    "installationTitle": "Установка",
-    "sectionWindows": {
-      "title1": "Windows",
-      "text1": "Запустите <code>{{file}}</code>",
-      "text2": "Установка по умолчанию находится в папке <code>C:\\Program Files\\PPCoin or C:\\Program Files\\Peercoin</code>",
-      "text3": "Запустите <code>peercoin-qt</code> или <code>peercoin</code> из меню Пуск или из папки, в которую он был установлен.",
-      "title2": "Daemon",
-      "text4": "Создайте peercoin.conf в <code>%APPDATA%\\PPCoin</code>",
-      "text5": "Запустите <code>daemon\\peercoind</code>",
-      "text6": "Ваш кошелек в <code>C:\\Users\\{username}\\AppData</code> (hidden folder).",
-      "text7": "Откройте папку <code>Start menu -> Run...</code> (или нажмите <code>Winkey-R</code>), запишите: <code>%APPDATA%\\PPCoin</code> в этом поле и нажмите Enter.",
-      "text8": "Дополнительную помощь можно найти в <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Документации Peercoin</a> или спрашивая в <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Форуме</a>."
-    },
-    "sectionMac": {
-      "title1": "macOS",
-      "text1": "Запустите <code className=\"green\">{{file}}</code>",
-      "text2": "Монтируйте <code className=\"green\">Peercoin-Qt.dmg</code> нажимая на него.",
-      "text3": "Тяните <code className=\"green\">Peercoin-Qt.app</code> или <code className=\"green\">Peercoin.app</code> в <code className=\"green\">Applications</code>",
-      "text4": "Mergeți la <code className=\"green\">Applicație</code> și deschideți <code className=\"green\">Peercoin-Qt.app</code> ori <code className=\"green\">Peercoin.app</code>",
-      "title2": "Daemon",
-      "text5": "Распакуйте <code className=\"green\">peercoind.zip</code>",
-      "text6": "Создайте <code className=\"green\">ppcoin.conf</code> в <code className=\"green\">~/Library/Application Support/PPCoin</code>",
-      "text7": "Запустите <code className=\"green\">peercoind</code>",
-      "text8": "Ваш кошелек находится в папке <code>~/Library/Application Support/PPCoin</code>. Чтобы открыть папку, нажмите <code>Command-Shift-G</code> в Finder, введите путь (path), и нажмите Enter.",
-      "text9": "Дополнительную помощь можно найти в <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Документации Peercoin</a> или спрашивая в <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Форуме</a>."
-    },
-    "sectionLinux": {
-      "title1": "Linux",
-      "text1": "Распакуйте <code className=\"green\">{{file}}</code>",
-      "text2": "Запустите <code className=\"green\">bin/peercoin-qt</code>",
-      "title2": "APT Репозиторий",
-      "text3": "APT Репозитория Peercoin для Debian Buster (10).",
-      "text4": "Поддерживаемая архитектура: amd64, arm64 and armhf.",
-      "text5": "Доступные пакеты: peercoind peercoin-qt peercoin-tx",
-      "title3": "Daemon",
-      "text13": "Создайте <code className=\"green\">peercoin.conf</code> in <code className=\"green\">~/.peercoin</code>",
-      "text14": "Запустите <code className=\"green\">bin/peercoind</code>",
-      "text15": "Ваш кошелек находится в <code>~/.peercoin</code>.",
-      "text16": "Дополнительную помощь можно найти в <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Документации</a> или спрашивая на <a href=\"https://talk.peercoin.net/\">Форуме</a>."
-    },
-    "paperWalletTitle": "Бумажный Кошелек",
-    "paperWalletSubtitle1": "Бумажный Кошелек",
-    "paperWalletSubtitle2": "Неофициальные Кошельки",
-    "paperWalletSubtitle3": "Аппаратный Кошелек",
-    "type1": "Аппаратный Кошелек",
-    "type2": "Мобильный/Веб-кошелек",
-    "type3": "Веб-кошелек",
-    "type4": "Мобильный Кошелек"
-  },
-  "indexPage": {
-    "actions": {
-      "action1": "Начнем",
-      "action2": "Что такое Peercoin?"
-    },
-    "youtubeSection": {
-      "subText": "Peercoin Primer - это короткая серия видео из пяти частей, в которой рассказывается об основах Peercoin. Узнайте о важных темах, таких как первоначальное распределение Peercoin, как работает консенсус Доказательство Ставки (PoS), о многих преимуществах, которые предлагает бизнес-модель Peercoin, а также об использовании ограниченной инфляции для обеспечения устойчивой безопасности. Наконец, мы объясним долгосрочную миссию Peercoin как криптовалюты, как надежную основу.",
-      "btnVideo1": "Part 1: Релиз",
-      "btnVideo2": "Part 2: Безопасность",
-      "btnVideo3": "Part 3: Преимущество",
-      "btnVideo4": "Part 4: Экономика",
-      "btnVideo5": "Part 5: Миссия"
-    },
-    "efficientEnergyTitle": "Эффективная безопасность",
-    "efficientEnergyText1": "Peercoin (PPC) появился в 2012 году, став одним из первых блокчейнов. Основным нововведением Peercoin является изобретение Доказательство Ставки (PoS), альтернативного консенсусного протоколу Bitcoin - Доказательство Работы (PoW).",
-    "efficientEnergyText2": "Проверенные в работе блокчейны защищены доказательством потребления ограниченного и дорогостоящего ресурса: электроэнергии. Доказательство Ставки заменяет этот дорогостоящий протокол безопасности альтернативным ресурсом: Временем.",
-    "efficientEnergyText3": "Благодаря рентабельности правил консенсуса, основанных на Доказательстве Ставки, Peercoin может позволить любому компьютеру подключенному к сети участвовать в процессе безопасности блокчейна. Эта эффективность укрепляет Peercoin за счет увеличения числа поставщиков безопасности и обеспечения долгосрочной безопасности.",
-    "userGovernanceTitle": "Власть пользователей",
-    "userGovernanceText1": "В Peercoin владельцы монет это те кто влияет на сеть, производят новые блоки и защищает цепочку. Владельцы блокчейна коллективно решают свое будущее путем голосования по протоколу.",
-    "userGovernanceText2": "Голосование проводится так же как и защита Peercoin, с помощью процесса называемого Доказательство Ставки. Заинтересованные стороны участвуют в производстве PPC просто устанавливая удобную версию Peercoin, заполняя свой кошелек PPC и держав их на время. Транзакции выбираются через протокол Peercoin для создания следующего блока в цепочке. Каждый произведенный блок вознаграждает заинтересованных лиц новыми PPC и одним голосом.",
-    "userGovernanceText3": "Это делает Peercoin первым блокчейном, который позволяет пользователям напрямую управлять правилами протокола, создавая более децентрализованную, демократичную и простую в защите сеть для людей по всему миру.",
-    "trustlessTitle": "Базовые слои с небольшим доверием",
-    "trustlessText1": "Поскольку цепочка блоков неизменна по самой своей природе, а все записанные данные хранятся вечно, увеличение блокчейна становится проблемой при более интенсивном использовании, что вредит как безопасности, так и возможности масштабирования сети.",
-    "trustlessText2": "Чтобы сохранить надежность блокчейна и обеспечить его способность расширяться до глобальных уровней использования, изобретатели Peercoin адаптировали блокчейн и его экономику для выполнения роли расчетной сети на базовом уровне.",
-    "trustlessText3": "Эта роль основана на разработке Peercoin на основе модулей, обеспечивающих простой и безопасный протокол с минимальным количеством функций, при этом блокчейн является стабильной основой для создания ряда дополнительных уровней..",
-    "fairDistributionTitle": "Справедливое распределение",
-    "fairDistributionText1": "Криптовалюты должны иметь достаточно широкое распространение, чтобы гарантировать, что глобальное распространение монет не будет сосредоточено в руках небольшого числа людей.",
-    "fairDistributionText2": "Однако есть проблема в блокчейнах, которые работают только на Доказательстве Ставки (PoS), потому что нет простого способа справедливо распределить монеты с самого начала. В сети блокчейнов с чистым Доказательством Ставки (PoS) все монеты обычно создается основателем проекта, который затем выбирает какие люди в конечном итоге будут держать монеты. Этот метод распределения часто заканчивается высокоцентрализованной сетью монет.",
-    "fairDistributionText3": "Чтобы решить эту проблему, Peercoin использует Доказательство Ставки (PoS) для сетевой безопасности и Доказательстве Работы (PoW) для распространения. Майнеры, добывающие с помощью Доказательством Работы, награждаются новыми PPC, генерируемыми сетью. Затем эти новые монеты продаются майнерами для получения прибыли на биржах и покупаются новыми заинтересованными сторонами, которые могут использовать их для создания новых блоков, участвуя в производстве Доказательством Ставки.",
-    "fairDistributionText4": "Таким образом, в то время как Доказательство Ставки обеспечивает безопасность напрямую, Доказательстве Работы призван делать это косвенно, усиливая децентрализацию сети для более широкого распространения PPC потенциальным новым производителям.",
-    "valueStoreTitle": "Надежный магазин ценностей",
-    "valueStoreText1": "Эффективность, надежность, управление пользователями, масштабируемость за счет модульности и справедливого распределения. Все эти качества в совокупности образуют долгосрочную блокчейн-сеть, ориентированную в первую очередь на максимизацию децентрализации.",
-    "valueStoreText2": "Этот основной фокус направлен на то, чтобы доверие оставалось неизменным и устойчивым к цензуре, чтобы его всегда можно было задействовать для выполнения своей основной роли как механизма безопасного хранения всех типов ценностей..",
-    "valueStoreText3": "Эти значения могут варьироваться от фидуциарных значений хранящихся в PPC, до данных хранящихся в блокчейне в виде токенов, записей или контрактов. Независимо от типа хранимого значения, Peercoin был создан с учетом основ чтобы ваши данные всегда оставались в безопасности.",
-    "getStartedTitle": "Начнем",
-    "collapsables": {
-      "learnTitle": "Учить",
-      "learnText1": "Для подробной презентации проекта, <a href=\"https://peercoin.net/university/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Университет</a> это лучшее место для начала. Дополнительные статьи о Peercoin смотрите здесь: <a href=\"https://www.peercoin.net/blog/\" target=\"_blank\" rel=\"noopener noreferrer\">Blogul Medium</a>.",
-      "learnText2": "Для тех, кто хочет участвовать в разработке, PeerAssets - это решение в слоях Peercoin для токенов. Более подробную информацию можно найти на странице <a href=\"/projects\">projects</a> нашего сайта.",
-      "learnText3": "Больше технической информации можно найти в <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Документации Peercoin</a>.",
-      "purchaseTitle": "Купить",
-      "purchaseText1": "Peercoin доступен на многих биржах и сервисах. <a href=\"/resources#exchanges\">Посмотри здесь список</a>.",
-      "purchaseText3": "Для покупки Peercoin также доступен <a href=\"https://peercoin.net/docs/#/purchase\" target=\"_blank\" rel=\"noopener noreferrer\">гид</a>.",
-      "walletTitle": "Кошелек",
-      "walletText1": "<a href=\"/wallet\">Кошелек Peercoin</a> доступен на платформах Windows, Mac OSX și Linux.",
-      "walletText2": "Также доступны возможности командной строки.",
-      "walletText3": "Чтобы начать работу, смотрите Страницу Загрузки кошелька и Руководство по установке.",
-      "mintTitle": "Чеканка (Proof-of-Stake)",
-      "mintText1": "Производство с помощью Доказательства Ставки (PoS) - это эффективный процесс, в котором заинтересованные стороны создают новые блоки для сети. Эти блоки содержат транзакции, инициированные пользователями сети. Роль производства - обрабатывать эти блоки транзакций и обеспечивать безопасность сети.",
-      "mintText2": "Чеканка (PoS) - это энергоэффективный и экономичный процесс, который позволяет заинтересованным сторонам участвовать с использованием нескольких различных типов устройств. Заинтересованные стороны участвуют в чеканке, просто устанавливая версию Peercoin заполняя PPC свой кошелек храня их на время. Транзакции выбираются через протокол Peercoin для включения в следующий блок в цепочке блоков. Каждый произведенный блок вознаграждает заинтересованных сторон новыми PPC.",
-      "mintText3": "Pentru a afla cum să fabricați monede, consultați Secțiunea de Fabricare din <a href=\"https://peercoin.net/docs/#/wallets\" target=\"_blank\" rel=\"noopener noreferrer\">Documentația portmoneului</a>. Mai multe informații despre fabricare puteți găsi <a href=\"https://peercoin.net/docs/#/peercoin-minting-behaviour\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.",
-      "mineTitle": "Майнинг (Proof-of-Work)",
-      "mineText1": "Peercoin использует алгоритм хэширования SHA-256 с двойной итерацией для извлечения Доказательства Работы (PoW). Это означает что любое оборудование которое может извлекать Bitcoin, также может извлекать Peercoin.",
-      "mineText2": "Для начала прочтите <a href=\"https://peercoin.net/docs/#/mining\" target=\"_blank\" rel=\"noopener noreferrer\">документацию майнинга</a>.",
-      "communityTitle": "Сообщество",
-      "communityText1": "Присоединяйтесь на <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Форуме</a>, <a href=\"https://discord.gg/XPxfwtG\" target=\"_blank\" rel=\"noopener noreferrer\">Discord</a>, или на <a href=\"https://t.me/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Telegram</a> для общения с другими участниками и разработчиками сообщества Peercoin. Подписаться на <a href=\"https://twitter.com/PeercoinPPC\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter</a>, <a href=\"https://www.reddit.com/r/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>, <a href=\"https://www.peercoin.net/blog/\" target=\"_blank\" rel=\"noopener noreferrer\">Medium Блог</a>, или на <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\" target=\"_blank\" rel=\"noopener noreferrer\">Новости</a> чтобы быть в курсе последних новостей Peercoin. Смотрите также <a href=\"/resources#communities\">здесь</a> список ресурсов сообщества.",
-      "communityText2": "Важные обновления могут быть доставлены прямо на ваше мобильное устройство через такие платформы, как <a href=\"https://blockfolio.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blockfolio</a>, <a href=\"https://delta.app/\" target=\"_blank\" rel=\"noopener noreferrer\">Delta</a>, или <a href=\"https://www.coingecko.com/\" target=\"_blank\" rel=\"noopener noreferrer\">CoinGecko</a>. Подпишитесь на последние новости."
-    },
-    "latestNewsTitle": "Последние новости"
-  },
-  "notFoundPage": {
-    "title": "404 - запрошенный URL не найден",
-    "description": "Нажмите <a href=\"https://www.peercoin.net/\" style=\"color: white;\">здесь</a> для просмотра Главной страницы."
-  }
 }
+
