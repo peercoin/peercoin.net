@@ -58,7 +58,7 @@ function Contribute() {
               </h2>
               <p>{t("contributePage.content.translate")}</p>
               <a
-                href="https://www.transifex.com/peercoin-foundation/public/"
+                href="https://weblate.ppc.lol/projects/peercoin-net/translations/"
                 className="btn btn--green"
                 target="_blank"
                 rel="noopener noreferrer nofollow"

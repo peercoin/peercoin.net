@@ -1,427 +1,397 @@
 {
-    "menuComponent": {
-        "links": {
-            "home": {
-                "title": "Acasă"
-            },
-            "learn": {
-                "title": "Învățăm",
-                "peercoinUniversity": "Universitatea Peercoin",
-                "whatIsBlockchain": "Ce este un Blockchain?",
-                "inherentCentralization": "Centralizarea inerentă a blockchain-urilor cu Dovada Muncii",
-                "peercoinProofOfStake": "Peercoin & Consensul Dovada Mizei",
-                "efficientSustainableSecurity": "Eficient & Securizat",
-                "economicsOfPeercoin": "Economia Peercoin",
-                "scalabilityOfPeercoin": "Scalabilitatea Peercoin",
-                "deflationAndCriptocurrencies": "Deflația și Criptomonedele",
-                "peercoinHybridChainSolution": "Soluția hibridă a blockchain-ului Peercoin",
-                "richRicherFallacy": "Aberația \"Bogatul devine mai bogat\"",
-                "frequentlyAskedQuestions": "Întrebări frecvente"
-            },
-            "getStarted": {
-                "title": "Să începem"
-            },
-            "resources": {
-                "title": "Resurse",
-                "documentation": "Documentația",
-                "mining": "Minarea",
-                "peercoinUniversity": "Universitatea Peercoin",
-                "exchanges": "Schimburi valutare",
-                "blockExplorers": "Explorer de blocuri",
-                "whitepaper": "Hartie Alba",
-                "graphics": "Grafica"
-            },
-            "project": {
-                "title": "Proiect",
-                "github": "GitHub",
-                "projects": "Proiecte",
-                "blog": "Blog",
-                "peercoinFoundation": "Foundația Peercoin",
-                "contactUs": "Contactați-ne",
-                "contribute": "Contribuiți"
-            },
-            "wallet": {
-                "title": "Portmoneu"
-            },
-            "community": {
-                "title": "Comunitate",
-                "forum": "Forum",
-                "twitter": "Twitter",
-                "facebook": "Facebook",
-                "reddit": "Reddit",
-                "telegram": "Telegram",
-                "discord": "",
-                "youtube": "YouTube",
-                "bitcointalk": "Bitcointalk",
-                "cmc": "CoinMarketCap"
-            },
-            "donate": {
-                "title": "Donați"
-            }
-        }
-    },
-    "footerComponent": {
-        "subscribeTitle": "Abonați-vă la știrile Peercoin",
-        "subscribeSubtitle": "Fiți la curent cu cele mai recente știri Peercoin înscriindu-vă la newsletter-ul nostru!",
-        "subscribeBtnLabel": "Abonați-vă",
-        "links": {
-            "learn": {
-                "title": "Învățați",
-                "linkPeercoinUniversity": "Universitatea Peercoin",
-                "linkWhatIsBlockchain": "Ce este un Blockchain?",
-                "linkInherentCentralization": "Centralizarea inerentă a blockchain-urilor Proof-of-Work",
-                "linkPeercoinProofOfStakeConsensus": "Peercoin & Consensul Dovada Mizei (PoS)",
-                "linkEfficientSustainableSecurity": "Eficient & Securizat",
-                "linkEconomicsOfPeercoin": "Economia Peercoin",
-                "linkScalabilityOfPeercoin": "Scalabilitatea Peercoin",
-                "linkFAQ": "Întrebări frecvente"
-            },
-            "getStarted": {
-                "title": "Să începem"
-            },
-            "resources": {
-                "title": "Resourse",
-                "linkDocumentation": "Documentație",
-                "linkExchanges": "Schimburi valutare",
-                "linkBlockExplorers": "Explorere de blocuri",
-                "linkWhitepaper": "Hârtia Albă",
-                "linkGraphics": "Grafica",
-                "linkMining": "Minarea"
-            },
-            "wallet": {
-                "title": "Portmoneu"
-            },
-            "project": {
-                "title": "Proiect",
-                "linkGithub": "GitHub",
-                "linkProjects": "Proiecte",
-                "linkBlog": "Blog",
-                "linkFoundation": "Fundația",
-                "linkPrivacyPolicy": "Politica de Confidențialitate",
-                "linkContact": "Contact"
-            },
-            "community": {
-                "title": "Comunitate",
-                "linkForum": "Forum",
-                "linkReddit": "Reddit",
-                "linkTelegram": "Telegram",
-                "linkDiscord": "Discord",
-                "linkBitcointalk": "Bitcointalk",
-                "linkFacebook": "Facebook",
-                "linkTwitter": "Twitter",
-                "linkYoutube": "YouTube"
-            }
-        },
-        "copyright": {
-            "copyright": "Copyright ©",
-            "rights": "Foundația Peercoin | Toate Drepturile sunt rezervate"
-        }
-    },
-    "latestNewsComp": {
-        "readMore": "Citește mai multe"
-    },
-    "foundationPage": {
-        "missionStatementTitle": "Declarație a misiunii",
-        "missionStatementText1": "Fundația Peercoin a fost înființată cu simpla misiune de a promova și susține educația continuă, dezvoltarea și progresul general al proiectului Peercoin. Încercăm să împuternicim viitorii membri ai echipei Peercoin, oferind instrumentele necesare pentru a perpetua reputația de lungă durată a Peercoin de a aduce inovații de primă generație în Blockchain.",
-        "missionStatementText2": "Rețeaua blockchain Peercoin și proiectul Peercoin în general sunt un registru descentralizat open-source, fără un organism de conducere. Fundația Peercoin nu face nicio revendicare asupra proprietății intelectuale legate de proiectul Peercoin, cu excepția cazului în care se prevede în mod explicit asta.",
-        "technicalSupportTitle": "Suportul Comunității",
-        "technicalSupportText": "Dacă doriți să vă implicați în Peercoin sau pur și simplu doriți să susțineți echipa, aveți la dispoziție mai multe opțiuni. Dacă sunteți interesat să deveniți dezvoltator pentru Peercoin sau pentru proiecte legate de Peercoin, cum ar fi PeerAssets, trimiteți-ne un e-mail la Foundation@peercoin.net. Dacă doriți să donați Fundației Peercoin pentru a sprijini extinderea vreunui proiect, pur și simplu trimiteți donația dvs PPC la adresa multisig de mai jos.",
-        "generalFundPpcAddress": "Fondul general - <strong>PPC</strong> Adresa pentru donație:",
-        "generalFundBtcAddress": "Fondul general - <strong>BTC</strong> Adresa pentru donație:",
-        "viewOnExplorer": "Vedeți în explorer",
-        "openCollectiveNote": "Donații Fiat - <strong>USD/EUR</strong> cu Credit/Debit/Wire:",
-        "contactUsTitle": "Contactați-ne",
-        "addressCountry": "Olanda",
-        "reportsTitle": "Rapoarte financiare",
-        "reportsSupportText": "Fundația Peercoin anual emite rapoarte financiare. Le puteți descărca aici."
-    },
-    "contributePage": {
-        "contributeTitle": "Contribuiți ",
-        "contributeDescription": "Cum puteți ajuta la îmbunătățirea Peercoin",
-        "contributeIntro": "Peercoin este un proiect gratuit/open-source și este binevenit ajutorul pentru a-l îmbunătăți! Există mai multe moduri în care puteți ajuta:",
-        "header": {
-            "reportBugs": "Raportați erori",
-            "helpOthers": "Ajutați-i pe alții în rapoartarea erorilor",
-            "translate": "Traduceți Peercoin în limba dvs",
-            "write": "Scrieți Cod"
-        },
-        "content": {
-            "reportBugs": "Dacă găsiți erori în aplicația Peercoin, trebuie să le înregistrați în trackerul nostru de errori. \n Este posibil ca problema dvs să fi fost deja raportată, deci este o idee bună să verificați, pentru a evita depunerea unui duplicat. \n Aveți sugestii pentru noi funcții sau îmbunătățiri? \n Deschideți o raportare pe GitHub.",
-            "helpOthers": "Puteți ajuta echipa de dezvoltatori să țină pasul în rapoartele de erori, închizând duplicatele, ajutând la clarificarea problemelor reporterilor și confirmând corectarea erorilor. Un început bun ar fi Discord-ul sau forumul noastru.",
-            "translate": "Peercoin a fost tradus în zeci de limbi, dar dacă traducerea pentru limba dvs nu există, sau nu este actualizată, puteți contribui la aducerea Peercoin mai aproape de popor, pur și simplu traducând textul.",
-            "write": "Salutăm contribuțiile de modificare a codului de la oricine, indiferent dacă aveți multă experiență în programare sau chiar deloc."
-        },
-        "buttons": {
-            "help": "Forum",
-            "translate": "Transifex"
-        }
-    },
-    "contactPage": {
-        "contactTitle": "Contactați-ne",
-        "contactDescription": "Pentru întrebări generale, Fundația Peercoin este aici pentru a vă răspunde!",
-        "contactUsTitle": "Contactați-ne",
-        "contactUsText": "Pentru asistență tehnică sau în rezolvarea problemelor cu portofele, cu mineritul sau cu alte întrebări generale, vă rugăm să vizitați Peercointalk sau alte resurse ale comunității. Pentru alte întrebări, utilizați acest link:",
-        "contactUsBtn": "Contactați-ne",
-        "technicalSupportTitle": "Suport tehnic",
-        "technicalSupportText": "Aveți nevoie de ajutor la o problemă tehnică? Puteți găsi asistență și alte resurse excelente ale comunității pe Peercointalk.",
-        "addressCountry": "Olanda",
-        "documentationTitle": "Documentație",
-        "documentationText": "Sunteți dezvoltator și cautați mai multe informații despre Peercoin? Consultați documentația noastră.",
-        "documentationBtn": "Documentație",
-        "faqTitle": "Întrebări frecvente",
-        "faq": {
-            "howOldQuestion": "De când este proiectul Peercoin?",
-            "howOldAnswer": "Blockchain-ul Peercoin a început pe 19 august 2012 la 18:00:00 UTC. Nu a existat nicio monetă preminată, iar lansarea proiectului a fost anunțată cu nouă zile înainte. Puteți citi anunțul original aici: <a href=\"https://bitcointalk.org/index.php?topic=101820.0\" target=\"_blank\" rel=\"noopener noreferrer\">Bitcointalk</a>",
-            "howCanIMineQuestion": "Cum pot mina Peercoin?",
-            "howCanIMineAnswer": "Peercoin folosește funcția criptografică de hash - SHA256. Orice hardware care poate extrage Bitcoin, poate fi folosit pentru extragerea Peercoin.",
-            "whyMintingQuestion": "De ce rentabilitatea e de 1%? De ce nu există o limită a numărului total de PPC? Nu descalifică acest lucru Peercoin ca monedă deflaționistă?",
-            "whyMintingAnswer": "Peercoin are o rată a inflației de 1% pentru a permite participanților creșterea determinată în timp. Monedele complet deflaționiste nu pot fi folosite ca mijloace de schimb, ci mai degrabă doar stocuri de valoare. Permițând o rată a inflației gestionabilă, Peercoin rămâne limitată, permițând în același timp creșterea determinată de participare. Acest lucru ajută, de asemenea, la compensarea monedelor care sunt scoase din circulație prin portofelele pierdute și de taxa de plată.",
-            "whyFixedFeeQuestion": "De ce taxă de tranzacție este fixă?",
-            "whyFixedFeeAnswer": "Peercoin are o taxă de tranzacție fixă și care filtrează tipul de tranzacții spam, cele care au deteriorat lanțuri precum Bitcoin. O taxă fixă permite de asemenea, taxe previzibile de trimitere, căci taxele imprevizibile în alte lanțuri se pot schimba rapid, lăsând tranzacțiile în uitare pentru câteva zile. Acest lucru permite ca tranzacțiile să meargă succesiv - primul venit, primul servit. Peercoin este capabil să se întinde, fără să-și facă griji că evaluarea ar afecta utilizabilitatea. În versiunea 0.7, taxa de tranzacție este redusă de la 0,01 PPC la 0,001 PPC.",
-            "howCanPeercoinQuestion": "Cum poate supraviețui rețeaua Peercoin fără ca minerii să ofere securitate PoW, mai ales în perioadele de interes scăzut?",
-            "howCanPeercoinAnswer": "Dovada Muncii (POW) servește ca un mecanism inflaționist de distribuire a monedelor. Rețeaua Peercoin este asigurată de Vârsta Monedei și Dovada Mizei (PoS). Cu lanțuri de Dovada Muncii (POW), deținătorii au capacitatea redusă de a asigura lanțul cu costul ridicat al echipamentelor miniere, care constituie o mare barieră. La Peercoin, orice deținător Peercoin își poate proteja investiția permițând maturizarea unei tranzacții, lăsând portofelul deschis. Dovada Mizei (PoS) a menținut rețeaua sigură de la înființarea Peercoin.",
-            "whyNoMintingQuestion": "Tocmai am trimis PPC în portofel și îmi spune că am șanse zero să minez în următoarele 30 de zile. De ce e așa?",
-            "whyNoMintingAnswer": "Tranzacțiile peercoin trebuie să se maturizeze în 30 de zile sau aproximativ 4320 de blocuri, înainte ca acestea să devină eligibile pentru minare. Acest număr este actualizat aproximativ la fiecare șase ore. Odată ce va trece perioada de 30 de zile, monedele dvs vor deveni eligibile, iar probabilitatea ar trebui să se adapteze cu scurgerea timpului.",
-            "howManyConfirmationsQuestion": "Câte confirmări sunt necesare în rețeaua Peercoin pentru o tranzacție?",
-            "howManyConfirmationsAnswer": "Pentru ca tranzacția să arate ca verificată sunt necesare șase confirmări. Fiecare bloc durează aproximativ 10 minute.",
-            "whyNotAvailableMintinQuestion": "Tocmai am câștigat câteva monede, dar îmi spune că nu sunt disponibile momentan. De ce?",
-            "whyNotAvailableMintinAnswer": "Odată ce tranzacția se câștigă, este nevoie de 520 de confirmări înainte ca aceste monede să fie deblocate. Acest lucru se face pentru a preveni falsificarea. Fiecare bloc din rețeaua Peercoin durează aproximativ 10 minute, deci durează 5200 de minute sau aproximativ 3,6 zile până când monedele câștigate devin disponibile."
-        }
-    },
-    "projectsPage": {
-        "title": "Proiecte",
-        "description": "Proiecte care sunt dezvoltate în cadrul ecosistemului Peercoin pentru a crește utilizarea blockchain-ului.",
-        "peerAssetsTitle": "PeerAssets",
-        "peerAssetsP1": "O explicație simplă a protocolului PeerAssets ar fi că funcționează scriind și citind mesaje pe blockchain, unde dintre mesajele reprezintă active.",
-        "peerAssetsP2": "Activele bazate pe protocolul PeerAsset pot fi utilizate pentru a reprezenta orice tip de activ, cum ar fi obligațiunile sau capitalurile proprii. PeerAssets pot reprezenta, de asemenea, obiecte din viața reală și confirmând astfel existența lor pe blockchain. PeerAssets este un protocol ușor, deoarece nu utilizează straturi suplimentare peste blockchain-ul de bază. Nu necesită tokeni cu valoare externă pe lângă moneda nativă a blockchain-ului, care este utilizată pentru plata taxelor de tranzacție. PeerAssets nu participă la organizarea și menținerea registrului public, ci profită de stabilitatea și încrederea acestuia. PeerAssets poate funcționa pe orice criptomonedă care provine din Bitcoin și care și-a păstrat baza de cod compatibilă, inclusiv Peercoin, Litecoin și altele.",
-        "peerAssetsP3": "PeerAssets nu necesită o bifurcație hard sau soft a rețelei gazdă, dar necesită dezvoltarea unui client PeerAssets. PeerAssets este, de asemenea, inspirat din ideea originală de monede colorate și folosește OP_RETURN pentru a scrie datele în blockchain, dar oferă câteva optimizări pentru a reduce cantitatea de date scrise în OP_RETURN. PeerAssets permite scanarea ușoară a blockchain-ului pentru tranzacțiile necesare și oferă câteva caracteristici suplimentare, cum ar fi votul acționarilor și plata dividendelor.",
-        "peerAssetsP4": "Pentru început, consultați acest <a href=\"https://www.peercoin.net/blog/basic-deck-creation-with-peerassets-tutorial\" target=\"_blank\" rel=\"noopener noreferrer\">tutorial despre crearea deck-ului.</a>",
-        "peerAssetsBtnGithub": "GitHub",
-        "peerAssetsBtnWhitepaper": "Hartia Albă",
-        "perperaTitle": "Perpera",
-        "perperaP1": "\"Perpera\" este o implementare a protocolului PeerAssets DataAudit, protocol care a fost prezentat pentru prima dată ca un RFC, în iunie 2018. Perpera este o bibliotecă scrisă în TypeScript și își propune să răspundă nevoilor viitoarelor aplicații bazate pe dezvoltare web și e focusat pe instrumente CLI.",
-        "perperaP2": "Scopul principal al acestui protocol este încorporarea documentelor arbitrare în blockchain Dovada Existenței (proof-of-existence) și pe capacitatea de a revizui documentele menționate. În aspectul (suport pentru revizuiri), acest protocol este diferit de protocoalele similare care sunt deja utilizate.",
-        "perperaP3": "Mai multe despre protocolul PeerAssets DataAudit:",
-        "perperaP4": "Scopul principal al acestui protocol este de a înregistra hash-uri criptografice ale reviziilor succesive ale documentelor de un singur fișier într-un blockchain public, într-o manieră care permite clienților să interogeze și să verifice cu ușurință istoricul documentelor. Astfel de istorii moștenesc proprietăți utile din blockchain-ul de bază, și anume imuabilitatea și replicarea masivă și, prin urmare, pot servi drept dovezi ale existenței. În plus față de hashurile criptografice, utilizatorii pot înregistra și o colecție de adrese URL pentru fiecare document, facilitând extragerea conținutului documentului din surse off-chain (IPFS, https, torrent). Scopul este de a impune cerințe minime blockchain-ului, atât în ceea ce privește caracteristicile, cât și spațiul de stocare.",
-        "perperaP5": "Pentru a afla mai multe, consultați Perpera Github Oficial, mai jos.",
-        "perperaBtnGithub": "GitHub"
-    },
-    "resourcesPage": {
+  "menuComponent": {
+    "links": {
+      "home": {
+        "title": "Acasă"
+      },
+      "learn": {
+        "title": "Învățăm",
+        "peercoinUniversity": "Universitatea Peercoin",
+        "whatIsBlockchain": "Ce este un Blockchain?",
+        "inherentCentralization": "Centralizarea inerentă a blockchain-urilor cu Dovada Muncii",
+        "peercoinProofOfStake": "Peercoin & Consensul Dovada Mizei",
+        "efficientSustainableSecurity": "Eficient & Securizat",
+        "economicsOfPeercoin": "Economia Peercoin",
+        "scalabilityOfPeercoin": "Scalabilitatea Peercoin",
+        "deflationAndCriptocurrencies": "Deflația și Criptomonedele",
+        "peercoinHybridChainSolution": "Soluția hibridă a blockchain-ului Peercoin",
+        "richRicherFallacy": "Aberația \"Bogatul devine mai bogat\"",
+        "frequentlyAskedQuestions": "Întrebări frecvente"
+      },
+      "getStarted": {
+        "title": "Să începem!"
+      },
+      "resources": {
         "title": "Resurse",
-        "description": "Instrumente și resurse ale comunității: inclusiv schimb, explorator de blocuri, grafică, social media, forumuri, chaturi și multe altele!",
-        "actions": {
-            "action1": "Schimburi",
-            "action2": "Explorator de Blocuri",
-            "action3": "Comunitatea",
-            "action4": "Hartia Albă",
-            "action5": "Grafica"
-        },
-        "contributeTitle": "Contribuie",
-        "contributeText": "Peercoin este întotdeauna în curs de dezvoltare și orice dezvoltator este binevenit să contribuie. Există o varietate de modalități de a contribui, inclusiv dezvoltarea de bază și scrierea documentației. Vă rugăm să verificați GitHub de mai jos pentru a începe.",
-        "contributeBtn": "GitHub",
-        "documentationTitle": "Documentația",
-        "documentationText": "Pentru a afla mai multe despre detaliile tehnice ale Peercoin și despre modul de utilizare a instrumentelor sau cadrului existent, se recomandă să începeți citind documentația Peercoin.",
-        "documentationBtn": "Documentația",
-        "miningTitle": "Minarea",
-        "miningText1": "Peercoin folosește algoritmul hashcash SHA-256 dublu iterat pentru extragerea Dovezii Muncii (PoW). Aceasta înseamnă că orice hardware care poate extrage Bitcoin poate extrage și Peercoin.",
-        "miningText2": "Pentru a mina Peercoin, aveți nevoie de software pentru minerit. Mai jos este o listă neoficială de software pentru minerit despre care s-a dovedit a avea o reputație decentă.",
-        "miningBtn1": "Documentația",
-        "miningBtn2": "Calculator",
-        "universityTitle": "Universitatea Peercoin",
-        "universityText1": "Universitatea Peercoin este un articol educațional destinat membrilor mai puțin tehnici ai comunității, pentru ai ajuta să înțeleagă subiectul complex al blockchain-ului public.",
-        "universityText2": "Articolul începe prin a explica ce este un blockchain, cum funcționează și numeroasele sale beneficii și cazuri de utilizare. Bitcoin și Dovada Muncii sunt detaliate în continuare, urmate de Peercoin și Dovada Mizei (PoS). Alte subiecte includ securitatea, centralizarea, descentralizarea, scalabilitatea și economia.",
-        "universityLink1": "Ce este un Blockchain?",
-        "universityLink2": "Centralizarea Inerentă a blockchain-urilor ce lucrează pe Dovada Muncii",
-        "universityLink3": "Peercoin & Consensul de Dovadă a Mizei",
-        "universityBtn": "Universitatea Peercoin",
-        "exchangesTitle": "Schimburi",
-        "exchangesText": "ATENȚIE: Această listă este furnizată doar în scop informativ. Serviciile enumerate aici nu au fost evaluate sau aprobate de Fundația Peercoin. Utilizați aceste platforme și servicii terțe cu atenție.",
-        "exchangesType1": "Schimb",
-        "exchangesType2": "Servicii",
-        "exchangesType3": "Informație Market",
-        "explorersTitle": "Exploratoare de Blocuri",
-        "explorersMainnet": "Mainnet",
-        "explorersTestnet": "Testnet",
-        "toolsTitle": "Resurse",
-        "toolsCharts": "Diagrame",
-        "toolsMempool": "Mempool",
-        "toolsEnergyStatistics": "Statistica Energetică",
-        "toolsTestnetFaucet": "Robinet Testnet",
-        "communityTitle": "Comunitatea",
-        "whitepaperTitle": "Hârtia Albă",
-        "whitepaperEnglish": "Engleză",
-        "whitepaperChinese": "Chineză",
-        "whitepaperSpanish": "Spaniolă",
-        "whitepaperDutch": "Olandeză",
-        "whitepaperFrench": "Franceză",
-        "whitepaperGerman": "Germană",
-        "whitepaperJapanese": "Japoneză",
-        "whitepaperKorean": "Koreiană",
-        "whitepaperRussian": "Rusă",
-        "whitepaperRomanian": "Română",
-        "graphicsTitle": "Grafică",
-        "graphicsText": "Căutați mai multă grafică? O colecție actualizată de sigle și imagini de fundal poate fi găsită pe <a href=\"https://github.com/peercoin/media\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin GitHub</a>.",
-        "graphicsVertical": "Logo Vertical",
-        "graphicsHorizontal": "Logo Horizontal",
-        "graphicsIconOnly": "Doar Iconițe",
-        "graphicsTextOnly": "Doar Text",
-        "graphicsFavicons": "Favicon",
-        "graphicsZipFolder": "Este disponibil fișier ZIP pentru toată grafica <a href=\"https://peercoin.net/assets/Peercoin%202021%20Graphics.zip\">here</a>",
-        "brandIdentityTitle": "Identitate de Brand",
-        "brandIdentityColorsFonts": "Peercoin Coduri pentru culori & Fonturi:",
-        "brandIdentityDisclaimer": "Vă rugăm să utilizați aceste coduri ale culorilor pe site-urile dvs Peercoin, când este posibil. Acest lucru ne va ajuta să menținem ecosistemul Peercoin și branding-ul și imaginile sale coerente.",
-        "brandIdentityGreen": "Verde",
-        "brandIdentityFont": "Sigla text a Peercoin-ului folosește următorul font",
-        "brandIdentityFontFont": "Font",
-        "brandIdentityFontType": "Tip",
-        "brandIdentityFontRoboto": "Site-ul Peercoin și portofelele folosesc fontul <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\" rel=\"noopener noreferrer\">Roboto</a> pentru conținut.",
-        "exchangesType4": "Schimb Ethereum",
-        "exchangesType5": "Schimb Polygon",
-        "toolsPresentation": "Prezentare",
-        "wrapedPPCTitle": "Token wPPC",
-        "wrappedPPCText": "Wrapped Peercoin (wPPC) este un token sintetic pe bază de Peercoin. wPPC este creat din Peercoin folosind bridge.peercoin.net și este distrus atunci când este convertit înapoi în Peercoin."
-    },
-    "walletPage": {
-        "title": "Portmonee",
-        "description": "Trimiteți, primiți și stocați Peercoin. Portmoneul pentru desktop permite de asemenea, fabricarea blocurilor și securizarea rețelei.",
-        "actions": {
-            "action1": "Instalarea",
-            "action2": "Portmoneu de Hârtie",
-            "action3": "Portmonee neoficiale",
-            "action4": "Portofel Flutter"
-        },
-        "desktopWalletTitle": "Portmonee pentru Desktop",
-        "walletWindows": "Windows",
-        "walletMac": "macOS",
-        "walletLinux": "Linux",
-        "installationTitle": "Instalarea",
-        "sectionWindows": {
-            "title1": "Windows",
-            "text1": "Rulați <code>{{file}}</code>",
-            "text2": "Instalarea implicită e in folderul <code>C:\\Program Files\\PPCoin or C:\\Program Files\\Peercoin</code>",
-            "text3": "Rulați <code>peercoin-qt</code> ori <code>peercoin</code> din meniul Start, sau din folderul unde s-a instalat",
-            "title2": "Daemon",
-            "text4": "Creați peercoin.conf în <code>%APPDATA%\\PPCoin</code>",
-            "text5": "Rulați <code>daemon\\peercoind</code>",
-            "text6": "Portmoneul dvs e în <code>C:\\Users\\{username}\\AppData</code> (hidden folder).",
-            "text7": "Deschideți folderul cu <code>Start menu -> Run...</code> (sau apăsați <code>Winkey-R</code>), înscrieți <code>%APPDATA%\\PPCoin</code> în acest câmp și apăsați Enter.",
-            "text8": "Ajutor suplimentar puteți găsit în <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Documentația Peercoin</a> sau întrebând în <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Forumuri</a>."
-        },
-        "sectionMac": {
-            "title1": "macOS",
-            "text1": "Rulați <code className=\"green\">{{file}}</code>",
-            "text2": "Montați <code className=\"green\">Peercoin-Qt.dmg</code> deschizându-l",
-            "text3": "Trageți <code className=\"green\">Peercoin-Qt.app</code> ori <code className=\"green\">Peercoin.app</code> în <code className=\"green\">Applications</code>",
-            "text4": "Mergeți la <code className=\"green\">Applicație</code> și deschideți <code className=\"green\">Peercoin-Qt.app</code> ori <code className=\"green\">Peercoin.app</code>",
-            "title2": "Daemonul",
-            "text5": "Dezarhivați <code className=\"green\">peercoind.zip</code>",
-            "text6": "Creați <code className=\"green\">ppcoin.conf</code> în <code className=\"green\">~/Library/Application Support/PPCoin</code>",
-            "text7": "Rulați <code className=\"green\">peercoind</code>",
-            "text8": "Portmoneul dvs e în folderul<code>~/Library/Application Support/PPCoin</code>. Pentru a deschide folderul apăsați <code>Command-Shift-G</code> în Finder, introduceți calea (path), ași apăsați Enter.",
-            "text9": "Ajutor suplimentar puteți găsit în <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Documentația Peercoin</a> sau întrebând în <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Forumuri</a>."
-        },
-        "sectionLinux": {
-            "title1": "Linux",
-            "text1": "Dezarhivați <code className=\"green\">{{file}}</code>",
-            "text2": "Rulați <code className=\"green\">bin/peercoin-qt</code>",
-            "title2": "APT Repositoriu",
-            "text3": "APT repositoriul Peercoin pentru Debian Buster (10).",
-            "text4": "Arhitectura acceptată: amd64, arm64 and armhf.",
-            "text5": "Pachete disponibile: peercoind peercoin-qt peercoin-tx",
-            "title3": "Daemon",
-            "text13": "Creați <code className=\"green\">peercoin.conf</code> in <code className=\"green\">~/.peercoin</code>",
-            "text14": "Rulați <code className=\"green\">bin/peercoind</code>",
-            "text15": "Portmoneul dvs e în <code>~/.peercoin</code>.",
-            "text16": "Ajutor suplimentar puteți găsit în <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Documentation</a> sau întrebând în <a href=\"https://talk.peercoin.net/\">Forumuri</a>.",
-            "textFlathub": "Execută <code className=\"green\">flatpak install --user net.peercoin.peercoin-qt</code>",
-            "descriptionFlathub": "Informații suplimentare pot fi găsite pe <a href=\"https://flathub.org/apps/details/net.peercoin.peercoin-qt/\" target=\"_blank\" rel=\"noopener noreferrer\">siteul Flathub</a>.",
-            "text6": "<code>sudo apt-get update</code>",
-            "text7": "<code>sudo apt-get install apt-transport-https</code>",
-            "text8": "<code>sudo sh -c \"echo 'deb https://peercoin.github.io/deb-repo/ buster main' >> /etc/apt/sources.list.d/peercoin.list\"</code>",
-            "text9": "<code>wget -O - https://peercoin.github.io/deb-repo/peercoin.apt.key | sudo apt-key add -</code>",
-            "text10": "<code>sudo apt-get update</code>",
-            "text11": "<code>sudo apt-get install peercoin-qt</code>",
-            "text12": "Pachete disponibile: peercoind peercoin-qt peercoin-tx"
-        },
-        "paperWalletTitle": "Portmoneu de Hârtie",
-        "paperWalletSubtitle1": "Portmoneu de Hârtie",
-        "paperWalletSubtitle2": "Portmonee neoficiale",
-        "paperWalletSubtitle3": "Portmoneu hardware",
-        "type1": "Portmoneu hardware",
-        "type2": "Portmoneu Mobil/Web",
-        "type3": "Portmoneu Web",
-        "type4": "Portmoneu pentru Mobil",
-        "mobileWalletTitle": "Portofel Flutter"
-    },
-    "indexPage": {
-        "actions": {
-            "action1": "Să începem",
-            "action2": "Ce este Peercoin?"
-        },
-        "youtubeSection": {
-            "subText": "Peercoin Primer este un scurt serial video format din cinci părți, care acoperă elementele fundamentale ale Peercoin. Aflați despre subiecte importante, cum ar fi distribuția inițială a Peercoin, cum funcționează consensul Dovada Mizei (PoS) și numeroase beneficii pe care le oferă modelul economic al Peercoin și utilizarea inflației limitate pentru a produce o securitate durabilă. În cele din urmă, vom explica misiunea pe termen lung a Peercoin-ului ca criptomonedă, coloană vertebrală de încredere.",
-            "btnVideo1": "Part 1: Lansare",
-            "btnVideo2": "Part 2: Securitate",
-            "btnVideo3": "Part 3: Beneficii",
-            "btnVideo4": "Part 4: Economia",
-            "btnVideo5": "Part 5: Misiune"
-        },
-        "efficientEnergyTitle": "Securitate Eficientă",
-        "efficientEnergyText1": "Peercoin (PPC) a apărut pentru prima dată în 2012, devenind unul dintre primele blockchain-uri. Inovația principală a Peercoin-ului este inventarea Dovezii de Timp (PoS), un protocol de consens alternativ la Dovada de Muncă (PoW) a Bitcoin-ului.",
-        "efficientEnergyText2": "Blockchain-urile cu Dovadă a Muncii sunt securizate dovedind consumul unei resurse limitate și costisitoare: electricitatea. Dovada Mizei înlocuiește acest protocol de securitate scump, prin utilizarea unei resurse alternative: Timpul.",
-        "efficientEnergyText3": "Datorită naturii eficiente din punct de vedere al costurilor a regulilor consensuale bazate pe Dovada Mizei, Peercoin este capabil să permită oricărui computer conectat la rețea să participe la procesul de securitate al blockchain-ului. Această eficiență întărește Peercoin prin creșterea numărului de furnizori de securitate și asigurarea faptului că securitatea poate fi susținută pe termen lung.",
-        "userGovernanceTitle": "Guvernarea Utilizatorilor",
-        "userGovernanceText1": "În Peercoin, proprietarii de monede sunt cei care exercită influență asupra rețelei, produc noi blocuri și securizează lanțul. Părțile interesate de Peercoin sunt coproprietari ai blockchain-ului și își decid în mod colectiv viitorul prin vot din protocol.",
-        "userGovernanceText2": "Votul se realizează în același mod în care Peercoin este securizat, printr-un proces numit Dovada Mizei. Părțile interesate participă la fabricarea PPC pur și simplu instalând versiunea de Peercoin acceptată, suplinindu-și portofelul cu PPC și ținându-le în timp. Tranzacțiile sunt selectate ocazional prin protocolul Peercoin pentru a fabrica următorul bloc din lanț. Fiecare bloc fabricat recompensează părțile interesate cu PPC și un vot.",
-        "userGovernanceText3": "Acest lucru face ca Peercoin să fie primul blockchain capabil să permită regulilor sale de protocol să fie guvernat direct de către utilizatorii săi, creând o rețea mai descentralizată, democratică și ușor de securizată de către oamenii din întreaga lume.",
-        "trustlessTitle": "Layere de Bază cu puțină încredere",
-        "trustlessText1": "Având în vedere că blockchain-ul este imuabil prin însăși natura sa și toate datele înregistrate sunt stocate pentru totdeauna, mărirea blockchain-ului devine o problemă la utilizarea mai intensă, ceea ce dăunează atât securității, cât și capacității rețelei de la scalare.",
-        "trustlessText2": "Pentru a păstra securitatea de încredere a blockchain-ului și a-i asigura capacitatea de a se extinde la nivelurile globale de utilizare, inventatorii Peercoin au adaptat blockchain-ul și economia lui, pentru a îndeplini rolul de rețea de decontare în stratului de bază.",
-        "trustlessText3": "Acest rol se bazează pe dezvoltarea Peercoin pe bază de module, păstrând protocolul simplu și sigur, cu cât mai puține caracteristici posibile, menținând în același timp blockchain-ul ca o bază stabilă pe care se poate construi un număr de straturi suplimentare.",
-        "fairDistributionTitle": "Distribuire echitabilă",
-        "fairDistributionText1": "Criptomonedele trebuie să aibă o distribuție suficient de largă, pentru a se asigura că distribuirea globală de monede nu se concentrează în mâinile a prea puțini oameni.",
-        "fairDistributionText2": "Cu toate acestea, există o problemă în blockchain-urile care rulează doar pe Dovada Mizei, deoarece nu există o modalitate ușoară de a distribui în mod echitabil la start monedele. Într-o rețea blockchain cu pură de Dovadă a Mizei, întreaga ofertă de monede este de obicei creată de fondatorul proiectului, care apoi alege ce persoane ajung să deâină monedele. Această metodă de distribuție se termină adesea cu rețea de monede foarte centralizată.",
-        "fairDistributionText3": "Pentru a rezolva această problemă, Peercoin folosește Dovada Mizei pentru securitatea rețelei și Dovada Muncii pentru distribuție. Minerii ce minează prin Dovada Muncii, sunt recompensați cu noi PPC generate de rețea. Aceste monede noi sunt apoi vândute pentru profit la schimburi, de către mineri și achiziționate de noile părți interesate, care le pot folosi pentru a crea noi blocuri participând la fabricare prin Dovadă a Mizei.",
-        "fairDistributionText4": "Așadar, în timp ce Dovada Mizei (Proof-of-Stake) oferă securitate în mod direct, Dovada Muncii (Proof-of-Work) este conceput să facă acest lucru în mod indirect, prin consolidarea descentralizării rețelei în o distribuție mai largă a PPC către noii producători potențiali.",
-        "valueStoreTitle": "Magazin fiabil al valorilor",
-        "valueStoreText1": "Eficiență, durabilitate, guvernare a utilizatorilor, scalabilitate prin modularitate și o distribuție echitabilă. Toate aceste calități se combină pentru a forma o rețea blockchain pe termen lung, axată în primul rând pe maximizarea descentralizării.",
-        "valueStoreText2": "Acest accent principal funcționează pentru a păstra încrederea imuabilă și rezistentă la cenzură, astfel încât să poată fi întotdeauna invocat pentru a-și îndeplini rolul principal de mecanism pentru stocarea în siguranță a tuturor tipurilor de valori.",
-        "valueStoreText3": "Aceaste valori poate fi orice, de la valori fiduciare stocate în PPC, până la datele stocate în lanț sub formă de tokeni, înregistrări sau contracte. Indiferent de tipul de valoare stocată, Peercoin a fost construit având în vedere elementele fundamentale pentru a vă asigura întotdeauna că datele dvs rămân în siguranță.",
-        "getStartedTitle": "Să începem",
-        "collapsables": {
-            "learnTitle": "Învăță",
-            "learnText1": "Pentru o prezentare detaliată a proiectului, <a href=\"https://peercoin.net/university/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin University</a> este cel mai bun loc de plecare. Pentru mai multe articole despre Peercoin, consultați <a href=\"https://www.peercoin.net/blog/\" target=\"_blank\" rel=\"noopener noreferrer\">Blogul Medium</a>.",
-            "learnText2": "Pentru cei care doresc să se implice în dezvoltare, PeerAssets este soluția din straturile Peercoin pentru tokeni. Mai multe informații pot fi găsite pe pagina <a href=\"/projects\">projects</a> site-ului nostru.",
-            "learnText3": "Multe informații tehnice pot fi găsite în <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Documentația Peercoin</a>.",
-            "purchaseTitle": "Cumpără",
-            "purchaseText1": "Peercoin este disponibil în multe schimburi și servicii. <a href=\"/resources#exchanges\">Vezi aici o listă</a>.",
-            "purchaseText3": "Pentru cumpărarea Peercoin este disponibil și un <a href=\"https://peercoin.net/docs/#/purchase\" target=\"_blank\" rel=\"noopener noreferrer\">ghid</a>.",
-            "walletTitle": "Portmoneu",
-            "walletText1": "<a href=\"/wallet\">Portmoneul Peercoin</a> este disponibil pe platformele Windows, Mac OSX și Linux.",
-            "walletText2": "Sunt disponibile și experiențele Liniei de Comandă.",
-            "walletText3": "Pentru a începe, consultați pagina de descărcare a Portmoneului și Ghidul de Instalare.",
-            "mintTitle": "Fabricare (Proof-of-Stake)",
-            "mintText1": "Fabricarea prin Dovada Mizei este un proces eficient în care părțile interesate crează noi blocuri pentru rețea. Aceste blocuri conțin tranzacții inițiate de utilizatorii rețelei. Rolul fabricării este de a procesa aceste blocuri de tranzacții și de a oferi securitate rețelei.",
-            "mintText2": "Fabricarea (PoS) este un proces eficient din punct de vedere energetic și din punct de vedere al costurilor, care face posibilă participarea părților interesate utilizând mai multe tipuri diferite de dispozitive. Părțile interesate participă la inventare pur și simplu instalând versiunea de Peercoin, suplinindu-și portofelul cu PPC și ținându-le în timp. TRanzactiile sunt selectate ocazional prin protocolul Peercoin pentru a fi incluse în următorul bloc din blockchain. Fiecare bloc fabricat recompensează părțile interesate cu PPC.",
-            "mintText3": "Pentru a afla cum să fabricați monede, consultați Secțiunea de Fabricare din <a href=\"https://peercoin.net/docs/#/wallets\" target=\"_blank\" rel=\"noopener noreferrer\">Documentația portmoneului</a>. Mai multe informații despre fabricare puteți găsi <a href=\"https://peercoin.net/docs/#/peercoin-minting-behaviour\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.",
-            "mineTitle": "Minare (Proof-of-Work)",
-            "mineText1": "Peercoin folosește algoritmul hashcash SHA-256 dublu iterat pentru extragerea Dovezii Muncii (PoW). Aceasta înseamnă că orice hardware care poate extrage Bitcoin poate extrage și Peercoin.",
-            "mineText2": "Pentru a începe, citiți <a href=\"https://peercoin.net/docs/#/mining\" target=\"_blank\" rel=\"noopener noreferrer\">documentația fabricării</a>.",
-            "communityTitle": "Comunitatea",
-            "communityText1": "Alăturați-vă pe <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Forum</a>, <a href=\"https://discord.gg/XPxfwtG\" target=\"_blank\" rel=\"noopener noreferrer\">Discord</a>, ori pe <a href=\"https://t.me/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Telegram</a> pentru a discuta cu alți membri și dezvoltatori ai comunității Peercoin. Abonați-vă la <a href=\"https://twitter.com/PeercoinPPC\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter</a>, <a href=\"https://www.reddit.com/r/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>, <a href=\"https://www.peercoin.net/blog/\" target=\"_blank\" rel=\"noopener noreferrer\">Blogul Medium </a>, ori <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\" target=\"_blank\" rel=\"noopener noreferrer\">Noutăți</a> pentru a fi la curent cu ultimele știri ale Peercoin. Vedeți și <a href=\"/resources#communities\">here</a> lista de resurse ale comunității.",
-            "communityText2": "Actualizările importante pot fi livrate direct pe dispozitivul dvs mobil prin intermediul unor platforme precum <a href=\"https://blockfolio.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blockfolio</a>, <a href=\"https://delta.app/\" target=\"_blank\" rel=\"noopener noreferrer\">Delta</a>, sau <a href=\"https://www.coingecko.com/\" target=\"_blank\" rel=\"noopener noreferrer\">CoinGecko</a>. Abonați-vă la ultimele noutăți.",
-            "purchaseText2": "<a href=\"https://buy.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Aici</a> este disponibilă achiziția directă de Peercoin cu card de credit și de debit."
-        },
-        "latestNewsTitle": "Ultimile Noutăți"
-    },
-    "notFoundPage": {
-        "title": "404 - Adresa URL solicitată nu a fost găsită",
-        "description": "Apasă <a href=\"https://www.peercoin.net/\" style=\"color: white;\">aici</a> pentru a accesa pagina principală."
-    },
-    "reader": {
-        "buttonGoBack": "Vedeți alte traduceri",
-        "buttonDownload": "Descărcați Hârtia Albă",
-        "hint": "Dacă nu vedeți acest document, browserul dvs. nu acceptă această operațiune. Mai bine descărcați Hârtia Albă.",
-        "notFound": "Sursa solicitată nu poate fi afișată."
+        "documentation": "Documentația",
+        "mining": "Minarea",
+        "peercoinUniversity": "Universitatea Peercoin",
+        "exchanges": "Schimburi valutare",
+        "blockExplorers": "Explorer de blocuri",
+        "whitepaper": "Hartie Alba",
+        "graphics": "Grafica"
+      },
+      "project": {
+        "title": "Proiect",
+        "github": "GitHub",
+        "projects": "Proiecte",
+        "blog": "Blog",
+        "peercoinFoundation": "Foundația Peercoin",
+        "contactUs": "Contactați-ne",
+        "contribute": "Contribuiți"
+      },
+      "wallet": {
+        "title": "Portmoneu"
+      },
+      "community": {
+        "title": "Comunitate",
+        "forum": "Forum",
+        "twitter": "Twitter",
+        "facebook": "Facebook",
+        "reddit": "Reddit",
+        "telegram": "Telegram",
+        "discord": "Discord",
+        "youtube": "YouTube",
+        "bitcointalk": "Bitcointalk"
+      }
     }
+  },
+  "footerComponent": {
+    "subscribeTitle": "Abonați-vă la știrile Peercoin",
+    "subscribeSubtitle": "Fiți la curent cu cele mai recente știri Peercoin înscriindu-vă la newsletter-ul nostru!",
+    "subscribeBtnLabel": "Abonați-vă",
+    "links": {
+      "learn": {
+        "title": "Învățați",
+        "linkPeercoinUniversity": "Universitatea Peercoin",
+        "linkWhatIsBlockchain": "Ce este un Blockchain?",
+        "linkInherentCentralization": "Centralizarea inerentă a blockchain-urilor Proof-of-Work",
+        "linkPeercoinProofOfStakeConsensus": "Peercoin & Consensul Dovada Mizei (PoS)",
+        "linkEfficientSustainableSecurity": "Eficient & Securizat",
+        "linkEconomicsOfPeercoin": "Economia Peercoin",
+        "linkScalabilityOfPeercoin": "Scalabilitatea Peercoin",
+        "linkFAQ": "Întrebări frecvente"
+      },
+      "getStarted": {
+        "title": "Să începem"
+      },
+      "resources": {
+        "title": "Resourse",
+        "linkDocumentation": "Documentație",
+        "linkExchanges": "Schimburi valutare",
+        "linkBlockExplorers": "Explorere de blocuri",
+        "linkWhitepaper": "Hârtia Albă",
+        "linkGraphics": "Grafica",
+        "linkMining": "Minarea"
+      },
+      "wallet": {
+        "title": "Portmoneu"
+      },
+      "project": {
+        "title": "Proiect",
+        "linkGithub": "GitHub",
+        "linkProjects": "Proiecte",
+        "linkBlog": "Blog",
+        "linkFoundation": "Fundația",
+        "linkPrivacyPolicy": "Politica de Confidențialitate",
+        "linkContact": "Contact"
+      },
+      "community": {
+        "title": "Comunitate",
+        "linkForum": "Forum",
+        "linkReddit": "Reddit",
+        "linkTelegram": "Telegram",
+        "linkDiscord": "Discord",
+        "linkBitcointalk": "Bitcointalk",
+        "linkFacebook": "Facebook",
+        "linkTwitter": "Twitter",
+        "linkYoutube": "YouTube"
+      }
+    },
+    "copyright": {
+      "copyright": "Copyright ©",
+      "rights": "Foundația Peercoin | Toate Drepturile sunt rezervate"
+    }
+  },
+  "latestNewsComp": {
+    "readMore": "Citește mai multe"
+  },
+  "foundationPage": {
+    "missionStatementTitle": "Declarație a misiunii",
+    "missionStatementText1": "Fundația Peercoin a fost înființată cu simpla misiune de a promova și susține educația continuă, dezvoltarea și progresul general al proiectului Peercoin. Încercăm să împuternicim viitorii membri ai echipei Peercoin, oferind instrumentele necesare pentru a perpetua reputația de lungă durată a Peercoin de a aduce inovații de primă generație în Blockchain.",
+    "missionStatementText2": "Rețeaua blockchain Peercoin și proiectul Peercoin în general sunt un registru descentralizat open-source, fără un organism de conducere. Fundația Peercoin nu face nicio revendicare asupra proprietății intelectuale legate de proiectul Peercoin, cu excepția cazului în care se prevede în mod explicit asta.",
+    "technicalSupportTitle": "Suportul Comunității",
+    "technicalSupportText": "Dacă doriți să vă implicați în Peercoin sau pur și simplu doriți să susțineți echipa, aveți la dispoziție mai multe opțiuni. Dacă sunteți interesat să deveniți dezvoltator pentru Peercoin sau pentru proiecte legate de Peercoin, cum ar fi PeerAssets, trimiteți-ne un e-mail la Foundation@peercoin.net. Dacă doriți să donați Fundației Peercoin pentru a sprijini extinderea vreunui proiect, pur și simplu trimiteți donația dvs PPC la adresa multisig de mai jos.",
+    "generalFundPpcAddress": "Fondul general - <strong>PPC</strong> Adresa pentru donație:",
+    "generalFundBtcAddress": "Fondul general - <strong>BTC</strong> Adresa pentru donație:",
+    "viewOnExplorer": "Vedeți în explorer",
+    "openCollectiveNote": "Donații Fiat - <strong>USD/EUR</strong> cu Credit/Debit/Wire:",
+    "contactUsTitle": "Contactați-ne",
+    "addressCountry": "Olanda"
+  },
+  "contributePage": {
+    "contributeTitle": "Contribuiți ",
+    "contributeDescription": "Cum puteți ajuta la îmbunătățirea Peercoin",
+    "contributeIntro": "Peercoin este un proiect gratuit/open-source și este binevenit ajutorul pentru a-l îmbunătăți! Există mai multe moduri în care puteți ajuta:",
+    "header": {
+      "reportBugs": "Raportați erori",
+      "helpOthers": "Ajutați-i pe alții în rapoartarea erorilor",
+      "translate": "Traduceți Peercoin în limba dvs",
+      "write": "Scrieți Cod"
+    },
+    "content": {
+      "reportBugs": "Dacă găsiți erori în aplicația Peercoin, trebuie să le înregistrați în trackerul nostru de errori. \n Este posibil ca problema dvs să fi fost deja raportată, deci este o idee bună să verificați, pentru a evita depunerea unui duplicat. \n Aveți sugestii pentru noi funcții sau îmbunătățiri? \n Deschideți o raportare pe GitHub.",
+      "helpOthers": "Puteți ajuta echipa de dezvoltatori să țină pasul în rapoartele de erori, închizând duplicatele, ajutând la clarificarea problemelor reporterilor și confirmând corectarea erorilor. Un început bun ar fi Discord-ul sau forumul noastru.",
+      "translate": "Peercoin a fost tradus în zeci de limbi, dar dacă traducerea pentru limba dvs nu există, sau nu este actualizată, puteți contribui la aducerea Peercoin mai aproape de popor, pur și simplu traducând textul.",
+      "write": "Salutăm contribuțiile de modificare a codului de la oricine, indiferent dacă aveți multă experiență în programare sau chiar deloc."
+    },
+    "buttons": {
+      "help": "Forum"
+    }
+  },
+  "contactPage": {
+    "contactTitle": "Contactați-ne",
+    "contactDescription": "Pentru întrebări generale, Fundația Peercoin este aici pentru a vă răspunde!",
+    "contactUsTitle": "Contactați-ne",
+    "contactUsText": "Pentru asistență tehnică sau în rezolvarea problemelor cu portofele, cu mineritul sau cu alte întrebări generale, vă rugăm să vizitați Peercointalk sau alte resurse ale comunității. Pentru alte întrebări, utilizați acest link:",
+    "contactUsBtn": "Contactați-ne",
+    "technicalSupportTitle": "Suport tehnic",
+    "technicalSupportText": "Aveți nevoie de ajutor la o problemă tehnică? Puteți găsi asistență și alte resurse excelente ale comunității pe Peercointalk.",
+    "addressCountry": "Olanda",
+    "documentationTitle": "Documentație",
+    "documentationText": "Sunteți dezvoltator și cautați mai multe informații despre Peercoin? Consultați documentația noastră.",
+    "documentationBtn": "Documentație",
+    "faqTitle": "Întrebări frecvente",
+    "faq": {
+      "howOldQuestion": "De când este proiectul Peercoin?",
+      "howOldAnswer": "Blockchain-ul Peercoin a început pe 19 august 2012 la 18:00:00 UTC. Nu a existat nicio monetă preminată, iar lansarea proiectului a fost anunțată cu nouă zile înainte. Puteți citi anunțul original aici: <a href=\"https://bitcointalk.org/index.php?topic=101820.0\" target=\"_blank\" rel=\"noopener noreferrer\">Bitcointalk</a>",
+      "howCanIMineQuestion": "Cum pot mina Peercoin?",
+      "howCanIMineAnswer": "Peercoin folosește funcția criptografică de hash - SHA256. Orice hardware care poate extrage Bitcoin, poate fi folosit pentru extragerea Peercoin.",
+      "whyMintingQuestion": "De ce rentabilitatea e de 1%? De ce nu există o limită a numărului total de PPC? Nu descalifică acest lucru Peercoin ca monedă deflaționistă?",
+      "whyMintingAnswer": "Peercoin are o rată a inflației de 1% pentru a permite participanților creșterea determinată în timp. Monedele complet deflaționiste nu pot fi folosite ca mijloace de schimb, ci mai degrabă doar stocuri de valoare. Permițând o rată a inflației gestionabilă, Peercoin rămâne limitată, permițând în același timp creșterea determinată de participare. Acest lucru ajută, de asemenea, la compensarea monedelor care sunt scoase din circulație prin portofelele pierdute și de taxa de plată.",
+      "whyFixedFeeQuestion": "De ce taxă de tranzacție este fixă?",
+      "whyFixedFeeAnswer": "Peercoin are o taxă de tranzacție fixă și care filtrează tipul de tranzacții spam, cele care au deteriorat lanțuri precum Bitcoin. O taxă fixă permite de asemenea, taxe previzibile de trimitere, căci taxele imprevizibile în alte lanțuri se pot schimba rapid, lăsând tranzacțiile în uitare pentru câteva zile. Acest lucru permite ca tranzacțiile să meargă succesiv - primul venit, primul servit. Peercoin este capabil să se întinde, fără să-și facă griji că evaluarea ar afecta utilizabilitatea. În versiunea 0.7, taxa de tranzacție este redusă de la 0,01 PPC la 0,001 PPC.",
+      "howCanPeercoinQuestion": "Cum poate supraviețui rețeaua Peercoin fără ca minerii să ofere securitate PoW, mai ales în perioadele de interes scăzut?",
+      "howCanPeercoinAnswer": "Dovada Muncii (POW) servește ca un mecanism inflaționist de distribuire a monedelor. Rețeaua Peercoin este asigurată de Vârsta Monedei și Dovada Mizei (PoS). Cu lanțuri de Dovada Muncii (POW), deținătorii au capacitatea redusă de a asigura lanțul cu costul ridicat al echipamentelor miniere, care constituie o mare barieră. La Peercoin, orice deținător Peercoin își poate proteja investiția permițând maturizarea unei tranzacții, lăsând portofelul deschis. Dovada Mizei (PoS) a menținut rețeaua sigură de la înființarea Peercoin.",
+      "whyNoMintingQuestion": "Tocmai am trimis PPC în portofel și îmi spune că am șanse zero să minez în următoarele 30 de zile. De ce e așa?",
+      "whyNoMintingAnswer": "Tranzacțiile peercoin trebuie să se maturizeze în 30 de zile sau aproximativ 4320 de blocuri, înainte ca acestea să devină eligibile pentru minare. Acest număr este actualizat aproximativ la fiecare șase ore. Odată ce va trece perioada de 30 de zile, monedele dvs vor deveni eligibile, iar probabilitatea ar trebui să se adapteze cu scurgerea timpului.",
+      "howManyConfirmationsQuestion": "Câte confirmări sunt necesare în rețeaua Peercoin pentru o tranzacție?",
+      "howManyConfirmationsAnswer": "Pentru ca tranzacția să arate ca verificată sunt necesare șase confirmări. Fiecare bloc durează aproximativ 10 minute.",
+      "whyNotAvailableMintinQuestion": "Tocmai am câștigat câteva monede, dar îmi spune că nu sunt disponibile momentan. De ce?",
+      "whyNotAvailableMintinAnswer": "Odată ce tranzacția se câștigă, este nevoie de 520 de confirmări înainte ca aceste monede să fie deblocate. Acest lucru se face pentru a preveni falsificarea. Fiecare bloc din rețeaua Peercoin durează aproximativ 10 minute, deci durează 5200 de minute sau aproximativ 3,6 zile până când monedele câștigate devin disponibile."
+    }
+  },
+  "projectsPage": {
+    "title": "Proiecte",
+    "description": "Proiecte care sunt dezvoltate în cadrul ecosistemului Peercoin pentru a crește utilizarea blockchain-ului.",
+    "peerAssetsTitle": "PeerAssets",
+    "peerAssetsP1": "O explicație simplă a protocolului PeerAssets ar fi că funcționează scriind și citind mesaje pe blockchain, unde dintre mesajele reprezintă active.",
+    "peerAssetsP2": "Activele bazate pe protocolul PeerAsset pot fi utilizate pentru a reprezenta orice tip de activ, cum ar fi obligațiunile sau capitalurile proprii. PeerAssets pot reprezenta, de asemenea, obiecte din viața reală și confirmând astfel existența lor pe blockchain. PeerAssets este un protocol ușor, deoarece nu utilizează straturi suplimentare peste blockchain-ul de bază. Nu necesită tokeni cu valoare externă pe lângă moneda nativă a blockchain-ului, care este utilizată pentru plata taxelor de tranzacție. PeerAssets nu participă la organizarea și menținerea registrului public, ci profită de stabilitatea și încrederea acestuia. PeerAssets poate funcționa pe orice criptomonedă care provine din Bitcoin și care și-a păstrat baza de cod compatibilă, inclusiv Peercoin, Litecoin și altele.",
+    "peerAssetsP3": "PeerAssets nu necesită o bifurcație hard sau soft a rețelei gazdă, dar necesită dezvoltarea unui client PeerAssets. PeerAssets este, de asemenea, inspirat din ideea originală de monede colorate și folosește OP_RETURN pentru a scrie datele în blockchain, dar oferă câteva optimizări pentru a reduce cantitatea de date scrise în OP_RETURN. PeerAssets permite scanarea ușoară a blockchain-ului pentru tranzacțiile necesare și oferă câteva caracteristici suplimentare, cum ar fi votul acționarilor și plata dividendelor.",
+    "peerAssetsP4": "Pentru început, consultați acest <a href=\"https://www.peercoin.net/blog/basic-deck-creation-with-peerassets-tutorial\" target=\"_blank\" rel=\"noopener noreferrer\">tutorial despre crearea deck-ului.</a>",
+    "peerAssetsBtnGithub": "GitHub",
+    "peerAssetsBtnWhitepaper": "Hartia Albă",
+    "perperaTitle": "Perpera",
+    "perperaP1": "\"Perpera\" este o implementare a protocolului PeerAssets DataAudit, protocol care a fost prezentat pentru prima dată ca un RFC, în iunie 2018. Perpera este o bibliotecă scrisă în TypeScript și își propune să răspundă nevoilor viitoarelor aplicații bazate pe dezvoltare web și e focusat pe instrumente CLI.",
+    "perperaP2": "Scopul principal al acestui protocol este încorporarea documentelor arbitrare în blockchain Dovada Existenței (proof-of-existence) și pe capacitatea de a revizui documentele menționate. În aspectul (suport pentru revizuiri), acest protocol este diferit de protocoalele similare care sunt deja utilizate.",
+    "perperaP3": "Mai multe despre protocolul PeerAssets DataAudit:",
+    "perperaP4": "Scopul principal al acestui protocol este de a înregistra hash-uri criptografice ale reviziilor succesive ale documentelor de un singur fișier într-un blockchain public, într-o manieră care permite clienților să interogeze și să verifice cu ușurință istoricul documentelor. Astfel de istorii moștenesc proprietăți utile din blockchain-ul de bază, și anume imuabilitatea și replicarea masivă și, prin urmare, pot servi drept dovezi ale existenței. În plus față de hashurile criptografice, utilizatorii pot înregistra și o colecție de adrese URL pentru fiecare document, facilitând extragerea conținutului documentului din surse off-chain (IPFS, https, torrent). Scopul este de a impune cerințe minime blockchain-ului, atât în ceea ce privește caracteristicile, cât și spațiul de stocare.",
+    "perperaP5": "Pentru a afla mai multe, consultați Perpera Github Oficial, mai jos.",
+    "perperaBtnGithub": "GitHub"
+  },
+  "resourcesPage": {
+    "title": "Resurse",
+    "description": "Instrumente și resurse ale comunității: inclusiv schimb, explorator de blocuri, grafică, social media, forumuri, chaturi și multe altele!",
+    "actions": {
+      "action1": "Schimburi",
+      "action2": "Explorator de Blocuri",
+      "action3": "Comunitatea",
+      "action4": "Hartia Albă",
+      "action5": "Grafica"
+    },
+    "contributeTitle": "Contribuie",
+    "contributeText": "Peercoin este întotdeauna în curs de dezvoltare și orice dezvoltator este binevenit să contribuie. Există o varietate de modalități de a contribui, inclusiv dezvoltarea de bază și scrierea documentației. Vă rugăm să verificați GitHub de mai jos pentru a începe.",
+    "contributeBtn": "GitHub",
+    "documentationTitle": "Documentația",
+    "documentationText": "Pentru a afla mai multe despre detaliile tehnice ale Peercoin și despre modul de utilizare a instrumentelor sau cadrului existent, se recomandă să începeți citind documentația Peercoin.",
+    "documentationBtn": "Documentația",
+    "miningTitle": "Minarea",
+    "miningText1": "Peercoin folosește algoritmul hashcash SHA-256 dublu iterat pentru extragerea Dovezii Muncii (PoW). Aceasta înseamnă că orice hardware care poate extrage Bitcoin poate extrage și Peercoin.",
+    "miningText2": "Pentru a mina Peercoin, aveți nevoie de software pentru minerit. Mai jos este o listă neoficială de software pentru minerit despre care s-a dovedit a avea o reputație decentă.",
+    "miningBtn1": "Documentația",
+    "miningBtn2": "Calculator",
+    "universityTitle": "Universitatea Peercoin",
+    "universityText1": "Universitatea Peercoin este un articol educațional destinat membrilor mai puțin tehnici ai comunității, pentru ai ajuta să înțeleagă subiectul complex al blockchain-ului public.",
+    "universityText2": "Articolul începe prin a explica ce este un blockchain, cum funcționează și numeroasele sale beneficii și cazuri de utilizare. Bitcoin și Dovada Muncii sunt detaliate în continuare, urmate de Peercoin și Dovada Mizei (PoS). Alte subiecte includ securitatea, centralizarea, descentralizarea, scalabilitatea și economia.",
+    "universityLink1": "Ce este un Blockchain?",
+    "universityLink2": "Centralizarea Inerentă a blockchain-urilor ce lucrează pe Dovada Muncii",
+    "universityLink3": "Peercoin & Consensul de Dovadă a Mizei",
+    "universityBtn": "Universitatea Peercoin",
+    "exchangesTitle": "Schimburi",
+    "exchangesText": "ATENȚIE: Această listă este furnizată doar în scop informativ. Serviciile enumerate aici nu au fost evaluate sau aprobate de Fundația Peercoin. Utilizați aceste platforme și servicii terțe cu atenție.",
+    "exchangesType1": "Schimb",
+    "exchangesType2": "Servicii",
+    "exchangesType3": "Informație Market",
+    "explorersTitle": "Exploratoare de Blocuri",
+    "explorersMainnet": "Mainnet",
+    "explorersTestnet": "Testnet",
+    "toolsTitle": "Resurse",
+    "toolsCharts": "Diagrame",
+    "toolsMempool": "Mempool",
+    "toolsEnergyStatistics": "Statistica Energetică",
+    "toolsTestnetFaucet": "Robinet Testnet",
+    "communityTitle": "Comunitatea",
+    "whitepaperTitle": "Hârtia Albă",
+    "whitepaperEnglish": "Engleză",
+    "whitepaperChinese": "Chineză",
+    "whitepaperSpanish": "Spaniolă",
+    "whitepaperDutch": "Olandeză",
+    "whitepaperFrench": "Franceză",
+    "whitepaperGerman": "Germană",
+    "whitepaperJapanese": "Japoneză",
+    "whitepaperKorean": "Koreiană",
+    "whitepaperRussian": "Rusă",
+    "whitepaperRomanian": "Română",
+    "graphicsTitle": "Grafică",
+    "graphicsText": "Căutați mai multă grafică? O colecție actualizată de sigle și imagini de fundal poate fi găsită pe <a href=\"https://github.com/peercoin/media\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin GitHub</a>.",
+    "graphicsVertical": "Logo Vertical",
+    "graphicsHorizontal": "Logo Horizontal",
+    "graphicsIconOnly": "Doar Iconițe",
+    "graphicsTextOnly": "Doar Text",
+    "graphicsFavicons": "Favicon",
+    "graphicsZipFolder": "Este disponibil fișier ZIP pentru toată grafica <a href=\"https://peercoin.net/assets/Peercoin%202021%20Graphics.zip\">here</a>",
+    "brandIdentityTitle": "Identitate de Brand",
+    "brandIdentityColorsFonts": "Peercoin Coduri pentru culori & Fonturi:",
+    "brandIdentityDisclaimer": "Vă rugăm să utilizați aceste coduri ale culorilor pe site-urile dvs Peercoin, când este posibil. Acest lucru ne va ajuta să menținem ecosistemul Peercoin și branding-ul și imaginile sale coerente.",
+    "brandIdentityGreen": "Verde",
+    "brandIdentityFont": "Sigla text a Peercoin-ului folosește următorul font",
+    "brandIdentityFontFont": "Font",
+    "brandIdentityFontType": "Tip",
+    "brandIdentityFontRoboto": "Site-ul Peercoin și portofelele folosesc fontul <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\" rel=\"noopener noreferrer\">Roboto</a> pentru conținut."
+  },
+  "walletPage": {
+    "title": "Portmonee",
+    "description": "Trimiteți, primiți și stocați Peercoin. Portmoneul pentru desktop permite de asemenea, fabricarea blocurilor și securizarea rețelei.",
+    "actions": {
+      "action1": "Instalarea",
+      "action2": "Portmoneu de Hârtie",
+      "action3": "Portmonee neoficiale"
+    },
+    "desktopWalletTitle": "Portmonee pentru Desktop",
+    "walletWindows": "Windows",
+    "walletMac": "macOS",
+    "walletLinux": "Linux",
+    "installationTitle": "Instalarea",
+    "sectionWindows": {
+      "title1": "Windows",
+      "text1": "Rulați <code>{{file}}</code>",
+      "text2": "Instalarea implicită e in folderul <code>C:\\Program Files\\PPCoin or C:\\Program Files\\Peercoin</code>",
+      "text3": "Rulați <code>peercoin-qt</code> ori <code>peercoin</code> din meniul Start, sau din folderul unde s-a instalat",
+      "title2": "Daemon",
+      "text4": "Creați peercoin.conf în <code>%APPDATA%\\PPCoin</code>",
+      "text5": "Rulați <code>daemon\\peercoind</code>",
+      "text6": "Portmoneul dvs e în <code>C:\\Users\\{username}\\AppData</code> (hidden folder).",
+      "text7": "Deschideți folderul cu <code>Start menu -> Run...</code> (sau apăsați <code>Winkey-R</code>), înscrieți <code>%APPDATA%\\PPCoin</code> în acest câmp și apăsați Enter.",
+      "text8": "Ajutor suplimentar puteți găsit în <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Documentația Peercoin</a> sau întrebând în <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Forumuri</a>."
+    },
+    "sectionMac": {
+      "title1": "macOS",
+      "text1": "Rulați <code className=\"green\">{{file}}</code>",
+      "text2": "Montați <code className=\"green\">Peercoin-Qt.dmg</code> deschizându-l",
+      "text3": "Trageți <code className=\"green\">Peercoin-Qt.app</code> ori <code className=\"green\">Peercoin.app</code> în <code className=\"green\">Applications</code>",
+      "text4": "Mergeți la <code className=\"green\">Applicație</code> și deschideți <code className=\"green\">Peercoin-Qt.app</code> ori <code className=\"green\">Peercoin.app</code>",
+      "title2": "Daemonul",
+      "text5": "Dezarhivați <code className=\"green\">peercoind.zip</code>",
+      "text6": "Creați <code className=\"green\">ppcoin.conf</code> în <code className=\"green\">~/Library/Application Support/PPCoin</code>",
+      "text7": "Rulați <code className=\"green\">peercoind</code>",
+      "text8": "Portmoneul dvs e în folderul<code>~/Library/Application Support/PPCoin</code>. Pentru a deschide folderul apăsați <code>Command-Shift-G</code> în Finder, introduceți calea (path), ași apăsați Enter.",
+      "text9": "Ajutor suplimentar puteți găsit în <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Documentația Peercoin</a> sau întrebând în <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Forumuri</a>."
+    },
+    "sectionLinux": {
+      "title1": "Linux",
+      "text1": "Dezarhivați <code className=\"green\">{{file}}</code>",
+      "text2": "Rulați <code className=\"green\">bin/peercoin-qt</code>",
+      "title2": "APT Repositoriu",
+      "text3": "APT repositoriul Peercoin pentru Debian Buster (10).",
+      "text4": "Arhitectura acceptată: amd64, arm64 and armhf.",
+      "text5": "Pachete disponibile: peercoind peercoin-qt peercoin-tx",
+      "title3": "Daemon",
+      "text13": "Creați <code className=\"green\">peercoin.conf</code> in <code className=\"green\">~/.peercoin</code>",
+      "text14": "Rulați <code className=\"green\">bin/peercoind</code>",
+      "text15": "Portmoneul dvs e în <code>~/.peercoin</code>.",
+      "text16": "Ajutor suplimentar puteți găsit în <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Documentation</a> sau întrebând în <a href=\"https://talk.peercoin.net/\">Forumuri</a>."
+    },
+    "paperWalletTitle": "Portmoneu de Hârtie",
+    "paperWalletSubtitle1": "Portmoneu de Hârtie",
+    "paperWalletSubtitle2": "Portmonee neoficiale",
+    "paperWalletSubtitle3": "Portmoneu hardware",
+    "type1": "Portmoneu hardware",
+    "type2": "Portmoneu Mobil/Web",
+    "type3": "Portmoneu Web",
+    "type4": "Portmoneu pentru Mobil"
+  },
+  "indexPage": {
+    "actions": {
+      "action1": "Să începem",
+      "action2": "Ce este Peercoin?"
+    },
+    "youtubeSection": {
+      "subText": "Peercoin Primer este un scurt serial video format din cinci părți, care acoperă elementele fundamentale ale Peercoin. Aflați despre subiecte importante, cum ar fi distribuția inițială a Peercoin, cum funcționează consensul Dovada Mizei (PoS) și numeroase beneficii pe care le oferă modelul economic al Peercoin și utilizarea inflației limitate pentru a produce o securitate durabilă. În cele din urmă, vom explica misiunea pe termen lung a Peercoin-ului ca criptomonedă, coloană vertebrală de încredere.",
+      "btnVideo1": "Part 1: Lansare",
+      "btnVideo2": "Part 2: Securitate",
+      "btnVideo3": "Part 3: Beneficii",
+      "btnVideo4": "Part 4: Economia",
+      "btnVideo5": "Part 5: Misiune"
+    },
+    "efficientEnergyTitle": "Securitate Eficientă",
+    "efficientEnergyText1": "Peercoin (PPC) a apărut pentru prima dată în 2012, devenind unul dintre primele blockchain-uri. Inovația principală a Peercoin-ului este inventarea Dovezii de Timp (PoS), un protocol de consens alternativ la Dovada de Muncă (PoW) a Bitcoin-ului.",
+    "efficientEnergyText2": "Blockchain-urile cu Dovadă a Muncii sunt securizate dovedind consumul unei resurse limitate și costisitoare: electricitatea. Dovada Mizei înlocuiește acest protocol de securitate scump, prin utilizarea unei resurse alternative: Timpul.",
+    "efficientEnergyText3": "Datorită naturii eficiente din punct de vedere al costurilor a regulilor consensuale bazate pe Dovada Mizei, Peercoin este capabil să permită oricărui computer conectat la rețea să participe la procesul de securitate al blockchain-ului. Această eficiență întărește Peercoin prin creșterea numărului de furnizori de securitate și asigurarea faptului că securitatea poate fi susținută pe termen lung.",
+    "userGovernanceTitle": "Guvernarea Utilizatorilor",
+    "userGovernanceText1": "În Peercoin, proprietarii de monede sunt cei care exercită influență asupra rețelei, produc noi blocuri și securizează lanțul. Părțile interesate de Peercoin sunt coproprietari ai blockchain-ului și își decid în mod colectiv viitorul prin vot din protocol.",
+    "userGovernanceText2": "Votul se realizează în același mod în care Peercoin este securizat, printr-un proces numit Dovada Mizei. Părțile interesate participă la fabricarea PPC pur și simplu instalând versiunea de Peercoin acceptată, suplinindu-și portofelul cu PPC și ținându-le în timp. Tranzacțiile sunt selectate ocazional prin protocolul Peercoin pentru a fabrica următorul bloc din lanț. Fiecare bloc fabricat recompensează părțile interesate cu PPC și un vot.",
+    "userGovernanceText3": "Acest lucru face ca Peercoin să fie primul blockchain capabil să permită regulilor sale de protocol să fie guvernat direct de către utilizatorii săi, creând o rețea mai descentralizată, democratică și ușor de securizată de către oamenii din întreaga lume.",
+    "trustlessTitle": "Layere de Bază cu puțină încredere",
+    "trustlessText1": "Având în vedere că blockchain-ul este imuabil prin însăși natura sa și toate datele înregistrate sunt stocate pentru totdeauna, mărirea blockchain-ului devine o problemă la utilizarea mai intensă, ceea ce dăunează atât securității, cât și capacității rețelei de la scalare.",
+    "trustlessText2": "Pentru a păstra securitatea de încredere a blockchain-ului și a-i asigura capacitatea de a se extinde la nivelurile globale de utilizare, inventatorii Peercoin au adaptat blockchain-ul și economia lui, pentru a îndeplini rolul de rețea de decontare în stratului de bază.",
+    "trustlessText3": "Acest rol se bazează pe dezvoltarea Peercoin pe bază de module, păstrând protocolul simplu și sigur, cu cât mai puține caracteristici posibile, menținând în același timp blockchain-ul ca o bază stabilă pe care se poate construi un număr de straturi suplimentare.",
+    "fairDistributionTitle": "Distribuire echitabilă",
+    "fairDistributionText1": "Criptomonedele trebuie să aibă o distribuție suficient de largă, pentru a se asigura că distribuirea globală de monede nu se concentrează în mâinile a prea puțini oameni.",
+    "fairDistributionText2": "Cu toate acestea, există o problemă în blockchain-urile care rulează doar pe Dovada Mizei, deoarece nu există o modalitate ușoară de a distribui în mod echitabil la start monedele. Într-o rețea blockchain cu pură de Dovadă a Mizei, întreaga ofertă de monede este de obicei creată de fondatorul proiectului, care apoi alege ce persoane ajung să deâină monedele. Această metodă de distribuție se termină adesea cu rețea de monede foarte centralizată.",
+    "fairDistributionText3": "Pentru a rezolva această problemă, Peercoin folosește Dovada Mizei pentru securitatea rețelei și Dovada Muncii pentru distribuție. Minerii ce minează prin Dovada Muncii, sunt recompensați cu noi PPC generate de rețea. Aceste monede noi sunt apoi vândute pentru profit la schimburi, de către mineri și achiziționate de noile părți interesate, care le pot folosi pentru a crea noi blocuri participând la fabricare prin Dovadă a Mizei.",
+    "fairDistributionText4": "Așadar, în timp ce Dovada Mizei (Proof-of-Stake) oferă securitate în mod direct, Dovada Muncii (Proof-of-Work) este conceput să facă acest lucru în mod indirect, prin consolidarea descentralizării rețelei în o distribuție mai largă a PPC către noii producători potențiali.",
+    "valueStoreTitle": "Magazin fiabil al valorilor",
+    "valueStoreText1": "Eficiență, durabilitate, guvernare a utilizatorilor, scalabilitate prin modularitate și o distribuție echitabilă. Toate aceste calități se combină pentru a forma o rețea blockchain pe termen lung, axată în primul rând pe maximizarea descentralizării.",
+    "valueStoreText2": "Acest accent principal funcționează pentru a păstra încrederea imuabilă și rezistentă la cenzură, astfel încât să poată fi întotdeauna invocat pentru a-și îndeplini rolul principal de mecanism pentru stocarea în siguranță a tuturor tipurilor de valori.",
+    "valueStoreText3": "Aceaste valori poate fi orice, de la valori fiduciare stocate în PPC, până la datele stocate în lanț sub formă de tokeni, înregistrări sau contracte. Indiferent de tipul de valoare stocată, Peercoin a fost construit având în vedere elementele fundamentale pentru a vă asigura întotdeauna că datele dvs rămân în siguranță.",
+    "getStartedTitle": "Să începem",
+    "collapsables": {
+      "learnTitle": "Învăță",
+      "learnText1": "Pentru o prezentare detaliată a proiectului, <a href=\"https://peercoin.net/university/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin University</a> este cel mai bun loc de plecare. Pentru mai multe articole despre Peercoin, consultați <a href=\"https://www.peercoin.net/blog/\" target=\"_blank\" rel=\"noopener noreferrer\">Blogul Medium</a>.",
+      "learnText2": "Pentru cei care doresc să se implice în dezvoltare, PeerAssets este soluția din straturile Peercoin pentru tokeni. Mai multe informații pot fi găsite pe pagina <a href=\"/projects\">projects</a> site-ului nostru.",
+      "learnText3": "Multe informații tehnice pot fi găsite în <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Documentația Peercoin</a>.",
+      "purchaseTitle": "Cumpără",
+      "purchaseText1": "Peercoin este disponibil în multe schimburi și servicii. <a href=\"/resources#exchanges\">Vezi aici o listă</a>.",
+      "purchaseText3": "Pentru cumpărarea Peercoin este disponibil și un <a href=\"https://peercoin.net/docs/#/purchase\" target=\"_blank\" rel=\"noopener noreferrer\">ghid</a>.",
+      "walletTitle": "Portmoneu",
+      "walletText1": "<a href=\"/wallet\">Portmoneul Peercoin</a> este disponibil pe platformele Windows, Mac OSX și Linux.",
+      "walletText2": "Sunt disponibile și experiențele Liniei de Comandă.",
+      "walletText3": "Pentru a începe, consultați pagina de descărcare a Portmoneului și Ghidul de Instalare.",
+      "mintTitle": "Fabricare (Proof-of-Stake)",
+      "mintText1": "Fabricarea prin Dovada Mizei este un proces eficient în care părțile interesate crează noi blocuri pentru rețea. Aceste blocuri conțin tranzacții inițiate de utilizatorii rețelei. Rolul fabricării este de a procesa aceste blocuri de tranzacții și de a oferi securitate rețelei.",
+      "mintText2": "Fabricarea (PoS) este un proces eficient din punct de vedere energetic și din punct de vedere al costurilor, care face posibilă participarea părților interesate utilizând mai multe tipuri diferite de dispozitive. Părțile interesate participă la inventare pur și simplu instalând versiunea de Peercoin, suplinindu-și portofelul cu PPC și ținându-le în timp. TRanzactiile sunt selectate ocazional prin protocolul Peercoin pentru a fi incluse în următorul bloc din blockchain. Fiecare bloc fabricat recompensează părțile interesate cu PPC.",
+      "mintText3": "Pentru a afla cum să fabricați monede, consultați Secțiunea de Fabricare din <a href=\"https://peercoin.net/docs/#/wallets\" target=\"_blank\" rel=\"noopener noreferrer\">Documentația portmoneului</a>. Mai multe informații despre fabricare puteți găsi <a href=\"https://peercoin.net/docs/#/peercoin-minting-behaviour\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.",
+      "mineTitle": "Minare (Proof-of-Work)",
+      "mineText1": "Peercoin folosește algoritmul hashcash SHA-256 dublu iterat pentru extragerea Dovezii Muncii (PoW). Aceasta înseamnă că orice hardware care poate extrage Bitcoin poate extrage și Peercoin.",
+      "mineText2": "Pentru a începe, citiți <a href=\"https://peercoin.net/docs/#/mining\" target=\"_blank\" rel=\"noopener noreferrer\">documentația fabricării</a>.",
+      "communityTitle": "Comunitatea",
+      "communityText1": "Alăturați-vă pe <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Forum</a>, <a href=\"https://discord.gg/XPxfwtG\" target=\"_blank\" rel=\"noopener noreferrer\">Discord</a>, ori pe <a href=\"https://t.me/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Telegram</a> pentru a discuta cu alți membri și dezvoltatori ai comunității Peercoin. Abonați-vă la <a href=\"https://twitter.com/PeercoinPPC\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter</a>, <a href=\"https://www.reddit.com/r/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>, <a href=\"https://www.peercoin.net/blog/\" target=\"_blank\" rel=\"noopener noreferrer\">Blogul Medium </a>, ori <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\" target=\"_blank\" rel=\"noopener noreferrer\">Noutăți</a> pentru a fi la curent cu ultimele știri ale Peercoin. Vedeți și <a href=\"/resources#communities\">here</a> lista de resurse ale comunității.",
+      "communityText2": "Actualizările importante pot fi livrate direct pe dispozitivul dvs mobil prin intermediul unor platforme precum <a href=\"https://blockfolio.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blockfolio</a>, <a href=\"https://delta.app/\" target=\"_blank\" rel=\"noopener noreferrer\">Delta</a>, sau <a href=\"https://www.coingecko.com/\" target=\"_blank\" rel=\"noopener noreferrer\">CoinGecko</a>. Abonați-vă la ultimele noutăți."
+    },
+    "latestNewsTitle": "Ultimile Noutăți"
+  },
+  "notFoundPage": {
+    "title": "404 - Adresa URL solicitată nu a fost găsită",
+    "description": "Apasă <a href=\"https://www.peercoin.net/\" style=\"color: white;\">aici</a> pentru a accesa pagina principală."
+  }
 }
