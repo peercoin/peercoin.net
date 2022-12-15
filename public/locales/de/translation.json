@@ -27,8 +27,8 @@
                 "mining": "Minen",
                 "peercoinUniversity": "Peercoin Grundlagen",
                 "exchanges": "Börsen",
-                "blockExplorers": "Block Explorers",
-                "whitepaper": "Whitepaper",
+                "blockExplorers": "",
+                "whitepaper": "",
                 "graphics": "Grafiken"
             },
             "project": {
@@ -36,23 +36,23 @@
                 "github": "GitHub",
                 "projects": "Projekte",
                 "blog": "Blog",
-                "peercoinFoundation": "Peercoin Foundation",
+                "peercoinFoundation": "",
                 "contactUs": "Kontaktieren Sie uns",
                 "contribute": "Mitwirken"
             },
             "wallet": {
-                "title": "Wallet"
+                "title": ""
             },
             "community": {
-                "title": "Community",
+                "title": "",
                 "forum": "Forum",
                 "twitter": "Twitter",
                 "facebook": "Facebook",
                 "reddit": "Reddit",
                 "telegram": "Telegram",
-                "discord": "Discord",
-                "youtube": "YouTube",
-                "bitcointalk": "Bitcointalk",
+                "discord": "",
+                "youtube": "",
+                "bitcointalk": "",
                 "cmc": ""
             },
             "donate": {
@@ -83,33 +83,33 @@
                 "title": "Wichtige Links",
                 "linkDocumentation": "Dokumentation",
                 "linkExchanges": "Börsen",
-                "linkBlockExplorers": "Block Explorers",
-                "linkWhitepaper": "Whitepaper",
+                "linkBlockExplorers": "",
+                "linkWhitepaper": "",
                 "linkGraphics": "Grafiken",
-                "linkMining": "Mining"
+                "linkMining": ""
             },
             "wallet": {
-                "title": "Wallet"
+                "title": ""
             },
             "project": {
                 "title": "Projekt",
                 "linkGithub": "GitHub",
                 "linkProjects": "Projekte",
                 "linkBlog": "Blog",
-                "linkFoundation": "Foundation",
+                "linkFoundation": "",
                 "linkPrivacyPolicy": "Datenschutzerklärung",
                 "linkContact": "Contact"
             },
             "community": {
-                "title": "Community",
+                "title": "",
                 "linkForum": "Forum",
                 "linkReddit": "Reddit",
                 "linkTelegram": "Telegram",
-                "linkDiscord": "Discord",
-                "linkBitcointalk": "Bitcointalk",
+                "linkDiscord": "",
+                "linkBitcointalk": "",
                 "linkFacebook": "Facebook",
                 "linkTwitter": "Twitter",
-                "linkYoutube": "YouTube"
+                "linkYoutube": ""
             }
         },
         "copyright": {
@@ -118,16 +118,16 @@
         }
     },
     "latestNewsComp": {
-        "readMore": "Read more"
+        "readMore": ""
     },
     "foundationPage": {
         "missionStatementTitle": "Leitbild",
         "missionStatementText": "Die Peercoin Foundation wurde mit dem Ziel eingerichtet, Peercoin der Öffentlichkeit zu erklären und für das Projekt zu werben. Weitere Zielsetzung ist es, den allgemeinen Forschritt des Projekts zu unterstützen, und zukünftige Mitglieder des Peercoin Teams mit den notwendigen Mitteln auszustatten, die lange Traditon Peercoins als innovatives Projekt forzusetzen. Dazu gehört auch die Förderung neuer Entwicklungen.",
-        "technicalSupportTitle": "Community Support",
+        "technicalSupportTitle": "",
         "technicalSupportText": "Wenn Sie sich an Peercoin beteiligen möchten, oder wenn Sie einfach das Team unterstützen möchten, haben Sie dazu eine Reihe verschiedener Möglichkeiten. Wenn Sie Interesse haben, als Entwickler für Peercoin oder für ein verwandtes Projekt wie PeerAssets zu arbeiten, schicken Sie uns eine eMail an foundation@peercoin.net. Wenn Sie PPC für die Peercoin Foundation spenden möchten, um die Fortentwicklung des Projekts zu unterstützen, senden sie Ihre PPC einfach an die Multisignature Adresse unten.",
-        "generalFundPpcAddress": "General Fund - PPC Donation Address:",
-        "generalFundBtcAddress": "General Fund - BTC Donation Address:",
-        "viewOnExplorer": "View on explorer",
+        "generalFundPpcAddress": "",
+        "generalFundBtcAddress": "",
+        "viewOnExplorer": "",
         "contactUsTitle": "Kontakt",
         "addressCountry": "The Netherlands",
         "reportsTitle": "Finanzreports"
@@ -143,14 +143,14 @@
             "write": "Code schreiben"
         },
         "content": {
-            "reportBugs": "If you find bugs in Peercoin client, we need you to file them in our issue tracker. \n Your problem may have already been reported, so it’s a good idea to check to avoid filing a duplicate. \n You have suggestions for new features or enhancements? \n Open an issue at our GitHub.",
+            "reportBugs": "",
             "helpOthers": "You can help the development team keep up with the bug reports by closing duplicates, helping to clarify reporters problems, and confirming that you can reproduce bugs. Our Discord or our forums would be a good start.",
-            "translate": "Peercoin has been translated into dozens of languages, but if the translation for your language doesn’t exist or is out of date, you can help bring Peercoin to entire new populations simply by translating some text.",
-            "write": "We welcome code contributions from anyone, whether you have a one-line fix or a big idea, a lot of experience programming or none at all."
+            "translate": "",
+            "write": ""
         },
         "buttons": {
             "help": "Forum",
-            "translate": "Transifex"
+            "translate": ""
         }
     },
     "contactPage": {
@@ -163,22 +163,22 @@
         "technicalSupportText": "Benötigen Sie Hilfe für ein technisches Problem? Hilfestellung und noch vieles mehr finden Sie auf Peercointalk.",
         "addressCountry": "The Netherlands",
         "documentationTitle": "Documentation",
-        "documentationText": "Are you a developer looking for more information on Peercoin? Check out our documentation.",
+        "documentationText": "",
         "documentationBtn": "Dokumentation",
         "faqTitle": "Häufige Fragen",
         "faq": {
             "howOldQuestion": "Seit wann gibt es Peercoin?",
             "howOldAnswer": "Peercoins Blockchain startete am 19. August 2012 um 19:00:00 MEZ. Es gab keinen Premine und der Start des Projekts wurde neun Tage im Voraus angekündigt. Den Orginal-Thread mit der Ankündigung finden Sie hier: <a href=\"https://bitcointalk.org/index.php?topic=101820.0\" target=\"_blank\" rel=\"noopener noreferrer\">Bitcointalk</a>",
             "howCanIMineQuestion": "Wie kann ich Peercoins minen?",
-            "howCanIMineAnswer": "Peercoin verwendet den SHA256 Algorithmus. Jede Hardware die Bitcoin effektiv minen kann, kann auch genutzt werden, um Peercoins zu minen.",
+            "howCanIMineAnswer": "Peercoin verwendet den SHA256 Algorithmus. Jede Hardware die Bitcoin effektiv minen kann, kann auch genutzt werden um Peercoins zu minen.",
             "whyMintingQuestion": "Warum 1% Ertrag für das Staken? Warum kein festes Limit für die Gesamtzahl PPC? Disqualifiziert das nicht Peercoin als deflationäres Geld?",
             "whyMintingAnswer": "Peercoin hat eine Inflationsrate von etwa 1%, wobei die ökonomische Aktivität das Wachstum über den Verlauf der Zeit mitbestimmt. Vollständig deflationäre Währungen sind als Tauschmittel nicht geeignet, allenfalls als Wertaufbewahrungsmittel. Indem eine mäßige Inflation erlaubt wird, bleibt Peercoin eine knappe Ressource, doch ermöglicht es gleichzeitig Wachstum durch Paritizipation. Dies dient auch dem Ersatz von Coins, die verloren gehen durch den Verlust von Wallets oder durch absichtliche Zerstörung.",
             "whyFixedFeeQuestion": "Warum eine feste Transaktionsgebühr?",
-            "whyFixedFeeAnswer": "Peercoin hat eine feste Transaktionsgebühr, um spam-Transaktionen zu verhindern, die anderen Blockchains wie Bitcoin geschadet haben. Eine feste Gebühr ermöglicht auch voraussehbare Transaktionskosten, anders als bei anderen Blockchains, bei denen es zu wilden Schwankungen und zu Verzögerungen kommen kann.  So ist sichergestellt, dass frühere Transaktionen auch zuerst bestätigt werden. Peercoin kann skalieren ohne dass der Wert der Coins die Funktionalität negativ beeinflussen kann. In Version 0.7 wird die Transaktionsgebühr von 0.01 Peercoin auf 0.001 Peercoin gesenkt.",
-            "howCanPeercoinQuestion": "Wie kann das Peercoin Netzwerk überleben, ohne dass die Miner die Blockchain sichern? Wirkt sich zeitweise geringeres Interesse an Peercoin nicht negativ auf die Sicherheit aus? ",
+            "whyFixedFeeAnswer": "Peercoin hat eine feste Transaktionsgebühr, um spam-Transaktionen zu verhindern, die anderen Blockchains wie Bitcoin geschadet haben. Eine feste Gebühr ermöglicht auch voraussehbare Transaktionskosten, anders als bei anderen Blockchains, bei denen es zu wilden Schwankungen und zu Verzögerungen kommen kann. So ist sichergestellt, dass frühere Transaktionen auch zuerst bestätigt werden. Peercoin kann skalieren ohne dass der Wert der Coins die Funktionalität negativ beeinflussen kann. In Version 0.7 wird die Transaktionsgebühr von 0.01 Peercoin auf 0.001 Peercoin gesenkt.",
+            "howCanPeercoinQuestion": "Wie kann das Peercoin Netzwerk überleben, ohne dass die Miner die Blockchain sichern? Wirkt sich zeitweise geringeres Interesse an Peercoin nicht negativ auf die Sicherheit aus?",
             "howCanPeercoinAnswer": "Proof-of-work dient zur Steuerung der Inflation, also zur Ausgabe neuer Coins. Das Peercoin Netzwerk wird gesichert durch Proof-of-Stake und durch so genanntes 'Coin Age'. Bei reinen Proof-of-work Blockchains haben die Besitzer der Coins wenig Möglichkeiten, die Blockchain zu sichern, auch weil die hohen Kosten von Mining-Equipment eine Eintrittsbarriere darstellen. Jeder Besitzer von Peercoins hingegen kann sein Investment schützen, indem er/sie sein Wallet zum Staken geöffnet lässt, sobald sich mindestes 30 Tage alte Transaktionen darin befinden. Proof-of-Stake hat von Beginn an Peercoins Netzwerk gesichert.",
             "whyNoMintingQuestion": "Ich habe gerade PPC zu meinem Wallet geschickt. Hier steht nun, meine Chance, in den nächsten 30 Tagen einen Stake-Block zu finden, sei 0%. Warum ist das so?",
-            "whyNoMintingAnswer": "Transaktionen von PPC müssen 30 Tage oder etwa 4320 Blöcke warten,  bevor sie einen Stake-Block generieren können. Diese Zahl wird etwa alle sechs Stunden aktualisiert. Sobald diese 30-Tage-Periode vorüber ist, können Ihre Coins einen Stake-Block generieren. Die Wahrscheinlichkeit wird dann entsprechend angezeigt werden.",
+            "whyNoMintingAnswer": "Transaktionen von PPC müssen 30 Tage oder etwa 4320 Blöcke warten, bevor sie einen Stake-Block generieren können. Diese Zahl wird etwa alle sechs Stunden aktualisiert. Sobald diese 30-Tage-Periode vorüber ist, können Ihre Coins einen Stake-Block generieren. Die Wahrscheinlichkeit wird dann entsprechend angezeigt werden.",
             "howManyConfirmationsQuestion": "Wie viele Bestätigungen benötigt eine Transaktion im Peercoin Netzwerk?",
             "howManyConfirmationsAnswer": "Nach sechs Bestätigungen gilt eine Transaktion als sicher verifiziert. Die Abstände zwischen den Blöcken betragen etwa 10 Minuten.",
             "whyNotAvailableMintinQuestion": "Ich habe beim Staken einen Block gefunden, aber hier steht, dass meine Coins derzeit nicht verfügbar sind. Was bedeutet das?",
@@ -188,19 +188,19 @@
     "projectsPage": {
         "title": "Projekte",
         "description": "Projekte, die derzeit für das Ökosystem von Peercoin entwickelt werden, um die Nutzung der Blockchain zu steigern.",
-        "peerAssetsTitle": "PeerAssets",
+        "peerAssetsTitle": "",
         "peerAssetsP1": "Das PeerAssets Protokoll ist einfach zu verstehen. Bei PeerAssets werden Nachrichten in die Blockchain geschrieben und darin gelesen, wobei die Nachrichten beliebige Besitzgüter (Assets) darstellen können, während die Adressen die Eigentümer dieser Besitzgüter repräsentieren.",
         "peerAssetsP2": "Die Assets im PeerAsset Protokoll können verwendet werden, um z.B. Kapitalbeteilungen oder Schuldscheine zu repräsentieren. Auch reale Gegenstände können durch PeerAssets auf der Blockchain dargestellt werden. PeerAssets ist ein sehr einfaches Protokoll, es wird außer der zu Grunde liegenden Blockchain kein weiterer Rahmen benötigt. Durch die Nutzung einer zu Grunde liegenden Blockchain einer Cryptowährung fallen bei jeder Aktion geringe Transaktionsgebühren an. Dies sind die einzigen Kosten, die anfallen. PeerAssets profitiert von der Stabilitat und Sicherheit der verwendeten Blockchain, ist aber neutral und nicht der weiteren Entwicklung dieser Blockchain verpflichtet. PeerAssets ist kompatibel zu allen Cryptowährungen, die auf dem Code von Bitcoin basieren und kann daher grundsätzlich auf jeder dieser Blockchains Anwendung finden. Dazu zählen unter anderem Peercoin und Litecoin.",
-        "peerAssetsP3": "Für die Anwendung von PeerAssets ist kein Hardfork oder Softfork der genutzten Cryptowährung notwendig, es muss jedoch ein passendes Anwendungsprogramm geschrieben werden. PeerAssets baut auf der älteren Idee der \"Colored Coins\" auf und nutzt OP_RETURN, um Daten in die Blockchain zu schreiben. Es bietet jedoch mehrere Optimierungen, die die Menge der Daten verringern, die in OP_RETURN geschrieben werden. PeerAssets ermöglichst einfaches Suchen nach zugehörigen Transaktionen in der Blockchain und bietet einige extra Features wie zum Beispiel Abstimmungen der Shareholder und Dividendenzahlungen.",
+        "peerAssetsP3": "Für die Anwendung von PeerAssets ist kein Hardfork oder Softfork der genutzten Cryptowährung notwendig, es muss jedoch ein passendes Anwendungsprogramm geschrieben werden. PeerAssets baut auf der älteren Idee der \"Colored Coins\" auf und nutzt OP_RETURN, um Daten in die Blockchain zu schreiben. Es bietet jedoch mehrere Optimierungen, welche die Menge der Daten verringern, die in OP_RETURN geschrieben werden. PeerAssets ermöglichst einfaches Suchen nach zugehörigen Transaktionen in der Blockchain und bietet einige extra Features wie zum Beispiel Abstimmungen der Shareholder und Dividendenzahlungen.",
         "peerAssetsP4": "Zum Einsteg, <a href=\"https://www.peercoin.net/blog/basic-deck-creation-with-peerassets-tutorial\" target=\"_blank\" rel=\"noopener noreferrer\">Probieren Sie dieses einfache Tutoral zur Erstellung eines Kartendecks.</a>",
         "peerAssetsBtnGithub": "GitHub",
-        "peerAssetsBtnWhitepaper": "Whitepaper",
-        "perperaTitle": "Perpera",
+        "peerAssetsBtnWhitepaper": "",
+        "perperaTitle": "",
         "perperaP1": "\"Perpera\" ist eine Implementation des PeerAssets DataAudit Protokolls, die im Juni 2018 als RFC vorgestellt wurde. Perpera ist eine in TypeScript geschriebene Library, die nützliche Funktionen bietet sowohl für die Entwicklung zukünftiger Web-basierter Applikationen als auch für die Entwicklung von CLI tools für Entwickler/Power user.",
         "perperaP2": "Der Hauptzweck dieses Protokolls ist die Einbettung beliebiger Dokumente in die Blockchain (Proof-of-Existance), und die Möglichkeit, solche Dokumente nachträglich zu überarbeiten. In diesem Aspekt (Möglichkeit von Korrekturen) ist dieses Protokoll anders als ähnliche Protokolle, die bereits im Einsatz sind.",
         "perperaP3": "Mehr über das PeerAssets DataAudit Protokoll:",
         "perperaP4": "Der Hauptzweck dieses Protokolls ist es, kryptographische Hashes nachträglicher Korrekturen von Dokumenten in einer öffentlichen Blockchain aufzuzeichnen. Dies geschieht so, dass einfache Clients in der Lage sind, die Versionsgeschichte solcher Dokumente zu finden und zu überprüfen. Durch die Unveränderbarkeit der Blockchain werden solche Abläufe unverfälschbar und sind auch nicht auslöschbar. So ist ein sicherer Existenzbeweis möglich. Neben kryptographischen Hashes können Anwender auch eine Sammlung von URLs für jedes Dokument aufzeichnen, so dass das Wiederfinden von Dokumentinhalten aus off-chain Quellen (IPFS, https, torrent) erleichtert wird. Das Ziel ist es, minimale Anforderungen an die Blockchain zu stellen in Bezug auf notwendige Eigenschaften und Speicherplatz.",
-        "perperaP5": "  Weitere Informationen finden Sie im offiziellen Perpera Github hier unten.",
+        "perperaP5": "Weitere Informationen finden Sie im offiziellen Perpera Github hier unten.",
         "perperaBtnGithub": "GitHub"
     },
     "resourcesPage": {
@@ -208,9 +208,9 @@
         "description": "Tools und Treffpunkte der Community: Börsen, Block Explorer, Grafiken, Social Media, Foren, Chats und mehr!",
         "actions": {
             "action1": "Börsen",
-            "action2": "Block Explorers",
-            "action3": "Community",
-            "action4": "Whitepaper",
+            "action2": "",
+            "action3": "",
+            "action4": "",
             "action5": "Grafiken"
         },
         "contributeTitle": "Mitwirken",
@@ -236,15 +236,15 @@
         "exchangesType1": "Börse",
         "exchangesType2": "Service",
         "exchangesType3": "Informationen zum Markt",
-        "explorersTitle": "Block Explorers",
-        "explorersMainnet": "Mainnet",
-        "explorersTestnet": "Testnet",
-        "toolsTitle": "Resources",
-        "toolsMempool": "Mempool",
+        "explorersTitle": "",
+        "explorersMainnet": "",
+        "explorersTestnet": "",
+        "toolsTitle": "",
+        "toolsMempool": "",
         "toolsEnergyStatistics": "Statistiken zum Energieverbrauch",
-        "toolsTestnetFaucet": "Testnet Faucet",
-        "communityTitle": "Community",
-        "whitepaperTitle": "Whitepaper",
+        "toolsTestnetFaucet": "",
+        "communityTitle": "",
+        "whitepaperTitle": "",
         "whitepaperEnglish": "Englisch",
         "whitepaperChinese": "Chinesisch/中文",
         "whitepaperSpanish": "Spanisch/Español",
@@ -254,12 +254,12 @@
         "whitepaperJapanese": "Japanisch/日本語",
         "whitepaperKorean": "Koreanisch/한국말",
         "graphicsTitle": "Grafiken",
-        "graphicsText": "Suchen Sie noch mehr Grafiken? Eine aktuelle Sammlung von Logos und Hintergründen finden Sie im <a href=\"https://github.com/peercoin\">Peercoin GitHub</a>.",
+        "graphicsText": "Suchen Sie noch mehr Grafiken? Eine aktuelle Sammlung von Logos und Hintergründen finden Sie im <a href=\"https://github.com/peercoin/media\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin GitHub</a>.",
         "graphicsVertical": "Vertikales Logo",
         "graphicsHorizontal": "Horizontales Logo",
         "graphicsIconOnly": "Nur Icons",
         "graphicsTextOnly": "Nur Text",
-        "graphicsFavicons": "Favicons",
+        "graphicsFavicons": "",
         "graphicsZipFolder": "Eine ZIP-Datei mit allen Grafiken finden Sie <a href=\"https://peercoin.net/assets/Peercoin%202021%20Graphics.zip\">hier</a>",
         "brandIdentityTitle": "Markenidentität",
         "brandIdentityColorsFonts": "Peercoin Farbcodes & Schriftarten:",
@@ -271,14 +271,14 @@
         "brandIdentityFontRoboto": "Die Peercoin Website und die Wallets nutzen die <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\" rel=\"noopener noreferrer\">Roboto</a> Schriftart."
     },
     "walletPage": {
-        "title": "Wallets",
-        "description": "Peercoins versenden, empfangen und aufbewahren.  Das Desktop Wallet ermöglicht auch Staking und sichert das Netzwerk.",
+        "title": "",
+        "description": "Peercoins versenden, empfangen und aufbewahren. Das Desktop Wallet ermöglicht auch Staking und sichert das Netzwerk.",
         "actions": {
             "action1": "Installation",
-            "action2": "Paper Wallet",
+            "action2": "",
             "action3": "Inoffizielle Wallets"
         },
-        "desktopWalletTitle": "Desktop Wallets",
+        "desktopWalletTitle": "",
         "walletWindows": "Windows",
         "walletMac": "macOS",
         "walletLinux": "Linux",
@@ -288,11 +288,11 @@
             "text1": "Entpacken Sie <code>{{file}}</code>",
             "text2": "Standard-Installationspfad ist <code>C:\\Program Files\\PPCoin oder C:\\Program Files\\Peercoin</code>",
             "text3": "Starten Sie <code>peercoin-qt</code> oder <code>peercoin</code> vom Startmenü oder aus dem Installationsverzeichnis",
-            "title2": "Daemon",
+            "title2": "",
             "text4": "Erstellen Sie peercoin.conf in <code>%APPDATA%\\PPCoin</code>",
             "text5": "Starten Sie <code>daemon\\peercoind</code>",
             "text6": "Ihr Wallet befndet sich in <code>C:\\Users\\{username}\\AppData</code> (verstecktes Verzeichnis).",
-            "text7": "Öffnen Sie das Verzeichnis mit <code>Startmenü -> Ausführen...</code>  (oder drücken Sie <code>Winkey-R</code>), tippen Sie <code>%APPDATA%\\PPCoin</code> in das Feld und drücken Sie Enter.",
+            "text7": "Öffnen Sie das Verzeichnis mit <code>Startmenü -> Ausführen...</code> (oder drücken Sie <code>Winkey-R</code>), tippen Sie <code>%APPDATA%\\PPCoin</code> in das Feld und drücken Sie Enter.",
             "text8": "Weitere Hilfe können Sie finden in der <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Dokumentation</a> oder indem Sie in unserem <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Forums</a> fragen.."
         },
         "sectionMac": {
@@ -301,29 +301,29 @@
             "text2": "Legen Sie <code className=\"green\">Peercoin-Qt.dmg</code> an, indem Sie es öffnen",
             "text3": "Ziehen Sie <code className=\"green\">Peercoin-Qt.app</code> oder <code className=\"green\">Peercoin.app</code> zu <code className=\"green\">Anwendungen</code>",
             "text4": "Gehen Sie zu <code className=\"green\">Applications</code> und öffnen Sie <code className=\"green\">Peercoin-Qt.app</code> oder <code className=\"green\">Peercoin.app</code>",
-            "title2": "Daemon",
+            "title2": "",
             "text5": "Entpacken Sie <code className=\"green\">peercoind.zip</code>",
             "text6": "Erstellen Sie <code className=\"green\">ppcoin.conf</code> in <code className=\"green\">~/Library/Application Support/PPCoin</code>",
             "text7": "Starte <code className=\"green\">peercoind</code>",
-            "text8": "Ihr Wallet befindet sich in <code>~/Library/Application Support/PPCoin</code>. Öffnen Sie das Verzeichnis, drücken Sie STRG+Shift+G im Suchfeld, fügen Sie den Pfad ein, und drücken Sie Enter.",
+            "text8": "Ihr Wallet befindet sich in <code>~/Library/Application Support/PPCoin</code>. Öffnen Sie das Verzeichnis, drücken Sie <code>STRG+Shift+G</code> im Suchfeld, fügen Sie den Pfad ein, und drücken Sie Enter.",
             "text9": "Weitere Hilfe können Sie finden in der <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Dokumentation</a> oder indem Sie in unserem <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Forums</a> fragen."
         },
         "sectionLinux": {
             "title1": "Linux, allgemein",
             "text1": "Entpacken Sie <code className=\"green\">{{file}}</code>",
             "text2": "Starten Sie <code className=\"green\">bin/32/peercoin-qt</code> (benötigt libqt4-gui)",
-            "title3": "Daemon",
-            "text6": "Erstellen Sie <code className=\"green\">peercoin.conf</code> in <code className=\"green\">~/.peercoin</code>",
-            "text7": "Starten Sie <code className=\"green\">bin/32/peercoind</code>",
-            "text8": "Ihr Wallet befindet sich in <code>~/.peercoin</code>.",
-            "text9": "Weitere Hilfe können Sie finden in der <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Dokumentation </a> oder indem Sie in unserem <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Forums</a> fragen."
+            "title3": "",
+            "text6": "",
+            "text7": "",
+            "text8": "",
+            "text9": ""
         },
-        "paperWalletTitle": "Paper Wallet",
-        "paperWalletSubtitle1": "Paper Wallet",
-        "paperWalletSubtitle2": "Unofficial Wallets",
-        "type1": "Hardware Wallet",
-        "type2": "Mobile/Web Wallet",
-        "type3": "Web Wallet"
+        "paperWalletTitle": "",
+        "paperWalletSubtitle1": "",
+        "paperWalletSubtitle2": "",
+        "type1": "",
+        "type2": "",
+        "type3": ""
     },
     "indexPage": {
         "actions": {
@@ -333,7 +333,7 @@
         "efficientEnergyTitle": "Intelligentes Sicherheitsdesign",
         "efficientEnergyText1": "Peercoin (PPC) entstand in 2012, und ist eine der ältesten, wegweisenden Blockchains. Das Revolutionäre bei Peercoin ist die Einführung des Proof-of-Stake, ein anderes Konsensusprotokoll als das Proof-of-Work bei Bitcoin.",
         "efficientEnergyText2": "Proof-of-Work Blockchains werden gesichert, indem eine knappe und teure Ressource verbraucht wird: Strom. Proof-of-Stake ersetzt diesen teuren Sicherheits-mechanismus durch den Gebrauch einer anderen knappen Ressource: Zeit.",
-        "efficientEnergyText3": "Durch den kosteneffizienten Mechanismus der Zeit-basierten Konsensus-regeln kann bei Peercoin jeder Computer, der ans Internet angeschlossen ist, zur  Sicherung der Blockchain verwendet werden. Auf diese Weise sind bei Peercoin viel mehr Teilnehmer in der Lage, das Netzwerk zu sichern, und eine sehr langfristige und stabile Sicherung des Netzwerks wird ermöglicht.",
+        "efficientEnergyText3": "Durch den kosteneffizienten Mechanismus der Zeit-basierten Konsensus-regeln kann bei Peercoin jeder Computer, der ans Internet angeschlossen ist, zur Sicherung der Blockchain verwendet werden. Auf diese Weise sind bei Peercoin viel mehr Teilnehmer in der Lage, das Netzwerk zu sichern, und eine sehr langfristige und stabile Sicherung des Netzwerks wird ermöglicht.",
         "userGovernanceTitle": "Selbstregierung",
         "userGovernanceText1": "In Peercoin haben die Besitzer der Coins (Stakeholder) den maßgeblichen Einfluss auf das Netzwerk, produzieren neue Blöcke, und sichern die Blockchain. Die Stakeholder bestimmen auch über die Zukunft der Blockchain, indem sie über das Protokoll abstimmen.",
         "userGovernanceText2": "Die Abstimmung erfolgt genau so wie die Sicherung der Blockchain über das Staking (Proof-of-Stake). Dazu muss man lediglich Peercoins besitzen, die gewünschte Version des Peercoin Clients installieren und das Wallet mit den PPC laden. Ein Zufallsalgorithmus im Protokoll steuert dann automatisch das Erstellen der eigenen Blöcke auf der Blockchain. Jeder selbst erzeugte Block bringt dem Stakeholder eine Stimme und eine Belohnung in Form neuer PPC.",
@@ -346,25 +346,25 @@
         "fairDistributionTitle": "Faire Verteilung",
         "fairDistributionText1": "Funktionierende Kryptowährungen haben einen fairen Mechanismus zur Verteilung der Coins, der sicherstellt, dass nicht der Großteil der Coins sich in den Händen von nur wenigen Leuten konzentriert. Das ist besonders wichtig für eine Kryptowährung wie Peercoin, bei der die Stakeholder für die Sicherheit des Netzwerks verantworlich sind.",
         "fairDistributionText2": "Bei Blockchains, die lediglich einen Proof-of-Stake Algorithmus verwenden, besteht das grundsätzliche Problem, dass es kaum eine Möglichkeit gibt, die Coins zu Beginn fair zu verteilen. In einem reinen Proof-of-Stake Netzwerk wird die gesamte Geldmenge zu Beginn von den Initiatoren geschaffen, die dann bestimmen, wer Coins erhält. Diese manuelle Verteilung führt oft zu einem Netzwerk, bei dem die Sicherung stark zentralisiert ist.",
-        "fairDistributionText3": "Um dieses Problem zu lösen, haben Peercoins Erfinder das Protokoll so festgelegt, dass Proof-of-Stake das Netzwerk sichert, und Proof-of-Work zur Verteilung der Coins dient. Miner erhalten daher neu geschaffene Peercoins. Um ihre Kosten zu decken, verkaufen die Miner in der Regel die neuen PPC auf Börsen an Geldanleger, die die Coins zum Staken neuer Blöcke verwenden können.",
+        "fairDistributionText3": "Um dieses Problem zu lösen, haben Peercoins Erfinder das Protokoll so festgelegt, dass Proof-of-Stake das Netzwerk sichert, und Proof-of-Work zur Verteilung der Coins dient. Miner erhalten daher neu geschaffene Peercoins. Um ihre Kosten zu decken, verkaufen die Miner in der Regel die neuen PPC auf Börsen an Geldanleger, welche die Coins zum Staken neuer Blöcke verwenden können.",
         "fairDistributionText4": "Während also Proof-of-Stake direkt für die Sicherheit des Netzwerks sorgt, trägt auch Proof-of-Work zur Sicherheit bei, in dem es die Dezentralisierung des Netzwerks fördert durch die Verteilung von PPC an potentielle neue Stakeholder. Diese fortlaufende Distribution vergrößert über die Zeit die Zahl der Personen, die das Netzwerk sichern.",
         "valueStoreTitle": "Zuverlässige Wertaufbewahrung",
-        "valueStoreText1": "Efficiency, sustainability, user governance, scalability through modularity, and a fair distribution. All these qualities combine to form a long-term minded blockchain network that is primarily focused on maximizing decentralization.",
-        "valueStoreText2": "This primary focus works to preserve the trustless, immutable and censorship resistant nature of Peercoin so that it can always be relied upon to fulfill its core role as a distributed mechanism for securely storing all types of value.",
-        "valueStoreText3": "This value can be anything from fiat wealth being stored in PPC, to data being stored on the chain in the form of tokens, records, or contracts. Regardless of the type of value that is being stored, Peercoin was built with the fundamentals in mind to always ensure that your data remains safe and secure.",
+        "valueStoreText1": "",
+        "valueStoreText2": "",
+        "valueStoreText3": "",
         "getStartedTitle": "Jetzt loslegen",
         "collapsables": {
             "learnTitle": "Mehr erfahren",
-            "learnText1": "Wenn Sie eine genaue Übersicht über das Projekt suchen, sehen Sie sich am besten den Bereich, <a href=\"https://peercoin.net/university/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Grundlagen</a>  an.  Weitere Artikel und Kolumnen über Peercoin finden Sie in unserem <a href=\"https://www.peercoin.net/blog/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Blog</a>.",
+            "learnText1": "Wenn Sie eine genaue Übersicht über das Projekt suchen, sehen Sie sich am besten den Bereich, <a href=\"https://peercoin.net/university/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Grundlagen</a> an.  Weitere Artikel und Kolumnen über Peercoin finden Sie in unserem <a href=\"https://www.peercoin.net/blog/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Blog</a>.",
             "learnText2": "Besonders für Entwickler ist auch PeerAssets von Interesse, Peercoins Second Layer Projekt für Token. Mehr Informationen finden Sie auf der <a href=\"/projects\">Webseite des Projekts</a>.",
             "learnText3": "Jede Menge technischer Informationen finden Sie auch in der <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Dokumentation</a>.",
             "purchaseTitle": "Kauf",
-            "purchaseText1": "Peercoin kann bei verschiedenen Börsen und Online-Wechselstuben gekauft werden.  Eine Liste <a href=\"/resources#exchanges\">finden Sie hier</a>.",
+            "purchaseText1": "Peercoin kann bei verschiedenen Börsen und Online-Wechselstuben gekauft werden. Eine Liste <a href=\"/resources#exchanges\">finden Sie hier</a>.",
             "purchaseText3": "Eine Anleitung zum Kauf von Peercoin finden Sie auch <a href=\"https://peercoin.net/docs/#/purchase\" target=\"_blank\" rel=\"noopener noreferrer\">hier</a>.",
-            "walletTitle": "Wallet",
+            "walletTitle": "",
             "walletText1": "Das <a href=\"/wallet\">Peercoin wallet</a> gibt es für Windows, Mac OSX und Linux-Systeme.",
             "walletText2": "Kommandozeilen-Funktionalität ist auch vorhanden.",
-            "walletText3": " Sehen Sie sich zu Beginn die Download Seite für das Wallet und die Installationsanleitung an.",
+            "walletText3": "Sehen Sie sich zu Beginn die Download Seite für das Wallet und die Installationsanleitung an.",
             "mintTitle": "Staken (Proof-of-Stake)",
             "mintText1": "Beim Staken (auch: Staking / Minting) werden von den Besitzern der Coins neue Blöcke für das Netzwerk generiert. Dabei wird fast keine Energie verbraucht. Die Blöcke beinhalten die Transaktionen, die von Nutzern im Netzwerk verschickt werden. Die Aufgabe der Stakeholder ist es auch, diese Blöcke mit Transaktionen zu verifizieren, und so für die Sicherheit des Netzwerks zu sorgen.",
             "mintText2": "Staken ist ein energie- und kosteneffizienter Prozess, so dass man zum Staken verschiedene Arten von Computern verwenden kann. Dazu muss man lediglich Peercoins besitzen, die gewünschte Version des Peercoin Clients installieren und das Wallet mit den PPC laden. Ein Zufallsalgorithmus im Protokoll steuert dann automatisch das Erstellen der eigenen Blöcke auf der Blockchain. Jeder selbst erzeugte Block bringt dem Stakeholder eine Belohnung in Form neuer PPC.",
@@ -372,9 +372,9 @@
             "mineTitle": "Minen (Proof-of-Work)",
             "mineText1": "Peercoin verwendet den doppelt ausgeführten Hashcash SHA-256 Algorithmus zum Proof-of-Work Minen. Daher kann jede Hardware, die Bitcoin minen kann, auch Peercoin minen.",
             "mineText2": "Zum Start, beachten Sie bitte die Hilfe zum Minen in der <a href=\"https://peercoin.net/docs/#/mining\" target=\"_blank\" rel=\"noopener noreferrer\">Dokumentation</a>.",
-            "communityTitle": "Community",
-            "communityText1": "Treten Sie uns bei in <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Forum</a>, <a href=\"https://discord.gg/XPxfwtG\" target=\"_blank\" rel=\"noopener noreferrer\">Discord</a>, oder <a href=\"https://t.me/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Telegram</a>  um sich mit anderen Mitgliedern und Entwicklern der Peercoin Community auszutauschen. Abonnieren Sie unsere Kanäle auf <a href=\"https://twitter.com/PeercoinPPC\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter</a>, <a href=\"https://www.reddit.com/r/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>, <a href=\"https://www.peercoin.net/blog/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Blog</a>, oder <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\" target=\"_blank\" rel=\"noopener noreferrer\">Newsletter</a>, um auf dem Laufenden zu bleiben, was es Neues rund um Peercoin gibt. Eine Liste aller wichtigen Links zur Peercoin Community finden Sie <a href=\"/resources#communities\">hier</a>.",
-            "communityText2": "Wichtige Updates können Sie auch direkt auf Ihr Smartphone  bekommen über Plattformen wie <a href=\"https://blockfolio.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blockfolio</a>, <a href=\"https://delta.app/\" target=\"_blank\" rel=\"noopener noreferrer\">Delta</a>, und <a href=\"https://www.coingecko.com/\" target=\"_blank\" rel=\"noopener noreferrer\">CoinGecko</a>. Abonnieren Sie die News, um auf dem Laufenden zu bleiben."
+            "communityTitle": "",
+            "communityText1": "Treten Sie uns bei in <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Forum</a>, <a href=\"https://discord.gg/XPxfwtG\" target=\"_blank\" rel=\"noopener noreferrer\">Discord</a>, oder <a href=\"https://t.me/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Telegram</a> um sich mit anderen Mitgliedern und Entwicklern der Peercoin Community auszutauschen. Abonnieren Sie unsere Kanäle auf <a href=\"https://twitter.com/PeercoinPPC\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter</a>, <a href=\"https://www.reddit.com/r/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>, <a href=\"https://www.peercoin.net/blog/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Blog</a>, oder <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\" target=\"_blank\" rel=\"noopener noreferrer\">Newsletter</a>, um auf dem Laufenden zu bleiben, was es Neues rund um Peercoin gibt. Eine Liste aller wichtigen Links zur Peercoin Community finden Sie <a href=\"/resources#communities\">hier</a>.",
+            "communityText2": "Wichtige Updates können Sie auch direkt auf Ihr Smartphone bekommen über Plattformen wie <a href=\"https://blockfolio.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blockfolio</a>, <a href=\"https://delta.app/\" target=\"_blank\" rel=\"noopener noreferrer\">Delta</a>, und <a href=\"https://www.coingecko.com/\" target=\"_blank\" rel=\"noopener noreferrer\">CoinGecko</a>. Abonnieren Sie die News, um auf dem Laufenden zu bleiben."
         },
         "latestNewsTitle": "Aktuelles"
     },
