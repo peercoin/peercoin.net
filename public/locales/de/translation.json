@@ -149,8 +149,7 @@
             "write": "We welcome code contributions from anyone, whether you have a one-line fix or a big idea, a lot of experience programming or none at all."
         },
         "buttons": {
-            "help": "Forum",
-            "translate": "Transifex"
+            "help": "Forum"
         }
     },
     "contactPage": {

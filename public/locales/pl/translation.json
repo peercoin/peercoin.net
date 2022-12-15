@@ -146,8 +146,7 @@
         "write": "Czekamy na wkład w postaci kodu od każdego, bez względu na to, czy masz jednowierszową poprawkę, czy wielki pomysł, masz duże doświadczenie w programowaniu lub nie masz go wcale."
       },
       "buttons": {
-        "help": "Forums",
-        "translate": "Transifex"
+        "help": "Forums"
       }
     },
     "contactPage": {
