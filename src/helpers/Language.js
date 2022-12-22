@@ -8,7 +8,7 @@ export function getAvailableLanguages() {
     'de',
     'es',
     'fr',
-    'kr',
+    'ko',
     'pt',
     'pl',
     'ro',

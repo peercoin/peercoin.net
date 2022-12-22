@@ -149,8 +149,7 @@
       "write": "Nous acceptons avec plaisir les contributions de tous, que ce soit une modification d'une ligne ou une grosse fonctionnalité, avec ou sans compétence de développement informatique."
     },
     "buttons": {
-      "help": "Forums",
-      "translate": "Transifex"
+      "help": "Forums"
     }
   },
   "contactPage": {

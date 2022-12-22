@@ -146,8 +146,7 @@
       "write": "Salutăm contribuțiile de modificare a codului de la oricine, indiferent dacă aveți multă experiență în programare sau chiar deloc."
     },
     "buttons": {
-      "help": "Forum",
-      "translate": "Transifex"
+      "help": "Forum"
     }
   },
   "contactPage": {
