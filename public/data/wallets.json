@@ -192,6 +192,18 @@
             "translated": true,
             "text": "walletPage.type2"
           }
+        },
+        {
+          "url": "https://slavi.io/",
+          "image": "/img/wallets/slavi.png",
+          "title": {
+            "translated": false,
+            "text": "Slavi"
+          },
+          "subtitle": {
+            "translated": true,
+            "text": "walletPage.type4"
+          }
         }
       ]
     }
