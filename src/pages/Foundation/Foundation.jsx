@@ -57,7 +57,7 @@ function Foundation() {
                   href="https://btc.cryptoid.info/btc/address.dws?.htm"
                 >
                   {" "}
-                  376NhxVL1LFBFndHNx9k7hvwvUzq6RZiPT
+                  
                 </a>
                 <br />
                 <Trans i18nKey="foundationPage.openCollectiveNote">
