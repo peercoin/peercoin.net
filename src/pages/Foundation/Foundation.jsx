@@ -54,7 +54,7 @@ function Foundation() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer nofollow"
-                  href="https://btc.cryptoid.info/btc/address.dws?376NhxVL1LFBFndHNx9k7hvwvUzq6RZiPT.htm"
+                  href="https://btc.cryptoid.info/btc/address.dws?.htm"
                 >
                   {" "}
                   376NhxVL1LFBFndHNx9k7hvwvUzq6RZiPT
