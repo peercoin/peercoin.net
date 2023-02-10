@@ -4,20 +4,20 @@
     {
       "os": "Windows",
       "img": "/img/icons/windows.png",
-      "checksum": "dccbac08def1292c86c6092e095a71bcfb9d02744554b3a6eb4695463321f2ed",
-      "link": "https://github.com/peercoin/peercoin/releases/download/v0.12.0ppc/peercoin-0.12.0ppc-win64-setup-unsigned.exe"
+      "checksum": "d97a5df77ffa1ce58054da3753fb52a00b3a0b847d296090b4c55b8087e1da28",
+      "link": "https://github.com/peercoin/peercoin/releases/download/v0.12.1ppc/peercoin-0.12.1ppc-win64-setup-unsigned.exe"
     },
     {
       "os": "macOS",
       "img": "/img/icons/apple.png",
-      "checksum": "2831e0a5e0066dc1816fca6f2e7d6235368a6c2c50a0749326f3d512436f317d",
-      "link": "https://github.com/peercoin/peercoin/releases/download/v0.12.0ppc/peercoin-0.12.0ppc-osx-unsigned.dmg"
+      "checksum": "1d81207ac6bf0f38b29119f70ceb5f6da3f07e9fbb8ffef78cd889bdbb277e89",
+      "link": "https://github.com/peercoin/peercoin/releases/download/v0.12.1ppc/peercoin-0.12.1ppc-osx-unsigned.dmg"
     },
     {
       "os": "Linux",
       "img": "/img/icons/linux.png",
-      "checksum": "8ca54f290e812a73301209b6bd3ce6869f09666c71ac74cbf94018121c8fdb5a",
-      "link": "https://github.com/peercoin/peercoin/releases/download/v0.12.0ppc/peercoin-0.12.0ppc-x86_64-linux-gnu.tar.gz"
+      "checksum": "f89b051c724cea9f353588c7e710af548ea39700182bf66633d267e916a28271",
+      "link": "https://github.com/peercoin/peercoin/releases/download/v0.12.1ppc/peercoin-0.12.1ppc-x86_64-linux-gnu.tar.gz"
     }
   ],
   "other": [
