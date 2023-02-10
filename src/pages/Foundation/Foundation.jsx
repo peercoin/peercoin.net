@@ -54,10 +54,10 @@ function Foundation() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer nofollow"
-                  href="https://btc.cryptoid.info/btc/address.dws?376NhxVL1LFBFndHNx9k7hvwvUzq6RZiPT.htm"
+                  href="https://mempool.space/address/3DrygZif7mB359Md5BbN1XFRxX6wBWqmcc"
                 >
                   {" "}
-                  376NhxVL1LFBFndHNx9k7hvwvUzq6RZiPT
+                  3DrygZif7mB359Md5BbN1XFRxX6wBWqmcc
                 </a>
                 <br />
                 <Trans i18nKey="foundationPage.openCollectiveNote">
