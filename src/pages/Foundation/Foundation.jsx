@@ -42,7 +42,7 @@ function Foundation() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer nofollow"
-                  href="https://chainz.cryptoid.info/ppc/address.dws?p92W3t7YkKfQEPDb7cG9jQ6iMh7cpKLvwK.htm"
+                  href="https://chainz.cryptoid.info/ppc/address.dws?p77CZFn9jvg9waCzKBzkQfSvBBzPH1nRre.htm"
                 >
                   {" "}
                   p92W3t7YkKfQEPDb7cG9jQ6iMh7cpKLvwK
