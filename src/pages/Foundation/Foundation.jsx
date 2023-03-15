@@ -45,7 +45,7 @@ function Foundation() {
                   href="https://chainz.cryptoid.info/ppc/address.dws?p77CZFn9jvg9waCzKBzkQfSvBBzPH1nRre.htm"
                 >
                   {" "}
-                  p92W3t7YkKfQEPDb7cG9jQ6iMh7cpKLvwK
+                  p77CZFn9jvg9waCzKBzkQfSvBBzPH1nRre
                 </a>
                 <br />
                 <Trans i18nKey="foundationPage.generalFundBtcAddress">
