@@ -128,6 +128,7 @@
     "technicalSupportText": "If you would like to get involved with Peercoin, or would simply like to support the team, there are a handful of options at your disposal. If you are interested in becoming a developer for Peercoin or Peercoin related projects such as PeerAssets, send us an email at foundation@peercoin.net. If you would like to donate PPC to the Peercoin Foundation to support the expansion of a project, simply send your PPC donation to the multisignature address below.",
     "generalFundPpcAddress": "General Fund - <strong>PPC</strong> Donation Address:",
     "generalFundBtcAddress": "General Fund - <strong>BTC</strong> Donation Address:",
+    "generalFundEthAddress": "General Fund - <strong>ETH/USDC/WBTC</strong> Donation Address:",
     "viewOnExplorer": "View on explorer",
     "openCollectiveNote": "Fiat Donations - <strong>USD/EUR</strong> by Credit/Debit/Wire:",
     "contactUsTitle": "Contact Us",
