@@ -136,24 +136,25 @@
         "reportsSupportText": ""
     },
     "contributePage": {
-      "contributeTitle": "Współtwórz ",
-      "contributeDescription": "Jak możesz pomóc ulepszyć Peercoin",
-      "contributeIntro": "Peercoin to projekt darmowy / open-source i serdecznie zapraszamy do pomocy w ulepszaniu go! Możesz pomóc na wiele sposobów:",
-      "header": {
-        "reportBugs": "Zgłoś Błąd",
-        "helpOthers": "Pomóż innym z błędami",
-        "translate": "Przetłumacz Peercoin na swój język",
-        "write": "Napisz kod"
-      },
-      "content": {
-        "reportBugs": "Jeśli znajdziesz błędy w kliencie Peercoin, musisz je zgłosić w naszym narzędziu do śledzenia problemów. \n Twój problem mógł już zostać zgłoszony, więc dobrze jest sprawdzić, czy nie przesyłasz duplikatu. \n Masz sugestie dotyczące nowych funkcji lub ulepszeń? \n Otwórz problem w naszym GitHubie.",
-        "helpOthers": "Możesz pomóc zespołowi programistów nadążać za zgłoszeniami błędów, zamykając duplikaty, pomagając w wyjaśnieniu problemów zgłaszających i potwierdzając, że możesz odtworzyć błędy. Nasz Discord lub nasze fora byłyby dobrym początkiem.",
-        "translate": "Peercoin został przetłumaczony na dziesiątki języków, ale jeśli tłumaczenie na Twój język nie istnieje lub jest nieaktualne, możesz pomóc w udostępnieniu Peercoin całej nowej populacji, po prostu tłumacząc tekst.",
-        "write": "Czekamy na wkład w postaci kodu od każdego, bez względu na to, czy masz jednowierszową poprawkę, czy wielki pomysł, masz duże doświadczenie w programowaniu lub nie masz go wcale."
-      },
-      "buttons": {
-        "help": "Forums"
-      }
+        "contributeTitle": "Współtwórz ",
+        "contributeDescription": "Jak możesz pomóc ulepszyć Peercoin",
+        "contributeIntro": "Peercoin to projekt darmowy / open-source i serdecznie zapraszamy do pomocy w ulepszaniu go! Możesz pomóc na wiele sposobów:",
+        "header": {
+            "reportBugs": "Zgłoś Błąd",
+            "helpOthers": "Pomóż innym z błędami",
+            "translate": "Przetłumacz Peercoin na swój język",
+            "write": "Napisz kod"
+        },
+        "content": {
+            "reportBugs": "Jeśli znajdziesz błędy w kliencie Peercoin, musisz je zgłosić w naszym narzędziu do śledzenia problemów. \n Twój problem mógł już zostać zgłoszony, więc dobrze jest sprawdzić, czy nie przesyłasz duplikatu. \n Masz sugestie dotyczące nowych funkcji lub ulepszeń? \n Otwórz problem w naszym GitHubie.",
+            "helpOthers": "Możesz pomóc zespołowi programistów nadążać za zgłoszeniami błędów, zamykając duplikaty, pomagając w wyjaśnieniu problemów zgłaszających i potwierdzając, że możesz odtworzyć błędy. Nasz Discord lub nasze fora byłyby dobrym początkiem.",
+            "translate": "Peercoin został przetłumaczony na dziesiątki języków, ale jeśli tłumaczenie na Twój język nie istnieje lub jest nieaktualne, możesz pomóc w udostępnieniu Peercoin całej nowej populacji, po prostu tłumacząc tekst.",
+            "write": "Czekamy na wkład w postaci kodu od każdego, bez względu na to, czy masz jednowierszową poprawkę, czy wielki pomysł, masz duże doświadczenie w programowaniu lub nie masz go wcale."
+        },
+        "buttons": {
+            "help": "Forums",
+            "translate": "Transifex"
+        }
     },
     "contactPage": {
         "contactTitle": "Kontakt",
