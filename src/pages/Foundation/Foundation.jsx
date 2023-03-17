@@ -60,6 +60,18 @@ function Foundation() {
                   3DrygZif7mB359Md5BbN1XFRxX6wBWqmcc
                 </a>
                 <br />
+                <Trans i18nKey="foundationPage.generalFundEthAddress">
+                  General Fund - <strong>ETH/USDC/WBTC</strong> Donation Address
+                </Trans>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  href="https://etherscan.io/address/0xC631f54Aa17F9539c63bcdcdB648cb02a691D7e2"
+                >
+                  {" "}
+                  0xC631f54Aa17F9539c63bcdcdB648cb02a691D7e2
+                </a>
+                <br />
                 <Trans i18nKey="foundationPage.openCollectiveNote">
                   Fiat Donations - <strong>USD/EUR</strong> by
                   Credit/Debit/Wire:
