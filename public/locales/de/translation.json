@@ -36,24 +36,15 @@
                 "github": "GitHub",
                 "projects": "Projekte",
                 "blog": "Blog",
-                "peercoinFoundation": "",
                 "contactUs": "Kontaktieren Sie uns",
                 "contribute": "Mitwirken"
             },
-            "wallet": {
-                "title": ""
-            },
             "community": {
-                "title": "",
                 "forum": "Forum",
                 "twitter": "Twitter",
                 "facebook": "Facebook",
                 "reddit": "Reddit",
-                "telegram": "Telegram",
-                "discord": "",
-                "youtube": "",
-                "bitcointalk": "",
-                "cmc": ""
+                "telegram": "Telegram"
             },
             "donate": {
                 "title": "Spenden"
@@ -83,33 +74,22 @@
                 "title": "Wichtige Links",
                 "linkDocumentation": "Dokumentation",
                 "linkExchanges": "Börsen",
-                "linkBlockExplorers": "",
-                "linkWhitepaper": "",
-                "linkGraphics": "Grafiken",
-                "linkMining": ""
-            },
-            "wallet": {
-                "title": ""
+                "linkGraphics": "Grafiken"
             },
             "project": {
                 "title": "Projekt",
                 "linkGithub": "GitHub",
                 "linkProjects": "Projekte",
                 "linkBlog": "Blog",
-                "linkFoundation": "",
                 "linkPrivacyPolicy": "Datenschutzerklärung",
                 "linkContact": "Contact"
             },
             "community": {
-                "title": "",
                 "linkForum": "Forum",
                 "linkReddit": "Reddit",
                 "linkTelegram": "Telegram",
-                "linkDiscord": "",
-                "linkBitcointalk": "",
                 "linkFacebook": "Facebook",
-                "linkTwitter": "Twitter",
-                "linkYoutube": ""
+                "linkTwitter": "Twitter"
             }
         },
         "copyright": {
@@ -117,24 +97,13 @@
             "rights": "Peercoin Foundation | Alle Rechte vorbehalten"
         }
     },
-    "latestNewsComp": {
-        "readMore": ""
-    },
     "foundationPage": {
         "missionStatementTitle": "Leitbild",
         "missionStatementText": "Die Peercoin Foundation wurde mit dem Ziel eingerichtet, Peercoin der Öffentlichkeit zu erklären und für das Projekt zu werben. Weitere Zielsetzung ist es, den allgemeinen Forschritt des Projekts zu unterstützen, und zukünftige Mitglieder des Peercoin Teams mit den notwendigen Mitteln auszustatten, die lange Traditon Peercoins als innovatives Projekt forzusetzen. Dazu gehört auch die Förderung neuer Entwicklungen.",
-        "technicalSupportTitle": "",
         "technicalSupportText": "Wenn Sie sich an Peercoin beteiligen möchten, oder wenn Sie einfach das Team unterstützen möchten, haben Sie dazu eine Reihe verschiedener Möglichkeiten. Wenn Sie Interesse haben, als Entwickler für Peercoin oder für ein verwandtes Projekt wie PeerAssets zu arbeiten, schicken Sie uns eine eMail an foundation@peercoin.net. Wenn Sie PPC für die Peercoin Foundation spenden möchten, um die Fortentwicklung des Projekts zu unterstützen, senden sie Ihre PPC einfach an die Multisignature Adresse unten.",
-        "generalFundPpcAddress": "",
-        "generalFundBtcAddress": "",
-        "viewOnExplorer": "",
         "contactUsTitle": "Kontakt",
         "addressCountry": "The Netherlands",
-        "reportsTitle": "Finanzreports",
-        "missionStatementText1": "",
-        "missionStatementText2": "",
-        "openCollectiveNote": "",
-        "reportsSupportText": ""
+        "reportsTitle": "Finanzreports"
     },
     "contributePage": {
         "contributeTitle": "Mitwirken ",
@@ -147,10 +116,7 @@
             "write": "Code schreiben"
         },
         "content": {
-            "reportBugs": "",
-            "helpOthers": "You can help the development team keep up with the bug reports by closing duplicates, helping to clarify reporters problems, and confirming that you can reproduce bugs. Our Discord or our forums would be a good start.",
-            "translate": "",
-            "write": ""
+            "helpOthers": "You can help the development team keep up with the bug reports by closing duplicates, helping to clarify reporters problems, and confirming that you can reproduce bugs. Our Discord or our forums would be a good start."
         },
         "buttons": {
             "help": "Forum"
@@ -166,7 +132,6 @@
         "technicalSupportText": "Benötigen Sie Hilfe für ein technisches Problem? Hilfestellung und noch vieles mehr finden Sie auf Peercointalk.",
         "addressCountry": "The Netherlands",
         "documentationTitle": "Documentation",
-        "documentationText": "",
         "documentationBtn": "Dokumentation",
         "faqTitle": "Häufige Fragen",
         "faq": {
@@ -191,14 +156,11 @@
     "projectsPage": {
         "title": "Projekte",
         "description": "Projekte, die derzeit für das Ökosystem von Peercoin entwickelt werden, um die Nutzung der Blockchain zu steigern.",
-        "peerAssetsTitle": "",
         "peerAssetsP1": "Das PeerAssets Protokoll ist einfach zu verstehen. Bei PeerAssets werden Nachrichten in die Blockchain geschrieben und darin gelesen, wobei die Nachrichten beliebige Besitzgüter (Assets) darstellen können, während die Adressen die Eigentümer dieser Besitzgüter repräsentieren.",
         "peerAssetsP2": "Die Assets im PeerAsset Protokoll können verwendet werden, um z.B. Kapitalbeteilungen oder Schuldscheine zu repräsentieren. Auch reale Gegenstände können durch PeerAssets auf der Blockchain dargestellt werden. PeerAssets ist ein sehr einfaches Protokoll, es wird außer der zu Grunde liegenden Blockchain kein weiterer Rahmen benötigt. Durch die Nutzung einer zu Grunde liegenden Blockchain einer Cryptowährung fallen bei jeder Aktion geringe Transaktionsgebühren an. Dies sind die einzigen Kosten, die anfallen. PeerAssets profitiert von der Stabilitat und Sicherheit der verwendeten Blockchain, ist aber neutral und nicht der weiteren Entwicklung dieser Blockchain verpflichtet. PeerAssets ist kompatibel zu allen Cryptowährungen, die auf dem Code von Bitcoin basieren und kann daher grundsätzlich auf jeder dieser Blockchains Anwendung finden. Dazu zählen unter anderem Peercoin und Litecoin.",
         "peerAssetsP3": "Für die Anwendung von PeerAssets ist kein Hardfork oder Softfork der genutzten Cryptowährung notwendig, es muss jedoch ein passendes Anwendungsprogramm geschrieben werden. PeerAssets baut auf der älteren Idee der \"Colored Coins\" auf und nutzt OP_RETURN, um Daten in die Blockchain zu schreiben. Es bietet jedoch mehrere Optimierungen, welche die Menge der Daten verringern, die in OP_RETURN geschrieben werden. PeerAssets ermöglichst einfaches Suchen nach zugehörigen Transaktionen in der Blockchain und bietet einige extra Features wie zum Beispiel Abstimmungen der Shareholder und Dividendenzahlungen.",
         "peerAssetsP4": "Zum Einsteg, <a href=\"https://www.peercoin.net/blog/basic-deck-creation-with-peerassets-tutorial\" target=\"_blank\" rel=\"noopener noreferrer\">Probieren Sie dieses einfache Tutoral zur Erstellung eines Kartendecks.</a>",
         "peerAssetsBtnGithub": "GitHub",
-        "peerAssetsBtnWhitepaper": "",
-        "perperaTitle": "",
         "perperaP1": "\"Perpera\" ist eine Implementation des PeerAssets DataAudit Protokolls, die im Juni 2018 als RFC vorgestellt wurde. Perpera ist eine in TypeScript geschriebene Library, die nützliche Funktionen bietet sowohl für die Entwicklung zukünftiger Web-basierter Applikationen als auch für die Entwicklung von CLI tools für Entwickler/Power user.",
         "perperaP2": "Der Hauptzweck dieses Protokolls ist die Einbettung beliebiger Dokumente in die Blockchain (Proof-of-Existance), und die Möglichkeit, solche Dokumente nachträglich zu überarbeiten. In diesem Aspekt (Möglichkeit von Korrekturen) ist dieses Protokoll anders als ähnliche Protokolle, die bereits im Einsatz sind.",
         "perperaP3": "Mehr über das PeerAssets DataAudit Protokoll:",
@@ -211,9 +173,6 @@
         "description": "Tools und Treffpunkte der Community: Börsen, Block Explorer, Grafiken, Social Media, Foren, Chats und mehr!",
         "actions": {
             "action1": "Börsen",
-            "action2": "",
-            "action3": "",
-            "action4": "",
             "action5": "Grafiken"
         },
         "contributeTitle": "Mitwirken",
@@ -239,15 +198,7 @@
         "exchangesType1": "Börse",
         "exchangesType2": "Service",
         "exchangesType3": "Informationen zum Markt",
-        "explorersTitle": "",
-        "explorersMainnet": "",
-        "explorersTestnet": "",
-        "toolsTitle": "",
-        "toolsMempool": "",
         "toolsEnergyStatistics": "Statistiken zum Energieverbrauch",
-        "toolsTestnetFaucet": "",
-        "communityTitle": "",
-        "whitepaperTitle": "",
         "whitepaperEnglish": "Englisch",
         "whitepaperChinese": "Chinesisch/中文",
         "whitepaperSpanish": "Spanisch/Español",
@@ -262,7 +213,6 @@
         "graphicsHorizontal": "Horizontales Logo",
         "graphicsIconOnly": "Nur Icons",
         "graphicsTextOnly": "Nur Text",
-        "graphicsFavicons": "",
         "graphicsZipFolder": "Eine ZIP-Datei mit allen Grafiken finden Sie <a href=\"https://peercoin.net/assets/Peercoin%202021%20Graphics.zip\">hier</a>",
         "brandIdentityTitle": "Markenidentität",
         "brandIdentityColorsFonts": "Peercoin Farbcodes & Schriftarten:",
@@ -271,25 +221,14 @@
         "brandIdentityFont": "Das Peercoin Testlogo nutzt folgende Schriftart",
         "brandIdentityFontFont": "Schriftart",
         "brandIdentityFontType": "Type",
-        "brandIdentityFontRoboto": "Die Peercoin Website und die Wallets nutzen die <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\" rel=\"noopener noreferrer\">Roboto</a> Schriftart.",
-        "exchangesType4": "",
-        "exchangesType5": "",
-        "toolsCharts": "",
-        "toolsPresentation": "",
-        "whitepaperRomanian": "",
-        "whitepaperRussian": "",
-        "wrapedPPCTitle": "",
-        "wrappedPPCText": ""
+        "brandIdentityFontRoboto": "Die Peercoin Website und die Wallets nutzen die <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\" rel=\"noopener noreferrer\">Roboto</a> Schriftart."
     },
     "walletPage": {
-        "title": "",
         "description": "Peercoins versenden, empfangen und aufbewahren. Das Desktop Wallet ermöglicht auch Staking und sichert das Netzwerk.",
         "actions": {
             "action1": "Installation",
-            "action2": "",
             "action3": "Inoffizielle Wallets"
         },
-        "desktopWalletTitle": "",
         "walletWindows": "Windows",
         "walletMac": "macOS",
         "walletLinux": "Linux",
@@ -299,7 +238,6 @@
             "text1": "Entpacken Sie <code>{{file}}</code>",
             "text2": "Standard-Installationspfad ist <code>C:\\Program Files\\PPCoin oder C:\\Program Files\\Peercoin</code>",
             "text3": "Starten Sie <code>peercoin-qt</code> oder <code>peercoin</code> vom Startmenü oder aus dem Installationsverzeichnis",
-            "title2": "",
             "text4": "Erstellen Sie peercoin.conf in <code>%APPDATA%\\PPCoin</code>",
             "text5": "Starten Sie <code>daemon\\peercoind</code>",
             "text6": "Ihr Wallet befndet sich in <code>C:\\Users\\{username}\\AppData</code> (verstecktes Verzeichnis).",
@@ -312,7 +250,6 @@
             "text2": "Legen Sie <code className=\"green\">Peercoin-Qt.dmg</code> an, indem Sie es öffnen",
             "text3": "Ziehen Sie <code className=\"green\">Peercoin-Qt.app</code> oder <code className=\"green\">Peercoin.app</code> zu <code className=\"green\">Anwendungen</code>",
             "text4": "Gehen Sie zu <code className=\"green\">Applications</code> und öffnen Sie <code className=\"green\">Peercoin-Qt.app</code> oder <code className=\"green\">Peercoin.app</code>",
-            "title2": "",
             "text5": "Entpacken Sie <code className=\"green\">peercoind.zip</code>",
             "text6": "Erstellen Sie <code className=\"green\">ppcoin.conf</code> in <code className=\"green\">~/Library/Application Support/PPCoin</code>",
             "text7": "Starte <code className=\"green\">peercoind</code>",
@@ -322,19 +259,8 @@
         "sectionLinux": {
             "title1": "Linux, allgemein",
             "text1": "Entpacken Sie <code className=\"green\">{{file}}</code>",
-            "text2": "Starten Sie <code className=\"green\">bin/32/peercoin-qt</code> (benötigt libqt4-gui)",
-            "title3": "",
-            "text6": "",
-            "text7": "",
-            "text8": "",
-            "text9": ""
-        },
-        "paperWalletTitle": "",
-        "paperWalletSubtitle1": "",
-        "paperWalletSubtitle2": "",
-        "type1": "",
-        "type2": "",
-        "type3": ""
+            "text2": "Starten Sie <code className=\"green\">bin/32/peercoin-qt</code> (benötigt libqt4-gui)"
+        }
     },
     "indexPage": {
         "actions": {
@@ -360,9 +286,6 @@
         "fairDistributionText3": "Um dieses Problem zu lösen, haben Peercoins Erfinder das Protokoll so festgelegt, dass Proof-of-Stake das Netzwerk sichert, und Proof-of-Work zur Verteilung der Coins dient. Miner erhalten daher neu geschaffene Peercoins. Um ihre Kosten zu decken, verkaufen die Miner in der Regel die neuen PPC auf Börsen an Geldanleger, welche die Coins zum Staken neuer Blöcke verwenden können.",
         "fairDistributionText4": "Während also Proof-of-Stake direkt für die Sicherheit des Netzwerks sorgt, trägt auch Proof-of-Work zur Sicherheit bei, in dem es die Dezentralisierung des Netzwerks fördert durch die Verteilung von PPC an potentielle neue Stakeholder. Diese fortlaufende Distribution vergrößert über die Zeit die Zahl der Personen, die das Netzwerk sichern.",
         "valueStoreTitle": "Zuverlässige Wertaufbewahrung",
-        "valueStoreText1": "",
-        "valueStoreText2": "",
-        "valueStoreText3": "",
         "getStartedTitle": "Jetzt loslegen",
         "collapsables": {
             "learnTitle": "Mehr erfahren",
@@ -372,7 +295,6 @@
             "purchaseTitle": "Kauf",
             "purchaseText1": "Peercoin kann bei verschiedenen Börsen und Online-Wechselstuben gekauft werden. Eine Liste <a href=\"/resources#exchanges\">finden Sie hier</a>.",
             "purchaseText3": "Eine Anleitung zum Kauf von Peercoin finden Sie auch <a href=\"https://peercoin.net/docs/#/purchase\" target=\"_blank\" rel=\"noopener noreferrer\">hier</a>.",
-            "walletTitle": "",
             "walletText1": "Das <a href=\"/wallet\">Peercoin wallet</a> gibt es für Windows, Mac OSX und Linux-Systeme.",
             "walletText2": "Kommandozeilen-Funktionalität ist auch vorhanden.",
             "walletText3": "Sehen Sie sich zu Beginn die Download Seite für das Wallet und die Installationsanleitung an.",
@@ -383,28 +305,13 @@
             "mineTitle": "Minen (Proof-of-Work)",
             "mineText1": "Peercoin verwendet den doppelt ausgeführten Hashcash SHA-256 Algorithmus zum Proof-of-Work Minen. Daher kann jede Hardware, die Bitcoin minen kann, auch Peercoin minen.",
             "mineText2": "Zum Start, beachten Sie bitte die Hilfe zum Minen in der <a href=\"https://peercoin.net/docs/#/mining\" target=\"_blank\" rel=\"noopener noreferrer\">Dokumentation</a>.",
-            "communityTitle": "",
             "communityText1": "Treten Sie uns bei in <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Forum</a>, <a href=\"https://discord.gg/XPxfwtG\" target=\"_blank\" rel=\"noopener noreferrer\">Discord</a>, oder <a href=\"https://t.me/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Telegram</a> um sich mit anderen Mitgliedern und Entwicklern der Peercoin Community auszutauschen. Abonnieren Sie unsere Kanäle auf <a href=\"https://twitter.com/PeercoinPPC\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter</a>, <a href=\"https://www.reddit.com/r/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>, <a href=\"https://www.peercoin.net/blog/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Blog</a>, oder <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\" target=\"_blank\" rel=\"noopener noreferrer\">Newsletter</a>, um auf dem Laufenden zu bleiben, was es Neues rund um Peercoin gibt. Eine Liste aller wichtigen Links zur Peercoin Community finden Sie <a href=\"/resources#communities\">hier</a>.",
             "communityText2": "Wichtige Updates können Sie auch direkt auf Ihr Smartphone bekommen über Plattformen wie <a href=\"https://blockfolio.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blockfolio</a>, <a href=\"https://delta.app/\" target=\"_blank\" rel=\"noopener noreferrer\">Delta</a>, und <a href=\"https://www.coingecko.com/\" target=\"_blank\" rel=\"noopener noreferrer\">CoinGecko</a>. Abonnieren Sie die News, um auf dem Laufenden zu bleiben."
         },
-        "latestNewsTitle": "Aktuelles",
-        "youtubeSection": {
-            "subText": "",
-            "btnVideo1": "",
-            "btnVideo2": "",
-            "btnVideo3": "",
-            "btnVideo4": "",
-            "btnVideo5": ""
-        }
+        "latestNewsTitle": "Aktuelles"
     },
     "notFoundPage": {
         "title": "404 - Angeforderte URL nicht gefunden",
         "description": "Klicken Sie <a href=\"https://www.peercoin.net/\" style=\"color: white;\">hier</a>, um zur Startseite zurückzukehren."
-    },
-    "reader": {
-        "buttonGoBack": "",
-        "buttonDownload": "",
-        "hint": "",
-        "notFound": ""
     }
 }
