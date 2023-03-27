@@ -27,10 +27,8 @@
                 "mining": "Minen",
                 "peercoinUniversity": "Peercoin Grundlagen",
                 "exchanges": "Börsen",
-                "blockExplorers": "",
-                "whitepaper": "",
-                "blockExplorers": "",
-                "whitepaper": "",
+                "blockExplorers": "Block Explorers",
+                "whitepaper": "Whitepaper",
                 "graphics": "Grafiken"
             },
             "project": {
@@ -284,8 +282,6 @@
         "wrappedPPCText": ""
     },
     "walletPage": {
-        "title": "",
-        "description": "Peercoins versenden, empfangen und aufbewahren. Das Desktop Wallet ermöglicht auch Staking und sichert das Netzwerk.",
         "title": "",
         "description": "Peercoins versenden, empfangen und aufbewahren. Das Desktop Wallet ermöglicht auch Staking und sichert das Netzwerk.",
         "actions": {
