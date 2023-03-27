@@ -27,6 +27,8 @@
                 "mining": "Minen",
                 "peercoinUniversity": "Peercoin Grundlagen",
                 "exchanges": "Börsen",
+                "blockExplorers": "Block Explorers",
+                "whitepaper": "Whitepaper",
                 "graphics": "Grafiken"
             },
             "project": {
@@ -222,6 +224,7 @@
         "brandIdentityFontRoboto": "Die Peercoin Website und die Wallets nutzen die <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\" rel=\"noopener noreferrer\">Roboto</a> Schriftart."
     },
     "walletPage": {
+        "title": "",
         "description": "Peercoins versenden, empfangen und aufbewahren. Das Desktop Wallet ermöglicht auch Staking und sichert das Netzwerk.",
         "actions": {
             "action1": "Installation",
