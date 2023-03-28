@@ -96,7 +96,7 @@ function Foundation() {
                   href="/assets/reports/Stichting_Peercoin_Foundation_-_Jaarrekening_2018.pdf"
                 >
                   Financial Report 2018
-                </a>{" "}
+                </a>
                 <br />
                 <a
                   target="_blank"
@@ -104,7 +104,7 @@ function Foundation() {
                   href="/assets/reports/Stichting_Peercoin_Foundation_-_Jaarrekening_2019.pdf"
                 >
                   Financial Report 2019
-                </a>{" "}
+                </a>
                 <br />
                 <a
                   target="_blank"
@@ -112,7 +112,7 @@ function Foundation() {
                   href="/assets/reports/Stichting_Peercoin_Foundation_-_Jaarrekening_2020.pdf"
                 >
                   Financial Report 2020
-                </a>{" "}
+                </a>
                 <br />
                 <a
                   target="_blank"
@@ -120,6 +120,14 @@ function Foundation() {
                   href="/assets/reports/Stichting_Peercoin_Foundation_-_Jaarrekening_2021.pdf"
                 >
                   Financial Report 2021
+                </a>
+                <br />
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  href="/assets/reports/Stichting_Peercoin_Foundation_-_Jaarstukken_2022.pdf"
+                >
+                  Financial Report 2022
                 </a>
               </div>
             </div>
