@@ -52,11 +52,7 @@
                 "telegram": "Telegram",
                 "discord": "Discord",
                 "youtube": "YouTube",
-                "bitcointalk": "Bitcointalk",
-                "cmc": ""
-            },
-            "donate": {
-                "title": ""
+                "bitcointalk": "Bitcointalk"            
             }
         }
     },
@@ -129,12 +125,7 @@
         "generalFundBtcAddress": "General Fund - BTC Donation Address:",
         "viewOnExplorer": "View on explorer",
         "contactUsTitle": "Contáctenos",
-        "addressCountry": "The Netherlands",
-        "missionStatementText1": "",
-        "missionStatementText2": "",
-        "openCollectiveNote": "",
-        "reportsTitle": "",
-        "reportsSupportText": ""
+        "addressCountry": "The Netherlands"
     },
     "contactPage": {
         "contactTitle": "Contáctenos",
@@ -251,15 +242,7 @@
         "brandIdentityFont": "El logo de texto de Peercoin usa la siguiente fuente:",
         "brandIdentityFontFont": "Font",
         "brandIdentityFontType": "Type",
-        "brandIdentityFontRoboto": "El sitio web y las carteras de Peercoin utilizan la fuente <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\" rel=\"noopener noreferrer\">Roboto</a> para su contenido.",
-        "exchangesType4": "",
-        "exchangesType5": "",
-        "toolsCharts": "",
-        "toolsPresentation": "",
-        "whitepaperRomanian": "",
-        "whitepaperRussian": "",
-        "wrapedPPCTitle": "",
-        "wrappedPPCText": ""
+        "brandIdentityFontRoboto": "El sitio web y las carteras de Peercoin utilizan la fuente <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\" rel=\"noopener noreferrer\">Roboto</a> para su contenido."
     },
     "walletPage": {
         "title": "Carteras",
@@ -267,8 +250,7 @@
         "actions": {
             "action1": "Instalación",
             "action2": "Billetera de papel",
-            "action3": "Carteras no oficiales",
-            "action4": ""
+            "action3": "Carteras no oficiales"
         },
         "desktopWalletTitle": "Billeteras de escritorio",
         "walletWindows": "Windows",
@@ -312,16 +294,7 @@
             "text13": "Crear <code className=\"green\">peercoin.conf</code> en <code className=\"green\">~/.peercoin</code>",
             "text14": "Correr <code className=\"green\">bin/32/peercoind</code>",
             "text15": "Su billetera se encuentra en <code>~/.peercoin</code>.",
-            "text16": "Ayuda adicional se puede encontrar en el <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Documentation</a> o preguntando por nuestro <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Forums</a>.",
-            "text11": "",
-            "textFlathub": "",
-            "descriptionFlathub": "",
-            "text6": "",
-            "text7": "",
-            "text8": "",
-            "text9": "",
-            "text10": "",
-            "text12": ""
+            "text16": "Ayuda adicional se puede encontrar en el <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Documentation</a> o preguntando por nuestro <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Forums</a>."
         },
         "paperWalletTitle": "Billetera de papel",
         "paperWalletSubtitle1": "Billetera de papel",
@@ -329,9 +302,7 @@
         "type1": "Cartera de hardware3",
         "type2": "Movil/ Billetera Web3",
         "type3": "Billetera Web",
-        "type4": "Movil",
-        "mobileWalletTitle": "",
-        "paperWalletSubtitle3": ""
+        "type4": "Movil"
     },
     "indexPage": {
         "actions": {
@@ -382,48 +353,11 @@
             "mineText2": "Para empezar, echa un vistazo a la <a href=\"https://peercoin.net/docs/#/mining\" target=\"_blank\" rel=\"noopener noreferrer\">documentación de minera</a>.",
             "communityTitle": "Comunidad",
             "communityText1": "Únete a nuestro <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Foro</a>, <a href=\"https://discord.gg/XPxfwtG\" target=\"_blank\" rel=\"noopener noreferrer\">Discord</a>, o <a href=\"https://t.me/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Telegram</a> para chatear con otros miembros de la comunidad Peercoin y desarrolladores. Suscribete a nuestro <a href=\"https://twitter.com/PeercoinPPC\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter</a>, <a href=\"https://www.reddit.com/r/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>, <a href=\"https://www.peercoin.net/blog/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Blog</a>, o a la <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\" target=\"_blank\" rel=\"noopener noreferrer\">Newsletter</a> para estar al día con las últimas noticias de Peercoin. Comprobar <a href=\"/resources#communities\">aquí</a> para obtener una lista de todos los demás recursos de la comunidad.",
-            "communityText2": " Las actualizaciones importantes también se pueden enviar directamente a su dispositivo móvil a través de plataformas como <a href=\"https://blockfolio.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blockfolio</a>, <a href=\"https://delta.app/\" target=\"_blank\" rel=\"noopener noreferrer\">Delta</a>, and <a href=\"https://www.coingecko.com/\" target=\"_blank\" rel=\"noopener noreferrer\">CoinGecko</a>. Suscríbete para estar al día de las últimas novedades.",
-            "purchaseText2": ""
-        },
-        "latestNewsTitle": "Últimas noticias",
-        "youtubeSection": {
-            "subText": "",
-            "btnVideo1": "",
-            "btnVideo2": "",
-            "btnVideo3": "",
-            "btnVideo4": "",
-            "btnVideo5": ""
-        }
+            "communityText2": " Las actualizaciones importantes también se pueden enviar directamente a su dispositivo móvil a través de plataformas como <a href=\"https://blockfolio.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blockfolio</a>, <a href=\"https://delta.app/\" target=\"_blank\" rel=\"noopener noreferrer\">Delta</a>, and <a href=\"https://www.coingecko.com/\" target=\"_blank\" rel=\"noopener noreferrer\">CoinGecko</a>. Suscríbete para estar al día de las últimas novedades."        },
+        "latestNewsTitle": "Últimas noticias"
     },
     "notFoundPage": {
         "title": "404 - Página no encontrada",
         "description": "Haga clic <a href=\"https://www.peercoin.net/\" style=\"color: white;\">aqui</a> para volver a la página principal."
-    },
-    "contributePage": {
-        "contributeDescription": "",
-        "contributeIntro": "",
-        "header": {
-            "reportBugs": "",
-            "helpOthers": "",
-            "translate": "",
-            "write": ""
-        },
-        "content": {
-            "reportBugs": "",
-            "helpOthers": "",
-            "translate": "",
-            "write": ""
-        },
-        "buttons": {
-            "help": "",
-            "translate": ""
-        },
-        "contributeTitle": ""
-    },
-    "reader": {
-        "buttonGoBack": "",
-        "buttonDownload": "",
-        "hint": "",
-        "notFound": ""
     }
 }

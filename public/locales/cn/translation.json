@@ -52,11 +52,7 @@
                 "telegram": "Telegram",
                 "discord": "Discord",
                 "youtube": "YouTube",
-                "bitcointalk": "Bitcointalk",
-                "cmc": ""
-            },
-            "donate": {
-                "title": ""
+                "bitcointalk": "Bitcointalk"
             }
         }
     },
@@ -129,12 +125,7 @@
         "generalFundBtcAddress": "General Fund - BTC Donation Address:",
         "viewOnExplorer": "View on explorer",
         "contactUsTitle": "联系我们",
-        "addressCountry": "The Netherlands",
-        "missionStatementText1": "",
-        "missionStatementText2": "",
-        "openCollectiveNote": "",
-        "reportsTitle": "",
-        "reportsSupportText": ""
+        "addressCountry": "The Netherlands"
     },
     "contactPage": {
         "contactTitle": "联系我们",
@@ -251,15 +242,7 @@
         "brandIdentityFont": "点点币文字标识使用以下字体",
         "brandIdentityFontFont": "Font",
         "brandIdentityFontType": "Type",
-        "brandIdentityFontRoboto": "点点币网站和钱包使用<a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\" rel=\"noopener noreferrer\">Roboto</a>字体显示内容。",
-        "exchangesType4": "",
-        "exchangesType5": "",
-        "toolsCharts": "",
-        "toolsPresentation": "",
-        "whitepaperRomanian": "",
-        "whitepaperRussian": "",
-        "wrapedPPCTitle": "",
-        "wrappedPPCText": ""
+        "brandIdentityFontRoboto": "点点币网站和钱包使用<a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\" rel=\"noopener noreferrer\">Roboto</a>字体显示内容。"
     },
     "walletPage": {
         "title": "钱包",
@@ -267,8 +250,7 @@
         "actions": {
             "action1": "安装",
             "action2": "纸钱包",
-            "action3": "非官方钱包",
-            "action4": ""
+            "action3": "非官方钱包"
         },
         "desktopWalletTitle": "桌面钱包",
         "walletWindows": "Windows",
@@ -308,20 +290,7 @@
             "text13": "创建 <code className=\"green\">peercoin.conf</code 在 <code className=\"green\">~/.peercoin</code>",
             "text14": "运行 <code className=\"green\">bin/32/peercoind</code>",
             "text15": "你的钱包在 <code>~/.peercoin</code>.",
-            "text16": "额外的帮助可以在点点币中找到 <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">文档</a> 或者通过问我们  <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">论坛。</a>",
-            "textFlathub": "",
-            "descriptionFlathub": "",
-            "title2": "",
-            "text3": "",
-            "text4": "",
-            "text5": "",
-            "text6": "",
-            "text7": "",
-            "text8": "",
-            "text9": "",
-            "text10": "",
-            "text11": "",
-            "text12": ""
+            "text16": "额外的帮助可以在点点币中找到 <a href=\"https://peercoin.net/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">文档</a> 或者通过问我们  <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">论坛。</a>"
         },
         "paperWalletTitle": "纸钱包",
         "paperWalletSubtitle1": "纸钱包",
@@ -329,9 +298,7 @@
         "type1": "硬件钱包",
         "type2": "移动/ Web的钱包",
         "type3": "网络钱包",
-        "type4": "移动",
-        "mobileWalletTitle": "",
-        "paperWalletSubtitle3": ""
+        "type4": "移动"
     },
     "indexPage": {
         "actions": {
@@ -382,48 +349,11 @@
             "mineText2": "首先，请查看 <a href=\"https://peercoin.net/docs/#/mining\" target=\"_blank\" rel=\"noopener noreferrer\">挖掘文档</a>.",
             "communityTitle": "社区",
             "communityText1": "加入我们的 <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Forum</a>, <a href=\"https://discord.gg/XPxfwtG\" target=\"_blank\" rel=\"noopener noreferrer\">Discord</a>, 或 <a href=\"https://t.me/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Telegram</a> 与其他点点币社区成员和开发人员聊天。订阅我们的 <a href=\"https://twitter.com/PeercoinPPC\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter</a>, <a href=\"https://www.reddit.com/r/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>, <a href=\"https://www.peercoin.net/blog/\" target=\"_blank\" rel=\"noopener noreferrer\">Peercoin Blog</a>, 或 <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\" target=\"_blank\" rel=\"noopener noreferrer\">Newsletter</a> 了解最新的点点币新闻。检查 <a href=\"/resources#communities\">在这里</a>  获取所有其他社区资源的列表。",
-            "communityText2": "重要的更新也可以通过以下平台直接发送到您的移动设备 <a href=\"https://blockfolio.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blockfolio</a>, <a href=\"https://delta.app/\" target=\"_blank\" rel=\"noopener noreferrer\">Delta</a>, 和 <a href=\"https://www.coingecko.com/\" target=\"_blank\" rel=\"noopener noreferrer\">CoinGecko</a>. 订阅以了解最新消息。",
-            "purchaseText2": ""
-        },
-        "latestNewsTitle": "最新消息",
-        "youtubeSection": {
-            "btnVideo1": "",
-            "subText": "",
-            "btnVideo2": "",
-            "btnVideo3": "",
-            "btnVideo4": "",
-            "btnVideo5": ""
-        }
+            "communityText2": "重要的更新也可以通过以下平台直接发送到您的移动设备 <a href=\"https://blockfolio.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blockfolio</a>, <a href=\"https://delta.app/\" target=\"_blank\" rel=\"noopener noreferrer\">Delta</a>, 和 <a href=\"https://www.coingecko.com/\" target=\"_blank\" rel=\"noopener noreferrer\">CoinGecko</a>. 订阅以了解最新消息。"        },
+        "latestNewsTitle": "最新消息"
     },
     "notFoundPage": {
         "title": "404 - 页面找不到",
         "description": "<a href=\"https://www.peercoin.net/\" style=\"color: white;\">点击这里可以回到首页</a>"
-    },
-    "contributePage": {
-        "contributeTitle": "",
-        "contributeDescription": "",
-        "contributeIntro": "",
-        "header": {
-            "reportBugs": "",
-            "helpOthers": "",
-            "translate": "",
-            "write": ""
-        },
-        "content": {
-            "reportBugs": "",
-            "helpOthers": "",
-            "translate": "",
-            "write": ""
-        },
-        "buttons": {
-            "help": "",
-            "translate": ""
-        }
-    },
-    "reader": {
-        "hint": "",
-        "notFound": "",
-        "buttonGoBack": "",
-        "buttonDownload": ""
     }
 }
