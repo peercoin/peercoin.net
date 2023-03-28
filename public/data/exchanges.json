@@ -79,6 +79,12 @@
       "url": "https://atomicdex.io/",
       "image": "/img/exchanges/xbts_green.png",
       "type": "resourcesPage.exchangesType1"
+    },    
+    {
+      "title": "Xeggex",
+      "url": "https://xeggex.com/",
+      "image": "/img/exchanges/xeggex_green.png",
+      "type": "resourcesPage.exchangesType1"
     }
   ]
 }
