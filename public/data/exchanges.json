@@ -51,12 +51,6 @@
       "type": "resourcesPage.exchangesType1"
     },
     {
-      "title": "Indacoin",
-      "url": "https://buy.peercoin.net/",
-      "image": "/img/exchanges/indacoin_green.png",
-      "type": "resourcesPage.exchangesType2"
-    },
-    {
       "title": "CoinPaprika",
       "url": "https://coinpaprika.com/coin/ppc-peercoin/",
       "image": "/img/exchanges/coinpaprika_green.png",

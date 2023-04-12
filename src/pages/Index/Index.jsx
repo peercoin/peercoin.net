@@ -235,9 +235,6 @@ function Index() {
                         {renderHTML(t("indexPage.collapsables.purchaseText1"))}
                       </p>
                       <p>
-                        {renderHTML(t("indexPage.collapsables.purchaseText2"))}
-                      </p>
-                      <p>
                         {renderHTML(t("indexPage.collapsables.purchaseText3"))}
                       </p>
                     </div>
