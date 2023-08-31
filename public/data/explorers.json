@@ -13,6 +13,11 @@
           "title": "PeerExplorer",
           "url": "https://blockbook.peercoin.net/",
           "image": "/img/explorers/peercoin_green.png"
+        },
+        {
+          "title": "3xpl",
+          "url": "https://3xpl.com/peercoin",
+          "image": "/img/explorers/3xpl_green.png"
         }
       ]
     },
