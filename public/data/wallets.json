@@ -16,7 +16,7 @@
     {
       "os": "Linux",
       "img": "/img/icons/linux.png",
-      "checksum": "88987b23049641926176f212f47d8a633925cf44f5ca3108a7d9d400a44afb5a",
+      "checksum": "75b59423ac7bb30814da4428c89041fca3844ad5e2965fbc99ca486f6e2b3439",
       "link": "https://github.com/peercoin/peercoin/releases/download/v0.12.6ppc/peercoin-0.12.6ppc-x86_64-linux-gnu.tar.gz"
     }
   ],
