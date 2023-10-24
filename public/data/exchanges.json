@@ -45,12 +45,6 @@
       "type": "resourcesPage.exchangesType1"
     },
     {
-      "title": "anycoindirect",
-      "url": "https://anycoindirect.eu/en/buy-peercoin/",
-      "image": "/img/exchanges/anycoin_green.png",
-      "type": "resourcesPage.exchangesType1"
-    },
-    {
       "title": "CoinPaprika",
       "url": "https://coinpaprika.com/coin/ppc-peercoin/",
       "image": "/img/exchanges/coinpaprika_green.png",
