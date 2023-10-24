@@ -73,6 +73,12 @@
       "url": "https://xeggex.com/",
       "image": "/img/exchanges/xeggex_green.png",
       "type": "resourcesPage.exchangesType1"
+    },
+    {
+      "title": "SLEX",
+      "url": "https://slex.io/",
+      "image": "/img/exchanges/slex_green.png",
+      "type": "resourcesPage.exchangesType1"
     }
   ]
 }
