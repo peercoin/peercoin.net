@@ -45,12 +45,6 @@
       "type": "resourcesPage.exchangesType1"
     },
     {
-      "title": "anycoindirect",
-      "url": "https://anycoindirect.eu/en/buy-peercoin/",
-      "image": "/img/exchanges/anycoin_green.png",
-      "type": "resourcesPage.exchangesType1"
-    },
-    {
       "title": "CoinPaprika",
       "url": "https://coinpaprika.com/coin/ppc-peercoin/",
       "image": "/img/exchanges/coinpaprika_green.png",
@@ -78,6 +72,12 @@
       "title": "Xeggex",
       "url": "https://xeggex.com/",
       "image": "/img/exchanges/xeggex_green.png",
+      "type": "resourcesPage.exchangesType1"
+    },
+    {
+      "title": "SLEX",
+      "url": "https://slex.io/",
+      "image": "/img/exchanges/slex_green.png",
       "type": "resourcesPage.exchangesType1"
     }
   ]
