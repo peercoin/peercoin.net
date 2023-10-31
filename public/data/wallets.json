@@ -1,4 +1,3 @@
-
 {
   "official": [
     {
@@ -134,18 +133,6 @@
           }
         },
         {
-          "url": "https://uberpay.io/",
-          "image": "/img/wallets/uberpay.png",
-          "title": {
-            "translated": false,
-            "text": "UberPay"
-          },
-          "subtitle": {
-            "translated": true,
-            "text": "walletPage.type2"
-          }
-        },
-        {
           "url": "https://www.coinspot.com.au/",
           "image": "/img/wallets/coinspot.png",
           "title": {
@@ -209,4 +196,3 @@
     }
   ]
 }
-
