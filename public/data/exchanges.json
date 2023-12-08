@@ -3,12 +3,6 @@
   "description": "resourcesPage.exchangesText",
   "resources": [
     {
-      "title": "Bittrex",
-      "url": "https://bittrex.com/",
-      "image": "/img/exchanges/bittrex_green.png",
-      "type": "resourcesPage.exchangesType1"
-    },
-    {
       "title": "Changelly",
       "url": "https://changelly.com/",
       "image": "/img/exchanges/changelly_green.png",
@@ -37,12 +31,6 @@
       "url": "https://swapspace.co/",
       "image": "/img/exchanges/swapspace_green.png",
       "type": "resourcesPage.exchangesType2"
-    },
-    {
-      "title": "CoinSpot",
-      "url": "https://www.coinspot.com.au/",
-      "image": "/img/exchanges/coinspot_green.png",
-      "type": "resourcesPage.exchangesType1"
     },
     {
       "title": "CoinPaprika",
