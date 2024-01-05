@@ -18,6 +18,11 @@
           "title": "3xpl",
           "url": "https://3xpl.com/peercoin",
           "image": "/img/explorers/3xpl_green.png"
+        },
+        {
+          "title": "Blockchair",
+          "url": "https://blockchair.com/peercoin",
+          "image": "/img/explorers/blockchair_green.png"
         }
       ]
     },
