@@ -9,10 +9,22 @@
       "type": "resourcesPage.exchangesType4"
     },
     {
+      "title": "CoW Swap",
+      "url": "https://swap.cow.fi",
+      "image": "/img/exchanges/cow_green.png",
+      "type": "resourcesPage.exchangesType6"
+    },
+    {
     "title": "QuickSwap",
     "url": "https://info.quickswap.exchange/#/token/0x91e7e32c710661c44ae44d10aa86135d91c3ed65",
     "image": "/img/exchanges/quickswap_green.png",
     "type": "resourcesPage.exchangesType5"
+    },
+    {
+    "title": "Matcha",
+    "url": "https://matcha.xyz/tokens/polygon/0x91e7e32c710661c44ae44d10aa86135d91c3ed65",
+    "image": "/img/exchanges/matcha_green.png",
+    "type": "resourcesPage.exchangesType7"
     }
   ]
 }

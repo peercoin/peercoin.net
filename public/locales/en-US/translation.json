@@ -242,6 +242,8 @@
     "exchangesType3": "Market Information",
     "exchangesType4": "Ethereum Exchange",
     "exchangesType5": "Polygon Exchange",
+    "exchangesType6": "Uniswap Frontend",
+    "exchangesType7": "QuickSwap Frontend",
     "explorersTitle": "Block Explorers",
     "explorersMainnet": "Mainnet",
     "explorersTestnet": "Testnet",
