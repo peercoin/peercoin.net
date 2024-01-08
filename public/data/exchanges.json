@@ -9,7 +9,7 @@
       "type": "resourcesPage.exchangesType1"
     },
     {
-      "title": "Coin Switch",
+      "title": "CoinSwitch",
       "url": "https://coinswitch.co/",
       "image": "/img/exchanges/coinswitch_green.png",
       "type": "resourcesPage.exchangesType2"
@@ -39,25 +39,19 @@
       "type": "resourcesPage.exchangesType3"
     },
     {
-      "title": "SouthXchange",
-      "url": "https://main.southxchange.com/",
-      "image": "/img/exchanges/southxchange_green.png",
-      "type": "resourcesPage.exchangesType1"
-    },
-    {
-      "title": "AtomicDEX",
+      "title": "Komodo Wallet",
       "url": "https://atomicdex.io/",
-      "image": "/img/exchanges/atomicDEX_green.png",
+      "image": "/img/exchanges/komodowallet_green.png",
       "type": "resourcesPage.exchangesType1"
     },
     {
       "title": "XBTS DEX",
-      "url": "https://atomicdex.io/",
+      "url": "https://ex.xbts.io/",
       "image": "/img/exchanges/xbts_green.png",
       "type": "resourcesPage.exchangesType1"
     },    
     {
-      "title": "Xeggex",
+      "title": "XeggeX",
       "url": "https://xeggex.com/",
       "image": "/img/exchanges/xeggex_green.png",
       "type": "resourcesPage.exchangesType1"
