@@ -82,26 +82,6 @@ function Foundation() {
                 {" "}
                 opencollective.com/peercoin
               </a>
-              <br />
-              <Trans i18nKey="foundationPage.wPPCFundPpcAddressETH" />{" "}
-              <a
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                href="https://etherscan.io/address/0xC631f54Aa17F9539c63bcdcdB648cb02a691D7e2"
-              >
-                {" "}
-                0x044d078F1c86508e13328842Cc75AC021B272958
-              </a>
-              <br />
-              <Trans i18nKey="foundationPage.wPPCFundPpcAddressPolygon" />{" "}
-              <a
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                href="https://polygonscan.com/address/0x91E7E32C710661C44ae44D10Aa86135d91C3Ed65"
-              >
-                {" "}
-                0x91E7E32C710661C44ae44D10Aa86135d91C3Ed65
-              </a>
             </p>
             <div>
               <h2 className="title title--green title--left">
