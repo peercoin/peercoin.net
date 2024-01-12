@@ -3,15 +3,15 @@
   "description": "resourcesPage.exchangesText",
   "resources": [
     {
-      "title": "Changelly",
-      "url": "https://changelly.com/",
-      "image": "/img/exchanges/changelly_green.png",
+      "title": "MEXC",
+      "url": "https://www.mexc.com/",
+      "image": "/img/exchanges/mexc_green.png",
       "type": "resourcesPage.exchangesType1"
     },
     {
-      "title": "CoinSwitch",
-      "url": "https://coinswitch.co/",
-      "image": "/img/exchanges/coinswitch_green.png",
+      "title": "Changelly",
+      "url": "https://changelly.com/",
+      "image": "/img/exchanges/changelly_green.png",
       "type": "resourcesPage.exchangesType2"
     },
     {
@@ -27,12 +27,6 @@
       "type": "resourcesPage.exchangesType2"
     },
     {
-      "title": "SwapSpace",
-      "url": "https://swapspace.co/",
-      "image": "/img/exchanges/swapspace_green.png",
-      "type": "resourcesPage.exchangesType2"
-    },
-    {
       "title": "CoinPaprika",
       "url": "https://coinpaprika.com/coin/ppc-peercoin/",
       "image": "/img/exchanges/coinpaprika_green.png",
@@ -44,12 +38,6 @@
       "image": "/img/exchanges/komodowallet_green.png",
       "type": "resourcesPage.exchangesType1"
     },
-    {
-      "title": "XBTS DEX",
-      "url": "https://ex.xbts.io/",
-      "image": "/img/exchanges/xbts_green.png",
-      "type": "resourcesPage.exchangesType1"
-    },    
     {
       "title": "XeggeX",
       "url": "https://xeggex.com/",
