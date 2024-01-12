@@ -15,12 +15,6 @@
       "type": "resourcesPage.exchangesType2"
     },
     {
-      "title": "CoinSwitch",
-      "url": "https://coinswitch.co/",
-      "image": "/img/exchanges/coinswitch_green.png",
-      "type": "resourcesPage.exchangesType2"
-    },
-    {
       "title": "FreiExchange",
       "url": "https://freiexchange.com/",
       "image": "/img/exchanges/freiexchange_green.png",
@@ -30,12 +24,6 @@
       "title": "Flyp.me",
       "url": "https://flyp.me/",
       "image": "/img/exchanges/flypme_green.png",
-      "type": "resourcesPage.exchangesType2"
-    },
-    {
-      "title": "SwapSpace",
-      "url": "https://swapspace.co/",
-      "image": "/img/exchanges/swapspace_green.png",
       "type": "resourcesPage.exchangesType2"
     },
     {
@@ -50,12 +38,6 @@
       "image": "/img/exchanges/komodowallet_green.png",
       "type": "resourcesPage.exchangesType1"
     },
-    {
-      "title": "XBTS DEX",
-      "url": "https://ex.xbts.io/",
-      "image": "/img/exchanges/xbts_green.png",
-      "type": "resourcesPage.exchangesType1"
-    },    
     {
       "title": "XeggeX",
       "url": "https://xeggex.com/",
