@@ -280,6 +280,25 @@ function Resources() {
           {wrappedPPC.description ? (
             <p className="description">{t(wrappedPPC.description)}</p>
           ) : null}
+          {wrappedPPC.contractAddresses ? (
+            <div className="text-sections" style={{ textAlign: "center" }}>
+              <p className="description">{t(wrappedPPC.contractAddresses)}</p>
+              <>
+                {wrappedPPC.addresses.map((address) => (
+                  <div>
+                    <a
+                      href={address.explorerUrl}
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      {address.title} ({address.address})
+                    </a>
+                    <br />
+                  </div>
+                ))}
+              </>
+            </div>
+          ) : null}
           <div className="blocks-list">
             {wrappedPPC.resources &&
               wrappedPPC.resources.map((exchange) => (

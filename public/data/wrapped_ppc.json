@@ -1,6 +1,7 @@
 {
   "title": "resourcesPage.wrapedPPCTitle",
   "description": "resourcesPage.wrappedPPCText",
+  "contractAddresses": "resourcesPage.wrappedPPCContractAddresses",
   "resources": [
     {
       "title": "Uniswap",
@@ -25,6 +26,18 @@
     "url": "https://matcha.xyz/tokens/polygon/0x91e7e32c710661c44ae44d10aa86135d91c3ed65",
     "image": "/img/exchanges/matcha_green.png",
     "type": "resourcesPage.exchangesType7"
+    }
+  ],
+  "addresses": [
+    {
+      "title": "Ethereum",
+      "address": "0x044d078F1c86508e13328842Cc75AC021B272958",
+      "explorerUrl": "https://etherscan.io/address/0xC631f54Aa17F9539c63bcdcdB648cb02a691D7e2"
+    },
+    {
+      "title": "Polygon",
+      "address": "0x91E7E32C710661C44ae44D10Aa86135d91C3Ed65",
+      "explorerUrl": "https://polygonscan.com/address/0x91E7E32C710661C44ae44D10Aa86135d91C3Ed65"
     }
   ]
 }
