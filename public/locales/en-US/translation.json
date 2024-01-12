@@ -129,6 +129,8 @@
     "generalFundPpcAddress": "General Fund - <strong>PPC</strong> Donation Address:",
     "generalFundBtcAddress": "General Fund - <strong>BTC</strong> Donation Address:",
     "generalFundEthAddress": "General Fund - <strong>ETH/USDC/WBTC</strong> Donation Address:",
+    "wPPCFundPpcAddressETH": "<strong>wPPC</strong> Donation Address <strong>Ethereum</strong>:",
+    "wPPCFundPpcAddressPolygon": "<strong>wPPC</strong> Donation Address <strong>Polygon</strong>:",
     "viewOnExplorer": "View on explorer",
     "openCollectiveNote": "Fiat Donations - <strong>USD/EUR</strong> by Credit/Debit/Wire:",
     "contactUsTitle": "Contact Us",
