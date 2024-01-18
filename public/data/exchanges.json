@@ -21,12 +21,6 @@
       "type": "resourcesPage.exchangesType1"
     },
     {
-      "title": "Flyp.me",
-      "url": "https://flyp.me/",
-      "image": "/img/exchanges/flypme_green.png",
-      "type": "resourcesPage.exchangesType2"
-    },
-    {
       "title": "CoinPaprika",
       "url": "https://coinpaprika.com/coin/ppc-peercoin/",
       "image": "/img/exchanges/coinpaprika_green.png",

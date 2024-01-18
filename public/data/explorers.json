@@ -23,11 +23,6 @@
           "title": "Blockchair",
           "url": "https://blockchair.com/peercoin",
           "image": "/img/explorers/blockchair_green.png"
-        },
-        {
-          "title": "Prohashing",
-          "url": "https://prohashing.com/explorer/Peercoin",
-          "image": "/img/explorers/prohashing_green.png"
         }
       ]
     },
