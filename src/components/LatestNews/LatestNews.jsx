@@ -2,7 +2,7 @@ import React, { useEffect, useState, Suspense } from "react";
 import "./LatestNews.scss";
 import Loader from "../Loader/Loader";
 import { formatTime } from "../../helpers/Time";
-const { parse } = require("rss-to-json");
+import { parse } from "rss-to-json";
 
 function LatestNews() {
   const [posts, setPosts] = useState([]);
