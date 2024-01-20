@@ -9,20 +9,24 @@ function LatestNews() {
 
   useEffect(() => {
     async function getData() {
-      const peercoinPosts = await parse("https://www.peercoin.net/blog/rss/");
+      try {
+        const peercoinPosts = await parse("https://www.peercoin.net/blog/rss/");
 
-      const posts = peercoinPosts.items
-        .sort((a, b) => new Date(b.published) - new Date(a.published))
-        .map((post) => ({
-          published: post.published,
-          img: post.media,
-          title: post.title,
-          link: post.link,
-          categories: post.categories,
-        }))
-        .slice(0, 3);
+        const posts = peercoinPosts.items
+          .sort((a, b) => new Date(b.published) - new Date(a.published))
+          .map((post) => ({
+            published: post.published,
+            img: post.media,
+            title: post.title,
+            link: post.link,
+            categories: post.categories,
+          }))
+          .slice(0, 3);
 
-      await setPosts(posts);
+        setPosts(posts);
+      } catch (error) {
+        console.error(error);
+      }
     }
 
     getData();
