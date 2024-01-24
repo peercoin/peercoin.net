@@ -3,9 +3,9 @@
   "description": "resourcesPage.exchangesText",
   "resources": [
     {
-      "title": "MEXC",
-      "url": "https://www.mexc.com/",
-      "image": "/img/exchanges/mexc_green.png",
+      "title": "AltQuick",
+      "url": "https://altquick.com/",
+      "image": "/img/exchanges/altquick_green.png",
       "type": "resourcesPage.exchangesType1"
     },
     {
@@ -15,10 +15,10 @@
       "type": "resourcesPage.exchangesType2"
     },
     {
-      "title": "FreiExchange",
-      "url": "https://freiexchange.com/",
-      "image": "/img/exchanges/freiexchange_green.png",
-      "type": "resourcesPage.exchangesType1"
+      "title": "CoinPaprika",
+      "url": "https://coinpaprika.com/coin/ppc-peercoin/",
+      "image": "/img/exchanges/coinpaprika_green.png",
+      "type": "resourcesPage.exchangesType3"
     },
     {
       "title": "Flyp.me",
@@ -27,10 +27,10 @@
       "type": "resourcesPage.exchangesType2"
     },
     {
-      "title": "CoinPaprika",
-      "url": "https://coinpaprika.com/coin/ppc-peercoin/",
-      "image": "/img/exchanges/coinpaprika_green.png",
-      "type": "resourcesPage.exchangesType3"
+      "title": "FreiExchange",
+      "url": "https://freiexchange.com/",
+      "image": "/img/exchanges/freiexchange_green.png",
+      "type": "resourcesPage.exchangesType1"
     },
     {
       "title": "Komodo Wallet",
@@ -39,15 +39,21 @@
       "type": "resourcesPage.exchangesType1"
     },
     {
-      "title": "XeggeX",
-      "url": "https://xeggex.com/",
-      "image": "/img/exchanges/xeggex_green.png",
+      "title": "MEXC",
+      "url": "https://www.mexc.com/",
+      "image": "/img/exchanges/mexc_green.png",
       "type": "resourcesPage.exchangesType1"
     },
     {
       "title": "SLEX",
       "url": "https://slex.io/",
       "image": "/img/exchanges/slex_green.png",
+      "type": "resourcesPage.exchangesType1"
+    },
+    {
+      "title": "XeggeX",
+      "url": "https://xeggex.com/",
+      "image": "/img/exchanges/xeggex_green.png",
       "type": "resourcesPage.exchangesType1"
     }
   ]
