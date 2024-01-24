@@ -5,16 +5,6 @@
       "title": "resourcesPage.explorersMainnet",
       "resources": [
         {
-          "title": "Chainz.CryptoID",
-          "url": "https://chainz.cryptoid.info/ppc/",
-          "image": "/img/explorers/cryptoid_green.png"
-        },
-        {
-          "title": "PeerExplorer",
-          "url": "https://blockbook.peercoin.net/",
-          "image": "/img/explorers/peercoin_green.png"
-        },
-        {
           "title": "3xpl",
           "url": "https://3xpl.com/peercoin",
           "image": "/img/explorers/3xpl_green.png"
@@ -25,9 +15,14 @@
           "image": "/img/explorers/blockchair_green.png"
         },
         {
-          "title": "Prohashing",
-          "url": "https://prohashing.com/explorer/Peercoin",
-          "image": "/img/explorers/prohashing_green.png"
+          "title": "Chainz.CryptoID",
+          "url": "https://chainz.cryptoid.info/ppc/",
+          "image": "/img/explorers/cryptoid_green.png"
+        },
+        {
+          "title": "PeerExplorer",
+          "url": "https://blockbook.peercoin.net/",
+          "image": "/img/explorers/peercoin_green.png"
         }
       ]
     },
