@@ -360,7 +360,8 @@
   "indexPage": {
     "actions": {
       "action1": "Get Started",
-      "action2": "What is Peercoin?"
+      "action2": "What is Peercoin?",
+      "action3": "Buy Peercoin"
     },
     "youtubeSection": {
       "subText": "The Peercoin Primer is a short five part video series covering the basic fundamentals of Peercoin. Topics include Peercoin’s launch, security, the benefits of Proof-of-Stake, Peercoin’s economic model and mission.",

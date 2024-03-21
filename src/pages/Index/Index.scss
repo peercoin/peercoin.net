@@ -3,13 +3,28 @@
 
 .Index {
   &.hero {
-    .hero__logo, .hero__actions {
+    .hero__logo {
       margin: 1rem 0 1rem;
       @include viewports(large) {
         width: 30rem;
       }
       @include viewports(medium) {
         width: 25rem;
+      }
+      @include viewports(small) {
+        width: 55%;
+      }
+      @include viewports(tiny) {
+        width: 75%;
+      }
+    }
+    .hero__actions {
+      margin: 1rem 0 1rem;
+      @include viewports(large) {
+        width: 45rem;
+      }
+      @include viewports(medium) {
+        width: 35rem;
       }
       @include viewports(small) {
         width: 55%;
@@ -39,7 +54,7 @@
 
   &__video {
     margin-bottom: 50px;
-    
+
     @include viewports(up-to medium) {
       position: relative;
       padding-bottom: 56.25%; /* 16:9 */
@@ -102,15 +117,15 @@
     padding: 50px 0;
     min-height: 100vh;
   }
-    
-  @media not all and (min-resolution:.001dpcm) { 
-    @supports (-webkit-appearance:none) {
+
+  @media not all and (min-resolution: 0.001dpcm) {
+    @supports (-webkit-appearance: none) {
       @include viewports(up-to tiny) {
         min-height: 87vh;
       }
     }
   }
-  
+
   &--thin {
     min-height: 0;
     padding-top: 110px;
@@ -176,7 +191,7 @@
       color: #fff;
       text-decoration: none;
       white-space: nowrap;
-      transition: all 0.5s cubic-bezier(.02,.7,.4,1);
+      transition: all 0.5s cubic-bezier(0.02, 0.7, 0.4, 1);
 
       @include viewports(above small) {
         width: 50%;
@@ -193,7 +208,7 @@
         margin-right: auto;
         font-size: 1.5rem;
       }
-            
+
       @include viewports(medium) {
         font-size: 80%;
       }
@@ -276,16 +291,16 @@
       &:before {
         border-color: $color-black;
       }
-    } 
+    }
   }
-  
+
   &__title {
     color: #fff;
     font-size: 3.5rem;
     font-weight: 300;
     margin: 50px 0;
   }
-  
+
   &__body {
     display: inline-block;
     width: 100%;
@@ -295,7 +310,7 @@
     margin-bottom: 20px;
 
     &:before {
-      content: '';
+      content: "";
       position: absolute;
       left: 0;
       top: 0;
@@ -317,7 +332,7 @@
       cursor: pointer;
 
       &:before {
-        content: '';
+        content: "";
         position: absolute;
         top: 3px;
         left: -29px;
