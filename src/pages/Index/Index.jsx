@@ -50,14 +50,6 @@ function Index() {
             {t("indexPage.actions.action1")}
           </a>
           <a
-            href="https://peercoin.net/university/#/9-peercoin-proof-of-stake-consensus"
-            className="hero__actions__action hero__actions__action--white"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {t("indexPage.actions.action2")}
-          </a>
-          <a
             href="https://buy.peercoin.net"
             className="hero__actions__action"
             target="_blank"
