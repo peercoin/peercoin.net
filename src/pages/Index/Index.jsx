@@ -51,7 +51,7 @@ function Index() {
           </a>
           <a
             href="https://buy.peercoin.net"
-            className="hero__actions__action"
+            className="hero__actions__action hero__actions__action--white"
             target="_blank"
             rel="noopener noreferrer"
           >
