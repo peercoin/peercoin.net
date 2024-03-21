@@ -8,6 +8,32 @@ import Loader from "../../components/Loader/Loader";
 
 function Foundation() {
   const { t } = useTranslation();
+  const fileNames = [
+    "Stichting_Peercoin_Foundation_-_Jaarrekening_2018.pdf",
+    "Stichting_Peercoin_Foundation_-_Jaarrekening_2019.pdf",
+    "Stichting_Peercoin_Foundation_-_Jaarrekening_2020.pdf",
+    "Stichting_Peercoin_Foundation_-_Jaarrekening_2021.pdf",
+    "Stichting_Peercoin_Foundation_-_Jaarstukken_2022.pdf",
+    "Stichting_Peercoin_Foundation_-_Jaarstukken_2023.pdf",
+  ];
+
+  const renderLinks = (fileNames) => {
+    return fileNames.map((fileName, index) => {
+      const year = fileName.split("_")[5].split(".")[0];
+      console.log(year);
+      return (
+        <p key={index}>
+          <a
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            href={`/assets/reports/${fileName}`}
+          >
+            {`Financial Report ${year}`}
+          </a>
+        </p>
+      );
+    });
+  };
 
   return (
     <>
@@ -23,9 +49,8 @@ function Foundation() {
       <div className="main text-sections">
         <div className="container">
           <div className="col">
-            <h2 className="title title--green title--left">
-              {t("foundationPage.missionStatementTitle")}
-            </h2>
+            <h2 className="title title--green title--left"></h2>
+            {t("foundationPage.missionStatementTitle")}
             <p>{t("foundationPage.missionStatementText1")}</p>
             <p>{t("foundationPage.missionStatementText2")}</p>
 
@@ -88,45 +113,7 @@ function Foundation() {
                 {t("foundationPage.reportsTitle")}
               </h2>
               <p>{t("foundationPage.reportsSupportText")}</p>
-              <a
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                href="/assets/reports/Stichting_Peercoin_Foundation_-_Jaarrekening_2018.pdf"
-              >
-                Financial Report 2018
-              </a>
-              <br />
-              <a
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                href="/assets/reports/Stichting_Peercoin_Foundation_-_Jaarrekening_2019.pdf"
-              >
-                Financial Report 2019
-              </a>
-              <br />
-              <a
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                href="/assets/reports/Stichting_Peercoin_Foundation_-_Jaarrekening_2020.pdf"
-              >
-                Financial Report 2020
-              </a>
-              <br />
-              <a
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                href="/assets/reports/Stichting_Peercoin_Foundation_-_Jaarrekening_2021.pdf"
-              >
-                Financial Report 2021
-              </a>
-              <br />
-              <a
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                href="/assets/reports/Stichting_Peercoin_Foundation_-_Jaarstukken_2022.pdf"
-              >
-                Financial Report 2022
-              </a>
+              {renderLinks(fileNames)}
             </div>
           </div>
           <div className="col col--small">
