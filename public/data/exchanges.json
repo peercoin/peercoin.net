@@ -51,6 +51,12 @@
       "type": "resourcesPage.exchangesType1"
     },
     {
+      "title": "StakeCube",
+      "url": "https://stakecube.net/app/exchange/ppc_btc",
+      "image": "/img/exchanges/stakecube_green.png",
+      "type": "resourcesPage.exchangesType1"
+    },
+    {
       "title": "XeggeX",
       "url": "https://xeggex.com/",
       "image": "/img/exchanges/xeggex_green.png",
