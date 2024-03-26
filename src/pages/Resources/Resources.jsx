@@ -176,7 +176,7 @@ function Resources() {
                 </li>
               </ul>
               <a
-                href="https://peercoin.net/docs/#/mining"
+                href="https://www.peercoin.net/docs/mining"
                 className="btn btn--green"
                 target="_blank"
                 rel="noopener noreferrer"

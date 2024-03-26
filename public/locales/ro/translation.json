@@ -383,7 +383,7 @@
       "mintText3": "Pentru a afla cum să fabricați monede, consultați Secțiunea de Fabricare din <a href=\"https://peercoin.net/docs/#/wallets\" target=\"_blank\" rel=\"noopener noreferrer\">Documentația portmoneului</a>. Mai multe informații despre fabricare puteți găsi <a href=\"https://peercoin.net/docs/#/peercoin-minting-behaviour\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.",
       "mineTitle": "Minare (Proof-of-Work)",
       "mineText1": "Peercoin folosește algoritmul hashcash SHA-256 dublu iterat pentru extragerea Dovezii Muncii (PoW). Aceasta înseamnă că orice hardware care poate extrage Bitcoin poate extrage și Peercoin.",
-      "mineText2": "Pentru a începe, citiți <a href=\"https://peercoin.net/docs/#/mining\" target=\"_blank\" rel=\"noopener noreferrer\">documentația fabricării</a>.",
+      "mineText2": "Pentru a începe, citiți <a href=\"https://www.peercoin.net/docs/mining\" target=\"_blank\" rel=\"noopener noreferrer\">documentația fabricării</a>.",
       "communityTitle": "Comunitatea",
       "communityText1": "Alăturați-vă pe <a href=\"https://talk.peercoin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Forum</a>, <a href=\"https://discord.gg/XPxfwtG\" target=\"_blank\" rel=\"noopener noreferrer\">Discord</a>, ori pe <a href=\"https://t.me/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Telegram</a> pentru a discuta cu alți membri și dezvoltatori ai comunității Peercoin. Abonați-vă la <a href=\"https://twitter.com/PeercoinPPC\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter</a>, <a href=\"https://www.reddit.com/r/peercoin\" target=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>, <a href=\"https://www.peercoin.net/blog/\" target=\"_blank\" rel=\"noopener noreferrer\">Blogul Medium </a>, ori <a href=\"https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&amp;id=222c7e0877\" target=\"_blank\" rel=\"noopener noreferrer\">Noutăți</a> pentru a fi la curent cu ultimele știri ale Peercoin. Vedeți și <a href=\"/resources#communities\">here</a> lista de resurse ale comunității.",
       "communityText2": "Actualizările importante pot fi livrate direct pe dispozitivul dvs mobil prin intermediul unor platforme precum <a href=\"https://blockfolio.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blockfolio</a>, <a href=\"https://delta.app/\" target=\"_blank\" rel=\"noopener noreferrer\">Delta</a>, sau <a href=\"https://www.coingecko.com/\" target=\"_blank\" rel=\"noopener noreferrer\">CoinGecko</a>. Abonați-vă la ultimele noutăți."
@@ -395,4 +395,3 @@
     "description": "Apasă <a href=\"https://www.peercoin.net/\" style=\"color: white;\">aici</a> pentru a accesa pagina principală."
   }
 }
-
