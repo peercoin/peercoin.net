@@ -133,18 +133,6 @@
           }
         },
         {
-          "url": "https://www.coinspot.com.au/",
-          "image": "/img/wallets/coinspot.png",
-          "title": {
-            "translated": false,
-            "text": "Coinspot"
-          },
-          "subtitle": {
-            "translated": true,
-            "text": "walletPage.type3"
-          }
-        },
-        {
           "url": "https://www.coinvault.io/",
           "image": "/img/wallets/coinvault.png",
           "title": {
