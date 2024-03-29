@@ -1,0 +1,426 @@
+{
+    "menuComponent": {
+        "links": {
+            "home": {
+                "title": ""
+            },
+            "learn": {
+                "title": "",
+                "peercoinUniversity": "點點幣大學",
+                "whatIsBlockchain": "",
+                "inherentCentralization": "",
+                "peercoinProofOfStake": "",
+                "efficientSustainableSecurity": "",
+                "economicsOfPeercoin": "",
+                "scalabilityOfPeercoin": "點點幣的可伸縮性",
+                "deflationAndCriptocurrencies": "",
+                "peercoinHybridChainSolution": "",
+                "richRicherFallacy": "",
+                "frequentlyAskedQuestions": ""
+            },
+            "getStarted": {
+                "title": ""
+            },
+            "resources": {
+                "title": "",
+                "documentation": "",
+                "mining": "",
+                "peercoinUniversity": "點點幣大學",
+                "exchanges": "",
+                "blockExplorers": "",
+                "whitepaper": "",
+                "graphics": ""
+            },
+            "project": {
+                "title": "",
+                "github": "",
+                "projects": "",
+                "blog": "",
+                "peercoinFoundation": "",
+                "contactUs": "",
+                "contribute": ""
+            },
+            "wallet": {
+                "title": ""
+            },
+            "community": {
+                "title": "",
+                "forum": "",
+                "twitter": "",
+                "facebook": "",
+                "reddit": "",
+                "telegram": "",
+                "discord": "",
+                "youtube": "",
+                "bitcointalk": "",
+                "cmc": ""
+            },
+            "donate": {
+                "title": ""
+            }
+        }
+    },
+    "footerComponent": {
+        "subscribeTitle": "",
+        "subscribeSubtitle": "",
+        "subscribeBtnLabel": "",
+        "links": {
+            "learn": {
+                "title": "",
+                "linkPeercoinUniversity": "點點幣大學",
+                "linkWhatIsBlockchain": "",
+                "linkInherentCentralization": "",
+                "linkPeercoinProofOfStakeConsensus": "",
+                "linkEfficientSustainableSecurity": "",
+                "linkEconomicsOfPeercoin": "",
+                "linkScalabilityOfPeercoin": "點點幣的可伸縮性",
+                "linkFAQ": ""
+            },
+            "getStarted": {
+                "title": ""
+            },
+            "resources": {
+                "title": "",
+                "linkDocumentation": "",
+                "linkExchanges": "",
+                "linkBlockExplorers": "",
+                "linkWhitepaper": "",
+                "linkGraphics": "",
+                "linkMining": ""
+            },
+            "wallet": {
+                "title": ""
+            },
+            "project": {
+                "title": "",
+                "linkGithub": "",
+                "linkProjects": "",
+                "linkBlog": "",
+                "linkFoundation": "",
+                "linkPrivacyPolicy": "",
+                "linkContact": ""
+            },
+            "community": {
+                "title": "",
+                "linkForum": "",
+                "linkReddit": "",
+                "linkTelegram": "",
+                "linkDiscord": "",
+                "linkBitcointalk": "",
+                "linkFacebook": "",
+                "linkTwitter": "",
+                "linkYoutube": ""
+            }
+        },
+        "copyright": {
+            "copyright": "",
+            "rights": ""
+        }
+    },
+    "latestNewsComp": {
+        "readMore": ""
+    },
+    "foundationPage": {
+        "missionStatementTitle": "",
+        "missionStatementText1": "",
+        "missionStatementText2": "",
+        "technicalSupportTitle": "",
+        "technicalSupportText": "",
+        "generalFundPpcAddress": "",
+        "generalFundBtcAddress": "",
+        "generalFundEthAddress": "",
+        "viewOnExplorer": "",
+        "openCollectiveNote": "",
+        "contactUsTitle": "",
+        "addressCountry": "",
+        "reportsTitle": "",
+        "reportsSupportText": ""
+    },
+    "contributePage": {
+        "contributeTitle": "",
+        "contributeDescription": "",
+        "contributeIntro": "",
+        "header": {
+            "reportBugs": "",
+            "helpOthers": "",
+            "translate": "",
+            "write": ""
+        },
+        "content": {
+            "reportBugs": "",
+            "helpOthers": "",
+            "translate": "",
+            "write": ""
+        },
+        "buttons": {
+            "help": "",
+            "translate": ""
+        }
+    },
+    "contactPage": {
+        "contactTitle": "",
+        "contactDescription": "",
+        "contactUsTitle": "",
+        "contactUsText": "",
+        "contactUsBtn": "",
+        "technicalSupportTitle": "",
+        "technicalSupportText": "",
+        "addressCountry": "",
+        "documentationTitle": "",
+        "documentationText": "",
+        "documentationBtn": "",
+        "faqTitle": "",
+        "faq": {
+            "howOldQuestion": "",
+            "howOldAnswer": "",
+            "howCanIMineQuestion": "",
+            "howCanIMineAnswer": "",
+            "whyMintingQuestion": "",
+            "whyMintingAnswer": "",
+            "whyFixedFeeQuestion": "",
+            "whyFixedFeeAnswer": "",
+            "howCanPeercoinQuestion": "",
+            "howCanPeercoinAnswer": "",
+            "whyNoMintingQuestion": "",
+            "whyNoMintingAnswer": "",
+            "howManyConfirmationsQuestion": "",
+            "howManyConfirmationsAnswer": "",
+            "whyNotAvailableMintinQuestion": "",
+            "whyNotAvailableMintinAnswer": ""
+        }
+    },
+    "projectsPage": {
+        "title": "",
+        "description": "",
+        "peerAssetsTitle": "",
+        "peerAssetsP1": "",
+        "peerAssetsP2": "",
+        "peerAssetsP3": "",
+        "peerAssetsP4": "",
+        "peerAssetsBtnGithub": "",
+        "peerAssetsBtnWhitepaper": "",
+        "perperaTitle": "",
+        "perperaP1": "",
+        "perperaP2": "",
+        "perperaP3": "",
+        "perperaP4": "",
+        "perperaP5": "",
+        "perperaBtnGithub": ""
+    },
+    "resourcesPage": {
+        "title": "",
+        "description": "",
+        "actions": {
+            "action1": "",
+            "action2": "",
+            "action3": "",
+            "action4": "",
+            "action5": ""
+        },
+        "contributeTitle": "",
+        "contributeText": "",
+        "contributeBtn": "",
+        "documentationTitle": "",
+        "documentationText": "",
+        "documentationBtn": "",
+        "miningTitle": "",
+        "miningText1": "",
+        "miningText2": "",
+        "miningBtn1": "",
+        "miningBtn2": "",
+        "universityTitle": "點點幣大學",
+        "universityText1": "",
+        "universityText2": "",
+        "universityLink1": "",
+        "universityLink2": "",
+        "universityLink3": "",
+        "universityBtn": "點點幣大學",
+        "exchangesTitle": "",
+        "exchangesText": "",
+        "exchangesType1": "",
+        "exchangesType2": "",
+        "exchangesType3": "",
+        "exchangesType4": "",
+        "exchangesType5": "",
+        "explorersTitle": "",
+        "explorersMainnet": "",
+        "explorersTestnet": "",
+        "toolsTitle": "",
+        "toolsCharts": "",
+        "toolsMempool": "",
+        "toolsEnergyStatistics": "",
+        "toolsTestnetFaucet": "",
+        "toolsPresentation": "",
+        "communityTitle": "",
+        "whitepaperTitle": "",
+        "whitepaperEnglish": "",
+        "whitepaperChinese": "",
+        "whitepaperSpanish": "",
+        "whitepaperDutch": "",
+        "whitepaperFrench": "",
+        "whitepaperGerman": "",
+        "whitepaperJapanese": "",
+        "whitepaperKorean": "",
+        "whitepaperRomanian": "",
+        "whitepaperRussian": "",
+        "graphicsTitle": "",
+        "graphicsText": "",
+        "graphicsVertical": "",
+        "graphicsHorizontal": "",
+        "graphicsIconOnly": "",
+        "graphicsTextOnly": "",
+        "graphicsFavicons": "",
+        "graphicsZipFolder": "",
+        "brandIdentityTitle": "",
+        "brandIdentityColorsFonts": "",
+        "brandIdentityDisclaimer": "",
+        "brandIdentityGreen": "",
+        "brandIdentityFont": "",
+        "brandIdentityFontFont": "",
+        "brandIdentityFontType": "",
+        "brandIdentityFontRoboto": "",
+        "wrapedPPCTitle": "",
+        "wrappedPPCText": ""
+    },
+    "walletPage": {
+        "title": "",
+        "description": "",
+        "actions": {
+            "action1": "",
+            "action2": "",
+            "action3": "",
+            "action4": ""
+        },
+        "desktopWalletTitle": "",
+        "walletWindows": "",
+        "walletMac": "",
+        "walletLinux": "",
+        "installationTitle": "",
+        "sectionWindows": {
+            "title1": "",
+            "text1": "",
+            "text2": "",
+            "text3": "",
+            "title2": "",
+            "text4": "",
+            "text5": "",
+            "text6": "",
+            "text7": "",
+            "text8": ""
+        },
+        "sectionMac": {
+            "title1": "",
+            "text1": "",
+            "text2": "",
+            "text3": "",
+            "text4": "",
+            "title2": "",
+            "text5": "",
+            "text6": "",
+            "text7": "",
+            "text8": "",
+            "text9": ""
+        },
+        "sectionLinux": {
+            "title1": "",
+            "text1": "",
+            "text2": "",
+            "textFlathub": "",
+            "descriptionFlathub": "",
+            "title2": "",
+            "text3": "",
+            "text4": "",
+            "text5": "",
+            "text6": "",
+            "text7": "",
+            "text8": "",
+            "text9": "",
+            "text10": "",
+            "text11": "",
+            "text12": "",
+            "title3": "",
+            "text13": "",
+            "text14": "",
+            "text15": "",
+            "text16": ""
+        },
+        "mobileWalletTitle": "",
+        "paperWalletTitle": "",
+        "paperWalletSubtitle1": "",
+        "paperWalletSubtitle2": "",
+        "paperWalletSubtitle3": "",
+        "type1": "",
+        "type2": "",
+        "type3": "",
+        "type4": ""
+    },
+    "indexPage": {
+        "actions": {
+            "action1": "",
+            "action2": ""
+        },
+        "youtubeSection": {
+            "subText": "",
+            "btnVideo1": "",
+            "btnVideo2": "",
+            "btnVideo3": "",
+            "btnVideo4": "",
+            "btnVideo5": ""
+        },
+        "efficientEnergyTitle": "",
+        "efficientEnergyText1": "",
+        "efficientEnergyText2": "",
+        "efficientEnergyText3": "",
+        "userGovernanceTitle": "",
+        "userGovernanceText1": "",
+        "userGovernanceText2": "",
+        "trustlessTitle": "",
+        "trustlessText1": "",
+        "trustlessText2": "",
+        "trustlessText3": "",
+        "fairDistributionTitle": "",
+        "fairDistributionText1": "",
+        "fairDistributionText2": "",
+        "fairDistributionText3": "",
+        "fairDistributionText4": "",
+        "valueStoreTitle": "",
+        "valueStoreText1": "",
+        "valueStoreText2": "",
+        "valueStoreText3": "",
+        "getStartedTitle": "",
+        "collapsables": {
+            "learnTitle": "",
+            "learnText1": "",
+            "learnText2": "",
+            "learnText3": "",
+            "purchaseTitle": "",
+            "purchaseText1": "",
+            "purchaseText3": "",
+            "walletTitle": "",
+            "walletText1": "",
+            "walletText2": "",
+            "walletText3": "",
+            "mintTitle": "",
+            "mintText1": "",
+            "mintText2": "",
+            "mintText3": "",
+            "mineTitle": "",
+            "mineText1": "",
+            "mineText2": "",
+            "communityTitle": "",
+            "communityText1": "",
+            "communityText2": ""
+        },
+        "latestNewsTitle": ""
+    },
+    "notFoundPage": {
+        "title": "",
+        "description": ""
+    },
+    "reader": {
+        "buttonGoBack": "",
+        "buttonDownload": "",
+        "hint": "",
+        "notFound": ""
+    }
+}
