@@ -49,8 +49,9 @@ function Foundation() {
       <div className="main text-sections">
         <div className="container">
           <div className="col">
-            <h2 className="title title--green title--left"></h2>
-            {t("foundationPage.missionStatementTitle")}
+            <h2 className="title title--green title--left">
+              {t("foundationPage.missionStatementTitle")}
+            </h2>
             <p>{t("foundationPage.missionStatementText1")}</p>
             <p>{t("foundationPage.missionStatementText2")}</p>
 
