@@ -25,6 +25,16 @@
       "title": "resourcesPage.toolsTestnetFaucet",
       "url": "https://faucet.peercoinexplorer.net/",
       "image": "/img/icons/mint_green.png"
+    },
+    {
+      "title": "resourcesPage.allTimeHighs",
+      "url": "https://ath.ppc.lol",
+      "image": "/img/icons/mint_green.png"
+    },
+    {
+      "title": "resourcesPage.utxos",
+      "url": "https://utxo.ppc.lol",
+      "image": "/img/icons/mint_green.png"
     }
   ]
 }
