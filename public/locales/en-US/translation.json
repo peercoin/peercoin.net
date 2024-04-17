@@ -252,6 +252,8 @@
     "toolsMempool": "Mempool",
     "toolsEnergyStatistics": "Energy Statistics",
     "toolsTestnetFaucet": "Testnet Faucet",
+    "allTimeHighs": "All Time Highs",
+    "utxos": "Unspent Transaction Outputs Statistics",
     "toolsPresentation": "Presentation",
     "communityTitle": "Community",
     "whitepaperTitle": "Whitepaper",
