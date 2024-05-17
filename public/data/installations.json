@@ -17,7 +17,7 @@
       },
       {
         "title": "walletPage.sectionWindows.title2",
-        "steps": [ 
+        "steps": [
           {
             "type": "list",
             "items": [
@@ -26,7 +26,7 @@
               "walletPage.sectionWindows.text6",
               "walletPage.sectionWindows.text7"
             ]
-          }, 
+          },
           {
             "type": "text",
             "text": "walletPage.sectionWindows.text8"
@@ -54,7 +54,7 @@
       },
       {
         "title": "walletPage.sectionMac.title2",
-        "steps": [ 
+        "steps": [
           {
             "type": "list",
             "items": [
@@ -62,11 +62,11 @@
               "walletPage.sectionMac.text6",
               "walletPage.sectionMac.text7"
             ]
-          }, 
+          },
           {
             "type": "text",
             "text": "walletPage.sectionMac.text8"
-          }, 
+          },
           {
             "type": "text",
             "text": "walletPage.sectionMac.text9"
@@ -95,45 +95,11 @@
         "steps": [
           {
             "type": "list",
-            "items": [
-              "walletPage.sectionLinux.textFlathub"
-            ]       
-          }, 
+            "items": ["walletPage.sectionLinux.textFlathub"]
+          },
           {
             "type": "text",
             "text": "walletPage.sectionLinux.descriptionFlathub"
-          }
-        ]
-      },
-      {
-        "title": "walletPage.sectionLinux.title2",
-        "steps": [ 
-          {
-            "type": "text",
-            "text": "walletPage.sectionLinux.text3"
-          }, 
-          {
-            "type": "text",
-            "text": "walletPage.sectionLinux.text4"
-          }, 
-          {
-            "type": "text",
-            "text": "walletPage.sectionLinux.text5"
-          }, 
-          {
-            "type": "list",
-            "items": [
-              "walletPage.sectionLinux.text6",
-              "walletPage.sectionLinux.text7",
-              "walletPage.sectionLinux.text8",
-              "walletPage.sectionLinux.text9",
-              "walletPage.sectionLinux.text10",
-              "walletPage.sectionLinux.text11"
-            ]
-          }, 
-          {
-            "type": "text",
-            "text": "walletPage.sectionLinux.text12"
           }
         ]
       },
@@ -146,11 +112,11 @@
               "walletPage.sectionLinux.text13",
               "walletPage.sectionLinux.text14"
             ]
-          }, 
+          },
           {
             "type": "text",
             "text": "walletPage.sectionLinux.text15"
-          }, 
+          },
           {
             "type": "text",
             "text": "walletPage.sectionLinux.text16"
