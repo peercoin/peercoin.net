@@ -3,20 +3,20 @@
     {
       "os": "Windows",
       "img": "/img/icons/windows.png",
-      "checksum": "f50e28fd4e6ecd1e321121ed366f4cc9f683b57bd5bdc5cb5343291aadb4a092",
-      "link": "https://github.com/peercoin/peercoin/releases/download/v0.14.3ppc/peercoin-6e178c901bc4-win64-setup-unsigned.exe"
+      "checksum": "e70c2768c72d7d5a1072feebbe1649be78168b37dc48ec05f6f42ab926b79bab",
+      "link": "https://github.com/peercoin/peercoin/releases/download/v0.14.4ppc/peercoin-e703b8ab1981-win64-setup-unsigned.exe"
     },
     {
       "os": "macOS",
       "img": "/img/icons/apple.png",
-      "checksum": "b08daed30158412b2adf4d8d778ecc98d3e98f43a862401003c903144b71dfc6",
-      "link": "https://github.com/peercoin/peercoin/releases/download/v0.14.3ppc/peercoin-0.14.3ppc-x86_64-apple-darwin.dmg"
+      "checksum": "5d80d0925b1a44ff7ff20b43d8598a99cbbcf25050662090f5df550f2984e2c6",
+      "link": "https://github.com/peercoin/peercoin/releases/download/v0.14.4ppc/peercoin-0.14.4ppc-x86_64-apple-darwin.dmg"
     },
     {
       "os": "Linux",
       "img": "/img/icons/linux.png",
-      "checksum": "82dadad410502af5ee512a3d2dc5294554c6908aade037420417363cbdbd387a",
-      "link": "https://github.com/peercoin/peercoin/releases/download/v0.14.3ppc/peercoin-6e178c901bc4-x86_64-linux-gnu.tar.gz"
+      "checksum": "bf3c961a414da5b4f3f17dbb9a0af71ab962052f1309a0574852f0702670d21e",
+      "link": "https://github.com/peercoin/peercoin/releases/download/v0.14.4ppc/peercoin-e703b8ab1981-x86_64-linux-gnu.tar.gz"
     }
   ],
   "other": [
