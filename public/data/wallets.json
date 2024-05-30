@@ -9,8 +9,8 @@
     {
       "os": "macOS",
       "img": "/img/icons/apple.png",
-      "checksum": "5d80d0925b1a44ff7ff20b43d8598a99cbbcf25050662090f5df550f2984e2c6",
-      "link": "https://github.com/peercoin/peercoin/releases/download/v0.14.4ppc/peercoin-0.14.4ppc-x86_64-apple-darwin.dmg"
+      "checksum": "e31bd9ce5ac3b531ca55e558de7ef9b19670feccb5dff1bf8eafc24e1e3f3fc3",
+      "link": "https://github.com/peercoin/peercoin/releases/download/v0.14.5ppc/peercoin-0.14.5ppc-x86_64-apple-darwin.dmg"
     },
     {
       "os": "Linux",
