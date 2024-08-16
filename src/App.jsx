@@ -13,6 +13,10 @@ import Contribute from "./pages/Contribute/Contribute";
 import NotFound from "./pages/NotFound/NotFound";
 import Reader from "./pages/Reader/Reader";
 import { handleHash } from "./helpers/Hash";
+import "@fontsource/roboto/100.css";
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/700.css";
 
 function App() {
   useEffect(() => {
