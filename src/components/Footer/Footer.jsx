@@ -1,6 +1,5 @@
 import React, { Suspense } from "react";
 import { Link } from "react-router-dom";
-import { TwitterTimelineEmbed } from "react-twitter-embed";
 import { useTranslation } from "react-i18next";
 import "./Footer.scss";
 import Loader from "../Loader/Loader";
@@ -28,14 +27,6 @@ function Footer() {
             </a>
           </div>
           <footer className="footer">
-            <div className="footer__twitter">
-              <TwitterTimelineEmbed
-                sourceType="profile"
-                screenName="PeercoinPPC"
-                options={{ width: 265, height: 350 }}
-              />
-            </div>
-
             <nav className="footer__links">
               <ul className="footer__links__list">
                 <li className="footer__links__list__title">
@@ -231,11 +222,11 @@ function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://twitter.com/PeercoinPPC"
+                    href="https://x.com/PeercoinPPC"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                   >
-                    {t("footerComponent.links.community.linkTwitter")}
+                    X
                   </a>
                 </li>
                 <li>

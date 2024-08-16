@@ -225,12 +225,12 @@ function Menu() {
                 </li>
                 <li>
                   <a
-                    href="https://twitter.com/PeercoinPPC"
+                    href="https://x.com/PeercoinPPC"
                     className="submenu"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                   >
-                    <img src="/img/icons/twitter_green.png" alt="" />
+                    <img src="/img/icons/x_green.png" alt="" />
                     {t("menuComponent.links.community.twitter")}
                   </a>
                 </li>
