@@ -23,7 +23,7 @@ function LatestNews() {
           categories: post.categories,
         }))
         .slice(0, 3);
-      console.log(posts[0].img);
+
       setPosts(posts);
     }
 
