@@ -167,6 +167,18 @@
             "translated": true,
             "text": "walletPage.type4"
           }
+        },
+        {
+          "url": "https://stackwallet.com/",
+          "image": "/img/wallets/stackwallet.png",
+          "title": {
+            "translated": false,
+            "text": "Stack Wallet"
+          },
+          "subtitle": {
+            "translated": true,
+            "text": "walletPage.type4"
+          }
         }
       ]
     }
