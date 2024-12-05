@@ -9,12 +9,6 @@
       "type": "resourcesPage.exchangesType1"
     },
     {
-      "title": "Changelly",
-      "url": "https://changelly.com/",
-      "image": "/img/exchanges/changelly_green.png",
-      "type": "resourcesPage.exchangesType2"
-    },
-    {
       "title": "CoinPaprika",
       "url": "https://coinpaprika.com/coin/ppc-peercoin/",
       "image": "/img/exchanges/coinpaprika_green.png",
