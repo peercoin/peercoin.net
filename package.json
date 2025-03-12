@@ -22,7 +22,7 @@
     "smoothscroll-polyfill": "^0.4.4",
     "stream": "^0.0.2",
     "util": "^0.12.4",
-    "vite": "^5.4.6",
+    "vite": "^5.4.14",
     "vite-plugin-svgr": "^4.2.0",
     "vite-tsconfig-paths": "^5.0.1"
   },
