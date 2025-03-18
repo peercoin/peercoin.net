@@ -18,7 +18,7 @@ function Footer() {
             </h2>
             <p>{t("footerComponent.subscribeSubtitle")}</p>
             <a
-              href="https://peercoin.us9.list-manage.com/subscribe/post?u=654917bb4b69bbc6d026587a9&id=222c7e0877"
+              href="https://eepurl.com/dkeTOH"
               target="_blank"
               rel="noopener noreferrer nofollow"
               className="footer-wrapper__subscribe__link"
