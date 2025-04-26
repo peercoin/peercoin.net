@@ -54,61 +54,6 @@ function Foundation() {
             </h2>
             <p>{t("foundationPage.missionStatementText1")}</p>
             <p>{t("foundationPage.missionStatementText2")}</p>
-
-            <div className="anchor" data-id="donate"></div>
-            <h2 className="title title--green title--left">
-              {t("foundationPage.technicalSupportTitle")}
-            </h2>
-            <p>{t("foundationPage.technicalSupportText")}</p>
-            <p>
-              <Trans i18nKey="foundationPage.generalFundPpcAddress">
-                General Fund - <strong>PPC</strong> Donation Address:
-              </Trans>
-              <a
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                href="https://chainz.cryptoid.info/ppc/address.dws?p77CZFn9jvg9waCzKBzkQfSvBBzPH1nRre.htm"
-              >
-                {" "}
-                p77CZFn9jvg9waCzKBzkQfSvBBzPH1nRre
-              </a>
-              <br />
-              <Trans i18nKey="foundationPage.generalFundBtcAddress">
-                General Fund - <strong>BTC</strong> Donation Address
-              </Trans>
-              <a
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                href="https://mempool.space/address/3DrygZif7mB359Md5BbN1XFRxX6wBWqmcc"
-              >
-                {" "}
-                3DrygZif7mB359Md5BbN1XFRxX6wBWqmcc
-              </a>
-              <br />
-              <Trans i18nKey="foundationPage.generalFundEthAddress">
-                General Fund - <strong>ETH/USDC/WBTC</strong> Donation Address
-              </Trans>
-              <a
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                href="https://etherscan.io/address/0xC631f54Aa17F9539c63bcdcdB648cb02a691D7e2"
-              >
-                {" "}
-                0xC631f54Aa17F9539c63bcdcdB648cb02a691D7e2
-              </a>
-              <br />
-              <Trans i18nKey="foundationPage.openCollectiveNote">
-                Fiat Donations - <strong>USD/EUR</strong> by Credit/Debit/Wire:
-              </Trans>
-              <a
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                href="https://opencollective.com/peercoin"
-              >
-                {" "}
-                opencollective.com/peercoin
-              </a>
-            </p>
             <div>
               <h2 className="title title--green title--left">
                 {t("foundationPage.reportsTitle")}
