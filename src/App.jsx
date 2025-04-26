@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./style/main.scss";
 import Index from "./pages/Index/Index.jsx";
 import Resources from "./pages/Resources/Resources.jsx";
@@ -27,18 +27,18 @@ function App() {
     <Router>
       <>
         <ScrollTop />
-        <Switch>
-          <Route exact path="/" component={Index} />
-          <Route path="/resources" component={Resources} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/privacy" component={Privacy} />
-          <Route path="/foundation" component={Foundation} />
-          <Route path="/wallet" component={Wallet} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/contribute" component={Contribute} />
-          <Route path="/read/:folder/:file" component={Reader} />
-          <Route path="/*" component={NotFound} />
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="/resources" element={<Resources />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/foundation" element={<Foundation />} />
+          <Route path="/wallet" element={<Wallet />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/contribute" element={<Contribute />} />
+          <Route path="/read/:folder/:file" element={<Reader />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
       </>
     </Router>
   );
