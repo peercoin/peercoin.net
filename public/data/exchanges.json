@@ -49,12 +49,6 @@
       "url": "https://track.swipelux.com/?api-key=ffb38639-73c1-433f-a7d9-c6bd35c41199",
       "image": "/img/exchanges/swipelux_green.png",
       "type": "resourcesPage.exchangesType2"
-    },
-    {
-      "title": "XeggeX",
-      "url": "https://xeggex.com/",
-      "image": "/img/exchanges/xeggex_green.png",
-      "type": "resourcesPage.exchangesType1"
     }
   ]
 }
