@@ -279,7 +279,7 @@
     "brandIdentityFontType": "Type",
     "brandIdentityFontRoboto": "The Peercoin website and wallets use the <a href=\"https://fonts.google.com/specimen/Roboto\" target=\"_blank\" rel=\"noopener noreferrer\">Roboto</a> font for its content.",
     "wrapedPPCTitle": "Wrapped Peercoin",
-    "wrappedPPCText": "Wrapped Peercoin (wPPC) is a synthetic Peercoin-backed token. wPPC is created when peercoin is wrapped using bridge.peercoin.net and destroyed as peercoins are unwrapped.",
+    "wrappedPPCText": "Wrapped Peercoin (wPPC) is a synthetic Peercoin-backed token. wPPC is created when peercoin is wrapped using <a href=\"https://bridge.peercoin.net\" target=\"_blank\" rel=\"noopener noreferrer\">bridge.peercoin.net</a> and destroyed as peercoins are unwrapped.",
     "wrappedPPCContractAddresses": "wPPC Contract Addresses:"
   },
   "walletPage": {
