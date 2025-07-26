@@ -5,19 +5,19 @@
   "resources": [
     {
       "title": "Uniswap",
-      "url": "https://info.uniswap.org/#/tokens/0x044d078f1c86508e13328842cc75ac021b272958",
+      "url": "https://app.uniswap.org/explore/tokens/ethereum/0x044d078F1c86508e13328842Cc75AC021B272958",
       "image": "/img/exchanges/uniswap_green.png",
       "type": "resourcesPage.exchangesType4"
     },
     {
       "title": "CoW Swap",
-      "url": "https://swap.cow.fi",
+      "url": "https://swap.cow.fi/#/1/swap/ETH/0x044d078F1c86508e13328842Cc75AC021B272958",
       "image": "/img/exchanges/cow_green.png",
       "type": "resourcesPage.exchangesType6"
     },
     {
     "title": "QuickSwap",
-    "url": "https://quickswap.exchange/#/analytics/total/token/0x91e7e32c710661c44ae44d10aa86135d91c3ed65",
+    "url": "https://info.quickswap.exchange/analytics/total/tokens/0x91E7E32C710661C44ae44D10Aa86135d91C3Ed65",
     "image": "/img/exchanges/quickswap_green.png",
     "type": "resourcesPage.exchangesType5"
     },
