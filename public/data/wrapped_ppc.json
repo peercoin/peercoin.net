@@ -1,6 +1,12 @@
 {
   "title": "resourcesPage.wrapedPPCTitle",
   "description": "resourcesPage.wrappedPPCText",
+  "link": [
+    {
+      "title": "https://bridge.peercoin.net",
+      "url": "https://bridge.peercoin.net"
+    }
+  ],
   "contractAddresses": "resourcesPage.wrappedPPCContractAddresses",
   "resources": [
     {
