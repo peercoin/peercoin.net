@@ -1,12 +1,6 @@
 {
   "title": "resourcesPage.wrapedPPCTitle",
   "description": "resourcesPage.wrappedPPCText",
-  "link": [
-    {
-      "title": "https://bridge.peercoin.net",
-      "url": "https://bridge.peercoin.net"
-    }
-  ],
   "contractAddresses": "resourcesPage.wrappedPPCContractAddresses",
   "resources": [
     {
@@ -32,6 +26,12 @@
     "url": "https://matcha.xyz/tokens/polygon/0x91e7e32c710661c44ae44d10aa86135d91c3ed65",
     "image": "/img/exchanges/matcha_green.png",
     "type": "resourcesPage.exchangesType7"
+    }
+  ],
+    "linktobridge": [
+    {
+      "title": "https://bridge.peercoin.net",
+      "bridgeUrl": "https://bridge.peercoin.net"
     }
   ],
   "addresses": [
