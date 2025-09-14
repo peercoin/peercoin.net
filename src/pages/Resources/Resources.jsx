@@ -278,7 +278,21 @@ function Resources() {
         <div className="container">
           <h2 className="title title--green">{t(wrappedPPC.title)}</h2>
           {wrappedPPC.description ? (
+            <div className="text-sections" style={{ textAlign: "center" }}>
             <p className="description">{t(wrappedPPC.description)}</p>
+                {wrappedPPC.linktobridge.map((bridgeUrl) => (
+                  <div key={bridgeUrl}>
+                    <a
+                      href={bridgeUrl}
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      {bridgeUrl}
+                    </a>
+                    <br/>
+                  </div>
+                ))}
+            </div>
           ) : null}
           {wrappedPPC.contractAddresses ? (
             <div className="text-sections" style={{ textAlign: "center" }}>
