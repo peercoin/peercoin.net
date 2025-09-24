@@ -15,6 +15,7 @@ function Foundation() {
     "Stichting_Peercoin_Foundation_-_Jaarrekening_2021.pdf",
     "Stichting_Peercoin_Foundation_-_Jaarstukken_2022.pdf",
     "Stichting_Peercoin_Foundation_-_Jaarstukken_2023.pdf",
+    "Stichting_Peercoin_Foundation_-_Jaarstukken_2024.pdf",
   ];
 
   const renderLinks = (fileNames) => {
