@@ -20,6 +20,7 @@
     }
     .hero__actions {
       margin: 1rem 0 1rem;
+      justify-content: center;
       @include viewports(large) {
         width: 45rem;
       }
