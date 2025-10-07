@@ -28,6 +28,12 @@
     "type": "resourcesPage.exchangesType7"
     }
   ],
+    "linktobridge": [
+    {
+      "title": "https://bridge.peercoin.net",
+      "bridgeUrl": "https://bridge.peercoin.net"
+    }
+  ],
   "addresses": [
     {
       "title": "Ethereum",
