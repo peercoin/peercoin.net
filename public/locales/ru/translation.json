@@ -36,7 +36,6 @@
         "github": "GitHub",
         "projects": "Проекты",
         "blog": "Блог",
-        "peercoinFoundation": "Фонд Peercoin",
         "contactUs": "Свяжитесь с нами",
         "contribute": "Сотрудничать"
       },
@@ -92,7 +91,6 @@
         "linkGithub": "GitHub",
         "linkProjects": "Проекты",
         "linkBlog": "Блог",
-        "linkFoundation": "Фонд Peercoin",
         "linkPrivacyPolicy": "Политика Конфиденциальности",
         "linkContact": "Контакты"
       },
@@ -110,24 +108,11 @@
     },
     "copyright": {
       "copyright": "Copyright ©",
-      "rights": "Фонд Peercoin | Все права защищены."
+      "rights": "The Peercoin Developers | Все права защищены."
     }
   },
   "latestNewsComp": {
     "readMore": "Читать больше"
-  },
-  "foundationPage": {
-    "missionStatementTitle": "Заявление о миссии",
-    "missionStatementText1": "Фонд Peercoin был основан с простой миссией продвижения и поддержки непрерывного образования, развития и общего прогресса проекта Peercoin. Мы стремимся расширить возможности будущих членов команды Peercoin, предоставляя инструменты, необходимые для сохранения давней репутации Peercoin в области внедрения инноваций первого поколения в блокчейн.",
-    "missionStatementText2": "Сеть блокчейна Peercoin и проект Peercoin в целом представляют собой децентрализованный реестр с открытым исходным кодом, без руководящего органа. Peercoin Фонд не предъявляет претензий в отношении интеллектуальной собственности, связанной с проектом Peercoin, если явно не указано иное.",
-    "technicalSupportTitle": "Поддержка сообщества",
-    "technicalSupportText": "Если вы хотите участвовать в проекте Peercoin, или просто хотите поддержать команду, у вас есть несколько вариантов. Если вы заинтересованы в том чтобы стать разработчиком Peercoin или связанных с Peercoin проектов, таких как PeerAssets, напишите нам по адресу foundation@peercoin.net . Если вы хотите сделать пожертвование Peercoin Фонда, или для поддержки любого расширенного проекта, просто отправьте свое пожертвование PPC на указанный ниже мултисиг адрес.",
-    "generalFundPpcAddress": "Общий фонд - <strong>PPC</strong> Адрес для пожертвования:",
-    "generalFundBtcAddress": "Общий фонд - <strong>BTC</strong> Адрес для пожертвования:",
-    "viewOnExplorer": "Посмотреть в Блок Експлорер",
-    "openCollectiveNote": "Пожертвования фиатом - <strong>USD/EUR</strong> Кредит/Дебит/Перевод:",
-    "contactUsTitle": "Свяжитесь с нами",
-    "addressCountry": "Нидерланды"
   },
   "contributePage": {
     "contributeTitle": "Внести свой вклад ",
@@ -157,7 +142,6 @@
     "contactUsBtn": "Свяжитесь с нами",
     "technicalSupportTitle": "Техническая поддержка",
     "technicalSupportText": "Нужна помощь с технической проблемой? Вы можете найти помощь и отличные ресурсы сообщества на Peercointalk.",
-    "addressCountry": "Нидерланды",
     "documentationTitle": "Документация",
     "documentationText": "Вы разработчик и ищете дополнительную информацию о Peercoin? Смотрите нашу документацию.",
     "documentationBtn": "Документация",

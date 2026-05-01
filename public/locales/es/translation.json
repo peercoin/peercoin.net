@@ -36,7 +36,6 @@
         "github": "GitHub",
         "projects": "Proyectos",
         "blog": "Blog",
-        "peercoinFoundation": "Fundación Peercoin",
         "contactUs": "Contáctenos",
         "contribute": "Contribuir"
       },
@@ -92,7 +91,6 @@
         "linkGithub": "GitHub",
         "linkProjects": "Proyectos",
         "linkBlog": "Blog",
-        "linkFoundation": "Fundación",
         "linkPrivacyPolicy": "Política de privacidad",
         "linkContact": "Contact"
       },
@@ -110,22 +108,11 @@
     },
     "copyright": {
       "copyright": "Copyright ©",
-      "rights": "Peercoin Foundation | Todos lo Derechos Reservados"
+      "rights": "The Peercoin Developers | Todos los Derechos Reservados"
     }
   },
   "latestNewsComp": {
     "readMore": "Read more"
-  },
-  "foundationPage": {
-    "missionStatementTitle": "Estado de la misión",
-    "missionStatementText": "La Fundación Peercoin se estableció con la simple misión de promover y apoyar la educación continua, el desarrollo y la progresión general del proyecto Peercoin. Buscamos empoderar a los futuros miembros del equipo de Peercoin al proporcionar las herramientas necesarias para perpetuar la reputación de larga data de Peercoin por traer las innovaciones más importantes del mundo a Blockchain.",
-    "technicalSupportTitle": "Soporte comunitario",
-    "technicalSupportText": "Si desea participar en Peercoin, o simplemente desea apoyar al equipo, hay varias opciones a su disposición. Si está interesado en convertirse en desarrollador para proyectos relacionados con Peercoin o Peercoin, como PeerAssets, envíenos un correo electrónico a foundation@peercoin.net. Si desea donar PPC a la Fundación Peercoin para apoyar la expansión de un proyecto, simplemente envíe su donación de PPC a la dirección de firma múltiple a continuación.",
-    "generalFundPpcAddress": "General Fund - PPC Donation Address:",
-    "generalFundBtcAddress": "General Fund - BTC Donation Address:",
-    "viewOnExplorer": "View on explorer",
-    "contactUsTitle": "Contáctenos",
-    "addressCountry": "The Netherlands"
   },
   "contactPage": {
     "contactTitle": "Contáctenos",
@@ -135,7 +122,6 @@
     "contactUsBtn": "Contáctenos",
     "technicalSupportTitle": "Soporte técnico",
     "technicalSupportText": "¿Necesita ayuda con un problema técnico? Puede encontrar apoyo y otros recursos de gran comunidad en Peercointalk.",
-    "addressCountry": "The Netherlands",
     "documentationTitle": "Documentación",
     "documentationText": "¿Eres un desarrollador que busca más información sobre Peercoin? Echa un vistazo a nuestra documentación",
     "documentationBtn": "Documentación",

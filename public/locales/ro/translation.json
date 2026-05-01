@@ -36,7 +36,6 @@
         "github": "GitHub",
         "projects": "Proiecte",
         "blog": "Blog",
-        "peercoinFoundation": "Foundația Peercoin",
         "contactUs": "Contactați-ne",
         "contribute": "Contribuiți"
       },
@@ -92,7 +91,6 @@
         "linkGithub": "GitHub",
         "linkProjects": "Proiecte",
         "linkBlog": "Blog",
-        "linkFoundation": "Fundația",
         "linkPrivacyPolicy": "Politica de Confidențialitate",
         "linkContact": "Contact"
       },
@@ -110,24 +108,11 @@
     },
     "copyright": {
       "copyright": "Copyright ©",
-      "rights": "Foundația Peercoin | Toate Drepturile sunt rezervate"
+      "rights": "The Peercoin Developers | Toate Drepturile sunt rezervate"
     }
   },
   "latestNewsComp": {
     "readMore": "Citește mai multe"
-  },
-  "foundationPage": {
-    "missionStatementTitle": "Declarație a misiunii",
-    "missionStatementText1": "Fundația Peercoin a fost înființată cu simpla misiune de a promova și susține educația continuă, dezvoltarea și progresul general al proiectului Peercoin. Încercăm să împuternicim viitorii membri ai echipei Peercoin, oferind instrumentele necesare pentru a perpetua reputația de lungă durată a Peercoin de a aduce inovații de primă generație în Blockchain.",
-    "missionStatementText2": "Rețeaua blockchain Peercoin și proiectul Peercoin în general sunt un registru descentralizat open-source, fără un organism de conducere. Fundația Peercoin nu face nicio revendicare asupra proprietății intelectuale legate de proiectul Peercoin, cu excepția cazului în care se prevede în mod explicit asta.",
-    "technicalSupportTitle": "Suportul Comunității",
-    "technicalSupportText": "Dacă doriți să vă implicați în Peercoin sau pur și simplu doriți să susțineți echipa, aveți la dispoziție mai multe opțiuni. Dacă sunteți interesat să deveniți dezvoltator pentru Peercoin sau pentru proiecte legate de Peercoin, cum ar fi PeerAssets, trimiteți-ne un e-mail la Foundation@peercoin.net. Dacă doriți să donați Fundației Peercoin pentru a sprijini extinderea vreunui proiect, pur și simplu trimiteți donația dvs PPC la adresa multisig de mai jos.",
-    "generalFundPpcAddress": "Fondul general - <strong>PPC</strong> Adresa pentru donație:",
-    "generalFundBtcAddress": "Fondul general - <strong>BTC</strong> Adresa pentru donație:",
-    "viewOnExplorer": "Vedeți în explorer",
-    "openCollectiveNote": "Donații Fiat - <strong>USD/EUR</strong> cu Credit/Debit/Wire:",
-    "contactUsTitle": "Contactați-ne",
-    "addressCountry": "Olanda"
   },
   "contributePage": {
     "contributeTitle": "Contribuiți ",
@@ -157,7 +142,6 @@
     "contactUsBtn": "Contactați-ne",
     "technicalSupportTitle": "Suport tehnic",
     "technicalSupportText": "Aveți nevoie de ajutor la o problemă tehnică? Puteți găsi asistență și alte resurse excelente ale comunității pe Peercointalk.",
-    "addressCountry": "Olanda",
     "documentationTitle": "Documentație",
     "documentationText": "Sunteți dezvoltator și cautați mai multe informații despre Peercoin? Consultați documentația noastră.",
     "documentationBtn": "Documentație",

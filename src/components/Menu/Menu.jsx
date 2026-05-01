@@ -179,12 +179,6 @@ function Menu() {
                   </a>
                 </li>
                 <li>
-                  <Link to="/foundation" className="submenu">
-                    <img src="/img/icons/foundation_green.png" alt="" />
-                    {t("menuComponent.links.project.peercoinFoundation")}
-                  </Link>
-                </li>
-                <li>
                   <Link to="/contribute" className="submenu">
                     <img src="/img/icons/pickaxe_green.png" alt="" />
                     {t("menuComponent.links.project.contribute")}
@@ -201,11 +195,6 @@ function Menu() {
             <li>
               <Link to="/wallet">
                 <span>{t("menuComponent.links.wallet.title")}</span>
-              </Link>
-            </li>
-            <li>
-              <Link to="/foundation#donate">
-                <span>{t("menuComponent.links.donate.title")}</span>
               </Link>
             </li>
             <li>
