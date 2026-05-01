@@ -36,7 +36,6 @@
         "github": "GitHub",
         "projects": "项目",
         "blog": "博客",
-        "peercoinFoundation": "点点币基金会",
         "contactUs": "联系我们",
         "contribute": "贡献"
       },
@@ -92,7 +91,6 @@
         "linkGithub": "GitHub",
         "linkProjects": "项目",
         "linkBlog": "Blog",
-        "linkFoundation": "基金会",
         "linkPrivacyPolicy": "隐私条款",
         "linkContact": "Contact"
       },
@@ -110,22 +108,11 @@
     },
     "copyright": {
       "copyright": "版权 ©",
-      "rights": "点点币基金会  |  保留所有权利"
+      "rights": "The Peercoin Developers | 保留所有权利"
     }
   },
   "latestNewsComp": {
     "readMore": "Read more"
-  },
-  "foundationPage": {
-    "missionStatementTitle": "使命宣言",
-    "missionStatementText": "点点币基金会成立的宗旨很简单，就是推动和支持Peercoin项目的继续教育、发展和全面发展。我们希望通过提供必要的工具，使点点币为区块链带来世界领先创新的声誉得以长期延续，从而增强未来Peercoin团队成员的能力",
-    "technicalSupportTitle": "社区支持",
-    "technicalSupportText": "如果您想参与点点币，或者只是想支持这个团队，有几个选项可供选择。如果您有兴趣成为点点币或点点币相关项目(如PeerAssets)的开发人员，请发送电子邮件至foundation@peercoin.net。如果您想向点点币基金会捐赠PPC来支持项目的扩展，只需将您的PPC捐款发送到下面的多签名地址即可.",
-    "generalFundPpcAddress": "General Fund - PPC Donation Address:",
-    "generalFundBtcAddress": "General Fund - BTC Donation Address:",
-    "viewOnExplorer": "View on explorer",
-    "contactUsTitle": "联系我们",
-    "addressCountry": "The Netherlands"
   },
   "contactPage": {
     "contactTitle": "联系我们",
@@ -135,7 +122,6 @@
     "contactUsBtn": "联系我们",
     "technicalSupportTitle": "技术支持",
     "technicalSupportText": "你需要技术方面的帮助吗?您可以在Peercointalk上找到支持和其他很棒的社区资源。",
-    "addressCountry": "The Netherlands",
     "documentationTitle": "文档",
     "documentationText": "您是在寻找Peercoin的更多信息吗?查看我们的文档",
     "documentationBtn": "文档",

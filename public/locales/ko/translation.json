@@ -36,7 +36,6 @@
         "github": "GitHub",
         "projects": "프로젝트",
         "blog": "블로그",
-        "peercoinFoundation": "피어코인 재단",
         "contactUs": "문의하기",
         "contribute": "기여"
       },
@@ -54,9 +53,6 @@
         "youtube": "YouTube",
         "bitcointalk": "Bitcointalk",
         "cmc": ""
-      },
-      "donate": {
-        "title": ""
       }
     }
   },
@@ -96,7 +92,6 @@
         "linkGithub": "GitHub",
         "linkProjects": "프로젝트",
         "linkBlog": "블로그",
-        "linkFoundation": "재단",
         "linkPrivacyPolicy": "개인정보 정책",
         "linkContact": "문의하기"
       },
@@ -114,27 +109,11 @@
     },
     "copyright": {
       "copyright": "版权 ©",
-      "rights": "点点币基金会  |  保留所有权利"
+      "rights": "The Peercoin Developers | 모든 권리 보유"
     }
   },
   "latestNewsComp": {
     "readMore": "Read more"
-  },
-  "foundationPage": {
-    "missionStatementTitle": "과업 설명",
-    "missionStatementText": "피어코인 재단은 피어코인 프로젝트의 지속적인 교육, 개발 및 전반적인 발전을 장려하고 지원하는 과업을 목표로 설립되었습니다. 저희는 블록체인에 세계 최초의 혁신을 가져온 피어코인의 오랜 명성을 이어갈 수 있는 도구를 제공함으로써, 미래의 피어코인 팀원들에게 힘을 실어주기 위해 노력합니다.",
-    "technicalSupportTitle": "커뮤니티 지원",
-    "technicalSupportText": "피어코인 참여 또는 팀에 지원을 원하신다면 선택할 수 있는 다음 몇 가지의 옵션이 있습니다. PeerAssets와 같은 피어코인 또는 피어코인 관련 프로젝트의 개발자가 되길 원하신다면 foundation@peercoin.net으로 이메일을 보내주세요. 만약 프로젝트 확장을 지원하기 위해 피어코인 재단에 PPC 기부를 원하신다면 아래의 다중 서명 주소로 보내주십시오.",
-    "generalFundPpcAddress": "피어코인 재단 다중 서명 기부 주소:",
-    "generalFundBtcAddress": "피어코인 재단 비트코인 다중 서명 기부 주소:",
-    "viewOnExplorer": "View on explorer",
-    "contactUsTitle": "문의하기",
-    "addressCountry": "The Netherlands",
-    "missionStatementText1": "",
-    "missionStatementText2": "",
-    "openCollectiveNote": "",
-    "reportsTitle": "",
-    "reportsSupportText": ""
   },
   "contactPage": {
     "contactTitle": "문의하기",
@@ -144,7 +123,6 @@
     "contactUsBtn": "문의하기",
     "technicalSupportTitle": "기술 지원",
     "technicalSupportText": "기술적인 문제에 대한 도움이 필요하시나요? Peercointalk에서 도움을 받고 다른 좋은 커뮤니티 리소스도 찾을 수 있습니다.",
-    "addressCountry": "The Netherlands",
     "documentationTitle": "문서",
     "documentationText": "피어코인에 대한 보다 자세한 정보를 원하는 개발자이신가요? 저희의 문서를 확인해 보세요.",
     "documentationBtn": "문서",

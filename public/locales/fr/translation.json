@@ -36,7 +36,6 @@
         "github": "GitHub",
         "projects": "Projets",
         "blog": "Blog",
-        "peercoinFoundation": "Fondation Peercoin",
         "contactUs": "Contactez-nous",
         "contribute": "Contribuer"
       },
@@ -53,9 +52,6 @@
         "discord": "Discord",
         "youtube": "YouTube",
         "bitcointalk": "Bitcointalk"
-      },
-      "donate": {
-        "title": "Faire un don"
       }
     }
   },
@@ -95,7 +91,6 @@
         "linkGithub": "GitHub",
         "linkProjects": "Les projets",
         "linkBlog": "Blog",
-        "linkFoundation": "Fondation",
         "linkPrivacyPolicy": "Politique de confidentialité",
         "linkContact": "Contactez-nous"
       },
@@ -113,24 +108,11 @@
     },
     "copyright": {
       "copyright": "Copyright ©",
-      "rights": "Peercoin Foundation | Tout Droits Réservés"
+      "rights": "The Peercoin Developers | Tous Droits Réservés"
     }
   },
   "latestNewsComp": {
     "readMore": "En savoir plus"
-  },
-  "foundationPage": {
-    "missionStatementTitle": "Notre mission",
-    "missionStatementText1": "La Fondation Peercoin à été créée avec la simple mission de promouvoir et soutenir en continu éducation, développement, et la progression globale du projet Peercoin. Nous cherchons à donner du pouvoir aux futures membres de l'équipe Peercoin en apportant les outils nécessaires pour perpétuer la réputation de Peercoin pour avoir apporté les premières innovations mondiales à la Blockchain.",
-    "missionStatementText2": "Le réseau Blockchain de Peercoin et le projet Peercoin dans sa globalité est open-source et décentralisé, sans authorité gouvernementale. La Peercoin Foundation ne revendique aucune propriété intellectuelle vis-à-vis du projet Peercoin, à moins d'être explicitement énoncée.",
-    "technicalSupportTitle": "Soutien communautaire",
-    "technicalSupportText": "Si vous voulez vous impliquez dans Peercoin, ou voulez simplement aider l'équipe, il y a plusieurs options à votre disposition. Si vous êtes intéressé en devenant un développeur pour Peercoin ou pour les projets relatifs à Peercoin comme PeerAssets, envoyez nous un email à foundation@peercoin.net. Si vous voulez donnez via PPC à la Fondation Peercoin pour aider l'expansion d'un projet, envoyez simplement votre don en PPC aux adresses multisignatures ci-dessous.",
-    "generalFundPpcAddress": "Fonds Général - Adresse Donation <strong>PPC</strong>:",
-    "generalFundBtcAddress": "Fonds Général - Adresse Donation <strong>BTC</strong>:",
-    "viewOnExplorer": "Voir dans l'exploreur",
-    "openCollectiveNote": "Don de monnaie FIAT - <strong>USD/EUR</strong> par Crédit/Débit/Transfert:",
-    "contactUsTitle": "Contactez Nous",
-    "addressCountry": "Pays-Bas"
   },
   "contributePage": {
     "contributeTitle": "Contributer",
@@ -160,7 +142,6 @@
     "contactUsBtn": "Contactez Nous",
     "technicalSupportTitle": "Support Technique",
     "technicalSupportText": "Avez-vous besoin d'aide avec un problème technique? Vous pouvez trouver de l'aide et d'autres ressources de la communauté sur Peercointalk.",
-    "addressCountry": "Pays-Bas",
     "documentationTitle": "Documentation",
     "documentationText": "Vous êtes un développeur cherchant des informations sur Peercoin? Regardez notre documentation.",
     "documentationBtn": "Documentation",

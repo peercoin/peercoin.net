@@ -4,7 +4,6 @@ import "./style/main.scss";
 import Index from "./pages/Index/Index.jsx";
 import Resources from "./pages/Resources/Resources.jsx";
 import Projects from "./pages/Projects/Projects";
-import Foundation from "./pages/Foundation/Foundation";
 import Contact from "./pages/Contact/Contact";
 import Wallet from "./pages/Wallet/Wallet";
 import ScrollTop from "./components/ScrollTop/ScrollTop";
@@ -32,7 +31,6 @@ function App() {
           <Route path="/resources" element={<Resources />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/privacy" element={<Privacy />} />
-          <Route path="/foundation" element={<Foundation />} />
           <Route path="/wallet" element={<Wallet />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/contribute" element={<Contribute />} />

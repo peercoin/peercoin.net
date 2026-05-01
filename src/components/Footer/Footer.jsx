@@ -190,11 +190,6 @@ function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="/foundation">
-                    {t("footerComponent.links.project.linkFoundation")}
-                  </a>
-                </li>
-                <li>
                   <Link to="/contact">
                     {t("footerComponent.links.project.linkContact")}
                   </Link>

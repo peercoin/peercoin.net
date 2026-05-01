@@ -36,7 +36,6 @@
         "github": "GitHub",
         "projects": "Projekty",
         "blog": "Blog",
-        "peercoinFoundation": "Peercoin Foundation",
         "contactUs": "Kontakt",
         "contribute": "Współtwórz"
       },
@@ -54,9 +53,6 @@
         "youtube": "YouTube",
         "bitcointalk": "Bitcointalk",
         "cmc": ""
-      },
-      "donate": {
-        "title": ""
       }
     }
   },
@@ -96,7 +92,6 @@
         "linkGithub": "GitHub",
         "linkProjects": "Projekty",
         "linkBlog": "Blog",
-        "linkFoundation": "Fundacja",
         "linkPrivacyPolicy": "Polityka Prywatności",
         "linkContact": "Kontakt"
       },
@@ -114,26 +109,11 @@
     },
     "copyright": {
       "copyright": "Copyright ©",
-      "rights": "Peercoin Foundation | All Rights Reserved"
+      "rights": "The Peercoin Developers | All Rights Reserved"
     }
   },
   "latestNewsComp": {
     "readMore": "Czytaj więcej"
-  },
-  "foundationPage": {
-    "missionStatementTitle": "Deklaracje Misji",
-    "missionStatementText1": "Fundacja Peercoin została założona z prostą misją promowania i wspierania dalszej edukacji, rozwoju i ogólnego postępu projektu Peercoin. Staramy się wzmocnić pozycję przyszłych członków zespołu Peercoin, dostarczając narzędzia niezbędne do utrwalenia długoletniej reputacji Peercoin w zakresie wprowadzania pierwszych na świecie innowacji do Blockchain.",
-    "missionStatementText2": "Sieć blockchain Peercoin i ogólnie projekt Peercoin to zdecentralizowana księga o otwartym kodzie źródłowym, bez organu zarządzającego. Fundacja Peercoin nie wnosi żadnych roszczeń do własności intelektualnej związanej z projektem Peercoin, chyba że wyraźnie określono inaczej.",
-    "technicalSupportTitle": "Społeczność",
-    "technicalSupportText": "Jeśli chciałbyś zaangażować się w Peercoin lub po prostu chciałbyś wesprzeć zespół, masz do dyspozycji kilka opcji. Jeśli chcesz zostać programistą w projekcie Peercoin lub w projektach powiązanych, takich jak PeerAssets, wyślij nam e-mail na adres Foundation@peercoin.net. Jeśli chcesz przekazać darowiznę PPC Fundacji Peercoin, aby wesprzeć rozwój projektu, po prostu wyślij darowiznę PPC na adres multisignature poniżej.",
-    "generalFundPpcAddress": "General Fund - <strong>PPC</strong> Donation Address:",
-    "generalFundBtcAddress": "General Fund - <strong>BTC</strong> Donation Address:",
-    "viewOnExplorer": "View on explorer",
-    "openCollectiveNote": "Fiat Donations - <strong>USD/EUR</strong> by Credit/Debit/Wire:",
-    "contactUsTitle": "Skontaktuj się z nami",
-    "addressCountry": "The Netherlands",
-    "reportsTitle": "",
-    "reportsSupportText": ""
   },
   "contributePage": {
     "contributeTitle": "Współtwórz ",
@@ -163,7 +143,6 @@
     "contactUsBtn": "Kontakt",
     "technicalSupportTitle": "Pomoc techniczna",
     "technicalSupportText": "Potrzebujesz pomocy z problemem technicznym? Możesz znaleźć wsparcie i inne świetne zasoby społeczności w Peercointalk.",
-    "addressCountry": "The Netherlands",
     "documentationTitle": "Dokumentacja",
     "documentationText": "Czy jesteś programistą i szukasz więcej informacji na temat Peercoin? Sprawdź naszą dokumentację.",
     "documentationBtn": "Dokumentacja",

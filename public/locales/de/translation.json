@@ -43,9 +43,6 @@
         "facebook": "Facebook",
         "reddit": "Reddit",
         "telegram": "Telegram"
-      },
-      "donate": {
-        "title": "Spenden"
       }
     }
   },
@@ -92,16 +89,8 @@
     },
     "copyright": {
       "copyright": "Copyright ©",
-      "rights": "Peercoin Foundation | Alle Rechte vorbehalten"
+      "rights": "The Peercoin Developers | Alle Rechte vorbehalten"
     }
-  },
-  "foundationPage": {
-    "missionStatementTitle": "Leitbild",
-    "missionStatementText": "Die Peercoin Foundation wurde mit dem Ziel eingerichtet, Peercoin der Öffentlichkeit zu erklären und für das Projekt zu werben. Weitere Zielsetzung ist es, den allgemeinen Forschritt des Projekts zu unterstützen, und zukünftige Mitglieder des Peercoin Teams mit den notwendigen Mitteln auszustatten, die lange Traditon Peercoins als innovatives Projekt forzusetzen. Dazu gehört auch die Förderung neuer Entwicklungen.",
-    "technicalSupportText": "Wenn Sie sich an Peercoin beteiligen möchten, oder wenn Sie einfach das Team unterstützen möchten, haben Sie dazu eine Reihe verschiedener Möglichkeiten. Wenn Sie Interesse haben, als Entwickler für Peercoin oder für ein verwandtes Projekt wie PeerAssets zu arbeiten, schicken Sie uns eine eMail an foundation@peercoin.net. Wenn Sie PPC für die Peercoin Foundation spenden möchten, um die Fortentwicklung des Projekts zu unterstützen, senden sie Ihre PPC einfach an die Multisignature Adresse unten.",
-    "contactUsTitle": "Kontakt",
-    "addressCountry": "The Netherlands",
-    "reportsTitle": "Finanzreports"
   },
   "contributePage": {
     "contributeTitle": "Mitwirken ",
@@ -122,13 +111,12 @@
   },
   "contactPage": {
     "contactTitle": "Kontakt",
-    "contactDescription": "Bei allgemeinen Anfragen, wenden Sie sich an die Peercoin Foundation - wir antworten Ihnen gerne!",
+    "contactDescription": "Bei allgemeinen Anfragen, wenden Sie sich an die Peercoin Developers - wir antworten Ihnen gerne!",
     "contactUsTitle": "Kontakt",
     "contactUsText": "Für technischen Support oder Hilfe bei Problemen mit Wallets, Mining, oder allgemeinen Fragen, besuchen Sie bitte Peercointalk oder einen der anderen Treffpunkte der Community. Für andere Anfragen, folgend Sie diesem Link:",
     "contactUsBtn": "Kontakt",
     "technicalSupportTitle": "Technischer Support",
     "technicalSupportText": "Benötigen Sie Hilfe für ein technisches Problem? Hilfestellung und noch vieles mehr finden Sie auf Peercointalk.",
-    "addressCountry": "The Netherlands",
     "documentationTitle": "Documentation",
     "documentationBtn": "Dokumentation",
     "faqTitle": "Häufige Fragen",
@@ -192,7 +180,7 @@
     "universityLink3": "Peercoin & Proof-of-Stake Konsensus",
     "universityBtn": "Peercoin Grundlagen",
     "exchangesTitle": "Börsen",
-    "exchangesText": "DISCLAIMER: Die Liste dient lediglich Ihrer Information. Die hier aufgelisteten Dienste wurden von der Peercoin Foundation weder überprüft noch werden sie gut geheißen. Nutzen Sie andere Plattformen und Dienste nach eigenem Ermessen.",
+    "exchangesText": "DISCLAIMER: Die Liste dient lediglich Ihrer Information. Die hier aufgelisteten Dienste wurden von den Peercoin Developers weder überprüft noch werden sie gut geheißen. Nutzen Sie andere Plattformen und Dienste nach eigenem Ermessen.",
     "exchangesType1": "Börse",
     "exchangesType2": "Service",
     "exchangesType3": "Informationen zum Markt",
