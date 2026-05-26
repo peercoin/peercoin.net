@@ -37,7 +37,8 @@
         "projects": "프로젝트",
         "blog": "블로그",
         "contactUs": "문의하기",
-        "contribute": "기여"
+        "contribute": "기여",
+        "peercoinFoundation": "피어코인 재단"
       },
       "wallet": {
         "title": "지갑"
@@ -93,7 +94,8 @@
         "linkProjects": "프로젝트",
         "linkBlog": "블로그",
         "linkPrivacyPolicy": "개인정보 정책",
-        "linkContact": "문의하기"
+        "linkContact": "문의하기",
+        "linkFoundation": "재단"
       },
       "community": {
         "title": "커뮤니티",
@@ -402,5 +404,8 @@
     "buttonDownload": "",
     "hint": "",
     "notFound": ""
+  },
+  "foundationPage": {
+    "missionStatementTitle": "과업 설명"
   }
 }

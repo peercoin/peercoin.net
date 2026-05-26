@@ -111,7 +111,7 @@
   },
   "contactPage": {
     "contactTitle": "Kontakt",
-    "contactDescription": "Bei allgemeinen Anfragen, wenden Sie sich an die Peercoin Developers - wir antworten Ihnen gerne!",
+    "contactDescription": "Bei allgemeinen Anfragen, wenden Sie sich an die Peercoin Foundation - wir antworten Ihnen gerne!",
     "contactUsTitle": "Kontakt",
     "contactUsText": "Für technischen Support oder Hilfe bei Problemen mit Wallets, Mining, oder allgemeinen Fragen, besuchen Sie bitte Peercointalk oder einen der anderen Treffpunkte der Community. Für andere Anfragen, folgend Sie diesem Link:",
     "contactUsBtn": "Kontakt",
@@ -299,5 +299,8 @@
   "notFoundPage": {
     "title": "404 - Angeforderte URL nicht gefunden",
     "description": "Klicken Sie <a href=\"https://www.peercoin.net/\" style=\"color: white;\">hier</a>, um zur Startseite zurückzukehren."
+  },
+  "foundationPage": {
+    "missionStatementTitle": "Leitbild"
   }
 }

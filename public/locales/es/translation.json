@@ -37,7 +37,8 @@
         "projects": "Proyectos",
         "blog": "Blog",
         "contactUs": "Contáctenos",
-        "contribute": "Contribuir"
+        "contribute": "Contribuir",
+        "peercoinFoundation": "Fundación Peercoin"
       },
       "wallet": {
         "title": "Últimas noticias"
@@ -92,7 +93,8 @@
         "linkProjects": "Proyectos",
         "linkBlog": "Blog",
         "linkPrivacyPolicy": "Política de privacidad",
-        "linkContact": "Contact"
+        "linkContact": "Contact",
+        "linkFoundation": "Fundación"
       },
       "community": {
         "title": "Comunidad",
@@ -346,5 +348,8 @@
   "notFoundPage": {
     "title": "404 - Página no encontrada",
     "description": "Haga clic <a href=\"https://www.peercoin.net/\" style=\"color: white;\">aqui</a> para volver a la página principal."
+  },
+  "foundationPage": {
+    "missionStatementTitle": "Estado de la misión"
   }
 }
