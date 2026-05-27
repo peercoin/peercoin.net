@@ -37,7 +37,8 @@
         "projects": "Proiecte",
         "blog": "Blog",
         "contactUs": "Contactați-ne",
-        "contribute": "Contribuiți"
+        "contribute": "Contribuiți",
+        "peercoinFoundation": "Foundația Peercoin"
       },
       "wallet": {
         "title": "Portmoneu"
@@ -92,7 +93,8 @@
         "linkProjects": "Proiecte",
         "linkBlog": "Blog",
         "linkPrivacyPolicy": "Politica de Confidențialitate",
-        "linkContact": "Contact"
+        "linkContact": "Contact",
+        "linkFoundation": "Fundația"
       },
       "community": {
         "title": "Comunitate",
@@ -377,5 +379,10 @@
   "notFoundPage": {
     "title": "404 - Adresa URL solicitată nu a fost găsită",
     "description": "Apasă <a href=\"https://www.peercoin.net/\" style=\"color: white;\">aici</a> pentru a accesa pagina principală."
+  },
+  "foundationPage": {
+    "missionStatementTitle": "Declarație a misiunii",
+    "missionStatementText1": "Fundația Peercoin a fost înființată cu simpla misiune de a promova și susține educația continuă, dezvoltarea și progresul general al proiectului Peercoin. Încercăm să împuternicim viitorii membri ai echipei Peercoin, oferind instrumentele necesare pentru a perpetua reputația de lungă durată a Peercoin de a aduce inovații de primă generație în Blockchain.",
+    "missionStatementText2": "Rețeaua blockchain Peercoin și proiectul Peercoin în general sunt un registru descentralizat open-source, fără un organism de conducere. Fundația Peercoin nu face nicio revendicare asupra proprietății intelectuale legate de proiectul Peercoin, cu excepția cazului în care se prevede în mod explicit asta."
   }
 }

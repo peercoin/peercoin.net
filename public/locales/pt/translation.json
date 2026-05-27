@@ -37,7 +37,8 @@
         "projects": "Projetos",
         "blog": "Blogue",
         "contactUs": "Contacte-nos",
-        "contribute": "Contribuir"
+        "contribute": "Contribuir",
+        "peercoinFoundation": "Fundação Peercoin"
       },
       "wallet": {
         "title": "Carteira"
@@ -93,7 +94,8 @@
         "linkProjects": "Projects",
         "linkBlog": "Blog",
         "linkPrivacyPolicy": "Política de Privacidade",
-        "linkContact": "Contact"
+        "linkContact": "Contact",
+        "linkFoundation": "Foundation"
       },
       "community": {
         "title": "Comunidade",
@@ -402,5 +404,8 @@
     "buttonDownload": "",
     "hint": "",
     "notFound": ""
+  },
+  "foundationPage": {
+    "missionStatementTitle": "Definição da Missão"
   }
 }

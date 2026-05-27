@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import renderHTML from "react-render-html";
 import "./Contact.scss";
 import Menu from "../../components/Menu/Menu";
+import Address from "../../components/Address/Address";
 import Footer from "../../components/Footer/Footer";
 import Loader from "../../components/Loader/Loader";
 
@@ -28,7 +29,7 @@ function Contact() {
               </h2>
               <p>{t("contactPage.contactUsText")}</p>
               <a
-                href="mailto:willy@app.peercoin.net"
+                href="mailto:foundation@peercoin.net"
                 className="btn btn--green"
               >
                 {t("contactPage.contactUsBtn")}
@@ -43,6 +44,7 @@ function Contact() {
               </a>
             </div>
             <div className="col col--small">
+              <Address />
               <h2 className="title title--green title--left">
                 {t("contactPage.documentationTitle")}
               </h2>

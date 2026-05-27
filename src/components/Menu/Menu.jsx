@@ -179,6 +179,12 @@ function Menu() {
                   </a>
                 </li>
                 <li>
+                  <Link to="/foundation" className="submenu">
+                    <img src="/img/icons/foundation_green.png" alt="" />
+                    {t("menuComponent.links.project.peercoinFoundation")}
+                  </Link>
+                </li>
+                <li>
                   <Link to="/contribute" className="submenu">
                     <img src="/img/icons/pickaxe_green.png" alt="" />
                     {t("menuComponent.links.project.contribute")}

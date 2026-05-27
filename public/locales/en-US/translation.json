@@ -37,7 +37,8 @@
         "projects": "Projects",
         "blog": "Blog",
         "contactUs": "Contact Us",
-        "contribute": "Contribute"
+        "contribute": "Contribute",
+        "peercoinFoundation": "Peercoin Foundation"
       },
       "wallet": {
         "title": "Wallet"
@@ -93,7 +94,8 @@
         "linkProjects": "Projects",
         "linkBlog": "Blog",
         "linkPrivacyPolicy": "Privacy Policy",
-        "linkContact": "Contact"
+        "linkContact": "Contact",
+        "linkFoundation": "Foundation"
       },
       "community": {
         "title": "Community",
@@ -138,7 +140,7 @@
   },
   "contactPage": {
     "contactTitle": "Contact Us",
-    "contactDescription": "For general inquiries, the Peercoin Developers are here to answer!",
+    "contactDescription": "For general inquiries, the Peercoin Foundation is here to answer!",
     "contactUsTitle": "Contact Us",
     "contactUsText": "For technical support or troubleshooting with wallets, mining, or other general questions, please visit Peercointalk or one of the many other community resources. For other inquiries, use this link:",
     "contactUsBtn": "Contact Us",
@@ -394,5 +396,10 @@
     "buttonDownload": "Download Whitepaper",
     "hint": "If you're not seing a document, your browser does not support this operation. Please download the whitepaper instead.",
     "notFound": "The requested resource can not be displayed."
+  },
+  "foundationPage": {
+    "missionStatementTitle": "Mission Statement",
+    "missionStatementText1": "The Peercoin Foundation is a non-profit organization established in 2025 with a simple mission of promoting and supporting the continued education, development, and overall progression of the Peercoin project. The Foundation seeks to empower Peercoin community by providing the tools necessary to perpetuate Peercoin's long-standing reputation.",
+    "missionStatementText2": "The Peercoin blockchain network and the Peercoin project in general is an open-source decentralized ledger, with no governing body. The Peercoin Foundation makes no claims over intellectual property related to the Peercoin project, unless explicitly stated otherwise."
   }
 }
