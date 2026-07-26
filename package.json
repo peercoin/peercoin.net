@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@fontsource/roboto": "^5.0.14",
-    "@vitejs/plugin-react-swc": "^3.8.0",
+    "@vitejs/plugin-react-swc": "^4.3.2",
     "classnames": "^2.2.6",
     "i18next": "^19.0.0",
     "i18next-browser-languagedetector": "^3.0.3",
@@ -22,7 +22,7 @@
     "smoothscroll-polyfill": "^0.4.4",
     "stream": "^0.0.2",
     "util": "^0.12.4",
-    "vite": "^6.4.2",
+    "vite": "^8.1.5",
     "vite-plugin-svgr": "^4.3.0",
     "vite-tsconfig-paths": "^5.0.1"
   },
