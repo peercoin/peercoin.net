@@ -1,6 +1,6 @@
 import React, { Suspense, useState } from "react";
 import { useTranslation } from "react-i18next";
-import Collapsible from "react-collapsible";
+import CollapsibleModule from "react-collapsible";
 import renderHTML from "react-render-html";
 import YouTube from "react-youtube";
 import "./Index.scss";
@@ -8,6 +8,9 @@ import Menu from "../../components/Menu/Menu";
 import LatestNews from "../../components/LatestNews/LatestNews";
 import Footer from "../../components/Footer/Footer";
 import Loader from "../../components/Loader/Loader";
+
+// react-collapsible is CJS; Vite 8's interop hands back { default: Component }
+const Collapsible = CollapsibleModule.default ?? CollapsibleModule;
 
 function Index() {
   const youtubeVideos = [

@@ -1,11 +1,14 @@
 import React, { Suspense, useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import Collapsible from "react-collapsible";
+import CollapsibleModule from "react-collapsible";
 import renderHTML from "react-render-html";
 import "./Wallet.scss";
 import Menu from "../../components/Menu/Menu";
 import Footer from "../../components/Footer/Footer";
 import Loader from "../../components/Loader/Loader";
+
+// react-collapsible is CJS; Vite 8's interop hands back { default: Component }
+const Collapsible = CollapsibleModule.default ?? CollapsibleModule;
 
 function Wallet() {
   const { t } = useTranslation();
