@@ -15,6 +15,12 @@
       "type": "resourcesPage.exchangesType3"
     },
     {
+      "title": "Deccord Exchange",
+      "url": "https://deccord.io/trade/PPCUSDT",
+      "image": "/img/exchanges/deccord_green.png",
+      "type": "resourcesPage.exchangesType1"
+    },    
+    {
       "title": "FreiExchange",
       "url": "https://freiexchange.com/",
       "image": "/img/exchanges/freiexchange_green.png",
