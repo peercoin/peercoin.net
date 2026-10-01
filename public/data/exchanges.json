@@ -33,6 +33,12 @@
       "type": "resourcesPage.exchangesType1"
     },
     {
+      "title": "SpotEx",
+      "url": "https://spotex.trade",
+      "image": "/img/exchanges/spotex_green.png",
+      "type": "resourcesPage.exchangesType1"
+    },
+    {
       "title": "StakeCube",
       "url": "https://stakecube.net/app/exchange/ppc_btc",
       "image": "/img/exchanges/stakecube_green.png",
